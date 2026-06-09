@@ -87,8 +87,14 @@
 
     // ---- lexicon popup ----
     const popup = document.getElementById("lex-popup");
+    let activeMarkEl = null;
 
     function showPopup(lexSpan) {
+        if (!popup.hidden && activeMarkEl === lexSpan) {
+            dismissPopup();
+            return;
+        }
+        activeMarkEl = lexSpan;
         const key = lexSpan.dataset.lex;
         const entry = LEX.entries[key];
         if (!entry) return;
@@ -125,6 +131,7 @@
 
     function dismissPopup() {
         popup.hidden = true;
+        activeMarkEl = null;
     }
 
     document.addEventListener("click", function (e) {
