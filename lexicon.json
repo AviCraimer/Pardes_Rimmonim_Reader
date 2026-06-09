@@ -602,7 +602,7 @@
       "headword": "קְלִפָּה",
       "transliteration": "kelipah (pl. kelipot)",
       "partOfSpeech": "noun",
-      "notes": "The 'shell/husk' — forces of impurity. Here: tohu, bohu, choshekh as the shells around Malkhut. RENDERING IS AN rendered \"husk\" (user choice); translit [kelipah] on first use.",
+      "notes": "The 'shell/husk' — forces of impurity. Here: tohu, bohu, choshekh as the shells around Malkhut. Rendered \"husk\" (user choice, FINAL); translit [kelipah] on first use.",
       "candidates": [
         {
           "target": "shell",
@@ -861,7 +861,7 @@
       "headword": "אריך אנפין / זעיר אנפין / נוקבא / עתיקא קדישא",
       "transliteration": "Arikh Anpin / Zeir Anpin / Nukva / Atika Kadisha",
       "partOfSpeech": "noun (partzufim)",
-      "notes": "Idra partzuf-names, central in Gate 3 ch.6-8. TRANSLITERATE with gloss on first use (Matt/Tishby standard). Cordovero's mapping here: Arikh Anpin = Keter; Zeir Anpin = the 8 from Chokhmah to Yesod; Nukva de-Zeir Anpin = Malkhut. Atika Kadisha (=Keter/Arikh Anpin, NOT Ein Sof — the whole ch.6 polemic). NB gloss STYLE is an OPEN QUESTION (see below).",
+      "notes": "Idra partzuf-names, central in Gate 3 ch.6-8. TRANSLITERATE with gloss on first use (Matt/Tishby standard). Cordovero's mapping here: Arikh Anpin = Keter; Zeir Anpin = the 8 from Chokhmah to Yesod; Nukva de-Zeir Anpin = Malkhut. Atika Kadisha (=Keter/Arikh Anpin, NOT Ein Sof — the whole ch.6 polemic). Gloss style FINALIZED (see candidate).",
       "candidates": [
         {
           "target": "Arikh Anpin / Zeir Anpin / Nukva de-Zeir Anpin / Atika Kadisha",
@@ -1097,6 +1097,774 @@
               "timestamp": "2026-06-09"
             }
           ]
+        }
+      ]
+    },
+    "עצם-מקרה": {
+      "headword": "עֶצֶם / מִקְרֶה",
+      "transliteration": "etzem / mikreh",
+      "partOfSpeech": "noun (scholastic pair)",
+      "notes": "THE conceptual hinge of Gate 4 ch.4: change and action belong to the Sefirot 'by accident, not by essence' (במקרה לא בעצם) — Aristotelian substance/accident. עצם='essence' (adj. עצמי='essential'; בעצם='by essence/essentially'); מקרה='accident' (במקרה='by accident/accidentally'; adj. 'accidental'). NB shares a root with עצמות (atzmut='essence', the Gate-4 theme): render both 'essence' but watch which is meant — עצמות = the divine essence/substance; עצם/בעצם here = the scholastic 'essentially'. The water/lantern parables turn on this: colorless light takes color 'accidentally' (in the beholder's view), never 'essentially', so no essential change touches the Emanator.",
+      "candidates": [
+        {
+          "target": "by essence / by accident",
+          "register": "scholarly",
+          "status": "preferred",
+          "contextNotes": "במקרה לא בעצם='by accident, not by essence'; שנוי בעצם='a change in essence'; במקרה לעין רואים='accidentally, in the eyes of beholders'.",
+          "decisions": [
+            {
+              "section": "4/ch4",
+              "surfaceForm": "בעצם / במקרה",
+              "rationale": "Standard scholastic 'essence/accident'; preserves the anti-corporealist point (no essential change in the Emanator).",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "לבש-לבוש": {
+      "headword": "לְבוּשׁ / הִתְלַבֵּשׁ",
+      "transliteration": "levush / hitlabbesh",
+      "partOfSpeech": "noun/verb",
+      "notes": "Load-bearing throughout Gate 4: the essence (=soul) is 'clothed' in the vessels (=body), and the four worlds nest as garment-within-garment. לבוש (pl. לבושין/לבושים)='garment'; verb מתלבש/התלבש='is clothed in / clothes (invests) itself in'. Pairs with the body/soul figure (גוף/נשמה) and the ABY\"A nesting (each lower world a garment to the one above it).",
+      "candidates": [
+        {
+          "target": "garment / clothe (invest)",
+          "status": "preferred",
+          "contextNotes": "לבוש='garment'; 'the Emanation is clothed in Creation', etc.; verb 'clothe / be clothed / invest'.",
+          "decisions": [
+            {
+              "section": "4/ch4-6",
+              "surfaceForm": "לבוש / מתלבש",
+              "rationale": "'garment'/'clothe' over 'vestment/robe/enclothe'; 'invest(ed)' acceptable where 'clothed' would repeat.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "פגם": {
+      "headword": "פְּגָם",
+      "transliteration": "pegam",
+      "partOfSpeech": "noun/verb",
+      "notes": "The 'blemish/defect' that human sin occasions above. Doctrine in ch.4: sin does not change the Emanator but, by ill-preparing the vessel, occasions a withdrawal of light = a blemish in the Sefirah (which 'turns its face away in shame'). נפגם/נפגמת='is blemished'; פגם (n.)='blemish/defect'; verb לפגום='to blemish'.",
+      "candidates": [
+        {
+          "target": "blemish",
+          "status": "preferred",
+          "contextNotes": "'blemish' (n. and v.); 'the blemish above, through human deeds'.",
+          "decisions": [
+            {
+              "section": "4/ch4",
+              "surfaceForm": "פגם / נפגמת",
+              "rationale": "'blemish' over 'flaw/defect/damage' for the standard Kabbalistic sin-above sense.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "גוון": {
+      "headword": "גָּוֶון",
+      "transliteration": "gavan (pl. gevanim) / Aram. gavna",
+      "partOfSpeech": "noun",
+      "notes": "'Color/hue' — the water-in-vessels and sun-through-lanterns parables: colorless light takes the vessel's color accidentally. Sefirah color-map (Botzina passage, flat 260): חוור=white (Chesed; Netzach a lesser white), סומק=red (Gevurah & Hod, the 'red' of Din), ירוק=green (Tiferet & Yesod, between white and red), אוכם/אוכמא=black (Malkhut, = the 'darkness' of privation).",
+      "candidates": [
+        {
+          "target": "color",
+          "status": "preferred",
+          "contextNotes": "גוון='color'; on the Botzina passage gloss the four-color Sefirah map (white/red/green/black = Chesed/Gevurah/Tiferet/Malkhut sides).",
+          "decisions": [
+            {
+              "section": "4/ch4,7",
+              "surfaceForm": "גוון / חוור סומק ירוק אוכם",
+              "rationale": "'color' (not 'hue/tint'); fixed white/red/green/black for the four.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "דין-משפט-צדק": {
+      "headword": "דִּין / מִשְׁפָּט / צֶדֶק / רַחֲמִים",
+      "transliteration": "din / mishpat / tzedek / rachamim",
+      "partOfSpeech": "noun (justice-cluster)",
+      "notes": "Four near-synonyms that MUST stay distinct in English. Patach Eliyahu mapping (flat 242): דין=Gevurah, משפט=the central pillar (Tiferet), צדק=the holy Malkhut; מאזני צדק='scales of righteousness'=the two סמכי קשוט; הין צדק='a just hin'=the sign of the covenant (Yesod). Render דין='judgment' (but 'Din' when naming the Sefirotic side opposite Chesed), משפט='justice', צדק='righteousness', רחמים='mercy' (but 'Rachamim' when naming the middle line/pillar). קשוט='truth'; סמכי קשוט='supports of truth' (Netzach & Hod).",
+      "candidates": [
+        {
+          "target": "judgment / justice / righteousness / mercy",
+          "status": "preferred",
+          "contextNotes": "Keep all four lexically distinct; 'Din'/'Rachamim' capitalized when naming the Sefirotic side/line.",
+          "decisions": [
+            {
+              "section": "4/ch5",
+              "surfaceForm": "דין / משפט / צדק / רחמים",
+              "rationale": "Fixed mapping so the Patach-Eliyahu identifications (Din=Gevurah, Mishpat=Tiferet, Tzedek=Malkhut) stay legible; avoids collapsing into one English word.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "שלל-חיוב": {
+      "headword": "שְׁלִילָה / חִיּוּב",
+      "transliteration": "shelilah / chiyuv",
+      "partOfSpeech": "noun (logic / negative theology)",
+      "notes": "The via-negativa pair pervasive in ch.5: 'one' is predicated of God only by way of negation (ע\"צ השלילה), not affirmation (ע\"צ החיוב). חד ולא בחושבן='One, and not in number'; אחד ולא כאחד המנוי='one, but not like the enumerated one'. שלילה='negation' (also 'privation'); חיוב='affirmation' (affirmative predication). חושבן='number/reckoning'; אחד המנוי='the enumerated/counted one'; גדר='definition' (a logical definition 'one' that does not properly apply to God).",
+      "candidates": [
+        {
+          "target": "negation / affirmation",
+          "status": "preferred",
+          "contextNotes": "'by way of negation'=ע\"צ השלילה; 'by way of affirmation'=ע\"צ החיוב.",
+          "decisions": [
+            {
+              "section": "4/ch5",
+              "surfaceForm": "שלילה / חיוב",
+              "rationale": "Standard negative-theology terms; 'negation/affirmation' over 'denial/predication'.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "תיקון": {
+      "headword": "תִּקּוּן (pl. תִּקּוּנִין)",
+      "transliteration": "tikkun (pl. tikkunin)",
+      "partOfSpeech": "noun",
+      "notes": "Patach Eliyahu: 'You produced עשר תיקונין and we call them ten Sefirot'. Cordovero glosses two senses — בהם תיקון המאציל (the Emanator's self-rectification/manifestation) and בהם תיקון העולם (the world's rectification). USER-CONFIRMED: render 'rectification(s)', gloss '(tikkunin)' parenthetically on FIRST use only, then 'rectification(s)' thereafter. FINAL. Distinct from the Idra תיקונים (conformations of the beard).",
+      "candidates": [
+        {
+          "target": "rectification",
+          "status": "preferred",
+          "contextNotes": "User-confirmed. 'rectification(s)'; gloss '(tikkunin)' on first use, plain thereafter.",
+          "decisions": [
+            {
+              "section": "4/ch5",
+              "surfaceForm": "תיקונין",
+              "rationale": "Provisional 'rectifications [tikkunin]'; awaiting user on translate-vs-transliterate.",
+              "timestamp": "2026-06-09"
+            },
+            {
+              "section": "4/ch5",
+              "surfaceForm": "עשר תיקונין",
+              "rationale": "User confirmed: translate 'rectifications', gloss '(tikkunin)' on first use.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "tikkunin (transliterated)",
+          "status": "acceptable",
+          "contextNotes": "keeps the loaded term; common in Patach-Eliyahu translations."
+        }
+      ]
+    },
+    "שלשל-השתלשלות": {
+      "headword": "הִשְׁתַּלְשְׁלוּת / שַׁלְשֶׁלֶת",
+      "transliteration": "hishtalshelut / shalshelet",
+      "partOfSpeech": "noun/verb",
+      "notes": "The emanative cascade: the worlds 'chain down' from cause to effect (מעלה לעלול), bound 'like a strong and mighty chain' (כשלשלת חזק ואמיץ) and 'a jointed lampstand' (מנורה של פרקים). Bound 'in a chain of will and love, not by compulsion' (בשלשלת הרצון והאהבה ולא בהכרח; הכרח='compulsion/necessity'). השתלשלות='chaining-down' (the descent); verb השתלשל='chain down'; שלשלת='chain'.",
+      "candidates": [
+        {
+          "target": "chaining-down / chain",
+          "status": "preferred",
+          "contextNotes": "השתלשלות='chaining-down'; שלשלת='chain'; 'the chaining-down of the worlds'.",
+          "decisions": [
+            {
+              "section": "4/ch6",
+              "surfaceForm": "השתלשלות / שלשלת",
+              "rationale": "'chaining-down' (histalshelut, standard Kabbalah-scholarship) over 'emanation/devolution'; keeps it distinct from אצילות='Emanation'.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "נצץ-ניצוץ": {
+      "headword": "נִיצוֹץ / נְצִיצוּ",
+      "transliteration": "nitzotz / Aram. netzitzu",
+      "partOfSpeech": "noun",
+      "notes": "'Spark.' In the Kav ha-Middah passage נציצו דכל נצוצין='the spark of all sparks' = the Ein Sof's self-extension / the essence-light spreading within the Sefirot (it is 'soul' to the Sefirot). In the parables ניצוץ השמש='the ray of the sun' (the sunbeam through the lanterns). Render ניצוץ/נציצו='spark' for the divine spark, but 'the ray of the sun' for ניצוץ השמש (a sunbeam, not a 'spark').",
+      "candidates": [
+        {
+          "target": "spark",
+          "status": "preferred",
+          "contextNotes": "'the spark of all sparks'; 'ray of the sun' for ניצוץ השמש.",
+          "decisions": [
+            {
+              "section": "4/ch4,7",
+              "surfaceForm": "נציצו / ניצוץ השמש",
+              "rationale": "'spark' for the divine נציצו; 'ray of the sun' for the parable's sunbeam.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "פשט-התפשטות": {
+      "headword": "הִתְפַּשְּׁטוּת / אִתְפַּשְּׁטוּתָא",
+      "transliteration": "hitpashtut / Aram. itpashtuta",
+      "partOfSpeech": "noun/verb",
+      "notes": "'Expansion / spreading-forth.' The essence 'spreads forth' (מתפשט) into the vessels; the Will 'expands' to emanate. In Kav ha-Middah אתפשטותא is a code-name for CHOKHMAH (Cordovero: 'גו רעותא is Keter, ואתפשטותא is Chokhmah') — the first expansion out of רעותא (=Keter). Render התפשטות='expansion'/'spreading-forth'; verb='spread forth / expand / extend'; gloss אתפשטותא=Chokhmah where it functions as a name.",
+      "candidates": [
+        {
+          "target": "expansion / spread forth",
+          "status": "preferred",
+          "contextNotes": "'spreading-forth' of the essence into the vessels; the Zohar's אתפשטותא = Chokhmah here.",
+          "decisions": [
+            {
+              "section": "4/ch4,7",
+              "surfaceForm": "התפשטות / אתפשטותא",
+              "rationale": "'expansion/spreading-forth'; flag אתפשטותא=Chokhmah per Cordovero's gloss.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "בוצינא-קרדוניתא": {
+      "headword": "בּוֹצִינָא דְּקַרְדּוּנִיתָא",
+      "transliteration": "botzina de-kardinuta",
+      "partOfSpeech": "noun-phrase (Zoharic)",
+      "notes": "The cosmogonic 'lamp' of the Kav ha-Middah passage (Zohar Chadash, Va'etchanan) = Keter (where the Ein Sof's light is gripped). Cordovero's own glosses: reads קרדוניתא as גפרית 'brimstone/sulfur' (a sulfur-lamp that grips the flame hardest), and notes a variant קדרינותא='blackness'. The same light, in its measuring-aspect, is קו המדה (see קו-מדה). USER-CONFIRMED gloss: '(the Hardened Light)' on FIRST use only; transliterate 'Botzina de-Kardinuta' thereafter. FINAL.",
+      "candidates": [
+        {
+          "target": "Botzina de-Kardinuta",
+          "status": "preferred",
+          "contextNotes": "User-confirmed: gloss '(the Hardened Light)' on first use; transliterate thereafter.",
+          "decisions": [
+            {
+              "section": "4/ch7",
+              "surfaceForm": "בוצינא דקרדוניתא",
+              "rationale": "Transliterate the proper Zoharic term; gloss flagged to user (brimstone vs darkness).",
+              "timestamp": "2026-06-09"
+            },
+            {
+              "section": "4/ch7",
+              "surfaceForm": "בוצינא דקרדוניתא",
+              "rationale": "User chose 'Hardened Light' (over 'Adamantine Darkness' / 'brimstone-lamp' / 'Hardened Spark').",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "קו-מדה": {
+      "headword": "קַו הַמִּדָּה",
+      "transliteration": "kav ha-middah",
+      "partOfSpeech": "noun-phrase",
+      "notes": "'The Measuring Line' — title of the Kav ha-Middah passage. Same light as Botzina de-Kardinuta: in its essence-aspect (prior to spreading) it is Botzina; in its aspect of giving measure to all the Sefirot it is קו המדה. NB מדה HERE = 'measure' (the act/standard of metering), NOT 'attribute' (middah, the seven lower Sefirot) — keep the two senses apart. משחתא (Aram.)='measure/measuring'; נותן מדה='gives / metes out measure'.",
+      "candidates": [
+        {
+          "target": "the Measuring Line",
+          "status": "preferred",
+          "contextNotes": "'the Measuring Line' (or 'Line of Measure'); 'gives measure to all the Emanation'. middah here='measure', not 'attribute'.",
+          "decisions": [
+            {
+              "section": "4/ch7",
+              "surfaceForm": "קו המדה",
+              "rationale": "'Measuring Line'; explicitly distinguish מדה='measure' here from מדה='attribute' elsewhere.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "אברי-קומה": {
+      "headword": "Shi'ur-Komah body array (Patach Eliyahu)",
+      "transliteration": "—",
+      "partOfSpeech": "noun (technical set)",
+      "notes": "Sefirah-to-limb mapping from Patach Eliyahu (flat 242), re-explained in ch.6: חסד דרועא ימינא='Chesed, the right arm'; גבורה דרועא שמאלא='Gevurah, the left arm'; ת\"ת גופא='Tiferet, the body (torso)'; נצח והוד תרין שוקין='Netzach and Hod, the two thighs'; יסוד סיומא דגופא אות ברית קדש='Yesod, the conclusion of the body, the sign of the holy covenant'; מלכות פה='Malkhut, the mouth' (=the Oral Torah); חכמה מוחא='Chokhmah, the brain' (=thought); בינה לבא='Binah, the heart' ('the heart understands'). קרקפתא='the skull/pate' (Keter); קרקפתא דלא מנח תפילין='the pate that lays no tefillin' (Arikh Anpin — no emanation above its emanation). The four tefillin passages map to four lights: Kadesh=Chokhmah, Ve-haya ki yevi'akha=Binah, Shema=Chesed, Ve-haya im shamoa=Gevurah.",
+      "candidates": [
+        {
+          "target": "arm / body / thighs / mouth / brain / heart / skull",
+          "status": "preferred",
+          "contextNotes": "דרועא=arm, גופא=body(torso), שוקין=thighs, פה=mouth, מוחא=brain, לבא=heart, קרקפתא=skull/pate, סיומא דגופא=conclusion of the body.",
+          "decisions": [
+            {
+              "section": "4/ch5-6",
+              "surfaceForm": "דרועא/גופא/שוקין/פה/מוחא/לבא/קרקפתא",
+              "rationale": "Standard shi'ur-komah English; 'thighs' for שוקין (Netzach/Hod), 'pate/skull' for קרקפתא, tied to gulgalta.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "ידע-בחירה": {
+      "headword": "יְדִיעָה / בְּחִירָה",
+      "transliteration": "yedi'ah / bechirah",
+      "partOfSpeech": "noun (the Gate-4 ch.9 theme)",
+      "notes": "The foreknowledge/free-will antinomy of ch.9 (Cordovero answering Rambam, Hilkhot Teshuvah 5 / Sefer ha-Madda). His solution: the two belong to DIFFERENT Sefirot, so there is no contradiction. ידיעה='[fore]knowledge' = Da'at = the concealed Tiferet ('He knows through Da'at'; 'by His knowledge the depths were split', Prov 3:20); בחירה='free will / free choice' = Malkhut ('from it downward, the two ways'; 'sin crouches at the door', Gen 4:7; also בית הבחירה). Before the deed, the knowledge of it 'in Da'at' makes no blemish (פגם), for 'God judges only [a man] as he is there' (Gen 21:17). 'Now I know' (Gen 22:12) puns ידע = know + union (Tiferet-Malkhut). Tiferet=mercy, Malkhut=judgment.",
+      "candidates": [
+        {
+          "target": "foreknowledge / free will",
+          "status": "preferred",
+          "contextNotes": "ידיעה='[fore]knowledge' (Da'at/Tiferet); בחירה='free will' (Malkhut); 'free choice' acceptable.",
+          "decisions": [
+            {
+              "section": "4/ch9",
+              "surfaceForm": "ידיעה / בחירה",
+              "rationale": "Standard 'foreknowledge/free will'; pinned to Da'at(Tiferet) vs Malkhut so the antinomy's resolution stays legible.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "חיוב-מציאות": {
+      "headword": "מְחוּיַּב הַמְּצִיאוּת / אֶפְשָׁרִי הַמְּצִיאוּת",
+      "transliteration": "mechuyav ha-metzi'ut / efshari ha-metzi'ut",
+      "partOfSpeech": "noun-phrase (modal / composition cluster)",
+      "notes": "Ch.9's philosophical apparatus (the contingency worry about the Sefirot). מחוייב המציאות='necessary of existence' / 'the Necessarily Existent' — ESTABLISHED, FINAL (flats 245/257/274; do NOT change to 'necessary being'). USER-CONFIRMED: אפשרי המציאות='contingent being' (the separate intelligences/angels, created on day 2 per Pirkei de-R. Eliezer; 'composed of privation and existence'); חדוש='coming-to-be' (the emanation's coming-to-be relative to creatures, not to the Emanator). FINAL. מורכב='composite'; הרכבה='composition'; העדר='privation'.",
+      "candidates": [
+        {
+          "target": "necessary of existence / contingent being",
+          "status": "preferred",
+          "contextNotes": "מחוייב המציאות='necessary of existence'; אפשרי המציאות='contingent being'; חדוש='coming-to-be'; מורכב='composite'; הרכבה='composition'; העדר='privation'. FINAL.",
+          "decisions": [
+            {
+              "section": "4/ch9",
+              "surfaceForm": "מחוייב/אפשרי המציאות / חדוש",
+              "rationale": "Keep 'necessary of existence' (already in translated text); flag אפשרי-המציאות (possible/contingent) and חדוש (innovation/origination) to the user.",
+              "timestamp": "2026-06-09"
+            },
+            {
+              "section": "4/ch9",
+              "surfaceForm": "אפשרי המציאות / חדוש",
+              "rationale": "User confirmed: 'contingent being' (counterpart to 'necessary of existence') and 'coming-to-be' for חדוש.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "דיוקנא-צורה": {
+      "headword": "דְּיוֹקְנָא / צוּרָה / צִיּוּר / תְּמוּנָה",
+      "transliteration": "diyukna / tzurah / tziyur / temunah",
+      "partOfSpeech": "noun (anti-anthropomorphism cluster)",
+      "notes": "The image/form vocabulary, dense in the Ra'aya Mehemna passages (flats 267, 280): before creation God has no image; the Names/letters are forms emanated only with the Emanation. דיוקנא='image' (the anthropomorphic configuration; 'a configuration' where it = a partzuf-form); צורה='form'; ציור='figure / depiction' (ciur); תמונה='likeness' ('you saw no תמונה', Deut 4:15); דמיון='likeness / resemblance' (verb 'liken'). אסור = it is 'forbidden' to make Him an image.",
+      "candidates": [
+        {
+          "target": "image / form / figure / likeness",
+          "status": "preferred",
+          "contextNotes": "דיוקנא='image', צורה='form', ציור='figure/depiction', תמונה='likeness', דמיון='likeness/resemblance'.",
+          "decisions": [
+            {
+              "section": "4/ch8,10",
+              "surfaceForm": "דיוקנא/צורה/ציור/תמונה/דמיון",
+              "rationale": "Fixed distinct English for the near-synonyms so the 'no image/form/figure' argument stays legible.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "דבק-דביקות": {
+      "headword": "דְּבֵקוּת",
+      "transliteration": "devekut",
+      "partOfSpeech": "noun",
+      "notes": "Devotional 'cleaving' / union with God (flat 266, on Deut 4:4, 'you who cleave to YHVH your God are alive this day'). The cause of [eternal] life is the cleaving. Render דביקות='cleaving' (devekut); verb דבק='cleave'; הדבקים='you who cleave'.",
+      "candidates": [
+        {
+          "target": "cleaving",
+          "status": "preferred",
+          "contextNotes": "'cleaving' (devekut), gloss (devekut) on first use; 'you who cleave to YHVH'.",
+          "decisions": [
+            {
+              "section": "4/ch7",
+              "surfaceForm": "דביקות / הדבקים",
+              "rationale": "'cleaving' (standard for devekut) over 'attachment/communion'.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "שפע-מינים": {
+      "headword": "מִינֵי הַשֶּׁפַע (הַתְּמִידִי / הַתִּגְבֹּרֶת)",
+      "transliteration": "minei ha-shefa (ha-temidi / ha-tigboret)",
+      "partOfSpeech": "noun-phrase",
+      "notes": "The kinds of effluence — the resolution in ch.10 §6 (and the Gate of Essence and Governance, ch.3) to the worry that a withdrawal of providence would leave God 'lacking His rule.' (1) השפע התמידי='the perpetual effluence' — never lessens or increases; the essence that spreads forth, giving life to the attribute, so that even an attribute clothed in harsh judgment never loses it; this never withdraws. (2) התגבורת='the augmenting (intensifying) effluence' — that which raises/enlarges an attribute, or equalizes it to a higher one; THIS is what sometimes withdraws. (A third kind is treated in that gate.) See lexicon שפע for effluence itself.",
+      "candidates": [
+        {
+          "target": "perpetual effluence / augmenting effluence",
+          "status": "preferred",
+          "contextNotes": "התמידי='the perpetual effluence'; התגבורת='the augmenting/intensifying effluence'.",
+          "decisions": [
+            {
+              "section": "4/ch10",
+              "surfaceForm": "השפע התמידי / התגבורת",
+              "rationale": "'perpetual' vs 'augmenting' effluence; resolves the 'lacking His rule' difficulty (the perpetual one never withdraws).",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "סדר-אצילות": {
+      "headword": "סֵדֶר הָאֲצִילוּת",
+      "transliteration": "seder ha-atzilut",
+      "partOfSpeech": "noun phrase",
+      "notes": "The ordered sequence in which the Sefirot emanate; theme + title of Gate 5 (cross-referenced throughout Gates 3-4 as 'the Gate of the Order of the Emanation'). Distinct from general אצל-אצילות (Emanation as such). Ordinal use at 5:1:4: 'אצילות הראשון/השני' = 'the first emanation / the second emanation' (each emanated grade in turn).",
+      "candidates": [
+        {
+          "target": "the Order of the Emanation",
+          "status": "preferred",
+          "contextNotes": "Gate-5 title; sequence Keter->...->Malkhut.",
+          "decisions": [
+            {
+              "section": "5:1:1-5:1:2",
+              "surfaceForm": "שער החמישי הוא סדר האצילות",
+              "rationale": "Matches existing cross-refs. Header preserved in <b>..</b> as 'The Fifth Gate: The Order of the Emanation'; 'פרק ראשון:' -> 'Chapter One:'.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "עתיק-טמיר": {
+      "headword": "עַתִּיקָא דְעַתִּיקִין / טְמִירָא דִטְמִירִין",
+      "transliteration": "Atika de-Atikin / Temira de-Temirin",
+      "partOfSpeech": "Aramaic divine epithet (= Keter)",
+      "notes": "Idra de-Nazir epithets for Keter (Zohar 128a). Cordovero (5:4:4): עתיקא דעתיקין because Keter is 'elder' (זקן) relative to Chokhmah+Binah, themselves 'elders' (זקנים). טמירא דטמירין = concealed even from the concealed Sefirot. Cf. existing פרצופים entry: Atika Kadisha = 'the Holy Ancient One'. Also טמירא דתרי אלפין שנין = 'concealed of two thousand years' (each Sefirah=1000; Keter hidden from C+B).",
+      "candidates": [
+        {
+          "target": "the Ancient of Ancients",
+          "status": "preferred",
+          "contextNotes": "for עתיקא דעתיקין; parallels Atika Kadisha='the Holy Ancient One'.",
+          "decisions": [
+            {
+              "section": "5:4:3-5:4:4",
+              "surfaceForm": "עתיקא דעתיקין",
+              "rationale": "Keter; transliterated names get a literal gloss on first use.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "the Concealed of the Concealed",
+          "status": "preferred",
+          "contextNotes": "for טמירא דטמירין.",
+          "decisions": [
+            {
+              "section": "5:4:3",
+              "surfaceForm": "טמירא דטמירין",
+              "rationale": "Keter hidden even from the hidden Sefirot.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "elder / aged",
+          "gloss": "for זקן (Keter) vs זקנים (Chokhmah, Binah)",
+          "status": "acceptable",
+          "contextNotes": "Cordovero's gloss on 'atika'.",
+          "decisions": []
+        }
+      ]
+    },
+    "פרסא": {
+      "headword": "פַּרְסָא",
+      "transliteration": "parsa",
+      "partOfSpeech": "noun (Aramaic)",
+      "notes": "Curtain/screen. In the Idra de-Nazir (5:4:3-5:4:4) the parsa Keter spreads before itself = Chokhmah, glossed פרוכת ומסך ('veil and screen') that conceals Keter; on it the 'measure of kings' is engraved.",
+      "candidates": [
+        {
+          "target": "curtain",
+          "status": "preferred",
+          "contextNotes": "the screen veiling Keter (=Chokhmah).",
+          "decisions": [
+            {
+              "section": "5:4:3",
+              "surfaceForm": "פריס קמיה חד פרסא",
+              "rationale": "'spread before Himself a curtain'.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "veil and screen",
+          "gloss": "for פרוכת ומסך",
+          "status": "preferred",
+          "contextNotes": "Cordovero's gloss on parsa.",
+          "decisions": []
+        }
+      ]
+    },
+    "אין-יש": {
+      "headword": "אַיִן / יֵשׁ",
+      "transliteration": "Ayin / Yesh",
+      "partOfSpeech": "noun (metaphysical)",
+      "notes": "Nothing / Being. Keter is so refined that even 'Nothing' applies only in combination with Chokhmah+Binah. Letter-parsing (5:4:1): אי\"ן: א=Keter, י=Chokhmah, ן=Binah; י\"ש: י=Chokhmah, ש=Binah. 'יש מאין' = Being-from-Nothing = Chokhmah from Keter. Chokhmah is 'Being' only as the NEGATION of Nothing (כשולל האין), not full being (ישות גמור). NOTE register split: in the scriptural gloss at 4:10:1 (Prov 8:21 'להנחיל אהבי יש') יש was rendered 'substance (yesh)'; in metaphysical discussion use the Being/Nothing pair. OPEN QUESTION pending Avi: 'Nothing/Being' vs transliteration-only vs 'Naught/Existent'. Default below.",
+      "candidates": [
+        {
+          "target": "Nothing (Ayin)",
+          "register": "metaphysical",
+          "status": "preferred",
+          "contextNotes": "the divine Naught; first use glosses Ayin, then 'Nothing'.",
+          "decisions": [
+            {
+              "section": "5:4:1",
+              "surfaceForm": "לא יצדק בו יש כלל אלא אי\"ן",
+              "rationale": "Default pending Avi's confirmation of the Being/Nothing pair.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "Being (Yesh)",
+          "register": "metaphysical",
+          "status": "preferred",
+          "contextNotes": "first use glosses Yesh, then 'Being'.",
+          "decisions": []
+        },
+        {
+          "target": "substance (yesh)",
+          "status": "acceptable",
+          "contextNotes": "used only in the Prov 8:21 scriptural gloss (4:10:1).",
+          "decisions": []
+        }
+      ]
+    },
+    "מלכי-אדום": {
+      "headword": "מַלְכֵי אֱדוֹם / שִׁעוּר מַלְכִין",
+      "transliteration": "malkhei Edom / shi'ur malkhin",
+      "partOfSpeech": "noun phrase",
+      "notes": "The 'kings of Edom' (Gen 36:31, 'and these are the kings who reigned in the land of Edom') = the powers of Din that 'arose in thought' (עלו במחשבה) to be emanated and were engraved-and-concealed in Keter, then Chokhmah, but could not be 'established'/actualize Din because of nearness to the Source ('in the light of the King's face is life'). 'וימת' ('and he died') = CONCEALMENT (העלם), NOT annulment (Rashbi: לא נתבטלו אלא נעלמו). They actualize only once Binah (root of Din) emanates -> 'the line of Din journeys last'. שעור מלכין = 'the measure of kings' = these Din-powers/worlds engraved on the parsa.",
+      "candidates": [
+        {
+          "target": "the kings of Edom",
+          "status": "preferred",
+          "contextNotes": "Gen 36:31; the concealed Din-powers.",
+          "decisions": [
+            {
+              "section": "5:4:2, 5:4:6, 5:4:7",
+              "surfaceForm": "ואלה המלכים אשר מלכו בארץ אדום",
+              "rationale": "standard.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "the measure of kings",
+          "status": "preferred",
+          "contextNotes": "for שעור מלכין.",
+          "decisions": [
+            {
+              "section": "5:4:3-5:4:4",
+              "surfaceForm": "ובה גליף שעור מלכין",
+              "rationale": "literal of shi'ur malkhin.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "and he died = concealment",
+          "gloss": "for וימת",
+          "status": "preferred",
+          "contextNotes": "render 'and he died' then gloss as concealment, not annihilation.",
+          "decisions": []
+        }
+      ]
+    },
+    "גלף-חרט": {
+      "headword": "גָּלִיף / חָרִיט / מְשַׁעֵר",
+      "transliteration": "galif / charit / mesha'er",
+      "partOfSpeech": "verb",
+      "notes": "Engrave / incise / measure out. The divine 'engraving' of the worlds before emanation: Idra 'הוה מגליף ומשער ביה' and PdRE 'מחריט לפניו את העולם' (parable of the king who first incises the foundations before building the palace, פלטרין). Cordovero uses חריט/מחריט interchangeably with גליף.",
+      "candidates": [
+        {
+          "target": "engrave",
+          "status": "preferred",
+          "contextNotes": "for גליף.",
+          "decisions": [
+            {
+              "section": "5:4:3, 5:4:7, 5:4:8",
+              "surfaceForm": "מגליף ומשער / מחריט לפניו את העולם",
+              "rationale": "engraving/incising the worlds in potential.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "incise",
+          "status": "preferred",
+          "contextNotes": "for חריט/מחריט.",
+          "decisions": []
+        },
+        {
+          "target": "measure out",
+          "status": "preferred",
+          "contextNotes": "for משער (from שיעור).",
+          "decisions": []
+        }
+      ]
+    },
+    "צחצחות": {
+      "headword": "צַחְצָחוֹת",
+      "transliteration": "tzachtzachot",
+      "partOfSpeech": "noun (plural)",
+      "notes": "The Dazzling Lights: the supernal lights above Keter, the concealed source of the Sefirot (5:4:1). From the 'supernal tzachtzachot' yet others are emanated 'that do not even merit the term tzachtzachot'. Subject of Gate of the Tzachtzachot (שער הצחצחות) and discussion at Gate-of-Tzachtzachot ch.6 (re Keter='Will').",
+      "candidates": [
+        {
+          "target": "the Tzachtzachot (the Dazzling Lights)",
+          "status": "preferred",
+          "contextNotes": "transliterate + gloss on first use; thereafter 'the Tzachtzachot'.",
+          "decisions": [
+            {
+              "section": "5:4:1",
+              "surfaceForm": "צחצחות עליונות",
+              "rationale": "consistent with gate name 'the Gate of the Tzachtzachot (the Dazzling Lights)'.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "לילה-ליל": {
+      "headword": "לַיְלָה / לֵיל",
+      "transliteration": "laylah / leil",
+      "partOfSpeech": "noun",
+      "notes": "Night (= Malkhut, side of Din). Zohar/Tikkunim distinction: לַיְלָה (with final heh) = Malkhut AFTER the male has adorned her / 'made her a vessel' (the heh = 3 vavs of adornment); לֵיל (no heh) = before. ליל שמורים (Exod 12:42) = 'a night of watching' (she watches/awaits her husband). Note (5:2:7-5:2:9): the heh/adornment is betrothal-adornment, NOT yet full union (yichud); hence she is still 'night/maiden' not named for the male.",
+      "candidates": [
+        {
+          "target": "night",
+          "status": "preferred",
+          "contextNotes": "Malkhut.",
+          "decisions": [
+            {
+              "section": "5:2:5-5:2:9",
+              "surfaceForm": "רסיסי לילה / ליל שבת",
+              "rationale": "standard.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "a night of watching",
+          "gloss": "for ליל שמורים, Exod 12:42",
+          "status": "preferred",
+          "contextNotes": "'leil shimurim'; '...unto YHVH' for 'הוא לה'.",
+          "decisions": []
+        }
+      ]
+    },
+    "נער-נערה": {
+      "headword": "נַעַר / נַעֲרָה",
+      "transliteration": "na'ar / na'arah",
+      "partOfSpeech": "noun",
+      "notes": "Youth (masc.) / maiden (fem.) = Malkhut before/after receiving the male, per Zohar Bo 38b on 'כי יהיה נערה' written defectively נער: 'as long as she has not received the male she is called na'ar; once she has, na'arah'. Also נער as a name for Tiferet-aspect (Metatron/the 'lad') in the מקננא passage.",
+      "candidates": [
+        {
+          "target": "youth",
+          "status": "preferred",
+          "contextNotes": "na'ar, masc.",
+          "decisions": [
+            {
+              "section": "5:2:5, 5:2:6",
+              "surfaceForm": "נער / מסטרא דנער",
+              "rationale": "Zohar Bo.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "maiden",
+          "status": "preferred",
+          "contextNotes": "na'arah, fem.",
+          "decisions": []
+        }
+      ]
+    },
+    "קישוט": {
+      "headword": "קִשּׁוּט / לְהִתְקַשֵּׁט",
+      "transliteration": "kishut / le-hitkashet",
+      "partOfSpeech": "noun / verb",
+      "notes": "Adornment / to adorn (oneself). The bride 'adorning herself for her husband' (Gen 9:16 rainbow imagery, ככלה המתקשטת לבעלה). The heh of Malkhut = 3 vavs (= chesed-din-rachamim = white-red-green) = the adornment received from the male; Cordovero stresses this is adornment, NOT union.",
+      "candidates": [
+        {
+          "target": "adornment",
+          "status": "preferred",
+          "contextNotes": "verb: 'adorn'.",
+          "decisions": [
+            {
+              "section": "5:2:7-5:2:9",
+              "surfaceForm": "להתקשט / המתקשטת / קשוטים",
+              "rationale": "betrothal-adornment vs union.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "קננא": {
+      "headword": "מְקַנְּנָא",
+      "transliteration": "mekanena",
+      "partOfSpeech": "verb (Aramaic)",
+      "notes": "Nests (from קֵן, nest). Tikkunim 6 (23a): supernal Imma nests in the Throne (in the 3 upper Sefirot); the central pillar (Tiferet, comprising 6) nests in Metatron; lower Imma nests in the Ophan. Shekhinah called nesher (eagle, from side of Throne), yonah (dove, from side of na'ar), tzippor (bird, from side of Ophan). Full treatment deferred to Gate of ABY\"A.",
+      "candidates": [
+        {
+          "target": "nests",
+          "status": "preferred",
+          "contextNotes": "nesher=eagle, yonah=dove, tzippor=bird, na'ar=youth/lad.",
+          "decisions": [
+            {
+              "section": "5:2:4, 5:2:5",
+              "surfaceForm": "מקננא בכרסייא",
+              "rationale": "literal.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "עלה-מחשבה": {
+      "headword": "עָלָה בְּמַחֲשָׁבָה",
+      "transliteration": "alah be-machshavah",
+      "partOfSpeech": "verb phrase",
+      "notes": "Arose in [the divine] thought. The Din-powers/kings of Edom 'rose in thought' to be emanated but were 'not actualized' (עולים במחשבה ולא נפעלים) until Binah. Also PdRE: 'ועלה במחשבה לברא את העולם'.",
+      "candidates": [
+        {
+          "target": "arose in thought",
+          "status": "preferred",
+          "contextNotes": "contrast 'in thought' (potential) vs 'actualized' (נפעל).",
+          "decisions": [
+            {
+              "section": "5:4:2, 5:4:6, 5:4:8",
+              "surfaceForm": "עלה במחשבה להתאצל",
+              "rationale": "the kings of Edom in potential.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "קו-קוים": {
+      "headword": "קַו (pl. קַוִּים)",
+      "transliteration": "kav (pl. kavim)",
+      "partOfSpeech": "noun",
+      "notes": "Line / column (the three columns of the Sefirotic tree). Right = Chesed line (root Chokhmah); left = Din line (root Binah/Tevunah); middle = mercy line, the 'deciding line' (קו המכריע, root Keter/Da'at). 5:4:2: 'the line of Din journeys last' (קו הדין באחרונה יסע). Distinct from קו-מדה (kav ha-middah, the Measuring Line). NOTE: existing כרע entry renders makhri'a as 'mediator'; here קו המכריע = 'the deciding line'.",
+      "candidates": [
+        {
+          "target": "line / column",
+          "status": "preferred",
+          "contextNotes": "the three columns.",
+          "decisions": [
+            {
+              "section": "5:4:2",
+              "surfaceForm": "קו הדין / קו החסד / קו הרחמים",
+              "rationale": "right/left/middle columns.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "the deciding line",
+          "gloss": "for קו המכריע",
+          "status": "preferred",
+          "contextNotes": "middle column resolving Chesed and Din.",
+          "decisions": []
         }
       ]
     }
