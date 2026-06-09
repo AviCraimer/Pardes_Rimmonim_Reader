@@ -148,6 +148,10 @@ main {
     font-size: 1.06rem;
     text-align: justify;
     hyphens: auto;
+    cursor: pointer;
+}
+.en-text {
+    cursor: pointer;
 }
 .para b {
     color: var(--pom);
@@ -201,6 +205,91 @@ main {
 :focus-visible {
     outline: 2px solid var(--seed);
     outline-offset: 2px;
+}
+/* ---- Hebrew text toggle ---- */
+.heb-text {
+    direction: rtl;
+    text-align: right;
+    font-size: 1.12rem;
+    line-height: 1.85;
+    color: var(--ink);
+    margin-bottom: 0.6rem;
+    padding: 0.5rem 0.6rem;
+    background: #ede4cc;
+    border-right: 3px solid var(--gold);
+    border-radius: 2px;
+    font-family: "SBL Hebrew", "Frank Ruehl CLM", "Noto Serif Hebrew", serif;
+    clear: both;
+}
+.heb-text b {
+    color: var(--pom);
+}
+/* ---- lexicon highlights ---- */
+.lex-mark {
+    color: blue;
+    border-bottom: 1.5px dotted var(--gold);
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    transition: background 0.12s;
+}
+.lex-mark:hover {
+    background: rgba(184, 145, 80, 0.4);
+}
+/* ---- lexicon popup ---- */
+#lex-popup {
+    position: fixed;
+    z-index: 20;
+    background: var(--rail);
+    color: var(--paper);
+    border: 1px solid var(--rail-edge);
+    border-radius: 6px;
+    padding: 1rem 1.2rem;
+    max-width: 22rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#lex-popup[hidden] {
+    display: none;
+}
+.lex-popup-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid var(--rail-edge);
+    padding-bottom: 0.5rem;
+}
+.lex-hw {
+    font-size: 1.4rem;
+    color: var(--gold);
+    direction: rtl;
+}
+.lex-tl {
+    font-style: italic;
+    color: #9a8db0;
+    font-size: 1.1rem;
+}
+.lex-pos {
+    font-size: 1.1rem;
+    color: #6f6388;
+    margin-left: auto;
+}
+.lex-target {
+    color: var(--seed);
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+}
+.lex-gloss {
+    color: #cdbfe0;
+    margin-bottom: 0.4rem;
+}
+.lex-notes {
+    font-size: 1.1rem;
+    color: #c7b1e5;
+    font-style: italic;
 }
 @media (prefers-reduced-motion: reduce) {
     * {
