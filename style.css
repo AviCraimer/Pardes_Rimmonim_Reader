@@ -1,0 +1,209 @@
+:root {
+    --ground: #14101c;
+    --rail: #1b1525;
+    --rail-edge: #2c2138;
+    --paper: #f3ead4;
+    --ink: #2a2017;
+    --ink-soft: #5c4f3c;
+    --pom: #9e1b32;
+    --seed: #c8462f;
+    --gold: #b89150;
+}
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    background: var(--ground);
+    color: var(--paper);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    height: 100vh;
+    overflow: hidden;
+}
+/* ---- navigation rail ---- */
+nav {
+    background: var(--rail);
+    border-right: 1px solid var(--rail-edge);
+    overflow-y: auto;
+    padding: 1.4rem 0 3rem;
+}
+.brand {
+    padding: 0 1.4rem 1.1rem;
+    border-bottom: 1px solid var(--rail-edge);
+    margin-bottom: 0.4rem;
+}
+.brand .he {
+    font-size: 1.5rem;
+    color: var(--gold);
+    letter-spacing: 0.04em;
+    direction: rtl;
+}
+.brand .en {
+    font-size: 0.82rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #9a8db0;
+    margin-top: 0.35rem;
+}
+details {
+    border-bottom: 1px solid #241b30;
+}
+summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 0.6rem 1.4rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    color: #cdbfe0;
+    font-size: 0.95rem;
+    transition: background 0.15s;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+summary:hover {
+    background: #241c32;
+}
+summary .num {
+    color: var(--gold);
+    font-size: 0.78rem;
+    min-width: 2.4em;
+}
+summary .he {
+    color: #6f6388;
+    font-size: 0.8rem;
+    direction: rtl;
+    margin-left: auto;
+}
+.chap {
+    padding: 0.42rem 1.4rem 0.42rem 3.4rem;
+    cursor: pointer;
+    font-size: 0.86rem;
+    color: #a89bbf;
+    line-height: 1.35;
+    transition:
+        color 0.12s,
+        border-color 0.12s;
+    border-left: 2px solid transparent;
+}
+.chap:hover {
+    color: var(--paper);
+}
+.chap.active {
+    color: var(--seed);
+    border-left-color: var(--seed);
+}
+.chap .clab {
+    color: #8a7da3;
+    font-style: italic;
+}
+/* ---- reading surface ---- */
+main {
+    overflow-y: auto;
+    background: radial-gradient(120% 80% at 50% -10%, #1d1726 0%, var(--ground) 60%);
+    padding: 0;
+}
+.sheet {
+    max-width: 46rem;
+    margin: 3.2rem auto 6rem;
+    background: var(--paper);
+    color: var(--ink);
+    padding: 3.4rem 3.6rem 4rem;
+    border-radius: 2px;
+    box-shadow:
+        0 1px 0 var(--gold),
+        0 30px 70px -30px #000;
+}
+.crumb {
+    font-size: 0.74rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--pom);
+    margin-bottom: 0.4rem;
+}
+.sheet h1 {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    margin: 0.1rem 0 1.8rem;
+    font-weight: 600;
+    color: #1c140c;
+}
+.sheet h1 .rule {
+    display: block;
+    width: 3rem;
+    height: 2px;
+    background: var(--gold);
+    margin-top: 1rem;
+}
+.para {
+    margin: 0 0 1.15rem;
+    line-height: 1.72;
+    font-size: 1.06rem;
+    text-align: justify;
+    hyphens: auto;
+}
+.para b {
+    color: var(--pom);
+}
+.para .pnum {
+    float: left;
+    margin-right: 0.7rem;
+    color: var(--gold);
+    font-size: 0.8rem;
+    line-height: 1.9;
+    min-width: 1.4em;
+    text-align: right;
+    user-select: none;
+}
+@media (max-width: 760px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+    nav {
+        position: fixed;
+        inset: 0 30% 0 0;
+        z-index: 5;
+        transform: translateX(-100%);
+        transition: transform 0.25s;
+    }
+    body.nav-open nav {
+        transform: none;
+    }
+    .sheet {
+        margin: 1.4rem 0.8rem 5rem;
+        padding: 2rem 1.5rem 2.5rem;
+    }
+    .menu-btn {
+        display: inline-flex !important;
+    }
+}
+.menu-btn {
+    display: none;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 6;
+    background: var(--rail);
+    color: var(--gold);
+    border: 1px solid var(--rail-edge);
+    border-radius: 6px;
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+:focus-visible {
+    outline: 2px solid var(--seed);
+    outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+    }
+}
