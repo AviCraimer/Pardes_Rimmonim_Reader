@@ -206,6 +206,45 @@ main {
     outline: 2px solid var(--seed);
     outline-offset: 2px;
 }
+/* ---- next chapter button ---- */
+.next-ch-btn {
+    display: block;
+    margin: 2.5rem auto 0;
+    padding: 0.7rem 1.8rem;
+    background: var(--ground);
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+.next-ch-btn:hover {
+    background: var(--gold);
+    color: var(--ground);
+}
+/* ---- footer ---- */
+.sheet-footer {
+    margin-top: 3rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid #d5cbaf;
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+    text-align: center;
+    line-height: 1.6;
+}
+.sheet-footer a {
+    color: var(--pom);
+    text-decoration: none;
+}
+.sheet-footer a:hover {
+    text-decoration: underline;
+}
+.sheet-footer .disclaimer {
+    font-style: italic;
+    margin-top: 0.3rem;
+}
 /* ---- Hebrew text toggle ---- */
 .heb-text {
     direction: rtl;

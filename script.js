@@ -216,6 +216,19 @@
         });
     }
 
+    // ---- next chapter button ----
+    function nextChapterButton(g, c) {
+        let ng = g, nc = c + 1;
+        if (nc >= DATA.text[g].length) {
+            ng = g + 1;
+            nc = 0;
+        }
+        if (ng >= DATA.text.length) return "";
+        return '<button class="next-ch-btn" data-g="' + ng + '" data-c="' + nc + '">' +
+            META.sectionNames[0] + " " + (ng + 1) + " · " +
+            META.sectionNames[1] + " " + (nc + 1) + " &rarr;</button>";
+    }
+
     // ---- open chapter ----
     function open(g, c) {
         curG = g;
@@ -248,7 +261,21 @@
                         p +
                         "</span></div>"
                 )
-                .join("");
+                .join("") +
+            nextChapterButton(g, c) +
+            '<footer class="sheet-footer">' +
+            '<p>Hebrew source text from <a href="https://www.sefaria.org/Pardes_Rimmonim?tab=contents" target="_blank" rel="noopener">Sefaria</a>.</p>' +
+            '<p class="disclaimer">The English translation was produced by AI and may contain inaccuracies.</p>' +
+            "</footer>";
+
+        // Wire next chapter button
+        const nextBtn = sheet.querySelector(".next-ch-btn");
+        if (nextBtn) {
+            nextBtn.addEventListener("click", function () {
+                const ng = +nextBtn.dataset.g, nc = +nextBtn.dataset.c;
+                open(ng, nc);
+            });
+        }
 
         // Wire click handlers for toggle and lexicon
         sheet.querySelectorAll(".en-text").forEach((en) => {
