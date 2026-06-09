@@ -296,15 +296,6 @@
             });
         });
 
-        // Lexicon mark clicks (delegated since they are added dynamically)
-        sheet.addEventListener("click", function (e) {
-            const mark = e.target.closest(".lex-mark");
-            if (mark) {
-                e.stopPropagation();
-                showPopup(mark);
-            }
-        });
-
         document.querySelectorAll(".chap").forEach((el) =>
             el.classList.toggle(
                 "active",
@@ -314,6 +305,15 @@
         document.body.classList.remove("nav-open");
         document.querySelector("main").scrollTop = 0;
     }
+
+    // Lexicon mark clicks (delegated — attached once, not per chapter)
+    document.getElementById("sheet").addEventListener("click", function (e) {
+        const mark = e.target.closest(".lex-mark");
+        if (mark) {
+            e.stopPropagation();
+            showPopup(mark);
+        }
+    });
 
     renderNav();
     open(0, 0);
