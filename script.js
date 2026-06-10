@@ -1,15 +1,18 @@
 (async function () {
     // ---- data loading ----
-    const [resp, heResp, lexResp] = await Promise.all([
+    const [resp, heResp, lexResp, idxResp] = await Promise.all([
         fetch("translation.json"),
         fetch("Pardes_Rimmonim.json"),
         fetch("lexicon.json"),
+        fetch("index.json"),
     ]);
     const DATA = await resp.json();
     const HEB = await heResp.json();
     const LEX = await lexResp.json();
+    const IDX = await idxResp.json();
 
-    DATA.index = DATA.text.map((gate) => gate.map(() => ""));
+    DATA.index = IDX.gates.map((g) => g.chapters);
+    DATA.gates = IDX.gates;
     const META = DATA;
 
     let curG = 0,
@@ -186,14 +189,15 @@
             const det = document.createElement("details");
             if (g === 0) det.open = true;
             const sum = document.createElement("summary");
+            const gateInfo = META.gates[g];
             sum.innerHTML =
                 '<span class="num">' +
                 META.sectionNames[0] +
                 " " +
                 (g + 1) +
-                "</span><span>" +
-                gate.length +
-                ' ch.</span><span class="he">' +
+                '</span><span class="gate-title">' +
+                gateInfo.title +
+                '</span><span class="he">' +
                 heNum(g + 1) +
                 "</span>";
             det.appendChild(sum);
@@ -232,8 +236,8 @@
         }
         if (ng >= DATA.text.length) return "";
         return '<button class="next-ch-btn" data-g="' + ng + '" data-c="' + nc + '">' +
-            META.sectionNames[0] + " " + (ng + 1) + " · " +
-            META.sectionNames[1] + " " + (nc + 1) + " &rarr;</button>";
+            META.sectionNames[0] + " " + (ng + 1) + ": " + META.gates[ng].title +
+            " · " + META.sectionNames[1] + " " + (nc + 1) + " &rarr;</button>";
     }
 
     // ---- open chapter ----
@@ -243,12 +247,15 @@
         dismissPopup();
         const paras = getChapter(g, c);
         const sheet = document.getElementById("sheet");
+        const gateInfo = META.gates[g];
         const label = META.index[g][c];
         sheet.innerHTML =
             '<div class="crumb">' +
             META.sectionNames[0] +
             " " +
             (g + 1) +
+            ": " +
+            gateInfo.title +
             " · " +
             META.sectionNames[1] +
             " " +

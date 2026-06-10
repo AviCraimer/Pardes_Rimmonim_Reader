@@ -76,11 +76,18 @@ summary .num {
     font-size: 0.78rem;
     min-width: 2.4em;
 }
+summary .gate-title {
+    font-size: 0.82rem;
+    color: #a89bbf;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 summary .he {
     color: #6f6388;
     font-size: 0.8rem;
     direction: rtl;
-    margin-left: auto;
+    flex-shrink: 0;
 }
 .chap {
     padding: 0.42rem 1.4rem 0.42rem 3.4rem;
@@ -102,7 +109,9 @@ summary .he {
 }
 .chap .clab {
     color: #8a7da3;
-    font-style: italic;
+}
+.chap .clab em {
+    font-style: normal;
 }
 /* ---- reading surface ---- */
 main {
