@@ -1887,6 +1887,233 @@
           "decisions": []
         }
       ]
+    },
+    "מערכה": {
+      "headword": "מַעֲרָכָה / מַעֲרֶכֶת",
+      "transliteration": "ma'arakhah / ma'arekhet",
+      "partOfSpeech": "noun",
+      "notes": "An ordered RANK/tier in the emanative cascade. ALREADY ESTABLISHED as 'array' (prior text glosses it '(ma'arakhah)'). Gate 5 ch.5 (5:5:13-16) analyzes FOUR arrays via the R. Abba/Tazria passage: מערכה ראשונה=Chokhmah (the Names hidden there), שנייה=Binah (the 'roots', =עשית 'You made'), שלישית=Tiferet+the extremities (=מלאה 'filled'), רביעית=Malkhut (=הארץ 'the earth'). DISAMBIGUATION (trap, both appear this chunk): the BOOK ספר המערכת / מערכת האלקות = 'the Ma'arekhet' / 'Ma'arekhet ha-Elohut' (transliterate, proper title; flat 360 'ספר המערכ''), NOT the common noun 'array'.",
+      "candidates": [
+        {
+          "target": "array",
+          "gloss": "an ordered rank/tier of the emanation",
+          "register": "scholarly",
+          "status": "preferred",
+          "contextNotes": "'the four arrays' (Chokhmah/Binah/Tiferet/Malkhut). Keep distinct from the book-title 'the Ma'arekhet'.",
+          "decisions": [
+            {
+              "section": "5:5:13-5:5:16",
+              "surfaceForm": "ד' מערכות",
+              "rationale": "Reaffirm established 'array'; the R. Abba Tazria proof yields four ordered arrays mapped to Chokhmah/Binah/Tiferet/Malkhut.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "the Ma'arekhet (book title)",
+          "status": "acceptable",
+          "contextNotes": "ONLY for ספר המערכת / מערכת האלקות (Ma'arekhet ha-Elohut), transliterated as a proper title."
+        }
+      ]
+    },
+    "דו-פרצופין": {
+      "headword": "דּוּ פַּרְצוּפִין (ד\"ו פרצופין)",
+      "transliteration": "du-partzufin",
+      "partOfSpeech": "noun (Aramaic)",
+      "notes": "RESOLVED 2026-06-09 (Avi): render 'double-faced'; gloss '[du-partzufin]' in brackets on FIRST use only, then 'double-faced' thereafter. FINAL. The 'two-faced' configuration = Tiferet+Malkhut as a back-to-back male-female pair, with Yesod concealed-and-uniting between them ('two halves of one body', תרי פלגי דגופא; 'body and covenant are reckoned as one'). In Gate 5 ch.6 it is the form in which Tiferet/Yesod/Malkhut first appear (already in Keter; revealed only in Chokhmah). NB distinct from the proper partzuf-NAMES (Arikh/Zeir Anpin), transliterated+glossed — see פרצופים. (Avi noted: keep it simple; 'double-faced' is transparent and has scholarly precedent for the Adam-androgyne; deceit overtone is not a risk in this structural context.)",
+      "candidates": [
+        {
+          "target": "double-faced",
+          "status": "preferred",
+          "contextNotes": "FINAL (Avi). Gloss '[du-partzufin]' in brackets on first use; 'double-faced' thereafter. e.g. 'the double-faced [du-partzufin] configuration'.",
+          "decisions": [
+            {
+              "section": "5:6:1-5:6:3",
+              "surfaceForm": "ד\"ו פרצופין",
+              "rationale": "Avi chose 'double-faced' (simple, transparent, keeps 'face'); supersedes the provisional transliteration.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "du-partzufin (transliterated)",
+          "status": "acceptable",
+          "contextNotes": "superseded as the default 2026-06-09; retained only as the bracketed first-use gloss."
+        },
+        {
+          "target": "the dual countenance / two countenances",
+          "status": "rejected",
+          "contextNotes": "Avi preferred the simpler, more literal 'double-faced'."
+        }
+      ]
+    },
+    "נטע-שתל": {
+      "headword": "נְטִיעָה / שְׁתִילָה / פֵּרוֹת",
+      "transliteration": "neti'ah / shetilah / perot",
+      "partOfSpeech": "noun (Tree-of-emanation metaphor)",
+      "notes": "Gate 5 ch.5: the six lower Sefirot as a TREE (אילן) needing three 'modes' (ג' מציאיות, see מצא-מציאות): (1) נטיעה='planting' = the hidden roots (שרשים) in Binah; (2) שתילה='transplanting' = the branches (ענפים)/trunk set out to their own place (the Sefirot's revealed mode); (3) פירות='fruit' = the actions effected below via Malkhut. אילן='Tree' (established); שרש='root'; ענף='branch'; the watering = 'a river issuing from Eden' (Gen 2:10, Eden=Chokhmah, river=Binah).",
+      "candidates": [
+        {
+          "target": "planting / transplanting / fruit",
+          "status": "preferred",
+          "contextNotes": "keep נטיעה≠שתילה distinct: 'planting'(roots) vs 'transplanting/setting out'(branches); פירות='fruit'.",
+          "decisions": [
+            {
+              "section": "5:5:2-5:5:4",
+              "surfaceForm": "נטיעה / שתילה / פירות",
+              "rationale": "Three modes of the Tree: roots(planting) in Binah, branches(transplanting) to place, fruit(actions) via Malkhut.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "צור-עמידה": {
+      "headword": "צוּרָה / סֵדֶר עֲמִידָתָן / יְרִיעָה",
+      "transliteration": "tzurah / seder amidatan / yeri'ah",
+      "partOfSpeech": "noun (Gate-6 drawing vocabulary)",
+      "notes": "Gate 6 (= the order of arrangement of the Sefirot, the DIAGRAMS). GATE TITLE already PINNED (9 prior cross-refs): שער הששי הוא סדר עמידתן = 'The Sixth Gate: The Order of Their Standing'; do NOT re-render as 'arrangement/positioning'. In THIS gate צורה = 'figure' (the drawn diagram of the Tree), and העמדה/להציב = 'positioning'/'to set [them] in position' (same עמד root as 'standing'). יריעה (pl. יריעות) = 'sheet/scroll' (the large parchments the Kabbalists drew the אילן='Tree' on). The 8 diagrams in 313-367 are <img>; SPLICE the exact <br><img...> from source at translate time (do NOT retype base64). Closing formula 'וזו צורתה'='and this is its figure:' precedes most images.",
+      "candidates": [
+        {
+          "target": "figure (the diagram) / the Order of Their Standing",
+          "status": "preferred",
+          "contextNotes": "צורה='figure'; gate title fixed 'the Order of Their Standing'; יריעה='sheet/scroll'; אילן='Tree'.",
+          "decisions": [
+            {
+              "section": "6:1:1, 6:1:4f",
+              "surfaceForm": "סדר עמידתן / צורה / יריעות / אילן",
+              "rationale": "Header 'The Sixth Gate: The Order of Their Standing' per prior cross-refs; צורה='figure' for the drawn Tree-diagrams.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "עשן-תלי": {
+      "headword": "עוֹלָם שָׁנָה נֶפֶשׁ / תְּלִי גַּלְגַּל לֵב",
+      "transliteration": "olam shanah nefesh (עש\"ן) / Teli, galgal, lev (תג\"ל)",
+      "partOfSpeech": "noun (Sefer Yetzirah triads)",
+      "notes": "SY 6 triads, invoked at 5:5:4. עולם שנה נפש = 'world, year, soul' (= space, time, soul), acronym עש\"ן; here mapped Binah/Tiferet/Malkhut (the three loci of the 'three modes' of the extremities). The three SY 'controllers' (פקידי='officers/overseers of') over them: תלי='the Teli' (transliterate; gloss 'the celestial axis/dragon' first use — Kaplan-standard), גלגל='the sphere' (=cycle; cf. גלגל='sphere'), לב='the heart'; acronym תג\"ל. The י\"ב גבולים='the twelve boundaries' (=י\"ב פשוטות 'twelve simples', see סי-מבנה) are 'engraved' across these three.",
+      "candidates": [
+        {
+          "target": "world, year, soul / Teli, sphere, heart",
+          "status": "preferred",
+          "contextNotes": "olam/shanah/nefesh='world/year/soul'; Teli transliterated+glossed; galgal='sphere'; lev='heart'; פקידי='officers'.",
+          "decisions": [
+            {
+              "section": "5:5:4",
+              "surfaceForm": "עש\"ן / תל\"י גלג\"ל ול\"ב (תג\"ל)",
+              "rationale": "Standard SY: 'world/year/soul'; keep 'Teli' transliterated (no clean English); 'sphere'/'heart' for galgal/lev.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "נקוד-טעמים": {
+      "headword": "סְגוֹלְתָּא / סֶגוֹל / שׁוּרֻק / שַׁלְשֶׁלֶת / חוֹלָם / צֵירֵי / פַּתָּח",
+      "transliteration": "segolta / segol / shuruk / shalshelet / cholam / tzeirei / patach",
+      "partOfSpeech": "noun (masoretic vowel & cantillation signs, used as Sefirah-diagrams)",
+      "notes": "Gate 6 maps the SHAPES of nikkud/te'amim to triads of Sefirot (Tikkunim: Tikkun 69 fol.101b, TZ\"Ch fol.112). TRANSLITERATE all, gloss the dot/shape pattern as the TEXT describes it on first use. Established: 'segolta' already used once (transliterated). Mappings here: כתר על חכמה ובינה = a segolta / 'a cholam (one dot above) over a tzeirei (two dots)'; סגול = the three-dot downward triangle beneath; ג' אבות (ChaGaT) and נה\"י as segol/segolta triads; נצח-הוד-יסוד in a row = a shuruk (here described as 'three dots in one row'); when Tiferet sits exactly between Gedulah and Gevurah the vertical triad = a shalshelet. R. Yehudah Chayyat's mnemonic: 'segolta, segol, segol' for the three triads.",
+      "candidates": [
+        {
+          "target": "transliterate (segolta/segol/shuruk/shalshelet/cholam/tzeirei/patach) + shape-gloss",
+          "status": "preferred",
+          "contextNotes": "gloss the dot-pattern as the source states it; thereafter use the bare transliteration.",
+          "decisions": [
+            {
+              "section": "6:1:13, 6:1:16-17",
+              "surfaceForm": "סגולתא/סגול/שרק/שלשלת/חולם/צירי",
+              "rationale": "Consistent with the prior 'segol or segolta' rendering; transliterate the sign-names, gloss their shapes.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "פנים-אחור": {
+      "headword": "פָּנִים / אֲחוֹרַיִם / מְהֻפֶּכֶת",
+      "transliteration": "panim / achorayim / mehupekhet",
+      "partOfSpeech": "noun/adj (Gate-6 ch.2 orientation dispute)",
+      "notes": "The ch.2 polemic against Sefer Me'irat Einayim's 'reversed' Tree. פנים='face'; אחוריים='back / hinder parts' (Exod 33:23 'you shall see My back [achorai] but My face shall not be seen'). מהופכת='reversed/inverted' (the disputed figure). Cordovero: the true figure is right-opposite-right, left-opposite-left (ימין אל הימין ושמאל אל השמאל). Proof-set this chunk: (a) the four tefillin parashiyot — קדש=Chokhmah, והיה כי יביאך=Binah, שמע=Chesed/Gedulah, והיה אם שמוע=Gevurah (see אברי-קומה) — via מניח='the one laying [tefillin]' vs קורא='the reader'(the onlooker facing him); (b) the altar's ascent — כבש='ramp' (on the south of the מזבח='altar'), turning to קרן דרומית מזרחית='the southeast corner' (the ascender's right); (c) ג' פסיעות='the three steps' [back, ending the Amidah] giving 'peace' to the left first (Yoma 53b). Verse: שויתי ה' לנגדי תמיד='I have set YHVH always before me' (Ps 16:8).",
+      "candidates": [
+        {
+          "target": "face / back (hinder parts) / reversed",
+          "status": "preferred",
+          "contextNotes": "panim='face', achorayim='back/hinder parts', mehupekhet='reversed/inverted'; right-opposite-right vs the mirror reading.",
+          "decisions": [
+            {
+              "section": "6:2:2-6:2:9",
+              "surfaceForm": "פנים / אחוריים / מהופכת",
+              "rationale": "Standard renderings; keep the face/back contrast and 'reversed' for the disputed figure; tefillin & altar orientation per existing limb-map.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "שמות-גייט6": {
+      "headword": "Gate-5/6 proper names & books",
+      "transliteration": "—",
+      "partOfSpeech": "noun (names — render as named, no in-text speculation)",
+      "notes": "NEW this chunk: ר' משה ד(י)ליאון = 'Rabbi Moshe de León'; ספר השם = 'Sefer ha-Shem' (his 'Book of the Name'). בעל מאירת עינים / ספר מאירת עינים = 'the author of Me'irat Einayim' / 'Sefer Me'irat Einayim' (R. Isaac of Acre; the Gate-6 ch.2 disputant with the 'reversed' figure). ר' טודרוס הלוי = 'Rabbi Todros ha-Levi' — render the source's attribution verbatim ('the view of R. Todros ha-Levi in Sefer ha-Ma'arekhet'); no in-text correction. REAFFIRM: ר' שם טוב בן ר' שם טוב = 'R. Shem Tov ben R. Shem Tov' (here annotating de León's book in the margin, הגיה בגליון='annotated in the margin'); ר' יהודה חייט = 'R. Yehudah Chayyat' (established). DISAMBIGUATION TRAP: in Gate-5 prose מורי נר\"ו = Cordovero's teacher R. Yosef Karo; but inside the QUOTED Me'irat Einayim passage (flat 361) מורי = Isaac of Acre's OWN teacher — render 'my teacher' within the quote, do NOT tie to Karo.",
+      "candidates": [
+        {
+          "target": "de León / Me'irat Einayim / Todros ha-Levi",
+          "status": "preferred",
+          "contextNotes": "render as named; Sefer ha-Shem, Sefer Me'irat Einayim transliterated as titles.",
+          "decisions": [
+            {
+              "section": "6:1:9-6:2:9",
+              "surfaceForm": "ר' משה דליאון / בעל מאירת עינים / ר' טודרוס הלוי",
+              "rationale": "Standard names; keep Me'irat-Einayim 'mori' distinct from Karo.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "ביטויים-גייט6": {
+      "headword": "Recurring idioms (Gate 5-6)",
+      "transliteration": "—",
+      "partOfSpeech": "phrase",
+      "notes": "דפח\"ח (=דברי פי חכם חן, Eccl 10:12) = 'and these are the gracious words of a wise man' (praise of a view). סלת נקיה = 'fine sifted flour' (the choicest/purest view). שרי ליה מאריה = 'may his Master forgive him' (gentle disapproval of a respected figure's statement; flat 354, re Chayyat on Malkhut). פסקיה לקרא בסכינא חריפא / פסקין לקרא = 'he split the verse with a sharp knife' (forcibly re-parsing a verse mid-clause; the R. Abba Tazria passage). פועל בטל = 'a vain (idle) exercise'. דברים שאסור לשומען = 'things forbidden to hear'. חתם רום = 'He sealed the height' (SY 1:13, of Keter).",
+      "candidates": [
+        {
+          "target": "idiom set (rendered as glossed)",
+          "status": "preferred",
+          "contextNotes": "render each idiom as noted; keep consistent across the gate.",
+          "decisions": [
+            {
+              "section": "5:5:9-5:5:14, 6:1:11-13",
+              "surfaceForm": "דפח\"ח / סלת נקיה / שרי ליה מאריה / פסקיה לקרא בסכינא חריפא",
+              "rationale": "Standard renderings of these recurring rabbinic idioms.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
+    },
+    "היה-הויות": {
+      "headword": "הֲוָיוֹת",
+      "transliteration": "havayot",
+      "partOfSpeech": "noun",
+      "notes": "The would-be Din-entities/'existents' that 'arose in thought' to be emanated (= the six lower Sefirot in potential / the kings of Edom; see מלכי-אדום). RECONCILED with prior translated Gate-5 text: render 'the existents' (uniform across Gate 5). NB the SAME word in 'י\"ב הויות' (the twelve, in Tiferet) = the doubled extremities (6 Din + 6 mercy) = the twelve boundaries — kept 'the twelve existents' for uniformity (it also evokes the 12 permutations of HaVaYaH=YHVH, but the term stays uniform). Distinct from מציאות='mode/existence'.",
+      "candidates": [
+        {
+          "target": "the existents",
+          "status": "preferred",
+          "contextNotes": "consistent with prior Gate-5 text; the Din-entities arising in thought.",
+          "decisions": [
+            {
+              "section": "5:4:9-5:5:16",
+              "surfaceForm": "ההויות / י\"ב הויות",
+              "rationale": "Reconcile with already-translated Gate 5 ('existents'); keep uniform incl. the twelve in Tiferet.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        }
+      ]
     }
   }
 }

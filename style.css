@@ -130,6 +130,12 @@ main {
         0 1px 0 var(--gold),
         0 30px 70px -30px #000;
 }
+
+.sheet img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
 .crumb {
     font-size: 0.74rem;
     letter-spacing: 0.18em;
@@ -227,7 +233,9 @@ main {
     font-family: inherit;
     font-size: 0.95rem;
     cursor: pointer;
-    transition: background 0.15s, color 0.15s;
+    transition:
+        background 0.15s,
+        color 0.15s;
 }
 .next-ch-btn:hover {
     background: var(--gold);
