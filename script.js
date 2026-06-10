@@ -1,15 +1,25 @@
 (async function () {
     // ---- data loading ----
-    const [resp, heResp, lexResp, idxResp] = await Promise.all([
+    const [resp, heResp, lexResp, idxResp, aliasResp] = await Promise.all([
         fetch("translation.json"),
         fetch("Pardes_Rimmonim.json"),
         fetch("lexicon.json"),
         fetch("index.json"),
+        // aliases.json is optional: a missing/invalid file must not break the app.
+        fetch("aliases.json").catch(() => null),
     ]);
     const DATA = await resp.json();
     const HEB = await heResp.json();
     const LEX = await lexResp.json();
     const IDX = await idxResp.json();
+    let ALIASES = { aliases: {} };
+    if (aliasResp && aliasResp.ok) {
+        try {
+            ALIASES = await aliasResp.json();
+        } catch (e) {
+            console.warn("aliases.json present but could not be parsed:", e);
+        }
+    }
 
     DATA.index = IDX.gates.map((g) => g.chapters);
     DATA.gates = IDX.gates;
@@ -48,44 +58,139 @@
             }
         }
     }
-    const SORTED_FORMS = [...FORM_MAP.keys()].sort((a, b) => b.length - a.length);
+
+    // Merge extra forms from the standalone aliases.json. Kept separate so that
+    // regenerating lexicon.json (whole-file updates) never loses hand-added forms.
+    if (ALIASES.aliases) {
+        for (const [key, spec] of Object.entries(ALIASES.aliases)) {
+            if (!LEX.entries[key]) {
+                console.warn(
+                    'aliases.json: entry key "' + key + '" not found in lexicon.json'
+                );
+                continue;
+            }
+            const forms = (spec && spec.forms) || [];
+            for (const form of forms) {
+                const f = (form || "").trim();
+                if (f) FORM_MAP.set(f, key);
+            }
+        }
+    }
+
+    // Split forms: multi-word phrases stay substring-matched (long & distinctive);
+    // single-word forms go through boundary-aware token matching to avoid matching
+    // inside unrelated words (e.g. קו inside מקום).
+    const PHRASE_FORMS = [];
+    const WORD_FORMS = new Map();
+    for (const [form, key] of FORM_MAP) {
+        if (/\s/.test(form)) PHRASE_FORMS.push(form);
+        else WORD_FORMS.set(form, key);
+    }
+    PHRASE_FORMS.sort((a, b) => b.length - a.length);
+
+    // Conservative Hebrew affixes. Bare ם/ן are intentionally excluded as suffixes
+    // (they would re-admit false positives like מקום → מ + קו + ם).
+    const PREFIX_SET = new Set(["ו", "ה", "ב", "כ", "ל", "מ", "ש", "ד"]);
+    const SUFFIXES = ["ים", "ות", "יו", "יה", "נו", "כם", "הם", "ין", "י", "ך", "ה", "ת"];
+
+    // Resolve a single Hebrew word token to a lexicon entry key, allowing up to two
+    // stacked proclitic prefixes and one inflectional suffix. Whole-token / longest
+    // stem is tested first so the longest legitimate form wins.
+    function lookupToken(token) {
+        if (WORD_FORMS.has(token)) return WORD_FORMS.get(token);
+        for (let p = 0; p <= 2; p++) {
+            const prefix = token.slice(0, p);
+            if (p > 0 && ![...prefix].every((ch) => PREFIX_SET.has(ch))) break;
+            const rest = token.slice(p);
+            if (rest.length < 2) continue;
+            if (WORD_FORMS.has(rest)) return WORD_FORMS.get(rest);
+            for (const suf of SUFFIXES) {
+                if (rest.length > suf.length + 1 && rest.endsWith(suf)) {
+                    const stem = rest.slice(0, rest.length - suf.length);
+                    if (stem.length >= 2 && WORD_FORMS.has(stem)) {
+                        return WORD_FORMS.get(stem);
+                    }
+                }
+            }
+        }
+        return null;
+    }
 
     // ---- lexicon highlighting ----
-    function highlightLexicon(hebDiv) {
-        let html = hebDiv.innerHTML;
-        const replacements = [];
+    // Hebrew "word" characters: Hebrew letters plus geresh/gershayim and ASCII
+    // quotes, so abbreviations like א"א / סת"ר tokenize as a single unit.
+    const HEB_WORD_RE = /[א-ת׳״"']+/g;
 
-        for (const form of SORTED_FORMS) {
+    // Compute highlight ranges for one text-node string. Returns sorted,
+    // non-overlapping [{start, end, entryKey}].
+    function computeRanges(text) {
+        const ranges = [];
+        const taken = (s, e) => ranges.some((r) => s < r.end && e > r.start);
+
+        // 1) Multi-word phrases first (longest-first, non-overlapping).
+        for (const form of PHRASE_FORMS) {
             let idx = 0;
-            while ((idx = html.indexOf(form, idx)) !== -1) {
+            while ((idx = text.indexOf(form, idx)) !== -1) {
                 const end = idx + form.length;
-                const overlaps = replacements.some(
-                    (r) => idx < r.end && end > r.start
-                );
-                if (!overlaps) {
-                    replacements.push({
-                        start: idx,
-                        end,
-                        entryKey: FORM_MAP.get(form),
-                        original: form,
-                    });
+                if (!taken(idx, end)) {
+                    ranges.push({ start: idx, end, entryKey: FORM_MAP.get(form) });
                 }
                 idx = end;
             }
         }
 
-        replacements.sort((a, b) => b.start - a.start);
-        for (const r of replacements) {
-            html =
-                html.slice(0, r.start) +
-                '<span class="lex-mark" data-lex="' +
-                r.entryKey +
-                '">' +
-                r.original +
-                "</span>" +
-                html.slice(r.end);
+        // 2) Single-word tokens via boundary-aware lookup.
+        let m;
+        HEB_WORD_RE.lastIndex = 0;
+        while ((m = HEB_WORD_RE.exec(text)) !== null) {
+            const start = m.index;
+            const end = start + m[0].length;
+            if (taken(start, end)) continue;
+            const key = lookupToken(m[0]);
+            if (key) ranges.push({ start, end, entryKey: key });
         }
-        hebDiv.innerHTML = html;
+
+        ranges.sort((a, b) => a.start - b.start);
+        return ranges;
+    }
+
+    function highlightLexicon(hebDiv) {
+        // Walk text nodes so existing markup (e.g. <b> headers) is preserved and
+        // we never match inside tags/attributes.
+        const walker = document.createTreeWalker(
+            hebDiv,
+            NodeFilter.SHOW_TEXT,
+            null
+        );
+        const textNodes = [];
+        let node;
+        while ((node = walker.nextNode())) textNodes.push(node);
+
+        for (const textNode of textNodes) {
+            const text = textNode.nodeValue;
+            const ranges = computeRanges(text);
+            if (!ranges.length) continue;
+
+            const frag = document.createDocumentFragment();
+            let cursor = 0;
+            for (const r of ranges) {
+                if (r.start > cursor) {
+                    frag.appendChild(
+                        document.createTextNode(text.slice(cursor, r.start))
+                    );
+                }
+                const span = document.createElement("span");
+                span.className = "lex-mark";
+                span.dataset.lex = r.entryKey;
+                span.textContent = text.slice(r.start, r.end);
+                frag.appendChild(span);
+                cursor = r.end;
+            }
+            if (cursor < text.length) {
+                frag.appendChild(document.createTextNode(text.slice(cursor)));
+            }
+            textNode.parentNode.replaceChild(frag, textNode);
+        }
     }
 
     // ---- lexicon popup ----

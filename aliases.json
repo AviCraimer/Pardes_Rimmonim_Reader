@@ -1,0 +1,7 @@
+{
+  "schemaVersion": "1.0",
+  "description": "Extra surface-form aliases for lexicon entries. Kept separate from lexicon.json so whole-file regenerations of the lexicon do not lose hand-added forms. Each key must match an entry key in lexicon.json; `forms` are additional unpointed surface strings to match, `note` is optional documentation. Single-word forms are matched with Hebrew prefix/suffix awareness; multi-word forms are matched as exact phrases.",
+  "aliases": {
+    "עלה-מחשבה": { "forms": ["מחשבת"], "note": "construct form (ה→ת), e.g. מחשבת הבריאה" }
+  }
+}
