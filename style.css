@@ -133,8 +133,10 @@ main {
 
 .sheet img {
     display: block;
-    width: 90%;
+    width: 100%;
     margin: auto;
+    padding: 1.15rem;
+    padding-bottom: 0;
 }
 .crumb {
     font-size: 0.74rem;
