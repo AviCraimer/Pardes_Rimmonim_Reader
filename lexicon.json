@@ -1596,7 +1596,7 @@
       "headword": "אַיִן / יֵשׁ",
       "transliteration": "Ayin / Yesh",
       "partOfSpeech": "noun (metaphysical)",
-      "notes": "Nothing / Being. Keter is so refined that even 'Nothing' applies only in combination with Chokhmah+Binah. Letter-parsing (5:4:1): אי\"ן: א=Keter, י=Chokhmah, ן=Binah; י\"ש: י=Chokhmah, ש=Binah. 'יש מאין' = Being-from-Nothing = Chokhmah from Keter. Chokhmah is 'Being' only as the NEGATION of Nothing (כשולל האין), not full being (ישות גמור). NOTE register split: in the scriptural gloss at 4:10:1 (Prov 8:21 'להנחיל אהבי יש') יש was rendered 'substance (yesh)'; in metaphysical discussion use the Being/Nothing pair. OPEN QUESTION pending Avi: 'Nothing/Being' vs transliteration-only vs 'Naught/Existent'. Default below.",
+      "notes": "Nothing / Something. Keter so refined that even 'Nothing' applies only in combination with Chokhmah+Binah. Letter-parsing (5:4:1): אי\"ן: א=Keter, י=Chokhmah, ן=Binah; י\"ש: י=Chokhmah, ש=Binah. 'יש מאין' = 'Something from Nothing' = Chokhmah from Keter. Chokhmah is 'Something' only as the NEGATION of Nothing (כשולל האין), not full somethingness (ישות גמור; render ישות='somethingness'). RESOLVED 2026-06-09 (Avi): ayin='Nothing', yesh='Something'; reserve 'substance (yesh)' for the Prov 8:21 gloss (4:10:1).",
       "candidates": [
         {
           "target": "Nothing (Ayin)",
@@ -1609,14 +1609,34 @@
               "surfaceForm": "לא יצדק בו יש כלל אלא אי\"ן",
               "rationale": "Default pending Avi's confirmation of the Being/Nothing pair.",
               "timestamp": "2026-06-09"
+            },
+            {
+              "section": "5:4:1",
+              "surfaceForm": "אי\"ן",
+              "rationale": "Confirmed by Avi 2026-06-09: 'Nothing' for Ayin.",
+              "timestamp": "2026-06-09"
+            }
+          ]
+        },
+        {
+          "target": "Something (Yesh)",
+          "register": "metaphysical",
+          "status": "preferred",
+          "contextNotes": "Avi's choice 2026-06-09; first use glosses Yesh, then 'Something'; ישות='somethingness'.",
+          "decisions": [
+            {
+              "section": "5:4:1",
+              "surfaceForm": "י\"ש / יש מאין",
+              "rationale": "Avi chose 'Something' over 'Being' to avoid the heavy ontological reading.",
+              "timestamp": "2026-06-09"
             }
           ]
         },
         {
           "target": "Being (Yesh)",
           "register": "metaphysical",
-          "status": "preferred",
-          "contextNotes": "first use glosses Yesh, then 'Being'.",
+          "status": "rejected",
+          "contextNotes": "superseded 2026-06-09 by Avi's choice: render yesh as 'Something', not 'Being'.",
           "decisions": []
         },
         {
