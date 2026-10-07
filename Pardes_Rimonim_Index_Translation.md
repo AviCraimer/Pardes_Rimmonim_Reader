@@ -37,9 +37,9 @@ We named it **"The Reason for the Emanation"** because in it is explained the re
 
 ---
 
-## Gate 3 — "Whether the Ein Sof Is the Keter" (*Im ha-Ein Sof Hu ha-Keter*)
+## Gate 3 — "Whether the Ein Sof is the Keter" (*Im ha-Ein Sof Hu ha-Keter*)
 
-We named it **"Whether the Ein Sof Is the Keter"** because in it is explained whether the Ein Sof is Keter, as many have thought, and whether Keter is counted among the sefirot or not, as R. Shem Tov ibn Shem Tov supposed. Its chapters are eight.
+We named it **"Whether the Ein Sof is the Keter"** because in it is explained whether the Ein Sof is Keter, as many have thought, and whether Keter is counted among the sefirot or not, as R. Shem Tov ibn Shem Tov supposed. Its chapters are eight.
 
 1. Explanation of the view of those who say the Ein Sof is Keter, and the refutation of their view from reasoning.
 2. The refutation of their view, and its necessity from many places in the words of the Zohar.
