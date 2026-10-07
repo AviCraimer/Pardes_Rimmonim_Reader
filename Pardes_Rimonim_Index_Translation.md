@@ -10,7 +10,7 @@
 
 We named it **"Ten and Not Nine"** because in it is explained how there came to be a consensus in the received tradition of our sages, elders, and prophets that the sefirot are ten — not nine, and not eleven. Its chapters number ten.
 
-1. Explanation of the Mishnah of Sefer Yetzirah, "Ten sefirot of *beli mah* (without quiddity), the number ten," etc.
+1. Explanation of the Mishnah of Sefer Yetzirah, "Ten sefirot of *beli mah* (without essence), the number ten," etc.
 2. The same Mishnah explained in another way, with further statements from the Tikkunim and the Zohar.
 3. Explanation of the aforementioned Mishnah, and the statement "I have eaten my honeycomb with my honey" (Song of Songs) from the *Ra'aya Mehemna*.
 4. Explanation that Tiferet mediates between Gevurah and Netzach, and between Chesed and Hod, on the basis of reasoning (*sevara*).
@@ -23,9 +23,9 @@ We named it **"Ten and Not Nine"** because in it is explained how there came to 
 
 ---
 
-## Gate 2 — "The Reason for Emanation" (*Ta'am ha-Atzilut*)
+## Gate 2 — "The Reason for the Emanation" (*Ta'am ha-Atzilut*)
 
-We named it **"The Reason for Emanation"** because in it is explained the reason why the sefirot were ten — no fewer and no more — and the reason for the existence of emanation itself. Its chapters number seven.
+We named it **"The Reason for the Emanation"** because in it is explained the reason why the sefirot were ten — no fewer and no more — and the reason for the existence of emanation itself. Its chapters number seven.
 
 1. Explanation of one reason given by R. Azriel, R. Yehudah Chayyat's objection to it, and the resolution of his objections.
 2. Explanation of another reason given by R. Yehudah Chayyat, and the reason of R. Menachem Recanati, and our objection to both — and likewise to R. Azriel.
@@ -37,9 +37,9 @@ We named it **"The Reason for Emanation"** because in it is explained the reason
 
 ---
 
-## Gate 3 — "Whether the Ein Sof is Keter" (*Im ha-Ein Sof Hu ha-Keter*)
+## Gate 3 — "Whether the Ein Sof Is the Keter" (*Im ha-Ein Sof Hu ha-Keter*)
 
-We named it **"Whether the Ein Sof is Keter"** because in it is explained whether the Ein Sof is Keter, as many have thought, and whether Keter is counted among the sefirot or not, as R. Shem Tov ibn Shem Tov supposed. Its chapters are eight.
+We named it **"Whether the Ein Sof Is the Keter"** because in it is explained whether the Ein Sof is Keter, as many have thought, and whether Keter is counted among the sefirot or not, as R. Shem Tov ibn Shem Tov supposed. Its chapters are eight.
 
 1. Explanation of the view of those who say the Ein Sof is Keter, and the refutation of their view from reasoning.
 2. The refutation of their view, and its necessity from many places in the words of the Zohar.
@@ -52,14 +52,14 @@ We named it **"Whether the Ein Sof is Keter"** because in it is explained whethe
 
 ---
 
-## Gate 4 — "Essence and Vessels" (*Atzmut ve-Kelim*)
+## Gate 4 — "Self and Vessels" (*Atzmut ve-Kelim*)
 
-We named it **"Essence and Vessels"** because in it we inquire whether the ten sefirot are the essence of the Godhead, as many have thought, or whether they are His vessels — like a craftsman's tools for working — and not His essence. Its chapters number ten.
+We named it **"Self and Vessels"** because in it we inquire whether the ten sefirot are the very Self (*atzmut*) of the Godhead, as many have thought, or whether they are His vessels — like a craftsman's tools for working — and not His Self. Its chapters number ten.
 
 1. Citation of the words of R. Menachem Recanati, whose view is that they are vessels.
-2. Citation of the words of R. David, whose view is that they are essence.
-3. Our objection to both — to those who say "essence" and to those who say "vessels."
-4. Explanation of our own view: that the sefirot are both essence and vessels.
+2. Citation of the words of R. David, whose view is that they are Self.
+3. Our objection to both — to those who say "Self" and to those who say "vessels."
+4. Explanation of our own view: that the sefirot are both Self and vessels.
 5. Explanation of the necessity of our view from the Zohar, with an explanation of part of the statement "Elijah [opened and said]: Master of the worlds, You are One and not in [the sense of] number," etc., in the Tikkunim.
 6. Explanation of the rest of that statement, which, because of its length, we divided into two chapters.
 7. A further proof from a statement of Rashbi, peace be upon him, in the Zohar: "a point that does not stand in light," etc., concerning the measuring line (*kav ha-midah*).
@@ -69,9 +69,9 @@ We named it **"Essence and Vessels"** because in it we inquire whether the ten s
 
 ---
 
-## Gate 5 — "The Order of Emanation" (*Seder ha-Atzilut*)
+## Gate 5 — "The Order of the Emanation" (*Seder ha-Atzilut*)
 
-We named it **"The Order of Emanation"** because in it is explained, regarding emanation, who was emanated by whom and who preceded whom, since the opinions on this are many. Its chapters number six.
+We named it **"The Order of the Emanation"** because in it is explained, regarding emanation, who was emanated by whom and who preceded whom, since the opinions on this are many. Its chapters number six.
 
 1. Explanation of the view of the Geonim who say the sefirot were emanated in their order, and the necessity for their intention from Scripture and from reasoning.
 2. Explanation of the statement "open for me" (*pitchi li*) of Rashbi from the Tikkunim; and there the reason is explained why Yesod sometimes precedes Netzach and Hod.
@@ -109,13 +109,13 @@ We named it **"Channels"** because in it is explained the matter of the channels
 
 ---
 
-## Gate 8 — "Quiddity and Governance" (*Mahut ve-Hanhagah*)
+## Gate 8 — "Essence and Governance" (*Mahut ve-Hanhagah*)
 
-We named it **"Quiddity and Governance"** because in it is explained the quiddity (*mahut*) apprehended in the sefirot — not actual quiddity, God forbid — together with matters of judgment (*din*) and mercy (*rachamim*), and the governance of the King of the king of kings through them. Its chapters number twenty-six.
+We named it **"Essence and Governance"** because in it is explained the essence (*mahut*) apprehended in the sefirot — not actual essence, God forbid — together with matters of judgment (*din*) and mercy (*rachamim*), and the governance of the King of the king of kings through them. Its chapters number twenty-six.
 
-1. On the sefirot and their union in a single, equal action, despite being divided in their quiddity — this one judgment, that one mercy; and there the reason for the existence of the ten is explained.
+1. On the sefirot and their union in a single, equal action, despite being divided in their essence — this one judgment, that one mercy; and there the reason for the existence of the ten is explained.
 2. Explanation of the term "sefirot" as applied to the emanated entities, and their agreement upon a single action; and there, the whole reality of the totality of the sefirot as apprehended — their being composed of ten, of seven, of five, of four, and of three.
-3. Explanation of the quiddity apprehended in Keter, and its being composed of ten; and an explanation of the 620 (*tar"kh*) pillars of light; and there, part of the prayer of R. Nechunya ben ha-Kanah.
+3. Explanation of the essence apprehended in Keter, and its being composed of ten; and an explanation of the 620 (*tar"kh*) pillars of light; and there, part of the prayer of R. Nechunya ben ha-Kanah.
 4. Explanation of the 620 pillars of light in explaining R. Nechunya ben ha-Kanah's words; and there, part of the matters of combination (*tziruf*), in its secret.
 5. Explanation of whether Chokhmah is judgment or mercy; and there we cite the words of all the commentators on this and raise objections against them.
 6. Explanation of whether Binah is judgment or mercy, according to the Zohar; and there a statement from the Zohar on Song of Songs is explained, "by the mouth of Elijah it was decreed," etc., and a statement from Parashat Mishpatim, "when Gevurah expands."
@@ -128,17 +128,17 @@ We named it **"Quiddity and Governance"** because in it is explained the quiddit
 13. On the first three sefirot being reckoned as one; an emendation of what is found in the Tikkunim concerning the exile of the upper and lower Shekhinah; and there, three aspects of the union of the sefirot, and a statement from the Tikkunim concerning "an offering to the Lord."
 14. Emendation of the statement "eat, O friends" (*ichlu re'im*) in Parashat Vayikra; and the explanation and emendation of the statement "when they join, like the [letter] *heh*" in Parashat Lech Lecha.
 15. Explanation of what the Zohar interprets — that one should not engage with the first three sefirot — and the reason for our engaging with them, with the explanation of several statements on this matter.
-16. Explanation of the quiddity apprehended by us in Chesed from its actions, and the reason for the 72 bridges within it; and an explanation of what is apprehended of Gevurah.
-17. Explanation of the quiddity apprehended by us from Tiferet; and there, an explanation of the union of Chokhmah with Binah and their coupling (*zivug*) together, the reason for the matter and what it intends — a lengthy explanation.
+16. Explanation of the essence apprehended by us in Chesed from its actions, and the reason for the 72 bridges within it; and an explanation of what is apprehended of Gevurah.
+17. Explanation of the essence apprehended by us from Tiferet; and there, an explanation of the union of Chokhmah with Binah and their coupling (*zivug*) together, the reason for the matter and what it intends — a lengthy explanation.
 18. Explanation of the union of Tiferet with Malkhut; and there it is explained that their supernal union occurs only through an arousal from below (*hit'orerut tachton*); and an explanation of a statement from the Zohar, Parashat Bereshit.
 19. Explanation of what the arousal is and whence it derives; and an explanation of a statement from the Zohar, Parashat Noach, "at the time that the Holy One, blessed be He, is crowned."
 20. Explanation of the reason for the need for arousal, what the arousal toward Chokhmah and Binah is, and the matter of the Shekhinah among the lower beings being "a need on high" (*tzorekh gavoha*).
 21. Explanation of the embrace — "His left hand beneath my head," etc. — in the coupling of Tiferet and Malkhut, and likewise the matter of the kiss (*neshikah*).
-22. Explanation of the essence of the union — its delight, its nature, and what derives from it; and there, the matter of the coming-into-being of souls.
+22. Explanation of the union proper — its delight, its nature, and what derives from it; and there, the matter of the coming-into-being of souls.
 23. Explanation of the aspects of Malkhut in relation to the limbs of the male, their union in three places, and the union of Chokhmah and Binah in three places.
-24. Explanation of the quiddity apprehended in the three attributes Netzach, Hod, and Yesod; and of "pleasantness" (*no'am*) in relation to Netzach and Hod — that within the erasable Name they have but one name, as explained in the Zohar.
+24. Explanation of the essence apprehended in the three attributes Netzach, Hod, and Yesod; and of "pleasantness" (*no'am*) in relation to Netzach and Hod — that within the erasable Name they have but one name, as explained in the Zohar.
 25. Explanation that emanation establishes itself upon three lines — the line of Chesed, the line of Din, the line of Rachamim; an explanation of the statement of Parashat Vayechi, "and it was, as the musician played"; and there it is explained that Keter is the secret of Chesed and Rachamim with no admixture of Din at all, in the verse "with wisdom, with understanding, and with knowledge."
-26. Explanation of the quiddity apprehended in Malkhut, its receiving from all the sefirot, through whom it receives, and its reality after the exile (*galut*).
+26. Explanation of the essence apprehended in Malkhut, its receiving from all the sefirot, through whom it receives, and its reality after the exile (*galut*).
 
 ---
 
@@ -167,9 +167,9 @@ We named it **"The Colors"** because in it is explained what is intended by the 
 
 ---
 
-## Gate 11 — "Refulgences" (*Tzachtzachot*)
+## Gate 11 — "The Tzachtzachot" (*Tzachtzachot* — the Dazzling Lights)
 
-We named it **"Refulgences"** because in it is explained the matter of the ten *tzachtzachot* that are upon Keter, well-known in the words of the Kabbalists, and likewise the matter of "pure light" (*or tzach*), "purified light" (*or metzuchtzach*), and "primordial light" (*or kadmon*). Its chapters number seven.
+We named it **"The Tzachtzachot"** (the Dazzling Lights) because in it is explained the matter of the ten *tzachtzachot* that are upon Keter, well-known in the words of the Kabbalists, and likewise the matter of "pure light" (*or tzach*), "purified light" (*or metzuchtzach*), and "primordial light" (*or kadmon*). Its chapters number seven.
 
 1. Citation of a responsum to our teacher Rav Hai Gaon, of blessed memory, on the matter of the three *tzachtzachot*, whose mnemonic is "Kamatz" (קמ"ץ — *kadmon, metzuchtzach, tzach*).
 2. Explanation of his words, due to their great obscurity.
@@ -225,7 +225,7 @@ We named it **"From Below to Above"** because in it is explained the matter, wel
 
 1. Explanation of the modes of existence of "ten from above to below" and "ten from below to above," and the matter of "their end is fixed in their beginning" (*na'utz sofan be-techillatan*) — a fine explanation.
 2. Explanation that "from above to below" befalls not only the ten sefirot in their totality, but also some of them relative to others.
-3. Explanation of the quiddity apprehended in "returning light" (*or chozer*) or "the reversing light" (*mit'hapekh*), and its cause; and there, the Mishnah of Sefer Yetzirah, "male in Aleph-Mem-Shin, female in Aleph-Shin-Mem."
+3. Explanation of the essence apprehended in "returning light" (*or chozer*) or "the reversing light" (*mit'hapekh*), and its cause; and there, the Mishnah of Sefer Yetzirah, "male in Aleph-Mem-Shin, female in Aleph-Shin-Mem."
 4. Explanation of the reversing light from a statement of Sefer ha-Bahir, "from above to below we know," etc.; and there it is explained that this matter is found not only in some sefirot but even within a single sefirah.
 5. Explanation of the Name filled with yods (*milui yudin*) in Keter and the filling with alephs (*milui alefin*); and that even within a single sefirah the secret of returning light is found, even from one part of it to another.
 
@@ -258,22 +258,22 @@ We named it **"The Thigh of Jacob"** because in it is explained the matter menti
 
 ---
 
-## Gate 18 — "The Diminution of the Moon" (*Mi'ut ha-Yare'ach*)
+## Gate 18 — "The Diminishment of the Moon" (*Mi'ut ha-Yare'ach*)
 
-We named it **"The Diminution of the Moon"** because in it is explained the diminishing of the supernal Moon, and the reality of the emanation of Tiferet and Malkhut. Its chapters number six.
+We named it **"The Diminishment of the Moon"** because in it is explained the diminishing of the supernal Moon, and the reality of the emanation of Tiferet and Malkhut. Its chapters number six.
 
 1. Citation of the statement from Tractate Chullin, "Rabbi Shimon said," with all the commentators' views on the matter cited there.
 2. Citation of two statements that dispute one another, both together disputing the statement of the previous chapter: the statement of Song of Songs, "and God created the two luminaries," etc., and the statement of the *Ra'aya Mehemna*, "and on your new moons" — without notes on the statement itself.
 3. Explanation of the emanation of Malkhut from Tiferet at the beginning of its emanation; and there, a statement from Sefer ha-Bahir, "the light preceded the world."
-4. Explanation that the "cutting apart" (*nesirah*) of Adam and Eve is not the diminution, as many have thought; and there, a statement from Parashat Acharei Mot, "she conceived... in love."
-5. Explanation of the diminution of the Moon, from within which the preceding statements are explained; and there, the first statement of the first chapter.
-6. Explanation and emendation of the two statements of the second chapter; and there, further, the diminution, the reason for it, the matter of the accusation (*kitrug*) within Atzilut, the matter of Malkhut's union — through whom — and who will be with it after its ascent on high.
+4. Explanation that the "cutting apart" (*nesirah*) of Adam and Eve is not the diminishment, as many have thought; and there, a statement from Parashat Acharei Mot, "she conceived... in love."
+5. Explanation of the diminishment of the Moon, from within which the preceding statements are explained; and there, the first statement of the first chapter.
+6. Explanation and emendation of the two statements of the second chapter; and there, further, the diminishment, the reason for it, the matter of the accusation (*kitrug*) within Atzilut, the matter of Malkhut's union — through whom — and who will be with it after its ascent on high.
 
 ---
 
 ## Gate 19 — "The Four-Letter Name" (*Ben Daled* — the Tetragrammaton)
 
-We named it **"The Four-Letter Name"** because in it is explained the four-letter Name, designated by the Kabbalists the "Name of the Essence" (*shem ha-etzem*), whose sanctity is distinct from that of the other names. Its chapters number four.
+We named it **"The Four-Letter Name"** because in it is explained the four-letter Name, designated by the Kabbalists the "Name of the self" (*shem ha-etzem*), whose sanctity is distinct from that of the other names. Its chapters number four.
 
 1. Explanation of the superiority of the four-letter Name over the other names, for three reasons; and there, the matter of pronouncing the Name as written, in the Temple.
 2. Explanation that the four-letter Name comprises all of Atzilut; and there, the Name in its progressive ascent — Yod; Yod-Heh; Yod-Heh-Vav; Yod-Heh-Vav-Heh — comprising Atzilut; the Name filled with yods, with alephs, with hehs, and in the very forms of the letters; and there, the matter of the four arrays of the four letters.
@@ -286,7 +286,7 @@ We named it **"The Four-Letter Name"** because in it is explained the four-lette
 
 We named it **"The Gate of the Names"** because in it is explained the remainder of the names that may not be erased. Its chapters number thirteen.
 
-1. The difference between the four-letter Name in Tiferet and the four-letter Name that is the Name of the Essence; and there, four-letter Names for each sefirah, one Name for them all, and the names that may not be erased; the name Ehyeh in Keter and the four-letter Name in Tiferet, with Keter ascending over Tiferet; and there we cite the words of *Sha'arei Orah*, explain them, and object to them.
+1. The difference between the four-letter Name in Tiferet and the four-letter Name that is the Name of the self; and there, four-letter Names for each sefirah, one Name for them all, and the names that may not be erased; the name Ehyeh in Keter and the four-letter Name in Tiferet, with Keter ascending over Tiferet; and there we cite the words of *Sha'arei Orah*, explain them, and object to them.
 2. Explanation of the name Ehyeh in Keter; and there, a statement from the Zohar, Parashat Acharei Mot, "Said... if it pleases my Father."
 3. Explanation of the name Yah in Chokhmah; and there, the matter of the *Shin-Dalet* of "Shaddai" and the *Tzadi-Bet* of "Tzeva'ot," which may be erased, etc.
 4. Explanation of the four-letter Name with the vocalization of "Elohim"; and there, the two sheaths of the Name — one *heh* for judgment, one *heh* for mercy — and why the judgment-sheath is in Binah and the mercy-sheath in Malkhut.
@@ -302,9 +302,9 @@ We named it **"The Gate of the Names"** because in it is explained the remainder
 
 ---
 
-## Gate 21 — "The Particular Names" (*Pratei ha-Shemot*)
+## Gate 21 — "The Particulars of the Names" (*Pratei ha-Shemot*)
 
-We named it **"The Particular Names"** because in it is explained the names assigned to the sefirot — the 72-Name, the 42-Name, the 22-Name, the 12-Name, the four-letter Name, and the twelve permutations (*havayot*). Its chapters number sixteen.
+We named it **"The Particulars of the Names"** because in it is explained the names assigned to the sefirot — the 72-Name, the 42-Name, the 22-Name, the 12-Name, the four-letter Name, and the twelve permutations (*havayot*). Its chapters number sixteen.
 
 1. Introducing the matter of the names and their spirituality; and there we cite the words of *Sefer Or ha-Sekhel* on the cycling (*gilgul*) of the four-letter Name with the alphabet; and there, an explanation of the four-letter Name.
 2. Citation of the words of the author of *Ma'arekhet Elohut* (*Elohim Chayyim*) on the cycling of the Name with the alphabet, and what we noted upon them.
@@ -327,7 +327,7 @@ We named it **"The Particular Names"** because in it is explained the names assi
 
 ## Gate 22 — "The Gate of the Allusions" (*Sha'ar ha-Kinnuyim*)
 
-We named it **"The Gate of the Allusions"** because in it is explained the matter of the allusions (*kinnuyim*), the reason for their multiplicity, what they are and their nature; and further, the matter of the human being as a chariot (*merkavah*) for the sefirot. Its chapters number four.
+We named it **"The Gate of the Allusions"** because in it is explained the matter of the allusions (*kinnuyim*), the reason for their multiplicity, what they are and their essence; and further, the matter of the human being as a chariot (*merkavah*) for the sefirot. Its chapters number four.
 
 1. Explanation of the matter in saying "eye," "hand," "foot," "ear" with respect to the Godhead — from which aspect each is attributed and in what manner.
 2. Citation of the words of *Sefer ha-Orah* on revealing the reason for the multiplicity of allusions according to the multitude of aspects.
@@ -338,7 +338,7 @@ We named it **"The Gate of the Allusions"** because in it is explained the matte
 
 ## Gate 23 — "The Values of the Allusions" (*Erkhei ha-Kinnuyim*)
 
-We named it **"The Values of the Allusions"** — a sufficient treatment for explaining most of what is found in the Book of the Zohar, for these are essential. Its chapters number twenty-three. *[The printing lists twenty-two chapters, one per letter Aleph through Tav; the stated count of twenty-three appears to be a discrepancy in this edition. Each chapter contains a dictionary-like listing of the Zohar's allusion terminology starting with that letter.]*
+We named it **"The Values of the Allusions"** — a sufficient treatment for explaining most of what is found in the Book of the Zohar, for these are the principal ones. Its chapters number twenty-three. *[The printing lists twenty-two chapters, one per letter Aleph through Tav; the stated count of twenty-three appears to be a discrepancy in this edition. Each chapter contains a dictionary-like listing of the Zohar's allusion terminology starting with that letter.]*
 
 1. On the entry for the letter Aleph.
 2. On the entry for the letter Bet.
@@ -418,7 +418,7 @@ We named it **"The Palaces of the Substitutions"** because, just as holiness has
 
 ## Gate 27 — "The Gate of the Letters" (*Sha'ar ha-Otiyot*)
 
-We named it **"The Gate of the Letters"** because in it is explained the matter of the twenty-two letters in general and in particular. Its chapters number twenty-seven. *[In this printing the chapter numbering omits a Dalet entry and skips chapter 8, evidently a typographical error; the numbering below follows the printed edition.]*
+We named it **"The Gate of the Letters"** because in it is explained the matter of the twenty-two letters in general and in particular. Its chapters number twenty-seven. *[The printed index omits the entry for the letter Dalet and passes from "chapter 7" (Heh) to "chapter 9" (Vav), although it states the count as twenty-seven. In the body, chapter 7 treats Dalet and chapter 8 treats Heh; the Dalet entry is supplied here in brackets and Heh is numbered 8, so that the list matches the chapters.]*
 
 1. Explanation of the sanctity of the Torah and the four divisions among those who study it — all of them holy — and within them, the Divine Name.
 2. Explanation of the spirituality of the letters and their recognition.
@@ -426,7 +426,8 @@ We named it **"The Gate of the Letters"** because in it is explained the matter 
 4. Explanation of the letter Aleph.
 5. Explanation of the letter Bet.
 6. Explanation of the letter Gimel.
-7. Explanation of the letter Heh.
+7. [Explanation of the letter Dalet.]
+8. Explanation of the letter Heh.
 9. Explanation of the letter Vav.
 10. Explanation of the letter Zayin.
 11. Explanation of the letter Chet.
