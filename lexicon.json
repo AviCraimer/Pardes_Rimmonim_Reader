@@ -2206,12 +2206,26 @@
    "headword": "פַּרְסָא",
    "transliteration": "parsa",
    "partOfSpeech": "noun",
-   "notes": "Curtain/screen. In the Idra de-Nazir (5:4:3-5:4:4) the parsa Keter spreads before itself = Chokhmah, glossed פרוכת ומסך ('veil and screen') that conceals Keter; on it the 'measure of kings' is engraved.",
+   "notes": "Curtain/screen. In the Idra de-Nazir (5:4:3-5:4:4) the parsa Keter spreads before itself = Chokhmah, glossed פרוכת ומסך ('veil and screen') that conceals Keter; on it the 'measure of kings' is engraved. | RULED (Avi, 2026-10-07): פרסא = 'hanging', with '[parsa]' at the first use in a gate. Root פרס 'spread'; Onkelos uses פרסא for Hebrew מסך, the hanging at the door of the Tabernacle (Exod 26:36). 12 paragraphs: Gate 5 (translated, converted) and Gate 11 ch.6 (there the hanging is Keter: 'the light of the hanging'). Word map now: יריעה = curtain (or parchment), פרסא = hanging, מסך = screen, פרוכת = veil, פרגוד = 'the Curtain (pargod)' at 1:7:2, פרסאות = parasangs.",
    "candidates": [
     {
-     "target": "curtain",
+     "target": "hanging",
+     "gloss": "a cloth spread before something; in the Idra, the one Keter spreads before itself",
      "status": "preferred",
-     "contextNotes": "the screen veiling Keter (=Chokhmah).",
+     "contextNotes": "'[parsa]' in brackets at the first use in a gate. A hanging can take a design: 'and on it He engraved…'.",
+     "decisions": [
+      {
+       "section": "5:4:3-5:5:3",
+       "surfaceForm": "פרסא / בההוא פרסא",
+       "rationale": "Avi: 'hanging' — frees 'curtain' for יריעה, and a hanging is something that takes a design; eight Gate-5 sites converted",
+       "timestamp": "2026-10-07T19:20:00Z"
+      }
+     ]
+    },
+    {
+     "target": "curtain",
+     "status": "rejected",
+     "contextNotes": "Superseded 2026-10-07 by 'hanging' (Avi): 'curtain' is kept for יריעה.",
      "decisions": [
       {
        "section": "5:4:3",
@@ -2224,19 +2238,19 @@
     {
      "target": "veil and screen",
      "gloss": "for פרוכת ומסך",
-     "status": "preferred",
-     "contextNotes": "Cordovero's gloss on parsa.",
+     "status": "acceptable",
+     "contextNotes": "Cordovero's gloss of parsa (פרוכת ומסך), not a rendering of the word itself.",
      "decisions": []
     }
    ],
-   "readerNote": "In the Idra, the curtain that Keter spreads before itself. Cordovero identifies it with Chokhmah: a veil and screen that hides Keter.",
-   "readerGloss": "curtain",
+   "readerNote": "A cloth spread out as a hanging. In the Idra, Keter spreads a hanging before itself and engraves on it; Cordovero identifies it with Chokhmah, a veil and screen that hides Keter.",
+   "readerGloss": "hanging",
    "surfaceForms": {
     "פרסא": {
-     "readerGloss": "curtain"
+     "readerGloss": "hanging"
     },
     "פריס קמיה חד פרסא": {
-     "readerGloss": "He spread before Him a curtain"
+     "readerGloss": "He spread before Him a hanging"
     }
    }
   },
@@ -4087,13 +4101,13 @@
    "headword": "מַטְרוֹנִיתָא",
    "transliteration": "Matronita",
    "partOfSpeech": "noun",
-   "notes": "Zoharic name for Malkhut / the Shekhinah as the King's consort (from Latin matrona). First occurrence in the book is 7:3:5. PROVISIONAL (question put to Avi 2026-10-07): transliterate 'the Matronita', with the gloss '(the Lady)' at first use only. | CORDOVERO'S OWN ENTRY (23:13:36): 'Matronita: Beriah — it is the Throne explained in the Gate of ABYA — and it is called Matronita because it guards the garden [play on Aramaic נטר, to guard]. And sometimes Malkhut of Atzilut is also called Matronita, which means גיברת [mistress], and Beriah is the handmaid.' So: גבירה / גיברת = 'mistress' (the gevirah-handmaid pair; never 'lady'), מלכה = 'queen' (23:13:109 has מלכה, גבירתה and מטרוניתא in one sentence, so all three need different English), שפחה / אמה = 'handmaid'. מלכא ומטרוניתא = 'the King and the Matronita'; בעלה דמטרוניתא = 'the husband of the Matronita' (Jacob / Tiferet). 23 paragraphs in the book (Gates 7, 8, 16, 22, 23, 24, 27). English options weighed with Avi 2026-10-07: Lady (free), Queen (collides with מלכה), Mistress (needed for גבירה; wrong modern overtone), Matron (wrong overtone), Consort (used for לויה at 1:1:10).",
+   "notes": "Zoharic name for Malkhut / the Shekhinah as the King's consort (from Latin matrona). First occurrence in the book is 7:3:5. PROVISIONAL (question put to Avi 2026-10-07): transliterate 'the Matronita', with the gloss '(the Lady)' at first use only. | CORDOVERO'S OWN ENTRY (23:13:36): 'Matronita: Beriah — it is the Throne explained in the Gate of ABYA — and it is called Matronita because it guards the garden [play on Aramaic נטר, to guard]. And sometimes Malkhut of Atzilut is also called Matronita, which means גיברת [mistress], and Beriah is the handmaid.' So: גבירה / גיברת = 'mistress' (the gevirah-handmaid pair; never 'lady'), מלכה = 'queen' (23:13:109 has מלכה, גבירתה and מטרוניתא in one sentence, so all three need different English), שפחה / אמה = 'handmaid'. מלכא ומטרוניתא = 'the King and the Matronita'; בעלה דמטרוניתא = 'the husband of the Matronita' (Jacob / Tiferet). 23 paragraphs in the book (Gates 7, 8, 16, 22, 23, 24, 27). English options weighed with Avi 2026-10-07: Lady (free), Queen (collides with מלכה), Mistress (needed for גבירה; wrong modern overtone), Matron (wrong overtone), Consort (used for לויה at 1:1:10). | RULED (Avi, 2026-10-07): 'the Lady' — reads better, unambiguous, right connotations. Bracketed '[Matronita]' at the FIRST use in a gate only (needed for Cordovero's 'guards the garden' wordplay in Gate 23). Never 'lady' for גבירה (that is 'mistress').",
    "candidates": [
     {
      "target": "the Matronita",
      "gloss": "the Lady, the King's consort: Malkhut",
-     "status": "preferred",
-     "contextNotes": "Transliterated like the partzuf-names; gloss '(the Lady)' at first use.",
+     "status": "rejected",
+     "contextNotes": "Superseded as the rendering; survives only as the bracketed transliteration at first use in a gate.",
      "decisions": [
       {
        "section": "7:3:5, 7:4:3-5",
@@ -4105,24 +4119,39 @@
     },
     {
      "target": "the Matron / the Lady / the Queen",
-     "status": "acceptable",
-     "contextNotes": "Alternatives offered to Avi."
+     "status": "rejected",
+     "contextNotes": "Superseded: 'the Lady' chosen; Matron and Queen rejected (overtone; collision with מלכה).",
+     "decisions": []
+    },
+    {
+     "target": "the Lady",
+     "gloss": "the King's wife: Malkhut, the Shekhinah",
+     "status": "preferred",
+     "contextNotes": "Avi's ruling. '[Matronita]' in brackets at first use in a gate.",
+     "decisions": [
+      {
+       "section": "7:3:5, 7:4:3-5",
+       "surfaceForm": "מטרוניתא / למטרוניתא / דמטרוניתא",
+       "rationale": "Avi: plain English preferred where unambiguous and right in connotation",
+       "timestamp": "2026-10-07T19:00:00Z"
+      }
+     ]
     }
    ],
-   "readerNote": "'The Lady' (from Latin matrona, a married woman of rank): in the Zohar the King's wife, that is, Malkhut, the Shekhinah. In Gate 23 Cordovero explains it as 'mistress', in contrast to the handmaid, and notes that the name is also given to the world of Beriah, 'because it guards the garden.'",
-   "readerGloss": "the Matronita (the Lady)"
+   "readerNote": "Matronita, 'the Lady' (from Latin matrona, a married woman of rank): in the Zohar the King's wife, that is, Malkhut, the Shekhinah. In Gate 23 Cordovero explains it as 'mistress', in contrast to the handmaid, and notes that the name is also given to the world of Beriah, 'because it guards the garden.'",
+   "readerGloss": "the Lady"
   },
   "סטר-אחרא": {
    "headword": "סִטְרָא אָחֳרָא",
    "transliteration": "Sitra Achra",
    "partOfSpeech": "noun",
-   "notes": "'The Other Side', the realm of impurity and the husks. One earlier use (3:7:7) reads 'the Sitra Achra'. PROVISIONAL (question put to Avi 2026-10-07): keep 'the Sitra Achra', adding '(the Other Side)' at the first use in a gate. Related Hebrew: כחות הטומאה = 'the powers of impurity'; כתות מסאבותא = 'the bands of impurity'; החצונים = 'the outer ones'.",
+   "notes": "'The Other Side', the realm of impurity and the husks. One earlier use (3:7:7) reads 'the Sitra Achra'. PROVISIONAL (question put to Avi 2026-10-07): keep 'the Sitra Achra', adding '(the Other Side)' at the first use in a gate. Related Hebrew: כחות הטומאה = 'the powers of impurity'; כתות מסאבותא = 'the bands of impurity'; החצונים = 'the outer ones'. | 2026-10-07: following Avi's principle for Matronita (plain English where unambiguous and right in connotation), now 'the Other Side', capitalised, with '[Sitra Achra]' in brackets at the first use in a gate; the one earlier site (3:7:7) conformed. Reported to Avi; revert if he prefers the transliteration.",
    "candidates": [
     {
      "target": "the Sitra Achra",
      "gloss": "the Other Side: the realm of impurity",
-     "status": "preferred",
-     "contextNotes": "Gloss '(the Other Side)' at first use in a gate.",
+     "status": "rejected",
+     "contextNotes": "Superseded as the rendering; survives only as the bracketed transliteration at first use in a gate.",
      "decisions": [
       {
        "section": "7:4:6-7",
@@ -4134,12 +4163,21 @@
     },
     {
      "target": "the Other Side",
-     "status": "acceptable",
-     "contextNotes": "Alternative offered to Avi."
+     "status": "preferred",
+     "contextNotes": "Capitalised; '[Sitra Achra]' at first use in a gate. Keep apart from lower-case 'another side' (צד אחר).",
+     "decisions": [
+      {
+       "section": "3:7:7, 7:4:6-7",
+       "surfaceForm": "סטרא אחרא / מסטרא אחרא",
+       "rationale": "same principle as 'the Lady'",
+       "timestamp": "2026-10-07T19:00:00Z"
+      }
+     ],
+     "gloss": "the realm of impurity"
     }
    ],
-   "readerNote": "The realm of impurity, opposed to the side of holiness.",
-   "readerGloss": "the Sitra Achra (the Other Side)"
+   "readerNote": "Sitra Achra, 'the Other Side': the realm of impurity, opposed to the side of holiness.",
+   "readerGloss": "the Other Side"
   },
   "מים-נוקבין": {
    "headword": "מַיִּין נוּקְבִין / מַיִּין דְּכוּרִין",

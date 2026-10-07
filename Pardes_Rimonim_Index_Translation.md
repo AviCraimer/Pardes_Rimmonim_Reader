@@ -76,7 +76,7 @@ We named it **"The Order of the Emanation"** because in it is explained, regardi
 1. Explanation of the view of the Geonim who say the sefirot were emanated in their order, and the necessity for their intention from Scripture and from reasoning.
 2. Explanation of the statement "open for me" (*pitchi li*) of Rashbi from the Tikkunim; and there the reason is explained why Yesod sometimes precedes Netzach and Hod.
 3. Explanation of the commentators' view on the order of emanation, and the raising of objections against them.
-4. Explanation that the existents cannot be revealed through Keter, nor through Chokhmah; and there the statement in the Idra of the Nazir is explained — "it was taught: the Ancient of the ancients, the hidden of the hidden," the opening of the Idra — and likewise the statement "before the creation of the world, He and His Name alone existed."
+4. Explanation that the existents cannot be revealed through Keter, nor through Chokhmah; and there the statement in the Idra de-Nazir is explained — "it is taught: the Ancient of Ancients, the Concealed of the Concealed," the opening of the Idra — and likewise the statement "before the creation of the world, He and His Name alone existed."
 5. Explanation of the emanation of the first three sefirot and several aspects of emanation — how many times each sefirah emanated to another in kinds of manifestation — and the four arrays of the sefirot in Chokhmah, Binah, Tiferet, and Malkhut; and one statement of the Zohar, "You made them all with wisdom."
 6. Explanation of the order of emanation of the remaining sefirot, and the reconciliation of all the views.
 
