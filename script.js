@@ -36,25 +36,53 @@
     }
 
     // ---- lexicon surface-form map ----
+    // Each surface form resolves to ONE lexicon entry. When several entries claim
+    // the same form, the more deliberate claim wins: aliases.json (3) > a key of
+    // an entry's `surfaceForms` (2) > a form logged in a decision (1). Between
+    // equal claims the later entry wins.
     const FORM_MAP = new Map(); // surfaceForm string → entry key
+    const FORM_RANK = new Map(); // surfaceForm string → rank of the winning claim
+    function claimForm(form, key, rank) {
+        const f = (form || "").trim();
+        if (!f) return;
+        if (rank >= (FORM_RANK.get(f) || 0)) {
+            FORM_MAP.set(f, key);
+            FORM_RANK.set(f, rank);
+        }
+    }
+
+    // The reader-facing rendering recorded for one particular form, if any.
+    function formGloss(entry, form) {
+        const sf = entry.surfaceForms && entry.surfaceForms[form];
+        return (sf && (sf.readerGloss || sf.prefer)) || "";
+    }
+
     for (const [key, entry] of Object.entries(LEX.entries)) {
-        if (entry.candidates) {
+        if (entry.public === false) continue;
+        // Forms the lexicon asks us never to highlight for this entry
+        // (ambiguous everyday words, e.g. עלה "cause" vs. "went up").
+        const hidden = new Set(entry.hideForms || []);
+        // A "cluster" entry groups unrelated names and idioms. Its popup is
+        // headed by the clicked form, so only forms that carry their own
+        // rendering are highlighted, and its decision log is not used.
+        const isCluster = entry.cluster === true;
+
+        if (!isCluster && entry.candidates) {
             for (const cand of entry.candidates) {
-                if (cand.decisions) {
-                    for (const dec of cand.decisions) {
-                        if (dec.surfaceForm) {
-                            for (const form of dec.surfaceForm.split(" / ")) {
-                                const f = form.trim();
-                                if (f) FORM_MAP.set(f, key);
-                            }
-                        }
+                for (const dec of cand.decisions || []) {
+                    if (!dec.surfaceForm) continue;
+                    for (const form of dec.surfaceForm.split(" / ")) {
+                        const f = form.trim();
+                        if (f && !hidden.has(f)) claimForm(f, key, 1);
                     }
                 }
             }
         }
         if (entry.surfaceForms) {
             for (const sf of Object.keys(entry.surfaceForms)) {
-                FORM_MAP.set(sf, key);
+                if (hidden.has(sf)) continue;
+                if (isCluster && !formGloss(entry, sf)) continue;
+                claimForm(sf, key, 2);
             }
         }
     }
@@ -70,16 +98,18 @@
                 continue;
             }
             const forms = (spec && spec.forms) || [];
-            for (const form of forms) {
-                const f = (form || "").trim();
-                if (f) FORM_MAP.set(f, key);
-            }
+            for (const form of forms) claimForm(form, key, 3);
         }
     }
 
     // Split forms: multi-word phrases stay substring-matched (long & distinctive);
     // single-word forms go through boundary-aware token matching to avoid matching
     // inside unrelated words (e.g. קו inside מקום).
+    // Whole Hebrew tokens that must never be highlighted, however they would
+    // otherwise resolve (e.g. כדין "then", which looks like כ + דין "judgment").
+    // Optional top-level list in lexicon.json.
+    const SKIP_TOKENS = new Set(LEX.skipTokens || []);
+
     const PHRASE_FORMS = [];
     const WORD_FORMS = new Map();
     for (const [form, key] of FORM_MAP) {
@@ -93,23 +123,23 @@
     const PREFIX_SET = new Set(["ו", "ה", "ב", "כ", "ל", "מ", "ש", "ד"]);
     const SUFFIXES = ["ים", "ות", "יו", "יה", "נו", "כם", "הם", "ין", "י", "ך", "ה", "ת"];
 
-    // Resolve a single Hebrew word token to a lexicon entry key, allowing up to two
+    // Resolve a single Hebrew word token to a lexicon entry, allowing up to two
     // stacked proclitic prefixes and one inflectional suffix. Whole-token / longest
-    // stem is tested first so the longest legitimate form wins.
+    // stem is tested first so the longest legitimate form wins. Returns
+    // { key, form } — `form` is the lexicon form that matched — or null.
     function lookupToken(token) {
-        if (WORD_FORMS.has(token)) return WORD_FORMS.get(token);
+        const hit = (form) => ({ key: WORD_FORMS.get(form), form });
+        if (WORD_FORMS.has(token)) return hit(token);
         for (let p = 0; p <= 2; p++) {
             const prefix = token.slice(0, p);
             if (p > 0 && ![...prefix].every((ch) => PREFIX_SET.has(ch))) break;
             const rest = token.slice(p);
             if (rest.length < 2) continue;
-            if (WORD_FORMS.has(rest)) return WORD_FORMS.get(rest);
+            if (WORD_FORMS.has(rest)) return hit(rest);
             for (const suf of SUFFIXES) {
                 if (rest.length > suf.length + 1 && rest.endsWith(suf)) {
                     const stem = rest.slice(0, rest.length - suf.length);
-                    if (stem.length >= 2 && WORD_FORMS.has(stem)) {
-                        return WORD_FORMS.get(stem);
-                    }
+                    if (stem.length >= 2 && WORD_FORMS.has(stem)) return hit(stem);
                 }
             }
         }
@@ -122,7 +152,7 @@
     const HEB_WORD_RE = /[א-ת׳״"']+/g;
 
     // Compute highlight ranges for one text-node string. Returns sorted,
-    // non-overlapping [{start, end, entryKey}].
+    // non-overlapping [{start, end, entryKey, form}].
     function computeRanges(text) {
         const ranges = [];
         const taken = (s, e) => ranges.some((r) => s < r.end && e > r.start);
@@ -133,7 +163,7 @@
             while ((idx = text.indexOf(form, idx)) !== -1) {
                 const end = idx + form.length;
                 if (!taken(idx, end)) {
-                    ranges.push({ start: idx, end, entryKey: FORM_MAP.get(form) });
+                    ranges.push({ start: idx, end, entryKey: FORM_MAP.get(form), form });
                 }
                 idx = end;
             }
@@ -146,8 +176,9 @@
             const start = m.index;
             const end = start + m[0].length;
             if (taken(start, end)) continue;
-            const key = lookupToken(m[0]);
-            if (key) ranges.push({ start, end, entryKey: key });
+            if (SKIP_TOKENS.has(m[0])) continue;
+            const hit = lookupToken(m[0]);
+            if (hit) ranges.push({ start, end, entryKey: hit.key, form: hit.form });
         }
 
         ranges.sort((a, b) => a.start - b.start);
@@ -182,6 +213,7 @@
                 const span = document.createElement("span");
                 span.className = "lex-mark";
                 span.dataset.lex = r.entryKey;
+                span.dataset.form = r.form;
                 span.textContent = text.slice(r.start, r.end);
                 frag.appendChild(span);
                 cursor = r.end;
@@ -197,6 +229,39 @@
     const popup = document.getElementById("lex-popup");
     let activeMarkEl = null;
 
+    function el(tag, cls, text) {
+        const node = document.createElement(tag);
+        node.className = cls;
+        node.textContent = text;
+        return node;
+    }
+
+    // Which English rendering to show for the clicked form:
+    //  1. the form's own rendering (surfaceForms[form].readerGloss, else .prefer);
+    //  2. the sense under which the form is logged, when that is not the
+    //     entry's main sense (e.g. "parchment" beside the main sense "curtain");
+    //  3. the entry's readerGloss;
+    //  4. the entry's first preferred candidate.
+    function resolveRendering(entry, form) {
+        const cands = entry.candidates || [];
+        const first = cands.find((c) => c.status === "preferred") || null;
+        const own = formGloss(entry, form);
+        if (own) return { target: own, gloss: "" };
+        const logged = cands.find(
+            (c) =>
+                c.status !== "rejected" &&
+                (c.decisions || []).some((d) =>
+                    (d.surfaceForm || "").split(" / ").some((f) => f.trim() === form)
+                )
+        );
+        if (logged && logged !== first) {
+            return { target: logged.target, gloss: logged.gloss || "" };
+        }
+        if (entry.readerGloss) return { target: entry.readerGloss, gloss: "" };
+        if (first) return { target: first.target, gloss: first.gloss || "" };
+        return { target: "", gloss: "" };
+    }
+
     function showPopup(lexSpan) {
         if (!popup.hidden && activeMarkEl === lexSpan) {
             dismissPopup();
@@ -204,21 +269,32 @@
         }
         activeMarkEl = lexSpan;
         const key = lexSpan.dataset.lex;
+        const form = lexSpan.dataset.form || "";
         const entry = LEX.entries[key];
         if (!entry) return;
-        const pref = entry.candidates && entry.candidates.find((c) => c.status === "preferred");
 
-        popup.innerHTML =
-            '<div class="lex-popup-head">' +
-            '<span class="lex-hw">' + entry.headword + "</span>" +
-            '<span class="lex-tl">' + entry.transliteration + "</span>" +
-            '<span class="lex-pos">' + entry.partOfSpeech + "</span>" +
-            "</div>" +
-            '<div class="lex-popup-body">' +
-            (pref ? '<div class="lex-target">' + pref.target + "</div>" : "") +
-            (pref && pref.gloss ? '<div class="lex-gloss">' + pref.gloss + "</div>" : "") +
-            (entry.notes ? '<div class="lex-notes">' + entry.notes + "</div>" : "") +
-            "</div>";
+        const sf = (entry.surfaceForms && entry.surfaceForms[form]) || {};
+        const rendering = resolveRendering(entry, form);
+        // Only the reader-facing note is ever shown. `entry.notes` is the
+        // translator's working record and stays out of the popup.
+        const note = sf.readerNote || entry.readerNote || "";
+
+        popup.textContent = "";
+        const head = el("div", "lex-popup-head", "");
+        if (entry.cluster) {
+            head.appendChild(el("span", "lex-hw", form));
+        } else {
+            head.appendChild(el("span", "lex-hw", entry.headword || form));
+            const tl = entry.transliteration;
+            if (tl && tl !== "—") head.appendChild(el("span", "lex-tl", tl));
+            if (entry.partOfSpeech) head.appendChild(el("span", "lex-pos", entry.partOfSpeech));
+        }
+        const body = el("div", "lex-popup-body", "");
+        if (rendering.target) body.appendChild(el("div", "lex-target", rendering.target));
+        if (rendering.gloss && !note) body.appendChild(el("div", "lex-gloss", rendering.gloss));
+        if (note) body.appendChild(el("div", "lex-notes", note));
+        popup.appendChild(head);
+        popup.appendChild(body);
 
         const rect = lexSpan.getBoundingClientRect();
         const popW = 320;

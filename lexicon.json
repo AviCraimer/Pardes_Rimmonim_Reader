@@ -35,7 +35,20 @@
      "status": "rejected",
      "contextNotes": "Loses the noun ('the mediator') and the spatial 'between the extremities' imagery."
     }
-   ]
+   ],
+   "readerNote": "The Sefirah that stands between two opposed sides and balances them. Tiferet mediates between Chesed and Gevurah, and Yesod between Netzach and Hod.",
+   "readerGloss": "mediator; to mediate",
+   "surfaceForms": {
+    "ההכרעה": {
+     "readerGloss": "the mediation"
+    },
+    "מכריען אל הימין": {
+     "readerGloss": "mediates them toward the right"
+    },
+    "המזיגה וההכרעה": {
+     "readerGloss": "the blending and the mediation"
+    }
+   }
   },
   "בלם": {
    "headword": "בְּלִימָה",
@@ -68,12 +81,19 @@
      "status": "acceptable",
      "contextNotes": "Common rendering; usable as a parenthetical gloss but not in place of the transliteration here."
     }
-   ]
+   ],
+   "readerNote": "Sefer Yetzirah's word for the Sefirot: 'ten Sefirot of belimah.' It is left untranslated in quotations and is often understood as 'nothingness' or 'restraint.' Cordovero reads it as two words, beli mah, 'without what': without an essence that can be grasped.",
+   "readerGloss": "belimah",
+   "surfaceForms": {
+    "בלי מה": {
+     "readerGloss": "without what"
+    }
+   }
   },
   "עמד-אמצע": {
    "headword": "עַמּוּדָא דְאֶמְצָעִיתָא",
    "transliteration": "amuda de-emtza'ita",
-   "partOfSpeech": "noun-phrase (Aramaic)",
+   "partOfSpeech": "noun-phrase",
    "notes": "Aramaic name for Tiferet as the balancing central axis. Also Heb. קו האמצעי.",
    "candidates": [
     {
@@ -95,7 +115,8 @@
      "status": "acceptable",
      "contextNotes": "Used for Hebrew קו האמצעי."
     }
-   ]
+   ],
+   "readerNote": "Aramaic name for Tiferet as the middle axis of the Tree, between the right side (Chesed) and the left (Gevurah)."
   },
   "שפע": {
    "headword": "שֶׁפַע",
@@ -122,7 +143,14 @@
      "status": "acceptable",
      "contextNotes": "Acceptable variant where 'effluence' reads heavily."
     }
-   ]
+   ],
+   "readerNote": "The divine abundance that flows down from the Ein Sof through the Sefirot, and from each Sefirah to the one below it.",
+   "readerGloss": "effluence",
+   "surfaceForms": {
+    "להשפיע": {
+     "readerGloss": "to pour forth effluence"
+    }
+   }
   },
   "ינק": {
    "headword": "יְנִיקָה",
@@ -143,7 +171,14 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "A Sefirah's drawing of effluence from the one above it. The root means 'to suckle.'",
+   "readerGloss": "nourishment",
+   "surfaceForms": {
+    "יונק": {
+     "readerGloss": "draws sustenance"
+    }
+   }
   },
   "בחן-בחינה": {
    "headword": "בְּחִינָה",
@@ -165,7 +200,8 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "A respect or facet under which a Sefirah is considered. One Sefirah has many aspects, according to what it receives and what it gives."
   },
   "מצא-מציאות": {
    "headword": "מְצִיאוּת",
@@ -192,7 +228,14 @@
      "status": "acceptable",
      "contextNotes": "Generic uses (e.g. 'in the existence of yod')."
     }
-   ]
+   ],
+   "readerNote": "Existence, and in Cordovero's technical use a distinct state in which a Sefirah exists: for example, hidden within its source, or revealed in its own place.",
+   "readerGloss": "mode of existence; existence",
+   "surfaceForms": {
+    "שני מציאות": {
+     "readerGloss": "two modes of existence"
+    }
+   }
   },
   "כלל-כליל": {
    "headword": "כָּלוּל",
@@ -230,8 +273,19 @@
     "כלול ב": {
      "notes": "with ב- = contained in another Sefirah (vs כלול מ- 'composed of')",
      "prefer": "included in"
+    },
+    "כלילא מעשר": {
+     "readerGloss": "composed of ten"
+    },
+    "כלול בחבריה": {
+     "readerGloss": "included in its fellow"
+    },
+    "דכליל ימינא בשמאלא": {
+     "readerGloss": "that the right is included in the left"
     }
-   }
+   },
+   "readerNote": "Each Sefirah is made up of all ten and is included in the others. 'Composed of' renders the first idea; 'included in' and 'inclusion' render the second.",
+   "readerGloss": "composed of; included in"
   },
   "ברת-ברית": {
    "headword": "בְּרִית",
@@ -252,7 +306,13 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Covenant; in particular the covenant of circumcision, and so a name for Yesod, the ninth Sefirah.",
+   "surfaceForms": {
+    "ברית יחיד": {
+     "readerGloss": "a single covenant"
+    }
+   }
   },
   "אצבע": {
    "headword": "אֶצְבַּע",
@@ -285,7 +345,9 @@
      "status": "rejected",
      "contextNotes": "Collides with קצוות, already rendered 'extremities'."
     }
-   ]
+   ],
+   "readerNote": "A finger or a toe. 'Digits' is used because Sefer Yetzirah counts ten on the hands and ten on the feet, which 'fingers' cannot cover.",
+   "readerGloss": "digits"
   },
   "אצל-אצילות": {
    "headword": "אֲצִילוּת",
@@ -313,7 +375,17 @@
      "status": "acceptable",
      "contextNotes": "lowercase where clearly the act, not the realm."
     }
-   ]
+   ],
+   "readerNote": "The emergence of the Sefirot from the Ein Sof, and the realm of the Sefirot that emerged. The root means 'beside, near': what is emanated stays close to its source.",
+   "readerGloss": "the Emanation",
+   "surfaceForms": {
+    "מאציל": {
+     "readerGloss": "the Emanator"
+    },
+    "נאצל": {
+     "readerGloss": "the emanated"
+    }
+   }
   },
   "נקד-נקודה": {
    "headword": "נְקֻדָּה",
@@ -364,8 +436,18 @@
       }
      ],
      "decisions": []
+    },
+    "קו": {
+     "readerGloss": "line",
+     "readerNote": "A line. In geometry, the extension of a point; in the Tree of the Sefirot, one of its three columns: right (Chesed), left (Din) and middle (Rachamim)."
+    },
+    "שטח": {
+     "readerGloss": "plane",
+     "readerNote": "A plane or surface: the extension of a line."
     }
-   }
+   },
+   "readerNote": "The geometric point. Gate 2 uses point, line and plane to explain how the Emanation proceeds from what has no dimension.",
+   "readerGloss": "point"
   },
   "גדר-גוף": {
    "headword": "גִּדְרֵי הַגּוּף",
@@ -386,7 +468,8 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Length, breadth and depth, which define a body. They do not apply to the Sefirot; only their root is found there."
   },
   "עלל-עלה": {
    "headword": "עִלָּה / עָלוּל",
@@ -419,7 +502,26 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The pair that orders the whole Emanation: each Sefirah is the effect of the one above it and the cause of the one below. The Ein Sof is called the Cause of all causes.",
+   "readerGloss": "cause; effect",
+   "hideForms": [
+    "עלה"
+   ],
+   "surfaceForms": {
+    "עילה": {
+     "readerGloss": "cause"
+    },
+    "עלול": {
+     "readerGloss": "effect"
+    },
+    "עלת העלות": {
+     "readerGloss": "the Cause of causes"
+    },
+    "סבת הסבות": {
+     "readerGloss": "the Cause of causes"
+    }
+   }
   },
   "אפס-אפיסה": {
    "headword": "אֲפִיסַת הַכֹּחַ",
@@ -445,7 +547,13 @@
      "status": "rejected",
      "contextNotes": "implies depletion/fatigue, wrong for the cause/effect descent."
     }
-   ]
+   ],
+   "readerNote": "Cordovero's reading of 'end' in the point: not an end in space but the place where a power ceases, as 'beginning' is where it begins.",
+   "surfaceForms": {
+    "תחלת הכח": {
+     "readerGloss": "the beginning of power"
+    }
+   }
   },
   "ראש-תוך-סוף": {
    "headword": "רֹאשׁ תּוֹךְ סוֹף",
@@ -466,12 +574,18 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The triad attributed to the point and to each group of three Sefirot. Hebrew often writes it as an acronym.",
+   "surfaceForms": {
+    "סת\"ר": {
+     "readerGloss": "end, middle, beginning"
+    }
+   }
   },
   "שכל-שכליות": {
    "headword": "שִׂכְלִיּוֹת",
    "transliteration": "sikhliyot",
-   "partOfSpeech": "adjective (fem. pl.)",
+   "partOfSpeech": "adjective",
    "notes": "The upper three Sefirot are 'intellective' and are NOT called מדות (attributes); contrast with the seven lower מדות.",
    "candidates": [
     {
@@ -487,7 +601,8 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Said of the three highest Sefirot, which are intellective and are not called 'attributes', unlike the seven below them."
   },
   "כפר-מין": {
    "headword": "כּוֹפֵר / מִין / מְקַצֵּץ בַּנְּטִיעוֹת",
@@ -514,7 +629,20 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Terms for one who denies a principle of faith. 'Cutting among the saplings' is the Talmud's phrase for the apostasy of Elisha ben Abuyah in the Pardes: separating the Sefirot from one another or from their source.",
+   "readerGloss": "heretic; sectarian",
+   "hideForms": [
+    "מין"
+   ],
+   "surfaceForms": {
+    "כופר": {
+     "readerGloss": "heretic"
+    },
+    "מקצץ בנטיעות": {
+     "readerGloss": "one who cuts among the saplings"
+    }
+   }
   },
   "שגח-השגחה": {
    "headword": "הַשְׁגָּחָה",
@@ -535,7 +663,16 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Divine providence. Since the Ein Sof does not change, its care for particular things works through the Sefirot.",
+   "surfaceForms": {
+    "השגחה פרטית": {
+     "readerGloss": "particular providence"
+    },
+    "משגיח": {
+     "readerGloss": "watches over"
+    }
+   }
   },
   "אמר-מאמר": {
    "headword": "מַאֲמָר",
@@ -562,7 +699,14 @@
      "status": "acceptable",
      "contextNotes": "common rendering of Avot 5:1; not used here for consistency."
     }
-   ]
+   ],
+   "readerNote": "A divine creative saying: the world was created with ten utterances, which correspond to the ten Sefirot. The same word also means a passage of the Zohar.",
+   "readerGloss": "utterance; passage",
+   "surfaceForms": {
+    "מאמרות": {
+     "readerGloss": "utterances"
+    }
+   }
   },
   "דבר-דברות": {
    "headword": "דִּבְּרוֹת",
@@ -583,7 +727,13 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The ten pronouncements at Sinai, which Cordovero sets beside the ten utterances of creation.",
+   "surfaceForms": {
+    "דברות": {
+     "readerGloss": "Commandments"
+    }
+   }
   },
   "הלל-הלולים": {
    "headword": "הִלּוּלִים",
@@ -604,12 +754,13 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The ten expressions of praise in Psalm 150, matched to the ten Sefirot."
   },
   "דעת": {
    "headword": "דַּעַת",
    "transliteration": "Da'at",
-   "partOfSpeech": "noun (Sefirah/quasi-Sefirah)",
+   "partOfSpeech": "noun",
    "notes": "Knowledge. R. Shem Tov b. Shem Tov (Sefer ha-Emunot) counts Keter OUT and inserts Da'at (between Chokhmah-Binah and Chesed-Gevurah); Cordovero rejects this, identifying Da'at with the hidden Tiferet (BeN-YaH) uniting Abba and Imma. GATE-3 ch.8 development: Da'at = the CONCEALED/supernal Tiferet (its 'higher mode of existence'), the uniter (zivug) of Chokhmah (Abba) and Binah (Imma); it sits 'between Abba and Imma', above Binah; = BeN-YaH; drawn from Keter via 'the depth of the well'. EXPLICITLY NOT a separate Sefirah (contra R. Shem Tov) — render its independence-claims as Cordovero's rebuttal.",
    "candidates": [
     {
@@ -631,7 +782,9 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Knowledge. Not an eleventh Sefirah: Cordovero identifies it with the hidden aspect of Tiferet that unites Chokhmah and Binah. The word also means simply 'knowledge' or 'opinion.'",
+   "readerGloss": "Da'at (Knowledge)"
   },
   "קלף-קליפה": {
    "headword": "קְלִפָּה",
@@ -668,7 +821,9 @@
      "status": "acceptable",
      "contextNotes": "alt., keeps the technical term."
     }
-   ]
+   ],
+   "readerNote": "The husks are the forces of impurity, which surround holiness as a husk surrounds a fruit.",
+   "readerGloss": "husk"
   },
   "אפריון": {
    "headword": "אַפִּרְיוֹן",
@@ -689,12 +844,13 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The litter that King Solomon made for himself (Song 3:9); in the Zohar, an image of Malkhut."
   },
   "מלכ-מלכיות": {
    "headword": "מַלְכֻיּוֹת / זִכְרוֹנוֹת / שׁוֹפָרוֹת",
    "transliteration": "Malkhuyot / Zikhronot / Shofarot",
-   "partOfSpeech": "noun (liturgical rubrics)",
+   "partOfSpeech": "noun",
    "notes": "The three sections of the Rosh Hashanah Musaf, mapped by Rashbi: Malkhuyot→Malkhut, Zikhronot→Tiferet, Shofarot→Binah. Ten Malkhuyot ↔ ten Sefirot.",
    "candidates": [
     {
@@ -710,7 +866,20 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The three sections of the Rosh Hashanah Musaf prayer, which Rashbi matches to Malkhut, Tiferet and Binah.",
+   "readerGloss": "Kingships; Remembrances; Shofarot",
+   "surfaceForms": {
+    "מלכיות": {
+     "readerGloss": "Kingships (Malkhuyot)"
+    },
+    "זכרונות": {
+     "readerGloss": "Remembrances (Zikhronot)"
+    },
+    "שופרות": {
+     "readerGloss": "Shofarot"
+    }
+   }
   },
   "עקץ-קוץ": {
    "headword": "עוֹקֶץ / קוֹץ",
@@ -731,12 +900,21 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The small projecting stroke of a letter. The thorn of the yod alludes to Keter.",
+   "surfaceForms": {
+    "קוצו": {
+     "readerGloss": "its thorn"
+    },
+    "עוקצה": {
+     "readerGloss": "its thorn"
+    }
+   }
   },
   "אבי-עולמות": {
    "headword": "אֲצִילוּת-בְּרִיאָה-יְצִירָה-עֲשִׂיָּה (אבי\"ע)",
    "transliteration": "Atzilut / Beriah / Yetzirah / Asiyah (ABY\"A)",
-   "partOfSpeech": "noun (the four worlds)",
+   "partOfSpeech": "noun",
    "notes": "The four worlds. As NAMED WORLDS, transliterate-capitalize. GLOSSES (user-corrected): Atzilut = \"Nearness\" (root א-צ-ל = beside/adjacent; cf. אֵצֶל \"next to\", אַצִּיל \"joint/elbow\" Ezek 13:18,41:8 — NOT literally \"emanation\"; the \"emanation\" sense is the secondary verbal use, Num 11:17,25 אצל \"draw off a portion\"). Beriah = \"Creation\", Yetzirah = \"Formation\", Asiyah = \"Action/Making\" (these three ARE literal). Each world itself subdivides into all four. General verbs ברא/יצר/עשה still translate as create/form/make. | 2026-10-07: the acronym is written 'ABYA' everywhere (gate title 'the Gate of ABYA', matching the site index); the 13 older 'ABiYA' / 'ABY\"A' sites were converted.",
    "candidates": [
     {
@@ -758,7 +936,14 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The four worlds: Atzilut (Nearness, or Emanation), Beriah (Creation), Yetzirah (Formation) and Asiyah (Making). Each lower world is a garment to the one above it.",
+   "readerGloss": "Atzilut, Beriah, Yetzirah, Asiyah",
+   "surfaceForms": {
+    "אבי\"ע": {
+     "readerGloss": "ABYA"
+    }
+   }
   },
   "גלגל": {
    "headword": "גַּלְגַּל",
@@ -779,7 +964,16 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "A celestial sphere in the astronomers' model, which Cordovero distinguishes from the Torah's 'firmament.'",
+   "surfaceForms": {
+    "גלגלים": {
+     "readerGloss": "spheres"
+    },
+    "תוכנים": {
+     "readerGloss": "astronomers"
+    }
+   }
   },
   "אור-ישר-חוזר": {
    "headword": "אוֹר יָשָׁר / אוֹר חוֹזֵר",
@@ -800,12 +994,22 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Direct light descends from the source through the Sefirot; returning light is reflected back upward from below.",
+   "readerGloss": "direct light; returning light",
+   "surfaceForms": {
+    "אור ישר": {
+     "readerGloss": "direct light"
+    },
+    "אור חוזר": {
+     "readerGloss": "returning light"
+    }
+   }
   },
   "סי-מבנה": {
    "headword": "Sefer Yetzirah structural terms",
    "transliteration": "—",
-   "partOfSpeech": "noun (technical set)",
+   "partOfSpeech": "noun",
    "notes": "Recurring SY architecture in Gate 3 ch.4-5. Render consistently (Kaplan-standard English).",
    "candidates": [
     {
@@ -821,7 +1025,23 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "A term from Sefer Yetzirah.",
+   "cluster": true,
+   "surfaceForms": {
+    "לב נתיבות": {
+     "readerGloss": "the thirty-two paths",
+     "readerNote": "The twenty-two letters and the ten Sefirot by which, according to Sefer Yetzirah, the world was engraved. They belong to Chokhmah."
+    },
+    "אמש": {
+     "readerGloss": "alef, mem, shin",
+     "readerNote": "The three 'mother' letters of Sefer Yetzirah, which stand for air, water and fire."
+    },
+    "כפולות": {
+     "readerGloss": "doubles",
+     "readerNote": "The seven 'double' letters of Sefer Yetzirah, each with a hard and a soft sound."
+    }
+   }
   },
   "היולי": {
    "headword": "הִיּוּלִי",
@@ -842,7 +1062,9 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The philosophers' formless first matter (Greek hyle), used here of an existence that is still potential and not revealed.",
+   "readerGloss": "hyle (prime matter)"
   },
   "מזל": {
    "headword": "מַזָּלָא",
@@ -863,7 +1085,8 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The supernal flow from Keter. 'Children, life and sustenance depend not on merit but on mazal': that is, not on Chesed but on Keter."
   },
   "צמצם": {
    "headword": "צִמְצֵם",
@@ -890,12 +1113,14 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "To contract or confine. Here it is an ordinary verb (the limitless 'contracts' itself for the sake of the lower beings), not yet the technical tzimtzum of later Kabbalah.",
+   "readerGloss": "contract"
   },
   "פרצופים": {
    "headword": "אריך אנפין / זעיר אנפין / נוקבא / עתיקא קדישא",
    "transliteration": "Arikh Anpin / Zeir Anpin / Nukva / Atika Kadisha",
-   "partOfSpeech": "noun (partzufim)",
+   "partOfSpeech": "noun",
    "notes": "Idra partzuf-names, central in Gate 3 ch.6-8. TRANSLITERATE with gloss on first use (Matt/Tishby standard). Cordovero's mapping here: Arikh Anpin = Keter; Zeir Anpin = the 8 from Chokhmah to Yesod; Nukva de-Zeir Anpin = Malkhut. Atika Kadisha (=Keter/Arikh Anpin, NOT Ein Sof — the whole ch.6 polemic). Gloss style FINALIZED (see candidate).",
    "candidates": [
     {
@@ -917,12 +1142,32 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Names from the Zohar's Idra sections for configurations of the Sefirot pictured as faces.",
+   "readerGloss": "Arikh Anpin; Zeir Anpin; Nukva; Atika Kadisha",
+   "surfaceForms": {
+    "א\"א": {
+     "readerGloss": "Arikh Anpin (the Long Face)",
+     "readerNote": "Keter, pictured as a face of patience and pure mercy."
+    },
+    "ז\"א": {
+     "readerGloss": "Zeir Anpin (the Small Face)",
+     "readerNote": "The Sefirot below Keter down to Yesod, pictured as a lesser face in which judgment appears."
+    },
+    "נוקבא": {
+     "readerGloss": "the Female (Nukva)",
+     "readerNote": "Malkhut, the female counterpart of Zeir Anpin."
+    },
+    "ע\"ק": {
+     "readerGloss": "Atika Kadisha (the Holy Ancient One)",
+     "readerNote": "A name for Keter."
+    }
+   }
   },
   "מוח-ראש": {
    "headword": "מוֹחָא / גֻּלְגַּלְתָּא / דִּיקְנָא",
    "transliteration": "mocha / gulgalta / dikna",
-   "partOfSpeech": "noun (head-anatomy of Arikh/Zeir)",
+   "partOfSpeech": "noun",
    "notes": "The 'head' configuration. מוחין = 'brains' (the three: Chokhmah/Binah/Da'at); מוחא סתימאה = 'the concealed brain' (the hidden Chokhmah, 'the brain that rests on its dregs', not opening even to Binah); גולגלתא = 'the skull'; דיקנא = 'the beard' (of Arikh Anpin), whence the mazal flows. | RULED (Avi, 2026-10-07): מוֹחָא / מוֹחַ takes TWO English words by context. (a) HEAD anatomy (skull / brain / beard; 'the concealed brain' = Chokhmah; Patach Eliyahu 'Chokhmah is the brain, it is thought within') = 'brain' — unchanged. (b) PAIRED WITH קליפה = 'kernel': 'this is kernel to that, and that is husk to that' (Zohar I 19b-20a on Song 6:11 'the nut garden'); מוח האגוז = 'the kernel of the nut' (23:1:32, 'like the kernel of the nut, clothed within its husks'; it divides into four). Gloss at FIRST kernel use only: 'kernel [mocha, the \"brain\" of the nut]' — keeps the walnut/brain pun. The contrast is inner/edible/fine vs outer/discarded covering — NOT soft vs hard (the nut's husks: green hull, shell 'hard as stone', thin skin; parallel to wheat's chaff, straw, bran — so the grain sense of 'kernel' also fits). אגוז = 'nut' (the whole, husks included). RETRO: flats 216 (4:2:5) and 225 (4:3:3) currently say 'brain' in this pairing — convert in the retro-pass. 10 paragraphs in the book have the pairing.",
    "candidates": [
     {
@@ -984,8 +1229,19 @@
     "מוחא וקליפה": {
      "notes": "paired with husk",
      "prefer": "kernel"
+    },
+    "מוחין": {
+     "readerGloss": "brains"
+    },
+    "גולגלתא": {
+     "readerGloss": "skull"
+    },
+    "דיקנא": {
+     "readerGloss": "beard"
     }
-   }
+   },
+   "readerNote": "The head of the supernal configuration: brain, skull and beard. The word for 'brain' also means the kernel of a nut; paired with 'husk' it is rendered 'kernel.'",
+   "readerGloss": "brain; skull; beard"
   },
   "זווג": {
    "headword": "זִוּוּג",
@@ -1006,12 +1262,18 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The union of a male and a female Sefirah (Chokhmah and Binah, or Tiferet and Malkhut), from which effluence and souls issue.",
+   "surfaceForms": {
+    "אבא ואימא": {
+     "readerGloss": "Abba and Imma (Father and Mother)"
+    }
+   }
   },
   "נשמה-נפש-רוח": {
    "headword": "נְשָׁמָה / רוּחַ / נֶפֶשׁ",
    "transliteration": "neshamah / ruach / nefesh",
-   "partOfSpeech": "noun (soul-levels)",
+   "partOfSpeech": "noun",
    "notes": "Soul-grades. Tikkunim mapping here: neshamah=Binah, ruach=Tiferet(=Da'at), nefesh=Malkhut(=Tevunah). תבונה (Tevunah) = Malkhut from the side of Binah ('discernment'). Render neshamah='soul', ruach='spirit', nefesh='vital soul'.",
    "candidates": [
     {
@@ -1027,7 +1289,17 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The three grades of the soul, from highest to lowest. Where the text speaks of the soul in general, 'soul' alone is used.",
+   "readerGloss": "soul (neshamah); spirit (ruach); vital soul (nefesh)",
+   "surfaceForms": {
+    "נשמה": {
+     "readerGloss": "soul"
+    },
+    "נפש": {
+     "readerGloss": "soul; vital soul"
+    }
+   }
   },
   "באר-עומק": {
    "headword": "עֲמִיקָא דְּבֵירָא",
@@ -1048,12 +1320,13 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The well is Binah; its depth, from which the water rises, is Keter."
   },
   "עצמות-כלים": {
    "headword": "עַצְמוּת / כֵּלִים",
    "transliteration": "atzmut / kelim",
-   "partOfSpeech": "noun (the Gate-4 theme)",
+   "partOfSpeech": "noun",
    "notes": "THE central pair of Gate 4 (שער עצמות וכלים = 'the Gate of Self and Vessels'). FINAL (Avi, 2026-10-07; applied retroactively to flats 0-395 the same day): עַצְמוּת is the abstract of עַצְמוֹ 'itself' (from עֶצֶם 'bone') = the thing's OWN SELF, as against what it has, uses, or receives. RENDERINGS: (1) the Emanator's / Ein Sof's / Creator's עצמות, INCLUDING the spreading sense → 'Self' (capitalised): עצמות המאציל = 'the [very] Self of the Emanator'; עצמותו = 'His Self'; העצמות המתפשט בתוך הכלים = 'the Self that spreads [forth] within the vessels'; עצם האלקות = 'the Self of divinity / of the Godhead'; עצם אחד = 'one Self'; העצם הפשוט = 'the simple Self'; האור העצמות = 'the light of the Self'; הספירות העצמיות = 'the Sefirot of the Self'; debate labels 'Self or vessels', 'the Sefirot that are Self', 'the Chesed which is the Self'. (2) a Sefirah's own עצמות/עצם → 'its own self' ('her own self' only under the pronoun rule); עצם הכתר / עצמות החכמה → 'Keter itself' / 'Chokhmah itself' or 'the very self of Chokhmah'. (3) עצמות/עצם הספירות → 'the Sefirot themselves'; עצמותם → 'their very selves'. (4) other things: עצמות השמש = 'the very self of the sun', עצם הנפש = 'the soul itself', עצם השפע = 'the effluence itself'. 'selfhood' is in reserve where an abstract noun is unavoidable. For adverbial בעצם / adjectival עצמי see עצם-מקרה ('intrinsic(ally)', 'in itself'). 'Essence' is NO LONGER used for this root — 'essence' = מהות. Transliteration gloss '[atzmut]' stands at 1:8:1 (first divine use) and 4:1:2 (the gate's defining question). CONSIDERED AND DECLINED: substance (impersonal/material; kept only for עצם as a philosophers' noun and the idiom 'in substance'), ipseity, being, existence (=מציאות), actuality (=פועל), presence (=שכינה, and it blurs the Gate-4 question), marrow (collides with מוֹחַ/מוֹחָא; and Gate 4's question and its resolution must share one noun). PRONOUNS (Avi agreed): Sefirot default 'it'; 'she/he' only where the passage casts the Sefirah in a gendered role; never by Hebrew grammatical gender. כלים = 'vessels'; כלי האומן = 'the vessels/instruments of the craftsman'. The dispute: are the Sefirot God's Self (R. David) or His vessels (Recanati)? Cordovero's synthesis: vessels within which the Self spreads. CAPITALISATION (Avi, 2026-10-07): 'Self' takes a capital ONLY where the self in question is the Emanator's / Ein Sof's own; any other self is lower-case ('its own self', 'the very self of the sun'). Title case in gate titles is fine. שֵׁם הָעֶצֶם = 'the Name of the self' in running text, lower-case: at 19:1:5 Cordovero denies that it names the Emanator's עצמות — it names the עצמות of the Sefirot (and plays on the grammarians' 'proper name'). NOT 'Godself'.",
    "candidates": [
     {
@@ -1118,7 +1391,27 @@
      "status": "preferred",
      "contextNotes": "FINAL title for שער עצמות וכלים; replaces 'the Gate of Essence and Vessels' (retro-pass)."
     }
-   ]
+   ],
+   "readerNote": "The theme of Gate 4: are the Sefirot the Emanator's own Self, or vessels that He uses? Cordovero answers that they are vessels within which the Self spreads, as a soul within a body. 'Self' is capitalised only for the Emanator's.",
+   "readerGloss": "Self; vessels",
+   "surfaceForms": {
+    "עצמות": {
+     "readerGloss": "Self (the Emanator's); its own self (a Sefirah's)"
+    },
+    "עצמותו": {
+     "readerGloss": "His Self; its own self"
+    },
+    "העצמות המתפשט": {
+     "readerGloss": "the Self that spreads forth"
+    },
+    "עצם האלקות": {
+     "readerGloss": "the Self of the Godhead"
+    },
+    "כלים": {
+     "readerGloss": "vessels",
+     "readerNote": "The Sefirot considered as instruments or containers through which the Emanator's Self acts."
+    }
+   }
   },
   "מבוכה": {
    "headword": "מְבוּכָה",
@@ -1139,7 +1432,8 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The confusion among later Kabbalists over whether the Sefirot are the Emanator's Self or His vessels."
   },
   "צנור": {
    "headword": "צִנּוֹר",
@@ -1171,7 +1465,20 @@
      "status": "rejected",
      "contextNotes": "Standard Bible-English for Ps 42:8, but Cordovero cites the verse precisely as the etymology of 'channel' — it must read 'Your channels'."
     }
-   ]
+   ],
+   "readerNote": "The path of effluence between two Sefirot. In Gate 7 Cordovero defines it as the light aroused between two Sefirot when they face one another.",
+   "readerGloss": "channel",
+   "surfaceForms": {
+    "צנורות": {
+     "readerGloss": "channels"
+    },
+    "שבירת הצנורות": {
+     "readerGloss": "the breaking of the channels"
+    },
+    "צנור הנעלם": {
+     "readerGloss": "the Hidden Channel"
+    }
+   }
   },
   "נקודה": {
    "headword": "נְקוּדָּה",
@@ -1192,12 +1499,14 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "A point. In Gate 2 it is the geometric point; in the Zohar, the primordial 'supernal point' from which the garments of the worlds unfold.",
+   "readerGloss": "point"
   },
   "אדרא-כינויים": {
    "headword": "Idra epithets (Naso/Ha'azinu)",
    "transliteration": "—",
-   "partOfSpeech": "noun (epithets)",
+   "partOfSpeech": "noun",
    "notes": "Cluster from the Naso 136-137b passages. רישא חוורא = 'the white head'; רעוא דרעוין = 'delight-in-delightings' (USER-CONFIRMED). ra'ava family: noun='delight', verb='delight in'/'delighting in'; 'favor' and 'will' REJECTED (favoritism/favor-giving connotations; no English word carries will+active-pleasure together, so the hyphenated form is used); טמירא דטמירין = 'the concealed of the concealed'; בוצינא/בוצינין = 'lamp(s)' (luminaries = the Sefirot); קרומא = 'membrane' (krooma dakik='a thin membrane'; krooma kashisha stima'ah='a hard, concealed membrane'); חמשין תרעין = 'the fifty gates' (Binah), with נ' יומין דאורייתא='the fifty days of the Torah', נ' שנין דיובלא='the fifty years of the Jubilee', נ' אלף דרין='the fifty thousand generations'.",
    "candidates": [
     {
@@ -1219,7 +1528,31 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "A term from the Zohar's Idra sections.",
+   "cluster": true,
+   "surfaceForms": {
+    "רישא חוורא": {
+     "readerGloss": "the white head",
+     "readerNote": "A name for Keter in the Idra."
+    },
+    "בוצינין": {
+     "readerGloss": "lamps",
+     "readerNote": "The Sefirot, as lights."
+    },
+    "קרומא": {
+     "readerGloss": "membrane",
+     "readerNote": "In the Idra's picture of the supernal head, the membrane that covers the brain."
+    },
+    "חמשין תרעין": {
+     "readerGloss": "the fifty gates",
+     "readerNote": "The fifty gates of Binah."
+    },
+    "רעוא דרעוין": {
+     "readerGloss": "delight-in-delightings",
+     "readerNote": "A name for Keter as hidden in the Ein Sof: the innermost will and pleasure."
+    }
+   }
   },
   "כינוי": {
    "headword": "כִּנּוּי (pl. כִּנּוּיִים)",
@@ -1240,12 +1573,18 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "A name or biblical word that points to a particular Sefirah. Gate 23 lists them in alphabetical order.",
+   "surfaceForms": {
+    "כינויים": {
+     "readerGloss": "allusions"
+    }
+   }
   },
   "עצם-מקרה": {
    "headword": "עֶצֶם / מִקְרֶה",
    "transliteration": "etzem / mikreh",
-   "partOfSpeech": "noun (scholastic pair)",
+   "partOfSpeech": "noun",
    "notes": "THE conceptual hinge of Gate 4 ch.4: change and action belong to the Self 'accidentally, not intrinsically' (במקרה לא בעצם) — the Aristotelian substance/accident pair. FINAL 2026-10-07: adverbial בעצם / adjectival עצמי → 'intrinsically' / 'intrinsic' when paired with מקרה or modifying change, acquisition, revelation, union ('an intrinsic change', 'intrinsic to the vessels and accidental to the Self'); → 'in itself' where it stands alone ('not revealed in itself', 'revealed in itself at its fitting place'); → 'in its own right' / 'in substance' as idiom requires. מקרה = 'accident' (במקרה = 'accidentally' / 'by accident'; adj. 'accidental'). The noun עצם as the philosophers' category = 'substance' (עצם האילן = 'the substance of the Tree'). 'By essence / essentially / essential' is RETIRED for this root ('essence' = מהות). Shares its root with עצמות (see עצמות-כלים: 'Self').",
    "candidates": [
     {
@@ -1280,7 +1619,20 @@
      "status": "acceptable",
      "contextNotes": "standalone בעצם ('revealed in itself'; 'not mentioned in its own right')."
     }
-   ]
+   ],
+   "readerNote": "The philosophers' distinction between what belongs to a thing in itself and what merely happens to it. Change belongs to the Emanator's Self only accidentally, through the vessels.",
+   "readerGloss": "intrinsically; accidentally",
+   "surfaceForms": {
+    "בעצם": {
+     "readerGloss": "intrinsically; in itself"
+    },
+    "עצמי": {
+     "readerGloss": "intrinsic"
+    },
+    "במקרה": {
+     "readerGloss": "accidentally"
+    }
+   }
   },
   "לבש-לבוש": {
    "headword": "לְבוּשׁ / הִתְלַבֵּשׁ",
@@ -1301,7 +1653,17 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Each level is a garment to the one above it: the vessels to the Self, each world to the world before it, the body to the soul.",
+   "readerGloss": "garment; to clothe",
+   "surfaceForms": {
+    "לבוש": {
+     "readerGloss": "garment"
+    },
+    "מתלבש": {
+     "readerGloss": "is clothed in"
+    }
+   }
   },
   "פגם": {
    "headword": "פְּגָם",
@@ -1322,7 +1684,13 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The defect that human sin causes above: light withdraws from a Sefirah, which is then said to be blemished.",
+   "surfaceForms": {
+    "נפגמת": {
+     "readerGloss": "is blemished"
+    }
+   }
   },
   "גוון": {
    "headword": "גָּוֶון",
@@ -1343,12 +1711,18 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The Sefirot are given colors (white for Chesed, red for Gevurah, green for Tiferet, black for Malkhut), as light takes the color of the glass it passes through.",
+   "surfaceForms": {
+    "חוור סומק ירוק אוכם": {
+     "readerGloss": "white, red, green, black"
+    }
+   }
   },
   "דין-משפט-צדק": {
    "headword": "דִּין / מִשְׁפָּט / צֶדֶק / רַחֲמִים",
    "transliteration": "din / mishpat / tzedek / rachamim",
-   "partOfSpeech": "noun (justice-cluster)",
+   "partOfSpeech": "noun",
    "notes": "Four near-synonyms that MUST stay distinct in English. Patach Eliyahu mapping (flat 242): דין=Gevurah, משפט=the central pillar (Tiferet), צדק=the holy Malkhut; מאזני צדק='scales of righteousness'=the two סמכי קשוט; הין צדק='a just hin'=the sign of the covenant (Yesod). Render דין='judgment' (but 'Din' when naming the Sefirotic side opposite Chesed), משפט='justice', צדק='righteousness', רחמים='mercy' (but 'Rachamim' when naming the middle line/pillar). קשוט='truth'; סמכי קשוט='supports of truth' (Netzach & Hod).",
    "candidates": [
     {
@@ -1364,12 +1738,28 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Four words that the translation keeps apart. Din is strict judgment, the left side; Rachamim is mercy, the middle line that tempers it; 'justice' and 'righteousness' are names of Tiferet and Malkhut.",
+   "readerGloss": "judgment; justice; righteousness; mercy",
+   "surfaceForms": {
+    "דין": {
+     "readerGloss": "judgment (Din)"
+    },
+    "משפט": {
+     "readerGloss": "justice"
+    },
+    "צדק": {
+     "readerGloss": "righteousness"
+    },
+    "רחמים": {
+     "readerGloss": "mercy (Rachamim)"
+    }
+   }
   },
   "שלל-חיוב": {
    "headword": "שְׁלִילָה / חִיּוּב",
    "transliteration": "shelilah / chiyuv",
-   "partOfSpeech": "noun (logic / negative theology)",
+   "partOfSpeech": "noun",
    "notes": "The via-negativa pair pervasive in ch.5: 'one' is predicated of God only by way of negation (ע\"צ השלילה), not affirmation (ע\"צ החיוב). חד ולא בחושבן='One, and not in number'; אחד ולא כאחד המנוי='one, but not like the enumerated one'. שלילה='negation' (also 'privation'); חיוב='affirmation' (affirmative predication). חושבן='number/reckoning'; אחד המנוי='the enumerated/counted one'; גדר='definition' (a logical definition 'one' that does not properly apply to God).",
    "candidates": [
     {
@@ -1385,7 +1775,17 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Terms of negative theology: 'one' is said of the Emanator only by way of negation, to deny plurality, and not as a positive description.",
+   "readerGloss": "negation; affirmation",
+   "surfaceForms": {
+    "שלילה": {
+     "readerGloss": "negation"
+    },
+    "חיוב": {
+     "readerGloss": "affirmation"
+    }
+   }
   },
   "תיקון": {
    "headword": "תִּקּוּן (pl. תִּקּוּנִין)",
@@ -1417,7 +1817,16 @@
      "status": "acceptable",
      "contextNotes": "keeps the loaded term; common in Patach-Eliyahu translations."
     }
-   ]
+   ],
+   "readerNote": "Setting in order or setting right. The Sefirot are called ten rectifications: by them the Emanator is revealed and the world is ordered.",
+   "surfaceForms": {
+    "תיקונין": {
+     "readerGloss": "rectifications"
+    },
+    "עשר תיקונין": {
+     "readerGloss": "ten rectifications"
+    }
+   }
   },
   "שלשל-השתלשלות": {
    "headword": "הִשְׁתַּלְשְׁלוּת / שַׁלְשֶׁלֶת",
@@ -1438,7 +1847,17 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The descent of the worlds from cause to effect, link after link, like a chain.",
+   "readerGloss": "chaining-down; chain",
+   "surfaceForms": {
+    "השתלשלות": {
+     "readerGloss": "chaining-down"
+    },
+    "שלשלת": {
+     "readerGloss": "chain"
+    }
+   }
   },
   "נצץ-ניצוץ": {
    "headword": "נִיצוֹץ / נְצִיצוּ",
@@ -1459,7 +1878,13 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "A spark of light. 'The spark of all sparks' is the light of the Ein Sof spreading within the Sefirot.",
+   "surfaceForms": {
+    "ניצוץ השמש": {
+     "readerGloss": "the ray of the sun"
+    }
+   }
   },
   "פשט-התפשטות": {
    "headword": "הִתְפַּשְּׁטוּת / אִתְפַּשְּׁטוּתָא",
@@ -1480,12 +1905,14 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The extension of the Self, or of light, into the Sefirot and the worlds. In one Zohar passage 'the expansion' is a name for Chokhmah.",
+   "readerGloss": "spreading-forth; expansion"
   },
   "בוצינא-קרדוניתא": {
    "headword": "בּוֹצִינָא דְּקַרְדּוּנִיתָא",
    "transliteration": "botzina de-kardinuta",
-   "partOfSpeech": "noun-phrase (Zoharic)",
+   "partOfSpeech": "noun-phrase",
    "notes": "The cosmogonic 'lamp' of the Kav ha-Middah passage (Zohar Chadash, Va'etchanan) = Keter (where the Ein Sof's light is gripped). Cordovero's own glosses: reads קרדוניתא as גפרית 'brimstone/sulfur' (a sulfur-lamp that grips the flame hardest), and notes a variant קדרינותא='blackness'. The same light, in its measuring-aspect, is קו המדה (see קו-מדה). USER-CONFIRMED gloss: '(the Hardened Light)' on FIRST use only; transliterate 'Botzina de-Kardinuta' thereafter. FINAL.",
    "candidates": [
     {
@@ -1507,7 +1934,9 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "A Zoharic name for the first, measuring light of the Emanation, which Cordovero identifies with Keter.",
+   "readerGloss": "Botzina de-Kardinuta (the Hardened Light)"
   },
   "קו-מדה": {
    "headword": "קַו הַמִּדָּה",
@@ -1528,12 +1957,13 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The same light as the Botzina de-Kardinuta, considered as giving each Sefirah its measure."
   },
   "אברי-קומה": {
    "headword": "Shi'ur-Komah body array (Patach Eliyahu)",
    "transliteration": "—",
-   "partOfSpeech": "noun (technical set)",
+   "partOfSpeech": "noun",
    "notes": "Sefirah-to-limb mapping from Patach Eliyahu (flat 242), re-explained in ch.6: חסד דרועא ימינא='Chesed, the right arm'; גבורה דרועא שמאלא='Gevurah, the left arm'; ת\"ת גופא='Tiferet, the body (torso)'; נצח והוד תרין שוקין='Netzach and Hod, the two thighs'; יסוד סיומא דגופא אות ברית קדש='Yesod, the conclusion of the body, the sign of the holy covenant'; מלכות פה='Malkhut, the mouth' (=the Oral Torah); חכמה מוחא='Chokhmah, the brain' (=thought); בינה לבא='Binah, the heart' ('the heart understands'). קרקפתא='the skull/pate' (Keter); קרקפתא דלא מנח תפילין='the pate that lays no tefillin' (Arikh Anpin — no emanation above its emanation). The four tefillin passages map to four lights: Kadesh=Chokhmah, Ve-haya ki yevi'akha=Binah, Shema=Chesed, Ve-haya im shamoa=Gevurah.",
    "candidates": [
     {
@@ -1549,12 +1979,14 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The Sefirot mapped onto the limbs of the body, as in the passage Patach Eliyahu.",
+   "cluster": true
   },
   "ידע-בחירה": {
    "headword": "יְדִיעָה / בְּחִירָה",
    "transliteration": "yedi'ah / bechirah",
-   "partOfSpeech": "noun (the Gate-4 ch.9 theme)",
+   "partOfSpeech": "noun",
    "notes": "The foreknowledge/free-will antinomy of ch.9 (Cordovero answering Rambam, Hilkhot Teshuvah 5 / Sefer ha-Madda). His solution: the two belong to DIFFERENT Sefirot, so there is no contradiction. ידיעה='[fore]knowledge' = Da'at = the concealed Tiferet ('He knows through Da'at'; 'by His knowledge the depths were split', Prov 3:20); בחירה='free will / free choice' = Malkhut ('from it downward, the two ways'; 'sin crouches at the door', Gen 4:7; also בית הבחירה). Before the deed, the knowledge of it 'in Da'at' makes no blemish (פגם), for 'God judges only [a man] as he is there' (Gen 21:17). 'Now I know' (Gen 22:12) puns ידע = know + union (Tiferet-Malkhut). Tiferet=mercy, Malkhut=judgment.",
    "candidates": [
     {
@@ -1570,12 +2002,22 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Cordovero resolves the conflict between divine foreknowledge and human free will by assigning them to different Sefirot: knowledge to Da'at, choice to Malkhut.",
+   "readerGloss": "foreknowledge; free will",
+   "surfaceForms": {
+    "ידיעה": {
+     "readerGloss": "knowledge; foreknowledge"
+    },
+    "בחירה": {
+     "readerGloss": "free will"
+    }
+   }
   },
   "חיוב-מציאות": {
    "headword": "מְחוּיַּב הַמְּצִיאוּת / אֶפְשָׁרִי הַמְּצִיאוּת",
    "transliteration": "mechuyav ha-metzi'ut / efshari ha-metzi'ut",
-   "partOfSpeech": "noun-phrase (modal / composition cluster)",
+   "partOfSpeech": "noun-phrase",
    "notes": "Ch.9's philosophical apparatus (the contingency worry about the Sefirot). מחוייב המציאות='necessary of existence' / 'the Necessarily Existent' — ESTABLISHED, FINAL (flats 245/257/274; do NOT change to 'necessary being'). USER-CONFIRMED: אפשרי המציאות='contingent being' (the separate intelligences/angels, created on day 2 per Pirkei de-R. Eliezer; 'composed of privation and existence'); חדוש='coming-to-be' (the emanation's coming-to-be relative to creatures, not to the Emanator). FINAL. מורכב='composite'; הרכבה='composition'; העדר='privation'.",
    "candidates": [
     {
@@ -1597,12 +2039,22 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The philosophers' division of beings: the Emanator alone exists necessarily; everything else might not have been.",
+   "readerGloss": "necessary of existence; contingent being",
+   "surfaceForms": {
+    "אפשרי המציאות": {
+     "readerGloss": "contingent being"
+    },
+    "חדוש": {
+     "readerGloss": "coming-to-be; renewal"
+    }
+   }
   },
   "דיוקנא-צורה": {
    "headword": "דְּיוֹקְנָא / צוּרָה / צִיּוּר / תְּמוּנָה",
    "transliteration": "diyukna / tzurah / tziyur / temunah",
-   "partOfSpeech": "noun (anti-anthropomorphism cluster)",
+   "partOfSpeech": "noun",
    "notes": "The image/form vocabulary, dense in the Ra'aya Mehemna passages (flats 267, 280): before creation God has no image; the Names/letters are forms emanated only with the Emanation. דיוקנא='image' (the anthropomorphic configuration; 'a configuration' where it = a partzuf-form); צורה='form'; ציור='figure / depiction' (ciur); תמונה='likeness' ('you saw no תמונה', Deut 4:15); דמיון='likeness / resemblance' (verb 'liken'). אסור = it is 'forbidden' to make Him an image.",
    "candidates": [
     {
@@ -1618,7 +2070,9 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Words for shape and likeness. The Emanator has no image; the forms spoken of belong to the Sefirot and to prophetic vision.",
+   "readerGloss": "image; form; figure; likeness"
   },
   "דבק-דביקות": {
    "headword": "דְּבֵקוּת",
@@ -1639,7 +2093,13 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Attachment to God: 'You who cleave to YHVH your God are alive, all of you, this day' (Deut 4:4).",
+   "surfaceForms": {
+    "הדבקים": {
+     "readerGloss": "those who cleave"
+    }
+   }
   },
   "שפע-מינים": {
    "headword": "מִינֵי הַשֶּׁפַע (הַתְּמִידִי / הַתִּגְבֹּרֶת)",
@@ -1660,7 +2120,17 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Two kinds of effluence: the perpetual, which sustains a Sefirah and never ceases, and the additional, which raises it and may be withdrawn.",
+   "readerGloss": "perpetual effluence; augmenting effluence",
+   "surfaceForms": {
+    "השפע התמידי": {
+     "readerGloss": "the perpetual effluence"
+    },
+    "התגבורת": {
+     "readerGloss": "the augmenting effluence"
+    }
+   }
   },
   "סדר-אצילות": {
    "headword": "סֵדֶר הָאֲצִילוּת",
@@ -1681,12 +2151,18 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The sequence in which the Sefirot emerged; the subject of Gate 5.",
+   "surfaceForms": {
+    "שער החמישי הוא סדר האצילות": {
+     "readerGloss": "The Fifth Gate: The Order of the Emanation"
+    }
+   }
   },
   "עתיק-טמיר": {
    "headword": "עַתִּיקָא דְעַתִּיקִין / טְמִירָא דִטְמִירִין",
    "transliteration": "Atika de-Atikin / Temira de-Temirin",
-   "partOfSpeech": "Aramaic divine epithet (= Keter)",
+   "partOfSpeech": "Aramaic divine epithet",
    "notes": "Idra de-Nazir epithets for Keter (Zohar 128a). Cordovero (5:4:4): עתיקא דעתיקין because Keter is 'elder' (זקן) relative to Chokhmah+Binah, themselves 'elders' (זקנים). טמירא דטמירין = concealed even from the concealed Sefirot. Cf. existing פרצופים entry: Atika Kadisha = 'the Holy Ancient One'. Also טמירא דתרי אלפין שנין = 'concealed of two thousand years' (each Sefirah=1000; Keter hidden from C+B).",
    "candidates": [
     {
@@ -1722,12 +2198,14 @@
      "contextNotes": "Cordovero's gloss on 'atika'.",
      "decisions": []
     }
-   ]
+   ],
+   "readerNote": "Names for Keter from the Zohar's Idra: older than the 'elders' Chokhmah and Binah, and hidden even from the hidden.",
+   "readerGloss": "the Ancient of Ancients"
   },
   "פרסא": {
    "headword": "פַּרְסָא",
    "transliteration": "parsa",
-   "partOfSpeech": "noun (Aramaic)",
+   "partOfSpeech": "noun",
    "notes": "Curtain/screen. In the Idra de-Nazir (5:4:3-5:4:4) the parsa Keter spreads before itself = Chokhmah, glossed פרוכת ומסך ('veil and screen') that conceals Keter; on it the 'measure of kings' is engraved.",
    "candidates": [
     {
@@ -1750,12 +2228,22 @@
      "contextNotes": "Cordovero's gloss on parsa.",
      "decisions": []
     }
-   ]
+   ],
+   "readerNote": "In the Idra, the curtain that Keter spreads before itself. Cordovero identifies it with Chokhmah: a veil and screen that hides Keter.",
+   "readerGloss": "curtain",
+   "surfaceForms": {
+    "פרסא": {
+     "readerGloss": "curtain"
+    },
+    "פריס קמיה חד פרסא": {
+     "readerGloss": "He spread before Him a curtain"
+    }
+   }
   },
   "אין-יש": {
    "headword": "אַיִן / יֵשׁ",
    "transliteration": "Ayin / Yesh",
-   "partOfSpeech": "noun (metaphysical)",
+   "partOfSpeech": "noun",
    "notes": "Nothing / Something. Keter so refined that even 'Nothing' applies only in combination with Chokhmah+Binah. Letter-parsing (5:4:1): אי\"ן: א=Keter, י=Chokhmah, ן=Binah; י\"ש: י=Chokhmah, ש=Binah. 'יש מאין' = 'Something from Nothing' = Chokhmah from Keter. Chokhmah is 'Something' only as the NEGATION of Nothing (כשולל האין), not full somethingness (ישות גמור; render ישות='somethingness'). RESOLVED 2026-06-09 (Avi): ayin='Nothing', yesh='Something'; reserve 'substance (yesh)' for the Prov 8:21 gloss (4:10:1).",
    "candidates": [
     {
@@ -1805,7 +2293,17 @@
      "contextNotes": "used only in the Prov 8:21 scriptural gloss (4:10:1).",
      "decisions": []
     }
-   ]
+   ],
+   "readerNote": "Keter is called Nothing, because nothing of it can be grasped. Chokhmah, the first that can be called anything at all, is Something. 'Something from Nothing' is Chokhmah from Keter.",
+   "readerGloss": "Nothing (Ayin)",
+   "surfaceForms": {
+    "יש מאין": {
+     "readerGloss": "Something from Nothing"
+    },
+    "לא יצדק בו יש כלל אלא אי\"ן": {
+     "readerGloss": "'Something' does not apply to it at all, only 'Nothing'"
+    }
+   }
   },
   "מלכי-אדום": {
    "headword": "מַלְכֵי אֱדוֹם / שִׁעוּר מַלְכִין",
@@ -1846,7 +2344,17 @@
      "contextNotes": "render 'and he died' then gloss as concealment, not annihilation.",
      "decisions": []
     }
-   ]
+   ],
+   "readerNote": "The kings of Edom who 'reigned and died' (Genesis 36) are, in the Idra, the powers of judgment that arose in thought before the Emanation and were concealed until their place was prepared.",
+   "readerGloss": "the kings of Edom",
+   "surfaceForms": {
+    "ואלה המלכים אשר מלכו בארץ אדום": {
+     "readerGloss": "And these are the kings who reigned in the land of Edom"
+    },
+    "ובה גליף שעור מלכין": {
+     "readerGloss": "and on it He engraved the measure of kings"
+    }
+   }
   },
   "גלף-חרט": {
    "headword": "גָּלִיף / חָרִיט / מְשַׁעֵר",
@@ -1879,12 +2387,22 @@
      "contextNotes": "for משער (from שיעור).",
      "decisions": []
     }
-   ]
+   ],
+   "readerNote": "Verbs for the first marking-out of the worlds in the divine thought, before they were emanated.",
+   "readerGloss": "engrave; incise; measure out",
+   "surfaceForms": {
+    "מגליף ומשער": {
+     "readerGloss": "engraving and measuring out"
+    },
+    "מחריט לפניו את העולם": {
+     "readerGloss": "incising the world before Him"
+    }
+   }
   },
   "צחצחות": {
    "headword": "צַחְצָחוֹת",
    "transliteration": "tzachtzachot",
-   "partOfSpeech": "noun (plural)",
+   "partOfSpeech": "noun",
    "notes": "The Dazzling Lights: the supernal lights above Keter, the concealed source of the Sefirot (5:4:1). From the 'supernal tzachtzachot' yet others are emanated 'that do not even merit the term tzachtzachot'. Subject of Gate of the Tzachtzachot (שער הצחצחות) and discussion at Gate-of-Tzachtzachot ch.6 (re Keter='Will'). | 2026-10-07: gate name unified to 'the Gate of the Tzachtzachot' at all 9 sites (older 'Resplendences' / 'Refinements' removed); the first-use gloss '(the Dazzling Lights)' now stands at 1:7:2 only. Site index title: 'The Tzachtzachot'.",
    "candidates": [
     {
@@ -1900,7 +2418,13 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The hidden lights above Keter: the concealed roots of the Sefirot within the Ein Sof. They are the subject of Gate 11.",
+   "surfaceForms": {
+    "צחצחות עליונות": {
+     "readerGloss": "the supernal Tzachtzachot"
+    }
+   }
   },
   "לילה-ליל": {
    "headword": "לַיְלָה / לֵיל",
@@ -1928,7 +2452,17 @@
      "contextNotes": "'leil shimurim'; '...unto YHVH' for 'הוא לה'.",
      "decisions": []
     }
-   ]
+   ],
+   "readerNote": "Night is Malkhut. The Zohar distinguishes leil, before she has received from the male, from laylah, with its final heh, after.",
+   "readerGloss": "night",
+   "surfaceForms": {
+    "רסיסי לילה": {
+     "readerGloss": "the drops of the night"
+    },
+    "ליל שבת": {
+     "readerGloss": "the night of the Sabbath"
+    }
+   }
   },
   "נער-נערה": {
    "headword": "נַעַר / נַעֲרָה",
@@ -1955,7 +2489,17 @@
      "contextNotes": "na'arah, fem.",
      "decisions": []
     }
-   ]
+   ],
+   "readerNote": "Malkhut is called 'youth' before she receives from the male and 'maiden' after. 'Youth' is also a name of the angel Metatron.",
+   "readerGloss": "youth; maiden",
+   "surfaceForms": {
+    "נער": {
+     "readerGloss": "youth"
+    },
+    "מסטרא דנער": {
+     "readerGloss": "from the side of the youth"
+    }
+   }
   },
   "קישוט": {
    "headword": "קִשּׁוּט / לְהִתְקַשֵּׁט",
@@ -1976,12 +2520,24 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The bride's adorning of herself before union: what Malkhut receives from the male before the coupling itself.",
+   "surfaceForms": {
+    "להתקשט": {
+     "readerGloss": "to adorn herself"
+    },
+    "המתקשטת": {
+     "readerGloss": "who adorns herself"
+    },
+    "קשוטים": {
+     "readerGloss": "adornments"
+    }
+   }
   },
   "קננא": {
    "headword": "מְקַנְּנָא",
    "transliteration": "mekanena",
-   "partOfSpeech": "verb (Aramaic)",
+   "partOfSpeech": "verb",
    "notes": "Nests (from קֵן, nest). Tikkunim 6 (23a): supernal Imma nests in the Throne (in the 3 upper Sefirot); the central pillar (Tiferet, comprising 6) nests in Metatron; lower Imma nests in the Ophan. Shekhinah called nesher (eagle, from side of Throne), yonah (dove, from side of na'ar), tzippor (bird, from side of Ophan). Full treatment deferred to Gate of ABY\"A.",
    "candidates": [
     {
@@ -1997,7 +2553,13 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "'The supernal Mother nests in the Throne': each level of the Emanation dwells in a level of the world below it.",
+   "surfaceForms": {
+    "מקננא בכרסייא": {
+     "readerGloss": "nests in the Throne"
+    }
+   }
   },
   "עלה-מחשבה": {
    "headword": "עָלָה בְּמַחֲשָׁבָה",
@@ -2018,7 +2580,13 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Said of what was conceived in the divine thought but not yet brought into act.",
+   "surfaceForms": {
+    "עלה במחשבה להתאצל": {
+     "readerGloss": "arose in thought to be emanated"
+    }
+   }
   },
   "קו-קוים": {
    "headword": "קַו (pl. קַוִּים)",
@@ -2046,7 +2614,20 @@
      "contextNotes": "middle column resolving Chesed and Din.",
      "decisions": []
     }
-   ]
+   ],
+   "readerNote": "One of the three columns of the Tree: right (Chesed), left (Din) and middle (Rachamim). The middle line decides between the other two.",
+   "readerGloss": "line",
+   "surfaceForms": {
+    "קו הדין": {
+     "readerGloss": "the line of Din (judgment)"
+    },
+    "קו החסד": {
+     "readerGloss": "the line of Chesed"
+    },
+    "קו הרחמים": {
+     "readerGloss": "the line of Rachamim (mercy)"
+    }
+   }
   },
   "מערכה": {
    "headword": "מַעֲרָכָה / מַעֲרֶכֶת",
@@ -2074,12 +2655,18 @@
      "status": "acceptable",
      "contextNotes": "ONLY for ספר המערכת / מערכת האלקות (Ma'arekhet ha-Elohut), transliterated as a proper title."
     }
-   ]
+   ],
+   "readerNote": "An ordered rank of the Emanation. Cordovero counts four arrays: Chokhmah; Binah; Tiferet with the six extremities; and Malkhut.",
+   "surfaceForms": {
+    "ד' מערכות": {
+     "readerGloss": "the four arrays"
+    }
+   }
   },
   "דו-פרצופין": {
    "headword": "דּוּ פַּרְצוּפִין (ד\"ו פרצופין)",
    "transliteration": "du-partzufin",
-   "partOfSpeech": "noun (Aramaic)",
+   "partOfSpeech": "noun",
    "notes": "RESOLVED 2026-06-09 (Avi): render 'double-faced'; gloss '[du-partzufin]' in brackets on FIRST use only, then 'double-faced' thereafter. FINAL. The 'two-faced' configuration = Tiferet+Malkhut as a back-to-back male-female pair, with Yesod concealed-and-uniting between them ('two halves of one body', תרי פלגי דגופא; 'body and covenant are reckoned as one'). In Gate 5 ch.6 it is the form in which Tiferet/Yesod/Malkhut first appear (already in Keter; revealed only in Chokhmah). NB distinct from the proper partzuf-NAMES (Arikh/Zeir Anpin), transliterated+glossed — see פרצופים. (Avi noted: keep it simple; 'double-faced' is transparent and has scholarly precedent for the Adam-androgyne; deceit overtone is not a risk in this structural context.)",
    "candidates": [
     {
@@ -2105,12 +2692,13 @@
      "status": "rejected",
      "contextNotes": "Avi preferred the simpler, more literal 'double-faced'."
     }
-   ]
+   ],
+   "readerNote": "Tiferet and Malkhut as they were first emanated: one body with two faces, male and female, back to back."
   },
   "נטע-שתל": {
    "headword": "נְטִיעָה / שְׁתִילָה / פֵּרוֹת",
    "transliteration": "neti'ah / shetilah / perot",
-   "partOfSpeech": "noun (Tree-of-emanation metaphor)",
+   "partOfSpeech": "noun",
    "notes": "Gate 5 ch.5: the six lower Sefirot as a TREE (אילן) needing three 'modes' (ג' מציאיות, see מצא-מציאות): (1) נטיעה='planting' = the hidden roots (שרשים) in Binah; (2) שתילה='transplanting' = the branches (ענפים)/trunk set out to their own place (the Sefirot's revealed mode); (3) פירות='fruit' = the actions effected below via Malkhut. אילן='Tree' (established); שרש='root'; ענף='branch'; the watering = 'a river issuing from Eden' (Gen 2:10, Eden=Chokhmah, river=Binah).",
    "candidates": [
     {
@@ -2126,18 +2714,31 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The Sefirot as a tree: planted in their hidden root in Binah, transplanted to their own place, and bearing fruit in the actions that issue from them.",
+   "readerGloss": "planting; transplanting; fruit",
+   "surfaceForms": {
+    "נטיעה": {
+     "readerGloss": "planting"
+    },
+    "שתילה": {
+     "readerGloss": "transplanting"
+    },
+    "פירות": {
+     "readerGloss": "fruit"
+    }
+   }
   },
   "צור-עמידה": {
    "headword": "צוּרָה / סֵדֶר עֲמִידָתָן / יְרִיעָה",
    "transliteration": "tzurah / seder amidatan / yeri'ah",
-   "partOfSpeech": "noun (Gate-6 drawing vocabulary)",
-   "notes": "Gate 6 (= the order of arrangement of the Sefirot, the DIAGRAMS). GATE TITLE already PINNED (9 prior cross-refs): שער הששי הוא סדר עמידתן = 'The Sixth Gate: The Order of Their Standing'; do NOT re-render as 'arrangement/positioning'. In THIS gate צורה = 'figure' (the drawn diagram of the Tree), and העמדה/להציב = 'positioning'/'to set [them] in position' (same עמד root as 'standing'). יריעה (pl. יריעות) = 'sheet/scroll' (the large parchments the Kabbalists drew the אילן='Tree' on). The 8 diagrams in 313-367 are ‹img›; SPLICE the exact ‹br›‹img...› from source at translate time (do NOT retype base64). Closing formula 'וזו צורתה'='and this is its figure:' precedes most images.",
+   "partOfSpeech": "noun",
+   "notes": "Gate 6 (= the order of arrangement of the Sefirot, the DIAGRAMS). GATE TITLE already PINNED (9 prior cross-refs): שער הששי הוא סדר עמידתן = 'The Sixth Gate: The Order of Their Standing'; do NOT re-render as 'arrangement/positioning'. In THIS gate צורה = 'figure' (the drawn diagram of the Tree), and העמדה/להציב = 'positioning'/'to set [them] in position' (same עמד root as 'standing'). יריעה (pl. יריעות) = 'parchment(s)' (the large parchments the Kabbalists drew the אילן='Tree' on; RULED by Avi 2026-10-07, see entry ירע-יריעה). The 8 diagrams in 313-367 are ‹img›; SPLICE the exact ‹br›‹img...› from source at translate time (do NOT retype base64). Closing formula 'וזו צורתה'='and this is its figure:' precedes most images.",
    "candidates": [
     {
      "target": "figure (the diagram) / the Order of Their Standing",
      "status": "preferred",
-     "contextNotes": "צורה='figure'; gate title fixed 'the Order of Their Standing'; יריעה='sheet/scroll'; אילן='Tree'.",
+     "contextNotes": "צורה='figure'; gate title fixed 'the Order of Their Standing'; יריעה='parchment' (see ירע-יריעה); אילן='Tree'.",
      "decisions": [
       {
        "section": "6:1:1, 6:1:4f",
@@ -2147,12 +2748,26 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Gate 6 asks how the Sefirot are arranged in a drawn figure, which the Kabbalists call the Tree.",
+   "readerGloss": "figure; the order of their standing",
+   "surfaceForms": {
+    "סדר עמידתן": {
+     "readerGloss": "the order of their standing"
+    },
+    "צורה": {
+     "readerGloss": "figure; form"
+    },
+    "אילן": {
+     "readerGloss": "Tree",
+     "readerNote": "The Sefirot pictured as a tree; also the drawn chart of them."
+    }
+   }
   },
   "עשן-תלי": {
    "headword": "עוֹלָם שָׁנָה נֶפֶשׁ / תְּלִי גַּלְגַּל לֵב",
    "transliteration": "olam shanah nefesh (עש\"ן) / Teli, galgal, lev (תג\"ל)",
-   "partOfSpeech": "noun (Sefer Yetzirah triads)",
+   "partOfSpeech": "noun",
    "notes": "SY 6 triads, invoked at 5:5:4. עולם שנה נפש = 'world, year, soul' (= space, time, soul), acronym עש\"ן; here mapped Binah/Tiferet/Malkhut (the three loci of the 'three modes' of the extremities). The three SY 'controllers' (פקידי='officers/overseers of') over them: תלי='the Teli' (transliterate; gloss 'the celestial axis/dragon' first use — Kaplan-standard), גלגל='the sphere' (=cycle; cf. גלגל='sphere'), לב='the heart'; acronym תג\"ל. The י\"ב גבולים='the twelve boundaries' (=י\"ב פשוטות 'twelve simples', see סי-מבנה) are 'engraved' across these three.",
    "candidates": [
     {
@@ -2168,12 +2783,19 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Sefer Yetzirah's three realms (space, time and the living being), each with its ruler: the Teli (the celestial axis), the sphere and the heart.",
+   "readerGloss": "world, year, soul",
+   "surfaceForms": {
+    "עש\"ן": {
+     "readerGloss": "world, year, soul"
+    }
+   }
   },
   "נקוד-טעמים": {
    "headword": "סְגוֹלְתָּא / סֶגוֹל / שׁוּרֻק / שַׁלְשֶׁלֶת / חוֹלָם / צֵירֵי / פַּתָּח",
    "transliteration": "segolta / segol / shuruk / shalshelet / cholam / tzeirei / patach",
-   "partOfSpeech": "noun (masoretic vowel & cantillation signs, used as Sefirah-diagrams)",
+   "partOfSpeech": "noun",
    "notes": "Gate 6 maps the SHAPES of nikkud/te'amim to triads of Sefirot (Tikkunim: Tikkun 69 fol.101b, TZ\"Ch fol.112). TRANSLITERATE all, gloss the dot/shape pattern as the TEXT describes it on first use. Established: 'segolta' already used once (transliterated). Mappings here: כתר על חכמה ובינה = a segolta / 'a cholam (one dot above) over a tzeirei (two dots)'; סגול = the three-dot downward triangle beneath; ג' אבות (ChaGaT) and נה\"י as segol/segolta triads; נצח-הוד-יסוד in a row = a shuruk (here described as 'three dots in one row'); when Tiferet sits exactly between Gedulah and Gevurah the vertical triad = a shalshelet. R. Yehudah Chayyat's mnemonic: 'segolta, segol, segol' for the three triads.",
    "candidates": [
     {
@@ -2189,12 +2811,19 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Vowel points and cantillation marks. Cordovero uses the patterns of their dots as diagrams for triads of Sefirot.",
+   "readerGloss": "segolta, segol, shuruk, shalshelet, cholam, tzeirei, patach",
+   "surfaceForms": {
+    "סגולתא": {
+     "readerGloss": "segolta (three dots, one above two)"
+    }
+   }
   },
   "פנים-אחור": {
    "headword": "פָּנִים / אֲחוֹרַיִם / מְהֻפֶּכֶת",
    "transliteration": "panim / achorayim / mehupekhet",
-   "partOfSpeech": "noun/adj (Gate-6 ch.2 orientation dispute)",
+   "partOfSpeech": "noun/adj",
    "notes": "The ch.2 polemic against Sefer Me'irat Einayim's 'reversed' Tree. פנים='face'; אחוריים='back / hinder parts' (Exod 33:23 'you shall see My back [achorai] but My face shall not be seen'). מהופכת='reversed/inverted' (the disputed figure). Cordovero: the true figure is right-opposite-right, left-opposite-left (ימין אל הימין ושמאל אל השמאל). Proof-set this chunk: (a) the four tefillin parashiyot — קדש=Chokhmah, והיה כי יביאך=Binah, שמע=Chesed/Gedulah, והיה אם שמוע=Gevurah (see אברי-קומה) — via מניח='the one laying [tefillin]' vs קורא='the reader'(the onlooker facing him); (b) the altar's ascent — כבש='ramp' (on the south of the מזבח='altar'), turning to קרן דרומית מזרחית='the southeast corner' (the ascender's right); (c) ג' פסיעות='the three steps' [back, ending the Amidah] giving 'peace' to the left first (Yoma 53b). Verse: שויתי ה' לנגדי תמיד='I have set YHVH always before me' (Ps 16:8). | GATE 7 (2026-10-07): the פנים of the Sefirot = their 'faces' turned toward one another; a channel exists where 'particular faces [are] opposite particular faces' (פנים מיוחדים כנגד פנים מיוחדים). פנים מאירים = 'a shining face'; תסובנה הפנים = 'the faces turn aside'; אנפין באנפין (Zohar Vayikra 15) = 'face to face'; ישר יחזו פנימו (Ps 11:7) rendered to the Zohar's sense: 'their faces behold [one another] straight'. Keep 'face(s)', never 'countenance/aspect' (בחינה = aspect).",
    "candidates": [
     {
@@ -2216,12 +2845,34 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The Sefirot turn their faces toward one another to give and to receive, and a channel is the light between two facing Sefirot. In Gate 6 the question is which way the drawn Tree faces. The word for 'face' also means 'respect' or 'way.'",
+   "readerGloss": "face; back; reversed",
+   "surfaceForms": {
+    "פנים": {
+     "readerGloss": "face; respect"
+    },
+    "אחוריים": {
+     "readerGloss": "back"
+    },
+    "מהופכת": {
+     "readerGloss": "reversed"
+    },
+    "פנים מאירים": {
+     "readerGloss": "a shining face"
+    },
+    "פנים כנגד פנים": {
+     "readerGloss": "face opposite face"
+    },
+    "אנפין באנפין": {
+     "readerGloss": "face to face"
+    }
+   }
   },
   "שמות-גייט6": {
    "headword": "Gate-5/6 proper names & books",
    "transliteration": "—",
-   "partOfSpeech": "noun (names — render as named, no in-text speculation)",
+   "partOfSpeech": "noun",
    "notes": "NEW this chunk: ר' משה ד(י)ליאון = 'Rabbi Moshe de León'; ספר השם = 'Sefer ha-Shem' (his 'Book of the Name'). בעל מאירת עינים / ספר מאירת עינים = 'the author of Me'irat Einayim' / 'Sefer Me'irat Einayim' (R. Isaac of Acre; the Gate-6 ch.2 disputant with the 'reversed' figure). ר' טודרוס הלוי = 'Rabbi Todros ha-Levi' — render the source's attribution verbatim ('the view of R. Todros ha-Levi in Sefer ha-Ma'arekhet'); no in-text correction. REAFFIRM: ר' שם טוב בן ר' שם טוב = 'R. Shem Tov ben R. Shem Tov' (here annotating de León's book in the margin, הגיה בגליון='annotated in the margin'); ר' יהודה חייט = 'R. Yehudah Chayyat' (established). DISAMBIGUATION TRAP: in Gate-5 prose מורי נר\"ו = Cordovero's teacher R. Yosef Karo; but inside the QUOTED Me'irat Einayim passage (flat 361) מורי = Isaac of Acre's OWN teacher — render 'my teacher' within the quote, do NOT tie to Karo.",
    "candidates": [
     {
@@ -2237,7 +2888,21 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "An authority whom Cordovero cites.",
+   "cluster": true,
+   "surfaceForms": {
+    "ר' משה דליאון": {
+     "readerGloss": "Rabbi Moshe de León"
+    },
+    "בעל מאירת עינים": {
+     "readerGloss": "the author of Me'irat Einayim",
+     "readerNote": "Rabbi Isaac of Acre (14th century), a Kabbalist whom Cordovero cites on the figure of the Tree."
+    },
+    "ר' טודרוס הלוי": {
+     "readerGloss": "Rabbi Todros ha-Levi"
+    }
+   }
   },
   "ביטויים-גייט6": {
    "headword": "Recurring idioms (Gate 5-6)",
@@ -2258,7 +2923,27 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "A stock phrase.",
+   "cluster": true,
+   "surfaceForms": {
+    "דפח\"ח": {
+     "readerGloss": "the gracious words of a wise man",
+     "readerNote": "An abbreviation of Ecclesiastes 10:12, used to praise an opinion."
+    },
+    "סלת נקיה": {
+     "readerGloss": "fine sifted flour",
+     "readerNote": "Said of the choicest view."
+    },
+    "שרי ליה מאריה": {
+     "readerGloss": "may his Master forgive him",
+     "readerNote": "A mild rebuke of a respected author."
+    },
+    "פסקיה לקרא בסכינא חריפא": {
+     "readerGloss": "he split the verse with a sharp knife",
+     "readerNote": "Said of a forced division of a verse."
+    }
+   }
   },
   "היה-הויות": {
    "headword": "הֲוָיוֹת",
@@ -2279,7 +2964,14 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The powers that arose in thought to be emanated. The same word, havayot, also means the Names of YHVH.",
+   "readerGloss": "the existents",
+   "surfaceForms": {
+    "י\"ב הויות": {
+     "readerGloss": "the twelve existents"
+    }
+   }
   },
   "נקף-הקפה": {
    "headword": "מַקִּיף / מֻקָּף",
@@ -2307,12 +2999,22 @@
      "status": "rejected",
      "contextNotes": "reserved for סובב; using it for מקיף would blur the two verbs already distinguished in the translated text."
     }
-   ]
+   ],
+   "readerNote": "Every cause encompasses its effect, as the outer layer of an onion encloses the inner. So the Ein Sof encompasses all.",
+   "readerGloss": "encompasses; encompassed",
+   "surfaceForms": {
+    "מקיף": {
+     "readerGloss": "encompasses"
+    },
+    "מוקף": {
+     "readerGloss": "encompassed"
+    }
+   }
   },
   "רקיע-שמות": {
    "headword": "רָקִיעַ (pl. רְקִיעִים) — and the seven firmaments",
    "transliteration": "raki'a / reki'im",
-   "partOfSpeech": "noun (technical set)",
+   "partOfSpeech": "noun",
    "notes": "רקיע = 'firmament' (the Torah/Aggadah term), CONTRAST גלגל='sphere' (the astronomers' term) — ch.3 turns on the two not being co-numbered. RECONCILE: 'firmament' already 25x in translation.json. The SEVEN firmaments (Resh Lakish, Chagigah 12b, flat 373): וילון/רקיע/שחקים/זבול/מעון/מכון/ערבות = Vilon, Raki'a, Shechakim, Zevul, Ma'on, Makhon, Aravot — TRANSLITERATE (Soncino-standard), render the gloss the passage gives each (Vilon 'serves no purpose but to enter at morning and go out at evening'; Shechakim 'where millstones grind manna for the righteous'; Zevul 'where the heavenly Jerusalem, Temple, and altar stand, and Michael the great prince offers'; Ma'on 'where companies of ministering angels sing by night'). NB Zohar Terumah (flat 382): ערבות=the 7th=Tiferet ('because it mixes [ערוב] fire and water, the south side and the north'); 'sulu la-rokhev ba-Aravot' (Ps 68:5)='extol Him who rides upon the Aravot'.",
    "candidates": [
     {
@@ -2328,7 +3030,14 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The Torah's term for a heaven, which Cordovero distinguishes from the astronomers' 'sphere.' The Talmud names seven: Vilon, Raki'a, Shechakim, Zevul, Ma'on, Makhon, Aravot.",
+   "readerGloss": "firmament",
+   "surfaceForms": {
+    "רקיע": {
+     "readerGloss": "firmament"
+    }
+   }
   },
   "שגח-השגה": {
    "headword": "מַשִּׂיג / הַשָּׂגָה",
@@ -2349,7 +3058,17 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Intellectual grasp. Each Sefirah apprehends itself fully, and what is above it only in part.",
+   "readerGloss": "apprehend; apprehension",
+   "surfaceForms": {
+    "משיג": {
+     "readerGloss": "apprehends"
+    },
+    "השגה": {
+     "readerGloss": "apprehension"
+    }
+   }
   },
   "יחד-יחוד": {
    "headword": "יִחוּד / מְיֻחָד / מִתְיַחֵד",
@@ -2370,12 +3089,25 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The unity of the Sefirot with one another and with the Emanator; also the act of unifying them through intention in prayer and the commandments.",
+   "readerGloss": "union; unified",
+   "surfaceForms": {
+    "יחוד": {
+     "readerGloss": "union; unification"
+    },
+    "מיוחד": {
+     "readerGloss": "unified; particular"
+    },
+    "מתייחד": {
+     "readerGloss": "is unified"
+    }
+   }
   },
   "שכל-נבדל": {
    "headword": "שֵׂכֶל נִבְדָּל / מְאֹרְעֵי הַגּוּף",
    "transliteration": "sekhel nivdal / me'or'ei ha-guf",
-   "partOfSpeech": "noun-phrase (philosophical)",
+   "partOfSpeech": "noun-phrase",
    "notes": "The philosophers' apparatus invoked in Gate 6 ch.6 (Rambam, Hilkhot Yesodei ha-Torah 2): angels = שכלים נבדלים 'separate intellects'; being incorporeal, they differ not by מאורעי הגוף 'the accidents of body' but by RANK — each below the rank of the one above, each existing from the other's power (cause/effect). Cordovero applies the same to the Sefirot. Render שכל נבדל='separate intellect'; מאורעי הגוף='the accidents of body' (cf. מקרה='accident', lexicon עצם-מקרה); 'אינם שווים במציאותם'='they are not equal in their existence'.",
    "candidates": [
     {
@@ -2392,12 +3124,22 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "The philosophers' name for the angels: intellects apart from matter, which differ from one another in rank and not in bodily properties.",
+   "readerGloss": "separate intellect",
+   "surfaceForms": {
+    "שכלים נבדלים": {
+     "readerGloss": "separate intellects"
+    },
+    "מאורעי הגוף": {
+     "readerGloss": "the accidents of body"
+    }
+   }
   },
   "מקום-עולם": {
    "headword": "מְקוֹמוֹ שֶׁל עוֹלָם / קְדִימַת מַעֲלָה",
    "transliteration": "mekomo shel olam / kedimat ma'alah",
-   "partOfSpeech": "noun-phrase (non-spatiality doctrine)",
+   "partOfSpeech": "noun-phrase",
    "notes": "The ch.3 anti-spatial payoff (flat 378): 'He is the place of the world, and the world is not His place' (הוא מקומו של עולם ואין העולם מקומו, Bereshit Rabbah) — the Sefirah-within-Sefirah 'nesting' is NOT literal place; 'this is above that' means קדימת מעלה 'priority of rank', NOT קדימת מקום 'priority of place'. Render מקומו של עולם='the place of the world'; קדימת מעלה='priority of rank' (or 'of degree'); קדימת מקום='priority of place'; 'מגלגל ט' ולמעלה אפס המקום'='from the ninth sphere upward there is no place'.",
    "candidates": [
     {
@@ -2413,12 +3155,25 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "'He is the place of the world, and the world is not His place.' When one Sefirah is said to be above another, it is prior in rank, not in location.",
+   "readerGloss": "the place of the world",
+   "surfaceForms": {
+    "מקומו של עולם": {
+     "readerGloss": "the place of the world"
+    },
+    "קדימת מעלה": {
+     "readerGloss": "priority of rank"
+    },
+    "קדימת מקום": {
+     "readerGloss": "priority of place"
+    }
+   }
   },
   "קוסמ-גייט6": {
    "headword": "Gate-6 cosmology cluster (the encompassing-spheres figure)",
    "transliteration": "—",
-   "partOfSpeech": "noun (technical set)",
+   "partOfSpeech": "noun",
    "notes": "Cluster for ch.3/ch.5 (the concentric figure). תבל = 'Tevel' (FINAL, Avi): transliterate; gloss '(the earth-realm humans inhabit)' on first use only — the topmost of the seven earths in the Zohar Vayikra passage (flat 376), where Adam dwells, 'bound to the supernal firmament and the supernal Name'; verse-puns hang on it (Ps 9:9 'He shall judge Tevel in righteousness'; Prov 8:31 'playing in His Tevel/earth'). ז' ארצות='seven earths'; ישוב/ישובא='the inhabited world' (the settled land); כגלדי בצלים='like onion-skins'/'the layers of an onion'; כחרדלא בעזקתא / חרדלא בגו עזקתא='like a mustard-seed in a ring' (the tiny earth/Malkhut at the center); כדור='ball' (the spherical earth — 'the whole inhabited world revolves in a circle like a ball'), עיגול='circle'; אקלימים='climes' (the astronomers' divisions). גלגל היומי='the diurnal sphere' (encompasses all, reverses their motion W->E); גלגל השכל='the sphere of the Intellect' (the 10th, 'the holy', encompassing all, = Keter-analog). מעשה בראשית='the Account of Creation'; מעשה מרכבה='the Account of the Chariot'; פרקי מרכבה / פרקי מעשה בראשית='the chapters of the Chariot'/'of the Account of Creation'. עטרה='the Atarah' (a name for Malkhut; gloss '(the diadem)' first use), ארץ החיים='the land of the living' (Malkhut). האם הרובצת על הבנים='the mother crouching over the young' (Binah, Deut 22:6 imagery; the 8th firmament 'riding over all').",
    "candidates": [
     {
@@ -2450,12 +3205,43 @@
      "status": "rejected",
      "contextNotes": "superseded 2026-06-10: Avi chose transliterated 'Tevel'."
     }
-   ]
+   ],
+   "readerNote": "A term from Gate 6's account of the spheres and the earth.",
+   "cluster": true,
+   "surfaceForms": {
+    "כגלדי בצלים": {
+     "readerGloss": "like onion-skins",
+     "readerNote": "The spheres, and the Sefirot, nested one within another."
+    },
+    "חרדלא בעזקתא": {
+     "readerGloss": "a mustard-seed in a ring",
+     "readerNote": "The earth, tiny at the centre of the spheres."
+    },
+    "כדור": {
+     "readerGloss": "ball"
+    },
+    "גלגל היומי": {
+     "readerGloss": "the diurnal sphere"
+    },
+    "גלגל השכל": {
+     "readerGloss": "the sphere of the Intellect"
+    },
+    "מעשה בראשית": {
+     "readerGloss": "the Account of Creation; the work of creation"
+    },
+    "מעשה מרכבה": {
+     "readerGloss": "the Account of the Chariot"
+    },
+    "תבל": {
+     "readerGloss": "Tevel",
+     "readerNote": "The inhabited earth, the highest of the seven earths in the Zohar."
+    }
+   }
   },
   "שמות-ביטויים-גייט6ב": {
    "headword": "Names & idioms (Gate 6 ch.2-7)",
    "transliteration": "—",
-   "partOfSpeech": "noun/phrase (render as named/glossed)",
+   "partOfSpeech": "noun/phrase",
    "notes": "NAMES (render as named; no in-text speculation): אכתריא\"ל = 'Aktariel' (Berakhot 7a, 'I saw Aktariel Yah YHVH Tzeva'ot'; Cordovero: a prince on high (שר במרום), not a god — the divine Glory clothes itself in him, so he is named with the Name). ר' נהוראי (סבא) = 'Rabbi Nehorai (the Elder)' (the sea-parable; possibly = ר' מאיר 'Rabbi Meir' per Eruvin 13b). ספרא דאדם / ספר אדם קדמאה = 'the Book of Adam (the First)'; ספרא דרב המנונא סבא = 'the Book of Rav Hamnuna the Elder'; מדרש רות = 'Midrash Ruth' (the Zoharic); ספר הבהיר='Sefer ha-Bahir' (established). Zohar speakers transliterated: ר' יוסי='Rabbi Yossi', ר' חייא='Rabbi Chiya', ר' יהודה='Rabbi Yehudah'. REUSE: בעל ספר מאירת עינים='the author of Sefer Me'irat Einayim' (here an ALLY supplying the concentric figure, NOT the ch.2 disputant); ר' שם טוב בן שם טוב / ספר האמונות='R. Shem Tov ben Shem Tov / Sefer ha-Emunot'; Rambam / Hilkhot Yesodei ha-Torah; Sefer Or Yakar. IDIOMS/VERSES: כבוד='Glory' (the Shekhinah resting on angels); חופף='hovers over'/'rests upon' (the Glory חופף ומתלבש='hovers over and clothes itself in' the angel); תולה ארץ על בלימה (Job 26:7)='He suspends the earth over nothingness [belimah]' (Me'irat Einayim's pun on belimah); חכמת הפרדס='the wisdom of the Pardes' (ties to the מקצץ בנטיעות / Elisha b. Abuyah heresy, lexicon כפר-מין); מפרק את האהל / מפרק בשבת='dismantling the tent'/'one who dismantles on the Sabbath' (Adam's sin as the forbidden labor of dismantling); מעין עולם הבא='a foretaste of the World to Come'; 'בעולם הבא אין בו לא אכילה ולא שתיה' (Berakhot 17a)='in the World to Come there is no eating or drinking'; ה' ענויים='the five afflictions' (of Yom Kippur); 'שגגת תלמוד עולה זדון' (Avot)='an error in study is accounted a willful sin'; 'התורה כקופה שאין לה אזנים' (Eruvin 21b)='the Torah was like a basket without handles' (until parables gave it handles); נפשו בטוב תלין (Ps 25:13)='his soul shall abide in well-being'.",
    "candidates": [
     {
@@ -2471,12 +3257,35 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "A name or phrase in Gate 6.",
+   "cluster": true,
+   "surfaceForms": {
+    "אכתריאל": {
+     "readerGloss": "Aktariel",
+     "readerNote": "A name in Berakhot 7a. Cordovero explains that he is an angel in whom the divine Glory clothes itself."
+    },
+    "ר' נהוראי": {
+     "readerGloss": "Rabbi Nehorai"
+    },
+    "ספרא דאדם": {
+     "readerGloss": "the Book of Adam"
+    },
+    "ספרא דרב המנונא": {
+     "readerGloss": "the Book of Rav Hamnuna"
+    },
+    "חופף": {
+     "readerGloss": "hovers over"
+    },
+    "מפרק את האהל": {
+     "readerGloss": "dismantling the tent"
+    }
+   }
   },
   "קנה-קונה": {
    "headword": "קוֹנֶה",
    "transliteration": "koneh",
-   "partOfSpeech": "noun (divine epithet)",
+   "partOfSpeech": "noun",
    "notes": "Divine epithet from קנה (acquire/possess/create; cf. קונה שמים וארץ, Gen 14:19). In Gate 6 ch.3 prose ('by the will of the Maker'/'their Maker'; 'we trust in our Maker'). Rendered 'Maker' — kept DISTINCT from ברא='create' and יצר='form' and עשה='make'; here no ברא/קנה wordplay is at stake, and 'Maker' reads idiomatically (the few עשה='make' uses in the chunk are at clearly-marked verse-sites). NB do not collapse with ברא='Creator'.",
    "candidates": [
     {
@@ -2497,7 +3306,16 @@
      "status": "acceptable",
      "contextNotes": "more literal but reads awkwardly in 'by the will of the Possessor'; reserve if a קנה/ברא contrast ever appears."
     }
-   ]
+   ],
+   "readerNote": "A name for God as the one who brought the world into being and possesses it (compare Genesis 14:19).",
+   "surfaceForms": {
+    "קוניהם": {
+     "readerGloss": "their Maker"
+    },
+    "קוננו": {
+     "readerGloss": "our Maker"
+    }
+   }
   },
   "עור-התעוררות": {
    "headword": "הִתְעוֹרְרוּת / לְעוֹרֵר / אִתְעָרוּתָא",
@@ -2523,7 +3341,20 @@
      "status": "rejected",
      "contextNotes": "No prior use; would split the מתערין/התעוררות pair already rendered 'aroused'."
     }
-   ]
+   ],
+   "readerNote": "The stirring that must rise from the lower Sefirah before the upper one pours into it: 'a mist went up from the earth', and only then 'watered the ground.'",
+   "readerGloss": "arousal; to arouse",
+   "surfaceForms": {
+    "התעוררות": {
+     "readerGloss": "arousal"
+    },
+    "תתעורר": {
+     "readerGloss": "is aroused"
+    },
+    "האור המתעורר": {
+     "readerGloss": "the light that is aroused"
+    }
+   }
   },
   "עלה-ירד": {
    "headword": "עֲלִיָּה וִירִידָה / סַלְקָא וְנַחְתָּא",
@@ -2544,12 +3375,24 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "When the Zohar says that a Sefirah ascends or descends, no movement in place is meant. It rises or falls in causal rank, according to how refined its light is.",
+   "surfaceForms": {
+    "סלקא ונחתא": {
+     "readerGloss": "ascending and descending"
+    },
+    "נטרדה": {
+     "readerGloss": "was driven down"
+    },
+    "נזדככה": {
+     "readerGloss": "was refined"
+    }
+   }
   },
   "הוה-חיה-חדש": {
    "headword": "מְהַוֶּה / מְחַיֶּה / מַמְצִיא / מְחַדֵּשׁ",
    "transliteration": "mehaveh / mechayeh / mamtzi / mechadesh",
-   "partOfSpeech": "verb set (continuous creation)",
+   "partOfSpeech": "verb set",
    "notes": "6:8:2-3, continuous creation: 'ואתה מחיה את כלם' (Neh 9:6) = 'and You give life to them all', which the Sages read 'ואתה מהוה' = 'and You bring them all into being' — 'bringing-into-being and giving-life are one matter'. מהוה = 'brings into being'; מחיה = 'gives life to'; ממציא = 'brings into existence' (מן האין = 'from Nothing', per FINAL אין/יש); חיות = 'vitality'. RENEWAL SENSE of חדש: the liturgical 'ובטובו מחדש בכל יום תמיד מעשה בראשית' = 'and in His goodness He renews every day, continually, the work of creation' (already so rendered at flat 373); מחודשים = 'renewed'; חדוש אורו = 'the renewal of His light'; the river whose waters 'are renewed every moment'. This does NOT disturb the FINAL חדוש = 'coming-to-be' (the philosophical sense, vs. eternity) — different sense of the root.",
    "candidates": [
     {
@@ -2578,7 +3421,29 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "Creation is continuous: what the Ein Sof brought into being it sustains at every moment, as the water of a river is always new.",
+   "readerGloss": "brings into being; gives life to",
+   "surfaceForms": {
+    "מהוה": {
+     "readerGloss": "brings into being"
+    },
+    "מחיה": {
+     "readerGloss": "gives life to"
+    },
+    "ממציאם ומהוום": {
+     "readerGloss": "brings them into existence and into being"
+    },
+    "מחדש": {
+     "readerGloss": "renews"
+    },
+    "מחודשים": {
+     "readerGloss": "renewed"
+    },
+    "חדוש אורו": {
+     "readerGloss": "the renewal of His light"
+    }
+   }
   },
   "מהות": {
    "headword": "מַהוּת (וְשַׁעַר מַהוּת וְהַנְהָגָה)",
@@ -2631,7 +3496,9 @@
      "contextNotes": "Retired; 3 sites to convert.",
      "decisions": []
     }
-   ]
+   ],
+   "readerNote": "What a thing is (from mah, 'what'). It is distinct from the 'Self' of the Emanator. Gate 8 treats the essence and governance of the Sefirot.",
+   "readerGloss": "essence"
   },
   "מזג": {
    "headword": "מֶזֶג / מְזִיגָה / שִׁוּוּי מֶזֶג",
@@ -2657,12 +3524,18 @@
      "status": "acceptable",
      "contextNotes": "bodily constitution in the spheres parable only."
     }
-   ]
+   ],
+   "readerNote": "The tempering of the right side with the left: a little judgment mixed into mercy, and mercy into judgment.",
+   "surfaceForms": {
+    "שווי מזג": {
+     "readerGloss": "evenness of blending"
+    }
+   }
   },
   "עין-מעיין": {
    "headword": "הַמְעַיֵּן / הַמַּשְׂכִּיל",
    "transliteration": "ha-me'ayyen / ha-maskil",
-   "partOfSpeech": "noun (the implied reader)",
+   "partOfSpeech": "noun",
    "notes": "Pinning a drift: המעיין has appeared as 'the inquirer' (7x), 'one who studies' (3x), 'the student' (2x), 'the investigator' (1x); המשכיל as 'the discerning' (5x), 'the enlightened' (4x). From here on: המעיין = 'the inquirer'; המשכיל = 'the discerning'. (No retro-edits made.)",
    "candidates": [
     {
@@ -2688,18 +3561,20 @@
      "status": "rejected",
      "contextNotes": "minority variants; do not reintroduce."
     }
-   ]
+   ],
+   "readerNote": "Cordovero's word for his reader: one who examines the matter closely.",
+   "readerGloss": "the inquirer"
   },
   "שמות-ביטויים-גייט7": {
    "headword": "Names, numbers & idioms (Gate 6 ch.7-8, Gate 7 ch.1-3)",
    "transliteration": "—",
-   "partOfSpeech": "noun/phrase (render as named/glossed)",
-   "notes": "NAMES/BOOKS: הטבעיים = 'the natural philosophers' (the extramission theory of sight, 7:1:4); המפרשים = 'the commentators' (established); בעל היריעה = 'the author of the Sheet' (an anonymous Tree-chart with glosses; יריעה='sheet' as at 6:1 — Cordovero twice dismisses him) — soft question to Avi (Sheet / Scroll / transliterate 'Yeri'ah'); אמר המגיה = 'Says the editor:' (the ‹small› printer's note at 7:1:7; keep the ‹small› tags); ספר אור נערב = 'Sefer Or Ne'erav' (Cordovero's own); ספר אור יקר = 'Sefer Or Yakar' (established); מרע\"ה = 'Moses our Teacher, peace be upon him'; רשב\"י ע\"ה = 'Rashbi, peace be upon him'; ר' חזקיה = 'Rabbi Chizkiyah'; ר' אלעזר = 'Rabbi Elazar'.\nFORMULAE (conform to majority already in the translation): וז\"ל = 'and these are his words:'; עכ\"ל = 'Thus far [his] words.'; ח\"ו = 'God forbid'; בס\"ד = \"with God's help\"; נ\"א = '(a variant reads: …)'; ממ\"ה = 'the King of kings of kings'; מכח אל הפועל = 'from potential to actuality'; כ\"ח מ\"ה = '\"koach mah\" (the power of \"mah\")'.\nEDITORIAL MARKS: keep bracketed/parenthetical editorial insertions — 6:7:8 '[…מעסיס רמונים)' = '[… — from Asis Rimonim]'; 7:1:5 '(בזהר שלנו איתא לאוקמי בקיומייהו) (לא)' = '(in our Zohar the reading is le-okmei be-kiyyumaihu, \"to sustain [them] in their subsistence\") (lo, \"not\")' — the round-bracket (לא) is a variant flag on the word לא, NOT a footnote anchor (the anchors are square-bracketed and run [י]→[יא]); 7:2:5 '(אולי כוונתו לזהר בלק…)' = '(perhaps he means Zohar, Balak, fol. 189a-b; see there)'; 7:2:22 '[תקונא י\"ח דל\"ג.]' = '[Tikkun 18, fol. 33a]'.\nNUMBERS: כ\"ב = 22 channels = ב\"ך 'By you [bekha = 22] shall Israel bless' (Gen 48:20); ל\"ב נתיבות = 'the thirty-two paths' (= 22 letters + 10 utterances); ע\"ב גשרים = 'the seventy-two bridges'; חכמה = 73; שמ\"ן in atbash = בי\"ט = 21 = Ehyeh; ל\"ה שרים = 'thirty-five princes' (right: המיימינים לזכות = 'who incline rightward, toward merit'; left: המשמאילים לכף חובה = 'who incline leftward, toward the scale of guilt'); ע\"ב כוחות / ע\"ב שמות = 'seventy-two powers' / 'the seventy-two Names'; רי\"ו אורות = 'the 216 lights' (72 right, 72 left, 72 middle); ג' ווי\"ן ויסע ויבא ויט (Exod 14:19-21) = 'the three vavs — va-yissa, va-yavo, va-yet'; מ\"ע / מצות ל\"ת = 'positive commandments' / 'negative commandments'.\nIMAGERY: היין המבושם = 'the perfumed wine' (Keter→Binah), kept apart from יין הרקח = 'the spiced wine' (Song 8:2; Jacob's wine to Isaac, Gen 27:25); יין נסך = 'libation-wine [yein nesekh]', מגע גוי = 'the touch of a gentile'; לתקן תבשיל הקדרה המסרחת = 'to set right the dish of the pot gone rancid' (cooking idiom — NOT 'rectify'; technical תיקון stays 'rectification'); החלב / הלובן העליון = 'the milk' / 'the supernal whiteness' ('eyes washed in milk', Song 5:12); השמן הטוב (Ps 133:2) = 'the good oil upon the head, running down upon the beard, the beard of Aaron'; מים חיים נוזלים מן לבנון (Song 4:15) = 'living waters, flowing from Lebanon'; ארבעת עדרי צאן = 'the four flocks of sheep' (NHY+Malkhut); הט\"ל / שוחקים מן לצדיקים = 'the dew' / 'grind manna for the righteous' (established); צדיק וצדק = 'Tzaddik and Tzedek'; השושבין = 'the best man' (established 1x); השליש = 'the intermediary'; ככלה תעדה כליה (Isa 61:10) = 'as a bride adorns herself with her jewels'; האמה / תרין ביעין דדכורא = 'the member' / 'the two testicles of the male'; חוט של חסד נמשך על אסתר (Megillah 13a) = 'a thread of lovingkindness [chesed] was drawn over Esther'; נחש הקדמוני הטיל זוהמא בחוה = 'the primordial serpent cast filth into Eve'; מי נתן שכור בין הנזירים = 'who set a drunkard among the Nazirites?'; 'בלי יסוד' (7:2:25) = 'without foundation' (pun on Yesod — gloss '[yesod]'); רצועה ימנית/שמאלית של תפלין של ראש = 'the right/left strap of the head-tefillin', בי\"ת = the tefillin 'housing (bayit)' = Keter; הרוצה להחכים ידרים (Bava Batra 25b) = 'one who wishes to become wise should turn south'; ג' שותפים באדם (Niddah 31a) = 'there are three partners in a person'; ישראל עלה במחשבה = 'Israel arose in thought'; פועל גבורות = 'the worker of mighty deeds (gevurot)' (established); שוטרי הדיינים = 'the officers of the judges'; נטענו את עץ החיים … לעבדה ולשמרה (7:2:1) = 'we have planted the Tree of Life … to work it and to keep it' (Gen 2:15 echo); הקריאות = 'these callings' ('deep calls unto deep').\nNAMES OF GOD: source's pious spellings ידו\"ד / יהו\"ד = 'YHVH'; אדנ\"י = 'Adonai'; יאהדונה\"י = 'YAHDVNHY' (established, the interweaving of YHVH and Adonai); אהי\"ה = 'Ehyeh'. Hab 3:19 אדנ\"י ידו\"ד חילי = 'YHVH Adonai is my strength [cheili]' — Tikkun 52: חיל י' = 'the strength of yod'; תוקפא דכלא מלעילא = 'the might of all, from above'; חיל / כח / עצמה = 'strength / power / might'.\nQUOTED PASSAGES (Aramaic → English, Names + Sefirot per convention): flat 403 Tikkunim intro 3b ('ועלת על כלא נהיר…ולא אשתני בכל אתר' = 'And the Cause over all shines in the ten Sefirot of Atzilut and in the ten of Beriah, and shines in the ten classes of angels and in the ten spheres of the firmament, and does not change in any place'); flat 405 Zohar Vayetze 158 (הרי בשמים, the six sons of Leah); flat 412 Zohar Vayikra 15 (עתיקא קדישא = 'the Holy Ancient One', זעיר אפין = 'Zeir Anpin', כתרין קדישין = 'holy crowns', כרסוון רמיו Dan 7:9 = 'thrones were cast down', עתיק יומין = 'the Ancient of Days'); flat 418 Tikkun 52 fol.84; flat 441 Zohar Noach 59b (נהר דנגיד ונפיק = 'a river that flows and issues' [nagid ve-nafik] — established order; 7:3:2-3 then asks why 'flows' precedes 'issues', and cites Dan 7:10 'a river of fire flowed and issued from before Him'; תיבה = 'the ark [tevah]' vs ארון הברית = 'the Ark of the Covenant'; קיימא קדישא = 'the holy covenant'; איש האדמה = 'a man of the ground'; וצדיק יסוד עולם Prov 10:25 = 'and the righteous one is the foundation of the world'; ברית שלום = 'covenant of peace').",
+   "partOfSpeech": "noun/phrase",
+   "notes": "NAMES/BOOKS: הטבעיים = 'the natural philosophers' (the extramission theory of sight, 7:1:4); המפרשים = 'the commentators' (established); בעל היריעה = 'the author of the parchment' (lower-case; RULED by Avi 2026-10-07; '(Yeri'ah) [a particular chart of the Tree]' added at the first use in a chapter; a Tree-chart with glosses — Cordovero twice dismisses him; see entry ירע-יריעה); אמר המגיה = 'Says the editor:' (the ‹small› printer's note at 7:1:7; keep the ‹small› tags); ספר אור נערב = 'Sefer Or Ne'erav' (Cordovero's own); ספר אור יקר = 'Sefer Or Yakar' (established); מרע\"ה = 'Moses our Teacher, peace be upon him'; רשב\"י ע\"ה = 'Rashbi, peace be upon him'; ר' חזקיה = 'Rabbi Chizkiyah'; ר' אלעזר = 'Rabbi Elazar'.\nFORMULAE (conform to majority already in the translation): וז\"ל = 'and these are his words:'; עכ\"ל = 'Thus far [his] words.'; ח\"ו = 'God forbid'; בס\"ד = \"with God's help\"; נ\"א = '(a variant reads: …)'; ממ\"ה = 'the King of kings of kings'; מכח אל הפועל = 'from potential to actuality'; כ\"ח מ\"ה = '\"koach mah\" (the power of \"mah\")'.\nEDITORIAL MARKS: keep bracketed/parenthetical editorial insertions — 6:7:8 '[…מעסיס רמונים)' = '[… — from Asis Rimonim]'; 7:1:5 '(בזהר שלנו איתא לאוקמי בקיומייהו) (לא)' = '(in our Zohar the reading is le-okmei be-kiyyumaihu, \"to sustain [them] in their subsistence\") (lo, \"not\")' — the round-bracket (לא) is a variant flag on the word לא, NOT a footnote anchor (the anchors are square-bracketed and run [י]→[יא]); 7:2:5 '(אולי כוונתו לזהר בלק…)' = '(perhaps he means Zohar, Balak, fol. 189a-b; see there)'; 7:2:22 '[תקונא י\"ח דל\"ג.]' = '[Tikkun 18, fol. 33a]'.\nNUMBERS: כ\"ב = 22 channels = ב\"ך 'By you [bekha = 22] shall Israel bless' (Gen 48:20); ל\"ב נתיבות = 'the thirty-two paths' (= 22 letters + 10 utterances); ע\"ב גשרים = 'the seventy-two bridges'; חכמה = 73; שמ\"ן in atbash = בי\"ט = 21 = Ehyeh; ל\"ה שרים = 'thirty-five princes' (right: המיימינים לזכות = 'who incline rightward, toward merit'; left: המשמאילים לכף חובה = 'who incline leftward, toward the scale of guilt'); ע\"ב כוחות / ע\"ב שמות = 'seventy-two powers' / 'the seventy-two Names'; רי\"ו אורות = 'the 216 lights' (72 right, 72 left, 72 middle); ג' ווי\"ן ויסע ויבא ויט (Exod 14:19-21) = 'the three vavs — va-yissa, va-yavo, va-yet'; מ\"ע / מצות ל\"ת = 'positive commandments' / 'negative commandments'.\nIMAGERY: היין המבושם = 'the perfumed wine' (Keter→Binah), kept apart from יין הרקח = 'the spiced wine' (Song 8:2; Jacob's wine to Isaac, Gen 27:25); יין נסך = 'libation-wine [yein nesekh]', מגע גוי = 'the touch of a gentile'; לתקן תבשיל הקדרה המסרחת = 'to set right the dish of the pot gone rancid' (cooking idiom — NOT 'rectify'; technical תיקון stays 'rectification'); החלב / הלובן העליון = 'the milk' / 'the supernal whiteness' ('eyes washed in milk', Song 5:12); השמן הטוב (Ps 133:2) = 'the good oil upon the head, running down upon the beard, the beard of Aaron'; מים חיים נוזלים מן לבנון (Song 4:15) = 'living waters, flowing from Lebanon'; ארבעת עדרי צאן = 'the four flocks of sheep' (NHY+Malkhut); הט\"ל / שוחקים מן לצדיקים = 'the dew' / 'grind manna for the righteous' (established); צדיק וצדק = 'Tzaddik and Tzedek'; השושבין = 'the best man' (established 1x); השליש = 'the intermediary'; ככלה תעדה כליה (Isa 61:10) = 'as a bride adorns herself with her jewels'; האמה / תרין ביעין דדכורא = 'the member' / 'the two testicles of the male'; חוט של חסד נמשך על אסתר (Megillah 13a) = 'a thread of lovingkindness [chesed] was drawn over Esther'; נחש הקדמוני הטיל זוהמא בחוה = 'the primordial serpent cast filth into Eve'; מי נתן שכור בין הנזירים = 'who set a drunkard among the Nazirites?'; 'בלי יסוד' (7:2:25) = 'without foundation' (pun on Yesod — gloss '[yesod]'); רצועה ימנית/שמאלית של תפלין של ראש = 'the right/left strap of the head-tefillin', בי\"ת = the tefillin 'housing (bayit)' = Keter; הרוצה להחכים ידרים (Bava Batra 25b) = 'one who wishes to become wise should turn south'; ג' שותפים באדם (Niddah 31a) = 'there are three partners in a person'; ישראל עלה במחשבה = 'Israel arose in thought'; פועל גבורות = 'the worker of mighty deeds (gevurot)' (established); שוטרי הדיינים = 'the officers of the judges'; נטענו את עץ החיים … לעבדה ולשמרה (7:2:1) = 'we have planted the Tree of Life … to work it and to keep it' (Gen 2:15 echo); הקריאות = 'these callings' ('deep calls unto deep').\nNAMES OF GOD: source's pious spellings ידו\"ד / יהו\"ד = 'YHVH'; אדנ\"י = 'Adonai'; יאהדונה\"י = 'YAHDVNHY' (established, the interweaving of YHVH and Adonai); אהי\"ה = 'Ehyeh'. Hab 3:19 אדנ\"י ידו\"ד חילי = 'YHVH Adonai is my strength [cheili]' — Tikkun 52: חיל י' = 'the strength of yod'; תוקפא דכלא מלעילא = 'the might of all, from above'; חיל / כח / עצמה = 'strength / power / might'.\nQUOTED PASSAGES (Aramaic → English, Names + Sefirot per convention): flat 403 Tikkunim intro 3b ('ועלת על כלא נהיר…ולא אשתני בכל אתר' = 'And the Cause over all shines in the ten Sefirot of Atzilut and in the ten of Beriah, and shines in the ten classes of angels and in the ten spheres of the firmament, and does not change in any place'); flat 405 Zohar Vayetze 158 (הרי בשמים, the six sons of Leah); flat 412 Zohar Vayikra 15 (עתיקא קדישא = 'the Holy Ancient One', זעיר אפין = 'Zeir Anpin', כתרין קדישין = 'holy crowns', כרסוון רמיו Dan 7:9 = 'thrones were cast down', עתיק יומין = 'the Ancient of Days'); flat 418 Tikkun 52 fol.84; flat 441 Zohar Noach 59b (נהר דנגיד ונפיק = 'a river that flows and issues' [nagid ve-nafik] — established order; 7:3:2-3 then asks why 'flows' precedes 'issues', and cites Dan 7:10 'a river of fire flowed and issued from before Him'; תיבה = 'the ark [tevah]' vs ארון הברית = 'the Ark of the Covenant'; קיימא קדישא = 'the holy covenant'; איש האדמה = 'a man of the ground'; וצדיק יסוד עולם Prov 10:25 = 'and the righteous one is the foundation of the world'; ברית שלום = 'covenant of peace'). | TRANSLATE-TURN ADDITIONS (2026-10-07, flats 396-443): שם ע\"ב = 'the Name of seventy-two' (not 'seventy-two-letter Name': it is the Name of 72 triads; ע\"ב שמות stays 'the seventy-two Names'). נביעו = 'welling' (Tikkun 52: 'whose might, whose welling, is the Ein Sof'). דברי נביאות (7:2:6, ironic) = 'words of [mere] prophesying'. פקודין פקודא לברכא (6:7:8) = 'the Commandments [Pikkudin], the commandment \"to bless\"' (Ra'aya Mehemna, Ekev 271a). בפני עצמו of a gate = 'in a gate of its own'. צביונם = 'their [proper] character'. הרי בשמים (Song 8:14) = 'the mountains of spices'. שבעה ושבעה מוצקות = 'seven and seven pipes'. אב ואם (Hebrew, 7:2:6) = 'Father and Mother' (Aramaic אבא ואמא stays 'Abba and Imma'). Chapter numbers in cross-references are spelled out ('chapter sixteen'). Ein Sof takes 'He/Him' where the passage speaks of what He needs or gives (6:8:5); 'the Ein Sof' with the article in this chunk.",
    "candidates": [
     {
      "target": "(render as named/glossed — see notes)",
      "status": "preferred",
-     "contextNotes": "natural philosophers / author of the Sheet / editor's note / perfumed vs spiced wine / 72 bridges / 35 princes / 216 lights / the Noach passage.",
+     "contextNotes": "natural philosophers / author of the parchment / editor's note / perfumed vs spiced wine / 72 bridges / 35 princes / 216 lights / the Noach passage.",
      "decisions": [
       {
        "section": "6:7:4-7:3:3",
@@ -2709,7 +3584,28 @@
       }
      ]
     }
-   ]
+   ],
+   "readerNote": "A name or phrase in Gate 7.",
+   "cluster": true,
+   "surfaceForms": {
+    "הטבעיים": {
+     "readerGloss": "the natural philosophers",
+     "readerNote": "Those who study nature. Cordovero cites their theory that sight works by a ray going out from the eye."
+    },
+    "אמר המגיה": {
+     "readerGloss": "Says the editor",
+     "readerNote": "A note added by the editor of the printed edition."
+    },
+    "היין המבושם": {
+     "readerGloss": "the perfumed wine"
+    },
+    "ע\"ב גשרים": {
+     "readerGloss": "the seventy-two bridges"
+    },
+    "נגיד ונפיק": {
+     "readerGloss": "flows and issues"
+    }
+   }
   },
   "עקר-עיקר": {
    "headword": "עִקָּר / עִקָּרוֹ / גּוּפֵי",
@@ -2740,7 +3636,645 @@
      "status": "rejected",
      "contextNotes": "reserved for מהות."
     }
-   ]
+   ],
+   "readerNote": "The chief part or main point of a thing. It is not rendered 'essence', which is kept for another word.",
+   "readerGloss": "principal; principally",
+   "surfaceForms": {
+    "עיקר": {
+     "readerGloss": "principal; the main point"
+    },
+    "עקרו": {
+     "readerGloss": "it is principally"
+    },
+    "עיקרה": {
+     "readerGloss": "its principal part"
+    }
+   }
+  },
+  "נוח-נייחא": {
+   "headword": "נַיְיחָא",
+   "transliteration": "naycha",
+   "partOfSpeech": "noun",
+   "notes": "Aramaic 'rest, repose, ease' in the Zohar Noach 59b passage (7:3:1), where it carries the pun on Noah (נח): the river from Eden (Yesod) 'gives rest' to the garden (Malkhut), and Noah below is the pattern of that covenant above. Rendered 'rest' throughout the passage so the echo of 'He rested' (Gen 2:2-3) and of Noah's name stays audible; transliteration given in brackets at first use only. | PREP 444-468 (7:3:4-5, Cordovero's exposition): he reads נח נח (Gen 6:9) as two 'rests' (שתי נייחות) — rest for Malkhut and rest for Yesod — and glosses נייחא with Hebrew near-synonyms that must stay apart: מנוח = 'repose'; מנוחה = 'rest' / 'resting-place'; נחת רוח = 'contentment'; נופש ומרגוע = 'respite and ease'; תועלת = 'benefit'. שבת / שביתה = 'rested' / 'resting' (Gen 2:2-3).",
+   "candidates": [
+    {
+     "target": "rest",
+     "gloss": "repose; the pun on Noah's name",
+     "status": "preferred",
+     "contextNotes": "Zohar Noach 59b; keep one word across נייחא / שבת / וישבות in the passage.",
+     "decisions": [
+      {
+       "section": "7:3:1",
+       "surfaceForm": "נייחא",
+       "rationale": "Noah/rest wordplay; bracketed [naycha] at first use",
+       "timestamp": "2026-10-07T18:00:00Z"
+      },
+      {
+       "section": "7:3:4-5",
+       "surfaceForm": "נייחות / מנוח / מנוחה / מנוחתו",
+       "rationale": "exposition of the Noach passage; Hebrew synonyms kept distinct",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    },
+    {
+     "target": "contentment / pleasure",
+     "status": "rejected",
+     "contextNotes": "Loses the link to 'He rested' and to Noah's name."
+    }
+   ],
+   "surfaceForms": {
+    "נייחות": {
+     "prefer": "rests",
+     "notes": "the two rests read out of 'Noah, Noah'",
+     "readerGloss": "rests"
+    },
+    "נחת רוח": {
+     "prefer": "contentment",
+     "notes": "Hebrew gloss of naycha",
+     "readerGloss": "contentment"
+    },
+    "מנוח": {
+     "readerGloss": "repose"
+    },
+    "מנוחה": {
+     "readerGloss": "rest"
+    },
+    "מנוחתו": {
+     "readerGloss": "his rest"
+    }
+   },
+   "readerNote": "Aramaic for rest or ease. The Zohar plays on Noah's name: the river from Eden gives rest to the garden, as Yesod does to Malkhut."
+  },
+  "ירע-יריעה": {
+   "headword": "יְרִיעָה",
+   "transliteration": "yeri'ah (pl. yeri'ot)",
+   "partOfSpeech": "noun",
+   "notes": "Two senses, kept apart (RULED by Avi, 2026-10-07). RULE: whenever a yeri'ah is described as made, drawn or authored by anyone — human or not — it is 'parchment'; otherwise 'curtain'. (a) CURTAIN — the biblical tent-cloth: the ten curtains of the Mishkan = the ten Sefirot; 'stretching out the heavens like a curtain' (Ps 104:2); as an allusion the curtain is Tiferet, the vav stretched from Binah to Malkhut. Plain 'curtain', no transliteration. (b) PARCHMENT — the large parchment sheet on which the Kabbalists drew the Tree with glosses, and the particular one Cordovero cites as היריעה. Always LOWER-CASE 'parchment' (a capital would make an ordinary man-made chart look like a divine term). At the FIRST use in each chapter add the transliteration in parentheses, '(Yeri'ah)' / '(yeri'ot)'; where it is the particular chart, also add the bracketed clarification '[a particular chart of the Tree]' at that first use, e.g. 'the author of the parchment (Yeri'ah) [a particular chart of the Tree]'; later uses in the chapter are plain 'the author of the parchment'. Possibly Ha-Yeri'ah ha-Gedolah, 'the Great Parchment' (Italy, early 14th c.; ed. Busi 2004) — identification NOT verified; do not assert it in the text. 'Sheet' and 'Scroll' are retired. Distinct from קלף, the writing material: see entry קלף-כתיבה ('parchment (kelaf)'). SITE LIST (whole book, audited 2026-10-07; 29 noun occurrences in 10 paragraphs; no paragraph mixes the senses). PARCHMENT: 6:1:4 ביריעות גדולות (charts the Kabbalists drew the Tree on); 7:2:9 and 7:2:25 בעל היריעה; 9:2:1 בפרט ביריעה. CURTAIN: 6:5:3 (14x, the ten curtains of the Mishkan, Exod 26:1); 14:4:4 כיריעות שלמה (Song 1:5, 'like the curtains of Solomon'); 14:4:5 נוטה שמים כיריעה (Ps 104:2, inside a Bahir quotation); 22:2:3 (2x, the Mishkan's ten curtains and the hangings of the court); 23:1:150 אורך היריעה האחת (Exod 26:2, 'the length of one curtain' = vav); 23:10:41 (6x, the allusion-entry: the curtain is Tiferet; Ps 104:2; Zohar Terumah 164 'stretched them like a curtain and made of them the letter vav, and this is called yeri'ah' — RULED curtain by Avi: a formed letter with a cloth verb is not authorship). NOT THE NOUN: 4:3:1 יריעהו (verb, 'will do him ill'); 24:8:6 ויריעו ('shouted', Job 38:7).",
+   "candidates": [
+    {
+     "target": "curtain",
+     "gloss": "tent-cloth of the Mishkan; the Sefirot; Tiferet",
+     "status": "preferred",
+     "contextNotes": "Mishkan / Ps 104:2 / the allusion-entry in Gate 23. No transliteration.",
+     "decisions": [
+      {
+       "section": "6:5:3",
+       "surfaceForm": "יריעות / יריען / היריעות",
+       "rationale": "ten curtains of the Mishkan = ten Sefirot (already so rendered)",
+       "timestamp": "2026-10-07T18:10:00Z"
+      },
+      {
+       "section": "23:10:41",
+       "surfaceForm": "כיריעה / יריעה",
+       "rationale": "Avi confirmed 'curtain' for the stretched vav of Zohar Terumah 164 (planned; not yet translated)",
+       "timestamp": "2026-10-07T18:25:00Z"
+      }
+     ]
+    },
+    {
+     "target": "parchment",
+     "gloss": "the sheet bearing a drawn Tree of the Sefirot",
+     "status": "preferred",
+     "contextNotes": "The Kabbalists' Tree-charts; lower-case; '(Yeri'ah)' at first use per chapter, plus '[a particular chart of the Tree]' where it is the particular chart.",
+     "decisions": [
+      {
+       "section": "6:1:4, 7:2:9, 7:2:25",
+       "surfaceForm": "ביריעות גדולות / בעל היריעה",
+       "rationale": "Avi: an actual sheet of parchment, so 'parchment'; three sites converted from 'sheet(s)' / 'the Sheet'",
+       "timestamp": "2026-10-07T18:10:00Z"
+      },
+      {
+       "section": "7:2:9, 7:2:25",
+       "surfaceForm": "בעל היריעה",
+       "rationale": "Avi: lower-case 'parchment' (capital looked godly); bracketed clarification added at first use",
+       "timestamp": "2026-10-07T18:25:00Z"
+      }
+     ]
+    },
+    {
+     "target": "sheet / scroll",
+     "status": "rejected",
+     "contextNotes": "Superseded 2026-10-07 by 'parchment'."
+    }
+   ],
+   "surfaceForms": {
+    "בעל היריעה": {
+     "prefer": "the author of the parchment",
+     "notes": "lower-case; first use in a chapter: 'the author of the parchment (Yeri'ah) [a particular chart of the Tree]'",
+     "readerGloss": "the author of the parchment",
+     "readerNote": "The maker of a particular parchment chart of the Tree, with glosses, which Cordovero cites and criticises."
+    },
+    "ביריעות גדולות": {
+     "prefer": "on large parchments",
+     "notes": "6:1:4, the Tree-charts",
+     "readerGloss": "on large parchments",
+     "readerNote": "The large parchment sheets on which the Kabbalists drew the Tree of the Sefirot."
+    },
+    "בפרט ביריעה": {
+     "prefer": "particularly in the parchment",
+     "notes": "9:2:1 (not yet translated); first use in that chapter, so add '(Yeri'ah) [a particular chart of the Tree]'",
+     "readerGloss": "particularly in the parchment",
+     "readerNote": "A particular parchment chart of the Tree, which Cordovero cites."
+    },
+    "יריעות": {
+     "readerGloss": "curtains"
+    },
+    "היריעות": {
+     "readerGloss": "the curtains"
+    },
+    "יריען": {
+     "readerGloss": "curtains"
+    },
+    "כיריעה": {
+     "readerGloss": "like a curtain"
+    }
+   },
+   "readerNote": "Two senses. In the Bible, a tent-curtain: the ten curtains of the Tabernacle allude to the ten Sefirot, and 'the curtain' is a name of Tiferet. Among the Kabbalists, a parchment sheet on which the Tree of the Sefirot was drawn.",
+   "readerGloss": "curtain; parchment"
+  },
+  "קלף-כתיבה": {
+   "headword": "קְלָף",
+   "transliteration": "kelaf",
+   "partOfSpeech": "noun",
+   "notes": "The ordinary word for parchment as WRITING MATERIAL — the surface that receives the writing. Two occurrences in the book: 12:1:7 כקלף אל הכתיבה ('as parchment (kelaf) to the writing': the thirty-two paths are to the world as parchment is to writing) and 23:8:37 קלף שהוא נושא הכתיבה היא המלכות ('the parchment (kelaf) that bears the writing is Malkhut'; the pen is Tiferet). RULED by Avi 2026-10-07: 'parchment (kelaf)' at both sites, the transliteration keeping it apart from יריעה = 'parchment (Yeri'ah)', the drawn chart (entry ירע-יריעה). Unrelated to קליפה 'husk' despite the shared root.",
+   "candidates": [
+    {
+     "target": "parchment (kelaf)",
+     "gloss": "the writing-surface; at 23:8:37 = Malkhut",
+     "status": "preferred",
+     "contextNotes": "Both sites carry the transliteration.",
+     "decisions": [
+      {
+       "section": "12:1:7, 23:8:37",
+       "surfaceForm": "כקלף / קלף",
+       "rationale": "Avi: keep 'parchment' but mark with (kelaf) to separate it from the yeri'ah-parchment (planned; not yet translated)",
+       "timestamp": "2026-10-07T18:25:00Z"
+      }
+     ]
+    },
+    {
+     "target": "writing-skin",
+     "status": "rejected",
+     "contextNotes": "Offered as the alternative; Avi chose 'parchment (kelaf)'."
+    }
+   ],
+   "readerNote": "Parchment as writing material: the surface that receives the writing, which in one passage alludes to Malkhut."
+  },
+  "רבע-רביעה": {
+   "headword": "רְבִיעָה",
+   "transliteration": "revi'ah",
+   "partOfSpeech": "noun",
+   "notes": "The seasonal rainfall (Mishnah and Talmud Ta'anit: first, second and third revi'ah). At 7:3:4 Cordovero maps three stages of effluence from Yesod to Malkhut onto the three rainfalls: the first only prepares the ground for ploughing and sowing (= the effluence that rectifies and adorns the bride, 'and gives it rest'); the second makes the seed sprout (= the coupling that yields fruit, the souls: 'and it yields fruit'); the third makes the plantings grow and flourish ('and makes seeds grow'). The word also means the mating of animals, and the passage moves straight on to marital relations in the last three months of pregnancy (Niddah 31a), so the bracketed transliteration is kept at first use.",
+   "candidates": [
+    {
+     "target": "rainfall",
+     "gloss": "the seasonal rain; here a figure for stages of effluence",
+     "status": "preferred",
+     "contextNotes": "'the first rainfall [revi'ah]', then plain 'the second / third rainfall'.",
+     "decisions": [
+      {
+       "section": "7:3:4",
+       "surfaceForm": "רביעה ראשונה / רביעה שניה / רביעה שלישית",
+       "rationale": "three rainfalls = three stages of Yesod's effluence",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    },
+    {
+     "target": "fructification / impregnation",
+     "status": "rejected",
+     "contextNotes": "The agricultural sense is the one the parable builds on; the sexual overtone is carried by the bracketed revi'ah and the context."
+    }
+   ],
+   "readerNote": "The seasonal rain; the Talmud counts three rainfalls. Cordovero uses them for three stages of the flow from Yesod to Malkhut: preparing the ground, sprouting the seed, and making it grow."
+  },
+  "יחס-התיחסות": {
+   "headword": "מִתְיַחֵס / הִתְיַחֲסוּת",
+   "transliteration": "mityaches / hityachasut",
+   "partOfSpeech": "verb / noun",
+   "notes": "Technical in 7:3:5 and 7:5:1: two things that stand as a matched pair — Yesod and Malkhut; head-tefillin and hand-tefillin; day and night; sun and moon; etrog and the species of the lulav; Noah and the ark; the face that Chokhmah shows 'correlative to the face of Keter'. Rendered with the 'correlate' family so that 'correspond' stays with מקביל / כנגד. יחס = 'relation' (יחס שלם = 'a complete relation'). Earlier gates use the word loosely ('relevant to', 'related to'); those sites stand.",
+   "candidates": [
+    {
+     "target": "correlated / correlative",
+     "gloss": "standing as a matched pair",
+     "status": "preferred",
+     "contextNotes": "מתיחסים זה לזה = 'correlated with one another'; בחינה מתיחסת = 'a correlative aspect'; התיחסות = 'correlation'; בלתי מתיחס = 'not correlative'.",
+     "decisions": [
+      {
+       "section": "7:3:5, 7:5:1",
+       "surfaceForm": "מתיחסים זה לזה / בחינה מתיחסת / בלתי מתיחס / התיחסות התיבה / פנים המתייחסים",
+       "rationale": "matched-pair sense; keeps 'correspond' for מקביל",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    },
+    {
+     "target": "correspond",
+     "status": "rejected",
+     "contextNotes": "Reserved for מקביל / כנגד (30 uses)."
+    }
+   ],
+   "readerNote": "Said of two things that belong together as a matched pair: sun and moon, day and night, Yesod and Malkhut.",
+   "readerGloss": "correlated; correlative",
+   "surfaceForms": {
+    "מתיחסים זה לזה": {
+     "readerGloss": "correlated with one another"
+    },
+    "בחינה מתיחסת": {
+     "readerGloss": "a correlative aspect"
+    },
+    "בלתי מתיחס": {
+     "readerGloss": "not correlative"
+    },
+    "התיחסות התיבה": {
+     "readerGloss": "the correlation of the ark"
+    },
+    "פנים המתייחסים": {
+     "readerGloss": "a correlative face"
+    }
+   }
+  },
+  "איש-בעל": {
+   "headword": "אִישׁ / בַּעַל",
+   "transliteration": "ish / ba'al",
+   "partOfSpeech": "noun",
+   "notes": "7:3:5: Cordovero reads אִישׁ in the Noah verses as בַּעַל, 'husband' — איש האדמה (Gen 9:20) = בעל האדמה, 'husband of the ground', that is, of Malkhut, which is called 'ground'; איש האלקים = בעל השכינה, 'husband of the Shekhinah'. The verse itself stays 'a man of the ground'; the gloss is 'husband [ba'al] of the ground'. A third reading: Yesod is called 'man' when the Shekhinah is clothed in harsh judgment and he pours peace into her (ברית שלום = 'covenant of peace'), with the pun אדמה 'ground' / אדומה 'red'. בעל תולדות = 'master of generations' (the one who begets: 'These' excludes any other begetter).",
+   "candidates": [
+    {
+     "target": "husband",
+     "gloss": "Cordovero's gloss of 'man' (ish) in the Noah verses",
+     "status": "preferred",
+     "contextNotes": "'husband [ba'al] of the ground' at first use; verse wording 'a man of the ground' unchanged.",
+     "decisions": [
+      {
+       "section": "7:3:5",
+       "surfaceForm": "בעל האדמה / בעל השכינה / בעל המלכות",
+       "rationale": "ish read as ba'al = husband of Malkhut",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    },
+    {
+     "target": "master of generations",
+     "status": "acceptable",
+     "contextNotes": "Only for בעל תולדות.",
+     "decisions": [
+      {
+       "section": "7:3:5",
+       "surfaceForm": "בעל תולדות",
+       "rationale": "the one who has (begets) generations",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Cordovero reads 'man' in 'a man of the ground' (said of Noah) as 'husband': Yesod, the husband of Malkhut, who is called 'ground.'",
+   "readerGloss": "husband",
+   "surfaceForms": {
+    "בעל האדמה": {
+     "readerGloss": "husband of the ground"
+    },
+    "בעל השכינה": {
+     "readerGloss": "husband of the Shekhinah"
+    },
+    "בעל המלכות": {
+     "readerGloss": "husband of Malkhut"
+    },
+    "בעל תולדות": {
+     "readerGloss": "master of generations"
+    }
+   }
+  },
+  "רכב-מרכבה": {
+   "headword": "מֶרְכָּבָה",
+   "transliteration": "merkavah",
+   "partOfSpeech": "noun",
+   "notes": "'Chariot.' Besides Ezekiel's Chariot and the Patriarchs as the Chariot (already so rendered), a righteous person is 'a chariot for' the Sefirah he embodies below: 7:3:5 'Noah was a chariot for Yesod', in each of Yesod's aspects (generations, the subsistence of Malkhut, peace). מרכבות (pl.) in the cosmic chain Sefirot - chariots - angels - spheres = 'the chariots'.",
+   "candidates": [
+    {
+     "target": "chariot",
+     "gloss": "bearer or vehicle of a Sefirah",
+     "status": "preferred",
+     "contextNotes": "מרכבה אל היסוד = 'a chariot for Yesod'; מעלת מרכבתו = 'the rank of his chariot-hood'.",
+     "decisions": [
+      {
+       "section": "7:3:5",
+       "surfaceForm": "מרכבה אל היסוד / מרכבה",
+       "rationale": "Noah as chariot for Yesod",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Ezekiel's Chariot. The word is also used of the Patriarchs and the righteous, each of whom is a chariot, a bearer below, for one of the Sefirot.",
+   "surfaceForms": {
+    "מרכבה אל היסוד": {
+     "readerGloss": "a chariot for Yesod"
+    }
+   }
+  },
+  "ילד-תולדות": {
+   "headword": "תּוֹלָדוֹת",
+   "transliteration": "toledot",
+   "partOfSpeech": "noun",
+   "notes": "Gen 6:9 'These are the generations of Noah'. In the Noach passage (7:3:1, 7:3:4-5) the 'generations' are the souls that issue from the coupling of Yesod and Malkhut; 'this one makes generations, and no other' = only Yesod. Kept 'generations' (as already written at 7:3:1) so the verse stays recognisable; עביד תולדות = 'makes generations'.",
+   "candidates": [
+    {
+     "target": "generations",
+     "gloss": "offspring; here the souls",
+     "status": "preferred",
+     "contextNotes": "Verse wording kept throughout the exposition.",
+     "decisions": [
+      {
+       "section": "7:3:1-5",
+       "surfaceForm": "תולדות / תולדותיו",
+       "rationale": "keeps Gen 6:9 audible",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    },
+    {
+     "target": "offspring",
+     "status": "acceptable",
+     "contextNotes": "Usable only as a bracketed gloss."
+    }
+   ],
+   "readerNote": "Offspring, as in 'These are the generations of Noah.' In the Zohar's reading, the offspring of Yesod and Malkhut are the souls.",
+   "readerGloss": "generations"
+  },
+  "נקב-מבוע": {
+   "headword": "נֶקֶב / מַבּוּעָא",
+   "transliteration": "nekev / mabu'a",
+   "partOfSpeech": "noun",
+   "notes": "7:4, the two openings of Yesod. Hebrew (Ibn Farchi, Ta'amei ha-Mitzvot): ב' נקבים בברית העליון = 'two orifices in the supernal Covenant' — one pours 'sweet waters' to the Shekhinah, the other pours to the powers of impurity and is called libation-wine [yein nesekh]. Aramaic (the anonymous commentary on the letters): תרין מבועין = 'two wellsprings', the two heads of the letter ayin and of the letter tzadi — the holy wellspring of the right nourishes the Matronita; the second nourishes the bands of impurity. 'Orifice' keeps the bodily sense ('from my flesh I behold God'); 'aperture' stays with ארובה. Cordovero's own summary uses צנורות, 'channels'.",
+   "candidates": [
+    {
+     "target": "orifice",
+     "gloss": "bodily opening; the two openings of Yesod",
+     "status": "preferred",
+     "contextNotes": "Hebrew נקב / נקבים in 7:4.",
+     "decisions": [
+      {
+       "section": "7:4:1-7",
+       "surfaceForm": "נקבים / נקבין / והנקב",
+       "rationale": "two orifices of the supernal Covenant",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    },
+    {
+     "target": "wellspring",
+     "gloss": "Aramaic mabu'a",
+     "status": "preferred",
+     "contextNotes": "Aramaic מבועא / מבועין (already 'wellsprings' in Gate 4).",
+     "decisions": [
+      {
+       "section": "7:4:3-5",
+       "surfaceForm": "מבועא / מבועין",
+       "rationale": "conforms to Gate 4",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    },
+    {
+     "target": "aperture",
+     "status": "rejected",
+     "contextNotes": "Reserved for ארובה (the lantern and upper-stories parables)."
+    }
+   ],
+   "readerNote": "Yesod is said to have two openings, like the body: one pours blessing to Malkhut, and the other lets the residue pass to the outer forces. The Aramaic source calls them two wellsprings.",
+   "readerGloss": "orifice"
+  },
+  "סיג-סיגים": {
+   "headword": "סִיגִים",
+   "transliteration": "sigim",
+   "partOfSpeech": "noun",
+   "notes": "'Dross': what flows through Yesod's second channel to the outer forces — סיגים היתוכי זהב = 'dross, the smeltings of gold' (gold = the side of Gevurah). Paired with המותר, the bodily 'residue', and הגיעול, 'the foul matter' (7:4:3, 7:4:7: 'the sustenance to the sons of the palace, and the residue to the dogs'; 'who has put residue among the holy things?' — deferred to the Gate of the Substitutions).",
+   "candidates": [
+    {
+     "target": "dross",
+     "gloss": "refuse of smelting; the portion of the outer forces",
+     "status": "preferred",
+     "contextNotes": "היתוכי זהב = 'the smeltings of gold'.",
+     "decisions": [
+      {
+       "section": "7:4:5, 7:4:7",
+       "surfaceForm": "סיגים / לסיגים / היתוכי זהב / הגיעול והמותר / המותר לכלבים / מותר בקדשים",
+       "rationale": "dross and residue: Yesod's second channel",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    }
+   ],
+   "readerNote": "The refuse of smelting. An image for what flows to the forces of impurity, as dross is separated from gold.",
+   "surfaceForms": {
+    "היתוכי זהב": {
+     "readerGloss": "the smeltings of gold"
+    },
+    "הגיעול והמותר": {
+     "readerGloss": "the foul matter and the residue"
+    },
+    "המותר לכלבים": {
+     "readerGloss": "the residue to the dogs"
+    },
+    "מותר בקדשים": {
+     "readerGloss": "residue among the holy things"
+    }
+   }
+  },
+  "מטרוניתא": {
+   "headword": "מַטְרוֹנִיתָא",
+   "transliteration": "Matronita",
+   "partOfSpeech": "noun",
+   "notes": "Zoharic name for Malkhut / the Shekhinah as the King's consort (from Latin matrona). First occurrence in the book is 7:3:5. PROVISIONAL (question put to Avi 2026-10-07): transliterate 'the Matronita', with the gloss '(the Lady)' at first use only. | CORDOVERO'S OWN ENTRY (23:13:36): 'Matronita: Beriah — it is the Throne explained in the Gate of ABYA — and it is called Matronita because it guards the garden [play on Aramaic נטר, to guard]. And sometimes Malkhut of Atzilut is also called Matronita, which means גיברת [mistress], and Beriah is the handmaid.' So: גבירה / גיברת = 'mistress' (the gevirah-handmaid pair; never 'lady'), מלכה = 'queen' (23:13:109 has מלכה, גבירתה and מטרוניתא in one sentence, so all three need different English), שפחה / אמה = 'handmaid'. מלכא ומטרוניתא = 'the King and the Matronita'; בעלה דמטרוניתא = 'the husband of the Matronita' (Jacob / Tiferet). 23 paragraphs in the book (Gates 7, 8, 16, 22, 23, 24, 27). English options weighed with Avi 2026-10-07: Lady (free), Queen (collides with מלכה), Mistress (needed for גבירה; wrong modern overtone), Matron (wrong overtone), Consort (used for לויה at 1:1:10).",
+   "candidates": [
+    {
+     "target": "the Matronita",
+     "gloss": "the Lady, the King's consort: Malkhut",
+     "status": "preferred",
+     "contextNotes": "Transliterated like the partzuf-names; gloss '(the Lady)' at first use.",
+     "decisions": [
+      {
+       "section": "7:3:5, 7:4:3-5",
+       "surfaceForm": "מטרוניתא / למטרוניתא / דמטרוניתא",
+       "rationale": "name of Malkhut; provisional pending Avi",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    },
+    {
+     "target": "the Matron / the Lady / the Queen",
+     "status": "acceptable",
+     "contextNotes": "Alternatives offered to Avi."
+    }
+   ],
+   "readerNote": "'The Lady' (from Latin matrona, a married woman of rank): in the Zohar the King's wife, that is, Malkhut, the Shekhinah. In Gate 23 Cordovero explains it as 'mistress', in contrast to the handmaid, and notes that the name is also given to the world of Beriah, 'because it guards the garden.'",
+   "readerGloss": "the Matronita (the Lady)"
+  },
+  "סטר-אחרא": {
+   "headword": "סִטְרָא אָחֳרָא",
+   "transliteration": "Sitra Achra",
+   "partOfSpeech": "noun",
+   "notes": "'The Other Side', the realm of impurity and the husks. One earlier use (3:7:7) reads 'the Sitra Achra'. PROVISIONAL (question put to Avi 2026-10-07): keep 'the Sitra Achra', adding '(the Other Side)' at the first use in a gate. Related Hebrew: כחות הטומאה = 'the powers of impurity'; כתות מסאבותא = 'the bands of impurity'; החצונים = 'the outer ones'.",
+   "candidates": [
+    {
+     "target": "the Sitra Achra",
+     "gloss": "the Other Side: the realm of impurity",
+     "status": "preferred",
+     "contextNotes": "Gloss '(the Other Side)' at first use in a gate.",
+     "decisions": [
+      {
+       "section": "7:4:6-7",
+       "surfaceForm": "סטרא אחרא / מסטרא אחרא",
+       "rationale": "conforms to 3:7:7; provisional pending Avi",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    },
+    {
+     "target": "the Other Side",
+     "status": "acceptable",
+     "contextNotes": "Alternative offered to Avi."
+    }
+   ],
+   "readerNote": "The realm of impurity, opposed to the side of holiness.",
+   "readerGloss": "the Sitra Achra (the Other Side)"
+  },
+  "מים-נוקבין": {
+   "headword": "מַיִּין נוּקְבִין / מַיִּין דְּכוּרִין",
+   "transliteration": "mayin nukvin / mayin dekhurin",
+   "partOfSpeech": "noun",
+   "notes": "The 'female waters' that the Shekhinah sends up through the deeds of the righteous, to receive the 'male waters' from above (7:4:7; treated in the Gate of Essence and Governance). First occurrence in the book. Transliteration in brackets at first use only.",
+   "candidates": [
+    {
+     "target": "female waters / male waters",
+     "gloss": "arousal from below / effluence from above",
+     "status": "preferred",
+     "contextNotes": "'the female waters [mayin nukvin]' ... 'the male waters [mayin dekhurin]'.",
+     "decisions": [
+      {
+       "section": "7:4:7",
+       "surfaceForm": "המים נוקבין / מיין דכורין",
+       "rationale": "first occurrence",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    }
+   ],
+   "readerNote": "The 'female waters' rise from below through the deeds of the righteous and draw down the 'male waters', the effluence from above.",
+   "readerGloss": "female waters; male waters",
+   "surfaceForms": {
+    "המים נוקבין": {
+     "readerGloss": "the female waters"
+    },
+    "מיין דכורין": {
+     "readerGloss": "the male waters"
+    }
+   }
+  },
+  "הפך-הפכים": {
+   "headword": "כֹּחַ הַכּוֹלֵל הֲפָכִים רַבִּים",
+   "transliteration": "koach ha-kolel hafakhim rabbim",
+   "partOfSpeech": "phrase",
+   "notes": "The opening thesis of Gate 8 (8:1:4-6): each Sefirah is 'a power that includes many opposites' — like the will of the soul, which turns to love and hate, anger and laughter; like the hand, which gives and receives, good and ill; like the eye. So reward and punishment in every degree can issue from one Sefirah. Contrasted with כח מסוגל בספירה וקנוי בה = 'a power specific to the Sefirah and fixed in it' (which could do only one thing). הפכים / הפכיים = 'opposites' (as already in Gate 4); הפכיות (adj.) = 'opposite'; כולל = 'includes' (same family as כללות 'inclusion').",
+   "candidates": [
+    {
+     "target": "a power that includes many opposites",
+     "status": "preferred",
+     "contextNotes": "Fixed wording for the recurring formula.",
+     "decisions": [
+      {
+       "section": "8:1:4-6",
+       "surfaceForm": "כח הכולל הפכים רבים / כח כולל ההפכים רבים / כח הכולל ההפכיים",
+       "rationale": "thesis formula of Gate 8 ch.1",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    },
+    {
+     "target": "contraries",
+     "status": "rejected",
+     "contextNotes": "'opposites' is already established (Gate 4)."
+    }
+   ],
+   "readerNote": "The opening claim of Gate 8: each Sefirah is one power that can act in opposite ways (reward and punishment, more and less), as one hand both gives and takes."
+  },
+  "שוה-שוויים": {
+   "headword": "שִׁוּוּיִים",
+   "transliteration": "shivuyim",
+   "partOfSpeech": "noun",
+   "notes": "7:5:1: the Sefirot are bound to one another 'by means of their equivalents' — Keter is unified with the other nine through the portion of Keter in each of them, Chokhmah through the portion of Chokhmah in each, and so on. Hence the channels vary without number, according to which face meets which. הפנים השוים = 'the equal faces'; בשווי גמור = 'in complete equality'; חלק הכתר שבכל הספירות = 'the portion of Keter that is in all the Sefirot'; כתר שבחכמה = 'the Keter-within-Chokhmah' (hyphenated, as in Gate 6).",
+   "candidates": [
+    {
+     "target": "equivalents",
+     "gloss": "the like part in each Sefirah",
+     "status": "preferred",
+     "contextNotes": "ע\"י שוויים = 'by means of their equivalents'.",
+     "decisions": [
+      {
+       "section": "7:5:1-3",
+       "surfaceForm": "שוויים / הפנים השוים / בשווי גמור",
+       "rationale": "union through the like portion in each Sefirah",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Sefirot are joined through what they share: Keter with each of the others through the portion of Keter in it, and so for each.",
+   "surfaceForms": {
+    "הפנים השוים": {
+     "readerGloss": "the equal faces"
+    },
+    "בשווי גמור": {
+     "readerGloss": "in complete equality"
+    }
+   }
+  },
+  "שוב-תשובה": {
+   "headword": "תְּשׁוּבָה",
+   "transliteration": "teshuvah",
+   "partOfSpeech": "noun",
+   "notes": "'Repentance' (literally 'return'). Binah 'receives those who return, and therefore is called Repentance [Teshuvah]' (8:1:5); pardon and atonement hang there, by the power of the supernal Keter. Already 'repentance' in Gates 4-6. בעלי תשובה = 'penitents'; השבים = 'those who return'; השב אל ה' = 'one who returns to YHVH'; תשובת דוד המלך = 'the repentance of King David'.",
+   "candidates": [
+    {
+     "target": "repentance",
+     "gloss": "return; a name of Binah",
+     "status": "preferred",
+     "contextNotes": "Capital 'Repentance [Teshuvah]' only where it is given as Binah's name.",
+     "decisions": [
+      {
+       "section": "8:1:5",
+       "surfaceForm": "תשובה / התשובה / תשובתם / בעלי תשובה",
+       "rationale": "conforms to earlier gates",
+       "timestamp": "2026-10-07T18:40:00Z"
+      }
+     ]
+    },
+    {
+     "target": "return",
+     "status": "acceptable",
+     "contextNotes": "For the verb שב and for השבים, 'those who return'."
+    }
+   ],
+   "readerNote": "Repentance, literally 'return'. It is a name of Binah, which receives those who return. The same word also means 'answer.'",
+   "readerGloss": "repentance (return)",
+   "surfaceForms": {
+    "תשובתם": {
+     "readerGloss": "their repentance"
+    },
+    "בעלי תשובה": {
+     "readerGloss": "penitents"
+    }
+   }
   }
- }
+ },
+ "readerFields": "Public popup text for the reader site lives ONLY in: entry.readerNote, entry.readerGloss, surfaceForms[form].readerGloss / .readerNote; entry.cluster marks a grouped entry (popup headed by the clicked form; only forms with their own gloss are highlighted); entry.hideForms lists forms never highlighted. Everything else (notes, candidates, decisions) is the translator's working record and is not shown. Top-level skipTokens lists whole Hebrew tokens that are never highlighted.",
+ "skipTokens": [
+  "כדין",
+  "וכדין",
+  "לדעת",
+  "ולדעת",
+  "מדעת"
+ ]
 }
