@@ -201,7 +201,21 @@
      ]
     }
    ],
-   "readerNote": "A respect or facet under which a Sefirah is considered. One Sefirah has many aspects, according to what it receives and what it gives."
+   "readerNote": "A respect or facet under which a Sefirah is considered. One Sefirah has many aspects, according to what it receives and what it gives.",
+   "surfaceForms": {
+    "בחי'": {
+     "readerGloss": "aspect"
+    },
+    "בחינות": {
+     "readerGloss": "aspects"
+    },
+    "בחינת": {
+     "readerGloss": "the aspect of"
+    },
+    "בחינתה": {
+     "readerGloss": "its aspect"
+    }
+   }
   },
   "מצא-מציאות": {
    "headword": "מְצִיאוּת",
@@ -234,6 +248,9 @@
    "surfaceForms": {
     "שני מציאות": {
      "readerGloss": "two modes of existence"
+    },
+    "מציאות": {
+     "readerGloss": "existence; mode of existence"
     }
    }
   },
@@ -282,6 +299,30 @@
     },
     "דכליל ימינא בשמאלא": {
      "readerGloss": "that the right is included in the left"
+    },
+    "כלול": {
+     "readerGloss": "composed of; included in"
+    },
+    "כלולה": {
+     "readerGloss": "composed of; included in"
+    },
+    "כלולים": {
+     "readerGloss": "composed of; included in"
+    },
+    "כלולות": {
+     "readerGloss": "included in; composed of"
+    },
+    "כולל": {
+     "readerGloss": "includes; all-inclusive"
+    },
+    "נכלל": {
+     "readerGloss": "is included"
+    },
+    "נכללים": {
+     "readerGloss": "are included"
+    },
+    "המספר הכולל": {
+     "readerGloss": "the all-inclusive number"
     }
    },
    "readerNote": "Each Sefirah is made up of all ten and is included in the others. 'Composed of' renders the first idea; 'included in' and 'inclusion' render the second.",
@@ -520,6 +561,33 @@
     },
     "סבת הסבות": {
      "readerGloss": "the Cause of causes"
+    },
+    "סבה": {
+     "readerGloss": "cause"
+    },
+    "סבת": {
+     "readerGloss": "the cause of"
+    },
+    "סבות": {
+     "readerGloss": "causes; grounds"
+    },
+    "מסובב": {
+     "readerGloss": "effect"
+    },
+    "עילתו": {
+     "readerGloss": "its cause"
+    },
+    "עלתם": {
+     "readerGloss": "their cause"
+    },
+    "העילה הראשונה": {
+     "readerGloss": "the First Cause"
+    },
+    "עילה ראשונה": {
+     "readerGloss": "the First Cause"
+    },
+    "סבה ראשונה": {
+     "readerGloss": "a First Cause"
     }
    }
   },
@@ -579,6 +647,9 @@
    "surfaceForms": {
     "סת\"ר": {
      "readerGloss": "end, middle, beginning"
+    },
+    "אין סוף בלי ראש": {
+     "readerGloss": "there is no end without a beginning"
     }
    }
   },
@@ -670,6 +741,15 @@
      "readerGloss": "particular providence"
     },
     "משגיח": {
+     "readerGloss": "watches over"
+    },
+    "השגחתו": {
+     "readerGloss": "His providence"
+    },
+    "השגחת": {
+     "readerGloss": "the providence of"
+    },
+    "ישגיח": {
      "readerGloss": "watches over"
     }
    }
@@ -784,7 +864,13 @@
     }
    ],
    "readerNote": "Knowledge. Not an eleventh Sefirah: Cordovero identifies it with the hidden aspect of Tiferet that unites Chokhmah and Binah. The word also means simply 'knowledge' or 'opinion.'",
-   "readerGloss": "Da'at (Knowledge)"
+   "readerGloss": "Da'at (Knowledge)",
+   "surfaceForms": {
+    "ב\"ן י\"ה": {
+     "readerGloss": "BeN-YaH, 'son of Yah'",
+     "readerNote": "The letters of Binah rearranged. The 'son' is Da'at, the hidden Tiferet, who unites Yah, that is, Chokhmah and Binah."
+    }
+   }
   },
   "קלף-קליפה": {
    "headword": "קְלִפָּה",
@@ -823,7 +909,15 @@
     }
    ],
    "readerNote": "The husks are the forces of impurity, which surround holiness as a husk surrounds a fruit.",
-   "readerGloss": "husk"
+   "readerGloss": "husk",
+   "surfaceForms": {
+    "קליפה": {
+     "readerGloss": "husk"
+    },
+    "קליפות": {
+     "readerGloss": "husks"
+    }
+   }
   },
   "אפריון": {
    "headword": "אַפִּרְיוֹן",
@@ -972,6 +1066,12 @@
     },
     "תוכנים": {
      "readerGloss": "astronomers"
+    },
+    "התוכנים": {
+     "readerGloss": "the astronomers"
+    },
+    "התוכניים": {
+     "readerGloss": "the astronomers"
     }
    }
   },
@@ -1121,7 +1221,7 @@
    "headword": "אריך אנפין / זעיר אנפין / נוקבא / עתיקא קדישא",
    "transliteration": "Arikh Anpin / Zeir Anpin / Nukva / Atika Kadisha",
    "partOfSpeech": "noun",
-   "notes": "Idra partzuf-names, central in Gate 3 ch.6-8. TRANSLITERATE with gloss on first use (Matt/Tishby standard). Cordovero's mapping here: Arikh Anpin = Keter; Zeir Anpin = the 8 from Chokhmah to Yesod; Nukva de-Zeir Anpin = Malkhut. Atika Kadisha (=Keter/Arikh Anpin, NOT Ein Sof — the whole ch.6 polemic). Gloss style FINALIZED (see candidate).",
+   "notes": "Idra partzuf-names, central in Gate 3 ch.6-8. TRANSLITERATE with gloss on first use (Matt/Tishby standard). Cordovero's mapping here: Arikh Anpin = Keter; Zeir Anpin = the 8 from Chokhmah to Yesod; Nukva de-Zeir Anpin = Malkhut. Atika Kadisha (=Keter/Arikh Anpin, NOT Ein Sof — the whole ch.6 polemic). Gloss style FINALIZED (see candidate). | 2026-10-07 (Gate 2 review): the form א\"א is HIDDEN here and owned by קורא-ראשי-תיבות: about 160 of its 166 uses in the book are אי אפשר, so the site was showing 'Arikh Anpin' on 'impossible'.",
    "candidates": [
     {
      "target": "Arikh Anpin / Zeir Anpin / Nukva de-Zeir Anpin / Atika Kadisha",
@@ -1146,10 +1246,6 @@
    "readerNote": "Names from the Zohar's Idra sections for configurations of the Sefirot pictured as faces.",
    "readerGloss": "Arikh Anpin; Zeir Anpin; Nukva; Atika Kadisha",
    "surfaceForms": {
-    "א\"א": {
-     "readerGloss": "Arikh Anpin (the Long Face)",
-     "readerNote": "Keter, pictured as a face of patience and pure mercy."
-    },
     "ז\"א": {
      "readerGloss": "Zeir Anpin (the Small Face)",
      "readerNote": "The Sefirot below Keter down to Yesod, pictured as a lesser face in which judgment appears."
@@ -1162,7 +1258,10 @@
      "readerGloss": "Atika Kadisha (the Holy Ancient One)",
      "readerNote": "A name for Keter."
     }
-   }
+   },
+   "hideForms": [
+    "א\"א"
+   ]
   },
   "מוח-ראש": {
    "headword": "מוֹחָא / גֻּלְגַּלְתָּא / דִּיקְנָא",
@@ -1267,6 +1366,18 @@
    "surfaceForms": {
     "אבא ואימא": {
      "readerGloss": "Abba and Imma (Father and Mother)"
+    },
+    "אבא ואמא": {
+     "readerGloss": "Abba and Imma (Father and Mother)"
+    },
+    "בת זוגו": {
+     "readerGloss": "its mate"
+    },
+    "בת זוגך": {
+     "readerGloss": "your mate"
+    },
+    "בן זוגה": {
+     "readerGloss": "her mate"
     }
    }
   },
@@ -1631,6 +1742,13 @@
     },
     "במקרה": {
      "readerGloss": "accidentally"
+    },
+    "מקריו": {
+     "readerGloss": "its accidents"
+    },
+    "משיגיו": {
+     "readerGloss": "its accidents",
+     "readerNote": "Literally 'what overtakes it': the things that befall a body."
     }
    }
   },
@@ -1716,6 +1834,12 @@
    "surfaceForms": {
     "חוור סומק ירוק אוכם": {
      "readerGloss": "white, red, green, black"
+    },
+    "כגוונא": {
+     "readerGloss": "in the likeness of"
+    },
+    "גוונא": {
+     "readerGloss": "likeness; manner"
     }
    }
   },
@@ -1856,6 +1980,12 @@
     },
     "שלשלת": {
      "readerGloss": "chain"
+    },
+    "וישתלשלו": {
+     "readerGloss": "and chain down"
+    },
+    "המשתלשלות": {
+     "readerGloss": "that chain down"
     }
    }
   },
@@ -1883,6 +2013,9 @@
    "surfaceForms": {
     "ניצוץ השמש": {
      "readerGloss": "the ray of the sun"
+    },
+    "ניצוצות": {
+     "readerGloss": "sparks"
     }
    }
   },
@@ -2048,6 +2181,14 @@
     },
     "חדוש": {
      "readerGloss": "coming-to-be; renewal"
+    },
+    "המחויב הראשון": {
+     "readerGloss": "the First Necessary One",
+     "readerNote": "The Emanator, who alone exists of necessity."
+    },
+    "נמנע": {
+     "readerGloss": "impossible",
+     "readerNote": "Literally 'precluded'."
     }
    }
   },
@@ -2072,7 +2213,15 @@
     }
    ],
    "readerNote": "Words for shape and likeness. The Emanator has no image; the forms spoken of belong to the Sefirot and to prophetic vision.",
-   "readerGloss": "image; form; figure; likeness"
+   "readerGloss": "image; form; figure; likeness",
+   "surfaceForms": {
+    "דיוקנא": {
+     "readerGloss": "image"
+    },
+    "דיוקניה": {
+     "readerGloss": "its image"
+    }
+   }
   },
   "דבק-דביקות": {
    "headword": "דְּבֵקוּת",
@@ -2437,6 +2586,18 @@
    "surfaceForms": {
     "צחצחות עליונות": {
      "readerGloss": "the supernal Tzachtzachot"
+    },
+    "אור קדמון": {
+     "readerGloss": "primordial light",
+     "readerNote": "One of the three hidden lights within Keter, which Gate 11 treats."
+    },
+    "אור צח": {
+     "readerGloss": "clear light",
+     "readerNote": "One of the three hidden lights within Keter, which Gate 11 treats."
+    },
+    "אור מצוחצח": {
+     "readerGloss": "refined light",
+     "readerNote": "One of the three hidden lights within Keter, which Gate 11 treats."
     }
    }
   },
@@ -3081,6 +3242,9 @@
     },
     "השגה": {
      "readerGloss": "apprehension"
+    },
+    "להשיג": {
+     "readerGloss": "to apprehend; to attain"
     }
    }
   },
@@ -3396,7 +3560,7 @@
      "readerGloss": "ascending and descending"
     },
     "נטרדה": {
-     "readerGloss": "was driven down"
+     "readerGloss": "was driven out"
     },
     "נזדככה": {
      "readerGloss": "was refined"
@@ -3662,6 +3826,15 @@
     },
     "עיקרה": {
      "readerGloss": "its principal part"
+    },
+    "עקר": {
+     "readerGloss": "principal; the main point"
+    },
+    "עקרים": {
+     "readerGloss": "principles"
+    },
+    "עקרי": {
+     "readerGloss": "principles of"
     }
    }
   },
@@ -3906,6 +4079,18 @@
     },
     "פנים המתייחסים": {
      "readerGloss": "a correlative face"
+    },
+    "יחס": {
+     "readerGloss": "relation"
+    },
+    "יוחסו": {
+     "readerGloss": "be attributed"
+    },
+    "יחסו": {
+     "readerGloss": "they attributed"
+    },
+    "יתיחס": {
+     "readerGloss": "is referred to; is attributed"
     }
    }
   },
@@ -3985,6 +4170,9 @@
    "surfaceForms": {
     "מרכבה אל היסוד": {
      "readerGloss": "a chariot for Yesod"
+    },
+    "מרכבותיה": {
+     "readerGloss": "her chariots"
     }
    }
   },
@@ -4266,6 +4454,25 @@
     },
     "בשווי גמור": {
      "readerGloss": "in complete equality"
+    },
+    "שוה": {
+     "readerGloss": "equal"
+    },
+    "שוים": {
+     "readerGloss": "equal"
+    },
+    "שוות": {
+     "readerGloss": "equal"
+    },
+    "שווי": {
+     "readerGloss": "equality; evenness"
+    },
+    "המשתוה": {
+     "readerGloss": "level with",
+     "readerNote": "Said of the side of a Sefirah that is nearest to, and all but one with, the Sefirah above or below it."
+    },
+    "להשתוות": {
+     "readerGloss": "to become level with"
     }
    }
   },
@@ -4305,14 +4512,3218 @@
      "readerGloss": "penitents"
     }
    }
+  },
+  "גשם-גוף": {
+   "headword": "גֶּשֶׁם / גּוּף",
+   "transliteration": "geshem / guf",
+   "partOfSpeech": "noun",
+   "notes": "גשם and גוף both = 'body'; גשמי = corporeal; גשמות = corporeality; צורה גופנית = 'a bodily figure'. 2:1:4 הגשם חלף הלך לו puns on Song 2:11.",
+   "candidates": [
+    {
+     "target": "body / corporeal / corporeality",
+     "status": "preferred",
+     "contextNotes": "גשם and גוף both = 'body'; גשמי = corporeal; גשמות = corporeality; צורה גופנית = 'a bodily figure'. 2:1:4 הגשם חלף הלך לו puns on Song 2:11.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "גשם",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Body in the philosophers' sense: whatever has length, breadth and depth. The Sefirot are not bodies; they are the root from which bodies come.",
+   "surfaceForms": {
+    "גשם": {
+     "readerGloss": "body",
+     "readerNote": "Body. The same word is the ordinary Hebrew for rain, which allows the pun 'the geshem is over and gone' (Song of Songs 2:11)."
+    },
+    "גשמי": {
+     "readerGloss": "corporeal"
+    },
+    "גשמות": {
+     "readerGloss": "corporeality"
+    },
+    "גוף": {
+     "readerGloss": "body"
+    },
+    "גופים": {
+     "readerGloss": "bodies"
+    },
+    "גופנית": {
+     "readerGloss": "bodily"
+    },
+    "גופניות": {
+     "readerGloss": "bodily"
+    }
+   },
+   "readerGloss": "body; corporeal"
+  },
+  "קטר-קוטר": {
+   "headword": "קֹטֶר (pl. קְטָרִים)",
+   "transliteration": "koter",
+   "partOfSpeech": "noun",
+   "notes": "'diameter' (literal), kept distinct from גדרי הגוף = 'the dimensions of body', which meets it in 2:1:4-7.",
+   "candidates": [
+    {
+     "target": "diameter",
+     "status": "preferred",
+     "contextNotes": "'diameter' (literal), kept distinct from גדרי הגוף = 'the dimensions of body', which meets it in 2:1:4-7.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "קוטרים",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    },
+    {
+     "target": "dimension",
+     "status": "rejected",
+     "contextNotes": "taken by גדרי הגוף in the same paragraphs"
+    }
+   ],
+   "readerNote": "Literally 'diameter'. In the reason quoted from Rabbi Azriel it means each of the three directions in which a body extends: length, breadth and depth.",
+   "surfaceForms": {
+    "קוטרים": {
+     "readerGloss": "diameters"
+    },
+    "קטרים": {
+     "readerGloss": "diameters"
+    },
+    "קטרי": {
+     "readerGloss": "the diameters of"
+    }
+   }
+  },
+  "כמה-כמות": {
+   "headword": "כַּמּוּת",
+   "transliteration": "kamut",
+   "partOfSpeech": "noun",
+   "notes": "בעלי הכמות = 'have quantity'; ראש וסוף כמותי = 'a quantitative beginning and end'.",
+   "candidates": [
+    {
+     "target": "quantity",
+     "status": "preferred",
+     "contextNotes": "בעלי הכמות = 'have quantity'; ראש וסוף כמותי = 'a quantitative beginning and end'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "כמות",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Quantity, or measurable size. A real body has quantity; the notional point has none.",
+   "surfaceForms": {
+    "כמות": {
+     "readerGloss": "quantity"
+    },
+    "כמותי": {
+     "readerGloss": "quantitative"
+    }
+   }
+  },
+  "גבל-גבול": {
+   "headword": "גְּבוּל",
+   "transliteration": "gevul",
+   "partOfSpeech": "noun",
+   "notes": "גבול = limit; בעל גבול = limited (not 'possessor of limit'); גבול ציורי ולא גבול ממש = 'a notional limit and not an actual limit'.",
+   "candidates": [
+    {
+     "target": "limit",
+     "status": "preferred",
+     "contextNotes": "גבול = limit; בעל גבול = limited (not 'possessor of limit'); גבול ציורי ולא גבול ממש = 'a notional limit and not an actual limit'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "גבול",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    },
+    {
+     "target": "possessors of limit",
+     "status": "rejected",
+     "contextNotes": "over-literal; replaced in the Gate 2 review"
+    }
+   ],
+   "readerNote": "A limit or boundary. The Ein Sof has none and created beings must have one; the Sefirot stand between, limited only in comparison with their source.",
+   "surfaceForms": {
+    "גבול": {
+     "readerGloss": "limit"
+    },
+    "בעל גבול": {
+     "readerGloss": "limited"
+    },
+    "בעלי גבול": {
+     "readerGloss": "limited"
+    },
+    "גבול ציורי": {
+     "readerGloss": "a notional limit"
+    },
+    "גבוליי": {
+     "readerGloss": "of limit"
+    },
+    "להגביל": {
+     "readerGloss": "to set a limit"
+    },
+    "יוגבלו": {
+     "readerGloss": "are limited"
+    }
+   }
+  },
+  "תכל-תכלית": {
+   "headword": "תַּכְלִית",
+   "transliteration": "takhlit",
+   "partOfSpeech": "noun",
+   "notes": "בעל תכלית = finite; בלתי בעל תכלית = not finite; תכלית + noun = 'the utmost …'; bare תכלית = end / finitude. סוף also = 'end'.",
+   "candidates": [
+    {
+     "target": "end / finite / utmost",
+     "status": "preferred",
+     "contextNotes": "בעל תכלית = finite; בלתי בעל תכלית = not finite; תכלית + noun = 'the utmost …'; bare תכלית = end / finitude. סוף also = 'end'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "תכלית",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    },
+    {
+     "target": "possessors of an end",
+     "status": "rejected",
+     "contextNotes": "over-literal; replaced in the Gate 2 review"
+    }
+   ],
+   "readerNote": "An end. 'Possessed of an end' means finite, and 'without end' means infinite. Before another noun the word means 'the utmost', as in 'the utmost perfection'.",
+   "surfaceForms": {
+    "תכלית": {
+     "readerGloss": "end; finitude; the utmost"
+    },
+    "בעל תכלית": {
+     "readerGloss": "finite"
+    },
+    "בעלי תכלית": {
+     "readerGloss": "finite"
+    },
+    "בלתי בעל תכלית": {
+     "readerGloss": "not finite"
+    },
+    "בלתי בעלי תכלית": {
+     "readerGloss": "not finite"
+    },
+    "לאין תכלית": {
+     "readerGloss": "without end"
+    },
+    "תכליתית": {
+     "readerGloss": "finite"
+    },
+    "תכלית השלמות": {
+     "readerGloss": "the utmost perfection"
+    },
+    "תכלית הדקות": {
+     "readerGloss": "the utmost fineness"
+    },
+    "תכלית הרוחניות": {
+     "readerGloss": "the utmost spirituality"
+    },
+    "תכלית השלילה": {
+     "readerGloss": "the utmost negation"
+    },
+    "תכלית הטוהר": {
+     "readerGloss": "the utmost of purity"
+    }
+   },
+   "readerGloss": "end; finite; utmost"
+  },
+  "אין-סוף": {
+   "headword": "אֵין סוֹף",
+   "transliteration": "Ein Sof",
+   "partOfSpeech": "noun",
+   "notes": "Always 'the Ein Sof' with the article; 2:1:13 explains the name ('without end').",
+   "candidates": [
+    {
+     "target": "the Ein Sof",
+     "status": "preferred",
+     "contextNotes": "Always 'the Ein Sof' with the article; 2:1:13 explains the name ('without end').",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "אין סוף",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "'Without End': the Emanator, so called because every limit and every end must be denied of Him.",
+   "surfaceForms": {
+    "אין סוף": {
+     "readerGloss": "the Ein Sof"
+    },
+    "א\"ס": {
+     "readerGloss": "the Ein Sof"
+    }
+   },
+   "readerGloss": "the Ein Sof"
+  },
+  "כרח-הכרח": {
+   "headword": "הֶכְרֵחַ",
+   "transliteration": "hekhre'ach",
+   "partOfSpeech": "noun/verb",
+   "notes": "Ontological use: necessity / necessary / had to. Argumentative use: (compelling) proof / prove conclusively.",
+   "candidates": [
+    {
+     "target": "necessity; compelling proof",
+     "status": "preferred",
+     "contextNotes": "Ontological use: necessity / necessary / had to. Argumentative use: (compelling) proof / prove conclusively.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "הכרח",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Necessity. Cordovero uses the word both for what must be so and for an argument that compels assent: to 'necessitate' a claim is to prove it conclusively.",
+   "surfaceForms": {
+    "הכרח": {
+     "readerGloss": "necessity; proof"
+    },
+    "מוכרח": {
+     "readerGloss": "necessary; compelled"
+    },
+    "מוכרחת": {
+     "readerGloss": "compelling"
+    },
+    "הוכרח": {
+     "readerGloss": "was necessary; had to"
+    },
+    "הוכרחו": {
+     "readerGloss": "were compelled"
+    },
+    "נכריח": {
+     "readerGloss": "we shall prove conclusively"
+    },
+    "להכריח": {
+     "readerGloss": "to make necessary; to prove conclusively"
+    },
+    "יוכרח": {
+     "readerGloss": "must; follows of necessity"
+    },
+    "יוכרחו": {
+     "readerGloss": "are necessary"
+    },
+    "הכרחנו": {
+     "readerGloss": "we have proved"
+    },
+    "הכרח גמור": {
+     "readerGloss": "absolute necessity; a decisive proof"
+    },
+    "ראיה מוכרחת": {
+     "readerGloss": "a compelling proof"
+    }
+   },
+   "readerGloss": "necessity; proof"
+  },
+  "צדק-יצדק": {
+   "headword": "יִצְדַּק / יֻצְדַּק",
+   "transliteration": "yitzdak / yutzdak",
+   "partOfSpeech": "verb",
+   "notes": "יצדק בו X = 'X can properly be said of it'; לא יצדק = 'cannot properly be said'.",
+   "candidates": [
+    {
+     "target": "can properly be said (of)",
+     "status": "preferred",
+     "contextNotes": "יצדק בו X = 'X can properly be said of it'; לא יצדק = 'cannot properly be said'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "יוצדק",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A term of logic: a description 'is right' of a thing when it can truly be said of it.",
+   "surfaceForms": {
+    "יוצדק": {
+     "readerGloss": "can properly be said"
+    },
+    "יצדק": {
+     "readerGloss": "can properly be said; is right"
+    }
+   }
+  },
+  "חסר-חסרון": {
+   "headword": "חִסָּרוֹן",
+   "transliteration": "chisaron",
+   "partOfSpeech": "noun",
+   "notes": "חסרון = deficiency / lack; חסרון כח = 'lack of power'.",
+   "candidates": [
+    {
+     "target": "deficiency; lack",
+     "status": "preferred",
+     "contextNotes": "חסרון = deficiency / lack; חסרון כח = 'lack of power'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "חסרון",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A lack or shortcoming. That the emanated falls short of the Emanator is no deficiency in either: it follows from its being an effect.",
+   "surfaceForms": {
+    "חסרון": {
+     "readerGloss": "deficiency; lack"
+    },
+    "חסרונו": {
+     "readerGloss": "its lack"
+    }
+   }
+  },
+  "שלם-שלמות": {
+   "headword": "שְׁלֵמוּת",
+   "transliteration": "shelemut",
+   "partOfSpeech": "noun",
+   "notes": "שלמות = perfection; בשלימות = 'in completeness'; שלם תכלית השלמות = 'perfect with the utmost perfection'.",
+   "candidates": [
+    {
+     "target": "perfection",
+     "status": "preferred",
+     "contextNotes": "שלמות = perfection; בשלימות = 'in completeness'; שלם תכלית השלמות = 'perfect with the utmost perfection'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "שלמות",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Perfection or completeness.",
+   "surfaceForms": {
+    "שלמות": {
+     "readerGloss": "perfection"
+    },
+    "שלימות": {
+     "readerGloss": "completeness; perfection"
+    },
+    "שלמותו": {
+     "readerGloss": "its perfection"
+    }
+   }
+  },
+  "פשט-פשוט": {
+   "headword": "פָּשׁוּט / מֻרְכָּב",
+   "transliteration": "pashut / murkav",
+   "partOfSpeech": "adjective",
+   "notes": "פשוט = simple (uncompounded); מורכב = composite; רחמים פשוטים = 'simple mercy'; פשוטות מגוף = 'free of body'.",
+   "candidates": [
+    {
+     "target": "simple / composite",
+     "status": "preferred",
+     "contextNotes": "פשוט = simple (uncompounded); מורכב = composite; רחמים פשוטים = 'simple mercy'; פשוטות מגוף = 'free of body'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "פשוט",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Simple means not made up of parts, the opposite of composite. The Sefirot are simple; body is composite and can be divided. The same word can also mean 'plain' or 'obvious'.",
+   "surfaceForms": {
+    "פשוט": {
+     "readerGloss": "simple"
+    },
+    "פשוטות": {
+     "readerGloss": "simple; free (of)"
+    },
+    "מורכב": {
+     "readerGloss": "composite"
+    },
+    "בלתי מורכבים": {
+     "readerGloss": "not composite"
+    }
+   },
+   "readerGloss": "simple; composite"
+  },
+  "רוח-רוחני": {
+   "headword": "רוּחָנִי / רוּחָנִיּוּת",
+   "transliteration": "ruchani / ruchaniyut",
+   "partOfSpeech": "adjective/noun",
+   "notes": "רוחני = spiritual; רוחניות = spirituality / the spiritual.",
+   "candidates": [
+    {
+     "target": "spiritual / spirituality",
+     "status": "preferred",
+     "contextNotes": "רוחני = spiritual; רוחניות = spirituality / the spiritual.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "רוחני",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Not bodily. What is spiritual has no parts, so two spiritual things can differ only as cause and effect.",
+   "surfaceForms": {
+    "רוחני": {
+     "readerGloss": "spiritual"
+    },
+    "רוחניות": {
+     "readerGloss": "spirituality; the spiritual"
+    }
+   }
+  },
+  "דקק-דקות": {
+   "headword": "דַּקּוּת",
+   "transliteration": "dakut",
+   "partOfSpeech": "noun/adjective",
+   "notes": "דק / דקות = fine / fineness (book-wide majority over 'subtle').",
+   "candidates": [
+    {
+     "target": "fineness / fine",
+     "status": "preferred",
+     "contextNotes": "דק / דקות = fine / fineness (book-wide majority over 'subtle').",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "דקות",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    },
+    {
+     "target": "subtle / subtlety",
+     "status": "rejected",
+     "contextNotes": "minority rendering in Gates 1 and 5-7; 'fine' prevails"
+    }
+   ],
+   "readerNote": "Fineness, the opposite of density. The nearer a thing is to its source, the finer, that is, the more spiritual, it is.",
+   "surfaceForms": {
+    "דקות": {
+     "readerGloss": "fineness; fine"
+    },
+    "דקים": {
+     "readerGloss": "finer; fine"
+    },
+    "דק ורוחני": {
+     "readerGloss": "fine and spiritual"
+    },
+    "יותר דק": {
+     "readerGloss": "finer"
+    }
+   }
+  },
+  "עבה-עביות": {
+   "headword": "עֲבִיּוּת",
+   "transliteration": "aviyut",
+   "partOfSpeech": "noun",
+   "notes": "עביות = density; הארץ העבה והגסה = 'this thick, coarse earth'.",
+   "candidates": [
+    {
+     "target": "density",
+     "status": "preferred",
+     "contextNotes": "עביות = density; הארץ העבה והגסה = 'this thick, coarse earth'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "עביות",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Density or coarseness, the opposite of fineness. Even Keter is called dense, and dark, in comparison with the Emanator.",
+   "surfaceForms": {
+    "עביות": {
+     "readerGloss": "density"
+    },
+    "העבה": {
+     "readerGloss": "the thick"
+    }
+   }
+  },
+  "משל-דמיון": {
+   "headword": "מָשָׁל / דִּמְיוֹן",
+   "transliteration": "mashal / dimyon",
+   "partOfSpeech": "noun",
+   "notes": "והמשל בזה = 'And the parable for this'; משל ודמיון = 'parable and likeness'.",
+   "candidates": [
+    {
+     "target": "parable / likeness",
+     "status": "preferred",
+     "contextNotes": "והמשל בזה = 'And the parable for this'; משל ודמיון = 'parable and likeness'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "משל ודמיון",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A comparison drawn from bodily things to help the mind rise to what is not bodily. Cordovero insists that such figures are only parable and likeness.",
+   "surfaceForms": {
+    "משל ודמיון": {
+     "readerGloss": "a parable and a likeness"
+    },
+    "המשל": {
+     "readerGloss": "the parable"
+    },
+    "כדמיון": {
+     "readerGloss": "like; in the likeness of"
+    },
+    "בדמיון": {
+     "readerGloss": "on the model of"
+    }
+   }
+  },
+  "פסד-הפסד": {
+   "headword": "הֶפְסֵד",
+   "transliteration": "hefsed",
+   "partOfSpeech": "noun",
+   "notes": "הויה והפסד = coming-to-be and passing-away (the Aristotelian generation and corruption); כליון = destruction.",
+   "candidates": [
+    {
+     "target": "passing-away",
+     "status": "preferred",
+     "contextNotes": "הויה והפסד = coming-to-be and passing-away (the Aristotelian generation and corruption); כליון = destruction.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "הפסד",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    },
+    {
+     "target": "corruption",
+     "status": "rejected",
+     "contextNotes": "accurate as a technical term but misleading to a general reader"
+    }
+   ],
+   "readerNote": "The philosophers' 'corruption': ceasing to be. Whatever comes to be in this lower world also passes away, and the Emanation was arranged so that such finite things could exist.",
+   "surfaceForms": {
+    "הפסד": {
+     "readerGloss": "passing-away"
+    },
+    "הוה ונפסד": {
+     "readerGloss": "comes to be and passes away"
+    },
+    "כליון": {
+     "readerGloss": "destruction"
+    },
+    "כלה ואבד": {
+     "readerGloss": "perishing and passing away"
+    },
+    "הויות והפסד": {
+     "readerGloss": "coming-to-be and passing-away"
+    }
+   }
+  },
+  "תאר-תואר": {
+   "headword": "תֹּאַר (pl. תְּאָרִים)",
+   "transliteration": "to'ar / te'arim",
+   "partOfSpeech": "noun",
+   "notes": "תואר = predicate (not 'attribute', which is מדה); הרחקת התארים = the philosophers' denial of divine attributes.",
+   "candidates": [
+    {
+     "target": "predicate",
+     "status": "preferred",
+     "contextNotes": "תואר = predicate (not 'attribute', which is מדה); הרחקת התארים = the philosophers' denial of divine attributes.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "תארים",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A quality affirmed of God, such as 'wise' or 'sitting'. The philosophers deny that any can be said of Him; Cordovero answers that they are said of the Sefirot.",
+   "surfaceForms": {
+    "תארים": {
+     "readerGloss": "predicates"
+    },
+    "תואריו": {
+     "readerGloss": "His predicates"
+    },
+    "הרחקת התארים": {
+     "readerGloss": "the removal of the predicates"
+    }
+   }
+  },
+  "חקר-חקירה": {
+   "headword": "חֲקִירָה / חוֹקְרִים",
+   "transliteration": "chakirah / chokrim",
+   "partOfSpeech": "noun",
+   "notes": "חקר = investigate; חוקרים = investigators (the philosophers). 'Inquirer' is reserved for המעיין.",
+   "candidates": [
+    {
+     "target": "investigation / investigators",
+     "status": "preferred",
+     "contextNotes": "חקר = investigate; חוקרים = investigators (the philosophers). 'Inquirer' is reserved for המעיין.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "חקירה",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    },
+    {
+     "target": "inquirers",
+     "status": "rejected",
+     "contextNotes": "collides with המעיין = 'the inquirer'"
+    }
+   ],
+   "readerNote": "Rational investigation, and those who practice it, the philosophers. Cordovero sets their conclusions beside the tradition of the Kabbalists.",
+   "surfaceForms": {
+    "חקירה": {
+     "readerGloss": "investigation"
+    },
+    "חוקרים": {
+     "readerGloss": "investigators"
+    },
+    "מחוקרי": {
+     "readerGloss": "of the investigators of"
+    },
+    "נחקור": {
+     "readerGloss": "we investigate"
+    },
+    "לחקור": {
+     "readerGloss": "to investigate"
+    }
+   }
+  },
+  "מדד-מדה": {
+   "headword": "מִדָּה (pl. מִדּוֹת)",
+   "transliteration": "middah / middot",
+   "partOfSpeech": "noun",
+   "notes": "מדה = attribute (a Sefirah as a mode of divine action); 'measure' where quantity is meant.",
+   "candidates": [
+    {
+     "target": "attribute",
+     "status": "preferred",
+     "contextNotes": "מדה = attribute (a Sefirah as a mode of divine action); 'measure' where quantity is meant.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "מדה",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "An attribute: a Sefirah regarded as one of the ways in which God acts, such as lovingkindness or judgment. Strictly the word belongs to the seven lower Sefirot. It also means 'measure'.",
+   "surfaceForms": {
+    "מדה": {
+     "readerGloss": "attribute; measure"
+    },
+    "מדות": {
+     "readerGloss": "attributes"
+    },
+    "מדת": {
+     "readerGloss": "the attribute of"
+    },
+    "מדתו": {
+     "readerGloss": "His attribute"
+    },
+    "מדתן": {
+     "readerGloss": "their measure"
+    },
+    "ממדותיו": {
+     "readerGloss": "from His attributes"
+    },
+    "מדת הדין": {
+     "readerGloss": "the attribute of judgment"
+    },
+    "מדת הדין הקשה": {
+     "readerGloss": "the attribute of harsh judgment"
+    },
+    "מדת החסד": {
+     "readerGloss": "the attribute of Chesed"
+    },
+    "מדת היום": {
+     "readerGloss": "the attribute of day",
+     "readerNote": "A name of Tiferet, as 'the attribute of night' is a name of Malkhut."
+    }
+   },
+   "readerGloss": "attribute; measure"
+  },
+  "דרג-מדרגה": {
+   "headword": "מַדְרֵגָה",
+   "transliteration": "madregah",
+   "partOfSpeech": "noun",
+   "notes": "מדרגה = grade (not 'degree', not 'level').",
+   "candidates": [
+    {
+     "target": "grade",
+     "status": "preferred",
+     "contextNotes": "מדרגה = grade (not 'degree', not 'level').",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "מדרגה",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A step or level in the descent from the Emanator. Each grade is the effect of the one above it and the cause of the one below.",
+   "surfaceForms": {
+    "מדרגה": {
+     "readerGloss": "grade"
+    },
+    "מדריגה": {
+     "readerGloss": "grade"
+    },
+    "מדרגות": {
+     "readerGloss": "grades"
+    },
+    "מדריגות": {
+     "readerGloss": "grades"
+    },
+    "ירידת המדרגות": {
+     "readerGloss": "the descent of the grades"
+    }
+   }
+  },
+  "עלה-מעלה": {
+   "headword": "מַעֲלָה",
+   "transliteration": "ma'alah",
+   "partOfSpeech": "noun",
+   "notes": "מעלה = rank (standing) or degree (step); kept apart from מדרגה = grade. Bare מעלה is NOT registered: it would catch למעלה 'above'.",
+   "candidates": [
+    {
+     "target": "rank / degree",
+     "status": "preferred",
+     "contextNotes": "מעלה = rank (standing) or degree (step); kept apart from מדרגה = grade. Bare מעלה is NOT registered: it would catch למעלה 'above'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "מעלות",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Rank or excellence; also a step, as in the ten degrees by which each Sefirah descends.",
+   "surfaceForms": {
+    "מעלות": {
+     "readerGloss": "ranks; degrees"
+    },
+    "מעלתו": {
+     "readerGloss": "His rank; his superiority"
+    },
+    "מעלת": {
+     "readerGloss": "the rank of"
+    },
+    "עשר מעלות": {
+     "readerGloss": "ten degrees"
+    }
+   },
+   "readerGloss": "rank; degree"
+  },
+  "טעם-טעם": {
+   "headword": "טַעַם",
+   "transliteration": "ta'am",
+   "partOfSpeech": "noun",
+   "notes": "טעם = reason; Gate 2 = 'the Reason for the Emanation'.",
+   "candidates": [
+    {
+     "target": "reason",
+     "status": "preferred",
+     "contextNotes": "טעם = reason; Gate 2 = 'the Reason for the Emanation'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "טעם",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A reason. This gate asks for the reason why the Emanation exists at all and why the Sefirot are ten. Elsewhere the word means 'taste' or a cantillation mark.",
+   "surfaceForms": {
+    "טעם": {
+     "readerGloss": "reason"
+    },
+    "טעם האצילות": {
+     "readerGloss": "the reason for the Emanation"
+    }
+   }
+  },
+  "קבל-קבלה": {
+   "headword": "קַבָּלָה",
+   "transliteration": "kabbalah",
+   "partOfSpeech": "noun",
+   "notes": "קבלה = (our) tradition; 'the Kabbalah' for the discipline. Bare קבלה is NOT registered (also a verb, 'she received').",
+   "candidates": [
+    {
+     "target": "tradition",
+     "status": "preferred",
+     "contextNotes": "קבלה = (our) tradition; 'the Kabbalah' for the discipline. Bare קבלה is NOT registered (also a verb, 'she received').",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "קבלתנו",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "'What is received': the tradition handed down among the Kabbalists, as distinct from what is reached by investigation.",
+   "surfaceForms": {
+    "קבלתנו": {
+     "readerGloss": "our tradition"
+    },
+    "קבלתינו": {
+     "readerGloss": "our tradition"
+    },
+    "הקבלה": {
+     "readerGloss": "the tradition; the Kabbalah"
+    },
+    "בעלי הקבלה": {
+     "readerGloss": "the masters of the Kabbalah"
+    },
+    "המקובלים": {
+     "readerGloss": "the Kabbalists"
+    }
+   }
+  },
+  "בדל-הבדל": {
+   "headword": "הֶבְדֵּל / נִבְדָּל",
+   "transliteration": "hevdel / nivdal",
+   "partOfSpeech": "noun/adjective",
+   "notes": "הבדל = difference; נבדל = distinct (and 'separate' in שכל נבדל).",
+   "candidates": [
+    {
+     "target": "difference / distinct",
+     "status": "preferred",
+     "contextNotes": "הבדל = difference; נבדל = distinct (and 'separate' in שכל נבדל).",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "הבדל",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "What is not a body cannot be told apart by place or by parts. The Sefirot differ from the Emanator, and from one another, only as an effect differs from its cause.",
+   "surfaceForms": {
+    "הבדל": {
+     "readerGloss": "difference"
+    },
+    "נבדל": {
+     "readerGloss": "distinct"
+    },
+    "נבדלים": {
+     "readerGloss": "distinct"
+    },
+    "הבדלים": {
+     "readerGloss": "differences"
+    }
+   },
+   "readerGloss": "difference; distinct"
+  },
+  "אלה-אלקות": {
+   "headword": "אֱלֹקוּת",
+   "transliteration": "Elokut",
+   "partOfSpeech": "noun",
+   "notes": "אלקות = divinity (lower-case).",
+   "candidates": [
+    {
+     "target": "divinity",
+     "status": "preferred",
+     "contextNotes": "אלקות = divinity (lower-case).",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "אלקות",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "The divine nature, which becomes known to created beings only through the Sefirot.",
+   "surfaceForms": {
+    "אלקות": {
+     "readerGloss": "divinity"
+    },
+    "אלקותו": {
+     "readerGloss": "His divinity"
+    },
+    "אלוהותו": {
+     "readerGloss": "His divinity"
+    }
+   }
+  },
+  "ברא-נברא": {
+   "headword": "נִבְרָא (pl. נִבְרָאִים)",
+   "transliteration": "nivra / nivra'im",
+   "partOfSpeech": "noun",
+   "notes": "נבראים = created beings (Gate 4 usage; Gate 2 formerly 'the creatures').",
+   "candidates": [
+    {
+     "target": "created being",
+     "status": "preferred",
+     "contextNotes": "נבראים = created beings (Gate 4 usage; Gate 2 formerly 'the creatures').",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "נבראים",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    },
+    {
+     "target": "the creatures",
+     "status": "rejected",
+     "contextNotes": "kept only for נבראיו / ברואיו 'His creatures'"
+    }
+   ],
+   "readerNote": "Whatever exists below the Emanation. Created beings must be finite, and so cannot proceed directly from the Ein Sof.",
+   "surfaceForms": {
+    "נבראים": {
+     "readerGloss": "created beings"
+    },
+    "נבראיו": {
+     "readerGloss": "His creatures"
+    },
+    "ברואיו": {
+     "readerGloss": "His creatures"
+    },
+    "נאצל ממאציל ונברא מנאצל ונוצר מנברא ונעשה מנוצר": {
+     "readerGloss": "emanated from Emanator, created from emanated, formed from created, made from formed",
+     "readerNote": "The four steps of descent, matching the four worlds: Atzilut, Beriah, Yetzirah and Asiyah."
+    }
+   }
+  },
+  "זול-זולתו": {
+   "headword": "זוּלָתוֹ",
+   "transliteration": "zulato",
+   "partOfSpeech": "noun",
+   "notes": "להשפיע אל זולתו = 'to pour effluence upon what is other than Himself'.",
+   "candidates": [
+    {
+     "target": "what is other than Himself",
+     "status": "preferred",
+     "contextNotes": "להשפיע אל זולתו = 'to pour effluence upon what is other than Himself'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "זולתו",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Everything that is not the Emanator. The Emanation exists so that He may do good to, and be known by, what is other than Himself. The same word can simply mean 'besides it'.",
+   "surfaceForms": {
+    "זולתו": {
+     "readerGloss": "what is other than He; besides it"
+    }
+   }
+  },
+  "ידה-הודאה": {
+   "headword": "הוֹדָאָה",
+   "transliteration": "hoda'ah",
+   "partOfSpeech": "noun",
+   "notes": "הודאה = thanksgiving (as in Gate 8, 'victory and thanksgiving'). Registered also so that the Aramaic form ודא does not catch it.",
+   "candidates": [
+    {
+     "target": "thanksgiving",
+     "status": "preferred",
+     "contextNotes": "הודאה = thanksgiving (as in Gate 8, 'victory and thanksgiving'). Registered also so that the Aramaic form ודא does not catch it.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "הודאה",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    },
+    {
+     "target": "acknowledgment",
+     "status": "rejected",
+     "contextNotes": "Gate 2 minority; replaced in the review"
+    }
+   ],
+   "readerNote": "Thanksgiving. Recanati derives the name of the Sefirah Hod from it.",
+   "surfaceForms": {
+    "הודאה": {
+     "readerGloss": "thanksgiving"
+    },
+    "הודאות": {
+     "readerGloss": "thanksgivings"
+    }
+   }
+  },
+  "בנה-בנין": {
+   "headword": "בִּנְיָן",
+   "transliteration": "binyan",
+   "partOfSpeech": "noun",
+   "notes": "שבע ספירות הבנין = 'the seven Sefirot of the Structure' (capital for the technical sense); cf. כל הבנין 'the whole structure' in Gate 5. Bare בנין is NOT registered: in the Zohar quotations it is Aramaic 'sons'.",
+   "candidates": [
+    {
+     "target": "the Structure",
+     "status": "preferred",
+     "contextNotes": "שבע ספירות הבנין = 'the seven Sefirot of the Structure' (capital for the technical sense); cf. כל הבנין 'the whole structure' in Gate 5. Bare בנין is NOT registered: in the Zohar quotations it is Aramaic 'sons'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "הבנין",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    },
+    {
+     "target": "construction",
+     "status": "rejected",
+     "contextNotes": "Gate 2-3 minority; 'structure' is used from Gate 4 on"
+    }
+   ],
+   "readerNote": "The 'building': the seven lower Sefirot, from Chesed to Malkhut, which build and govern the world, as distinct from the first three.",
+   "surfaceForms": {
+    "הבנין": {
+     "readerGloss": "the Structure"
+    },
+    "ספירות הבנין": {
+     "readerGloss": "the Sefirot of the Structure"
+    },
+    "לבנין": {
+     "readerGloss": "for a structure"
+    }
+   }
+  },
+  "קצה-קצוות": {
+   "headword": "קְצָווֹת",
+   "transliteration": "ketzavot",
+   "partOfSpeech": "noun",
+   "notes": "קצוות = extremities (reserved; never 'termini', never for אצבעות).",
+   "candidates": [
+    {
+     "target": "extremities",
+     "status": "preferred",
+     "contextNotes": "קצוות = extremities (reserved; never 'termini', never for אצבעות).",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "קצוות",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Ends or directions. 'The six extremities' are the six Sefirot from Chesed to Yesod, like the six directions of space; with Malkhut they are seven.",
+   "surfaceForms": {
+    "קצוות": {
+     "readerGloss": "extremities"
+    },
+    "ז' קצוות": {
+     "readerGloss": "the seven extremities"
+    },
+    "ו' קצוות": {
+     "readerGloss": "the six extremities"
+    },
+    "שש קצוות": {
+     "readerGloss": "the six extremities"
+    }
+   }
+  },
+  "עמד-עמוד": {
+   "headword": "עַמּוּד",
+   "transliteration": "ammud",
+   "partOfSpeech": "noun",
+   "notes": "עמוד = pillar. Bare עמוד / לעמוד are NOT registered (לעמוד is usually 'to stand').",
+   "candidates": [
+    {
+     "target": "pillar",
+     "status": "preferred",
+     "contextNotes": "עמוד = pillar. Bare עמוד / לעמוד are NOT registered (לעמוד is usually 'to stand').",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "העמוד",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A pillar on which the world stands. Recanati counts the seven lower Sefirot as seven pillars that the world cannot do without.",
+   "surfaceForms": {
+    "העמוד": {
+     "readerGloss": "the pillar"
+    },
+    "לעמוד השני": {
+     "readerGloss": "the second pillar"
+    },
+    "לעמוד שלישי": {
+     "readerGloss": "a third pillar"
+    },
+    "לעמוד רביעי": {
+     "readerGloss": "a fourth pillar"
+    },
+    "ולעמוד חמישי": {
+     "readerGloss": "and a fifth pillar"
+    },
+    "לעמוד ששי": {
+     "readerGloss": "a sixth pillar"
+    },
+    "ולעמוד שביעי": {
+     "readerGloss": "and a seventh pillar"
+    },
+    "בעמוד זה": {
+     "readerGloss": "by this pillar"
+    }
+   }
+  },
+  "ראש-ראשונות": {
+   "headword": "ג׳ רִאשׁוֹנוֹת",
+   "transliteration": "gimel rishonot",
+   "partOfSpeech": "noun-phrase",
+   "notes": "'the first three [Sefirot]' (not 'the three first').",
+   "candidates": [
+    {
+     "target": "the first three",
+     "status": "preferred",
+     "contextNotes": "'the first three [Sefirot]' (not 'the three first').",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "ג' ראשונות",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Keter, Chokhmah and Binah. They are intellective and concealed, and act in the world only through the seven Sefirot below them.",
+   "surfaceForms": {
+    "ג' ראשונות": {
+     "readerGloss": "the first three"
+    },
+    "שלש ראשונות": {
+     "readerGloss": "the first three"
+    },
+    "שלשה ראשונות": {
+     "readerGloss": "the first three"
+    }
+   }
+  },
+  "אמן-אומן": {
+   "headword": "אוּמָן (Aram. אוּמָנָא)",
+   "transliteration": "uman",
+   "partOfSpeech": "noun",
+   "notes": "אומן = craftsman; אפיק אומנותיה = 'brought forth its craft'.",
+   "candidates": [
+    {
+     "target": "craftsman",
+     "status": "preferred",
+     "contextNotes": "אומן = craftsman; אפיק אומנותיה = 'brought forth its craft'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "אומנים",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "The six days of creation, that is, the six Sefirot from Chesed to Yesod, pictured as craftsmen who carry out what the first three Sefirot say.",
+   "surfaceForms": {
+    "אומנים": {
+     "readerGloss": "craftsmen"
+    },
+    "אומנין": {
+     "readerGloss": "craftsmen"
+    },
+    "אומנותיה": {
+     "readerGloss": "its craft"
+    }
+   }
+  },
+  "אמן-אמון": {
+   "headword": "אָמוֹן מֻפְלָא וּמְכֻסֶּה",
+   "transliteration": "amon mufla u-mekhuseh",
+   "partOfSpeech": "noun-phrase",
+   "notes": "Changed in the Gate 2 review from 'a hidden and concealed Amon': מופלא must keep its link with פלא, which Cordovero draws in the same sentence (2:3:10).",
+   "candidates": [
+    {
+     "target": "a wondrous and concealed Amon",
+     "status": "preferred",
+     "contextNotes": "Changed in the Gate 2 review from 'a hidden and concealed Amon': מופלא must keep its link with פלא, which Cordovero draws in the same sentence (2:3:10).",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "אמון מופלא ומכוסה",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    },
+    {
+     "target": "a hidden and concealed Amon",
+     "status": "rejected",
+     "contextNotes": "superseded: 'hidden' loses the pele / mufla link"
+    }
+   ],
+   "readerNote": "A title of Keter from the Tikkunim. Amon is the 'nursling' or 'master craftsman' of Proverbs 8:30; 'wondrous' (mufla) echoes pele, 'wonder', which is the letters of alef rearranged.",
+   "surfaceForms": {
+    "אמון מופלא ומכוסה": {
+     "readerGloss": "a wondrous and concealed Amon"
+    },
+    "מופלא אמון ומכוסה": {
+     "readerGloss": "wondrous, an Amon, and concealed"
+    }
+   }
+  },
+  "שכן-שכינה": {
+   "headword": "שְׁכִינָה",
+   "transliteration": "Shekhinah",
+   "partOfSpeech": "noun",
+   "notes": "Transliterated; 'she'.",
+   "candidates": [
+    {
+     "target": "the Shekhinah",
+     "status": "preferred",
+     "contextNotes": "Transliterated; 'she'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "שכינה",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "The divine Presence: a name of Malkhut, in whom all the Sefirot dwell (shokhenot).",
+   "surfaceForms": {
+    "שכינה": {
+     "readerGloss": "the Shekhinah"
+    },
+    "שכינתא": {
+     "readerGloss": "the Shekhinah"
+    }
+   }
+  },
+  "כנס-כנסת-ישראל": {
+   "headword": "כְּנֶסֶת יִשְׂרָאֵל",
+   "transliteration": "Knesset Yisrael",
+   "partOfSpeech": "noun-phrase",
+   "notes": "כנסת ישראל = the Assembly of Israel (established).",
+   "candidates": [
+    {
+     "target": "the Assembly of Israel",
+     "status": "preferred",
+     "contextNotes": "כנסת ישראל = the Assembly of Israel (established).",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "כנסת ישראל",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A name of Malkhut, into whom all the Sefirot are gathered.",
+   "surfaceForms": {
+    "כנסת ישראל": {
+     "readerGloss": "the Assembly of Israel"
+    }
+   }
+  },
+  "כלל-כלה": {
+   "headword": "כַּלָּה",
+   "transliteration": "kallah",
+   "partOfSpeech": "noun",
+   "notes": "כלה = bride (Malkhut's titles: the Lady, mistress, queen, handmaid, bride). The phrase כלה ואבד belongs to פסד-הפסד.",
+   "candidates": [
+    {
+     "target": "bride",
+     "status": "preferred",
+     "contextNotes": "כלה = bride (Malkhut's titles: the Lady, mistress, queen, handmaid, bride). The phrase כלה ואבד belongs to פסד-הפסד.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "כלה",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A title of Malkhut. She is called bride (kallah) because she is composed (kelulah) of all the Sefirot.",
+   "surfaceForms": {
+    "כלה": {
+     "readerGloss": "bride"
+    }
+   }
+  },
+  "אור-מאורות": {
+   "headword": "מְאוֹרוֹת",
+   "transliteration": "me'orot",
+   "partOfSpeech": "noun",
+   "notes": "מאורות = luminaries; שני המאורות הגדולים = Tiferet and Malkhut.",
+   "candidates": [
+    {
+     "target": "luminaries",
+     "status": "preferred",
+     "contextNotes": "מאורות = luminaries; שני המאורות הגדולים = Tiferet and Malkhut.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "מאורות",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "The sun and the moon; in the Zohar, Tiferet and Malkhut. The Torah spells the word without its vavs, which the Sages read as me'erat, 'curse', a sign of judgment.",
+   "surfaceForms": {
+    "מאורות": {
+     "readerGloss": "luminaries"
+    },
+    "מארת": {
+     "readerGloss": "luminaries (spelled defectively)"
+    },
+    "שני המאורות הגדולים": {
+     "readerGloss": "the two great luminaries"
+    },
+    "שני מאורות גדולים": {
+     "readerGloss": "two great luminaries"
+    }
+   }
+  },
+  "מעט-מיעוט": {
+   "headword": "מִעוּט הַיָּרֵחַ",
+   "transliteration": "mi'ut ha-yare'ach",
+   "partOfSpeech": "noun-phrase",
+   "notes": "מיעוט הירח = the diminishment of the moon (Gate 18 title); קטרגה = 'made her accusation'.",
+   "candidates": [
+    {
+     "target": "the diminishment of the moon",
+     "status": "preferred",
+     "contextNotes": "מיעוט הירח = the diminishment of the moon (Gate 18 title); קטרגה = 'made her accusation'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "המעוט",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "The moon, that is, Malkhut, complained that two kings cannot share one crown, and was made smaller. Gate 18 is devoted to it.",
+   "surfaceForms": {
+    "המעוט": {
+     "readerGloss": "the diminishment"
+    },
+    "נתמעטה": {
+     "readerGloss": "was diminished"
+    },
+    "קטרגה הירח": {
+     "readerGloss": "the moon made her accusation"
+    }
+   }
+  },
+  "תהו-בהו": {
+   "headword": "תֹּהוּ וָבֹהוּ",
+   "transliteration": "tohu va-vohu",
+   "partOfSpeech": "noun-phrase",
+   "notes": "תהו = formlessness, בהו = void (as in Gate 3). Bare תהו and בהו are NOT registered (תהו catches מתהוה / התהוות; בהו is Aramaic 'in them').",
+   "candidates": [
+    {
+     "target": "formlessness and void",
+     "status": "preferred",
+     "contextNotes": "תהו = formlessness, בהו = void (as in Gate 3). Bare תהו and בהו are NOT registered (תהו catches מתהוה / התהוות; בהו is Aramaic 'in them').",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "תהו ובהו",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    },
+    {
+     "target": "unformed and void",
+     "status": "rejected",
+     "contextNotes": "replaced in the Gate 2 review to match Gate 3"
+    }
+   ],
+   "readerNote": "The state of the earth in Genesis 1:2. Together with 'darkness', the Zohar reads these as the husks that surround Malkhut.",
+   "surfaceForms": {
+    "תהו ובהו": {
+     "readerGloss": "formlessness and void"
+    }
+   }
+  },
+  "זהם-זוהמת-הנחש": {
+   "headword": "זֻהֲמַת הַנָּחָשׁ",
+   "transliteration": "zuhamat ha-nachash",
+   "partOfSpeech": "noun-phrase",
+   "notes": "זוהמת הנחש = the filth of the serpent.",
+   "candidates": [
+    {
+     "target": "the filth of the serpent",
+     "status": "preferred",
+     "contextNotes": "זוהמת הנחש = the filth of the serpent.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "זוהמת הנחש",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "The impurity that the serpent cast into the world through the first sin. It will be removed when the world is rectified.",
+   "surfaceForms": {
+    "זוהמת הנחש": {
+     "readerGloss": "the filth of the serpent"
+    },
+    "זוהמת נחש": {
+     "readerGloss": "the filth of the serpent"
+    }
+   }
+  },
+  "היכל-היכלות": {
+   "headword": "הֵיכָלוֹת",
+   "transliteration": "heikhalot",
+   "partOfSpeech": "noun",
+   "notes": "היכלות = palaces; שער ההיכלות = 'the Gate of the Palaces'.",
+   "candidates": [
+    {
+     "target": "palaces",
+     "status": "preferred",
+     "contextNotes": "היכלות = palaces; שער ההיכלות = 'the Gate of the Palaces'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "היכלות",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "The heavenly palaces below the Sefirot, in which souls are judged and rewarded. Gates 24 and 26 describe them.",
+   "surfaceForms": {
+    "היכלות": {
+     "readerGloss": "palaces"
+    },
+    "היכלא": {
+     "readerGloss": "palace"
+    }
+   }
+  },
+  "חיה-תחיה": {
+   "headword": "תְּחִיָּה",
+   "transliteration": "techiyah",
+   "partOfSpeech": "noun",
+   "notes": "התחיה = the resurrection.",
+   "candidates": [
+    {
+     "target": "the resurrection",
+     "status": "preferred",
+     "contextNotes": "התחיה = the resurrection.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "התחיה",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "The resurrection of the dead: for Cordovero the time when the world reaches its perfection and the Sefirot are fully united.",
+   "surfaceForms": {
+    "התחיה": {
+     "readerGloss": "the resurrection"
+    },
+    "התחייה": {
+     "readerGloss": "the resurrection"
+    }
+   }
+  },
+  "מסך-מסך": {
+   "headword": "מָסָךְ",
+   "transliteration": "masakh",
+   "partOfSpeech": "noun",
+   "notes": "מסך = screen (cloth words: יריעה curtain, פרסא hanging, פרוכת veil).",
+   "candidates": [
+    {
+     "target": "screen",
+     "status": "preferred",
+     "contextNotes": "מסך = screen (cloth words: יריעה curtain, פרסא hanging, פרוכת veil).",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "מסך",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A screen that dims a light so that weak eyes can bear it. In the parable the ten Sefirot are ten such screens before the light of the Ein Sof.",
+   "surfaceForms": {
+    "מסך": {
+     "readerGloss": "screen"
+    },
+    "המסכים": {
+     "readerGloss": "the screens"
+    }
+   }
+  },
+  "עשש-עששית": {
+   "headword": "עֲשָׁשִׁית",
+   "transliteration": "ashashit",
+   "partOfSpeech": "noun",
+   "notes": "עששית = lantern (established).",
+   "candidates": [
+    {
+     "target": "lantern",
+     "status": "preferred",
+     "contextNotes": "עששית = lantern (established).",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "עששית",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A pane or lamp of glass through which light passes and is softened.",
+   "surfaceForms": {
+    "עששית": {
+     "readerGloss": "lantern"
+    },
+    "עששיות": {
+     "readerGloss": "lanterns"
+    }
+   }
+  },
+  "ארב-ארובה": {
+   "headword": "אֲרֻבָּה",
+   "transliteration": "arubah",
+   "partOfSpeech": "noun",
+   "notes": "ארובה = aperture (established in Gate 4).",
+   "candidates": [
+    {
+     "target": "aperture",
+     "status": "preferred",
+     "contextNotes": "ארובה = aperture (established in Gate 4).",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "ארובה",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "An opening or window through which sunlight enters a house.",
+   "surfaceForms": {
+    "ארובה": {
+     "readerGloss": "aperture"
+    },
+    "ארובות": {
+     "readerGloss": "apertures"
+    }
+   }
+  },
+  "מתק-מתוק": {
+   "headword": "מָתוֹק / נִמְתָּק",
+   "transliteration": "matok / nimtak",
+   "partOfSpeech": "adjective/verb",
+   "notes": "נמתק = sweetened (the light in the lantern parable; judgments elsewhere).",
+   "candidates": [
+    {
+     "target": "sweet / sweetened",
+     "status": "preferred",
+     "contextNotes": "נמתק = sweetened (the light in the lantern parable; judgments elsewhere).",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "נמתק",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A light, or a judgment, is 'sweetened' when it is tempered so that it can be received without harm.",
+   "surfaceForms": {
+    "נמתק": {
+     "readerGloss": "sweetened"
+    },
+    "מתק": {
+     "readerGloss": "sweetness"
+    },
+    "מתוק": {
+     "readerGloss": "sweet"
+    }
+   }
+  },
+  "ראש-ראשית": {
+   "headword": "רֵאשִׁית / בְּרֵאשִׁית",
+   "transliteration": "reshit / bereshit",
+   "partOfSpeech": "noun",
+   "notes": "The utterance = \"In the beginning\"; the word as a word = bereshit; ראשית = 'beginning' [reshit].",
+   "candidates": [
+    {
+     "target": "beginning",
+     "status": "preferred",
+     "contextNotes": "The utterance = \"In the beginning\"; the word as a word = bereshit; ראשית = 'beginning' [reshit].",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "ראשית",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "'Beginning' is a name of Chokhmah. The first word of the Torah is read 'with Reshit', that is, by means of Chokhmah, while its opening letter bet points to Keter.",
+   "surfaceForms": {
+    "ראשית": {
+     "readerGloss": "beginning (reshit)"
+    },
+    "בראשית": {
+     "readerGloss": "'In the beginning' (bereshit)"
+    }
+   },
+   "readerGloss": "beginning (reshit)"
+  },
+  "שם-מב": {
+   "headword": "שֵׁם מ״ב / אבגית״ץ",
+   "transliteration": "shem mem-bet / Avgitatz",
+   "partOfSpeech": "noun-phrase",
+   "notes": "שם מ\"ב = the forty-two-letter Name; אבגית\"ץ = Avgitatz.",
+   "candidates": [
+    {
+     "target": "the forty-two-letter Name / Avgitatz",
+     "status": "preferred",
+     "contextNotes": "שם מ\"ב = the forty-two-letter Name; אבגית\"ץ = Avgitatz.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "שם מ\"ב",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "A Name of forty-two letters drawn from the opening of Genesis. Avgitatz is its first group of letters; its alef, which stands where the bet of bereshit stands, alludes to Keter.",
+   "surfaceForms": {
+    "שם מ\"ב": {
+     "readerGloss": "the forty-two-letter Name"
+    },
+    "אבגית\"ץ": {
+     "readerGloss": "Avgitatz"
+    },
+    "אביגת\"ץ": {
+     "readerGloss": "Avgitatz"
+    }
+   }
+  },
+  "שם-בן-ארבע": {
+   "headword": "שֵׁם בֶּן ד׳",
+   "transliteration": "shem ben arba",
+   "partOfSpeech": "noun-phrase",
+   "notes": "שם בן ד' = the four-letter Name.",
+   "candidates": [
+    {
+     "target": "the four-letter Name",
+     "status": "preferred",
+     "contextNotes": "שם בן ד' = the four-letter Name.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "שם בן ד'",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "The Name YHVH. Its letters are distributed among the Sefirot; Keter has only the thorn of the yod.",
+   "surfaceForms": {
+    "שם בן ד'": {
+     "readerGloss": "the four-letter Name"
+    }
+   }
+  },
+  "קורא-ראשי-תיבות": {
+   "headword": "Abbreviations",
+   "transliteration": "—",
+   "partOfSpeech": "abbreviation",
+   "notes": "Abbreviations met in Gate 2. READER AID ONLY. The form א\"א is owned here; it is hidden in פרצופים, where it produced false 'Arikh Anpin' popups (about 160 of 166 uses in the book are אי אפשר).",
+   "candidates": [
+    {
+     "target": "(reader aid; each form carries its own gloss)",
+     "status": "preferred",
+     "contextNotes": "READER AID ONLY, not a terminology ruling. Added at Avi's request for study notes."
+    }
+   ],
+   "readerNote": "An abbreviation.",
+   "cluster": true,
+   "surfaceForms": {
+    "א\"א": {
+     "readerGloss": "אי אפשר: 'it is impossible'",
+     "readerNote": "Almost always 'impossible'. In passages from the Idra the same letters stand for Arikh Anpin (the Long Face), and once for Abraham our father."
+    },
+    "ע\"י": {
+     "readerGloss": "על ידי: 'by means of; through'"
+    },
+    "א\"כ": {
+     "readerGloss": "אם כן: 'if so; then'"
+    },
+    "ר\"ל": {
+     "readerGloss": "רוצה לומר: 'that is; meaning'"
+    },
+    "כו'": {
+     "readerGloss": "וכולי: 'etc.'"
+    },
+    "וגו'": {
+     "readerGloss": "וגומר: 'etc.' (the verse continues)"
+    },
+    "ג\"כ": {
+     "readerGloss": "גם כן: 'also; likewise'"
+    },
+    "ע\"ה": {
+     "readerGloss": "עליו השלום: 'peace be upon him'"
+    },
+    "וז\"ל": {
+     "readerGloss": "וזה לשונו: 'and these are his words'"
+    },
+    "ז\"ל": {
+     "readerGloss": "זכרונו לברכה: 'of blessed memory'",
+     "readerNote": "After the name of a book it stands for זה לשונו, 'these are its words'."
+    },
+    "עכ\"ל": {
+     "readerGloss": "עד כאן לשונו: 'thus far his words'"
+    },
+    "עכ\"ז": {
+     "readerGloss": "עם כל זה: 'nevertheless; even so'"
+    },
+    "ח\"ו": {
+     "readerGloss": "חס ושלום: 'God forbid'"
+    },
+    "פי'": {
+     "readerGloss": "פירוש: 'meaning; he explained'"
+    },
+    "בפי'": {
+     "readerGloss": "בפירוש: 'explicitly'"
+    },
+    "כדפי'": {
+     "readerGloss": "כדפירשנו: 'as we explained'"
+    },
+    "בס\"ד": {
+     "readerGloss": "בסיעתא דשמיא: 'with God's help'"
+    },
+    "בע\"ה": {
+     "readerGloss": "בעזרת ה׳: 'with the help of God'"
+    },
+    "בעה\"ו": {
+     "readerGloss": "'with the help of God'"
+    },
+    "בה\"ו": {
+     "readerGloss": "'with the help of God'"
+    },
+    "ממ\"ה": {
+     "readerGloss": "מלך מלכי המלכים: 'King of kings of kings'"
+    },
+    "הקב\"ה": {
+     "readerGloss": "הקדוש ברוך הוא: 'the Holy One, blessed be He'"
+    },
+    "קב\"ה": {
+     "readerGloss": "קודשא בריך הוא: 'the Holy One, blessed be He'"
+    },
+    "הב\"ה": {
+     "readerGloss": "הקדוש ברוך הוא: 'the Holy One, blessed be He'"
+    },
+    "ב\"ה": {
+     "readerGloss": "ברוך הוא: 'blessed be He'"
+    },
+    "ת\"ת": {
+     "readerGloss": "תפארת: Tiferet"
+    },
+    "כ\"ע": {
+     "readerGloss": "כתר עליון: 'the supernal Keter'"
+    },
+    "י\"ס": {
+     "readerGloss": "עשר ספירות: 'the ten Sefirot'"
+    },
+    "ס\"י": {
+     "readerGloss": "ספר יצירה: Sefer Yetzirah"
+    },
+    "נה\"י": {
+     "readerGloss": "נצח הוד יסוד: Netzach, Hod, Yesod"
+    },
+    "במ\"ת": {
+     "readerGloss": "במתן תורה: 'in the giving of the Torah'"
+    },
+    "במ\"ב": {
+     "readerGloss": "במעשה בראשית: 'in the account of Creation'"
+    },
+    "במע\"ב": {
+     "readerGloss": "במעשה בראשית: 'in the account of Creation'"
+    },
+    "עה\"ז": {
+     "readerGloss": "עולם הזה: 'this world'"
+    },
+    "רז\"ל": {
+     "readerGloss": "רבותינו זכרונם לברכה: 'our Sages, of blessed memory'"
+    },
+    "ארז\"ל": {
+     "readerGloss": "אמרו רבותינו זכרונם לברכה: 'our Sages, of blessed memory, said'"
+    },
+    "אע\"ג": {
+     "readerGloss": "אף על גב: 'although'"
+    },
+    "אע\"פ": {
+     "readerGloss": "אף על פי: 'although'"
+    },
+    "אעפ\"י": {
+     "readerGloss": "אף על פי: 'although'"
+    },
+    "ע\"כ": {
+     "readerGloss": "עד כאן: 'thus far'; or על כן: 'therefore'",
+     "readerNote": "The context decides. It can also stand for על כרחך, 'perforce'."
+    },
+    "ע\"ד": {
+     "readerGloss": "על דרך: 'in the manner of'"
+    },
+    "ע\"פ": {
+     "readerGloss": "על פי: 'according to'"
+    },
+    "שבע\"פ": {
+     "readerGloss": "שבעל פה: 'the Oral [Torah]'"
+    },
+    "אפי'": {
+     "readerGloss": "אפילו: 'even'"
+    },
+    "כ\"ש": {
+     "readerGloss": "כל שכן: 'all the more so'"
+    },
+    "מ\"ש": {
+     "readerGloss": "מה שאמר / מה שכתב: 'what he said; what he wrote'"
+    },
+    "כמ\"ש": {
+     "readerGloss": "כמו שכתבנו: 'as we have written; as we shall write'"
+    },
+    "ז\"ש": {
+     "readerGloss": "זה שאמר: 'this is what he said'"
+    },
+    "ג\"ז": {
+     "readerGloss": "גם זה: 'this too'"
+    },
+    "הנז'": {
+     "readerGloss": "הנזכר: 'the aforementioned'"
+    },
+    "הנק'": {
+     "readerGloss": "הנקרא: 'which is called'"
+    },
+    "הנקר'": {
+     "readerGloss": "הנקרא: 'which is called'"
+    },
+    "ונק'": {
+     "readerGloss": "ונקרא: 'and it is called'"
+    },
+    "הר\"ר": {
+     "readerGloss": "הרב רבי: 'the master, Rabbi'"
+    },
+    "ר'": {
+     "readerGloss": "רבי: 'Rabbi'"
+    },
+    "ר\"ע": {
+     "readerGloss": "רבי עזריאל: Rabbi Azriel",
+     "readerNote": "So in Gate 2, chapter one. Elsewhere the letters usually stand for Rabbi Akiva."
+    },
+    "ר\"ש": {
+     "readerGloss": "רבי שמעון: Rabbi Shimon"
+    },
+    "ש\"ט": {
+     "readerGloss": "שם טוב: [Rabbi] Shem Tov"
+    },
+    "רשב\"י": {
+     "readerGloss": "רבי שמעון בר יוחאי: Rabbi Shimon bar Yochai"
+    },
+    "הרשב\"י": {
+     "readerGloss": "רבי שמעון בר יוחאי: Rabbi Shimon bar Yochai, the teacher of the Zohar"
+    },
+    "הרמב\"ן": {
+     "readerGloss": "רבי משה בן נחמן: the Ramban (Nachmanides)"
+    },
+    "דהע\"ה": {
+     "readerGloss": "דוד המלך עליו השלום: 'King David, peace be upon him'"
+    },
+    "יצה\"ר": {
+     "readerGloss": "יצר הרע: 'the evil inclination'"
+    },
+    "ס\"ל": {
+     "readerGloss": "סבירא ליה: 'he holds'"
+    },
+    "לפ\"ז": {
+     "readerGloss": "לפי זה: 'accordingly'"
+    },
+    "אל\"כ": {
+     "readerGloss": "אם לא כן: 'otherwise'"
+    },
+    "דאלת\"ה": {
+     "readerGloss": "דאי לא תימא הכי: 'for if you do not say so'"
+    },
+    "אח\"כ": {
+     "readerGloss": "אחר כך: 'afterward'"
+    },
+    "כ\"כ": {
+     "readerGloss": "כל כך: 'so much'"
+    },
+    "כ\"ז": {
+     "readerGloss": "כל זמן: 'as long as'",
+     "readerNote": "It can also stand for כל זה, 'all this'."
+    },
+    "ת\"ח": {
+     "readerGloss": "תא חזי: 'come and see'",
+     "readerNote": "The Zohar's formula for opening an exposition. In Hebrew texts the same letters mean 'a Torah scholar'."
+    },
+    "כד\"א": {
+     "readerGloss": "כמה דאת אמר: 'as it is said'"
+    },
+    "הה\"ד": {
+     "readerGloss": "הדא הוא דכתיב: 'this is what is written'"
+    },
+    "וא\"ת": {
+     "readerGloss": "ואם תאמר: 'and should you say'"
+    },
+    "אפ\"ל": {
+     "readerGloss": "אפשר לומר: 'it may be said'"
+    },
+    "צ\"ל": {
+     "readerGloss": "צריך לומר: 'it must be said'"
+    },
+    "ת\"ל": {
+     "readerGloss": "תלמוד לומר: 'what does it teach?'"
+    },
+    "ע\"ש": {
+     "readerGloss": "על שם: 'named for; on account of'",
+     "readerNote": "It also stands for עיין שם, 'see there', and for ערב שבת, 'the eve of the Sabbath'."
+    },
+    "בע\"ש": {
+     "readerGloss": "בערב שבת: 'on the eve of the Sabbath'"
+    },
+    "עי\"ז": {
+     "readerGloss": "על ידי זה: 'through this'"
+    },
+    "כ\"א": {
+     "readerGloss": "כי אם: 'except; but only'; or כל אחד: 'each one'",
+     "readerNote": "The context decides. The same letters are the number twenty-one."
+    },
+    "תרי\"ג": {
+     "readerGloss": "613: the number of the commandments"
+    },
+    "ר\"ה": {
+     "readerGloss": "ראש השנה: Rosh Hashanah"
+    },
+    "מתני'": {
+     "readerGloss": "מתניתין: 'the Mishnah'"
+    },
+    "אי'": {
+     "readerGloss": "איתא: 'it reads'"
+    },
+    "ספי'": {
+     "readerGloss": "ספירות: Sefirot"
+    },
+    "אצי'": {
+     "readerGloss": "אצילות: Atzilut"
+    },
+    "מעס\"ר": {
+     "readerGloss": "מעסיס רמונים: 'from Asis Rimonim'",
+     "readerNote": "An editor's note marking words supplied from Asis Rimonim, Rabbi Shmuel Gallico's abridgment of the Pardes."
+    }
+   }
+  },
+  "קורא-ארמית": {
+   "headword": "Aramaic words (Zohar and Talmud)",
+   "transliteration": "—",
+   "partOfSpeech": "Aramaic",
+   "notes": "Aramaic vocabulary of the passages quoted in Gate 2 (Rosh Hashanah 32a; Zohar Yitro 93b, Vayikra 11b, Terumah 127; Tikkunim). READER AID ONLY. כדין was removed from skipTokens and is owned here. Two-letter forms other than חד are deliberately left out (דא would catch ודאי, דאין, דאת). Also left out after a whole-book audit, because they catch unrelated Hebrew: ליה, לון, ביה, בהו, הוו, הכא, הני, מיא (שמיא), שקרא (שקראה), פריש (כדפרישנו), קשוט (קשוטיה).",
+   "candidates": [
+    {
+     "target": "(reader aid; each form carries its own gloss)",
+     "status": "preferred",
+     "contextNotes": "READER AID ONLY, not a terminology ruling. Added at Avi's request for study notes."
+    }
+   ],
+   "readerNote": "An Aramaic word, from the Zohar or the Talmud.",
+   "cluster": true,
+   "surfaceForms": {
+    "ודא": {
+     "readerGloss": "and this"
+    },
+    "ודאי": {
+     "readerGloss": "certainly",
+     "readerNote": "Hebrew and Aramaic alike."
+    },
+    "איהו": {
+     "readerGloss": "he; it is"
+    },
+    "אינון": {
+     "readerGloss": "they; these are"
+    },
+    "האי": {
+     "readerGloss": "this"
+    },
+    "הנך": {
+     "readerGloss": "those"
+    },
+    "אלין": {
+     "readerGloss": "these"
+    },
+    "הני עשרה": {
+     "readerGloss": "these ten"
+    },
+    "הני עשר": {
+     "readerGloss": "these ten"
+    },
+    "תמן": {
+     "readerGloss": "there"
+    },
+    "התם": {
+     "readerGloss": "there"
+    },
+    "מאי": {
+     "readerGloss": "what"
+    },
+    "אמאי": {
+     "readerGloss": "why"
+    },
+    "היכי": {
+     "readerGloss": "how"
+    },
+    "אכתי": {
+     "readerGloss": "still"
+    },
+    "נמי": {
+     "readerGloss": "also"
+    },
+    "טובא": {
+     "readerGloss": "many; much"
+    },
+    "דיליה": {
+     "readerGloss": "its own; his"
+    },
+    "כדין": {
+     "readerGloss": "then",
+     "readerNote": "Aramaic. In Hebrew the same letters mean 'rightly, as the law requires'."
+    },
+    "לבתר": {
+     "readerGloss": "afterward"
+    },
+    "בגין": {
+     "readerGloss": "because of; for the sake of"
+    },
+    "כלא": {
+     "readerGloss": "all; everything"
+    },
+    "חד": {
+     "readerGloss": "one; a certain"
+    },
+    "חדא": {
+     "readerGloss": "one"
+    },
+    "כחדא": {
+     "readerGloss": "as one; together"
+    },
+    "עלמא": {
+     "readerGloss": "the world"
+    },
+    "אורייתא": {
+     "readerGloss": "the Torah"
+    },
+    "פקודין": {
+     "readerGloss": "commandments"
+    },
+    "פיקודי": {
+     "readerGloss": "the commandments of"
+    },
+    "קודשא בריך הוא": {
+     "readerGloss": "the Holy One, blessed be He"
+    },
+    "מהימנותא": {
+     "readerGloss": "faith"
+    },
+    "אתר": {
+     "readerGloss": "place"
+    },
+    "אתרה": {
+     "readerGloss": "her place"
+    },
+    "אתרא": {
+     "readerGloss": "place"
+    },
+    "דוכתייהו": {
+     "readerGloss": "their places"
+    },
+    "אומאה": {
+     "readerGloss": "an oath"
+    },
+    "באתר דקשוט": {
+     "readerGloss": "in the place of truth"
+    },
+    "דשקרא": {
+     "readerGloss": "of falsehood"
+    },
+    "לשקרא": {
+     "readerGloss": "falsely; for falsehood"
+    },
+    "סיהרא": {
+     "readerGloss": "the moon"
+    },
+    "שמשא": {
+     "readerGloss": "the sun"
+    },
+    "בר נש": {
+     "readerGloss": "a human being"
+    },
+    "אתתא": {
+     "readerGloss": "a woman"
+    },
+    "אינתו": {
+     "readerGloss": "a woman"
+    },
+    "רברבין": {
+     "readerGloss": "great ones; princes"
+    },
+    "ממנן": {
+     "readerGloss": "appointed"
+    },
+    "שליטין": {
+     "readerGloss": "rulers"
+    },
+    "חולקא": {
+     "readerGloss": "portion"
+    },
+    "אחידן": {
+     "readerGloss": "hold fast"
+    },
+    "יהיב": {
+     "readerGloss": "gave"
+    },
+    "מיין": {
+     "readerGloss": "waters"
+    },
+    "אשא": {
+     "readerGloss": "fire"
+    },
+    "תקיפא": {
+     "readerGloss": "mighty"
+    },
+    "נהירו": {
+     "readerGloss": "light; radiance"
+    },
+    "לאנהרא": {
+     "readerGloss": "to give light"
+    },
+    "אתנהיר": {
+     "readerGloss": "shone"
+    },
+    "אתנגיד": {
+     "readerGloss": "flowed; was drawn"
+    },
+    "נגידו": {
+     "readerGloss": "a flow"
+    },
+    "אתנטיל": {
+     "readerGloss": "was taken; journeyed"
+    },
+    "עאל": {
+     "readerGloss": "entered"
+    },
+    "אפיק": {
+     "readerGloss": "brought forth"
+    },
+    "לאפקא": {
+     "readerGloss": "to bring forth"
+    },
+    "עביד": {
+     "readerGloss": "made; performed"
+    },
+    "שמושא": {
+     "readerGloss": "service",
+     "readerNote": "The Zohar's word for the union by which each day acts within the palanquin, that is, within Malkhut."
+    },
+    "סדורא": {
+     "readerGloss": "arrangement"
+    },
+    "סדרא": {
+     "readerGloss": "arrangement"
+    },
+    "זינא": {
+     "readerGloss": "kind"
+    },
+    "זינין": {
+     "readerGloss": "kinds"
+    },
+    "לזיניה": {
+     "readerGloss": "after its kind"
+    },
+    "אתחזי": {
+     "readerGloss": "is fitting; appears"
+    },
+    "איבין": {
+     "readerGloss": "fruits"
+    },
+    "דשאין": {
+     "readerGloss": "grasses"
+    },
+    "אילנין": {
+     "readerGloss": "trees"
+    },
+    "נטיעין": {
+     "readerGloss": "planted"
+    },
+    "שתיל": {
+     "readerGloss": "transplanted"
+    },
+    "דעקר לון": {
+     "readerGloss": "which He uprooted"
+    },
+    "אתבני": {
+     "readerGloss": "was built"
+    },
+    "אשתכלל": {
+     "readerGloss": "was completed"
+    },
+    "אתגניז": {
+     "readerGloss": "was hidden away"
+    },
+    "גנוז": {
+     "readerGloss": "hidden; stored up"
+    },
+    "רחישו": {
+     "readerGloss": "swarming"
+    },
+    "משיכו": {
+     "readerGloss": "a drawing; a current"
+    },
+    "תליא": {
+     "readerGloss": "depends; is suspended"
+    },
+    "קדמאה": {
+     "readerGloss": "first"
+    },
+    "תניינא": {
+     "readerGloss": "second"
+    },
+    "תליתאה": {
+     "readerGloss": "third"
+    },
+    "רביעאה": {
+     "readerGloss": "fourth"
+    },
+    "חמשאה": {
+     "readerGloss": "fifth"
+    },
+    "שתיתאה": {
+     "readerGloss": "sixth"
+    },
+    "יומא": {
+     "readerGloss": "day"
+    },
+    "יומין": {
+     "readerGloss": "days"
+    },
+    "אתתקן": {
+     "readerGloss": "was arrayed; was set in order"
+    },
+    "אתקן": {
+     "readerGloss": "arrayed"
+    },
+    "אתקין": {
+     "readerGloss": "arrayed"
+    },
+    "תקונא": {
+     "readerGloss": "arraying; rectification",
+     "readerNote": "Also the name for a section of the Tikkunei Zohar, as in 'Tikkun 70'."
+    },
+    "תוקפא": {
+     "readerGloss": "strength"
+    },
+    "רוחין": {
+     "readerGloss": "spirits"
+    },
+    "נשמתין": {
+     "readerGloss": "souls"
+    },
+    "עולמתין": {
+     "readerGloss": "maidens"
+    },
+    "שפירין": {
+     "readerGloss": "fair"
+    },
+    "שפירו": {
+     "readerGloss": "beauty"
+    },
+    "מלכא": {
+     "readerGloss": "the King"
+    },
+    "תיאובתא": {
+     "readerGloss": "desire"
+    },
+    "רעוא": {
+     "readerGloss": "delight"
+    },
+    "חדוא": {
+     "readerGloss": "joy"
+    },
+    "אתקדש": {
+     "readerGloss": "was sanctified"
+    },
+    "עלאין": {
+     "readerGloss": "supernal"
+    },
+    "אתעטר": {
+     "readerGloss": "was crowned"
+    },
+    "עטרוי": {
+     "readerGloss": "its crowns"
+    },
+    "עטרא": {
+     "readerGloss": "crown"
+    },
+    "סליק": {
+     "readerGloss": "rose"
+    },
+    "סליקו": {
+     "readerGloss": "ascent"
+    },
+    "שמא": {
+     "readerGloss": "name (Aramaic); perhaps, lest (Hebrew)",
+     "readerNote": "Two different words spelled alike; the language of the sentence decides."
+    },
+    "עילאה": {
+     "readerGloss": "supernal"
+    },
+    "קדישא": {
+     "readerGloss": "holy"
+    },
+    "קדישין": {
+     "readerGloss": "holy"
+    },
+    "דבקותא": {
+     "readerGloss": "cleaving"
+    },
+    "עילא": {
+     "readerGloss": "above"
+    },
+    "תתא": {
+     "readerGloss": "below"
+    },
+    "כללא": {
+     "readerGloss": "the sum; the whole"
+    },
+    "אמירן": {
+     "readerGloss": "sayings"
+    },
+    "אתברי": {
+     "readerGloss": "was created"
+    },
+    "מתקיימא": {
+     "readerGloss": "endures"
+    },
+    "קאים": {
+     "readerGloss": "stands"
+    },
+    "אשתכח": {
+     "readerGloss": "is found"
+    },
+    "שלמא": {
+     "readerGloss": "peace"
+    },
+    "אוקמוה": {
+     "readerGloss": "they have established it"
+    },
+    "אתמר": {
+     "readerGloss": "it was said"
+    },
+    "אקרי": {
+     "readerGloss": "is called"
+    },
+    "איקרי": {
+     "readerGloss": "is called"
+    },
+    "אוליפנא": {
+     "readerGloss": "we learn"
+    },
+    "פרישו": {
+     "readerGloss": "separation"
+    },
+    "פרודא": {
+     "readerGloss": "separation"
+    },
+    "לקבלך": {
+     "readerGloss": "before you"
+    },
+    "לית": {
+     "readerGloss": "there is not"
+    },
+    "אתחברת": {
+     "readerGloss": "was joined"
+    },
+    "אתרביאת": {
+     "readerGloss": "grew great"
+    },
+    "אתעטרת": {
+     "readerGloss": "was crowned"
+    },
+    "ברכאן": {
+     "readerGloss": "blessings"
+    },
+    "דגרסינן": {
+     "readerGloss": "for we read"
+    },
+    "ניהו": {
+     "readerGloss": "are they; is it"
+    },
+    "קאמר": {
+     "readerGloss": "he says"
+    },
+    "דוקא": {
+     "readerGloss": "only; specifically"
+    },
+    "מעיקרא": {
+     "readerGloss": "to begin with; from the outset"
+    },
+    "אדרבה": {
+     "readerGloss": "on the contrary"
+    },
+    "אדרבא": {
+     "readerGloss": "on the contrary"
+    },
+    "היינו": {
+     "readerGloss": "that is; this is"
+    },
+    "מוכח": {
+     "readerGloss": "evident; proved"
+    },
+    "כדמייתי": {
+     "readerGloss": "as he brings"
+    },
+    "פליגי": {
+     "readerGloss": "they disagree"
+    },
+    "לדידיה": {
+     "readerGloss": "on his own view"
+    },
+    "איכא": {
+     "readerGloss": "there is; there are"
+    },
+    "אחריני": {
+     "readerGloss": "others"
+    },
+    "תינח": {
+     "readerGloss": "granted"
+    },
+    "לכאורה": {
+     "readerGloss": "on the face of it"
+    },
+    "אתמהה": {
+     "readerGloss": "I wonder at this"
+    },
+    "אתמהא": {
+     "readerGloss": "I wonder at this"
+    }
+   }
+  },
+  "ביטויים-שער-ב": {
+   "headword": "Idioms and verses (Gate 2)",
+   "transliteration": "—",
+   "partOfSpeech": "phrase",
+   "notes": "Idioms, Talmudic formulas and embedded verses of Gate 2. READER AID ONLY.",
+   "candidates": [
+    {
+     "target": "(reader aid; each form carries its own gloss)",
+     "status": "preferred",
+     "contextNotes": "READER AID ONLY, not a terminology ruling. Added at Avi's request for study notes."
+    }
+   ],
+   "readerNote": "A stock phrase or a verse woven into the prose.",
+   "cluster": true,
+   "surfaceForms": {
+    "דגברי חזינא תיובתא לא חזינא": {
+     "readerGloss": "'I see the men, but the objection I do not see'",
+     "readerNote": "A Talmudic saying (Bava Metzia 16a): the standing of those who ask is granted, the force of their question is not."
+    },
+    "כבשים ללבושיך": {
+     "readerGloss": "'Lambs are for your clothing'",
+     "readerNote": "Proverbs 27:26, as the Sages read it (Chagigah 13a): what belongs to the hidden things (kivshono) of the world should stay under your clothing, that is, be spoken of sparingly."
+    },
+    "הגשם חלף הלך לו": {
+     "readerGloss": "'the geshem is over and gone'",
+     "readerNote": "Song of Songs 2:11, where geshem is the rain. Here it is 'body': in divinity there is no body."
+    },
+    "דאעיקרא דדינא פרכא": {
+     "readerGloss": "'there is a refutation of the very premise'",
+     "readerNote": "Talmudic Aramaic: the argument is answered at its root, so nothing built on it stands."
+    },
+    "מהיכא תיתי לן": {
+     "readerGloss": "'whence do we have it?'"
+    },
+    "ולדידיה נמי מי ניחא": {
+     "readerGloss": "'and is it any easier on his own view?'"
+    },
+    "נקהה את שיניו": {
+     "readerGloss": "'we shall blunt his teeth'",
+     "readerNote": "From the answer to the wicked son in the Passover Haggadah."
+    },
+    "נקהה את שניו": {
+     "readerGloss": "'we shall blunt his teeth'",
+     "readerNote": "From the answer to the wicked son in the Passover Haggadah."
+    },
+    "רוח אסף בחפניו": {
+     "readerGloss": "'he has gathered the wind in his fists'",
+     "readerNote": "After Proverbs 30:4: he has grasped nothing."
+    },
+    "אבני נגף": {
+     "readerGloss": "stumbling-stones"
+    },
+    "עיר על תלה": {
+     "readerGloss": "'the city on its mound'",
+     "readerNote": "Jeremiah 30:18: rebuilt and complete."
+    },
+    "ליכא למשמע מינה": {
+     "readerGloss": "'nothing can be inferred from it'"
+    },
+    "להפך בזכות": {
+     "readerGloss": "to argue in favor of",
+     "readerNote": "Literally 'to turn it over in his favor': to look for the merit in a view."
+    },
+    "הייטב בעיני": {
+     "readerGloss": "'would it be good in the eyes of'",
+     "readerNote": "After Leviticus 10:19."
+    },
+    "מעביר ראשון ראשון": {
+     "readerGloss": "'He passes over the first, each time'",
+     "readerNote": "Rosh Hashanah 17a: God sets aside the first iniquity before weighing the rest."
+    },
+    "במאי פליגי": {
+     "readerGloss": "'what are they disagreeing about?'"
+    },
+    "במאי קא מיירי": {
+     "readerGloss": "'what is it speaking of?'"
+    },
+    "למאי קאתי": {
+     "readerGloss": "'what does it come to teach?'"
+    },
+    "הי ניהו": {
+     "readerGloss": "'which are they?'"
+    },
+    "טובא הוו": {
+     "readerGloss": "'there are many'"
+    },
+    "תשעה הוו": {
+     "readerGloss": "'those are nine'"
+    },
+    "נמי מאמר הוא": {
+     "readerGloss": "'is also an utterance'"
+    },
+    "מי ישום פה לאדם": {
+     "readerGloss": "'who gives a man a mouth'",
+     "readerNote": "After Exodus 4:11."
+    },
+    "חלילה וחס": {
+     "readerGloss": "'Heaven forbid and forfend'"
+    },
+    "בן לילה היה ובן לילה אבד": {
+     "readerGloss": "'came to be in a night and perished in a night'",
+     "readerNote": "Jonah 4:10."
+    },
+    "אם יום או יומים יעמוד": {
+     "readerGloss": "'if it stand a day or two'",
+     "readerNote": "After Exodus 21:21."
+    },
+    "איך יאמר חומר ליוצרו": {
+     "readerGloss": "'how shall the clay say to its Maker'",
+     "readerNote": "After Isaiah 45:9."
+    },
+    "הקצור קצרה יד": {
+     "readerGloss": "'is the hand too short'",
+     "readerNote": "After Isaiah 50:2."
+    },
+    "ליפרע": {
+     "readerGloss": "'to exact payment'",
+     "readerNote": "Mishnah Avot 5:1: the world was created by ten utterances 'to exact payment from the wicked … and to give a good reward to the righteous'."
+    },
+    "בסייעתא דשמיא": {
+     "readerGloss": "'with the help of Heaven'"
+    },
+    "איש באחיהו ידובקו": {
+     "readerGloss": "'each one cleaving to his brother'",
+     "readerNote": "Job 41:9."
+    },
+    "וחשכו הרואות בארובות": {
+     "readerGloss": "'and those who look through the apertures are darkened'",
+     "readerNote": "Ecclesiastes 12:3."
+    },
+    "ולא כאלה חלק יעקב": {
+     "readerGloss": "'Not like these is the portion of Jacob'",
+     "readerNote": "Jeremiah 10:16."
+    },
+    "בחשך יתהלכו": {
+     "readerGloss": "'they walk on in darkness'",
+     "readerNote": "After Psalm 82:5."
+    },
+    "נוסעים אנחנו אל המקום": {
+     "readerGloss": "'we are journeying to the place'",
+     "readerNote": "Numbers 10:29."
+    },
+    "אל יתבהל להשיב": {
+     "readerGloss": "'let him not be hasty to reply'",
+     "readerNote": "After Ecclesiastes 5:1."
+    },
+    "הן אלה קצת דבריו": {
+     "readerGloss": "'these are some of his words'",
+     "readerNote": "A play on Job 26:14, 'these are but the edges of His ways'."
+    },
+    "ראש תור": {
+     "readerGloss": "a wedge",
+     "readerNote": "A Mishnaic term (Kilayim 2:7) for the pointed end where the sides of a triangle meet."
+    },
+    "מנורה של פרקים": {
+     "readerGloss": "a jointed lampstand",
+     "readerNote": "A lampstand made of sections that fit into one another: Cordovero's image for the grades of existence."
+    },
+    "כח חותמו": {
+     "readerGloss": "the power of His seal"
+    },
+    "כתר המלכות": {
+     "readerGloss": "the crown of kingship"
+    },
+    "עגול בתוך עגול": {
+     "readerGloss": "a circle within a circle"
+    },
+    "בעלי התכונה": {
+     "readerGloss": "the masters of astronomy",
+     "readerNote": "Astronomers, who are also the geometers of the day."
+    },
+    "משתעשעים בגן עדני": {
+     "readerGloss": "taking our delight in the garden of delights"
+    }
+   }
+  },
+  "שמות-שער-ב": {
+   "headword": "Names and books (Gate 2)",
+   "transliteration": "—",
+   "partOfSpeech": "name",
+   "notes": "Authors and books cited in Gate 2. READER AID ONLY.",
+   "candidates": [
+    {
+     "target": "(reader aid; each form carries its own gloss)",
+     "status": "preferred",
+     "contextNotes": "READER AID ONLY, not a terminology ruling. Added at Avi's request for study notes."
+    }
+   ],
+   "readerNote": "An author or a book cited in this gate.",
+   "cluster": true,
+   "surfaceForms": {
+    "יהודא חייטי": {
+     "readerGloss": "Rabbi Yehudah Chayyat",
+     "readerNote": "A Spanish exile (d. about 1510), author of Minchat Yehudah."
+    },
+    "יהודה חייט": {
+     "readerGloss": "Rabbi Yehudah Chayyat",
+     "readerNote": "A Spanish exile (d. about 1510), author of Minchat Yehudah."
+    },
+    "מנחת יהודא": {
+     "readerGloss": "Minchat Yehudah",
+     "readerNote": "Rabbi Yehudah Chayyat's commentary on the Ma'arekhet ha-Elohut."
+    },
+    "רבי עזריאל": {
+     "readerGloss": "Rabbi Azriel",
+     "readerNote": "Rabbi Azriel of Gerona (13th century), one of the first Kabbalists to explain the Sefirot in philosophical terms."
+    },
+    "ר' עזריאל": {
+     "readerGloss": "Rabbi Azriel",
+     "readerNote": "Rabbi Azriel of Gerona (13th century), one of the first Kabbalists to explain the Sefirot in philosophical terms."
+    },
+    "הר\"ר עזריאל": {
+     "readerGloss": "Rabbi Azriel",
+     "readerNote": "Rabbi Azriel of Gerona (13th century), one of the first Kabbalists to explain the Sefirot in philosophical terms."
+    },
+    "מנחם מרקנטי": {
+     "readerGloss": "Menachem Recanati",
+     "readerNote": "An Italian Kabbalist (about 1300), author of a commentary on the Torah and of Ta'amei ha-Mitzvot."
+    },
+    "מטעמי המצות": {
+     "readerGloss": "Ta'amei ha-Mitzvot",
+     "readerNote": "Recanati's book on the reasons for the commandments."
+    },
+    "שם טוב בן שם טוב": {
+     "readerGloss": "Shem Tov ben Shem Tov",
+     "readerNote": "A Spanish Kabbalist (d. about 1440), author of Sefer ha-Emunot. He leaves Keter out of the ten and counts Da'at instead."
+    },
+    "ספר האמונות": {
+     "readerGloss": "Sefer ha-Emunot",
+     "readerNote": "'The Book of Beliefs', by Rabbi Shem Tov ben Shem Tov."
+    },
+    "ספר הבהיר": {
+     "readerGloss": "Sefer ha-Bahir",
+     "readerNote": "One of the earliest books of the Kabbalah."
+    },
+    "אור יקר": {
+     "readerGloss": "Or Yakar",
+     "readerNote": "Cordovero's own commentary on the Zohar, to which he often refers the reader."
+    },
+    "בעסיס רמונים ובפלח": {
+     "readerGloss": "in Asis Rimonim and in the Pelach",
+     "readerNote": "Two abridgments of the Pardes: Asis Rimonim by Rabbi Shmuel Gallico and Pelach ha-Rimon by Rabbi Menachem Azariah of Fano. The note is an editor's."
+    },
+    "רבי עקיבא": {
+     "readerGloss": "Rabbi Akiva",
+     "readerNote": "Sayings about the letters quoted in his name come from the midrash Otiyot de-Rabbi Akiva."
+    },
+    "בתקונים": {
+     "readerGloss": "in the Tikkunim",
+     "readerNote": "The Tikkunei Zohar: seventy expositions of the word bereshit."
+    },
+    "בתיקונים": {
+     "readerGloss": "in the Tikkunim",
+     "readerNote": "The Tikkunei Zohar: seventy expositions of the word bereshit."
+    },
+    "מהתקונים": {
+     "readerGloss": "from the Tikkunim",
+     "readerNote": "The Tikkunei Zohar: seventy expositions of the word bereshit."
+    },
+    "התקונים": {
+     "readerGloss": "the Tikkunim",
+     "readerNote": "The Tikkunei Zohar: seventy expositions of the word bereshit."
+    },
+    "תרגום ירושלמי": {
+     "readerGloss": "the Jerusalem Targum",
+     "readerNote": "An Aramaic translation of the Torah, which renders the first word 'with wisdom'."
+    },
+    "ייסא סבא": {
+     "readerGloss": "Yeisa the Elder"
+    }
+   }
+  },
+  "ציורים-שער-ב": {
+   "headword": "Titles and figures (Gate 2)",
+   "transliteration": "—",
+   "partOfSpeech": "phrase",
+   "notes": "Titles of the Sefirot and recurring images in Gate 2. READER AID ONLY.",
+   "candidates": [
+    {
+     "target": "(reader aid; each form carries its own gloss)",
+     "status": "preferred",
+     "contextNotes": "READER AID ONLY, not a terminology ruling. Added at Avi's request for study notes."
+    }
+   ],
+   "readerNote": "A title or image used for the Sefirot in this gate.",
+   "cluster": true,
+   "surfaceForms": {
+    "זרועות עולם": {
+     "readerGloss": "the arms of the world",
+     "readerNote": "Chesed and Gevurah, after Deuteronomy 33:27."
+    },
+    "ג' אבות": {
+     "readerGloss": "the three Patriarchs",
+     "readerNote": "Abraham, Isaac and Jacob, who stand for Chesed, Gevurah and Tiferet."
+    },
+    "ברכת אבות": {
+     "readerGloss": "the blessing of the Patriarchs",
+     "readerNote": "The first blessing of the Amidah."
+    },
+    "אש ממים": {
+     "readerGloss": "fire from water",
+     "readerNote": "Gevurah, which was emanated from Chesed."
+    },
+    "מלבנת עונות ישראל": {
+     "readerGloss": "she who whitens the iniquities of Israel",
+     "readerNote": "Chesed."
+    },
+    "נצוח": {
+     "readerGloss": "victory",
+     "readerNote": "Recanati derives the name of the Sefirah Netzach from it."
+    },
+    "משפע ויורד": {
+     "readerGloss": "slopes downward",
+     "readerNote": "Of the triangle in the diagram. The word for 'slopes' is spelled like the word for effluence."
+    },
+    "ומשפע ומצר": {
+     "readerGloss": "slopes and narrows"
+    },
+    "המשפיע המשפע ויורד": {
+     "readerGloss": "that which pours forth, sloping downward",
+     "readerNote": "A play on two words spelled alike: what pours forth effluence, and what slopes."
+    },
+    "מים עליונים ומים תחתונים": {
+     "readerGloss": "the upper waters and the lower waters"
+    },
+    "ז' ארצות": {
+     "readerGloss": "seven earths"
+    },
+    "טבור הארץ": {
+     "readerGloss": "the navel of the earth",
+     "readerNote": "Its centre, the lowest point of all existence."
+    },
+    "מהלך ת\"ק שנה": {
+     "readerGloss": "a journey of five hundred years"
+    },
+    "הנקודה האמצעית": {
+     "readerGloss": "the central point"
+    },
+    "כתר שבכתר": {
+     "readerGloss": "the Keter-within-Keter",
+     "readerNote": "Each Sefirah contains all ten; 'the X within Y' names one of the ten inside Y."
+    },
+    "מלכות שבכתר": {
+     "readerGloss": "the Malkhut-within-Keter",
+     "readerNote": "Each Sefirah contains all ten; 'the X within Y' names one of the ten inside Y."
+    },
+    "כתר שבחכמה": {
+     "readerGloss": "the Keter-within-Chokhmah",
+     "readerNote": "Each Sefirah contains all ten; 'the X within Y' names one of the ten inside Y."
+    },
+    "מלכות שבחכמה": {
+     "readerGloss": "the Malkhut-within-Chokhmah",
+     "readerNote": "Each Sefirah contains all ten; 'the X within Y' names one of the ten inside Y."
+    },
+    "כתר שבבינה": {
+     "readerGloss": "the Keter-within-Binah",
+     "readerNote": "Each Sefirah contains all ten; 'the X within Y' names one of the ten inside Y."
+    },
+    "חכמה שבכתר": {
+     "readerGloss": "the Chokhmah-within-Keter",
+     "readerNote": "Each Sefirah contains all ten; 'the X within Y' names one of the ten inside Y."
+    },
+    "מלכות שבכל ספירה וספירה": {
+     "readerGloss": "the Malkhut within each and every Sefirah"
+    },
+    "עצי הלבנון": {
+     "readerGloss": "the trees of Lebanon",
+     "readerNote": "Song of Songs 3:9. The Zohar reads them as the six days of creation, the six Sefirot that build the palanquin."
+    },
+    "עצי לבנון": {
+     "readerGloss": "the trees of Lebanon",
+     "readerNote": "Song of Songs 3:9. The Zohar reads them as the six days of creation, the six Sefirot that build the palanquin."
+    },
+    "ארזי לבנון": {
+     "readerGloss": "the cedars of Lebanon",
+     "readerNote": "Psalm 104:16."
+    },
+    "בי\"ת גדולה": {
+     "readerGloss": "the large bet",
+     "readerNote": "The first letter of the Torah, which is written large."
+    },
+    "פל\"א": {
+     "readerGloss": "pele, 'wonder'",
+     "readerNote": "The letters of alef rearranged: a sign of Keter, which is hidden and wondrous."
+    }
+   }
+  },
+  "עלם-גלה": {
+   "headword": "נֶעְלָם / מִתְגַּלֶּה",
+   "transliteration": "ne'lam / mitgaleh",
+   "partOfSpeech": "adjective/verb",
+   "notes": "נעלם = concealed (not 'hidden'); מתגלה = revealed; העלם האלקות = 'a concealment of the divinity'.",
+   "candidates": [
+    {
+     "target": "concealed / revealed",
+     "status": "preferred",
+     "contextNotes": "נעלם = concealed (not 'hidden'); מתגלה = revealed; העלם האלקות = 'a concealment of the divinity'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "נעלם",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "The first three Sefirot are concealed and act only through the lower seven, in which their action is revealed. The whole Emanation exists so that divinity may be revealed and not remain concealed.",
+   "surfaceForms": {
+    "נעלם": {
+     "readerGloss": "concealed"
+    },
+    "נעלמות": {
+     "readerGloss": "concealed"
+    },
+    "העלם": {
+     "readerGloss": "concealment"
+    },
+    "נתעלם": {
+     "readerGloss": "was concealed"
+    },
+    "להעלים": {
+     "readerGloss": "to conceal"
+    },
+    "מתגלה": {
+     "readerGloss": "revealed"
+    },
+    "מתגלית": {
+     "readerGloss": "revealed"
+    },
+    "מתגלים": {
+     "readerGloss": "revealed"
+    },
+    "לגלות": {
+     "readerGloss": "to reveal"
+    },
+    "יתגלה": {
+     "readerGloss": "will be revealed"
+    },
+    "גלוייו": {
+     "readerGloss": "its revealing"
+    }
+   },
+   "readerGloss": "concealed; revealed"
+  },
+  "משך-נמשך": {
+   "headword": "נִמְשָׁךְ",
+   "transliteration": "nimshakh",
+   "partOfSpeech": "verb",
+   "notes": "נמשך מ… ע\"י … = 'is drawn from … through …'; of consequences and derived beings, 'proceeds / follows'.",
+   "candidates": [
+    {
+     "target": "is drawn; proceeds",
+     "status": "preferred",
+     "contextNotes": "נמשך מ… ע\"י … = 'is drawn from … through …'; of consequences and derived beings, 'proceeds / follows'.",
+     "decisions": [
+      {
+       "section": "Gate 2",
+       "surfaceForm": "נמשך",
+       "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
+       "timestamp": "2026-10-07"
+      }
+     ]
+    }
+   ],
+   "readerNote": "Said of light, effluence or an action that is drawn down from a higher Sefirah through a lower one; and of whatever proceeds from a cause.",
+   "surfaceForms": {
+    "נמשך": {
+     "readerGloss": "is drawn; proceeds"
+    },
+    "נמשכת": {
+     "readerGloss": "is drawn; proceeds"
+    },
+    "נמשכים": {
+     "readerGloss": "are drawn; proceed"
+    },
+    "הנמשכות": {
+     "readerGloss": "that proceed"
+    },
+    "הנמשכת": {
+     "readerGloss": "that follows; that proceeds"
+    },
+    "ימשכו": {
+     "readerGloss": "would proceed"
+    },
+    "ימשך": {
+     "readerGloss": "would follow"
+    }
+   }
+  },
+  "קורא-לשון-העיון": {
+   "headword": "Terms of argument",
+   "transliteration": "—",
+   "partOfSpeech": "term",
+   "notes": "Scholastic / Talmudic connective vocabulary met in Gate 2. READER AID ONLY. The three תשובה phrases keep the repentance entry (שוב-תשובה) off 'rebuttal' and 'answers'.",
+   "candidates": [
+    {
+     "target": "(reader aid; each form carries its own gloss)",
+     "status": "preferred",
+     "contextNotes": "READER AID ONLY, not a terminology ruling. Added at Avi's request for study notes."
+    }
+   ],
+   "readerNote": "A term of scholastic or Talmudic argument.",
+   "cluster": true,
+   "surfaceForms": {
+    "קושיא": {
+     "readerGloss": "difficulty; objection"
+    },
+    "להקשות": {
+     "readerGloss": "to raise as a difficulty"
+    },
+    "הקשה": {
+     "readerGloss": "raised a difficulty; objected",
+     "readerNote": "The same letters also spell 'the harsh', as in 'the harsh judgment'."
+    },
+    "תירץ": {
+     "readerGloss": "resolved"
+    },
+    "והשיג עליו": {
+     "readerGloss": "and he objected to him"
+    },
+    "שהשיג על": {
+     "readerGloss": "who objected to"
+    },
+    "להשיג על": {
+     "readerGloss": "to object to"
+    },
+    "השגותיו": {
+     "readerGloss": "his objections"
+    },
+    "דוחק": {
+     "readerGloss": "forced; a strain"
+    },
+    "סברת": {
+     "readerGloss": "the view of"
+    },
+    "סברא": {
+     "readerGloss": "view; reasoning"
+    },
+    "סברות": {
+     "readerGloss": "views"
+    },
+    "ההקדמה": {
+     "readerGloss": "the premise"
+    },
+    "ראיה": {
+     "readerGloss": "proof",
+     "readerNote": "The same letters also spell 'seeing'."
+    },
+    "ראיות": {
+     "readerGloss": "proofs"
+    },
+    "נדקדק": {
+     "readerGloss": "let us examine closely"
+    },
+    "לדקדק": {
+     "readerGloss": "to examine closely"
+    },
+    "ידוקדק": {
+     "readerGloss": "becomes exact"
+    },
+    "מקשה": {
+     "readerGloss": "the questioner"
+    },
+    "השואל": {
+     "readerGloss": "the one who asks"
+    },
+    "נשיב": {
+     "readerGloss": "we answer"
+    },
+    "ואין תשובה": {
+     "readerGloss": "and there is no rebuttal"
+    },
+    "ותשובתו בצדו": {
+     "readerGloss": "with its rebuttal beside it"
+    },
+    "תשובות אלה": {
+     "readerGloss": "these answers"
+    },
+    "מספיק": {
+     "readerGloss": "satisfactory; sufficient"
+    },
+    "מספיקים": {
+     "readerGloss": "sufficient"
+    },
+    "מתקבל": {
+     "readerGloss": "acceptable"
+    },
+    "נאה ומתקבל": {
+     "readerGloss": "seemly and acceptable"
+    },
+    "כנגד": {
+     "readerGloss": "corresponding to",
+     "readerNote": "Literally 'opposite': said of two sets whose members match one for one."
+    },
+    "לישב": {
+     "readerGloss": "to resolve; to settle"
+    },
+    "יתישב": {
+     "readerGloss": "will be settled"
+    },
+    "עיקרא": {
+     "readerGloss": "the root; the outset"
+    },
+    "לא צדקה שאלתו": {
+     "readerGloss": "his question is not right"
+    },
+    "חיוב ירידתו": {
+     "readerGloss": "what necessitates its descent"
+    },
+    "וזה הדין וזה הטעם": {
+     "readerGloss": "the same rule and the same reason hold"
+    }
+   }
   }
  },
  "readerFields": "Public popup text for the reader site lives ONLY in: entry.readerNote, entry.readerGloss, surfaceForms[form].readerGloss / .readerNote; entry.cluster marks a grouped entry (popup headed by the clicked form; only forms with their own gloss are highlighted); entry.hideForms lists forms never highlighted. Everything else (notes, candidates, decisions) is the translator's working record and is not shown. Top-level skipTokens lists whole Hebrew tokens that are never highlighted.",
  "skipTokens": [
-  "כדין",
-  "וכדין",
   "לדעת",
   "ולדעת",
-  "מדעת"
+  "מדעת",
+  "האיך",
+  "והאיך",
+  "שהאיך",
+  "השכלה",
+  "מכלה",
+  "ומכלה",
+  "המכלה",
+  "מלאכתי",
+  "ומלאכתי",
+  "כללית"
  ]
 }

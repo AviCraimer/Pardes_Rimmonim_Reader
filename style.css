@@ -294,6 +294,13 @@ main {
 .lex-mark:hover {
     background: rgba(184, 145, 80, 0.4);
 }
+/* Reader-aid entries (abbreviations, Aramaic, terms of argument; lexicon keys beginning with "קורא-"):
+   quieter than terminology, so that the blue stays reserved for terms of art. */
+.lex-mark[data-lex^="קורא-"] {
+    color: inherit;
+    border-bottom: 1px dotted rgba(184, 145, 80, 0.6);
+    padding: 0;
+}
 /* ---- lexicon popup ---- */
 #lex-popup {
     position: fixed;
