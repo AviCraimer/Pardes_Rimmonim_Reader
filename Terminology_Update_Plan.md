@@ -6,7 +6,7 @@
 
 - **Lexicon:** updated on this branch. All rulings below are recorded in `lexicon.json` with their reasons.
 - **Translated text:** not yet converted. `translation.json` covers Gates 1–7 and 8:1 (469 paragraphs).
-- **Index:** `Pardes_Rimonim_Index_Translation.md` and the generated `index.json` still carry the old gate titles.
+- **Table of contents:** now inside `translation.json` under `gates` (title, transliterated Hebrew title, description, chapter summaries), with `indexNotes` for the colophon and translator's notes. The separate `Pardes_Rimonim_Index_Translation.md`, `index.json` and `build-index.js` are gone. It still carries the old gate titles. Its Hebrew is on Sefaria as "Pardes Rimmonim, Index" and is not yet in the repo.
 
 Until the text is converted, the reader site's popups will show the new renderings beside the old wording. Merge the lexicon and the text conversion together if that mismatch matters.
 
@@ -29,14 +29,14 @@ Until the text is converted, the reader site's popups will show the new renderin
 | *nivra'im*, *nivra'av* (נבראים, נבראיו) | created beings, His creatures | **created entities, His created entities** | 31, plus about 9 "creatures" |
 | *beriyot*, Aramaic *beriyin* (בריות, בריין) | creatures | **creatures** (now for this word only) | about 21, unchanged |
 | *dak, dakut* (דק, דקות) | fine, fineness | **subtle, subtlety** | about 49, sorted from 10 other "fine" |
-| *tziruf* (צירוף) as a technique | combination | **permutation** | 2, plus Gate 30 in the index |
+| *tziruf* (צירוף) as a technique | combination | **permutation** | 2, plus Gate 30 in the table of contents |
 | *kanui, nikneh, kinyan* (קנוי, נקנה, קנין) | acquired, acquisition | **belongs to, possession** | 8, all in Gate 4 |
 
 ## Decisions still needed from Avi
 
 These block part of the work. Each is recorded as pending in the lexicon.
 
-1. **Gate 14 title.** "The Gate of the Manifestations" follows from the ruling but is not confirmed. Affects 5 cross-references in the text and the Gate 14 section of the index.
+1. **Gate 14 title.** "The Gate of the Manifestations" follows from the ruling but is not confirmed. Affects 5 cross-references in the text and the Gate 14 section of the table of contents.
 2. **Gate 23 title.** "The Gate of the Entries of the Titles" (proposed, since the gate is a lexicon and the text already renders בערך as "under the entry") or "the Gate of the Values of the Titles". Affects 26 cross-references.
 3. **"Contingent being"** (אפשרי המציאות). Confirmed earlier as final. It is now the one place where "being" renders the root of *metzi'ut* and not that of *havayot*. Keep, or change to "contingent existent"?
 4. **Etymology on the reader site.** The new `etymology` field is not displayed. Showing it needs a small change in `script.js`.
@@ -126,15 +126,15 @@ The text used "allusion" for both words. Of the 43 "allusion(s)" outside gate ti
 
 ### Gate titles
 
-- **Gate 22:** "The Gate of the Titles". One cross-reference in the text, plus the index heading, its description and chapter 2.
-- **Gate 23:** pending (item 2 above). 26 cross-references, plus the index.
-- **Index chapters** 30:8 and 32:3 also say "allusions". Check the Hebrew of the printed index to see which word each renders.
+- **Gate 22:** "The Gate of the Titles". One cross-reference in the text, plus the table of contents heading, its description and chapter 2.
+- **Gate 23:** pending (item 2 above). 26 cross-references, plus the table of contents.
+- **Contents chapters** 30:8 and 32:3 also say "allusions". Check the Hebrew of the printed index to see which word each renders.
 
 ## *Shem* (שם): lowercase "name"
 
 - **Rule.** "name" and "names" are lowercase everywhere, divine names included: "the four-letter name", "the forty-two-letter name", "the name El", "the holy names", "the names that may not be erased", "the name of the self".
 - **The one capital.** "the Name" where the Hebrew is השם used absolutely for God, as in השם יתברך, "the Name, blessed be He" (4:3:1 already reads so). Do not write "Hashem". About 21 השם tokens in the translated gates: most are "the name" in an ordinary construction, a few are absolute.
-- **Sites.** 118 "Name" and 31 "Names" in the text; 46 and 7 in the index.
+- **Sites.** 118 "Name" and 31 "Names" in the text; 46 and 7 in the table of contents.
 - **Procedure.** This one can be scripted: lowercase every "Name(s)" that is not sentence-initial, then restore the capital at the absolute השם sites and in gate titles that are in title case ("The Gate of the Names", "The Four-Letter Name").
 
 ## *Dochak* (דוחק): strained reading
@@ -162,7 +162,7 @@ The word is split by sense.
 
 - 1:7:5: "the twelve *havayot* [permutations of the four-letter name]"
 - 4:6:4: "because they are bounded by that name or that *havayah*. But in the Ein Sof there is no *havayah* or name that bounds Him." This is each Sefirah's own form of YHVH, not the twelve permutations.
-- Index 21:11, 21:15, 32:3: replace "permutations (*havayot*)" accordingly.
+- Table of contents 21:11, 21:15, 32:3: replace "permutations (*havayot*)" accordingly.
 
 **The process stays "coming-to-be"**, as in "coming-to-be and passing-away".
 
@@ -200,7 +200,7 @@ Cordovero defines the technique at 30:1:4 by Sefer Yetzirah's count of orderings
 
 - 3:8:8: "by permutation, *de'ot* is *edut*" (was "in the combination [of letters]").
 - 1:2:9: "by way of permutation" (was "by way of letter-combination").
-- Index: Gate 30 becomes "The Gate of Permutation", with its description and chapters 1–4; also chapter 8:4. Check 21:13–14 ("combining" a name from a verse) against the Hebrew before changing them.
+- Table of contents: Gate 30 becomes "The Gate of Permutation", with its description and chapters 1–4; also chapter 8:4. Check 21:13–14 ("combining" a name from a verse) against the Hebrew before changing them.
 - Not affected: the ordinary verb "to join" (7:2:13 "which combines them"; 4:10:6).
 
 ## *Kanui*, *nikneh*, *kinyan* (קנוי, נקנה, קנין): belongs to, possession
@@ -231,11 +231,10 @@ The predicate of Gate 4 for what the Self does not have as its own. "Acquired" s
 
 ## Files to change
 
-1. `translation.json`: all of the above.
-2. `Pardes_Rimonim_Index_Translation.md`: Gates 14, 22, 23, 30 headings, descriptions and chapters; chapters 5:4 ("the existents"), 8:4, 15:1, 21:11, 21:13–15, 30:8, 32:3; "Name(s)" throughout.
-3. `index.json`: regenerate with `node build-index.js`. Do not edit by hand.
-4. `lexicon.json`: done on this branch; add decisions as sites raise new questions.
-5. `script.js`: only if the etymology field is to be shown.
+1. `translation.json`, `text`: all of the above.
+2. `translation.json`, `gates` (the table of contents): Gates 14, 22, 23, 30 titles, descriptions and chapters; chapters 5:4 ("the existents"), 8:4, 15:1, 21:11, 21:13–15, 30:8, 32:3; "Name(s)" throughout. Text there is HTML (`<strong>`, `<em>`), not Markdown.
+3. `lexicon.json`: done on this branch; add decisions as sites raise new questions.
+4. `script.js`: only if the etymology field is to be shown.
 
 ## Checks when finished
 

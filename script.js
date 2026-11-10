@@ -1,17 +1,15 @@
 (async function () {
     // ---- data loading ----
-    const [resp, heResp, lexResp, idxResp, aliasResp] = await Promise.all([
+    const [resp, heResp, lexResp, aliasResp] = await Promise.all([
         fetch("translation.json"),
         fetch("Pardes_Rimmonim.json"),
         fetch("lexicon.json"),
-        fetch("index.json"),
         // aliases.json is optional: a missing/invalid file must not break the app.
         fetch("aliases.json").catch(() => null),
     ]);
     const DATA = await resp.json();
     const HEB = await heResp.json();
     const LEX = await lexResp.json();
-    const IDX = await idxResp.json();
     let ALIASES = { aliases: {} };
     if (aliasResp && aliasResp.ok) {
         try {
@@ -21,8 +19,9 @@
         }
     }
 
-    DATA.index = IDX.gates.map((g) => g.chapters);
-    DATA.gates = IDX.gates;
+    // The table of contents (gate titles, descriptions, chapter summaries)
+    // lives in translation.json under `gates`, beside the text itself.
+    DATA.index = DATA.gates.map((g) => g.chapters);
     const META = DATA;
 
     let curG = 0,
