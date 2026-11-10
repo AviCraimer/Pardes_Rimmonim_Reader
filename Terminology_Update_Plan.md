@@ -5,10 +5,10 @@
 ## Where things stand
 
 - **Lexicon:** updated on this branch. All rulings below are recorded in `lexicon.json` with their reasons.
-- **Translated text:** not yet converted. `translation.json` covers Gates 1–7 and 8:1 (469 paragraphs).
+- **Translated text:** converted on 10 November (Gates 1–7, 8:1 and the table of contents; about 670 edits, each sorted against the Hebrew). The sections below are kept as the record of what was done and as the rules for the gates still to translate. What was left open is listed under "Left open after the conversion".
 - **Table of contents:** now inside `translation.json` under `gates` (title, transliterated Hebrew title, description, chapter summaries), with `indexNotes` for the colophon and translator's notes. The separate `Pardes_Rimonim_Index_Translation.md`, `index.json` and `build-index.js` are gone. It still carries the old gate titles. Its Hebrew is now in the repo as `Pardes_Rimmonim_Index.json` (Sefaria's "Pardes Rimmonim, Index", Koretz 1780), in the same format as the main Hebrew file. The site does not display it yet. The Author's Introduction is not translated and is left out for now.
 
-Until the text is converted, the reader site's popups will show the new renderings beside the old wording. Merge the lexicon and the text conversion together if that mismatch matters.
+The lexicon and the text now agree, so the branch can be merged as a whole.
 
 ## Rulings to apply
 
@@ -39,6 +39,17 @@ Neither blocks the conversion. Both are small.
 1. **"Contingent being"** (אפשרי המציאות). Confirmed earlier as final. It is now the one place where "being" renders the root of *metzi'ut* and not that of *havayot*. Keep, or change to "contingent existent"?
 2. **Etymology on the reader site.** The new `etymology` field is not displayed. Showing it needs a small change in `script.js`.
 3. **Hebrew contents on the reader site.** The Hebrew chapter titles are in the repo but not displayed. They could appear on click, as the Hebrew of a paragraph does.
+
+## Left open after the conversion
+
+- **"Contingent beings"** (4:9:5, three times): awaiting a ruling (see above).
+- **Possible technical uses still reading "existence":** 1:2:10, 1:7:2, 3:5:4, 3:5:7, 4:7:4, 4:7:5, 4:9:8, 5:4:1, 5:4:4, 5:4:8, 5:5:3, 5:5:9. Reviewed and left, because the sense was not clear enough to change.
+- **"Reality" for *metzi'ut* in the text:** 1:8:3, 2:1:5, 2:1:7, 8:1:5. Mostly the idiom "exists in reality".
+- **"Combination" that may be *tziruf*:** contents 21:13–14, and 4:10:7 ("combined from the letters", "the combined twelve-lettered name").
+- **5:5:14:** "acquisitive" renders a form of *kinyan*; no ruling covers it.
+- **Cross-references outside the ruled titles** still read "Gate of the…": the Holy Palaces, the Fifty Gates, the Reversal of the Light.
+- **Contents:** the two probable errors at 25:0 and 21:2; and 21:9, which seems to skip a phrase of the Hebrew.
+- **Not read against the Hebrew:** the 234 contents lines that involve none of the terms.
 
 ## Gate titles (ruled)
 
