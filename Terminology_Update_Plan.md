@@ -34,12 +34,38 @@ Until the text is converted, the reader site's popups will show the new renderin
 
 ## Decisions still needed from Avi
 
-These block part of the work. Each is recorded as pending in the lexicon.
+Neither blocks the conversion. Both are small.
 
-1. **Gate 23 title.** *Sha'ar Erkhei ha-Kinnuyim*. *Erekh* has no lexicon entry. In the text it has two senses: "in relation to" (about 100 times, settled), and a dictionary entry, which is how Gate 23's own chapters are titled ("On the entry for the letter Aleph") and how cross-references cite it. Those cross-references now vary between "under the heading" (7) and "under the entry" (2). Only the gate title says "Values". Options: "Entries of Titles", "The Gate of Entries of Titles", "The Gate of the Entries of the Titles". 26 cross-references wait on this.
-2. **Article in other gate titles.** Gate 14 is ruled "The Gate of Manifestations", on the principle that Hebrew *ha-* becomes "the" only where it has definite force. Should the same apply to Gate 22 ("The Gate of Titles"), Gate 20 ("The Gate of Names"), and the others that now read "The Gate of the…" (25, 27, 28, 29, 31)?
-3. **"Contingent being"** (אפשרי המציאות). Confirmed earlier as final. It is now the one place where "being" renders the root of *metzi'ut* and not that of *havayot*. Keep, or change to "contingent existent"?
-4. **Etymology on the reader site.** The new `etymology` field is not displayed. Showing it needs a small change in `script.js`.
+1. **"Contingent being"** (אפשרי המציאות). Confirmed earlier as final. It is now the one place where "being" renders the root of *metzi'ut* and not that of *havayot*. Keep, or change to "contingent existent"?
+2. **Etymology on the reader site.** The new `etymology` field is not displayed. Showing it needs a small change in `script.js`.
+3. **Hebrew contents on the reader site.** The Hebrew chapter titles are in the repo but not displayed. They could appear on click, as the Hebrew of a paragraph does.
+
+## Gate titles (ruled)
+
+Hebrew *ha-* is rendered "the" only where it has the force of a definite article. In running text either form may be used, by sense and by ear.
+
+| Gate | Was | Now |
+|---|---|---|
+| 9 | The Mediators | Mediators |
+| 10 | The Colors | Colors |
+| 11 | The Tzachtzachot | Tzachtzachot |
+| 14 | The Modes of Existence | The Gate of Manifestations |
+| 20 | The Gate of the Names | The Gate of Names |
+| 21 | The Particulars of the Names | Particulars of Names |
+| 22 | The Gate of the Allusions | The Gate of Titles |
+| 23 | The Values of the Allusions | Glossary of Titles |
+| 25 | The Gate of the Substitutions | The Gate of Substitutions |
+| 26 | The Palaces of the Substitutions | Palaces of Substitutions |
+| 27 | The Gate of the Letters | The Gate of Letters |
+| 28 | The Gate of the Vowel-Points | The Gate of Vowel-Points |
+| 29 | The Gate of the Cantillation Marks | The Gate of Cantillation Marks |
+| 30 | The Gate of Combination | The Gate of Permutation |
+
+Unchanged, because the article is real: "The Reason for the Emanation", "The Order of the Emanation", "The Diminishment of the Moon", "The Four-Letter Name", "The Gate of the Soul".
+
+**Where the titles occur.** In `gates` (the title and the "We named it…" description of each), and as cross-references in the text. Cross-references in Gates 1–8 that change: "Gate of the Values of the Allusions" (26) → "the Glossary of Titles"; "Gate of the Tzachtzachot" (12); "Gate of the Particulars of the Names" (6); "Gate of the Mediators" (5); "Gate of the Modes of Existence" (5); "Gate of the Colors" (3); "Gate of the Substitutions" (2); and one each of "Gate of the Allusions", "Gate of the Names", "Gate of the Vowel-Points", "Gate of Combination".
+
+**Glossary cross-references.** "Under the entry X" for *be-erekh X* everywhere (seven now say "under the heading"). *Erekh* in its other sense stays "in relation to".
 
 ## Table of contents: check against the Hebrew
 
@@ -73,7 +99,7 @@ No blind find-and-replace for any term except the capitalization of "name". Ever
 5. **Verify** with the checks at the end of this plan.
 6. **Commit per gate**, in the repo's existing style (`3:8:9: …`).
 
-Suggested order: names (mechanical), then the few-site terms (*dochak*, *hash'alah*, *tziruf*), then *kinnui* and *remez*, then *dak* and *nivra'im*, then *havayot* and *metzi'ut* together, since both cluster in Gate 5. Gate titles last, once the open titles are ruled.
+Suggested order: names (mechanical), then the few-site terms (*dochak*, *hash'alah*, *tziruf*), then *kinnui* and *remez*, then *dak* and *nivra'im*, then *havayot* and *metzi'ut* together, since both cluster in Gate 5. Gate titles can go in the same pass; all are ruled.
 
 One pass per gate is the aim: sort every term in a paragraph while its Hebrew is open.
 
@@ -147,8 +173,8 @@ The text used "allusion" for both words. Of the 43 "allusion(s)" outside gate ti
 
 ### Gate titles
 
-- **Gate 22:** "The Gate of the Titles", or "The Gate of Titles" if the article principle is applied (open item 2). One cross-reference in the text, plus the table of contents heading, its description and chapter 2.
-- **Gate 23:** pending (item 1 above). When ruled, also bring the seven "under the heading" to "under the entry". 26 cross-references, plus the table of contents.
+- **Gate 22:** "The Gate of Titles". One cross-reference in the text, plus the table of contents heading, its description and chapter 2.
+- **Gate 23:** "Glossary of Titles". Also bring the seven "under the heading" to "under the entry". 26 cross-references, plus the table of contents.
 - **Contents chapters** 30:8 and 32:3 also say "allusions": 30:8 is *remazim* (hints), 32:3 is *kinnuyim* (titles).
 
 ## *Shem* (שם): lowercase "name"
