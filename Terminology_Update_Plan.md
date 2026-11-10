@@ -12,17 +12,23 @@ Until the text is converted, the reader site's popups will show the new renderin
 
 ## Rulings to apply
 
-| Hebrew | Was | Now | Sites in Gates 1–8 |
+| Term | Was | Now | Sites in Gates 1–8 |
 |---|---|---|---|
-| מציאות (technical, count noun) | mode of existence | **manifestation** | 102 across three patterns |
-| מציאות (ordinary idiom) | [mode of] existence | idiomatic: "the well itself", "that there are…" | part of the 102 |
-| כינוי | allusion (also epithet, appellation) | **title** | 23 + 5 + 7, plus gate titles |
-| רמז, רומז | allusion, alludes to | **hint, hints at** | 58 verb forms + about 19 nouns |
-| על דרך הכינוי | by way of allusion / of the epithets | **as a title** | 2 (2:1:6, 1:10:1) |
-| שם, שמות | Name(s) and name(s), mixed | **name(s)**, lowercase | 149 capitals |
-| השם used absolutely for God | varies | **the Name** (the one capital) | about 21 Hebrew tokens to check |
-| דוחק (גדול) | forced, a great forced reading | **a (very) strained reading** | 6 |
-| על דרך השאלה, מושאל | by way of borrowing, borrowed | **in a borrowed sense, borrowed** | 1 (1:10:1), more from Gate 8 on |
+| *metzi'ut* (מציאות), technical count noun | mode of existence | **manifestation** | 102 across three patterns |
+| *metzi'ut*, ordinary idiom | [mode of] existence | idiomatic: "the well itself", "that there are…" | part of the 102 |
+| *kinnui* (כינוי) | allusion (also epithet, appellation) | **title** | 23 + 5 + 7, plus gate titles |
+| *remez* (רמז, רומז) | allusion, alludes to | **hint, hints at** | 58 verb forms + about 19 nouns |
+| *al derekh ha-kinnui* (על דרך הכינוי) | by way of allusion / of the epithets | **as a title** | 2 (2:1:6, 1:10:1) |
+| *shem* (שם, שמות) | Name(s) and name(s), mixed | **name(s)**, lowercase | 149 capitals |
+| *ha-Shem* (השם) used absolutely for God | varies | **the Name** (the one capital) | about 21 Hebrew tokens to check |
+| *dochak* (דוחק גדול) | forced, a great forced reading | **a (very) strained reading** | 6 |
+| *hash'alah* (על דרך השאלה, מושאל) | by way of borrowing, borrowed | **in a borrowed sense, borrowed** | 1 (1:10:1), more from Gate 8 on |
+| *havayot* (הויות) as things that have come to be | the existents | **the beings** | 30 "existents" + 2 others |
+| *havayah, havayot* as forms of YHVH | permutations, existents | **untranslated** | 1:7:5, 4:6:4 |
+| *nimtza'im* (נמצאים) | existents, beings | **existents**, uniformly | 5 paragraphs say "beings" |
+| *nivra'im* (נבראים) | created beings | **created entities** | 31, plus about 9 "creatures" |
+| *dak, dakut* (דק, דקות) | fine, fineness | **subtle, subtlety** | about 49, sorted from 10 other "fine" |
+| *tziruf* (צירוף) as a technique | combination | **permutation** | 2, plus Gate 30 in the index |
 
 ## Decisions still needed from Avi
 
@@ -30,10 +36,9 @@ These block part of the work. Each is recorded as pending in the lexicon.
 
 1. **Gate 14 title.** "The Gate of the Manifestations" follows from the ruling but is not confirmed. Affects 5 cross-references in the text and the Gate 14 section of the index.
 2. **Gate 23 title.** "The Gate of the Entries of the Titles" (proposed, since the gate is a lexicon and the text already renders בערך as "under the entry") or "the Gate of the Values of the Titles". Affects 26 cross-references.
-3. **הויות, "the existents".** "Existents" is the usual word for נמצאים, which stays "existents". Proposed: "the beings" or transliterated "the Havayot". 35 sites, 28 of them in Gate 5.
-4. **דק, "fine".** Ambiguous with "excellent", most of all beside נבחר ("choice") in the manifestation passages (8:9, 14:1). "Subtle" was rejected earlier on a majority count. About 105 Hebrew occurrences in the translated gates.
-5. **קנוי / נקנה, "acquired".** The key predicate of Gate 4, with no lexicon entry. Probably the philosophers' קנין (a settled possession). Sense to verify, rendering to decide.
-6. **Etymology on the reader site.** The new `etymology` field is not displayed. Showing it needs a small change in `script.js`.
+3. **"Acquired"** (קנוי, נקנה). The key predicate of Gate 4, with no lexicon entry. Probably the philosophers' *kinyan* (a settled possession). Sense to verify, rendering to decide.
+4. **"Contingent being"** (אפשרי המציאות). Confirmed earlier as final. It is now the one place where "being" renders the root of *metzi'ut* and not that of *havayot*. Keep, or change to "contingent existent"?
+5. **Etymology on the reader site.** The new `etymology` field is not displayed. Showing it needs a small change in `script.js`.
 
 ## Method
 
@@ -46,9 +51,11 @@ No blind find-and-replace for any term except the capitalization of "name". Ever
 5. **Verify** with the checks at the end of this plan.
 6. **Commit per gate**, in the repo's existing style (`3:8:9: …`).
 
-Suggested order: names (mechanical) → דוחק and השאלה (few sites) → כינוי and רמז → מציאות (most judgment). Gate titles last, once items 1 and 2 above are ruled.
+Suggested order: names (mechanical), then the few-site terms (*dochak*, *hash'alah*, *tziruf*), then *kinnui* and *remez*, then *dak* and *nivra'im*, then *havayot* and *metzi'ut* together, since both cluster in Gate 5. Gate titles last, once items 1 and 2 above are ruled.
 
-## מציאות: manifestation
+One pass per gate is the aim: sort every term in a paragraph while its Hebrew is open.
+
+## *Metzi'ut* (מציאות): manifestation
 
 ### Find all three surface patterns
 
@@ -61,7 +68,7 @@ Suggested order: names (mechanical) → דוחק and השאלה (few sites) → 
 
 Search for the literal string `[mode of]` as well as `mode of existence`: the bracketed form is a separate pattern, and a search for one does not find the other. Chapters with the most sites: 3:8 (21), 5:5 (20), 7:3 (11), 1:2 (10), 2:3 (10).
 
-Not every bare "mode" is מציאות. In 6:8:6, 7:2:10 and 7:3:4 it renders other words ("in two modes", "the mode of its issuing"). Check the Hebrew before touching these.
+Not every bare "mode" is *metzi'ut*. In 6:8:6, 7:2:10 and 7:3:4 it renders other words ("in two modes", "the mode of its issuing"). Check the Hebrew before touching these.
 
 ### Sort each site three ways
 
@@ -94,7 +101,7 @@ The text has 176 plain "existence" outside the patterns above. Some are technica
 - **Grammar.** Cordovero treats מציאות as masculine, so a following masculine adjective modifies it and not the Sefirah.
 - **Verb echo.** 8:9:1 מציאות מתמצא: "a manifestation that comes to be found".
 
-## כינוי and רמז: title and hint
+## *Kinnui* and *remez* (כינוי, רמז): title and hint
 
 The text used "allusion" for both words. Of the 43 "allusion(s)" outside gate titles, 23 are in paragraphs whose Hebrew has only כינוי, 18 in paragraphs with only רמז, and 2 need a closer look.
 
@@ -122,40 +129,88 @@ The text used "allusion" for both words. Of the 43 "allusion(s)" outside gate ti
 - **Gate 23:** pending (item 2 above). 26 cross-references, plus the index.
 - **Index chapters** 30:8 and 32:3 also say "allusions". Check the Hebrew of the printed index to see which word each renders.
 
-## שם: lowercase "name"
+## *Shem* (שם): lowercase "name"
 
 - **Rule.** "name" and "names" are lowercase everywhere, divine names included: "the four-letter name", "the forty-two-letter name", "the name El", "the holy names", "the names that may not be erased", "the name of the self".
 - **The one capital.** "the Name" where the Hebrew is השם used absolutely for God, as in השם יתברך, "the Name, blessed be He" (4:3:1 already reads so). Do not write "Hashem". About 21 השם tokens in the translated gates: most are "the name" in an ordinary construction, a few are absolute.
 - **Sites.** 118 "Name" and 31 "Names" in the text; 46 and 7 in the index.
 - **Procedure.** This one can be scripted: lowercase every "Name(s)" that is not sentence-initial, then restore the capital at the absolute השם sites and in gate titles that are in title case ("The Gate of the Names", "The Four-Letter Name").
 
-## דוחק: strained reading
+## *Dochak* (דוחק): strained reading
 
-Six sites read "forced": 2:1:10, 2:2:3, 2:4:3, 4:10:6, 5:2:2, 5:3:2. Convert to "strained" ("this is certainly very strained"; "a very strained reading"). דוחק occurs 33 times in Gates 1–8, so check how the other 27 were rendered and bring them into line.
+Six sites read "forced": 2:1:10, 2:2:3, 2:4:3, 4:10:6, 5:2:2, 5:3:2. Convert to "strained" ("this is certainly very strained"; "a very strained reading"). The word occurs 33 times in Gates 1–8, so check how the other 27 were rendered and bring them into line.
 
-## השאלה: in a borrowed sense
+## *Hash'alah* (השאלה): in a borrowed sense
 
-- על דרך השאלה, בהשאלה: "in a borrowed sense". מושאל: "borrowed".
+- "In a borrowed sense" for על דרך השאלה and בהשאלה; "borrowed" for מושאל.
 - One site so far (1:10:1), already "borrowed". The term matters from Gate 8 on: 8:8:2, 8:16:7, 8:19:3, 15:4:3, 17:4:1.
-- Keep it apart from כינוי. A title is properly said of its bearer; a borrowed name is not intrinsically true of it. 17:4:1: "Hod is called Chesed. Intrinsically it is not Chesed; it is called so in a borrowed sense."
-- Bare השאלה is usually "the question". Never match it as this term.
+- Keep it apart from *kinnui*. A title is properly said of its bearer; a borrowed name is not intrinsically true of it. 17:4:1: "Hod is called Chesed. Intrinsically it is not Chesed; it is called so in a borrowed sense."
+- The bare form השאלה is usually "the question". Never match it as this term.
+
+## *Havayot* (הויות): beings, or left untranslated
+
+The word is split by sense.
+
+**Things that have come to be → "beings"** (count noun: "a being", "the beings"). This covers the general sense and the Gate 5 sense.
+
+- 5:4:1: "by reason of the absence of the beings"; "how much more so that the beings should be by means of it"
+- 6:6:6: "subtle beings, corporealizing themselves in a subtle and pure body" (was "fine entities")
+- 3:4:10: "although the beings have spread for ever and ever" (was "comings-into-being")
+
+**Forms of the name YHVH → untranslated, *havayah* / *havayot*.**
+
+- 1:7:5: "the twelve *havayot* [permutations of the four-letter name]"
+- 4:6:4: "because they are bounded by that name or that *havayah*. But in the Ein Sof there is no *havayah* or name that bounds Him." This is each Sefirah's own form of YHVH, not the twelve permutations.
+- Index 21:11, 21:15, 32:3: replace "permutations (*havayot*)" accordingly.
+
+**The process stays "coming-to-be"**, as in "coming-to-be and passing-away".
+
+**Where the senses meet, translate and bracket.** 4:10:7: "the four-letter name indicates that He was [*hayah*] before every being [*havayah*], meaning that He is the essence of the beings [*havayot*] and the cause prior to them… and He is within every being." The Hebrew has no "all".
+
+Sites: 35 "existents" in the text. Thirty are in paragraphs whose Hebrew has *havayot* (28 in Gate 5) and convert. Five are in paragraphs with *nimtza'im* and stay.
+
+### Companion rule: *nimtza'im* (נמצאים) = "existents"
+
+Uniformly. Five paragraphs now render it "beings" or "existent" things; bring them to "existents". "Beings" then belongs to *havayot* alone, apart from "human beings".
+
+## *Nivra'im* (נבראים): created entities
+
+- "created being(s)" → "created entity", "created entities": 31 sites.
+- "His creatures" stays for נבראיו and ברואיו; "creatures" stays for בריות and בריין.
+- About 9 "creatures" sit in paragraphs whose Hebrew is *nivra'im* (Gates 2, 4, 7, 8). Check each.
+
+## *Dak*, *dakut* (דק, דקות): subtle, subtlety
+
+- "fine" → "subtle"; "fineness" → "subtlety"; "finer" → "subtler"; "the utmost fineness" → "the utmost subtlety".
+- English sites: "fine" 27, "fineness" 18, "finer" 3, "finest" 1. Seven sites already say "subtle" or "subtlety".
+- **Sort against the Hebrew.** At least ten "fine" render other words in the sense "excellent" or "precise" and must stay: "a fine parable" (5:4:1, 4:4:7), "fine study" (1:2:2), "the fine point of the phrasing" (2:5:2), "a fine and pleasant resolution" (4:9:1). That double use is the reason for the change.
+- 8:9:3, when reached: "the first, subtle manifestation is a choice manifestation".
+
+## *Tziruf* (צירוף): permutation
+
+Cordovero defines the technique at 30:1:4 by Sefer Yetzirah's count of orderings (2, 6, 24, 120, 720, 5,040), which is permutation in the exact sense.
+
+- 3:8:8: "by permutation, *de'ot* is *edut*" (was "in the combination [of letters]").
+- 1:2:9: "by way of permutation" (was "by way of letter-combination").
+- Index: Gate 30 becomes "The Gate of Permutation", with its description and chapters 1–4; also chapter 8:4. Check 21:13–14 ("combining" a name from a verse) against the Hebrew before changing them.
+- Not affected: the ordinary verb "to join" (7:2:13 "which combines them"; 4:10:6).
 
 ## Unchanged, confirmed in discussion
 
-| Hebrew | Stays | Note |
+| Term | Stays | Note |
 |---|---|---|
-| בחינה | aspect | Its heaviest use is ahead: Gates 22, 7, 10, 14, and 232 occurrences in Gate 8. In 5:5:9 it is nearly a synonym of מציאות. |
-| עצמות | Self | Capital only for the Emanator's own (ruling of 7 October). |
-| בעצם / במקרה | intrinsically / accidentally | "In itself" was considered for 4:4:4 and dropped, since 4:6:4 and 4:8:2 distribute the pair over two subjects. |
-| מהות | essence | |
-| נמצאים | existents | The generic sense of the root; not affected by "manifestation". |
-| נעלם / מתגלה | concealed / revealed | Now load-bearing beside "manifestation". |
-| מדה / תואר | attribute / predicate | No clash with "title". |
+| *bechinah* (בחינה) | aspect | Its heaviest use is ahead: Gates 22, 7, 10, 14, and 232 occurrences in Gate 8. In 5:5:9 it is nearly a synonym of *metzi'ut*. |
+| *atzmut* (עצמות) | Self | Capital only for the Emanator's own (ruling of 7 October). |
+| *be-etzem / be-mikreh* (בעצם, במקרה) | intrinsically / accidentally | "In itself" was considered for 4:4:4 and dropped, since 4:6:4 and 4:8:2 distribute the pair over two subjects. |
+| *mahut* (מהות) | essence | |
+| *mekhuneh* (מכונה) | designated | The verb of *kinnui*; unchanged. |
+| *ne'lam / mitgaleh* (נעלם, מתגלה) | concealed / revealed | Now load-bearing beside "manifestation". |
+| *middah / to'ar* (מדה, תואר) | attribute / predicate | No clash with "title". |
 
 ## Files to change
 
 1. `translation.json`: all of the above.
-2. `Pardes_Rimonim_Index_Translation.md`: Gates 14, 22, 23 headings, descriptions and chapters; chapters 15:1, 30:8, 32:3; "Name(s)" throughout.
+2. `Pardes_Rimonim_Index_Translation.md`: Gates 14, 22, 23, 30 headings, descriptions and chapters; chapters 5:4 ("the existents"), 8:4, 15:1, 21:11, 21:13–15, 30:8, 32:3; "Name(s)" throughout.
 3. `index.json`: regenerate with `node build-index.js`. Do not edit by hand.
 4. `lexicon.json`: done on this branch; add decisions as sites raise new questions.
 5. `script.js`: only if the etymology field is to be shown.
@@ -165,12 +220,16 @@ Six sites read "forced": 2:1:10, 2:2:3, 2:4:3, 4:10:6, 5:2:2, 5:3:2. Convert to 
 Each of these searches over `translation.json` should return nothing, or only the exceptions named:
 
 - `mode of existence`, `modes of existence`, `[mode of]`, `[modes of]`
-- bare `mode`, `modes`: only the non-מציאות sites in Gates 6 and 7
+- bare `mode`, `modes`: only the sites in Gates 6 and 7 that render other words
 - `allusion`, `allud`: nothing
 - `epithet`, `appellation`: nothing
 - `forced`: nothing in the sense of דוחק
 - `Name`, `Names` mid-sentence: only "the Name" at absolute השם sites
 - `manifest` as a rendering of גלה: nothing
+- `existents`: only where the Hebrew is *nimtza'im*
+- `created being`: nothing
+- `fine`, `fineness`, `finer`: only the "excellent" and "precise" senses
+- `combination` for *tziruf*: nothing
 
 Then open the reader site, and spot-check 3:8, 5:5, 4:10 and 2:3 for popups that agree with the text.
 
@@ -185,12 +244,12 @@ Then open the reader site, and spot-check 3:8, 5:5, 4:10 and 2:3 for popups that
 
 Kept as a separate project, but the two now share a vocabulary through the medieval Hebrew calques of Arabic:
 
-| Hebrew | Arabic | Shared English |
+| Term | Arabic | Shared English |
 |---|---|---|
-| מציאות | wujūd | existence (both from roots meaning "to find") |
-| עצמות | dhāt | self |
-| מהות | māhiyya | essence |
-| מקרה | ʿaraḍ | accident |
-| בעצם, עצמי | dhātī | intrinsic(ally) |
+| *metzi'ut* (מציאות) | wujūd | existence (both from roots meaning "to find") |
+| *atzmut* (עצמות) | dhāt | self |
+| *mahut* (מהות) | māhiyya | essence |
+| *mikreh* (מקרה) | ʿaraḍ | accident |
+| *be-etzem, atzmi* (בעצם, עצמי) | dhātī | intrinsic(ally) |
 
 In that translation nafs is "soul" and huwiyya is rendered by a phrase, "what 'he' refers to". Here נפש remains "vital soul" beside נשמה, "soul".
