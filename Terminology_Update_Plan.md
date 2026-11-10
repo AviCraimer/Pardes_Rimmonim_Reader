@@ -6,7 +6,7 @@
 
 - **Lexicon:** updated on this branch. All rulings below are recorded in `lexicon.json` with their reasons.
 - **Translated text:** not yet converted. `translation.json` covers Gates 1–7 and 8:1 (469 paragraphs).
-- **Table of contents:** now inside `translation.json` under `gates` (title, transliterated Hebrew title, description, chapter summaries), with `indexNotes` for the colophon and translator's notes. The separate `Pardes_Rimonim_Index_Translation.md`, `index.json` and `build-index.js` are gone. It still carries the old gate titles. Its Hebrew is on Sefaria as "Pardes Rimmonim, Index" and is not yet in the repo.
+- **Table of contents:** now inside `translation.json` under `gates` (title, transliterated Hebrew title, description, chapter summaries), with `indexNotes` for the colophon and translator's notes. The separate `Pardes_Rimonim_Index_Translation.md`, `index.json` and `build-index.js` are gone. It still carries the old gate titles. Its Hebrew is now in the repo as `Pardes_Rimmonim_Index.json` (Sefaria's "Pardes Rimmonim, Index", Koretz 1780), in the same format as the main Hebrew file. The site does not display it yet. The Author's Introduction is not translated and is left out for now.
 
 Until the text is converted, the reader site's popups will show the new renderings beside the old wording. Merge the lexicon and the text conversion together if that mismatch matters.
 
@@ -36,10 +36,31 @@ Until the text is converted, the reader site's popups will show the new renderin
 
 These block part of the work. Each is recorded as pending in the lexicon.
 
-1. **Gate 14 title.** "The Gate of the Manifestations" follows from the ruling but is not confirmed. Affects 5 cross-references in the text and the Gate 14 section of the table of contents.
-2. **Gate 23 title.** "The Gate of the Entries of the Titles" (proposed, since the gate is a lexicon and the text already renders בערך as "under the entry") or "the Gate of the Values of the Titles". Affects 26 cross-references.
+1. **Gate 23 title.** *Sha'ar Erkhei ha-Kinnuyim*. *Erekh* has no lexicon entry. In the text it has two senses: "in relation to" (about 100 times, settled), and a dictionary entry, which is how Gate 23's own chapters are titled ("On the entry for the letter Aleph") and how cross-references cite it. Those cross-references now vary between "under the heading" (7) and "under the entry" (2). Only the gate title says "Values". Options: "Entries of Titles", "The Gate of Entries of Titles", "The Gate of the Entries of the Titles". 26 cross-references wait on this.
+2. **Article in other gate titles.** Gate 14 is ruled "The Gate of Manifestations", on the principle that Hebrew *ha-* becomes "the" only where it has definite force. Should the same apply to Gate 22 ("The Gate of Titles"), Gate 20 ("The Gate of Names"), and the others that now read "The Gate of the…" (25, 27, 28, 29, 31)?
 3. **"Contingent being"** (אפשרי המציאות). Confirmed earlier as final. It is now the one place where "being" renders the root of *metzi'ut* and not that of *havayot*. Keep, or change to "contingent existent"?
 4. **Etymology on the reader site.** The new `etymology` field is not displayed. Showing it needs a small change in `script.js`.
+
+## Table of contents: check against the Hebrew
+
+Done on 10 November for structure and for every line that involves a term under review (85 of 319 lines). The other 234 lines have not been read against the Hebrew.
+
+**Structure.** Gate and chapter counts agree, with two known oddities of the printing that the English already notes: the contents omit Gate 27's chapter for Dalet, and state 23 chapters for Gate 23 while listing 22. Gate 32's fourth Hebrew line is the colophon.
+
+**Corrections found.**
+
+- **Gate 14** (title, description, chapters 1–4) and **15:1**: all *metzi'uyot*, plural. "Manifestations" throughout; 14:3 "a manifestation of Binah, of Tiferet, and of Malkhut". Title: "The Gate of Manifestations".
+- **5:5**: "in kinds of manifestation" renders *minei ha-giluyim*. It must be "kinds of revelation", since "manifestation" is now *metzi'ut*.
+- **5:4**: *havayot*, so "the beings cannot be revealed through Keter". Also "He and His name alone".
+- **8:10, 8:22, 25:1**: *havayah* as process. Use "coming-to-be" (now "existence" once and "coming-into-being" twice).
+- **"Reality" for *metzi'ut***, 8 times (8:2, 8:10, 8:26, 18:0, 25:0, 27:27, 28:1, 31:9). Use "existence" or plain idiom. 8:26 is probably technical: "her manifestation after the exile".
+- **8:4, 30:0–4, 21:15**: *tziruf* is "permutation". 21:15 reads "the twelve *havayot* permuted from the four-letter name". 21:13–14 use the same word for deriving a name from a verse; "permutation" probably, to confirm when translated.
+- **21:0, 21:11, 21:15, 32:3**: *havayot* as forms of YHVH, left untranslated.
+- **22:0, 22:2, 32:3**: *kinnuyim*, so "titles". 22:2 confirms the link to aspects: "the multiplicity of titles according to the multitude of aspects".
+- **30:8**: "further allusions to it" renders *remazim*, so "further hints at it".
+- **24:13**: *nivra'im*, so "the choicest of created entities".
+- **19:0**: "designated by the Kabbalists" renders *meyuchas*, not *mekhuneh*. Use "which the Kabbalists hold to be the name of the self".
+- **Two probable errors to look at.** 25:0: the English has the husks as "grave evils over against the good". The Hebrew word looks like a misprint of *temurat* ("evil in exchange for good"), which would explain the gate's name, "Substitutions". 21:2: the English names the author of "Ma'arekhet Elohut", but the Hebrew says *Ma'arakhot Elohim Chayyim*.
 
 ## Method
 
@@ -52,7 +73,7 @@ No blind find-and-replace for any term except the capitalization of "name". Ever
 5. **Verify** with the checks at the end of this plan.
 6. **Commit per gate**, in the repo's existing style (`3:8:9: …`).
 
-Suggested order: names (mechanical), then the few-site terms (*dochak*, *hash'alah*, *tziruf*), then *kinnui* and *remez*, then *dak* and *nivra'im*, then *havayot* and *metzi'ut* together, since both cluster in Gate 5. Gate titles last, once items 1 and 2 above are ruled.
+Suggested order: names (mechanical), then the few-site terms (*dochak*, *hash'alah*, *tziruf*), then *kinnui* and *remez*, then *dak* and *nivra'im*, then *havayot* and *metzi'ut* together, since both cluster in Gate 5. Gate titles last, once the open titles are ruled.
 
 One pass per gate is the aim: sort every term in a paragraph while its Hebrew is open.
 
@@ -126,9 +147,9 @@ The text used "allusion" for both words. Of the 43 "allusion(s)" outside gate ti
 
 ### Gate titles
 
-- **Gate 22:** "The Gate of the Titles". One cross-reference in the text, plus the table of contents heading, its description and chapter 2.
-- **Gate 23:** pending (item 2 above). 26 cross-references, plus the table of contents.
-- **Contents chapters** 30:8 and 32:3 also say "allusions". Check the Hebrew of the printed index to see which word each renders.
+- **Gate 22:** "The Gate of the Titles", or "The Gate of Titles" if the article principle is applied (open item 2). One cross-reference in the text, plus the table of contents heading, its description and chapter 2.
+- **Gate 23:** pending (item 1 above). When ruled, also bring the seven "under the heading" to "under the entry". 26 cross-references, plus the table of contents.
+- **Contents chapters** 30:8 and 32:3 also say "allusions": 30:8 is *remazim* (hints), 32:3 is *kinnuyim* (titles).
 
 ## *Shem* (שם): lowercase "name"
 
