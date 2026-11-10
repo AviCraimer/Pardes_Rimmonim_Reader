@@ -50,6 +50,7 @@ Neither blocks the conversion. Both are small.
 - **Cross-references outside the ruled titles** still read "Gate of the…": the Holy Palaces, the Fifty Gates, the Reversal of the Light.
 - **Contents:** the two probable errors at 25:0 and 21:2; and 21:9, which seems to skip a phrase of the Hebrew.
 - **Not read against the Hebrew:** the 234 contents lines that involve none of the terms.
+- **For a later revision (Avi, 10 November):** if "actually exists" is adopted for *be-metzi'ut* in place of "exists in reality", move the other words off "actual" and "actually". Use "in fact" or "definitely" for *mamash* and *be-fo'al*. About two dozen sites in Gates 1–7 ("actually" 12, "actual" 12).
 
 ## Gate titles (ruled)
 
