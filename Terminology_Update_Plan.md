@@ -26,7 +26,8 @@ Until the text is converted, the reader site's popups will show the new renderin
 | *havayot* (הויות) as things that have come to be | the existents | **the beings** | 30 "existents" + 2 others |
 | *havayah, havayot* as forms of YHVH | permutations, existents | **untranslated** | 1:7:5, 4:6:4 |
 | *nimtza'im* (נמצאים) | existents, beings | **existents**, uniformly | 5 paragraphs say "beings" |
-| *nivra'im* (נבראים) | created beings | **created entities** | 31, plus about 9 "creatures" |
+| *nivra'im*, *nivra'av* (נבראים, נבראיו) | created beings, His creatures | **created entities, His created entities** | 31, plus about 9 "creatures" |
+| *beriyot*, Aramaic *beriyin* (בריות, בריין) | creatures | **creatures** (now for this word only) | about 21, unchanged |
 | *dak, dakut* (דק, דקות) | fine, fineness | **subtle, subtlety** | about 49, sorted from 10 other "fine" |
 | *tziruf* (צירוף) as a technique | combination | **permutation** | 2, plus Gate 30 in the index |
 
@@ -176,8 +177,15 @@ Uniformly. Five paragraphs now render it "beings" or "existent" things; bring th
 ## *Nivra'im* (נבראים): created entities
 
 - "created being(s)" → "created entity", "created entities": 31 sites.
-- "His creatures" stays for נבראיו and ברואיו; "creatures" stays for בריות and בריין.
+- The possessive forms follow: *nivra'av* and *beru'av* are "His created entities", not "His creatures". 2:6:1 has both forms in one sentence: "to the eyes of the created entities, so that He might be recognized by His created entities."
 - About 9 "creatures" sit in paragraphs whose Hebrew is *nivra'im* (Gates 2, 4, 7, 8). Check each.
+
+### Companion rule: *beriyot* (בריות, Aramaic בריין) = "creatures"
+
+"Creature" is kept for this word alone. A check of every occurrence in the book shows it is used only of living things: those God judges and shows mercy to, those who can know Him, the inhabitants of the seven earths, the animals, a golem. It is never used of stones or rivers. So the two words now differ in sense: created entities are whatever is created, creatures are the living inhabitants of the world.
+
+- 4:10:1: "on account of the creatures that were destined to be created; for were there no creatures of the world, why would He be called 'merciful', 'judge'?" Unchanged.
+- "Creations" was considered and dropped ("the creations of the world" is ambiguous).
 
 ## *Dak*, *dakut* (דק, דקות): subtle, subtlety
 
@@ -228,6 +236,7 @@ Each of these searches over `translation.json` should return nothing, or only th
 - `manifest` as a rendering of גלה: nothing
 - `existents`: only where the Hebrew is *nimtza'im*
 - `created being`: nothing
+- `creature`: only where the Hebrew is *beriyot* / *beriyin*
 - `fine`, `fineness`, `finer`: only the "excellent" and "precise" senses
 - `combination` for *tziruf*: nothing
 
