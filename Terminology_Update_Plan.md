@@ -43,7 +43,7 @@ Neither blocks the conversion. Both are small.
 ## Left open after the conversion
 
 - **"Contingent beings"** (4:9:5, three times): awaiting a ruling (see above).
-- **Possible technical uses still reading "existence":** 1:2:10, 1:7:2, 3:5:4, 3:5:7, 4:7:4, 4:7:5, 4:9:8, 5:4:1, 5:4:4, 5:4:8, 5:5:3, 5:5:9. Reviewed and left, because the sense was not clear enough to change.
+- **A wider pass on "existence", deferred to a future round (Avi, 10 November).** Seven doubtful cases were examined and all proved technical (5:4:1, 3:5:4, 5:5:9 twice, 4:9:8, 1:2:10, 1:7:2); these are converted. Still to read against the Hebrew: about 52 sites of the form "existence of" a Sefirah or the Emanation, or "its / their / her existence", and the paragraphs 3:5:7, 4:7:4, 4:7:5, 5:2:5, 5:4:4, 5:4:8, 5:5:3. Test: "existence" stays only where the sentence says that something exists or does not; where it speaks of a Sefirah's existence at some place or stage, or qualifies it (concealed, revealed, subtle, first, upper), it is "manifestation".
 - **"Reality" for *metzi'ut* in the text:** 1:8:3, 2:1:5, 2:1:7, 8:1:5. Mostly the idiom "exists in reality".
 - **"Combination" that may be *tziruf*:** contents 21:13–14, and 4:10:7 ("combined from the letters", "the combined twelve-lettered name").
 - **5:5:14:** "acquisitive" renders a form of *kinyan*; no ruling covers it.
