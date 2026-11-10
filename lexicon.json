@@ -3577,7 +3577,7 @@
    "headword": "קוֹנֶה",
    "transliteration": "koneh",
    "partOfSpeech": "noun",
-   "notes": "Divine epithet from קנה (acquire/possess/create; cf. קונה שמים וארץ, Gen 14:19). In Gate 6 ch.3 prose ('by the will of the Maker'/'their Maker'; 'we trust in our Maker'). Rendered 'Maker' — kept DISTINCT from ברא='create' and יצר='form' and עשה='make'; here no ברא/קנה wordplay is at stake, and 'Maker' reads idiomatically (the few עשה='make' uses in the chunk are at clearly-marked verse-sites). NB do not collapse with ברא='Creator'.",
+   "notes": "Divine epithet from קנה (acquire/possess/create; cf. קונה שמים וארץ, Gen 14:19). In Gate 6 ch.3 prose ('by the will of the Maker'/'their Maker'; 'we trust in our Maker'). Rendered 'Maker' — kept DISTINCT from ברא='create' and יצר='form' and עשה='make'; here no ברא/קנה wordplay is at stake, and 'Maker' reads idiomatically (the few עשה='make' uses in the chunk are at clearly-marked verse-sites). NB do not collapse with ברא='Creator'. | 2026-11-10: same root as קנוי / קנין ('belongs to' / 'possession'; see entry קנוי). 'Maker' stays.",
    "candidates": [
     {
      "target": "Maker",
@@ -8014,6 +8014,61 @@
     },
     "בריותיו": {
      "readerGloss": "His creatures"
+    }
+   }
+  },
+  "קנה-קנין": {
+   "headword": "קָנוּי / נִקְנֶה / קִנְיָן",
+   "transliteration": "kanui / nikneh / kinyan",
+   "partOfSpeech": "participle / verb / noun",
+   "etymology": "From ק-נ-ה, 'to acquire, to possess' (the root of the divine title קונה, see that entry). In the Hebrew of the medieval philosophers קנין is the standard word for a settled possession or state, what a subject has as its own (Greek hexis, Latin habitus), as against a privation of it or a passing condition. Cordovero does not define the term; this background is from the general Tibbonide vocabulary.",
+   "notes": "2026-11-10 (USER RULING): קנוי ב / נקנה ב / קנוי אל = 'belongs to'; קנין = 'possession'; קנין עצמי = 'an intrinsic possession'. Replaces 'acquired (in)' / 'acquisition' (8 sites, all Gate 4). Why: this is the predicate of Gate 4 for what the Self does NOT have as its own. 'Acquired' names the event of getting, where Cordovero means having; and 'acquired in the water' is not English. He pairs the word with בעצם and opposes it to במקרה, and 4:8:2 gives the test: the water has the shape only 'while it is there'. AGREED WORDINGS: 4:4:4 'in truth that change of color does not belong to the water'. 4:4:5 'the change does not belong to the light as an intrinsic possession, but only in relation to its aspect toward the beholders ... it is not an intrinsic change belonging to the light'. 4:6:4 'the judgment and the mercy effected by means of the Self that spreads forth do not belong to the Self as a possession'. 4:8:2 'that likeness and form belongs to the water only while it is there, not intrinsically but accidentally ... the changes and the attributes do not belong to it intrinsically but accidentally ... after His withdrawal from the Sefirot, no attribute belongs to Him'. 4:10:6 'and yet the names do not belong to Him' (cf. 4:6:4 'those names which belong to the Sefirot'). 8:1:6 'a power fitted to the Sefirah and belonging to it'. EVENT SENSE (gaining a new state) = 'comes to possess': 14:1:5 'it comes to possess a manifestation finer and choicer than the first'. LATER GATES: 8:15:3 מדותיו הקנויות אליו (a person's settled traits), 8:15:4, 8:26:4 'its nature, belonging to it', 24:11:5 (the smell 'does not truly belong to the wind'; the multiplicity 'does not truly belong to the light'). KEEP CLEAR: 'belongs to' is ordinary English and occurs 20 times in Gates 1-8 in other uses (verse quotations, assignment to a Sefirah, idiom). Only where it stands near this term should it be rephrased: 4:8:2 'the second aspect that belongs to the Emanator' -> 'the second aspect of the Emanator'; 4:7:5 'the first aspect that belongs to Chokhmah' -> 'of Chokhmah'; check 8:1:5 against the Hebrew. 'Possession' already renders קנין at 5:5:13, 5:5:16 ('the earth is full of Your possessions'). בעל ('possessor of changes', 1:9:3) is a different word expressing the same idea. MATCHING: never register bare קנה (also 'reed', and the name Nechunya ben ha-Kanah).",
+   "candidates": [
+    {
+     "target": "belongs to / possession",
+     "gloss": "is the subject's own, as a settled possession",
+     "status": "preferred",
+     "contextNotes": "קנוי ב, נקנה ב, קנוי אל = 'belongs to'; קנין = 'possession'; קנין עצמי = 'an intrinsic possession'. Event sense = 'comes to possess'.",
+     "decisions": [
+      {
+       "section": "4/ch4",
+       "surfaceForm": "קנוי / נקנה / קנין עצמי",
+       "rationale": "User ruling after trying it on 4:4:4, 4:4:5, 4:6:4, 4:8:2, 4:10:6, 8:1:6 and checking the 20 existing uses of 'belong'.",
+       "timestamp": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "target": "acquired / acquisition",
+     "status": "rejected",
+     "contextNotes": "SUPERSEDED 2026-11-10. Suggests an event of getting; 'acquired in' is unidiomatic."
+    },
+    {
+     "target": "is its own",
+     "status": "rejected",
+     "contextNotes": "Close to the sense and echoes 'Self', but awkward to repeat."
+    }
+   ],
+   "readerNote": "What belongs to a thing as its own settled possession, as against what it has only accidentally or for a time. Cordovero's point in Gate 4 is that no attribute, change or name belongs to the Self of the Emanator in this way: they belong to the vessels.",
+   "readerGloss": "belongs to; possession",
+   "surfaceForms": {
+    "קנוי": {
+     "readerGloss": "belonging to"
+    },
+    "נקנה": {
+     "readerGloss": "belongs to"
+    },
+    "נקנית": {
+     "readerGloss": "belongs to"
+    },
+    "נקנים": {
+     "readerGloss": "belong to"
+    },
+    "נקנין": {
+     "readerGloss": "belong to"
+    },
+    "קנין עצמי": {
+     "readerGloss": "an intrinsic possession"
     }
    }
   }

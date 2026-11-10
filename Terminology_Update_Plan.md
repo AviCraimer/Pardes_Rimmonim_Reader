@@ -30,6 +30,7 @@ Until the text is converted, the reader site's popups will show the new renderin
 | *beriyot*, Aramaic *beriyin* (בריות, בריין) | creatures | **creatures** (now for this word only) | about 21, unchanged |
 | *dak, dakut* (דק, דקות) | fine, fineness | **subtle, subtlety** | about 49, sorted from 10 other "fine" |
 | *tziruf* (צירוף) as a technique | combination | **permutation** | 2, plus Gate 30 in the index |
+| *kanui, nikneh, kinyan* (קנוי, נקנה, קנין) | acquired, acquisition | **belongs to, possession** | 8, all in Gate 4 |
 
 ## Decisions still needed from Avi
 
@@ -37,9 +38,8 @@ These block part of the work. Each is recorded as pending in the lexicon.
 
 1. **Gate 14 title.** "The Gate of the Manifestations" follows from the ruling but is not confirmed. Affects 5 cross-references in the text and the Gate 14 section of the index.
 2. **Gate 23 title.** "The Gate of the Entries of the Titles" (proposed, since the gate is a lexicon and the text already renders בערך as "under the entry") or "the Gate of the Values of the Titles". Affects 26 cross-references.
-3. **"Acquired"** (קנוי, נקנה). The key predicate of Gate 4, with no lexicon entry. Probably the philosophers' *kinyan* (a settled possession). Sense to verify, rendering to decide.
-4. **"Contingent being"** (אפשרי המציאות). Confirmed earlier as final. It is now the one place where "being" renders the root of *metzi'ut* and not that of *havayot*. Keep, or change to "contingent existent"?
-5. **Etymology on the reader site.** The new `etymology` field is not displayed. Showing it needs a small change in `script.js`.
+3. **"Contingent being"** (אפשרי המציאות). Confirmed earlier as final. It is now the one place where "being" renders the root of *metzi'ut* and not that of *havayot*. Keep, or change to "contingent existent"?
+4. **Etymology on the reader site.** The new `etymology` field is not displayed. Showing it needs a small change in `script.js`.
 
 ## Method
 
@@ -203,6 +203,20 @@ Cordovero defines the technique at 30:1:4 by Sefer Yetzirah's count of orderings
 - Index: Gate 30 becomes "The Gate of Permutation", with its description and chapters 1–4; also chapter 8:4. Check 21:13–14 ("combining" a name from a verse) against the Hebrew before changing them.
 - Not affected: the ordinary verb "to join" (7:2:13 "which combines them"; 4:10:6).
 
+## *Kanui*, *nikneh*, *kinyan* (קנוי, נקנה, קנין): belongs to, possession
+
+The predicate of Gate 4 for what the Self does not have as its own. "Acquired" suggested an event of getting; the sense is having.
+
+- 4:4:4: "in truth that change of color does not belong to the water"
+- 4:4:5: "the change does not belong to the light as an intrinsic possession, but only in relation to its aspect toward the beholders… it is not an intrinsic change belonging to the light"
+- 4:6:4: "the judgment and the mercy effected by means of the Self that spreads forth do not belong to the Self as a possession"
+- 4:8:2: "that likeness and form belongs to the water only while it is there, not intrinsically but accidentally… the changes and the attributes do not belong to it intrinsically but accidentally… after His withdrawal from the Sefirot, no attribute belongs to Him"
+- 4:10:6: "and yet the names do not belong to Him"
+- 8:1:6: "a power fitted to the Sefirah and belonging to it"
+- Event sense, "comes to possess": 14:1:5, when reached.
+
+**Rephrase nearby loose uses of "belong".** 4:8:2 "the second aspect that belongs to the Emanator" → "the second aspect of the Emanator"; 4:7:5 "the first aspect that belongs to Chokhmah" → "of Chokhmah". Check 8:1:5 against the Hebrew. The other 17 uses of "belong" (verse quotations, assignment to a Sefirah, idiom) stay.
+
 ## Unchanged, confirmed in discussion
 
 | Term | Stays | Note |
@@ -239,6 +253,7 @@ Each of these searches over `translation.json` should return nothing, or only th
 - `creature`: only where the Hebrew is *beriyot* / *beriyin*
 - `fine`, `fineness`, `finer`: only the "excellent" and "precise" senses
 - `combination` for *tziruf*: nothing
+- `acquired`, `acquisition`: nothing in Gate 4 (one unrelated "acquired" in Gate 3 to check)
 
 Then open the reader site, and spot-check 3:8, 5:5, 4:10 and 2:3 for popups that agree with the text.
 
