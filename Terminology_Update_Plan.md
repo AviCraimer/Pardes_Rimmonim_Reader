@@ -32,25 +32,29 @@ The lexicon and the text now agree, so the branch can be merged as a whole.
 | *tziruf* (צירוף) as a technique | combination | **permutation** | 2, plus Gate 30 in the table of contents |
 | *kanui, nikneh, kinyan* (קנוי, נקנה, קנין) | acquired, acquisition | **belongs to, possession** | 8, all in Gate 4 |
 
-## Decisions still needed from Avi
+## Decided after the conversion (10 November, second round)
 
-Neither blocks the conversion. Both are small.
+Worked through in a decisions document and applied to the text the same day.
 
-1. **"Contingent being"** (אפשרי המציאות). Confirmed earlier as final. It is now the one place where "being" renders the root of *metzi'ut* and not that of *havayot*. Keep, or change to "contingent existent"?
-2. **Etymology on the reader site.** The new `etymology` field is not displayed. Showing it needs a small change in `script.js`.
-3. **Hebrew contents on the reader site.** The Hebrew chapter titles are in the repo but not displayed. They could appear on click, as the Hebrew of a paragraph does.
+- **4:10:1 and 4:10:7:** "beings" for what depends on the name; *havayot* for the forms of the name that testify, including the closing clause.
+- **"Necessarily existent" and "contingently existent"**, replacing "necessary of existence" and "contingent being(s)". As a name: "the Necessarily Existent".
+- **Seven "existence" sites converted to "manifestation":** 5:4:1, 3:5:4, 5:5:9 twice, 4:9:8, 1:2:10, 1:7:2.
+- **"Actually exists"** for *be-metzi'ut*, replacing "in reality". 1:8:3: "in its very simplicity".
+- **4:10:7:** "formed from the letters of the Name… the composite twelve-letter [name]".
+- **The capital on "the Name":** wherever bare "the Name" means YHVH, as God or as the name itself. Six sites corrected.
+- **5:5:9:** "yet not a revelation that is evident, but only [in that] its manifestation is there". The one place *mitgaleh* is not "revealed".
+- **5:5:14:** "no abiding, real action at all".
+- **Gate names:** keep "the" for a fixed set ("the Gate of the Palaces", "the Gate of the Holy Palaces", "the Gate of the Fifty Gates"). Gate 25 is "The Gate of Opposites", Gate 26 "The Gate of the Opposed Palaces".
+- **Contents:** 25:0 "the husks, which are evil opposed [*temurat*] to good" (reading *temurat* for the misprinted word); 21:2 "the author of *Ma'arakhot Elohim Chayyim*".
 
-## Left open after the conversion
+## Still open, for a future round
 
-- **"Contingent beings"** (4:9:5, three times): awaiting a ruling (see above).
-- **A wider pass on "existence", deferred to a future round (Avi, 10 November).** Seven doubtful cases were examined and all proved technical (5:4:1, 3:5:4, 5:5:9 twice, 4:9:8, 1:2:10, 1:7:2); these are converted. Still to read against the Hebrew: about 52 sites of the form "existence of" a Sefirah or the Emanation, or "its / their / her existence", and the paragraphs 3:5:7, 4:7:4, 4:7:5, 5:2:5, 5:4:4, 5:4:8, 5:5:3. Test: "existence" stays only where the sentence says that something exists or does not; where it speaks of a Sefirah's existence at some place or stage, or qualifies it (concealed, revealed, subtle, first, upper), it is "manifestation".
-- **"Reality" for *metzi'ut* in the text:** 1:8:3, 2:1:5, 2:1:7, 8:1:5. Mostly the idiom "exists in reality".
-- **"Combination" that may be *tziruf*:** contents 21:13–14, and 4:10:7 ("combined from the letters", "the combined twelve-lettered name").
-- **5:5:14:** "acquisitive" renders a form of *kinyan*; no ruling covers it.
-- **Cross-references outside the ruled titles** still read "Gate of the…": the Holy Palaces, the Fifty Gates, the Reversal of the Light.
-- **Contents:** the two probable errors at 25:0 and 21:2; and 21:9, which seems to skip a phrase of the Hebrew.
-- **Not read against the Hebrew:** the 234 contents lines that involve none of the terms.
-- **For a later revision (Avi, 10 November):** if "actually exists" is adopted for *be-metzi'ut* in place of "exists in reality", move the other words off "actual" and "actually". Use "in fact" or "definitely" for *mamash* and *be-fo'al*. About two dozen sites in Gates 1–7 ("actually" 12, "actual" 12).
+- **A wider pass on "existence".** About 52 sites of the form "existence of" a Sefirah or the Emanation, or "its / their / her existence", and the paragraphs 3:5:7, 4:7:4, 4:7:5, 5:2:5, 5:4:4, 5:4:8, 5:5:3. Test: "existence" stays only where the sentence says that something exists or does not; where it speaks of a Sefirah's existence at some place or stage, or qualifies it (concealed, revealed, subtle, first, upper), it is "manifestation".
+- **"Actually".** Move *mamash* and *be-fo'al* off "actual" and "actually" to "in fact" or "definitely" (about two dozen sites).
+- **Contents 21:13–14** ("combining" a name from a verse) and **21:9** (the English omits two items of the Hebrew list): settle when Gate 21 is translated.
+- **The 234 contents lines** that involve none of the terms have not been read against the Hebrew.
+- **Reader site:** showing the etymology field and the Hebrew chapter titles. Not now.
+- **The Author's Introduction** is on Sefaria and untranslated.
 
 ## Gate titles (ruled)
 
@@ -66,8 +70,8 @@ Hebrew *ha-* is rendered "the" only where it has the force of a definite article
 | 21 | The Particulars of the Names | Particulars of Names |
 | 22 | The Gate of the Allusions | The Gate of Titles |
 | 23 | The Values of the Allusions | Glossary of Titles |
-| 25 | The Gate of the Substitutions | The Gate of Substitutions |
-| 26 | The Palaces of the Substitutions | Palaces of Substitutions |
+| 25 | The Gate of the Substitutions | The Gate of Opposites |
+| 26 | The Palaces of the Substitutions | The Gate of the Opposed Palaces |
 | 27 | The Gate of the Letters | The Gate of Letters |
 | 28 | The Gate of the Vowel-Points | The Gate of Vowel-Points |
 | 29 | The Gate of the Cantillation Marks | The Gate of Cantillation Marks |
