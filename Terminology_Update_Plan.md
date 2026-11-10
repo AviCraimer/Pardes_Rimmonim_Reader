@@ -192,7 +192,7 @@ The text used "allusion" for both words. Of the 43 "allusion(s)" outside gate ti
 ## *Shem* (שם): lowercase "name"
 
 - **Rule.** "name" and "names" are lowercase everywhere, divine names included: "the four-letter name", "the forty-two-letter name", "the name El", "the holy names", "the names that may not be erased", "the name of the self".
-- **The one capital.** "the Name" where the Hebrew is השם used absolutely for God, as in השם יתברך, "the Name, blessed be He" (4:3:1 already reads so). Do not write "Hashem". About 21 השם tokens in the translated gates: most are "the name" in an ordinary construction, a few are absolute.
+- **The one capital.** Bare "the Name" wherever it means YHVH, whether as God ("the Name, blessed be He", 4:3:1) or as the Tetragrammaton itself ("formed from the letters of the Name", 4:10:7). Corrected on 10 November: the first version of the rule covered only the first case. Sites to recheck: 1:5:5, 1:7:5, 3:3:1, 4:9:3, 4:10:7, 6:1:7. Do not write "Hashem". About 21 השם tokens in the translated gates: most are "the name" in an ordinary construction, a few are absolute.
 - **Sites.** 118 "Name" and 31 "Names" in the text; 46 and 7 in the table of contents.
 - **Procedure.** This one can be scripted: lowercase every "Name(s)" that is not sentence-initial, then restore the capital at the absolute השם sites and in gate titles that are in title case ("The Gate of the Names", "The Four-Letter Name").
 
