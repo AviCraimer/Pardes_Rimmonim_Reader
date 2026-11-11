@@ -1,4 +1,6 @@
-# Terminology update plan
+# Terminology update plan (DONE, 10 November 2026)
+
+> **Status: finished.** The conversion described here was carried out and merged on 10 November 2026. `lexicon.json` is the authority for all terminology; do not read this file as a list of work to do. Only two sections still look forward: "Still open, for a future round" and "For the gates still to translate". For a compact view of the lexicon run `python3 tools/lexicon_digest.py`.
 
 *Drawn up 10 November 2026. Covers the terminology rulings made that day and how to bring the translated text into line with them.*
 

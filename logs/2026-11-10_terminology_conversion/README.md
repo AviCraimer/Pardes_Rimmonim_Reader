@@ -1,6 +1,6 @@
 # Terminology conversion log, 10 November 2026
 
-A record of every edit made to `translation.json` when Gates 1–7, 8:1 and the table of contents were brought into line with the rulings in `lexicon.json` and `Terminology_Update_Plan.md`. Git holds the diffs; these files add the Hebrew behind each edit and the reasons for the judgment calls.
+A record of every edit made to `translation.json` when Gates 1–7, 8:1 and the table of contents were brought into line with the rulings in `lexicon.json` and `Terminology_Update_Plan_DONE_2026-11-10.md`. Git holds the diffs; these files add the Hebrew behind each edit and the reasons for the judgment calls.
 
 | File | What it holds | Entries |
 |---|---|---|
