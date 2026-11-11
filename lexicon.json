@@ -413,7 +413,7 @@
      "readerGloss": "the all-inclusive number"
     }
    },
-   "readerNote": "Each Sefirah includes all ten, and each is included in the others. The word says only that they are there, not how they are there: Gate 8 argues that this inclusion is not a composition out of parts, so that Keter can include Gevurah and still be simple mercy. The same Hebrew noun, kelalut, also means \"totality\".",
+   "readerNote": "Each Sefirah includes all ten, and each is included in the others. The word says only that they are there, not how they are there: Gate 8 argues that this inclusion is not a composition out of parts, so that Keter can include Gevurah and still be simple compassion. The same Hebrew noun, kelalut, also means \"totality\".",
    "readerGloss": "includes; included in"
   },
   "ברת-ברית": {
@@ -1977,24 +1977,35 @@
    "headword": "דִּין / מִשְׁפָּט / צֶדֶק / רַחֲמִים",
    "transliteration": "din / mishpat / tzedek / rachamim",
    "partOfSpeech": "noun",
-   "notes": "Four near-synonyms that MUST stay distinct in English. Patach Eliyahu mapping (flat 242): דין=Gevurah, משפט=the central pillar (Tiferet), צדק=the holy Malkhut; מאזני צדק='scales of righteousness'=the two סמכי קשוט; הין צדק='a just hin'=the sign of the covenant (Yesod). Render דין='judgment' (but 'Din' when naming the Sefirotic side opposite Chesed), משפט='justice', צדק='righteousness', רחמים='mercy' (but 'Rachamim' when naming the middle line/pillar). קשוט='truth'; סמכי קשוט='supports of truth' (Netzach & Hod). | 2026-11-10 (USER RULING): the three lines are named alike, all transliterated: 'the line of Chesed', 'the line of Din', 'the line of Rachamim'. 'The line of mercy' is retired; its 9 sites in Gates 1-7 are converted. One site is left: 5:4:4 'the line of mercy, which is the middle', where the Hebrew is שורת הרחמים, not קו. As qualities, din and rachamim remain 'judgment' and 'mercy' (rachamim as 'mercy' or 'compassion' is under discussion; note that חמלה is already 'compassion' at 2:2:5 and 4:10:1).",
+   "notes": "Four near-synonyms that MUST stay distinct in English. Patach Eliyahu mapping (flat 242): דין=Gevurah, משפט=the central pillar (Tiferet), צדק=the holy Malkhut; מאזני צדק='scales of righteousness'=the two סמכי קשוט; הין צדק='a just hin'=the sign of the covenant (Yesod). Render דין='judgment' (but 'Din' when naming the Sefirotic side opposite Chesed), משפט='justice', צדק='righteousness', רחמים='mercy' (but 'Rachamim' when naming the middle line/pillar). קשוט='truth'; סמכי קשוט='supports of truth' (Netzach & Hod). | 2026-11-10 (USER RULING): the three lines are named alike, all transliterated: 'the line of Chesed', 'the line of Din', 'the line of Rachamim'. 'The line of mercy' is retired; its 9 sites in Gates 1-7 are converted. One site is left: 5:4:4 'the line of mercy, which is the middle', where the Hebrew is שורת הרחמים, not קו. As qualities, din and rachamim remain 'judgment' and 'mercy' (rachamim as 'mercy' or 'compassion' is under discussion; note that חמלה is already 'compassion' at 2:2:5 and 4:10:1). | 2026-11-10, later (USER RULING, supersedes 'mercy'): רחמים = 'compassion'; רחום = 'compassionate'; מדת הרחמים = 'the attribute of compassion'. The line and the side stay transliterated ('the line of Rachamim'). WHY: (1) 'mercy' in the English Bible is a blur word: the King James uses it for חסד ('his mercy endureth for ever'), for רחמים ('tender mercies') and for the verb of חן ('have mercy upon me' = חנני), so it cannot mark רחמים off from its neighbours, which is what Gate 8 needs; (2) the root is רחם, 'womb', a parent's tenderness, and Gate 8 leans on it with Binah as mother; the Arabic cognate al-Rahman is 'the Compassionate'; (3) recent books on Kabbalah (Matt's Zohar among them) use 'Compassion'; (4) in current English 'mercy' mostly means pardon, which is סליחה / מחילה. That compassion includes both judgment and lovingkindness (8:25:6) is no difficulty. CONSEQUENCES: חמלה, which was 'compassion' at 2:2:5 and 4:10:1, becomes 'pity' (see entry חמלה); חנון stays 'gracious', חן 'favour'. 'Mercy' and 'merciful' are retired. Gate 8 chapter 1 is converted; Gates 1-7 (about 110 sites, each to be checked against the Hebrew) are listed in notes/pending_conversions.md. As a quality beside judgment and compassion, חסד is 'lovingkindness' (as at 8:1:2, 8:1:7); as the Sefirah and its line it is 'Chesed'.",
    "candidates": [
     {
-     "target": "judgment / justice / righteousness / mercy",
+     "target": "judgment / justice / righteousness / compassion",
      "status": "preferred",
-     "contextNotes": "Keep all four lexically distinct; 'Din'/'Rachamim' capitalized when naming the Sefirotic side/line.",
+     "contextNotes": "Keep all four lexically distinct; 'Din' / 'Rachamim' capitalized when naming the Sefirotic side or line ('the line of Rachamim'). רחמים as a quality = 'compassion'; רחום = 'compassionate'.",
      "decisions": [
       {
        "section": "4/ch5",
        "surfaceForm": "דין / משפט / צדק / רחמים",
        "rationale": "Fixed mapping so the Patach-Eliyahu identifications (Din=Gevurah, Mishpat=Tiferet, Tzedek=Malkhut) stay legible; avoids collapsing into one English word.",
        "timestamp": "2026-06-09"
+      },
+      {
+       "section": "8:1-8:3",
+       "surfaceForm": "רחמים",
+       "rationale": "User ruling: 'compassion', not 'mercy'. 'Mercy' blurs חסד, רחמים and חן in the English Bible and now mostly means pardon; 'compassion' matches the root (womb), the Arabic cognate, and current usage in books on Kabbalah.",
+       "timestamp": "2026-11-10"
       }
      ]
+    },
+    {
+     "target": "mercy / merciful",
+     "status": "rejected",
+     "contextNotes": "SUPERSEDED 2026-11-10. Was the rendering of רחמים / רחום. Still stands in Gates 1-7 until converted."
     }
    ],
-   "readerNote": "Four words that the translation keeps apart. Din is strict judgment, the left side; Rachamim is mercy, the middle line that tempers it; 'justice' and 'righteousness' are names of Tiferet and Malkhut.",
-   "readerGloss": "judgment; justice; righteousness; mercy",
+   "readerNote": "Four words that the translation keeps apart. Din is strict judgment, the left side; Rachamim is compassion, the middle line that tempers it; 'justice' and 'righteousness' are names of Tiferet and Malkhut. Rachamim comes from rechem, 'womb': it is a parent's tenderness, and it takes account of both judgment and lovingkindness.",
+   "readerGloss": "judgment; justice; righteousness; compassion",
    "surfaceForms": {
     "דין": {
      "readerGloss": "judgment (Din)"
@@ -2006,7 +2017,13 @@
      "readerGloss": "righteousness"
     },
     "רחמים": {
-     "readerGloss": "mercy (Rachamim)"
+     "readerGloss": "compassion (Rachamim)"
+    },
+    "רחום": {
+     "readerGloss": "compassionate"
+    },
+    "מדת הרחמים": {
+     "readerGloss": "the attribute of compassion"
     }
    }
   },
@@ -2888,7 +2905,7 @@
    "headword": "קַו (pl. קַוִּים)",
    "transliteration": "kav (pl. kavim)",
    "partOfSpeech": "noun",
-   "notes": "Line / column (the three columns of the Sefirotic tree). Right = Chesed line (root Chokhmah); left = Din line (root Binah/Tevunah); middle = mercy line, the 'deciding line' (קו המכריע, root Keter/Da'at). 5:4:2: 'the line of Din journeys last' (קו הדין באחרונה יסע). Distinct from קו-מדה (kav ha-middah, the Measuring Line). NOTE: existing כרע entry renders makhri'a as 'mediator'; here קו המכריע = 'the deciding line'. | 2026-11-10 (USER RULING): the three lines are named alike, all transliterated: 'the line of Chesed', 'the line of Din', 'the line of Rachamim'. 'The line of mercy' is retired; its 9 sites in Gates 1-7 are converted. One site is left: 5:4:4 'the line of mercy, which is the middle', where the Hebrew is שורת הרחמים, not קו. As qualities, din and rachamim remain 'judgment' and 'mercy' (rachamim as 'mercy' or 'compassion' is under discussion; note that חמלה is already 'compassion' at 2:2:5 and 4:10:1).",
+   "notes": "Line / column (the three columns of the Sefirotic tree). Right = Chesed line (root Chokhmah); left = Din line (root Binah/Tevunah); middle = mercy line, the 'deciding line' (קו המכריע, root Keter/Da'at). 5:4:2: 'the line of Din journeys last' (קו הדין באחרונה יסע). Distinct from קו-מדה (kav ha-middah, the Measuring Line). NOTE: existing כרע entry renders makhri'a as 'mediator'; here קו המכריע = 'the deciding line'. | 2026-11-10 (USER RULING): the three lines are named alike, all transliterated: 'the line of Chesed', 'the line of Din', 'the line of Rachamim'. 'The line of mercy' is retired; its 9 sites in Gates 1-7 are converted. One site is left: 5:4:4 'the line of mercy, which is the middle', where the Hebrew is שורת הרחמים, not קו. As qualities, din and rachamim remain 'judgment' and 'mercy' (rachamim as 'mercy' or 'compassion' is under discussion; note that חמלה is already 'compassion' at 2:2:5 and 4:10:1). | 2026-11-10, later: רחמים as a quality is now 'compassion' (see entry דין / משפט / צדק / רחמים); the line stays 'the line of Rachamim'.",
    "candidates": [
     {
      "target": "line / column",
@@ -2921,7 +2938,7 @@
      "readerGloss": "the line of Chesed"
     },
     "קו הרחמים": {
-     "readerGloss": "the line of Rachamim (mercy)"
+     "readerGloss": "the line of Rachamim (compassion)"
     }
    }
   },
@@ -3857,7 +3874,7 @@
      "contextNotes": "bodily constitution in the spheres parable only."
     }
    ],
-   "readerNote": "The tempering of the right side with the left: a little judgment mixed into mercy, and mercy into judgment.",
+   "readerNote": "The tempering of the right side with the left: a little judgment mixed into compassion, and compassion into judgment.",
    "surfaceForms": {
     "שווי מזג": {
      "readerGloss": "evenness of blending"
@@ -8053,7 +8070,7 @@
      "contextNotes": "Ambiguous in 'the creations of the world'; too close to 'creation' (the act), 41 times in the text."
     }
    ],
-   "readerNote": "A creature: a living created thing. Cordovero uses the word for the inhabitants of the world, above all those whom God judges and shows mercy to, and who come to know Him through the Emanation.",
+   "readerNote": "A creature: a living created thing. Cordovero uses the word for the inhabitants of the world, above all those whom God judges and shows compassion to, and who come to know Him through the Emanation.",
    "readerGloss": "creature; creatures",
    "surfaceForms": {
     "בריות": {
@@ -8165,6 +8182,40 @@
     },
     "תמורת": {
      "readerGloss": "substituted for; the substitute of"
+    }
+   }
+  },
+  "חמל-חמלה": {
+   "headword": "חֶמְלָה",
+   "transliteration": "chemlah",
+   "partOfSpeech": "noun",
+   "etymology": "From ח-מ-ל, 'to spare, to hold back from harming' (1 Samuel 15:9 'Saul spared Agag'; Ezekiel 16:5 'to have pity on you').",
+   "notes": "2026-11-10 (USER RULING, by consequence): חמלה = 'pity', so that 'compassion' is free for רחמים. Rare: three occurrences of the noun in the book. Sites in the translated text: 2:2:5 'it would judge him without compassion' becomes 'without pity'; 4:10:1 'compassion' in the list of the soul's names becomes 'pity'. Both listed in notes/pending_conversions.md until converted.",
+   "candidates": [
+    {
+     "target": "pity",
+     "status": "preferred",
+     "contextNotes": "Sparing; holding back from harm.",
+     "decisions": [
+      {
+       "section": "2:2:5",
+       "surfaceForm": "חמלה",
+       "rationale": "Frees 'compassion' for רחמים (user ruling of the same date).",
+       "timestamp": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "target": "compassion",
+     "status": "rejected",
+     "contextNotes": "Now the rendering of רחמים."
+    }
+   ],
+   "readerNote": "Pity: sparing someone, holding back from harming them. Distinct from rachamim, 'compassion'.",
+   "readerGloss": "pity",
+   "surfaceForms": {
+    "חמלה": {
+     "readerGloss": "pity"
     }
    }
   }
