@@ -7943,7 +7943,7 @@
    "transliteration": "hash'alah / mush'al",
    "partOfSpeech": "noun / participle",
    "etymology": "From ש-א-ל in the sense 'to borrow'. The medieval Hebrew term for metaphor: a שם מושאל is a 'borrowed name', calquing Arabic ism mustaʿār (istiʿāra, 'borrowing'). NB the same spelling השאלה is far more often 'the question' (ש-א-ל, 'to ask').",
-   "notes": "2026-11-10 (USER RULING): על דרך השאלה / בהשאלה = 'in a borrowed sense'; מושאל = 'borrowed'. 'By way of borrowing' rejected as opaque. This is Cordovero's own term for non-intrinsic use, set against בעצם: 17:4:1 'Hod is called Chesed; intrinsically it is not Chesed, it is called so in a borrowed sense'; 8:8:2 the name of Din 'is borrowed for the calling alone, relative to us'. About 16 occurrences in the book; one in the translated gates (1:10:1, already 'borrowed'). KEEP DISTINCT from כינוי ('title'): a title is properly said of its bearer in a real capacity (2:1:6 יוצדק); a borrowed name is not intrinsically true of it. 1:10:1 combines them: 'the name El ... is borrowed for it from Chesed as a title'. Also distinct from משל ('parable') and from דרך העברה (5:6:6, 23:9:2; not yet ruled). CAUTION for matching: never register bare השאלה as a surface form; it is usually 'the question'.",
+   "notes": "2026-11-10 (USER RULING): על דרך השאלה / בהשאלה = 'in a borrowed sense'; מושאל = 'borrowed'. 'By way of borrowing' rejected as opaque. This is Cordovero's own term for non-intrinsic use, set against בעצם: 17:4:1 'Hod is called Chesed; intrinsically it is not Chesed, it is called so in a borrowed sense'; 8:8:2 the name of Din 'is borrowed for the calling alone, relative to us'. About 16 occurrences in the book; one in the translated gates (1:10:1, already 'borrowed'). KEEP DISTINCT from כינוי ('title'): a title is properly said of its bearer in a real capacity (2:1:6 יוצדק); a borrowed name is not intrinsically true of it. 1:10:1 combines them: 'the name El ... is borrowed for it from Chesed as a title'. Also distinct from משל ('parable') and from דרך העברה (5:6:6, 23:9:2; not yet ruled). CAUTION for matching: never register bare השאלה as a surface form; it is usually 'the question'. | 2026-11-10: the counterpart of this term is ממש, 'literal / literally' (see entry ממש). The two form a pair: a predicate is said of the Sefirot either בהשאלה, 'in a borrowed sense', or ממש, 'literally'.",
    "candidates": [
     {
      "target": "in a borrowed sense / borrowed",
@@ -7969,7 +7969,7 @@
      "contextNotes": "Accurate (it is the medieval term for metaphor) but loses the link to מושאל = 'borrowed'; and 'metaphor' is risky in a text where things really emanate as other things (user)."
     }
    ],
-   "readerNote": "A borrowed use of a name: calling one Sefirah by the name of another to which the name properly belongs. Cordovero contrasts it with what a thing is called intrinsically.",
+   "readerNote": "A borrowed use of a name: calling one Sefirah by the name of another to which the name properly belongs. Cordovero contrasts it with what a thing is called intrinsically. Its counterpart is mamash, \"literally\".",
    "readerGloss": "in a borrowed sense; borrowed",
    "surfaceForms": {
     "מושאל": {
@@ -8216,6 +8216,51 @@
    "surfaceForms": {
     "חמלה": {
      "readerGloss": "pity"
+    }
+   }
+  },
+  "ממש": {
+   "headword": "מַמָּשׁ",
+   "transliteration": "mamash",
+   "partOfSpeech": "adverb (originally a noun)",
+   "etymology": "From מ-ש-ש, 'to feel, to touch': as a noun, 'substance, something tangible' (rabbinic יש בו ממש, 'there is something to it'; אין בו ממש, 'there is nothing in it'). As an adverb it marks the word beside it as meant in its strict sense. The use as a bare intensifier ('really, totally') is modern colloquial Hebrew and is not Cordovero's.",
+   "notes": "2026-11-10 (USER RULING): ממש = 'literal' / 'literally'. It is part of the statement, not an interjection: it attaches to one word and says that the word is meant in its literal sense. It is the counterpart of השאלה, 'in a borrowed sense' (see entry שאל-השאלה): a thing is said of the Sefirot either ממש or בהשאלה, and much of Cordovero's care goes into saying which. PLACEMENT follows English usage and the word it governs: (1) negated, guarding a figure of speech: 'not literally' (8:2:2 ולא גבול ממש = 'though not literally a limit'; ואין הכונה מגבילות ממש = 'the intent is not that they literally set a limit'); (2) on a noun, affirming the literal sense: 'a literal X' (8:2:8 מקור ממש = 'a literal source': the other Sefirot have in each Sefirah a manifestation that is a source for some of the lower ones, Malkhut alone has a source in the literal sense in every one); (3) on an identity: 'literally' (8:2:8 הם ממש הד' אותיות = 'they are literally the four letters of the name'), or, where English wants it, 'itself' / 'the very' (8:2:5 פניה ממש = 'her own face itself'; 8:2:8 מציאות הספירה ממש = 'the manifestation of the Sefirah itself'). EXISTING PRACTICE in Gates 1-7 (about 200 occurrences) is mostly 'literally' / 'literal' and 'itself', which this confirms. REJECTED: 'in fact' (reads as an aside and cannot sit next to the word it governs); 'actual' / 'actually' (wanted for בפועל). This supersedes the open item in the terminology plan of 10 November that proposed 'in fact' or 'definitely'. The sites in Gates 1-7 that still have 'actual', 'actually' or 'in fact' for ממש are listed in notes/pending_conversions.md.",
+   "candidates": [
+    {
+     "target": "literal / literally",
+     "gloss": "in the strict sense of the word; not in a borrowed sense",
+     "status": "preferred",
+     "contextNotes": "'not literally'; 'a literal source'; 'literally the four letters'. Where English idiom needs it, 'itself' or 'the very'.",
+     "decisions": [
+      {
+       "section": "8:2:2, 8:2:8",
+       "surfaceForm": "ממש",
+       "rationale": "User ruling. The word is the counterpart of 'in a borrowed sense' (השאלה) and must sit beside the word it governs.",
+       "timestamp": "2026-11-10"
+      }
+     ]
+    },
+    {
+     "target": "itself / the very",
+     "status": "acceptable",
+     "contextNotes": "For identity, where 'literally' would be unidiomatic: 'her own face itself'."
+    },
+    {
+     "target": "in fact",
+     "status": "rejected",
+     "contextNotes": "Reads as an interjection and detaches from the word it governs."
+    },
+    {
+     "target": "actual / actually",
+     "status": "rejected",
+     "contextNotes": "Reserved for בפועל ('in actuality'). Still stands at some sites in Gates 1-7 until converted."
+    }
+   ],
+   "readerNote": "Literally: the word marks what stands beside it as meant in its strict sense. Its counterpart is \"in a borrowed sense\" (be-hash'alah). Cordovero uses the pair constantly, since most of what is said of the Sefirot is said in a borrowed sense, and he takes care to mark what is not.",
+   "readerGloss": "literally; literal",
+   "surfaceForms": {
+    "ממש": {
+     "readerGloss": "literally; literal"
     }
    }
   }

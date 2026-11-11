@@ -52,7 +52,7 @@ Worked through in a decisions document and applied to the text the same day.
 ## Still open, for a future round
 
 - **A wider pass on "existence".** About 52 sites of the form "existence of" a Sefirah or the Emanation, or "its / their / her existence", and the paragraphs 3:5:7, 4:7:4, 4:7:5, 5:2:5, 5:4:4, 5:4:8, 5:5:3. Test: "existence" stays only where the sentence says that something exists or does not; where it speaks of a Sefirah's existence at some place or stage, or qualifies it (concealed, revealed, subtle, first, upper), it is "manifestation".
-- **"Actually".** Move *mamash* and *be-fo'al* off "actual" and "actually" to "in fact" or "definitely" (about two dozen sites).
+- *(Superseded for* mamash *later the same day: it is "literal / literally"; see the lexicon entry. What remains open here is* be-fo'al*.)* **"Actually".** Move *mamash* and *be-fo'al* off "actual" and "actually" to "in fact" or "definitely" (about two dozen sites).
 - **Contents 21:13–14** ("combining" a name from a verse) and **21:9** (the English omits two items of the Hebrew list): settle when Gate 21 is translated.
 - **The 234 contents lines** that involve none of the terms have not been read against the Hebrew.
 - **Reader site:** showing the etymology field and the Hebrew chapter titles. Not now.
