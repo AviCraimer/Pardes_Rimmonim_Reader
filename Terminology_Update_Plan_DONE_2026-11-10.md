@@ -46,7 +46,7 @@ Worked through in a decisions document and applied to the text the same day.
 - **The capital on "the Name":** wherever bare "the Name" means YHVH, as God or as the name itself. Six sites corrected.
 - **5:5:9:** "yet not a revelation that is evident, but only [in that] its manifestation is there". The one place *mitgaleh* is not "revealed".
 - **5:5:14:** "no abiding, real action at all".
-- **Gate names:** keep "the" for a fixed set ("the Gate of the Palaces", "the Gate of the Holy Palaces", "the Gate of the Fifty Gates"). Gate 25 is "The Gate of Opposites", Gate 26 "The Gate of the Opposed Palaces".
+- **Gate names:** keep "the" for a fixed set ("the Gate of the Palaces", "the Gate of the Holy Palaces", "the Gate of the Fifty Gates"). Gate 25 is "The Gate of Opposites", Gate 26 "The Gate of the Opposed Palaces". *(Superseded later the same day: Gate 25 is "The Gate of Substitutes", Gate 26 "The Gate of the Substitute Palaces"; see the lexicon entry for temurah.)*
 - **Contents:** 25:0 "the husks, which are evil opposed [*temurat*] to good" (reading *temurat* for the misprinted word); 21:2 "the author of *Ma'arakhot Elohim Chayyim*".
 
 ## Still open, for a future round
@@ -72,8 +72,8 @@ Hebrew *ha-* is rendered "the" only where it has the force of a definite article
 | 21 | The Particulars of the Names | Particulars of Names |
 | 22 | The Gate of the Allusions | The Gate of Titles |
 | 23 | The Values of the Allusions | Glossary of Titles |
-| 25 | The Gate of the Substitutions | The Gate of Opposites |
-| 26 | The Palaces of the Substitutions | The Gate of the Opposed Palaces |
+| 25 | The Gate of the Substitutions | The Gate of Opposites, then **The Gate of Substitutes** |
+| 26 | The Palaces of the Substitutions | The Gate of the Opposed Palaces, then **The Gate of the Substitute Palaces** |
 | 27 | The Gate of the Letters | The Gate of Letters |
 | 28 | The Gate of the Vowel-Points | The Gate of Vowel-Points |
 | 29 | The Gate of the Cantillation Marks | The Gate of Cantillation Marks |

@@ -42,6 +42,8 @@
 6. ***Nukva*.** Lexicon: "the Female (Nukva)", the partzuf. In Gate 8 it is nearly always plain "female".
 7. ***Yichud*.** "Union" holds, but ch. 13 makes it a genus with three kinds, the third being *zivug*, and 8:14:8 turns on the difference between *mitchabberan* and *mizdavvegin*. Needs fixed, distinct words for *yichud, zivug, chibbur, kesher, devekut*.
 
+**Settled since these notes were written:** *temurah* = "substitute / substitution"; Gates 25 and 26 are "The Gate of Substitutes" and "The Gate of the Substitute Palaces", so "opposites" belongs to *hafakhim* alone. The "thirteen kinds of *temurah*" of chapters 3–4 are still open.
+
 ## New terms with no entry
 
 - **Chesed, Din, Rachamim as the triad of the gate** (*rachamim* 291 times). Policy needed on transliterating or translating when they are qualities ("simple mercy", "little judgment", "soft judgment") and when they are lines or Sefirot. *Ba'alei ha-din*, *mekatreg*.
