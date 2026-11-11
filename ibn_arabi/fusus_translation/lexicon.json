@@ -1,0 +1,755 @@
+{
+  "schemaVersion": "1.0",
+  "sourceLanguage": "ar",
+  "targetLanguage": "en",
+  "work": "Ibn ʿArabī, Fuṣūṣ al-ḥikam. Covers chapter 12 only (the Word of Shuʿayb): chapter_12_shuayb.md, from chapter_12_shuayb_arabic.md.",
+  "about": "Terminology record for the Fuṣūṣ translation, in the same shape as the Pardes Rimmonim lexicon at the root of this repository. Entries are keyed by Arabic. The first six entries record decisions made on 2026-11-09 and 2026-11-10; the rest record conventions the translation already had, taken from its own header and notes and marked as inherited. The chapter is not divided into numbered sections, so decisions cite a passage by a few of its words.",
+  "conventions": {
+    "divineNames": "Allāh = 'God'; al-Ḥaqq = 'the Real'.",
+    "pronouns": "Pronouns for God are lower-case throughout, including the quoted 'he' of huwiyya. (The Pardes translation capitalises them; the two projects differ by policy.)",
+    "brackets": "Square brackets give Arabic terms at first occurrence, Qurʾān references, and words supplied for sense."
+  },
+  "crossProject": {
+    "note": "The medieval Hebrew philosophical vocabulary was largely calqued from Arabic, so the two translations share terms. English is aligned where the sense is the same.",
+    "pairs": [
+      {
+        "arabic": "dhāt",
+        "hebrew": "atzmut (עצמות)",
+        "english": "self (Self in the Pardes)"
+      },
+      {
+        "arabic": "dhātī",
+        "hebrew": "atzmi, be-etzem (עצמי, בעצם)",
+        "english": "intrinsic(ally)"
+      },
+      {
+        "arabic": "māhiyya",
+        "hebrew": "mahut (מהות)",
+        "english": "essence"
+      },
+      {
+        "arabic": "ʿaraḍ",
+        "hebrew": "mikreh (מקרה)",
+        "english": "accident; the Pardes has the adverbial pair 'intrinsically / accidentally'"
+      },
+      {
+        "arabic": "wujūd",
+        "hebrew": "metzi'ut (מציאות)",
+        "english": "existence; in the Pardes also 'manifestation' for its technical count-noun use, which has no counterpart here"
+      },
+      {
+        "arabic": "mawjūdāt",
+        "hebrew": "nimtza'im (נמצאים)",
+        "english": "existents"
+      },
+      {
+        "arabic": "tajallī",
+        "hebrew": "hitgalut, gilui (התגלות, גילוי)",
+        "english": "autophany here; 'revelation' in the Pardes. Not aligned."
+      },
+      {
+        "arabic": "nafs",
+        "hebrew": "nefesh (נפש)",
+        "english": "soul here; 'vital soul' in the Pardes, beside neshamah = 'soul'. Not aligned."
+      }
+    ]
+  },
+  "readerFields": "Same meaning as in the Pardes lexicon: reader-facing text is entry.readerNote, entry.readerGloss and surfaceForms[form].readerGloss; everything else is the translator's working record.",
+  "entries": {
+    "ذات": {
+      "headword": "ذات",
+      "transliteration": "dhāt",
+      "partOfSpeech": "noun",
+      "etymology": "Originally the feminine of ذو, 'possessor of': 'she who possesses', the bearer of the attributes. In ordinary Arabic بذاته means simply 'by itself', and in modern Arabic الذات is the word for 'the self'. The medieval Hebrew counterparts are עצם and עצמות.",
+      "notes": "USER RULING (2026-11-09): ذات = 'self', not the customary 'essence'. The word names the thing's own self as against what it has or is related to. That is the contrast the chapter draws at its opening: the Real 'with respect to his self' is independent of the worlds, while lordship needs a world; 'and yet lordship ... is nothing other than this very self'. It also matches the ruling in the Pardes Rimmonim translation, where עצמות (the Hebrew counterpart) is 'Self' and the same question is asked of the Sefirot (Gate 4). The earlier translating session had resisted 'self'; the user reports finding the same rendering in Corbin, Alone with the Alone (passage not located here). 'Essence' is the usual choice in the English translations of the Fusus. RULES: (1) Lower-case 'self', in keeping with this translation's lower-case divine pronouns (the Pardes translation capitalises 'Self'; the two projects differ by policy). (2) التجلّي الذاتي = 'the autophany of the self'. (3) The logicians' adjective ذاتي, opposed to عرض, = 'intrinsic' ('intrinsic to it', 'an intrinsic definition'), matching the Pardes rendering of עצמי; this was done on the translator's initiative and flagged to the user as the most debatable of the changes, since 'essential definition' is the standard English for حدّ ذاتي. (4) 'Essence' is now free for ماهية. (5) Kept distinct from نفس = 'soul', which is the other Arabic word that can mean 'self'. SITES in ch. 12: 'with respect to his self [dhāt]'; 'the independence from the world that the self merits'; 'nothing other than this very self'; 'the autophany of the self [al-tajallī al-dhātī]'; ذاتي four times in the Ash'arite passage and once in its note.",
+      "candidates": [
+        {
+          "target": "self",
+          "gloss": "what a thing is in itself, as against what it has",
+          "status": "preferred",
+          "contextNotes": "The thing's own self as bearer of its attributes and relations. Lower-case.",
+          "decisions": [
+            {
+              "section": "opening: 'the Real, with respect to his self'",
+              "surfaceForm": "ذاته / الذات",
+              "rationale": "User ruling. Sharpens the contrast with lordship, and aligns with עצמות = 'Self' in the Pardes translation.",
+              "timestamp": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "target": "intrinsic (for ذاتي)",
+          "status": "preferred",
+          "contextNotes": "The logical sense, opposed to accident: 'an intrinsic definition'. Translator's choice, flagged as debatable.",
+          "decisions": [
+            {
+              "section": "the Ash'arite passage",
+              "surfaceForm": "ذاتي",
+              "rationale": "Aligned with the Pardes rendering of עצמי; 'essential' would bring back the word just retired from ذات.",
+              "timestamp": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "target": "essence",
+          "status": "rejected",
+          "contextNotes": "The customary rendering. It blurs ذات with ماهية and loses the contrast between the self and what belongs to it."
+        },
+        {
+          "target": "essential (for ذاتي)",
+          "status": "rejected",
+          "contextNotes": "Standard for حدّ ذاتي, but tied to 'essence'."
+        }
+      ],
+      "readerNote": "The self of a thing: what it is in itself, as against its attributes and its relations to other things. For the Real, the self is independent of the worlds, while the divine names each imply a relation to the world.",
+      "readerGloss": "self",
+      "surfaceForms": {
+        "ذاته": {
+          "readerGloss": "his self"
+        },
+        "الذات": {
+          "readerGloss": "the self"
+        },
+        "الذاتي": {
+          "readerGloss": "of the self"
+        },
+        "ذاتي": {
+          "readerGloss": "intrinsic"
+        }
+      }
+    },
+    "نفس": {
+      "headword": "نفس",
+      "transliteration": "nafs",
+      "partOfSpeech": "noun",
+      "notes": "USER RULING (2026-11-09): نفس = 'soul' wherever it stands as a noun. This frees 'self' for ذات and keeps the two apart in the sentence that needs both: 'his soul is not other than the one \"he\" refers to'. It also lines up with the Pardes translation, where the Hebrew split the same way: נפש kept the soul and עצמו took the reflexive. RULES: (1) The plain reflexive stays a reflexive: نفسه = 'himself', 'itself' ('God described himself [nafsahu] as having breath'; 'saying of himself'; 'in itself'; 'does not subsist by itself'). (2) The nafs / nafas pun (soul, breath) cannot be kept in English and is carried by note 5; 'soul' has its own old tie to breath (psyche, anima), so the link survives in idea. (3) The saying is 'whoever knows (recognizes) his soul knows (recognizes) his Lord'. (4) The passage on the philosophers and theologians, 'the soul and its essence', is the classical debate about the soul, which is one reason 'soul' suits better than 'self' there. COST accepted: the Delphic ring of 'from his self he recognized his self' is fainter as 'from his soul he recognized his soul'. SITES changed: 'from his own soul' (where the knower gives the Real the measure of each form); 'finds gloom within his soul' (the poem); 'From his soul he recognized his soul. And his soul is not other than ...'; 'Whoever recognizes his soul with this recognition has recognized his Lord'; 'the very one that person's \"he\" refers to'; 'the recognition of the soul and its reality'; 'the soul and its essence'. The last two of these changes ('within his soul', 'from his own soul') went beyond the user's explicit instruction and were flagged.",
+      "candidates": [
+        {
+          "target": "soul",
+          "status": "preferred",
+          "contextNotes": "All noun uses.",
+          "decisions": [
+            {
+              "section": "'From his soul he recognized his soul'",
+              "surfaceForm": "نفسه",
+              "rationale": "User: what stops us from translating nafs as soul? Nothing does; it frees 'self' for dhāt.",
+              "timestamp": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "target": "himself / itself (reflexive)",
+          "status": "preferred",
+          "contextNotes": "Where نفسه is only the reflexive pronoun."
+        },
+        {
+          "target": "self",
+          "status": "rejected",
+          "contextNotes": "Former rendering. Now belongs to ذات."
+        }
+      ],
+      "readerNote": "The soul. The chapter's central claim is made about it: whoever recognizes his soul recognizes his Lord. The same Arabic word serves as the ordinary reflexive (\"himself\"), and it is close in sound to nafas, \"breath\".",
+      "readerGloss": "soul",
+      "surfaceForms": {
+        "نفسه": {
+          "readerGloss": "his soul; himself"
+        },
+        "النفس": {
+          "readerGloss": "the soul"
+        },
+        "بنفسه": {
+          "readerGloss": "by itself"
+        }
+      }
+    },
+    "ماهية": {
+      "headword": "ماهية",
+      "transliteration": "māhiyya",
+      "partOfSpeech": "noun",
+      "etymology": "An abstract noun built from mā hiya, 'what is it?'. The Hebrew מהות is built the same way, from מה, and calques it.",
+      "notes": "RULING (2026-11-09, translator's proposal following the user's Pardes ruling, flagged to the user): ماهية = 'essence', not 'quiddity'. With ذات moved to 'self', 'essence' is free, and it matches מהות = 'essence' in the Pardes translation. One occurrence in ch. 12: 'in what they said about the soul and its essence [māhiyya]'.",
+      "candidates": [
+        {
+          "target": "essence",
+          "status": "preferred",
+          "contextNotes": "The 'what-it-is' of a thing.",
+          "decisions": [
+            {
+              "section": "'the soul and its essence'",
+              "surfaceForm": "ماهيتها",
+              "rationale": "Aligned with מהות = 'essence' in the Pardes translation.",
+              "timestamp": "2026-11-09"
+            }
+          ]
+        },
+        {
+          "target": "quiddity",
+          "status": "rejected",
+          "contextNotes": "Former rendering; accurate but opaque."
+        }
+      ],
+      "readerNote": "The essence of a thing: what it is, the answer to the question \"what is it?\".",
+      "readerGloss": "essence",
+      "surfaceForms": {
+        "ماهيتها": {
+          "readerGloss": "its essence"
+        }
+      }
+    },
+    "هوية": {
+      "headword": "هوية",
+      "transliteration": "huwiyya",
+      "partOfSpeech": "noun",
+      "etymology": "An abstract noun in -iyya from the pronoun huwa, 'he' or 'it'. Arabic has no verb 'to be' in simple sentences and huwa often does that work, which is why the early translators of philosophy used huwiyya for being and identity. God's self-designation by the pronoun is Qur'anic (112:1), and huwa alone is used as an invocation.",
+      "notes": "USER RULING (2026-11-10): rendered by a phrase, not a noun: 'what \"he\" refers to', 'the one \"he\" refers to', 'who \"he\" is'. Reached after rejecting, in turn, 'being', 'identity', 'he-ness' and 'self'. THE SENSE: an abstract noun from the pronoun huwa. A pronoun, unlike a name, refers without describing. So the huwiyya is the Real as referred to with nothing said about him, in contrast to the Real as named by the divine names, each of which has its own content and implies a relation to the world. The chapter draws that contrast twice: 'with respect to his self' against what lordship demands, and 'as the one \"he\" refers to, and as related to the world through the realities of his most beautiful names'. Arabic grammar calls the third person 'the absent one' (al-ghā'ib), which ties the word to the unseen (ghayb). RELATION TO ذات: same referent, different sense, but not flatly identical. The text says the autophany of the self has the unseen as its reality, 'and it is what \"he\" refers to': the huwiyya is tied to hiddenness. Working gloss: the self as unseen. Whether later systematisers make it a distinct level is not settled here. WHY NOT THE ALTERNATIVES: 'being' (the former rendering) reads smoothly but will be heard as wujūd, loses the pronoun, and lets in a participatory reading that the Arabic excludes ('rather, it is the very huwiyya', with عين). 'Identity' pulls toward the relation of self-sameness (user's objection). 'He-ness' is exact but an opaque technical term (user: you might as well write Dasein). 'Self' reads well but merges the word with ذات. RULES: (1) The quoted pronoun is lower-case, 'he', like every other divine pronoun here; the same word is said of God and of a person, and the chapter's claim is that the two have one referent. (2) The pronoun itself is 'he', not 'He is': بقوله عن نفسه هو = 'when he says of himself, \"he\"'. (3) In the first passage 'it' is kept for the ambiguous antecedent (user: the pronoun refers back to the nearest noun, the unseen, and 'it' preserves the original). (4) In the Ash'arite passage the word has the philosophers' sense and is 'the thing itself'. (5) Do not soften the identity claim in the 'soul' passage: it is explicit in the Arabic, and Ibn 'Arabi puts the qualification in the forms and relations ('creation in one relation and Real in another, and the entity is one'), not in this noun. THE SIX OCCURRENCES: (i) 'it is what \"he\" refers to [huwiyya], which is his by right when he says of himself, \"he.\" So \"he\" is his, always and forever.' (ii) 'as the one \"he\" refers to, and as related to the world ...' (iii) 'his soul is not other than the one \"he\" refers to, the Real; nor is anything in the cosmos ... other than the one \"he\" refers to — rather, it is that very one.' (iv) 'As for who \"he\" is: some servants are certain ...'; 'as to who \"he\" is ... as to who he is'. (v) 'he [the Lord] is the very one that person's \"he\" refers to, and his reality' (the possessive in the Arabic belongs to the person). (vi) 'the very thing defined, the thing itself'. A compact variant for (iii), 'not other than the Real's \"he\" ... it is that very \"he\"', was offered and not chosen. See note 10 of the translation.",
+      "candidates": [
+        {
+          "target": "what 'he' refers to / the one 'he' refers to / who 'he' is",
+          "gloss": "the Real as referred to by the bare pronoun",
+          "status": "preferred",
+          "contextNotes": "Phrasal, chosen by context. Lower-case 'he'.",
+          "decisions": [
+            {
+              "section": "'it is what \"he\" refers to [huwiyya]'",
+              "surfaceForm": "الهوية / هويته",
+              "rationale": "User's proposal, tried on all six passages: clearer than any noun, and it shows the pronoun-against-names contrast.",
+              "timestamp": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "target": "the thing itself",
+          "status": "preferred",
+          "contextNotes": "Only in the Ash'arite passage, where the sense is a thing's identity with its definition."
+        },
+        {
+          "target": "being",
+          "status": "rejected",
+          "contextNotes": "Former rendering. Suggests wujūd; drops the pronoun; softens the identity claim."
+        },
+        {
+          "target": "identity",
+          "status": "rejected",
+          "contextNotes": "Suggests the relation of self-sameness, not the referent."
+        },
+        {
+          "target": "he-ness",
+          "status": "rejected",
+          "contextNotes": "Exact but opaque."
+        },
+        {
+          "target": "self / selfhood",
+          "status": "rejected",
+          "contextNotes": "Merges with ذات; and a selfhood cannot do what the text says of it."
+        }
+      ],
+      "readerNote": "Literally \"he-ness\", from huwa, \"he\". It is the Real as referred to by the bare pronoun, with nothing said about him: hidden, unseen, prior to any name. The translation renders it by a phrase such as what \"he\" refers to.",
+      "readerGloss": "what 'he' refers to",
+      "surfaceForms": {
+        "الهوية": {
+          "readerGloss": "what \"he\" refers to"
+        },
+        "هويته": {
+          "readerGloss": "who \"he\" is"
+        },
+        "هوية الحق": {
+          "readerGloss": "the one \"he\" refers to, the Real"
+        }
+      }
+    },
+    "وجد": {
+      "headword": "وجود",
+      "transliteration": "wujūd",
+      "partOfSpeech": "noun (and the verbs of its root)",
+      "etymology": "From w-j-d, 'to find'. The Hebrew translators of Arabic philosophy calqued it as מציאות, from מ-צ-א, also 'to find'.",
+      "notes": "REVIEWED 2026-11-10, NO CHANGE: 'existence'. The user had felt 'existence' was not right in this chapter; on listing the passages it turned out that the noun occurs once and that the difficulty lay with huwiyya (then rendered 'being'). THE SEVEN USES OF THE ROOT in ch. 12: wujūdan = 'in existence' ('whether in existence or in supposition'); ījād = 'brought into existence'; mawjūdan = 'as existing'; mawjūdāt = 'existents'; yūjad = 'exists'; and the plain verb twice, yajidu / wajada = 'finds' ('finds gloom within his soul'; 'he finds God forgiving, compassionate'). THE ROOT SENSE is 'to find', and it is live for Ibn 'Arabi in a way it is not for the philosophers (cf. wajd, ecstasy). In this chapter the unveiling scene uses the plain verb: the dead man finds God other than his belief. An alternative for mawjūdan, 'as something there to be found', was noted and not adopted. CROSS-PROJECT: the Hebrew מציאות calques wujūd from a root that also means 'to find'. In the Pardes translation its technical count-noun use is 'manifestation'; that ruling does not carry over here, where the word has no such use.",
+      "candidates": [
+        {
+          "target": "existence",
+          "status": "preferred",
+          "contextNotes": "With 'existents' for mawjūdāt, 'exists' for yūjad, 'brought into existence' for ījād."
+        },
+        {
+          "target": "finds (for the plain verb)",
+          "status": "preferred",
+          "contextNotes": "yajidu, wajada."
+        },
+        {
+          "target": "being",
+          "status": "rejected",
+          "contextNotes": "Avoided, so that nothing is confused with the former rendering of huwiyya."
+        }
+      ],
+      "readerNote": "Existence. The root also means \"to find\", and Ibn 'Arabi keeps that sense alive: what exists is what is found.",
+      "readerGloss": "existence",
+      "surfaceForms": {
+        "وجودا": {
+          "readerGloss": "in existence"
+        },
+        "موجودا": {
+          "readerGloss": "as existing"
+        },
+        "الموجودات": {
+          "readerGloss": "existents"
+        },
+        "إيجاده": {
+          "readerGloss": "his bringing into existence"
+        },
+        "يجد": {
+          "readerGloss": "finds"
+        },
+        "وجد": {
+          "readerGloss": "found"
+        }
+      }
+    },
+    "استحق": {
+      "headword": "استحقّ",
+      "transliteration": "istaḥaqqa",
+      "partOfSpeech": "verb",
+      "notes": "OPEN (2026-11-10): the verb is rendered two ways in the chapter. 'The independence from the world that the self merits', and, in the huwiyya passage as the user approved it, 'which is his by right when he says of himself, \"he\"'. The mismatch was pointed out and not resolved. Unify when the chapter is next revised.",
+      "candidates": [
+        {
+          "target": "merits",
+          "status": "acceptable",
+          "contextNotes": "Opening passage."
+        },
+        {
+          "target": "is his by right",
+          "status": "acceptable",
+          "contextNotes": "The huwiyya passage (user-approved wording)."
+        }
+      ],
+      "readerNote": "To merit, to have by right.",
+      "readerGloss": "merits; is his by right",
+      "surfaceForms": {
+        "تستحقه": {
+          "readerGloss": "merits"
+        },
+        "يستحقها": {
+          "readerGloss": "is his by right"
+        }
+      }
+    },
+    "حق": {
+      "headword": "الحقّ",
+      "transliteration": "al-Ḥaqq",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'The Real', with 'God' for Allāh. Divine pronouns are lower-case throughout, by stated policy: the Arabic does not distinguish them and the chapter exploits the ambiguity. حقّ as an adjective is 'real'; حقّ وخلق = 'Real and creation'.",
+      "candidates": [
+        {
+          "target": "the Real",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "The Real: Ibn 'Arabi's usual name for God as what truly is.",
+      "readerGloss": "the Real",
+      "surfaceForms": {
+        "الحق": {
+          "readerGloss": "the Real"
+        }
+      }
+    },
+    "تجلي": {
+      "headword": "تجلّي",
+      "transliteration": "tajallī",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Autophany' (self-showing); the verb is 'shows himself' or 'reveals himself'. Distinct from emanation (fayḍ): its concern is visibility. See note 8.",
+      "candidates": [
+        {
+          "target": "autophany",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "The Real's showing of himself. It never repeats, and each showing gives the heart its form.",
+      "readerGloss": "autophany",
+      "surfaceForms": {
+        "التجلي": {
+          "readerGloss": "autophany"
+        },
+        "تجليه": {
+          "readerGloss": "his autophany"
+        },
+        "يتجلى": {
+          "readerGloss": "shows himself"
+        }
+      }
+    },
+    "عرف": {
+      "headword": "عارف / معرفة",
+      "transliteration": "ʿārif / maʿrifa",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. The vocabulary of recognition: 'one who recognizes', 'recognition', 'recognize', so that recognizing and denying (ʿarafa / ankara) stay audible; معروف = 'the recognized'. علم is 'knowledge'. See notes 2 and 16.",
+      "candidates": [
+        {
+          "target": "one who recognizes / recognition",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "One who recognizes God, and the recognition itself, as distinct from knowledge (ʿilm).",
+      "readerGloss": "one who recognizes; recognition",
+      "surfaceForms": {
+        "العارف": {
+          "readerGloss": "the one who recognizes"
+        },
+        "المعرفة": {
+          "readerGloss": "recognition"
+        },
+        "المعروف": {
+          "readerGloss": "the recognized"
+        }
+      }
+    },
+    "عقد": {
+      "headword": "اعتقاد / معتقَد",
+      "transliteration": "iʿtiqād / muʿtaqad",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Belief' and 'conception', from a root meaning to tie a knot; عقدة = 'knot'. See notes 11 and 20.",
+      "candidates": [
+        {
+          "target": "belief / conception",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "Belief, and what is believed. Each person sees the Real in the shape of what they have tied themselves to.",
+      "readerGloss": "belief; conception",
+      "surfaceForms": {
+        "اعتقاد": {
+          "readerGloss": "belief"
+        },
+        "معتقده": {
+          "readerGloss": "his conception"
+        },
+        "العقدة": {
+          "readerGloss": "the knot"
+        }
+      }
+    },
+    "عين": {
+      "headword": "عين",
+      "transliteration": "ʿayn",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Entity'; also 'eye', a double sense the poem uses; and as an intensifier, 'the very'. See note 14.",
+      "candidates": [
+        {
+          "target": "entity",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "An entity; also \"eye\". \"No entity but the one entity\" is also \"no eye but the one eye\".",
+      "readerGloss": "entity; eye; the very",
+      "surfaceForms": {
+        "العين": {
+          "readerGloss": "the entity"
+        },
+        "عين": {
+          "readerGloss": "the very"
+        }
+      }
+    },
+    "قلب": {
+      "headword": "قلب",
+      "transliteration": "qalb",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Heart'; تقلّب = 'shifting'; تقليب = 'being turned'. The root means to turn. See note 1.",
+      "candidates": [
+        {
+          "target": "heart",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "The heart, which by its name is the organ that turns: it takes the shape of each autophany.",
+      "readerGloss": "heart",
+      "surfaceForms": {
+        "القلب": {
+          "readerGloss": "the heart"
+        },
+        "تقلبه": {
+          "readerGloss": "its shifting"
+        },
+        "تقليبه": {
+          "readerGloss": "his being turned"
+        }
+      }
+    },
+    "رحم": {
+      "headword": "رحمة",
+      "transliteration": "raḥma",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Compassion'; الرحمن is left as al-Raḥmān with '[the All-Compassionate]' at first occurrence. See notes 3 and 6.",
+      "candidates": [
+        {
+          "target": "compassion",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "Compassion, which for Ibn 'Arabi is above all the giving of existence.",
+      "readerGloss": "compassion",
+      "surfaceForms": {
+        "رحمة": {
+          "readerGloss": "compassion"
+        },
+        "الرحمن": {
+          "readerGloss": "al-Raḥmān"
+        }
+      }
+    },
+    "نفَس": {
+      "headword": "نَفَس",
+      "transliteration": "nafas",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Breath'; تنفيس = 'relieving'; أنفاس = 'breaths' (instants). Puns with nafs. See note 5.",
+      "candidates": [
+        {
+          "target": "breath",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "Breath. The world is breathed into existence, and renewed with every breath.",
+      "readerGloss": "breath",
+      "surfaceForms": {
+        "بالنفس": {
+          "readerGloss": "breath"
+        },
+        "الأنفاس": {
+          "readerGloss": "breaths"
+        }
+      }
+    },
+    "ألوهية": {
+      "headword": "ألوهية / ربوبية",
+      "transliteration": "ulūhiyya / rubūbiyya",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Divinity' and 'lordship'; their correlates مألوه and مربوب are 'worshipper' and 'servant' (literally 'the god-ed' and 'the lorded-over'). عبد is also 'servant'. See the note on maʾlūh.",
+      "candidates": [
+        {
+          "target": "divinity / lordship",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "Divinity and lordship: names that require a correlate, something to be god of and lord over, and so require a world.",
+      "readerGloss": "divinity; lordship",
+      "surfaceForms": {
+        "الألوهية": {
+          "readerGloss": "divinity"
+        },
+        "الربوبية": {
+          "readerGloss": "lordship"
+        },
+        "المألوه": {
+          "readerGloss": "worshipper"
+        },
+        "المربوب": {
+          "readerGloss": "servant"
+        }
+      }
+    },
+    "عقل": {
+      "headword": "عقل",
+      "transliteration": "ʿaql",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Intellect', related to the cord that hobbles a camel; قيد / تقييد = 'binding', إطلاق = 'release'. See note 15.",
+      "candidates": [
+        {
+          "target": "intellect",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "The intellect, which binds: it fixes the matter to one description.",
+      "readerGloss": "intellect",
+      "surfaceForms": {
+        "عقل": {
+          "readerGloss": "intellect"
+        },
+        "التقييد": {
+          "readerGloss": "binding"
+        }
+      }
+    },
+    "همة": {
+      "headword": "همّة",
+      "transliteration": "himma",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Concentrated intent'. See note 14.",
+      "candidates": [
+        {
+          "target": "concentrated intent",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "Concern gathered to a single point.",
+      "readerGloss": "concentrated intent",
+      "surfaceForms": {
+        "همه": {
+          "readerGloss": "concentrated intent"
+        }
+      }
+    },
+    "خيال": {
+      "headword": "حضرة الخيال",
+      "transliteration": "ḥaḍrat al-khayāl",
+      "partOfSpeech": "noun phrase",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'The imaginal presence'. See note 17.",
+      "candidates": [
+        {
+          "target": "the imaginal presence",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "The plane of imagination, where the absent becomes present.",
+      "readerGloss": "the imaginal presence",
+      "surfaceForms": {
+        "حضرة الخيال": {
+          "readerGloss": "the imaginal presence"
+        }
+      }
+    },
+    "استعداد": {
+      "headword": "استعداد",
+      "transliteration": "istiʿdād",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Preparedness'.",
+      "candidates": [
+        {
+          "target": "preparedness",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "The readiness of the heart to receive a given autophany, itself given by the autophany of the unseen.",
+      "readerGloss": "preparedness",
+      "surfaceForms": {
+        "الاستعداد": {
+          "readerGloss": "preparedness"
+        }
+      }
+    },
+    "غيب": {
+      "headword": "غيب / شهادة",
+      "transliteration": "ghayb / shahāda",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'The unseen' and 'the witnessed'; شهود = 'witnessing'; شهيد = 'a witness'.",
+      "candidates": [
+        {
+          "target": "the unseen / the witnessed",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "The unseen and the witnessed: the two domains, and the two autophanies.",
+      "readerGloss": "the unseen; the witnessed",
+      "surfaceForms": {
+        "الغيب": {
+          "readerGloss": "the unseen"
+        },
+        "الشهادة": {
+          "readerGloss": "the witnessed"
+        }
+      }
+    },
+    "جوهر": {
+      "headword": "جوهر / عرض / هيولى",
+      "transliteration": "jawhar / ʿaraḍ / hayūlā",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Substance', 'accident', 'prime matter'. See note 27.",
+      "candidates": [
+        {
+          "target": "substance / accident / prime matter",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "The theologians' terms: a substance bears accidents; prime matter underlies every form.",
+      "readerGloss": "substance; accident; prime matter",
+      "surfaceForms": {
+        "الجوهر": {
+          "readerGloss": "substance"
+        },
+        "الأعراض": {
+          "readerGloss": "accidents"
+        },
+        "الهيولى": {
+          "readerGloss": "prime matter"
+        }
+      }
+    },
+    "فناء": {
+      "headword": "فناء / بقاء",
+      "transliteration": "fanāʾ / baqāʾ",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Passing-away' and 'subsistence'.",
+      "candidates": [
+        {
+          "target": "passing-away / subsistence",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "The passing-away of one creation at each autophany, and the subsistence of what the next one gives.",
+      "readerGloss": "passing-away; subsistence",
+      "surfaceForms": {
+        "الفناء": {
+          "readerGloss": "passing-away"
+        },
+        "البقاء": {
+          "readerGloss": "subsistence"
+        }
+      }
+    },
+    "كشف": {
+      "headword": "كشف",
+      "transliteration": "kashf",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Unveiling'; أهل الكشف = 'the people of unveiling'; الغطاء = 'the covering'.",
+      "candidates": [
+        {
+          "target": "unveiling",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "Direct disclosure, as against speculative thought.",
+      "readerGloss": "unveiling",
+      "surfaceForms": {
+        "الكشف": {
+          "readerGloss": "unveiling"
+        }
+      }
+    },
+    "فص": {
+      "headword": "فصّ",
+      "transliteration": "faṣṣ",
+      "partOfSpeech": "noun",
+      "notes": "ESTABLISHED before 2026-11-09 (earlier session). Recorded here from the translation's header and notes; not re-decided. 'Ringstone'; محلّ = its 'setting'. See note 9.",
+      "candidates": [
+        {
+          "target": "ringstone",
+          "status": "preferred",
+          "contextNotes": "As in the translation's notes."
+        }
+      ],
+      "readerNote": "The stone set in a signet ring. Each chapter of the book is a ringstone.",
+      "readerGloss": "ringstone",
+      "surfaceForms": {
+        "فص": {
+          "readerGloss": "ringstone"
+        },
+        "محل": {
+          "readerGloss": "setting"
+        }
+      }
+    }
+  }
+}
