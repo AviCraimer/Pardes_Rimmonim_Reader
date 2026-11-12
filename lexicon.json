@@ -846,7 +846,7 @@
    "headword": "מַאֲמָר",
    "transliteration": "ma'amar (pl. ma'amarot)",
    "partOfSpeech": "noun",
-   "notes": "The divine creative 'utterance.' Central to Gate 2 ch.3-5: the עשרה מאמרות ('ten utterances') by which the world was created (Avot 5:1) and whether בראשית counts as one. Distinct from דברות (the Ten Commandments) and הלולים (praises).",
+   "notes": "The divine creative 'utterance.' Central to Gate 2 ch.3-5: the עשרה מאמרות ('ten utterances') by which the world was created (Avot 5:1) and whether בראשית counts as one. Distinct from דברות (the Ten Commandments) and הלולים (praises). | 2026-11-12 (USER RULING): as a part of the name (Gate 8 ch. 4) מאמר = 'reading': dividing a string of letters, as it stands after permuting or combining, into words that have some sense (8:4:7 'which are two readings', of של מה). Not yet a teaching: the teaching (דבר) says what the reading means for the Sefirot. Combining joins words, reading divides them. Plural 'readings'. Unchanged elsewhere: the ten מאמרות = 'utterances'; a quoted passage (המאמר הזה, 'this statement of Rabbi Nechunya', 8:4:9) = 'statement'. The five 'parts' of the explicit name (Gate 8 ch. 4, from Sefer Ma'ayan ha-Chokhmah, Sefer ha-Kanah and a baraita in the name of Shimon ha-Tzaddik; R. Nechunya's prayer, 8:3:3): תיקון = 'arrangement'; צירוף = 'permutation'; מאמר = 'reading'; מכלל = 'combining'; חשבון = 'letter-reckoning'; with דבר = 'teaching' as the partner of מאמר. The Ma'ayan sentence pairs them, each going both ways (להוציא דבר במאמר ומאמר בדבר ותיקון בצירוף וצירוף בתיקון ומכלל בחשבון וחשבון במכלל): 'to bring out a teaching from a reading and a reading from a teaching; an arrangement from a permutation and a permutation from an arrangement; combining by letter-reckoning and letter-reckoning by combining'. Cordovero reads the pairs as going out and coming back: the return of the flame to the wellspring, the particulars to the general.",
    "candidates": [
     {
      "target": "utterance",
@@ -866,6 +866,19 @@
      "target": "saying",
      "status": "acceptable",
      "contextNotes": "common rendering of Avot 5:1; not used here for consistency."
+    },
+    {
+     "target": "reading",
+     "status": "preferred",
+     "contextNotes": "Only as a part of the name in Gate 8 ch. 4 and R. Nechunya's prayer.",
+     "decisions": [
+      {
+       "section": "8:4",
+       "surfaceForm": "מאמר",
+       "rationale": "User ruling: the reading is the dividing of the letters into meaningful words; its converse is combining.",
+       "timestamp": "2026-11-12"
+      }
+     ]
     }
    ],
    "readerNote": "A divine creative saying: the world was created with ten utterances, which correspond to the ten Sefirot. The same word also means a passage of the Zohar.",
@@ -2062,7 +2075,7 @@
    "headword": "תִּקּוּן (pl. תִּקּוּנִין)",
    "transliteration": "tikkun (pl. tikkunin)",
    "partOfSpeech": "noun",
-   "notes": "Patach Eliyahu: 'You produced עשר תיקונין and we call them ten Sefirot'. Cordovero glosses two senses — בהם תיקון המאציל (the Emanator's self-rectification/manifestation) and בהם תיקון העולם (the world's rectification). USER-CONFIRMED: render 'rectification(s)', gloss '(tikkunin)' parenthetically on FIRST use only, then 'rectification(s)' thereafter. FINAL. Distinct from the Idra תיקונים (conformations of the beard). | 2026-11-12 (USER RULING, supersedes 'rectification' for the noun): the noun תיקון / תיקונין is TRANSLITERATED: 'tikkun', plural 'tikkunim' (Aramaic 'tikkunin' in Zohar quotations), in roman, not glossed in the running text. WHY: the root ת-ק-ן means to put a thing into its proper, finished state (Ecclesiastes 1:15, 12:9; rabbinic התקין, 'prepare, institute', whence תקנה; מתוקן, 'made fit'; Targumic אתקין, 'prepare, arrange'). From there it branches into (a) setting a statement or passage right, (b) the proper written order of a name (Gate 8 ch. 4, the first of the five operations), (c) making ready and so dressing, adorning: the Zohar's תיקונין of the King and of the beard, and Cordovero's own gloss at 8:3:4, יופי וקשוט ותיקון הכתר, 'the beauty and the adornment and the tikkun of Keter', (d) repair of damage (8:3:3, the tikkun of judgment is through repentance). No one English word holds these, 'adornment' belongs to קישוט (which stands beside תיקון at 8:3:4), and 'array' belongs to מערכה. THE VERB is translated by context: 'set right' (a statement, a judgment: 8:2:3, 8:3:3 הדין יתוקן = 'judgment is set right'), 'was arrayed' / 'was set in order' (Zohar אתתקן), 'prepared' (אתקין). Sefer ha-Tikkunim, 'Tikkun 19' etc. are unchanged. Gate 8 chapters 2-3 follow this. Gates 1-7 still have 'rectification(s)' and, in 5:4, 'adornments' for תיקונין: listed in notes/pending_conversions.md.",
+   "notes": "Patach Eliyahu: 'You produced עשר תיקונין and we call them ten Sefirot'. Cordovero glosses two senses — בהם תיקון המאציל (the Emanator's self-rectification/manifestation) and בהם תיקון העולם (the world's rectification). USER-CONFIRMED: render 'rectification(s)', gloss '(tikkunin)' parenthetically on FIRST use only, then 'rectification(s)' thereafter. FINAL. Distinct from the Idra תיקונים (conformations of the beard). | 2026-11-12 (USER RULING, supersedes 'rectification' for the noun): the noun תיקון / תיקונין is TRANSLITERATED: 'tikkun', plural 'tikkunim' (Aramaic 'tikkunin' in Zohar quotations), in roman, not glossed in the running text. WHY: the root ת-ק-ן means to put a thing into its proper, finished state (Ecclesiastes 1:15, 12:9; rabbinic התקין, 'prepare, institute', whence תקנה; מתוקן, 'made fit'; Targumic אתקין, 'prepare, arrange'). From there it branches into (a) setting a statement or passage right, (b) the proper written order of a name (Gate 8 ch. 4, the first of the five operations), (c) making ready and so dressing, adorning: the Zohar's תיקונין of the King and of the beard, and Cordovero's own gloss at 8:3:4, יופי וקשוט ותיקון הכתר, 'the beauty and the adornment and the tikkun of Keter', (d) repair of damage (8:3:3, the tikkun of judgment is through repentance). No one English word holds these, 'adornment' belongs to קישוט (which stands beside תיקון at 8:3:4), and 'array' belongs to מערכה. THE VERB is translated by context: 'set right' (a statement, a judgment: 8:2:3, 8:3:3 הדין יתוקן = 'judgment is set right'), 'was arrayed' / 'was set in order' (Zohar אתתקן), 'prepared' (אתקין). Sefer ha-Tikkunim, 'Tikkun 19' etc. are unchanged. Gate 8 chapters 2-3 follow this. Gates 1-7 still have 'rectification(s)' and, in 5:4, 'adornments' for תיקונין: listed in notes/pending_conversions.md. | 2026-11-12 (USER RULING): EXCEPTION to the transliteration of the noun: as the first of the five parts of the name (Gate 8 ch. 4) תיקון = 'arrangement', the set layout of the letters from which the other operations start. Not 'original order': in Shimon ha-Tzaddik's example (8:4:4) the tikkun of the 72-letter name is three verses written in rows, the middle one reversed, and read down the columns (והו ילי סיט); at 8:4:8 one row of 620 letters has many tikkunim, divided into words of two, of three, and so on. 'Arrangement' pairs with 'permutation' (the permutation returns to the arrangement) and keeps Cordovero's explanation at 8:4:5 intelligible ('called arrangement because it is the arranging of the name and its order, without confusion or corruption'). Link to the ordinary sense marked once with a bracket: 8:4:8 'the height of their stature is their arrangement [tikkun]'. The five 'parts' of the explicit name (Gate 8 ch. 4, from Sefer Ma'ayan ha-Chokhmah, Sefer ha-Kanah and a baraita in the name of Shimon ha-Tzaddik; R. Nechunya's prayer, 8:3:3): תיקון = 'arrangement'; צירוף = 'permutation'; מאמר = 'reading'; מכלל = 'combining'; חשבון = 'letter-reckoning'; with דבר = 'teaching' as the partner of מאמר. The Ma'ayan sentence pairs them, each going both ways (להוציא דבר במאמר ומאמר בדבר ותיקון בצירוף וצירוף בתיקון ומכלל בחשבון וחשבון במכלל): 'to bring out a teaching from a reading and a reading from a teaching; an arrangement from a permutation and a permutation from an arrangement; combining by letter-reckoning and letter-reckoning by combining'. Cordovero reads the pairs as going out and coming back: the return of the flame to the wellspring, the particulars to the general.",
    "candidates": [
     {
      "target": "rectification",
@@ -2121,6 +2134,12 @@
     },
     "יתוקן": {
      "readerGloss": "is set right"
+    },
+    "התיקון": {
+     "readerGloss": "tikkun; the arrangement (of a name)"
+    },
+    "תיקונם": {
+     "readerGloss": "their tikkun; their arrangement"
     }
    },
    "etymology": "From ת-ק-ן, 'to put into a proper, finished state': Ecclesiastes 1:15 'what is crooked cannot be made straight (לתקן)', 12:9 'he set in order (תקן) many proverbs'. Rabbinic התקין, 'to prepare, to institute' (whence תקנה, an ordinance), מתוקן, 'made fit'. In the Zohar the תיקונין of a bride or of the King are his being made ready, dressed and adorned. The sense 'repair' is the same idea applied to what has been spoiled.",
@@ -8043,7 +8062,7 @@
    "transliteration": "tziruf",
    "partOfSpeech": "noun",
    "etymology": "From צ-ר-ף, 'to join, to refine'. As a technique of interpretation it is the rearranging of letters; Cordovero defines it at 30:1:4 from Sefer Yetzirah: 'two stones build two houses, three build six, four build twenty-four, five build 120, six build 720, seven build 5,040', that is, n factorial, and he writes out the orderings (אב בא; אבג אגב באג ...).",
-   "notes": "2026-11-10 (USER RULING): צירוף as a technique = 'permutation' (rearrangement of the same letters), not 'combination'. Cordovero's own definition (30:1:4) is factorial, i.e. permutation in the exact sense. SITES: 3:8:8 בצירוף דעות הוא עדות = 'by permutation, de'ot is edut' (was 'in the combination [of letters]'); 1:2:9 על דרך הצירוף = 'by way of permutation' (was 'letter-combination'); index: Gate 30 שער הצירוף = 'The Gate of Permutation' with its chapters, and 8:4. NOT AFFECTED: the ordinary verb 'to join' (7:2:13 המצרפם 'which combines them'; 4:10:6 צרופה אל הגוף 'its being joined to the body'). RELATED: the forms of YHVH called הויות are left untranslated (see entry הויות), so 'permutation' is no longer spent on them; where a gloss is needed write 'the twelve havayot [permutations of the four-letter name]'. תמורה = 'substitution', גלגול = 'cycling' (index usage, unchanged). | Gate 30 title confirmed: 'The Gate of Permutation'. | 2026-11-10: 4:10:7 מצטרפים מאותיות השם ... בן י\"ב המצורף = 'are formed from the letters of the Name ... the composite twelve-letter [name]' (user's choice). This is the ordinary sense 'to join': the three words hayah, hoveh, yihyeh each repeat a letter, so they are not rearrangements. תמורה has two senses, kept apart: the letter technique of Gate 30 = 'substitution'; the תמורות of Gates 25-26 = the husks as the opposites of the holy order (cf. Sefer Yetzirah, 'the temurah of peace is evil'). GATE TITLES (USER RULING): Gate 25 שער התמורות = 'The Gate of Opposites'; Gate 26 היכלי התמורות = 'The Gate of the Opposed Palaces'. Contents 25:0, reading תמורת for the printed חמורו': 'the husks, which are evil opposed [temurat] to good' (user's wording). | 2026-11-10, later the same day (USER RULING, supersedes 'Opposites'): תמורה is now 'substitute / substitution' throughout and has its own entry (תמורה). Gate 25 = 'The Gate of Substitutes'; Gate 26 = 'The Gate of the Substitute Palaces'; contents 25:0 'evil substituted [temurat] for good'. The titles given earlier in this note are superseded. | 2026-11-12: R. Nechunya's prayer (8:3:3) has בצירוף רום קומתם, and Cordovero's first explanation (8:3:5) takes it as the pillars being joined one above another (כאשר יצטרפו כלם ... בערך צירופם יחד). Rendered 'in the joining [tziruf] of the height of their stature' and, in the commentary, 'joined', 'their joining together'. The sense 'permutation' returns in chapter 4, where צירוף is the second of the five operations. In the prayer the other operations are left transliterated until chapter 4 settles them: 'exalted in ma'amar and mikhlal and cheshbon'; י\"ג מיני תמורה = 'thirteen kinds of substitution [temurah]'.",
+   "notes": "2026-11-10 (USER RULING): צירוף as a technique = 'permutation' (rearrangement of the same letters), not 'combination'. Cordovero's own definition (30:1:4) is factorial, i.e. permutation in the exact sense. SITES: 3:8:8 בצירוף דעות הוא עדות = 'by permutation, de'ot is edut' (was 'in the combination [of letters]'); 1:2:9 על דרך הצירוף = 'by way of permutation' (was 'letter-combination'); index: Gate 30 שער הצירוף = 'The Gate of Permutation' with its chapters, and 8:4. NOT AFFECTED: the ordinary verb 'to join' (7:2:13 המצרפם 'which combines them'; 4:10:6 צרופה אל הגוף 'its being joined to the body'). RELATED: the forms of YHVH called הויות are left untranslated (see entry הויות), so 'permutation' is no longer spent on them; where a gloss is needed write 'the twelve havayot [permutations of the four-letter name]'. תמורה = 'substitution', גלגול = 'cycling' (index usage, unchanged). | Gate 30 title confirmed: 'The Gate of Permutation'. | 2026-11-10: 4:10:7 מצטרפים מאותיות השם ... בן י\"ב המצורף = 'are formed from the letters of the Name ... the composite twelve-letter [name]' (user's choice). This is the ordinary sense 'to join': the three words hayah, hoveh, yihyeh each repeat a letter, so they are not rearrangements. תמורה has two senses, kept apart: the letter technique of Gate 30 = 'substitution'; the תמורות of Gates 25-26 = the husks as the opposites of the holy order (cf. Sefer Yetzirah, 'the temurah of peace is evil'). GATE TITLES (USER RULING): Gate 25 שער התמורות = 'The Gate of Opposites'; Gate 26 היכלי התמורות = 'The Gate of the Opposed Palaces'. Contents 25:0, reading תמורת for the printed חמורו': 'the husks, which are evil opposed [temurat] to good' (user's wording). | 2026-11-10, later the same day (USER RULING, supersedes 'Opposites'): תמורה is now 'substitute / substitution' throughout and has its own entry (תמורה). Gate 25 = 'The Gate of Substitutes'; Gate 26 = 'The Gate of the Substitute Palaces'; contents 25:0 'evil substituted [temurat] for good'. The titles given earlier in this note are superseded. | 2026-11-12: R. Nechunya's prayer (8:3:3) has בצירוף רום קומתם, and Cordovero's first explanation (8:3:5) takes it as the pillars being joined one above another (כאשר יצטרפו כלם ... בערך צירופם יחד). Rendered 'in the joining [tziruf] of the height of their stature' and, in the commentary, 'joined', 'their joining together'. The sense 'permutation' returns in chapter 4, where צירוף is the second of the five operations. In the prayer the other operations are left transliterated until chapter 4 settles them: 'exalted in ma'amar and mikhlal and cheshbon'; י\"ג מיני תמורה = 'thirteen kinds of substitution [temurah]'. | 2026-11-12 (USER RULING): confirmed as 'permutation' for Gate 8 ch. 4 (rearranging, configuring rejected as nouns: 'permutations of the Name' is the established English and Gate 30's definition is factorial). The worked example shows that dividing letters into words belongs to the reading (מאמר), not to the permutation: from the permutation של מה, the reading ש מלה moves only the word break. R. Nechunya's prayer 8:3:3 בצירוף רום קומתם = 'in the permutation [tziruf] of the height of their stature' (was 'joining'); Cordovero's first gloss (8:3:5) explains it as the pillars being joined one above another: there 'when they are all joined [yitztarfu]', 'their joining together [tzirufam]'. His second gloss (8:4:8-9) is permutation proper, and he says the two agree. The five 'parts' of the explicit name (Gate 8 ch. 4, from Sefer Ma'ayan ha-Chokhmah, Sefer ha-Kanah and a baraita in the name of Shimon ha-Tzaddik; R. Nechunya's prayer, 8:3:3): תיקון = 'arrangement'; צירוף = 'permutation'; מאמר = 'reading'; מכלל = 'combining'; חשבון = 'letter-reckoning'; with דבר = 'teaching' as the partner of מאמר. The Ma'ayan sentence pairs them, each going both ways (להוציא דבר במאמר ומאמר בדבר ותיקון בצירוף וצירוף בתיקון ומכלל בחשבון וחשבון במכלל): 'to bring out a teaching from a reading and a reading from a teaching; an arrangement from a permutation and a permutation from an arrangement; combining by letter-reckoning and letter-reckoning by combining'. Cordovero reads the pairs as going out and coming back: the return of the flame to the wellspring, the particulars to the general.",
    "candidates": [
     {
      "target": "permutation",
@@ -8171,7 +8190,7 @@
    "transliteration": "temurah / temurot",
    "partOfSpeech": "noun",
    "etymology": "From the root מ-ו-ר, 'to exchange': Leviticus 27:10 'he shall not exchange it nor substitute it ... it and its substitute (תמורתו) shall be holy', whence the Talmudic tractate Temurah on substituted offerings. Sefer Yetzirah uses it for what stands in the place of a thing ('the temurah of peace is evil'). In the techniques of interpretation it is the replacing of one letter by another according to a paired alphabet such as at-bash.",
-   "notes": "2026-11-10, later the same day (USER RULING, supersedes 'Opposites'): תמורה = 'substitute' / 'substitution', one English root for every use, so that 'opposite' is left to הפך alone. Why: 'opposites' was doing double duty. Gate 8 defines a Sefirah as כח הכולל הפכים רבים, 'a power that includes many opposites' (הפכים 46 times in that gate), while the titles of Gates 25 and 26 are תמורות; and Gate 8 itself has תמורה in chapters 3-4. GATE TITLES: Gate 25 שער התמורות = 'The Gate of Substitutes'; Gate 26 היכלי התמורות = 'The Gate of the Substitute Palaces'. Contents 25:0 (reading תמורת for the printed חמורו'): 'the husks, which are evil substituted [temurat] for good'. Cross-references changed with them: 7:2:25, 7:4:7. SENSES: (1) the husks and their palaces, which stand in the place of the holy ones = 'substitutes', 'substitute palaces'; (2) the technique of replacing letters = 'substitution' (contents 30:0, 30:5, unchanged). OPEN: the 'thirteen kinds of temurah' of R. Nechunya's prayer (8:3:3, 8:4:8-9), which Cordovero glosses as מדות מתחלפות, 'attributes that differ from one another'; to be settled when Gate 8 chapters 3-4 are translated. HISTORY: the contents first had 'The Gate of the Substitutions' / 'The Palaces of the Substitutions'; changed to 'Opposites' / 'Opposed Palaces' earlier on 10 November; changed to the present titles the same evening.",
+   "notes": "2026-11-10, later the same day (USER RULING, supersedes 'Opposites'): תמורה = 'substitute' / 'substitution', one English root for every use, so that 'opposite' is left to הפך alone. Why: 'opposites' was doing double duty. Gate 8 defines a Sefirah as כח הכולל הפכים רבים, 'a power that includes many opposites' (הפכים 46 times in that gate), while the titles of Gates 25 and 26 are תמורות; and Gate 8 itself has תמורה in chapters 3-4. GATE TITLES: Gate 25 שער התמורות = 'The Gate of Substitutes'; Gate 26 היכלי התמורות = 'The Gate of the Substitute Palaces'. Contents 25:0 (reading תמורת for the printed חמורו'): 'the husks, which are evil substituted [temurat] for good'. Cross-references changed with them: 7:2:25, 7:4:7. SENSES: (1) the husks and their palaces, which stand in the place of the holy ones = 'substitutes', 'substitute palaces'; (2) the technique of replacing letters = 'substitution' (contents 30:0, 30:5, unchanged). OPEN: the 'thirteen kinds of temurah' of R. Nechunya's prayer (8:3:3, 8:4:8-9), which Cordovero glosses as מדות מתחלפות, 'attributes that differ from one another'; to be settled when Gate 8 chapters 3-4 are translated. HISTORY: the contents first had 'The Gate of the Substitutions' / 'The Palaces of the Substitutions'; changed to 'Opposites' / 'Opposed Palaces' earlier on 10 November; changed to the present titles the same evening. | 2026-11-12: the thirteen kinds of temurah of R. Nechunya's prayer = 'thirteen kinds of substitution [temurah]' (8:3:3, 8:4:1, 8:4:8-9). The letter strings that close the prayer (MTzPTz MTzPTz TKh...) are the thirteen attributes of Exodus 34:6-7 in at-bash; Cordovero's gloss מדות מתחלפות = 'attributes that differ from one another'.",
    "candidates": [
     {
      "target": "substitute / substitution",
@@ -8288,6 +8307,110 @@
    "surfaceForms": {
     "ממש": {
      "readerGloss": "literally; literal"
+    }
+   }
+  },
+  "דבר-פירוש": {
+   "headword": "דָּבָר (in the five parts of the name)",
+   "transliteration": "davar",
+   "partOfSpeech": "noun",
+   "etymology": "From ד-ב-ר, 'to speak': word, thing, matter. In the Ma'ayan sentence it pairs with מאמר, from א-מ-ר, 'to say'.",
+   "notes": "2026-11-12 (USER RULING): in Gate 8 ch. 4, דבר = 'teaching': what a reading is taken to say about the Sefirot. Cordovero glosses it himself, יעשה ממנו דבר דהיינו פי' = 'he makes from it a teaching, that is, an interpretation'; 'meaning' and 'interpretation' were rejected because they make that gloss circular. The return 'a reading from a teaching' is the hermeneutic circle: the teaching changes how the letters are seen and guides the next operation (8:4:7 'after he makes the teaching, the matter returns to the reading'). Elsewhere דבר keeps its ordinary senses (word, thing, matter). The five 'parts' of the explicit name (Gate 8 ch. 4, from Sefer Ma'ayan ha-Chokhmah, Sefer ha-Kanah and a baraita in the name of Shimon ha-Tzaddik; R. Nechunya's prayer, 8:3:3): תיקון = 'arrangement'; צירוף = 'permutation'; מאמר = 'reading'; מכלל = 'combining'; חשבון = 'letter-reckoning'; with דבר = 'teaching' as the partner of מאמר. The Ma'ayan sentence pairs them, each going both ways (להוציא דבר במאמר ומאמר בדבר ותיקון בצירוף וצירוף בתיקון ומכלל בחשבון וחשבון במכלל): 'to bring out a teaching from a reading and a reading from a teaching; an arrangement from a permutation and a permutation from an arrangement; combining by letter-reckoning and letter-reckoning by combining'. Cordovero reads the pairs as going out and coming back: the return of the flame to the wellspring, the particulars to the general.",
+   "candidates": [
+    {
+     "target": "teaching",
+     "status": "preferred",
+     "contextNotes": "Gate 8 ch. 4 only.",
+     "decisions": [
+      {
+       "section": "8:4",
+       "surfaceForm": "דבר",
+       "rationale": "User ruling; keeps Cordovero's gloss 'that is, an interpretation' from being circular.",
+       "timestamp": "2026-11-12"
+      }
+     ]
+    },
+    {
+     "target": "meaning / interpretation",
+     "status": "rejected",
+     "contextNotes": "Circular beside Cordovero's gloss פירוש."
+    }
+   ],
+   "readerNote": "Teaching: in the five parts of the name, what a reading is taken to say about the Sefirot. From the reading one draws a teaching, and the teaching sends one back to the letters for a new reading.",
+   "readerGloss": "teaching (what a reading says)",
+   "surfaceForms": {}
+  },
+  "כלל-מכלל": {
+   "headword": "מִכְלָל",
+   "transliteration": "mikhlal",
+   "partOfSpeech": "noun",
+   "etymology": "From כ-ל-ל, 'to include, to complete' (Psalms 50:2 מכלל יופי, 'perfection of beauty'; Kimchi's grammar Mikhlol, 'compendium'). Same root as כלול, 'included'.",
+   "notes": "2026-11-12 (USER RULING): as a part of the name, מכלל = 'combining' (plural מכלולים = 'combinations'): joining two words into one string of letters, which a reading then divides again (8:4:7: שלמה אלקים combined and read as שלם האל מיה). Cordovero defines it with the verb: לכלול תיבה בתיבה = 'to combine word with word', and the Kanah's לכלול הכל ביחד = 'to combine everything together'. In this technical sense only, the verb כלל is 'combine', an exception to the כלל ruling ('include'). The five 'parts' of the explicit name (Gate 8 ch. 4, from Sefer Ma'ayan ha-Chokhmah, Sefer ha-Kanah and a baraita in the name of Shimon ha-Tzaddik; R. Nechunya's prayer, 8:3:3): תיקון = 'arrangement'; צירוף = 'permutation'; מאמר = 'reading'; מכלל = 'combining'; חשבון = 'letter-reckoning'; with דבר = 'teaching' as the partner of מאמר. The Ma'ayan sentence pairs them, each going both ways (להוציא דבר במאמר ומאמר בדבר ותיקון בצירוף וצירוף בתיקון ומכלל בחשבון וחשבון במכלל): 'to bring out a teaching from a reading and a reading from a teaching; an arrangement from a permutation and a permutation from an arrangement; combining by letter-reckoning and letter-reckoning by combining'. Cordovero reads the pairs as going out and coming back: the return of the flame to the wellspring, the particulars to the general.",
+   "candidates": [
+    {
+     "target": "combining / combination",
+     "status": "preferred",
+     "contextNotes": "Gate 8 ch. 4 and the prayer.",
+     "decisions": [
+      {
+       "section": "8:4",
+       "surfaceForm": "מכלל",
+       "rationale": "User ruling: the operation joins words; reading is its converse.",
+       "timestamp": "2026-11-12"
+      }
+     ]
+    },
+    {
+     "target": "inclusion",
+     "status": "rejected",
+     "contextNotes": "Collides with כללות."
+    }
+   ],
+   "readerNote": "Combining: in the five parts of the name, joining two words into one string of letters, so that a new reading can be divided out of it.",
+   "readerGloss": "combining",
+   "surfaceForms": {
+    "מכלל": {
+     "readerGloss": "combining"
+    },
+    "ומכלל": {
+     "readerGloss": "and combining"
+    }
+   }
+  },
+  "חשב-חשבון": {
+   "headword": "חֶשְׁבּוֹן",
+   "transliteration": "cheshbon",
+   "partOfSpeech": "noun",
+   "etymology": "From ח-ש-ב, 'to think, to reckon': a calculation, an account; in gematria עולה בחשבון, 'amounts in value to'.",
+   "notes": "2026-11-12 (USER RULING): as a part of the name, חשבון = 'letter-reckoning': joining two letters into one, or splitting one into two, by their numerical value, and keeping the values balanced (8:4:7: לעשות מאות אחת שתים או משתים אחת על דרך החיבור והפירוד, citing Gate 30 ch. 8, where הוה becomes יו by joining the two hehs into yod, and חיים becomes חכם). It works on letters as combining works on words. 'Counting' rejected (suggests the number of letters only). Where the word is not the operation it is ordinary English: 8:4:8 ברוממות חשבון עד לאין תכלית = 'in the loftiness of number, without end'; נחשבם בחשבונות = 'we reckon them in reckonings'. The five 'parts' of the explicit name (Gate 8 ch. 4, from Sefer Ma'ayan ha-Chokhmah, Sefer ha-Kanah and a baraita in the name of Shimon ha-Tzaddik; R. Nechunya's prayer, 8:3:3): תיקון = 'arrangement'; צירוף = 'permutation'; מאמר = 'reading'; מכלל = 'combining'; חשבון = 'letter-reckoning'; with דבר = 'teaching' as the partner of מאמר. The Ma'ayan sentence pairs them, each going both ways (להוציא דבר במאמר ומאמר בדבר ותיקון בצירוף וצירוף בתיקון ומכלל בחשבון וחשבון במכלל): 'to bring out a teaching from a reading and a reading from a teaching; an arrangement from a permutation and a permutation from an arrangement; combining by letter-reckoning and letter-reckoning by combining'. Cordovero reads the pairs as going out and coming back: the return of the flame to the wellspring, the particulars to the general.",
+   "candidates": [
+    {
+     "target": "letter-reckoning",
+     "status": "preferred",
+     "contextNotes": "Gate 8 ch. 4 and the prayer.",
+     "decisions": [
+      {
+       "section": "8:4",
+       "surfaceForm": "חשבון",
+       "rationale": "User ruling: the operation joins or splits letters by value, the letter-level partner of combining.",
+       "timestamp": "2026-11-12"
+      }
+     ]
+    },
+    {
+     "target": "counting / reckoning",
+     "status": "acceptable",
+     "contextNotes": "Where the word is not the operation."
+    }
+   ],
+   "readerNote": "Letter-reckoning: in the five parts of the name, joining two letters into one or splitting one into two by their numerical values, so that nothing is lost in the count.",
+   "readerGloss": "letter-reckoning",
+   "surfaceForms": {
+    "חשבון": {
+     "readerGloss": "letter-reckoning; reckoning"
+    },
+    "וחשבון": {
+     "readerGloss": "and letter-reckoning"
     }
    }
   }
