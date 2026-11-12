@@ -11,9 +11,12 @@ Rule: "x is composed of y" becomes "x includes y". "Composed", "composite", "com
 - **"comprise", "comprising"** (removed in every form): 1:7:2, 1:7:5, 2:4:1, 4:5:4 (×2), 4:6:1, 4:6:4 (×2), 4:7:1, 4:7:4, 4:7:5 (×9), 4:7:7, 4:7:8, 4:8:1, 4:10:6, 4:10:7, 5:2:1, 5:2:2 (×2), 5:2:4, 5:2:5 (×4), 5:3:1 (×8), 5:4:8, 5:5:7, 5:5:8, 5:5:12, 5:5:13, 5:5:14 (×2), 5:5:15 (×3), 5:6:1 (×4), 5:6:2, 5:6:3 (×3), 5:6:7, 6:5:4, 3:2:1, 4:7:9
 - **"encompass"** (22 sites): keep where the Hebrew is *makif* / *mukaf*; change where it is *kolel* (the lexicon names 1:2:9, 1:9:2 and 4:5:10): 1:2:9, 1:9:2, 2:7:8 (×2), 2:7:9, 2:7:10 (×3), 4:5:1, 4:5:10, 6:1:11, 6:3:2 (×6), 6:3:5, 6:5:1 (×2), 6:5:2, 6:5:4
 
-## *Tikkun*
+## *Tikkun*: transliterated as a noun (ruled 12 November 2026)
 
-The translated text has "rectification" and, in 5:4, "arrayed" and "adornments" for the same root; "adornment" is also the rendering of *kishut*. To be converted once *tikkun* is ruled.
+The noun becomes "tikkun", "tikkunim" ("tikkunin" in Zohar quotations); the verb is translated by context ("set right", "was arrayed"). Gate 8 chapters 2–3 are done. In Gates 1–7 check these against the Hebrew:
+
+- **"rectification(s)"** in paragraphs whose Hebrew has the noun (17 words): 2:3:6, 2:6:1, 4:2:5, 4:5:1, 4:5:9 (×6), 4:8:1, 5:4:4, 5:5:14, 5:5:15, 7:1:6, 7:3:4 (×2)
+- **"adornment(s)"** in paragraphs that have *tikkun* and no *kishut* (4 words; mostly the Idra passage in 5:4): 5:4:3 (×4)
 
 ## 5:4:4, "the line of mercy"
 

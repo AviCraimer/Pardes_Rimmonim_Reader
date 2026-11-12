@@ -2062,12 +2062,12 @@
    "headword": "תִּקּוּן (pl. תִּקּוּנִין)",
    "transliteration": "tikkun (pl. tikkunin)",
    "partOfSpeech": "noun",
-   "notes": "Patach Eliyahu: 'You produced עשר תיקונין and we call them ten Sefirot'. Cordovero glosses two senses — בהם תיקון המאציל (the Emanator's self-rectification/manifestation) and בהם תיקון העולם (the world's rectification). USER-CONFIRMED: render 'rectification(s)', gloss '(tikkunin)' parenthetically on FIRST use only, then 'rectification(s)' thereafter. FINAL. Distinct from the Idra תיקונים (conformations of the beard).",
+   "notes": "Patach Eliyahu: 'You produced עשר תיקונין and we call them ten Sefirot'. Cordovero glosses two senses — בהם תיקון המאציל (the Emanator's self-rectification/manifestation) and בהם תיקון העולם (the world's rectification). USER-CONFIRMED: render 'rectification(s)', gloss '(tikkunin)' parenthetically on FIRST use only, then 'rectification(s)' thereafter. FINAL. Distinct from the Idra תיקונים (conformations of the beard). | 2026-11-12 (USER RULING, supersedes 'rectification' for the noun): the noun תיקון / תיקונין is TRANSLITERATED: 'tikkun', plural 'tikkunim' (Aramaic 'tikkunin' in Zohar quotations), in roman, not glossed in the running text. WHY: the root ת-ק-ן means to put a thing into its proper, finished state (Ecclesiastes 1:15, 12:9; rabbinic התקין, 'prepare, institute', whence תקנה; מתוקן, 'made fit'; Targumic אתקין, 'prepare, arrange'). From there it branches into (a) setting a statement or passage right, (b) the proper written order of a name (Gate 8 ch. 4, the first of the five operations), (c) making ready and so dressing, adorning: the Zohar's תיקונין of the King and of the beard, and Cordovero's own gloss at 8:3:4, יופי וקשוט ותיקון הכתר, 'the beauty and the adornment and the tikkun of Keter', (d) repair of damage (8:3:3, the tikkun of judgment is through repentance). No one English word holds these, 'adornment' belongs to קישוט (which stands beside תיקון at 8:3:4), and 'array' belongs to מערכה. THE VERB is translated by context: 'set right' (a statement, a judgment: 8:2:3, 8:3:3 הדין יתוקן = 'judgment is set right'), 'was arrayed' / 'was set in order' (Zohar אתתקן), 'prepared' (אתקין). Sefer ha-Tikkunim, 'Tikkun 19' etc. are unchanged. Gate 8 chapters 2-3 follow this. Gates 1-7 still have 'rectification(s)' and, in 5:4, 'adornments' for תיקונין: listed in notes/pending_conversions.md.",
    "candidates": [
     {
      "target": "rectification",
-     "status": "preferred",
-     "contextNotes": "User-confirmed. 'rectification(s)'; gloss '(tikkunin)' on first use, plain thereafter.",
+     "status": "rejected",
+     "contextNotes": "SUPERSEDED 2026-11-12 for the noun. Was user-confirmed in June 2026 for Patach Eliyahu. Still stands in Gates 1-7 until converted.",
      "decisions": [
       {
        "section": "4/ch5",
@@ -2084,20 +2084,47 @@
      ]
     },
     {
-     "target": "tikkunin (transliterated)",
-     "status": "acceptable",
-     "contextNotes": "keeps the loaded term; common in Patach-Eliyahu translations."
+     "target": "tikkun (pl. tikkunim; Aramaic tikkunin), transliterated",
+     "status": "preferred",
+     "contextNotes": "The noun in every sense. The verb is translated by context: 'set right', 'was arrayed', 'prepared'.",
+     "decisions": [
+      {
+       "section": "8:3:3-4",
+       "surfaceForm": "תיקון",
+       "rationale": "User ruling: transliterate the noun. The senses (setting right, proper order, adornment, repair) cannot share one English word, and 'adornment' is קישוט.",
+       "timestamp": "2026-11-12"
+      }
+     ]
+    },
+    {
+     "target": "adornment",
+     "status": "rejected",
+     "contextNotes": "Belongs to קישוט; the two stand side by side at 8:3:4."
     }
    ],
-   "readerNote": "Setting in order or setting right. The Sefirot are called ten rectifications: by them the Emanator is revealed and the world is ordered.",
+   "readerNote": "Tikkun: putting a thing into its proper, finished state. Depending on the context it is setting something right, setting it in order, making it ready and so adorning it, or repairing what was spoiled. The Sefirot are called ten tikkunim: by them the Emanator is revealed and the world is ordered. Cordovero glosses the word at 8:3:4 as \"beauty and adornment\": the Emanation is the tikkun of the Emanator, since He is known only through it.",
    "surfaceForms": {
+    "תיקון": {
+     "readerGloss": "tikkun"
+    },
+    "תקון": {
+     "readerGloss": "tikkun"
+    },
+    "תיקונו": {
+     "readerGloss": "its tikkun; His tikkun"
+    },
     "תיקונין": {
-     "readerGloss": "rectifications"
+     "readerGloss": "tikkunin (tikkunim)"
     },
     "עשר תיקונין": {
-     "readerGloss": "ten rectifications"
+     "readerGloss": "ten tikkunin"
+    },
+    "יתוקן": {
+     "readerGloss": "is set right"
     }
-   }
+   },
+   "etymology": "From ת-ק-ן, 'to put into a proper, finished state': Ecclesiastes 1:15 'what is crooked cannot be made straight (לתקן)', 12:9 'he set in order (תקן) many proverbs'. Rabbinic התקין, 'to prepare, to institute' (whence תקנה, an ordinance), מתוקן, 'made fit'. In the Zohar the תיקונין of a bride or of the King are his being made ready, dressed and adorned. The sense 'repair' is the same idea applied to what has been spoiled.",
+   "readerGloss": "tikkun: setting right; setting in order; adornment"
   },
   "שלשל-השתלשלות": {
    "headword": "הִשְׁתַּלְשְׁלוּת / שַׁלְשֶׁלֶת",
@@ -8016,7 +8043,7 @@
    "transliteration": "tziruf",
    "partOfSpeech": "noun",
    "etymology": "From צ-ר-ף, 'to join, to refine'. As a technique of interpretation it is the rearranging of letters; Cordovero defines it at 30:1:4 from Sefer Yetzirah: 'two stones build two houses, three build six, four build twenty-four, five build 120, six build 720, seven build 5,040', that is, n factorial, and he writes out the orderings (אב בא; אבג אגב באג ...).",
-   "notes": "2026-11-10 (USER RULING): צירוף as a technique = 'permutation' (rearrangement of the same letters), not 'combination'. Cordovero's own definition (30:1:4) is factorial, i.e. permutation in the exact sense. SITES: 3:8:8 בצירוף דעות הוא עדות = 'by permutation, de'ot is edut' (was 'in the combination [of letters]'); 1:2:9 על דרך הצירוף = 'by way of permutation' (was 'letter-combination'); index: Gate 30 שער הצירוף = 'The Gate of Permutation' with its chapters, and 8:4. NOT AFFECTED: the ordinary verb 'to join' (7:2:13 המצרפם 'which combines them'; 4:10:6 צרופה אל הגוף 'its being joined to the body'). RELATED: the forms of YHVH called הויות are left untranslated (see entry הויות), so 'permutation' is no longer spent on them; where a gloss is needed write 'the twelve havayot [permutations of the four-letter name]'. תמורה = 'substitution', גלגול = 'cycling' (index usage, unchanged). | Gate 30 title confirmed: 'The Gate of Permutation'. | 2026-11-10: 4:10:7 מצטרפים מאותיות השם ... בן י\"ב המצורף = 'are formed from the letters of the Name ... the composite twelve-letter [name]' (user's choice). This is the ordinary sense 'to join': the three words hayah, hoveh, yihyeh each repeat a letter, so they are not rearrangements. תמורה has two senses, kept apart: the letter technique of Gate 30 = 'substitution'; the תמורות of Gates 25-26 = the husks as the opposites of the holy order (cf. Sefer Yetzirah, 'the temurah of peace is evil'). GATE TITLES (USER RULING): Gate 25 שער התמורות = 'The Gate of Opposites'; Gate 26 היכלי התמורות = 'The Gate of the Opposed Palaces'. Contents 25:0, reading תמורת for the printed חמורו': 'the husks, which are evil opposed [temurat] to good' (user's wording). | 2026-11-10, later the same day (USER RULING, supersedes 'Opposites'): תמורה is now 'substitute / substitution' throughout and has its own entry (תמורה). Gate 25 = 'The Gate of Substitutes'; Gate 26 = 'The Gate of the Substitute Palaces'; contents 25:0 'evil substituted [temurat] for good'. The titles given earlier in this note are superseded.",
+   "notes": "2026-11-10 (USER RULING): צירוף as a technique = 'permutation' (rearrangement of the same letters), not 'combination'. Cordovero's own definition (30:1:4) is factorial, i.e. permutation in the exact sense. SITES: 3:8:8 בצירוף דעות הוא עדות = 'by permutation, de'ot is edut' (was 'in the combination [of letters]'); 1:2:9 על דרך הצירוף = 'by way of permutation' (was 'letter-combination'); index: Gate 30 שער הצירוף = 'The Gate of Permutation' with its chapters, and 8:4. NOT AFFECTED: the ordinary verb 'to join' (7:2:13 המצרפם 'which combines them'; 4:10:6 צרופה אל הגוף 'its being joined to the body'). RELATED: the forms of YHVH called הויות are left untranslated (see entry הויות), so 'permutation' is no longer spent on them; where a gloss is needed write 'the twelve havayot [permutations of the four-letter name]'. תמורה = 'substitution', גלגול = 'cycling' (index usage, unchanged). | Gate 30 title confirmed: 'The Gate of Permutation'. | 2026-11-10: 4:10:7 מצטרפים מאותיות השם ... בן י\"ב המצורף = 'are formed from the letters of the Name ... the composite twelve-letter [name]' (user's choice). This is the ordinary sense 'to join': the three words hayah, hoveh, yihyeh each repeat a letter, so they are not rearrangements. תמורה has two senses, kept apart: the letter technique of Gate 30 = 'substitution'; the תמורות of Gates 25-26 = the husks as the opposites of the holy order (cf. Sefer Yetzirah, 'the temurah of peace is evil'). GATE TITLES (USER RULING): Gate 25 שער התמורות = 'The Gate of Opposites'; Gate 26 היכלי התמורות = 'The Gate of the Opposed Palaces'. Contents 25:0, reading תמורת for the printed חמורו': 'the husks, which are evil opposed [temurat] to good' (user's wording). | 2026-11-10, later the same day (USER RULING, supersedes 'Opposites'): תמורה is now 'substitute / substitution' throughout and has its own entry (תמורה). Gate 25 = 'The Gate of Substitutes'; Gate 26 = 'The Gate of the Substitute Palaces'; contents 25:0 'evil substituted [temurat] for good'. The titles given earlier in this note are superseded. | 2026-11-12: R. Nechunya's prayer (8:3:3) has בצירוף רום קומתם, and Cordovero's first explanation (8:3:5) takes it as the pillars being joined one above another (כאשר יצטרפו כלם ... בערך צירופם יחד). Rendered 'in the joining [tziruf] of the height of their stature' and, in the commentary, 'joined', 'their joining together'. The sense 'permutation' returns in chapter 4, where צירוף is the second of the five operations. In the prayer the other operations are left transliterated until chapter 4 settles them: 'exalted in ma'amar and mikhlal and cheshbon'; י\"ג מיני תמורה = 'thirteen kinds of substitution [temurah]'.",
    "candidates": [
     {
      "target": "permutation",
@@ -8224,7 +8251,7 @@
    "transliteration": "mamash",
    "partOfSpeech": "adverb (originally a noun)",
    "etymology": "From מ-ש-ש, 'to feel, to touch': as a noun, 'substance, something tangible' (rabbinic יש בו ממש, 'there is something to it'; אין בו ממש, 'there is nothing in it'). As an adverb it marks the word beside it as meant in its strict sense. The use as a bare intensifier ('really, totally') is modern colloquial Hebrew and is not Cordovero's.",
-   "notes": "2026-11-10 (USER RULING): ממש = 'literal' / 'literally'. It is part of the statement, not an interjection: it attaches to one word and says that the word is meant in its literal sense. It is the counterpart of השאלה, 'in a borrowed sense' (see entry שאל-השאלה): a thing is said of the Sefirot either ממש or בהשאלה, and much of Cordovero's care goes into saying which. PLACEMENT follows English usage and the word it governs: (1) negated, guarding a figure of speech: 'not literally' (8:2:2 ולא גבול ממש = 'though not literally a limit'; ואין הכונה מגבילות ממש = 'the intent is not that they literally set a limit'); (2) on a noun, affirming the literal sense: 'a literal X' (8:2:8 מקור ממש = 'a literal source': the other Sefirot have in each Sefirah a manifestation that is a source for some of the lower ones, Malkhut alone has a source in the literal sense in every one); (3) on an identity: 'literally' (8:2:8 הם ממש הד' אותיות = 'they are literally the four letters of the name'), or, where English wants it, 'itself' / 'the very' (8:2:5 פניה ממש = 'her own face itself'; 8:2:8 מציאות הספירה ממש = 'the manifestation of the Sefirah itself'). EXISTING PRACTICE in Gates 1-7 (about 200 occurrences) is mostly 'literally' / 'literal' and 'itself', which this confirms. REJECTED: 'in fact' (reads as an aside and cannot sit next to the word it governs); 'actual' / 'actually' (wanted for בפועל). This supersedes the open item in the terminology plan of 10 November that proposed 'in fact' or 'definitely'. The sites in Gates 1-7 that still have 'actual', 'actually' or 'in fact' for ממש are listed in notes/pending_conversions.md.",
+   "notes": "2026-11-10 (USER RULING): ממש = 'literal' / 'literally'. It is part of the statement, not an interjection: it attaches to one word and says that the word is meant in its literal sense. It is the counterpart of השאלה, 'in a borrowed sense' (see entry שאל-השאלה): a thing is said of the Sefirot either ממש or בהשאלה, and much of Cordovero's care goes into saying which. PLACEMENT follows English usage and the word it governs: (1) negated, guarding a figure of speech: 'not literally' (8:2:2 ולא גבול ממש = 'though not literally a limit'; ואין הכונה מגבילות ממש = 'the intent is not that they literally set a limit'); (2) on a noun, affirming the literal sense: 'a literal X' (8:2:8 מקור ממש = 'a literal source': the other Sefirot have in each Sefirah a manifestation that is a source for some of the lower ones, Malkhut alone has a source in the literal sense in every one); (3) on an identity: 'literally' (8:2:8 הם ממש הד' אותיות = 'they are literally the four letters of the name'), or, where English wants it, 'itself' / 'the very' (8:2:5 פניה ממש = 'her own face itself'; 8:2:8 מציאות הספירה ממש = 'the manifestation of the Sefirah itself'). EXISTING PRACTICE in Gates 1-7 (about 200 occurrences) is mostly 'literally' / 'literal' and 'itself', which this confirms. REJECTED: 'in fact' (reads as an aside and cannot sit next to the word it governs); 'actual' / 'actually' (wanted for בפועל). This supersedes the open item in the terminology plan of 10 November that proposed 'in fact' or 'definitely'. The sites in Gates 1-7 that still have 'actual', 'actually' or 'in fact' for ממש are listed in notes/pending_conversions.md. | 2026-11-12: 8:3:3 מונחים על הכתר ממש = 'laid upon Keter literally'.",
    "candidates": [
     {
      "target": "literal / literally",
