@@ -31,3 +31,7 @@ The Hebrew is *shurat ha-rachamim*, not *kav*. Left as it is when "the line of m
 ## *Mamash*: literal, literally (ruled 10 November 2026)
 
 Most of Gates 1–7 already has "literally" or "itself". These paragraphs have *mamash* in the Hebrew and "actual", "actually" or "in fact" in the English; check whether the English word stands for *mamash* and, if so, convert (24 words in 17 paragraphs): 1:3:5 (×2), 1:5:3, 1:5:4 (×3), 1:7:2, 2:1:12, 2:3:13, 2:4:3 (×2), 2:5:1, 4:7:5, 5:4:1, 5:4:4, 5:5:3, 6:2:9, 6:7:8 (×2), 7:2:4, 7:2:20, 7:3:4 (×3).
+
+## *Tachtonim*: "the lower ones"
+
+"Beings" is reserved for *havayot*. The text already has "the lower ones" for *tachtonim* 18 times; these paragraphs still have "lower beings" (check each against the Hebrew): 2:6:1 (×2), 5:5:1, 6:1:9, 6:8:5, 7:3:4. The contents line for 8:20 also has "lower beings".
