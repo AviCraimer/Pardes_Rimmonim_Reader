@@ -42,7 +42,7 @@
 6. ***Nukva*.** Lexicon: "the Female (Nukva)", the partzuf. In Gate 8 it is nearly always plain "female".
 7. ***Yichud*.** "Union" holds, but ch. 13 makes it a genus with three kinds, the third being *zivug*, and 8:14:8 turns on the difference between *mitchabberan* and *mizdavvegin*. Needs fixed, distinct words for *yichud, zivug, chibbur, kesher, devekut*.
 
-**Settled since these notes were written:** *temurah* = "substitute / substitution"; Gates 25 and 26 are "The Gate of Substitutes" and "The Gate of the Substitute Palaces", so "opposites" belongs to *hafakhim* alone. The "thirteen kinds of *temurah*" of chapters 3–4 are still open. *Rachamim* = "compassion" (the line stays "the line of Rachamim"); *kalul* = "includes"; *mamash* = "literal / literally"; the noun *tikkun* is transliterated. Chapters 2 and 3 are translated.
+**Settled since these notes were written:** *temurah* = "substitute / substitution"; Gates 25 and 26 are "The Gate of Substitutes" and "The Gate of the Substitute Palaces", so "opposites" belongs to *hafakhim* alone. The "thirteen kinds of *temurah*" of chapters 3–4 are still open. *Rachamim* = "compassion" (the line stays "the line of Rachamim"); *kalul* = "includes"; *mamash* = "literal / literally"; the noun *tikkun* is transliterated. Chapters 2–4 are translated. *Makhri'a* = "arbiter", the verb "tip (the balance)", *hakhra'ah* = "arbitration" or, in argument, "ruling"; *pesharah* = "compromise" (12 November; earlier gates converted). The five parts of the name in chapter 4: arrangement, permutation, reading, combining, letter-reckoning ("reckoning" in the quoted sources), with *davar* = "teaching".
 
 ## New terms with no entry
 

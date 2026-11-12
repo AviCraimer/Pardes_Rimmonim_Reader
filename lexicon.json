@@ -4,51 +4,94 @@
  "targetLanguage": "en",
  "entries": {
   "כרע": {
-   "headword": "מַכְרִיעַ",
-   "transliteration": "makhri'a",
+   "headword": "מַכְרִיעַ / הַכְרָעָה / הִכְרִיעַ",
+   "transliteration": "makhri'a / hakhra'ah / hikhria'",
    "partOfSpeech": "noun/verb",
-   "notes": "Core structural term throughout Gate 1: the Sefirah that balances two opposed sides. Rendered 'mediator' (noun) / 'mediates' (verb).",
+   "notes": "Core structural term throughout Gate 1: the Sefirah that balances two opposed sides. Rendered 'mediator' (noun) / 'mediates' (verb). | 2026-11-12 (USER RULING, supersedes 'mediator / mediate'): the noun מכריע = 'arbiter'; the verb (מכריע, הכריע, להכריע) = 'tip', and with בין = 'tip the balance between'; הכרעה as the act of the arbiter Sefirah = 'arbitration'; הכרעה in argument, deciding between opinions = 'ruling'; פשרה = 'compromise'. WHY: every older use of the root is the scale coming down on one side, not balancing. In modern English a mediator finds a compromise, which is what Cordovero calls פשרה and sets against הכרעה (8:5:6: הפשרה היא הסברא אמצעית המיחדת ב' הסברות לא הכרעה להטות לדעת אחת ולהכחיש האחת = 'a compromise is the middle view that unites the two views, not a ruling that tips toward one view and denies the other'). The middle Sefirah stands between the two sides AND decides which way they fall: 7:2:13 מכריען אל הימין = 'tips them toward the right' (was 'mediates them toward the right'). An arbiter stands between two parties and decides between them ('binding arbitration'). 'Tilt' rejected (a lean, not a decision). Gate 9 שער המכריעים = 'Arbiters' (was 'Mediators'), description and chapter lines converted. CONVERTED 12 Nov: 48 sites in Gates 1-7 and the contents of Gates 1 and 9. NOT converted, different root: ממוצע / מתמצע / אמצעי ('intermediate', 'in the middle', and 'mediates' where it already stands, e.g. 1:4:2, 1:4:3, 1:6, 4:6:1, 5:2:5): the root מ-צ-ע is position in the middle, which 'mediate / intermediate' renders correctly; 1:2:10 'the man in between (the mediator)' is the translator's gloss on a middle-man. 1:4:4 המכריעין מתמצעים = 'the arbiters are in the middle'.",
    "candidates": [
     {
-     "target": "mediator / to mediate",
-     "gloss": "the balancing/reconciling element between two sides",
-     "register": "scholarly",
+     "target": "arbiter / tip (tip the balance between) / arbitration / ruling",
+     "gloss": "the Sefirah that stands between two sides and decides which way they fall",
      "status": "preferred",
-     "contextNotes": "Default. Tiferet and Yesod are the two makhri'in.",
+     "contextNotes": "מכריע (noun) = arbiter; מכריע / הכריע / להכריע (verb) = tips; with בין = tips the balance between; הכרעה (the Sefirah's act) = arbitration; הכרעה (in argument) = ruling. פשרה = compromise. שער המכריעים = the Gate of Arbiters.",
      "decisions": [
       {
-       "section": "1/ch1-4",
-       "surfaceForm": "מכריע / המכריעין",
-       "rationale": "Consistent technical sense of balancing Chesed vs Din; chose 'mediate' over 'decide/tip the balance/be decisive' for noun-form reusability.",
-       "timestamp": "2026-06-08"
-      },
-      {
-       "section": "7:2:13, 7:2:15, 7:2:23",
-       "surfaceForm": "ההכרעה / מכריען אל הימין / המזיגה וההכרעה",
-       "rationale": "ההכרעה = 'the mediation'; מכריען אל הימין = 'mediates them toward the right'; Yesod 'mediates between Netzach and Hod'. 'Tipping' stays rejected.",
-       "timestamp": "2026-10-07"
+       "section": "8:5:6; all earlier sites",
+       "surfaceForm": "מכריע / הכרעה",
+       "rationale": "User ruling: the root means tipping the scale; 'mediator' in modern English means one who finds a compromise, which Cordovero sets against הכרעה.",
+       "timestamp": "2026-11-12"
       }
      ]
     },
     {
-     "target": "decisive factor / tipping",
+     "target": "mediator / to mediate",
      "status": "rejected",
-     "contextNotes": "Loses the noun ('the mediator') and the spatial 'between the extremities' imagery."
+     "contextNotes": "SUPERSEDED 2026-11-12 (was preferred June 2026). Suggests compromise, the opposite of הכרעה at 8:5:6; strained at 7:2:13 'mediates them toward the right'. 'Mediate / intermediate' now belong to ממוצע / מתמצע."
+    },
+    {
+     "target": "tilt",
+     "status": "rejected",
+     "contextNotes": "A lean, not the scale coming down."
+    },
+    {
+     "target": "decider / deciding",
+     "status": "rejected",
+     "contextNotes": "Accurate but flat as a noun ('the Gate of the Deciders'). 'Decision' is acceptable for הכרעה in argument where 'ruling' does not fit."
     }
    ],
-   "readerNote": "The Sefirah that stands between two opposed sides and balances them. Tiferet mediates between Chesed and Gevurah, and Yesod between Netzach and Hod.",
-   "readerGloss": "mediator; to mediate",
+   "readerNote": "Arbiter: the Sefirah that stands between two opposed sides and decides which way the balance falls. The Hebrew root means to make something bow down: to tip the scales. Tiferet is the arbiter between Chesed and Gevurah, and Yesod between Netzach and Hod; Tiferet 'tips them toward the right', toward compassion. In argument the same word is a ruling for one view, as opposed to a compromise (pesharah) that blends two.",
+   "readerGloss": "arbiter; to tip (the balance); arbitration; ruling",
    "surfaceForms": {
+    "מכריע": {
+     "readerGloss": "arbiter; tips the balance"
+    },
+    "המכריע": {
+     "readerGloss": "the arbiter"
+    },
+    "המכריעין": {
+     "readerGloss": "the arbiters"
+    },
+    "המכריעים": {
+     "readerGloss": "the arbiters"
+    },
+    "מכריעים": {
+     "readerGloss": "arbiters; tip the balance"
+    },
+    "להכריע": {
+     "readerGloss": "to tip the balance"
+    },
     "ההכרעה": {
-     "readerGloss": "the mediation"
+     "readerGloss": "the arbitration; the ruling"
+    },
+    "הכרעה": {
+     "readerGloss": "arbitration; ruling"
+    },
+    "הכרעתו": {
+     "readerGloss": "its arbitration; his ruling"
+    },
+    "הכרע": {
+     "readerGloss": "arbitration"
     },
     "מכריען אל הימין": {
-     "readerGloss": "mediates them toward the right"
+     "readerGloss": "tips them toward the right"
     },
     "המזיגה וההכרעה": {
-     "readerGloss": "the blending and the mediation"
+     "readerGloss": "the blending and the arbitration"
+    },
+    "פשרה": {
+     "readerGloss": "compromise"
+    },
+    "הפשרה": {
+     "readerGloss": "the compromise"
+    },
+    "שער המכריעים": {
+     "readerGloss": "the Gate of Arbiters"
+    },
+    "שער המכריעין": {
+     "readerGloss": "the Gate of Arbiters"
     }
-   }
+   },
+   "etymology": "From כ-ר-ע, 'to kneel, to bow down' (כרע ברך). The causative הכריע is to make something bow, and so to make one pan of a balance go down: to tip the scales. Rabbinic: the thirteenth of R. Ishmael's rules, 'two verses that contradict each other, until a third verse comes and decides between them (ויכריע ביניהם)'; a person evenly balanced whom one deed 'tips to the scale of merit' (Rambam, Laws of Repentance 3:4); הכרעה as a ruling between disputing opinions. In medieval philosophical Hebrew מכריע probably renders Arabic murajjih, what gives one of two equal possibilities the preponderance (not verified against the translations)."
   },
   "בלם": {
    "headword": "בְּלִימָה",
@@ -2951,7 +2994,7 @@
    "headword": "קַו (pl. קַוִּים)",
    "transliteration": "kav (pl. kavim)",
    "partOfSpeech": "noun",
-   "notes": "Line / column (the three columns of the Sefirotic tree). Right = Chesed line (root Chokhmah); left = Din line (root Binah/Tevunah); middle = mercy line, the 'deciding line' (קו המכריע, root Keter/Da'at). 5:4:2: 'the line of Din journeys last' (קו הדין באחרונה יסע). Distinct from קו-מדה (kav ha-middah, the Measuring Line). NOTE: existing כרע entry renders makhri'a as 'mediator'; here קו המכריע = 'the deciding line'. | 2026-11-10 (USER RULING): the three lines are named alike, all transliterated: 'the line of Chesed', 'the line of Din', 'the line of Rachamim'. 'The line of mercy' is retired; its 9 sites in Gates 1-7 are converted. One site is left: 5:4:4 'the line of mercy, which is the middle', where the Hebrew is שורת הרחמים, not קו. As qualities, din and rachamim remain 'judgment' and 'mercy' (rachamim as 'mercy' or 'compassion' is under discussion; note that חמלה is already 'compassion' at 2:2:5 and 4:10:1). | 2026-11-10, later: רחמים as a quality is now 'compassion' (see entry דין / משפט / צדק / רחמים); the line stays 'the line of Rachamim'.",
+   "notes": "Line / column (the three columns of the Sefirotic tree). Right = Chesed line (root Chokhmah); left = Din line (root Binah/Tevunah); middle = mercy line, the 'deciding line' (קו המכריע, root Keter/Da'at). 5:4:2: 'the line of Din journeys last' (קו הדין באחרונה יסע). Distinct from קו-מדה (kav ha-middah, the Measuring Line). NOTE: the כרע entry now renders makhri'a 'arbiter' (2026-11-12); קו המכריע = 'the arbiter line' (earlier 'the deciding line'). | 2026-11-10 (USER RULING): the three lines are named alike, all transliterated: 'the line of Chesed', 'the line of Din', 'the line of Rachamim'. 'The line of mercy' is retired; its 9 sites in Gates 1-7 are converted. One site is left: 5:4:4 'the line of mercy, which is the middle', where the Hebrew is שורת הרחמים, not קו. As qualities, din and rachamim remain 'judgment' and 'mercy' (rachamim as 'mercy' or 'compassion' is under discussion; note that חמלה is already 'compassion' at 2:2:5 and 4:10:1). | 2026-11-10, later: רחמים as a quality is now 'compassion' (see entry דין / משפט / צדק / רחמים); the line stays 'the line of Rachamim'.",
    "candidates": [
     {
      "target": "line / column",
@@ -3899,7 +3942,7 @@
    "headword": "מֶזֶג / מְזִיגָה / שִׁוּוּי מֶזֶג",
    "transliteration": "mezeg / mezigah",
    "partOfSpeech": "noun",
-   "notes": "Two established senses, keep both: (a) the BLENDING of right and left in the cross-nourishment of Netzach/Hod via Tiferet (Gate 1 ch.4; 10x 'blending') — this is the sense in Gate 7 ('לסבת המזג' = 'for the sake of the blending'; המזיגה וההכרעה = 'the blending and the mediation'; שווי מזג מועט = 'a slight evenness of blending'); (b) 'temperament' = a body's constitution, only in the fire-and-spheres parable (Gate 4 ch.9).",
+   "notes": "Two established senses, keep both: (a) the BLENDING of right and left in the cross-nourishment of Netzach/Hod via Tiferet (Gate 1 ch.4; 10x 'blending') — this is the sense in Gate 7 ('לסבת המזג' = 'for the sake of the blending'; המזיגה וההכרעה = 'the blending and the arbitration' (was 'mediation'; see כרע, 2026-11-12); שווי מזג מועט = 'a slight evenness of blending'); (b) 'temperament' = a body's constitution, only in the fire-and-spheres parable (Gate 4 ch.9).",
    "candidates": [
     {
      "target": "blending",
