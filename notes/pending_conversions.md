@@ -35,3 +35,7 @@ Most of Gates 1–7 already has "literally" or "itself". These paragraphs have *
 ## *Tachtonim*: "the lower ones"
 
 "Beings" is reserved for *havayot*. The text already has "the lower ones" for *tachtonim* 18 times; these paragraphs still have "lower beings" (check each against the Hebrew): 2:6:1 (×2), 5:5:1, 6:1:9, 6:8:5, 7:3:4. The contents line for 8:20 also has "lower beings".
+
+## Table of contents: *ma'amar* = "passage"
+
+The text renders a quoted *ma'amar* "passage" (about 170 times); the contents have "statement". Gate 8's contents are converted. Remaining, by gate: 1 (×3), 2 (×1), 3 (×3), 4 (×5), 5 (×4), 7 (×1), 9 (×3), 10 (×1), 11 (×2), 12 (×1), 13 (×3), 14 (×3), 15 (×1), 16 (×5), 17 (×4), 18 (×11), 19 (×1), 20 (×7), 21 (×2), 22 (×1), 24 (×1), 25 (×1), 30 (×1). The contents still have "mercy" for *rachamim* outside Gate 8, and "emendation" for *tikkun*.
