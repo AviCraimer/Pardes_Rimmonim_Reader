@@ -8190,6 +8190,104 @@
     }
    },
    "notes": "2026-11-12 (USER RULING): דודים = 'lovers'; singular דוד = 'lover'. In Zohar Vayikra 4a (Pardes 8:14) the lovers are Tiferet and Malkhut, who desire one another and couple only at known times. Cordovero: 'לשון אהבה וחבה' but 'חיבה המורה על ההרחקה' — an affection that implies distance. 'Beloved' rejected: it hides the plural and softens the erotic sense the argument depends on."
+  },
+  "שעשע-שעשוע": {
+   "headword": "שַׁעֲשׁוּעַ (pl. שַׁעֲשׁוּעִים) / מִשְׁתַּעֲשֵׁעַ / לְאִשְׁתַּעְשְׁעָא",
+   "transliteration": "sha'ashua / mishta'asha / le-ishta'asha'a",
+   "partOfSpeech": "noun; verb (hitpa'el)",
+   "rendering": "sport",
+   "candidates": [
+    {
+     "target": "sport / sporting",
+     "status": "preferred",
+     "contextNotes": "Verb 'sport (with / in)'; noun 'sporting' (or 'sport' where it stands alone). A cognate pair (שעשוע שמשתעשע, 'the sport that He sports') is folded into the verb or the gerund: 'the sporting of the Holy One with the righteous'.",
+     "decisions": [
+      {
+       "section": "8:19",
+       "surfaceForm": "לאשתעשע עם צדיקייא",
+       "rationale": "USER RULING 2026-11-12. 'Delight' is taken by ra'ava/re'uta, which stands beside it in the same sentences (8:19:1, 8:19:4). 'Sport' keeps the light, celebratory, faintly amorous tone of the Zohar's midnight scenes, which Cordovero distinguishes from the supernal coupling but does not strip of union (8:19:10: Tiferet and Malkhut 'unite in the secret of their manifestation' among the righteous).",
+       "timestamp": "2026-11-12"
+      }
+     ]
+    },
+    {
+     "target": "delight",
+     "status": "rejected",
+     "contextNotes": "Collides with ra'ava/re'uta = 'delight' (user-confirmed)."
+    },
+    {
+     "target": "play",
+     "status": "rejected",
+     "contextNotes": "A mighty being 'playing with' a soul sounds sinister (user)."
+    },
+    {
+     "target": "frolic",
+     "status": "rejected",
+     "contextNotes": "Workable, but too whimsical for 'He frolics with His wisdom' (8:15:4)."
+    },
+    {
+     "target": "take pleasure",
+     "status": "rejected",
+     "contextNotes": "Overlaps oneg / inuga = 'pleasure'."
+    }
+   ],
+   "surfaceForms": {
+    "שעשוע": {
+     "rendering": "sporting"
+    },
+    "שעשועים": {
+     "rendering": "sporting"
+    },
+    "משתעשע": {
+     "rendering": "sports"
+    },
+    "משתעשעים": {
+     "rendering": "sporting"
+    },
+    "לאשתעשע": {
+     "rendering": "to sport"
+    },
+    "אשתעשע": {
+     "rendering": "sported"
+    },
+    "המשתעשעת": {
+     "rendering": "who sports"
+    }
+   },
+   "notes": "2026-11-12 (USER RULING): sha'ashua = 'sport'. Grammar rule (user-approved): Hebrew cognate objects (שעשוע שהקב\"ה משתעשע) are folded into one English verb or gerund rather than rendered 'the sport which He sports'. The 'stroll' (טיולא דמטייל) is a separate term. Converted sites: 2:1:4 ('As we were sporting in the garden of delights'), 8:15:4, 8:17:8. Biblical range: fond delight (Jeremiah 31:20 'child of sha'ashu'im'; Isaiah 11:8; Proverbs 8:30-31 Wisdom before God; Psalms 119 'Your Torah is my sha'ashu'im'); in the Zohar's midnight scenes, an amorous divine pastime with the souls of the righteous."
+  },
+  "טיל-טיול": {
+   "headword": "טִיּוּל / טִיּוּלָא דִּמְטַיֵּיל",
+   "transliteration": "tiyyul / tiyyula di-metayyel",
+   "partOfSpeech": "noun; verb",
+   "rendering": "stroll",
+   "candidates": [
+    {
+     "target": "stroll",
+     "status": "preferred",
+     "contextNotes": "'the stroll that the Holy One strolls with the souls of the righteous' (Zohar Noach 60a, Pardes 8:19:1); for Cordovero, the union in Emanation, distinct from the midnight sporting.",
+     "decisions": [
+      {
+       "section": "8:19:1",
+       "surfaceForm": "טיולא דמטייל",
+       "rationale": "Plain sense; uncontested.",
+       "timestamp": "2026-11-12"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "טיול": {
+     "rendering": "stroll"
+    },
+    "טיולא": {
+     "rendering": "stroll"
+    },
+    "דמטייל": {
+     "rendering": "that strolls"
+    }
+   },
+   "notes": "2026-11-12: 'stroll'. Cognate pair טיולא דמטייל folded per the sha'ashua rule where English needs it ('the stroll that the Holy One takes')."
   }
  }
 }
