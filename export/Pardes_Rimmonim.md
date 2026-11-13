@@ -4029,6 +4029,274 @@ We named it **"Paths"** because in it is explained the matter of the thirty-two 
 
 ### Chapter 12:2. On the paths in the verses of the account of Creation, their names, and the explanation of the Geonim's words on each one.
 
+**12:2:1** The general rule that emerges from the preceding chapter is that the thirty-two paths are the sum of all beings, above and below; and for this reason the name Elohim is mentioned thirty-two times in the creation of the world, to indicate that each one of the thirty-two paths was revealing what had been formed in it of the matter of creation. And [the name] came thirty-two times as Elohim, and not thirty-two times as Yah, as would befit Chokhmah, because the revealing of the beings from Chokhmah is through Binah, where "the cascade of the paths" is, as we explained; and therefore they came in the name Elohim, whose hint is to Binah. And as for the reason it is written as the name Elohim in its own letters, and not as the four-letter name with the vowels of Elohim, which is the name hinted in Binah (although the name Elohim also hints at her, as we shall explain in the Gate of Names, chapters 4, 7, 8, and 9, and as we also explained in Gate Eight, chapters 7 and 8): it is written as the name Elohim in the letters of Elohim to hint at the strength of the judgment of Gevurah, for it is the world of nature. And likewise the name Elohim amounts to the number of *ha-teva* [nature, 86], which is in it. And the reason is that the *shemitah* was in Gevurah, as is agreed among most of the commentators; and the *shemitah* imprinted its world according to its nature and its will, for nature is a divine will. And therefore the creation of the world was in complete judgment, until He saw that it could not stand, and joined the attribute of compassion with it, as our Sages, of blessed memory, explained.
+
+> הכלל העולה מהפרק הקודם הוא היות הל"ב נתיבות כלל כל הנמצאות מעלה ומטה ומטעם זה בבריאת עולם נזכר ל"ב פעמים שם אלקים להורות כי כל אחד מל"ב נתיבות היה מגלה מה שהיה מצויר בו מענין הבריאה. ובאו ל"ב פעמים אלקים ולא ל"ב פעמים י"ה כפי הראוי אל החכמה. מפני שגילוי הדברים הנמצאות מחכמה הוא ע"י הבינה ששם אשד הנתיבות כדפי', ולכן באו בשם אלקים, שהרמז אל הבינה. והטעם שנכתב בשם אלקים באותיותיו ולא בשם בן ד' בנקוד אלקים, כי הוא השם הנרמז בבינה. עם היות ששם אלקים ג"כ הרמז אלי', כאשר נבאר בשער השמות פ"ד ז' ח' ט', וכאשר ביארנו ג"כ בשער ח' פ"ז ח'. אבל נכתב בשם אלקים באותיות אלקים לרמוז אל תוקף דין הגבורה כי היא עולם הטבע. וכן עולה שם אלקים במנין הטב"ע שהוא בו. והטעם כי השמיטה היתה בגבורה כפי המוסכם בין רוב המפרשים. והשמיטה הטביעה בעולמה כפי טבעה ורצונה כי הטבע רצון אלקי הוא. ולכן בריאת העולם היה בדין גמור עד שראה שלא יכול לעמוד ושתף עמה מדת הרחמים כדפי' רז"ל:
+
+**12:2:2** And because this *shemitah* is the attribute of Gevurah, the beginning and the end of the Torah are lamed-bet [32]: the Bet of *Bereshit*, the Lamed of *Yisrael*. And at its beginning comes the name of forty-two that issues from *Bereshit*, and likewise at its end, "and in all the mighty hand," etc., as we shall explain in the Gate of Particulars of Names. And all this is to indicate that the thirty-two, in which the letters of the Torah are, are sealed with the name of Gevurah and judgment, which is the name of forty-two. And likewise the name of forty-two is thirty-two paths and ten utterances, and by it was the creation of the world, as the verse of *Bereshit* proves. And after we have set out this matter, we come to explain the thirty-two paths by their names and their action, as the ancients explained. And before all else we copy here the thirty-two [mentions of] Elohim in the work of creation, by whose explanation light will be seen:
+
+> ולפי היות השמיטה הזאת מדת הגבורה בראש התורה וסופה ל"ב ב' בראשית ל' של ישראל. ובאה בראשיתה שם מ"ב היוצא מבראשית וכן בסופה ולכל היד החזקה וכו' כמו שנבאר בשער פרטי השמות. וכ"ז להורות שהל"ב ששם אותיות התורה חתומים בשם הגבורה והדין שהוא שם מ"ב. וכן שם בן מ"ב הם ל"ב נתיבות וי' מאמרות ובו היה בריאת העולם כמו שהוכיח פסוק של בראשית. ואחר שהקדמנו הענין הזה נבא לבאר הל"ב נתיבות בשמם ופעולתם כפי אשר בארו הקדמונים. וקודם כל דבר נעתיק הנה ל"ב אלקים שבמעשה בראשית אשר באורם נראה אור:
+
+**12:2:3** 1. In the beginning God created the.
+
+> א. בראשית ברא אלקים את:
+
+**12:2:4** 2. And the spirit of God hovered.
+
+> ב. ורוח אלקים מרחפת:
+
+**12:2:5** 3. And God said, Let there be light.
+
+> ג. ויאמר אלקי' יהי אור:
+
+**12:2:6** 4. And God saw the light.
+
+> ד. וירא אלקים את האור:
+
+**12:2:7** 5. And God divided between the light.
+
+> ה. ויבדל אלקים בין האור:
+
+**12:2:8** 6. And God called the light Day.
+
+> ו. ויקרא אלקים לאור יום:
+
+**12:2:9** 7. And God said, Let there be a firmament.
+
+> ז. ויאמר אלקים יהי רקיע:
+
+**12:2:10** 8. And God made the firmament.
+
+> ח. ויעש אלקים את הרקיע:
+
+**12:2:11** 9. And God called the firmament Heaven.
+
+> ט. ויקרא אלקים לרקיע שמים:
+
+**12:2:12** 10. And God said, Let the waters be gathered.
+
+> י. ויאמר אלקים יקוו המים:
+
+**12:2:13** 11. And God called the dry land Earth.
+
+> יא. ויקרא אלקים ליבשה ארץ:
+
+**12:2:14** 12. And God saw that it was good.
+
+> יב. וירא אלקים כי טוב:
+
+**12:2:15** 13. And God said, Let the earth bring forth grass.
+
+> יג. ויאמר אלקים תדשא הארץ:
+
+**12:2:16** 14. And God saw that it was good.
+
+> יד. וירא אלקים כי טוב:
+
+**12:2:17** 15. And God said, Let there be luminaries.
+
+> טו. ויאמר אלקים יהי מאורות:
+
+**12:2:18** 16. And God made the two luminaries. 17. And God set them in the firmament of the heaven.
+
+> טז. ויעש אלקים את שני המאורות יז. ויתן אותם אלקים ברקיע השמים:
+
+**12:2:19** 18. And God saw that it was good.
+
+> יח. וירא אלקים כי טוב:
+
+**12:2:20** 19. And God said, Let the waters swarm.
+
+> יט. ויאמר אלקים ישרצו המים:
+
+**12:2:21** 20. And God created the great sea-creatures.
+
+> כ. ויברא אלקים את התנינים:
+
+**12:2:22** 21. And God saw that it was good.
+
+> כא. וירא אלקים כי טוב:
+
+**12:2:23** 22. And God blessed them.
+
+> כב. ויברך אותם אלקים:
+
+**12:2:24** 23. And God said, Let the earth bring forth.
+
+> כג. ויאמר אלקים תוצא הארץ:
+
+**12:2:25** 24. And God made the beast of the earth.
+
+> כד. ויעש אלקים את חית הארץ:
+
+**12:2:26** 25. And God saw that it was good.
+
+> כה. וירא אלקים כי טוב:
+
+**12:2:27** 26. And God said, Let us make man.
+
+> כו. ויאמר אלקים נעשה אדם:
+
+**12:2:28** 27. And God created man.
+
+> כז. ויברא אלקים את האדם:
+
+**12:2:29** 28. In the image of God He created him.
+
+> כח. בצלם אלקים ברא אותו:
+
+**12:2:30** 29. And God blessed them.
+
+> כט. ויברך אותם אלקים:
+
+**12:2:31** 30. And God said to them, Be fruitful and multiply.
+
+> ל. ויאמר להם אלקים פרו ורבו:
+
+**12:2:32** 31. And God said, Behold, I have given.
+
+> לא. ויאמר אלקים הנה נתתי:
+
+**12:2:33** 32. And God saw all that He had made.
+
+> לב. וירא אלקים את כל אשר עשה:
+
+**12:2:34** Behold, these are the thirty-two paths in Parashat Bereshit; and so Rashbi counted them in the Tikkunim (Tikkunei Zohar Chadash, folio 130a). Then the Geonim gave them names according to what they had received of their action. And Rabbi Yosef copied them in the long book of the commentary on Sefer Yetzirah that he composed. And likewise the author of Sefer ha-Kanah copied them, although he was clever enough to write them in the name of *maggidim*; and they are clearly found [to belong] to the Geonim. And these are their names, "each by his own standard, with the signs" (Num. 2:2):
+
+> הנה אלו הם ל"ב נתיבות שבפ' בראשית וכן מנה אותם הרשב"י בתיקונים (תקוני ז"ח דף ק"ל.). שוב הגאונים, שמו להם שמות כפי אשר קבלו בפעולתם. והעתיקם רבי יוסף הארוך בספר פי' ס"י שחבר. וכן העתיקם בעל ספר הקנה עם שנתחכם לכותבם בשם מגידים והם נמצאים לגאונים בבירור. ואלה שמותם איש על דגלו באותות:
+
+**12:2:35** Path 1 is called the wondrous intellect [*sekhel mufla*]. And it is the primordial intelligible light, and it is the first glory, whose manifestation no creature can attain.
+
+> נתיב א נקרא שכל מופלא. והוא אור מושכל קדמון, והוא כבוד ראשון אשר אין כל בריה יכולה לעמוד על מציאותו:
+
+**12:2:36** Path 2 is called the resplendent intellect [*sekhel mazhir*]. And it is the crown of creation and the radiance of the equal unity, exalted as head over all; and it is called in the mouths of the masters of the Kabbalah the second glory.
+
+> נתיב ב נקרא שכל מזהיר. והוא כתר הבריאה וזוהר האחדות השוה המתנשא לכל לראש, והוא נקרא בפי בעלי הקבלה כבוד שני:
+
+**12:2:37** Path 3 is called the sanctified intellect [*sekhel mekuddash*]. And it is the foundation of primeval wisdom, which is called *emunah omen* [faith, fosterer], and its roots are *amen*; and it is the father of faith, from whose power faith is emanated.
+
+> נתיב ג נקרא שכל מקודש. והוא יסוד החכמה הקדומה הנקרא אמונה אומן ושרשיה אמן, והוא אב האמונה שמכחו האמונה נאצלת:
+
+**12:2:38** Path 4 is called the fixed intellect [*sekhel kavu'a*]. And it is called so because from it all the spiritual powers are emanated in the subtlety of the emanation, which are emanated, these and these, by the power of the Primordial Emanator.
+
+> נתיב ד נקרא שכל קבוע. ונקרא כן שממנו מתאצלים כל הכוחות הרוחניות בדקות האצילות שמתאצלות אלו ואלו בכח המאציל הקדמון:
+
+**12:2:39** Path 5 is called the rooted intellect [*sekhel nishrash*]. And it is called so because it is the substance of the equal unity, and it is unified in the substance of Binah, from the bounds of holy Chokhmah.
+
+> נתיב ה נקרא שכל נשרש ונקרא כן מפני שהוא עצם האחדות השוה והוא המיוחד בעצם הבינה מגדר החכמה הקדושה:
+
+**12:2:40** Path 6 is called the separate intellect [*sekhel nivdal*]. And it is called so because in it the effluence of the emanation increases, and it pours that effluence upon all the pools [*berekhot*; text: *beri'ot*, "creations"] that are unified in its substance.
+
+> נתיב ו נקרא שכל נבדל. ונקרא כן לפי שבו מתרבה שפע האצילות, והוא משפיע השפע ההוא על כל (הבריאות) [הבריכות] המתאחדות בעצמו:
+
+**12:2:41** Path 7 is called the hidden intellect [*sekhel nistar*]. And it is called so because it is a resplendent radiance to all the intellective powers that are seen by the eye of the intellect and in the contemplation of faith.
+
+> נתיב ז נקרא שכל נסתר. ונקרא כן מפני שהוא זוהר מזהיר לכל הכחות השכליים הנראים בעין השכל וברעיון האמונות:
+
+**12:2:42** Path 8 is called the complete intellect [*sekhel shalem*]. And it is called so because it is the disposition of primordiality, which has no root in which to settle except in the chambers of Gedulah, which are emanated from the substance of its subsistence.
+
+> נתיב ח נקרא שכל שלם. ונקרא כן מפני שהוא תכונת הקדמות אשר אין לו שרש להתיישב בו כי אם בחדרי גדולה הנאצלים מעצם קיומו:
+
+**12:2:43** Path 9 is called the pure intellect [*sekhel tahor*]. And it is called so because it purifies the Sefirot, and tests and makes shine the decree of their design and the measure of their unity, for they are unified without cutting and separation.
+
+> נתיב ט נקרא שכל טהור. ונקרא כן מפני שהוא מטהר את הספירות ומבחין ומבהיק גזרת תכניתם ותוכן אחדותם שהם מיוחדות מבלי קצוץ ופרוד:
+
+**12:2:44** Path 10 is called the sparkling intellect [*sekhel mitnotzetz*]. And it is called so because it is exalted and sits upon the throne of Binah, and shines with the radiance of all the luminaries, and pours forth the effluence of increase to the Prince of the Countenance.
+
+> נתיב י נקרא שכל מתנוצץ. ונקרא כן מפני שהוא מתעלה ויושב על כסא הבינה ומאיר בזהר המאורות כלם ומשפיע שפע הרבוי לשר הפנים:
+
+**12:2:45** Path 11 is called the refined intellect [*sekhel metzuchtzach*]. And it is called so because it is the substance of the curtain [*pargod*] that is arranged in the order of the array, and it is a relation of the paths [text: *ha-netinat*; corrected *ha-netivot*] to stand before the Cause of causes.
+
+> נתיב יא נקרא שכל מצוחצח. ונקרא כן מפני שהוא עצם הפרגוד המסודר בסדר המערכה, והוא ייחס (הנתנת) [הנתיבות] לעמוד בפני עלת העלות:
+
+**12:2:46** Path 12 is called the bright intellect [*sekhel bahir*]. And it is called so because it is the substance of the great wheel [*ofan*], called Chazchazit; explanation: the place from which the vision of those who see in the appearance issues.
+
+> נתיב יב נקרא שכל בהיר. ונקרא כן מפני שהוא עצם האופן הגדולה הנקרא חזחזית פי' מקום מוצא החזיון החוזים במראה:
+
+**12:2:47** Path 13 is called the intellect that guides the unity [*sekhel manhig ha-achdut*]. And it is called so because it is the substance of the Throne of Glory, and it is the completion of the truth of the unified spiritual ones.
+
+> נתיב יג נקרא שכל מנהיג האחדות. ונקרא כן מפני שהוא עצם כסא הכבוד, והוא תשלום אמיתת הרוחנים האחדים:
+
+**12:2:48** Path 14 is called the illuminating intellect [*sekhel me'ir*]. And it is called so because it is the substance of the Chashmal, and the teacher of the mysteries of the holy secrets and their disposition.
+
+> נתיב יד נקרא שכל מאיר. ונקרא כן מפני שהוא עצם החשמל והמורה על רזי הסודות הקדש ותכונתם:
+
+**12:2:49** Path 15 is called the establishing intellect [*sekhel ma'amid*]. And it is called so because it establishes the substance of creation in clouds of purity. And the masters of contemplation said that it is the thick cloud [*arafel*], and this is (Job 38:9) "and thick cloud its swaddling band."
+
+> נתיב טו נקרא שכל מעמיד. ונקרא כן מפני שהוא מעמיד עצם הבריאה בערפלי טוהר. ובעלי העיון אמרו כי הוא הערפל, וזהו (איוב לח ט) וערפל חתולתו:
+
+**12:2:50** Path 16 is called the eternal intellect [*sekhel nitzchi*]. And it is called so because it is the delight of the glory, for there is no glory below it as it is; and it is called the Garden of Eden prepared for the righteous and the upright.
+
+> נתיב טז נקרא שכל נצחי. ונקרא כן מפני שהוא עידון הכבוד שאין כבוד למטה הימנו כמו שהוא, והוא נקרא גן עדן המוכן לצדיקים ולישרים:
+
+**12:2:51** Path 17 is called the intellect of sensation [*sekhel ha-hergesh*]. And it is prepared for the pious of faith, to clothe themselves in it with the holy spirit; and it is called the foundation of Tiferet in the station of the upper ones.
+
+> נתיב יז נקרא שכל ההרגש. והוא מוכן לחסידי האמונה להתלבש בו ברוח הקדושה, והוא נקרא יסוד הת"ת במעמד העליונים:
+
+**12:2:52** Path 18 is called the intellect of the house of effluence [*sekhel beit ha-shefa*]. And from within its investigation they draw a secret and a riddle, those who dwell in its shadow and cleave to the investigation of its Self [text: *mamashuto*, "its substantiality"; corrected *atzmuto*], from the Cause of causes.
+
+> נתיב יח נקרא שכל בית השפע. ומתוך חקירתו מושכים רז וחידה המתלוננים בצלו והדבקים בחקירת (ממשותו) [עצמותו] מעלת העלות:
+
+**12:2:53** Path 19 is called the intellect of the secret of all the spiritual actions [*sekhel sod ha-pe'ulot ha-ruchaniyot*]. And it is called so because of the effluence that spreads in it from the place of the upper pool and the exalted glory.
+
+> נתיב יט נקרא שכל סוד הפעולות הרוחניות כלם. ונקרא כן מפני השפע המתפשט בו ממקום הבריכה העליונה והכבוד המעולה:
+
+**12:2:54** Path 20 is called the intellect of the will [*sekhel ha-ratzon*]. And it is called so because in it is the disposition of all the formed beings, and by this intellect the whole manifestation of primeval wisdom is known.
+
+> נתיב כ נקרא שכל הרצון. ונק' כן מפני שבו תכונת כל היצורים כלם ובזה השכל יודע כל מציאות החכמה הקדומה:
+
+**12:2:55** Path 21 is called the intellect of the sought desire [*sekhel ha-chefetz ha-mevukash*]. And it is called so because it receives the effluence of divinity so as to pour forth from its blessing to all beings.
+
+> נתיב כא נקרא שכל החפץ המבוקש. ונק' כן מפני שהוא מקבל שפע האלקות כדי להשפיע מברכתו לכל הנמצאים כלם:
+
+**12:2:56** Path 22 is called the faithful intellect [*sekhel ne'eman*]. And it is called so because in it spiritual powers increase, so that they may be near to all who dwell in their shadow.
+
+> נתיב כב נק' שכל נאמן. ונקרא כן מפני שבו מתרבים כחות רוחניים כדי להיותם קרובים לכל המתלוננים בצילם:
+
+**12:2:57** Path 23 is called the enduring intellect [*sekhel kayyam*]. And it is called so because it is the power of subsistence of all the Sefirot. (Another version: "subsistence for all who hold fast to it, to clothe them with His holy spirit.")
+
+> נתיב כג נקרא שכל קיים. ונקרא כן מפני שהוא כח קיום כל הספירות. (נ"א קיום לכל המחזיקים בו להלבישם מרוח קדשו):
+
+**12:2:58** Path 24 is called the imaginative intellect [*sekhel dimyoni*]. And it is called so because it gives likeness to all the likenesses that were created in their likeness, fitting to their aspect.
+
+> נתיב כד נקרא שכל דמיוני. ונקרא כן מפני שהוא נותן דמות לכל הדמיונים אשר נבראו בדמיונם הראוי לצביונם:
+
+**12:2:59** Path 25 is called the intellect of trial [*sekhel nisyoni*]. And it is called so because it is the primordial trial with which God tries all the pious.
+
+> נתיב כה נקרא שכל נסיוני. ונקרא כן מפני שהוא הנסיון הקדמון שבו מנסה השם לכל החסידים:
+
+**12:2:60** Path 26 is called the renewed intellect [*sekhel ha-mechudash*]. And it is called so because in it the Holy One, blessed be He, renews all the new things [text: *ha-chasidim*, "the pious"; corrected *ha-chadashim*] that are renewed from the creation of the world.
+
+> נתיב כו נקרא שכל המחודש. ונקרא כן מפני שבו מחדש הקב"ה לכל (החסידים) [החדשים] שהם מתחדשים מבריאת העולם:
+
+**12:2:61** Path 27 is called the sensible intellect [*sekhel murgash*]. And it is called so because from it was created the intellect of every created being beneath the upper sphere, and their sensations.
+
+> נתיב כז נקרא שכל מורגש. ונקרא כן מפני שממנו נברא שכל כל נברא מתחת גלגל העליון והרגשותם:
+
+**12:2:62** Path 28 is called the natural intellect [*sekhel mutba*]. And it is called so because in it the nature of every being beneath the sphere of the sun is completed, in the completeness of the spheres.
+
+> נתיב כח נקרא שכל מוטבע. ונקרא כן מפני שבו נשלם טבע כל נמצא תחת גלגל החמה בשלימות הגלגלים:
+
+**12:2:63** Path 29 is called the corporeal intellect [*sekhel mugsham*]. And it is called so because it depicts every body that becomes corporeal beneath the disposition of the spheres, in their growth [text: *bi-gevulam*, "in their bounds"; corrected *be-gidulam*].
+
+> נתיב כט נקרא שכל מוגשם. ונקרא כן מפני שהוא מתאר כל גשם אשר יתגשם תחת תכונת הגלגלים (בגבולם) [בגידולם]:
+
+**12:2:64** Path 30 is called the general intellect [*sekhel kelali*]. And it is called so because in it are included the astrologers, in the judgments of the stars and the constellations, their contemplation and the completion of their knowledge in the modes of their revolution.
+
+> נתיב ל נקרא שכל כללי. ונקרא כן מפני שבו כלולים הוברי שמים במשפטי הכוכבים והמזלות עיונם ותשלום ידיעתם באופני גלגולם:
+
+**12:2:65** Path 31 is called the perpetual intellect [*sekhel temidi*]. And it is called so because in it the course of the sun and the moon continues according to their disposition, each one as befits it.
+
+> נתיב לא נקרא שכל תמידי. ונקרא כן מפני שבו מתמיד מהלך השמש והלבנה דרך תכונתם כל א' וא' הראוי לו:
+
+**12:2:66** Path 32 is called the served intellect [*sekhel ne'evad*], because it is arranged for all who make use of the worship of the seven planets in their bounds.
+
+> נתיב לב נקרא שכל נעבד. מפני שהוא מתוקן לכל המשתמשים בעבודת ז' כוכבי לכת לגבולם:
+
+**12:2:67** Up to here reaches what is found in the explanation of the paths in the words of the Geonim; and their words are hidden and concealed and need explanation, and we shall explain [them] in the coming chapters. And we have seen fit to divide them into four parts, eight in each chapter, in order to give space between section and section.
+
+> עד הנה הגיע מה שנמצא בביאור הנתיבות בדברי הגאונים ודבריהם נעלמים ונסתרים וצריכים ביאור. ונבאר בפרקים הבאים. וראינו לחלקם לד' חלקים ח' ח' בכל פרק ופרק כדי ליתן ריוח בין פרשה לפרשה:
+
 ### Chapter 12:3. In which eight of the paths are explained.
 
 ### Chapter 12:4. In which a further eight paths are explained.
