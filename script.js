@@ -420,8 +420,45 @@
             " · " + META.sectionNames[1] + " " + (nc + 1) + " &rarr;</button>";
     }
 
+    // ---- deep links ----
+    // URL fragment uses the notes' citation style, 1-indexed:
+    //   #8:4   → Gate 8, chapter 4
+    //   #8:4:6 → same, scrolled to paragraph 6
+    // "." is accepted as a separator too (#8.4.6).
+    function parseHash(hash) {
+        const m = /^#?(\d+)[:.](\d+)(?:[:.](\d+))?$/.exec(
+            decodeURIComponent(hash || "")
+        );
+        if (!m) return null;
+        const g = +m[1] - 1,
+            c = +m[2] - 1,
+            p = m[3] ? +m[3] - 1 : null;
+        if (!DATA.text[g] || !DATA.text[g][c]) return null;
+        return { g, c, p };
+    }
+    function chapterHash(g, c) {
+        return "#" + (g + 1) + ":" + (c + 1);
+    }
+
+    function scrollToPara(p) {
+        const sheet = document.getElementById("sheet");
+        sheet.querySelectorAll(".para.targeted").forEach((n) =>
+            n.classList.remove("targeted")
+        );
+        const target = sheet.querySelector('.para[data-p="' + p + '"]');
+        if (!target) return;
+        target.classList.add("targeted");
+        target.scrollIntoView({ block: "start" });
+    }
+
     // ---- open chapter ----
-    function open(g, c) {
+    // opts.updateUrl: push a history entry for this chapter (default true).
+    // Set false when the open was itself triggered by the URL.
+    function open(g, c, opts) {
+        const { updateUrl = true, para = null } = opts || {};
+        if (updateUrl && location.hash !== chapterHash(g, c)) {
+            history.pushState(null, "", chapterHash(g, c));
+        }
         curG = g;
         curC = c;
         dismissPopup();
@@ -483,14 +520,18 @@
             });
         });
 
-        document.querySelectorAll(".chap").forEach((el) =>
-            el.classList.toggle(
-                "active",
-                +el.dataset.g === g && +el.dataset.c === c
-            )
-        );
+        document.querySelectorAll(".chap").forEach((el) => {
+            const on = +el.dataset.g === g && +el.dataset.c === c;
+            el.classList.toggle("active", on);
+            if (on) {
+                // Expand this gate in the sidebar so the link target is visible.
+                el.closest("details").open = true;
+                el.scrollIntoView({ block: "nearest" });
+            }
+        });
         document.body.classList.remove("nav-open");
         document.querySelector("main").scrollTop = 0;
+        if (para !== null) scrollToPara(para);
     }
 
     // Lexicon mark clicks (delegated — attached once, not per chapter)
@@ -502,6 +543,22 @@
         }
     });
 
+    // Back/forward buttons and hand-edited URLs.
+    window.addEventListener("hashchange", function () {
+        const loc = parseHash(location.hash);
+        if (!loc) return;
+        if (loc.g === curG && loc.c === curC) {
+            if (loc.p !== null) scrollToPara(loc.p);
+            return;
+        }
+        open(loc.g, loc.c, { updateUrl: false, para: loc.p });
+    });
+
     renderNav();
-    open(0, 0);
+    const initial = parseHash(location.hash);
+    if (initial) {
+        open(initial.g, initial.c, { updateUrl: false, para: initial.p });
+    } else {
+        open(0, 0, { updateUrl: false });
+    }
 })();

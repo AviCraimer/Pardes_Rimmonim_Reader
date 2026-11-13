@@ -170,6 +170,11 @@ main {
 .en-text {
     cursor: pointer;
 }
+/* Paragraph named in a deep link (#8:4:6) */
+.para.targeted {
+    box-shadow: -0.6rem 0 0 var(--gold);
+    scroll-margin-top: 1.5rem;
+}
 .para b {
     color: var(--pom);
 }
