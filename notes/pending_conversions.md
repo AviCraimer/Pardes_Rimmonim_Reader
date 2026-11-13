@@ -38,7 +38,7 @@ DONE 2026-11-12 (user ruling; general rule in TRANSLATION_CONVENTIONS.md). All s
 
 ## Table of contents: *ma'amar* = "passage"
 
-The text renders a quoted *ma'amar* "passage" (about 170 times); the contents have "statement". Gate 8's contents are converted. Remaining, by gate: 1 (×3), 2 (×1), 3 (×3), 4 (×5), 5 (×4), 7 (×1), 9 (×3), 10 (×1), 12 (×1), 13 (×3), 14 (×3), 15 (×1), 16 (×5), 17 (×4), 18 (×11), 19 (×1), 20 (×7), 21 (×2), 22 (×1), 24 (×1), 25 (×1), 30 (×1). The contents still have "mercy" for *rachamim* outside Gate 8, and "emendation" for *tikkun*.
+The text renders a quoted *ma'amar* "passage" (about 170 times); the contents have "statement". Gate 8's contents are converted. Remaining, by gate: 1 (×3), 2 (×1), 3 (×3), 4 (×5), 5 (×4), 7 (×1), 9 (×3), 10 (×1), 13 (×3), 14 (×3), 15 (×1), 16 (×5), 17 (×4), 18 (×11), 19 (×1), 20 (×7), 21 (×2), 22 (×1), 24 (×1), 25 (×1), 30 (×1). The contents still have "mercy" for *rachamim* outside Gate 8, and "emendation" for *tikkun*.
 
 ## The three lights: "primordial light, clear light, refined light"
 
@@ -64,3 +64,9 @@ The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 
 - **פועל בודד** (11:6:6, 11:6:8): "a solitary verb [<em>po'al boded</em>]" (a verb or verbal noun with no object; Cordovero applies it to אתידע and to קרבן). Alternative: "an intransitive verb".
 - **The ten lights in Ma'ayan ha-Chokhmah and the Commentary on the Sefirot** (11:7:2, 11:7:4–5): אור / זוהר / זיו / יקוד = "light / radiance / splendor / burning"; מופלא "wondrous", נסתר "hidden", מתנוצץ "sparkling", מזהיר "resplendent", מזוקק "purified", בהיר "bright", נוגה "glowing [<em>or nogah</em>]", מתחזק "strengthening", מושכל "intelligible [<em>or muskal</em>]", מפעל "the work [<em>or mif'al</em>]". צחצוח = "clearness". 11:7:3 explains מצוחצח as "spotted" (from צחצוחי חלב), which "refined" cannot carry: the transliteration is given there.
 - **הויה** (Gate 11): "being [<em>havayah</em>]" for the thing (11:3:5; "the three first beings", 11:4:1), "coming-to-be" for the process (11:4:2, 11:5:2, 11:6:8: "the privation that precedes coming-to-be"), after the lexicon's הויות והפסד.
+- **The names of the thirty-two paths** (12:2:35–66 and the commentary in 12:3–6): שכל = "intellect" throughout ("the wondrous intellect", "the resplendent intellect", "the sanctified intellect" …), with the Hebrew in brackets at the list. Kaplan and others use "consciousness". נבדל = "separate" (lexicon: שכל נבדל); מורגש = "sensible", מוטבע = "natural" (as in the pending עולם מושכל / מורגש / מוטבע item); עצם in these definitions = "substance". שכליים (12:3:1) = "intellective"; השכלה = "intellection".
+- **אמונה אומן** (12:2:37, 12:3:7): "<em>emunah omen</em> [faith, fosterer]". Cordovero reads <em>emunah</em> as "fostered, raised" (Binah or Malkhut, raised by Chokhmah) and <em>omen</em> as "fosterer"; the English carries "fostered" in his gloss.
+- **שמיטה** (12:2:1–2): kept as <em>shemitah</em> (the cosmic cycle).
+- **פרגוד** (12:2:45, 12:4:3): "curtain [<em>pargod</em>]", as in 1:7:2. (פרסא is "hanging" by ruling, and "curtain" is rejected for it; פרגוד is a different word.)
+- **נסתר / נעלם** (12:3:17): Cordovero distinguishes <em>nistar</em> (sometimes revealed, sometimes hidden) from <em>ne'lam</em> / <em>nifla</em> (never revealed). Gate 11 uses "hidden" for נעלם (the three hidden ones); path 7 uses "hidden" for נסתר, and 12:3:17 gives "concealed [<em>ne'lam</em>]". One of the two needs its own word if the distinction is to show throughout.
+- **ספר ספר ספור** (12:1:4–9): left as <em>sefer</em>, <em>sefar</em>, <em>sippur</em> with glosses "book", "number/census", "telling".
