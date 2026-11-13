@@ -8195,12 +8195,25 @@
    "headword": "שַׁעֲשׁוּעַ (pl. שַׁעֲשׁוּעִים) / מִשְׁתַּעֲשֵׁעַ / לְאִשְׁתַּעְשְׁעָא",
    "transliteration": "sha'ashua / mishta'asha / le-ishta'asha'a",
    "partOfSpeech": "noun; verb (hitpa'el)",
-   "rendering": "sport",
+   "rendering": "revel",
    "candidates": [
     {
-     "target": "sport / sporting",
+     "target": "revel / reveling",
      "status": "preferred",
-     "contextNotes": "Verb 'sport (with / in)'; noun 'sporting' (or 'sport' where it stands alone). A cognate pair (שעשוע שמשתעשע, 'the sport that He sports') is folded into the verb or the gerund: 'the sporting of the Holy One with the righteous'.",
+     "contextNotes": "Verb 'revel in' where the Hebrew has be- (in the Torah, in His wisdom, in that pleasure); 'revel with' where it has im (with the righteous). Noun 'reveling'. A cognate pair (שעשוע שמשתעשע) is folded into the verb or gerund: 'the reveling of the Holy One with the righteous'.",
+     "decisions": [
+      {
+       "section": "8:19",
+       "surfaceForm": "לאשתעשע עם צדיקייא",
+       "rationale": "USER RULING 2026-11-12, replacing 'sport' the same evening. Works across all key sites: 'to revel with the righteous', 'rises to revel in the Torah', 'He revels in His wisdom', 'he revels in that pleasure'. 'Delight' is taken by ra'ava/re'uta. Festive tone fits the midnight Garden scenes; slight risk of 'revelry' = carousing accepted.",
+       "timestamp": "2026-11-12"
+      }
+     ]
+    },
+    {
+     "target": "sport / sporting",
+     "status": "rejected",
+     "contextNotes": "Briefly preferred (2026-11-12) before 'revel'. Strained in 'sport in the Torah' and 'He sports with His wisdom'; older English 'sporting with' is amorous (KJV Genesis 26:8).",
      "decisions": [
       {
        "section": "8:19",
@@ -8233,28 +8246,28 @@
    ],
    "surfaceForms": {
     "שעשוע": {
-     "rendering": "sporting"
+     "rendering": "reveling"
     },
     "שעשועים": {
-     "rendering": "sporting"
+     "rendering": "reveling"
     },
     "משתעשע": {
-     "rendering": "sports"
+     "rendering": "revels"
     },
     "משתעשעים": {
-     "rendering": "sporting"
+     "rendering": "reveling"
     },
     "לאשתעשע": {
-     "rendering": "to sport"
+     "rendering": "to revel"
     },
     "אשתעשע": {
-     "rendering": "sported"
+     "rendering": "reveled"
     },
     "המשתעשעת": {
-     "rendering": "who sports"
+     "rendering": "who revels"
     }
    },
-   "notes": "2026-11-12 (USER RULING): sha'ashua = 'sport'. Grammar rule (user-approved): Hebrew cognate objects (שעשוע שהקב\"ה משתעשע) are folded into one English verb or gerund rather than rendered 'the sport which He sports'. The 'stroll' (טיולא דמטייל) is a separate term. Converted sites: 2:1:4 ('As we were sporting in the garden of delights'), 8:15:4, 8:17:8. Biblical range: fond delight (Jeremiah 31:20 'child of sha'ashu'im'; Isaiah 11:8; Proverbs 8:30-31 Wisdom before God; Psalms 119 'Your Torah is my sha'ashu'im'); in the Zohar's midnight scenes, an amorous divine pastime with the souls of the righteous."
+   "notes": "2026-11-12 (USER RULING): sha'ashua = 'revel / reveling' (replacing 'sport', ruled earlier the same evening). Grammar rule (user-approved): Hebrew cognate objects (שעשוע שהקב\"ה משתעשע) are folded into one English verb or gerund rather than rendered 'the sport which He sports'. The 'stroll' (טיולא דמטייל) is a separate term. Converted sites: 2:1:4 ('As we were reveling in the garden of delights'), 8:15:4 ('He revels in His wisdom'), 8:17:8 ('he revels in that pleasure'), 8:19 throughout. Biblical range: fond delight (Jeremiah 31:20 'child of sha'ashu'im'; Isaiah 11:8; Proverbs 8:30-31 Wisdom before God; Psalms 119 'Your Torah is my sha'ashu'im'); in the Zohar's midnight scenes, an amorous divine pastime with the souls of the righteous."
   },
   "טיל-טיול": {
    "headword": "טִיּוּל / טִיּוּלָא דִּמְטַיֵּיל",
