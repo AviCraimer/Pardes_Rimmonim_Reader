@@ -58,7 +58,9 @@
     const META = DATA;
 
     let curG = 0,
-        curC = 0;
+        curC = 0,
+        curView = "chapter", // "chapter" | "lex"
+        curLex = null; // id of the open lexicon entry
 
     function getChapter(g, c) {
         return DATA.text[g][c];
@@ -421,7 +423,17 @@
             META.heTitle +
             '</div><div class="en">' +
             META.title +
-            "</div></div>";
+            "</div></div>" +
+            '<div class="nav-tabs" role="tablist">' +
+            '<button role="tab" data-tab="toc" aria-controls="toc-panel">TOC</button>' +
+            '<button role="tab" data-tab="lex" aria-controls="lex-panel">Lexicon</button>' +
+            "</div>" +
+            '<div class="nav-panel" id="toc-panel" role="tabpanel"></div>' +
+            '<div class="nav-panel" id="lex-panel" role="tabpanel" hidden></div>';
+        nav.querySelectorAll(".nav-tabs button").forEach((b) =>
+            b.addEventListener("click", () => setTab(b.dataset.tab))
+        );
+        const tocPanel = document.getElementById("toc-panel");
         META.index.forEach((gate, g) => {
             const det = document.createElement("details");
             if (g === 0) det.open = true;
@@ -468,8 +480,18 @@
                 };
                 det.appendChild(row);
             });
-            nav.appendChild(det);
+            tocPanel.appendChild(det);
         });
+        renderLexNav();
+        setTab("toc");
+    }
+
+    function setTab(tab) {
+        document.querySelectorAll(".nav-tabs button").forEach((b) =>
+            b.setAttribute("aria-selected", String(b.dataset.tab === tab))
+        );
+        document.getElementById("toc-panel").hidden = tab !== "toc";
+        document.getElementById("lex-panel").hidden = tab !== "lex";
     }
 
     // ---- next chapter button ----
@@ -527,7 +549,10 @@
         }
         curG = g;
         curC = c;
+        curView = "chapter";
+        curLex = null;
         dismissPopup();
+        setTab("toc");
         const paras = getChapter(g, c);
         const sheet = document.getElementById("sheet");
         const gateInfo = META.gates[g];
@@ -591,7 +616,10 @@
             });
         });
 
-        document.querySelectorAll(".chap").forEach((el) => {
+        document.querySelectorAll(".lex-item.active").forEach((el) =>
+            el.classList.remove("active")
+        );
+        document.querySelectorAll("#toc-panel .chap").forEach((el) => {
             const on = +el.dataset.g === g && +el.dataset.c === c;
             el.classList.toggle("active", on);
             if (on) {
@@ -601,8 +629,246 @@
             }
         });
         document.body.classList.remove("nav-open");
+        syncMenuBtn();
         document.querySelector("main").scrollTop = 0;
         if (para !== null) scrollToPara(para);
+    }
+
+    // ---- lexicon browser ----
+    // One list item per public entry. A "cluster" entry is a working group
+    // of unrelated names and idioms, so each of its glossed forms is listed
+    // as an item of its own (id "key/form").
+    // Only items with a reader's note are listed; bare glosses stay in the
+    // text popups.
+    const HE_ALPHABET = "אבגדהוזחטיכלמנסעפצקרשת";
+    const FINAL_TO_REG = { ך: "כ", ם: "מ", ן: "נ", ף: "פ", ץ: "צ" };
+    const stripPoints = (s) => (s || "").replace(/[֑-ׇ]/g, "");
+    function heInitial(s) {
+        const m = /[א-ת]/.exec(stripPoints(s));
+        return m ? FINAL_TO_REG[m[0]] || m[0] : "#";
+    }
+    // English sort key: ignore a leading article, quotes and brackets.
+    function enSortKey(s) {
+        return (s || "")
+            .replace(/^[\s"'“‘(\[]+/, "")
+            .replace(/^(the|a|an)\s+/i, "")
+            .toLowerCase();
+    }
+
+    const LEX_ITEMS = [];
+    for (const [key, entry] of Object.entries(LEX.entries)) {
+        if (entry.public === false) continue;
+        if (entry.cluster) {
+            for (const [form, sf] of Object.entries(entry.surfaceForms || {})) {
+                const gloss = formGloss(entry, form);
+                if (!gloss || !hasText(sf.readerNote)) continue;
+                LEX_ITEMS.push({
+                    id: key + "/" + form, key, form,
+                    he: form, tl: sf.transliteration || "", en: gloss,
+                });
+            }
+        } else {
+            if (!hasText(entry.readerNote)) continue;
+            const tl = entry.transliteration;
+            LEX_ITEMS.push({
+                id: key, key, form: null,
+                he: entry.headword,
+                tl: tl && tl !== "—" ? tl : "",
+                en:
+                    entry.readerGloss ||
+                    ((entry.candidates || []).find((c) => c.status === "preferred") || {})
+                        .target ||
+                    "",
+            });
+        }
+    }
+    const LEX_BY_ID = new Map(LEX_ITEMS.map((it) => [it.id, it]));
+
+    const SORT_KEY = "pr-lex-sort";
+    let lexSort = "he";
+    try {
+        if (localStorage.getItem(SORT_KEY) === "en") lexSort = "en";
+    } catch (e) {}
+
+    function renderLexNav() {
+        const panel = document.getElementById("lex-panel");
+        panel.textContent = "";
+
+        const toggle = document.createElement("div");
+        toggle.className = "lex-sort";
+        toggle.setAttribute("role", "group");
+        toggle.setAttribute("aria-label", "Sort lexicon by");
+        for (const [mode, label, title] of [
+            ["en", "A", "Sort by English"],
+            ["he", "א", "Sort by Hebrew / Aramaic"],
+        ]) {
+            const b = el("button", "", label);
+            b.title = title;
+            b.setAttribute("aria-label", title);
+            b.setAttribute("aria-pressed", String(lexSort === mode));
+            b.addEventListener("click", () => {
+                if (lexSort === mode) return;
+                lexSort = mode;
+                try {
+                    localStorage.setItem(SORT_KEY, mode);
+                } catch (e) {}
+                renderLexNav();
+            });
+            toggle.appendChild(b);
+        }
+        panel.appendChild(toggle);
+
+        // Group by initial letter.
+        const groups = new Map();
+        for (const it of LEX_ITEMS) {
+            const letter =
+                lexSort === "he"
+                    ? heInitial(it.he)
+                    : (/[a-z]/.exec(enSortKey(it.en)) || ["#"])[0].toUpperCase();
+            if (!groups.has(letter)) groups.set(letter, []);
+            groups.get(letter).push(it);
+        }
+        const order =
+            lexSort === "he"
+                ? (a, b) => HE_ALPHABET.indexOf(a) - HE_ALPHABET.indexOf(b)
+                : (a, b) => (a === "#") - (b === "#") || a.localeCompare(b);
+        const itemOrder =
+            lexSort === "he"
+                ? (a, b) => stripPoints(a.he).localeCompare(stripPoints(b.he), "he")
+                : (a, b) => enSortKey(a.en).localeCompare(enSortKey(b.en), "en");
+
+        for (const letter of [...groups.keys()].sort(order)) {
+            const det = document.createElement("details");
+            det.className = "lex-group";
+            const sum = document.createElement("summary");
+            const lt = el("span", "lex-letter", letter);
+            if (lexSort === "he") lt.dir = "rtl";
+            sum.appendChild(lt);
+            sum.appendChild(el("span", "lex-count", String(groups.get(letter).length)));
+            det.appendChild(sum);
+            for (const it of groups.get(letter).sort(itemOrder)) {
+                const row = el("div", "chap lex-item", "");
+                row.tabIndex = 0;
+                row.dataset.id = it.id;
+                const he = el("span", "lex-he", it.he);
+                he.dir = "rtl";
+                he.lang = "he";
+                if (lexSort === "he") {
+                    if (it.tl) row.appendChild(el("span", "lex-tl-nav", it.tl));
+                    row.appendChild(he);
+                } else {
+                    row.appendChild(el("span", "lex-en-nav", it.en || "—"));
+                    row.appendChild(he);
+                }
+                row.onclick = () => openLex(it.id);
+                row.onkeydown = (e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        openLex(it.id);
+                    }
+                };
+                det.appendChild(row);
+            }
+            panel.appendChild(det);
+        }
+        if (curView === "lex" && curLex) markActiveLex(curLex);
+    }
+
+    function markActiveLex(id) {
+        document.querySelectorAll("#lex-panel .lex-item").forEach((row) => {
+            const on = row.dataset.id === id;
+            row.classList.toggle("active", on);
+            if (on) {
+                row.closest("details").open = true;
+                row.scrollIntoView({ block: "nearest" });
+            }
+        });
+    }
+
+    function lexHash(id) {
+        return "#lex/" + id.split("/").map(encodeURIComponent).join("/");
+    }
+    function parseLexHash(hash) {
+        const m = /^#lex\/(.+)$/.exec(hash || "");
+        if (!m) return null;
+        let id;
+        try {
+            id = m[1].split("/").map(decodeURIComponent).join("/");
+        } catch (e) {
+            return null;
+        }
+        return LEX_BY_ID.has(id) ? id : null;
+    }
+
+    // ---- lexicon entry page ----
+    function openLex(id, opts) {
+        const { updateUrl = true } = opts || {};
+        const it = LEX_BY_ID.get(id);
+        if (!it) return;
+        if (updateUrl && parseLexHash(location.hash) !== id) {
+            history.pushState(null, "", lexHash(id));
+        }
+        curView = "lex";
+        curLex = id;
+        dismissPopup();
+
+        const entry = LEX.entries[it.key];
+        const sheet = document.getElementById("sheet");
+        sheet.textContent = "";
+        sheet.appendChild(el("div", "crumb", "Lexicon"));
+
+        const h1 = el("h1", "lex-page-hw", "");
+        const hw = el("span", "", it.he);
+        hw.dir = "rtl";
+        hw.lang = "he";
+        h1.appendChild(hw);
+        h1.appendChild(el("span", "rule", ""));
+        sheet.appendChild(h1);
+
+        const meta = [it.tl, it.form ? "" : entry.partOfSpeech].filter(Boolean);
+        if (meta.length) sheet.appendChild(el("div", "lex-page-meta", meta.join(" · ")));
+        if (it.en) sheet.appendChild(el("div", "lex-page-target", it.en));
+
+        const note = it.form
+            ? (entry.surfaceForms[it.form] || {}).readerNote
+            : entry.readerNote;
+        if (note) sheet.appendChild(el("p", "lex-page-note", note));
+
+        if (!it.form && entry.etymology) {
+            sheet.appendChild(el("h2", "lex-page-h2", "Etymology"));
+            sheet.appendChild(el("p", "lex-page-note", entry.etymology));
+        }
+
+        // Forms of this entry that carry their own reader-facing text.
+        if (!it.form && entry.surfaceForms) {
+            const forms = Object.entries(entry.surfaceForms).filter(
+                ([, sf]) => sf.readerGloss || sf.readerNote
+            );
+            if (forms.length) {
+                sheet.appendChild(el("h2", "lex-page-h2", "Forms"));
+                const dl = el("dl", "lex-forms", "");
+                for (const [form, sf] of forms) {
+                    const dt = el("dt", "", "");
+                    const f = el("span", "lex-he", form);
+                    f.dir = "rtl";
+                    f.lang = "he";
+                    dt.appendChild(f);
+                    if (sf.readerGloss) dt.appendChild(el("span", "lex-form-gloss", sf.readerGloss));
+                    dl.appendChild(dt);
+                    if (sf.readerNote) dl.appendChild(el("dd", "", sf.readerNote));
+                }
+                sheet.appendChild(dl);
+            }
+        }
+
+        setTab("lex");
+        document.querySelectorAll("#toc-panel .chap.active").forEach((n) =>
+            n.classList.remove("active")
+        );
+        markActiveLex(id);
+        document.body.classList.remove("nav-open");
+        syncMenuBtn();
+        document.querySelector("main").scrollTop = 0;
     }
 
     // Lexicon mark clicks (delegated — attached once, not per chapter)
@@ -616,9 +882,16 @@
 
     // Back/forward buttons and hand-edited URLs.
     window.addEventListener("hashchange", function () {
+        const lexId = parseLexHash(location.hash);
+        if (lexId) {
+            if (!(curView === "lex" && curLex === lexId)) {
+                openLex(lexId, { updateUrl: false });
+            }
+            return;
+        }
         const loc = parseHash(location.hash);
         if (!loc) return;
-        if (loc.g === curG && loc.c === curC) {
+        if (curView === "chapter" && loc.g === curG && loc.c === curC) {
             if (loc.p !== null) scrollToPara(loc.p);
             return;
         }
@@ -627,7 +900,10 @@
 
     renderNav();
     const initial = parseHash(location.hash);
-    if (initial) {
+    const initialLex = parseLexHash(location.hash);
+    if (initialLex) {
+        openLex(initialLex, { updateUrl: false });
+    } else if (initial) {
         open(initial.g, initial.c, { updateUrl: false, para: initial.p });
     } else {
         open(0, 0, { updateUrl: false });
