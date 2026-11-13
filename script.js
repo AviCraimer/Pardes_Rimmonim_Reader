@@ -727,8 +727,8 @@
         if (lexInChapter) {
             const msg = lastChapter
                 ? META.sectionNames[0] + " " + (lastChapter.g + 1) + ", " +
-                  META.sectionNames[1].toLowerCase() + " " + (lastChapter.c + 1) + ": " +
-                  shown.length + (shown.length === 1 ? " entry" : " entries")
+                  META.sectionNames[1] + " " + (lastChapter.c + 1) + " (" +
+                  shown.length + (shown.length === 1 ? " entry)" : " entries)")
                 : "Open a chapter to filter by it.";
             panel.appendChild(el("div", "lex-filter-note", msg));
         }
