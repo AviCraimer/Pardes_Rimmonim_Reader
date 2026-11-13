@@ -1,6 +1,6 @@
 # Conversions still to be made in the translated text
 
-*Rulings recorded in `lexicon.json` that the text of earlier gates does not yet follow. Remove an item when its conversion is done. Counts taken 10 November 2026.*
+*Rulings recorded in `lexicon_translation.json` that the text of earlier gates does not yet follow. Remove an item when its conversion is done. Counts taken 10 November 2026.*
 
 ## *Kalul*, *kelalut*: include, included in, inclusion (ruled 10 November 2026)
 

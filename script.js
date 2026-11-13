@@ -33,23 +33,38 @@
     syncMenuBtn();
 
     // ---- data loading ----
-    const [resp, heResp, lexResp, aliasResp] = await Promise.all([
+    // The lexicon is split in two files with the same entry keys:
+    // lexicon_translation.json (headword, renderings, candidates, surface
+    // forms) and lexicon_reader.json (notes, etymologies, hidden entries,
+    // hideForms, extraForms, skipTokens).
+    const [resp, heResp, lexResp, readerResp] = await Promise.all([
         fetch("translation.json"),
         fetch("Pardes_Rimmonim.json"),
-        fetch("lexicon.json"),
-        // aliases.json is optional: a missing/invalid file must not break the app.
-        fetch("aliases.json").catch(() => null),
+        fetch("lexicon_translation.json"),
+        // lexicon_reader.json is optional: a missing/invalid file must not
+        // break the app (popups then show renderings without notes).
+        fetch("lexicon_reader.json").catch(() => null),
     ]);
     const DATA = await resp.json();
     const HEB = await heResp.json();
     const LEX = await lexResp.json();
-    let ALIASES = { aliases: {} };
-    if (aliasResp && aliasResp.ok) {
+    let READER = { entries: {} };
+    if (readerResp && readerResp.ok) {
         try {
-            ALIASES = await aliasResp.json();
+            READER = await readerResp.json();
         } catch (e) {
-            console.warn("aliases.json present but could not be parsed:", e);
+            console.warn("lexicon_reader.json present but could not be parsed:", e);
         }
+    }
+    const READER_ENTRIES = READER.entries || {};
+    // The reader record of an entry ({} when it has none).
+    function readerOf(key) {
+        return READER_ENTRIES[key] || {};
+    }
+    // The reader's note on one particular form of an entry, if any.
+    function formNote(key, form) {
+        const forms = readerOf(key).forms;
+        return (forms && forms[form] && forms[form].note) || "";
     }
 
     // The table of contents (gate titles, descriptions, chapter summaries)
@@ -71,9 +86,9 @@
 
     // ---- lexicon surface-form map ----
     // Each surface form resolves to ONE lexicon entry. When several entries claim
-    // the same form, the more deliberate claim wins: aliases.json (3) > a key of
-    // an entry's `surfaceForms` (2) > a form logged in a decision (1). Between
-    // equal claims the later entry wins.
+    // the same form, the more deliberate claim wins: an entry's `extraForms` in
+    // lexicon_reader.json (3) > a key of an entry's `surfaceForms` (2) > a form
+    // logged in a decision (1). Between equal claims the later entry wins.
     const FORM_MAP = new Map(); // surfaceForm string → entry key
     const FORM_RANK = new Map(); // surfaceForm string → rank of the winning claim
     function claimForm(form, key, rank) {
@@ -88,14 +103,15 @@
     // The reader-facing rendering recorded for one particular form, if any.
     function formGloss(entry, form) {
         const sf = entry.surfaceForms && entry.surfaceForms[form];
-        return (sf && (sf.readerGloss || sf.prefer)) || "";
+        return (sf && (sf.rendering || sf.prefer)) || "";
     }
 
     for (const [key, entry] of Object.entries(LEX.entries)) {
-        if (entry.public === false) continue;
+        const rd = readerOf(key);
+        if (rd.hidden === true) continue;
         // Forms the lexicon asks us never to highlight for this entry
         // (ambiguous everyday words, e.g. עלה "cause" vs. "went up").
-        const hidden = new Set(entry.hideForms || []);
+        const hidden = new Set(rd.hideForms || []);
         // A "cluster" entry groups unrelated names and idioms. Its popup is
         // headed by the clicked form, so only forms that carry their own
         // rendering are highlighted, and its decision log is not used.
@@ -121,19 +137,19 @@
         }
     }
 
-    // Merge extra forms from the standalone aliases.json. Kept separate so that
-    // regenerating lexicon.json (whole-file updates) never loses hand-added forms.
-    if (ALIASES.aliases) {
-        for (const [key, spec] of Object.entries(ALIASES.aliases)) {
-            if (!LEX.entries[key]) {
-                console.warn(
-                    'aliases.json: entry key "' + key + '" not found in lexicon.json'
-                );
-                continue;
-            }
-            const forms = (spec && spec.forms) || [];
-            for (const form of forms) claimForm(form, key, 3);
+    // Merge extra forms (`extraForms` in lexicon_reader.json, formerly
+    // aliases.json): hand-added forms that win over any other claim. Like the
+    // old aliases they apply even to hidden entries.
+    for (const [key, rd] of Object.entries(READER_ENTRIES)) {
+        if (!rd || !rd.extraForms) continue;
+        if (!LEX.entries[key]) {
+            console.warn(
+                'lexicon_reader.json: entry key "' + key +
+                    '" not found in lexicon_translation.json'
+            );
+            continue;
         }
+        for (const form of rd.extraForms) claimForm(form, key, 3);
     }
 
     // Split forms: multi-word phrases stay substring-matched (long & distinctive);
@@ -141,8 +157,8 @@
     // inside unrelated words (e.g. קו inside מקום).
     // Whole Hebrew tokens that must never be highlighted, however they would
     // otherwise resolve (e.g. כדין "then", which looks like כ + דין "judgment").
-    // Optional top-level list in lexicon.json.
-    const SKIP_TOKENS = new Set(LEX.skipTokens || []);
+    // Optional top-level list in lexicon_reader.json.
+    const SKIP_TOKENS = new Set(READER.skipTokens || []);
 
     const PHRASE_FORMS = [];
     const WORD_FORMS = new Map();
@@ -271,10 +287,10 @@
     }
 
     // Which English rendering to show for the clicked form:
-    //  1. the form's own rendering (surfaceForms[form].readerGloss, else .prefer);
+    //  1. the form's own rendering (surfaceForms[form].rendering, else .prefer);
     //  2. the sense under which the form is logged, when that is not the
     //     entry's main sense (e.g. "parchment" beside the main sense "curtain");
-    //  3. the entry's readerGloss;
+    //  3. the entry's rendering;
     //  4. the entry's first preferred candidate.
     function resolveRendering(entry, form) {
         const cands = entry.candidates || [];
@@ -291,7 +307,7 @@
         if (logged && logged !== first) {
             return { target: logged.target, gloss: logged.gloss || "" };
         }
-        if (entry.readerGloss) return { target: entry.readerGloss, gloss: "" };
+        if (entry.rendering) return { target: entry.rendering, gloss: "" };
         if (first) return { target: first.target, gloss: first.gloss || "" };
         return { target: "", gloss: "" };
     }
@@ -307,11 +323,11 @@
         const entry = LEX.entries[key];
         if (!entry) return;
 
-        const sf = (entry.surfaceForms && entry.surfaceForms[form]) || {};
         const rendering = resolveRendering(entry, form);
-        // Only the reader-facing note is ever shown. `entry.notes` is the
-        // translator's working record and stays out of the popup.
-        const note = sf.readerNote || entry.readerNote || "";
+        // Only the reader-facing note (lexicon_reader.json) is ever shown.
+        // `entry.notes` is the translator's working record and stays out of
+        // the popup.
+        const note = formNote(key, form) || readerOf(key).note || "";
 
         popup.textContent = "";
         const head = el("div", "lex-popup-head", "");
@@ -657,25 +673,26 @@
 
     const LEX_ITEMS = [];
     for (const [key, entry] of Object.entries(LEX.entries)) {
-        if (entry.public === false) continue;
+        const rd = readerOf(key);
+        if (rd.hidden === true) continue;
         if (entry.cluster) {
             for (const [form, sf] of Object.entries(entry.surfaceForms || {})) {
                 const gloss = formGloss(entry, form);
-                if (!gloss || !hasText(sf.readerNote)) continue;
+                if (!gloss || !hasText(formNote(key, form))) continue;
                 LEX_ITEMS.push({
                     id: key + "/" + form, key, form,
                     he: form, tl: sf.transliteration || "", en: gloss,
                 });
             }
         } else {
-            if (!hasText(entry.readerNote)) continue;
+            if (!hasText(rd.note)) continue;
             const tl = entry.transliteration;
             LEX_ITEMS.push({
                 id: key, key, form: null,
                 he: entry.headword,
                 tl: tl && tl !== "—" ? tl : "",
                 en:
-                    entry.readerGloss ||
+                    entry.rendering ||
                     ((entry.candidates || []).find((c) => c.status === "preferred") || {})
                         .target ||
                     "",
@@ -813,6 +830,7 @@
         dismissPopup();
 
         const entry = LEX.entries[it.key];
+        const rd = readerOf(it.key);
         const sheet = document.getElementById("sheet");
         sheet.textContent = "";
         sheet.appendChild(el("div", "crumb", "Lexicon"));
@@ -829,20 +847,18 @@
         if (meta.length) sheet.appendChild(el("div", "lex-page-meta", meta.join(" · ")));
         if (it.en) sheet.appendChild(el("div", "lex-page-target", it.en));
 
-        const note = it.form
-            ? (entry.surfaceForms[it.form] || {}).readerNote
-            : entry.readerNote;
+        const note = it.form ? formNote(it.key, it.form) : rd.note;
         if (note) sheet.appendChild(el("p", "lex-page-note", note));
 
-        if (!it.form && entry.etymology) {
+        if (!it.form && rd.etymology) {
             sheet.appendChild(el("h2", "lex-page-h2", "Etymology"));
-            sheet.appendChild(el("p", "lex-page-note", entry.etymology));
+            sheet.appendChild(el("p", "lex-page-note", rd.etymology));
         }
 
         // Forms of this entry that carry their own reader-facing text.
         if (!it.form && entry.surfaceForms) {
             const forms = Object.entries(entry.surfaceForms).filter(
-                ([, sf]) => sf.readerGloss || sf.readerNote
+                ([form, sf]) => sf.rendering || formNote(it.key, form)
             );
             if (forms.length) {
                 sheet.appendChild(el("h2", "lex-page-h2", "Forms"));
@@ -853,9 +869,10 @@
                     f.dir = "rtl";
                     f.lang = "he";
                     dt.appendChild(f);
-                    if (sf.readerGloss) dt.appendChild(el("span", "lex-form-gloss", sf.readerGloss));
+                    if (sf.rendering) dt.appendChild(el("span", "lex-form-gloss", sf.rendering));
                     dl.appendChild(dt);
-                    if (sf.readerNote) dl.appendChild(el("dd", "", sf.readerNote));
+                    const fnote = formNote(it.key, form);
+                    if (fnote) dl.appendChild(el("dd", "", fnote));
                 }
                 sheet.appendChild(dl);
             }

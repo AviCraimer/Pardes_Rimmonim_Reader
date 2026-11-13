@@ -1,6 +1,6 @@
 # Gate 8 (Essence and Governance): reading notes before translation
 
-*Written 10 November 2026 after reading all 26 chapters in Hebrew against the lexicon digest (`python3 tools/lexicon_digest.py`). Nothing here is a ruling; rulings go in `lexicon.json`.*
+*Written 10 November 2026 after reading all 26 chapters in Hebrew against the lexicon digest (`python3 tools/lexicon_digest.py`). Nothing here is a ruling; rulings go in `lexicon_translation.json` (reader-facing notes in `lexicon_reader.json`).*
 
 ## Shape of the gate
 

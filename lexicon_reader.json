@@ -1,0 +1,1045 @@
+{
+ "schemaVersion": "2.0",
+ "description": "Reader-facing lexicon text and display settings for the reader site, keyed by the entry keys of lexicon_translation.json (which holds the English renderings and the translator's working record). Everything here is shown to readers or controls what is highlighted. Entry fields: `note` (popup text and the Lexicon page; entries with a note are listed in the Lexicon tab), `etymology` (Lexicon page), `forms[form].note` (popup text for one surface form; a cluster's forms with a rendering and a note are listed in the Lexicon tab), `hideForms` (forms of the entry never highlighted), `extraForms` (additional unpointed surface strings to highlight, formerly aliases.json: single words are matched with Hebrew prefix/suffix awareness, multi-word forms as exact phrases; they win over any other claim on the same form; `extraFormsNote` documents them), `hidden: true` (entry neither highlighted nor listed). Top-level `skipTokens` lists whole Hebrew tokens that are never highlighted. A record exists only for entries with something in it. Schema 2.0.",
+ "skipTokens": [
+  "לדעת",
+  "ולדעת",
+  "מדעת",
+  "האיך",
+  "והאיך",
+  "שהאיך",
+  "השכלה",
+  "מכלה",
+  "ומכלה",
+  "המכלה",
+  "מלאכתי",
+  "ומלאכתי",
+  "כללית"
+ ],
+ "entries": {
+  "כרע": {
+   "note": "Arbiter: the Sefirah that stands between two opposed sides and decides which way the balance falls. The Hebrew root means to make something bow down: to tip the scales. Tiferet is the arbiter between Chesed and Gevurah, and Yesod between Netzach and Hod; Tiferet 'tips them toward the right', toward compassion. In argument the same word is a ruling for one view, as opposed to a compromise (pesharah) that blends two.",
+   "etymology": "From כ-ר-ע, 'to kneel, to bow down' (כרע ברך). The causative הכריע is to make something bow, and so to make one pan of a balance go down: to tip the scales. Rabbinic: the thirteenth of R. Ishmael's rules, 'two verses that contradict each other, until a third verse comes and decides between them (ויכריע ביניהם)'; a person evenly balanced whom one deed 'tips to the scale of merit' (Rambam, Laws of Repentance 3:4); הכרעה as a ruling between disputing opinions. In medieval philosophical Hebrew מכריע probably renders Arabic murajjih, what gives one of two equal possibilities the preponderance (not verified against the translations)."
+  },
+  "בלם": {
+   "note": "Sefer Yetzirah's word for the Sefirot: 'ten Sefirot of belimah.' It is left untranslated in quotations and is often understood as 'nothingness' or 'restraint.' Cordovero reads it as two words, beli mah, 'without what': without an essence that can be grasped."
+  },
+  "עמד-אמצע": {
+   "note": "Aramaic name for Tiferet as the middle axis of the Tree, between the right side (Chesed) and the left (Gevurah)."
+  },
+  "שפע": {
+   "note": "The divine abundance that flows down from the Ein Sof through the Sefirot, and from each Sefirah to the one below it."
+  },
+  "ינק": {
+   "note": "A Sefirah's drawing of effluence from the one above it. The root means 'to suckle.'"
+  },
+  "בחן-בחינה": {
+   "note": "A respect or facet under which a Sefirah is considered. One Sefirah has many aspects, according to what it receives and what it gives."
+  },
+  "מצא-מציאות": {
+   "note": "Literally a \"being-found\". In ordinary use, existence. In Cordovero's technical use, a manifestation of a Sefirah: the Sefirah itself as it exists at one stage of its emanation, for example concealed within its source, or revealed in its own place. One Sefirah has several manifestations at once, because in the Emanation an earlier stage is not annulled when a later one appears; the earlier remains as the root of the later. A manifestation may be concealed: the word means a form the Sefirah takes, not that it is evident to us. And the concealed manifestation is usually the higher and prior one, so that Da'at, the concealed manifestation of Tiferet, stands above Tiferet in its own place. Cordovero treats the subject in Gate 14.",
+   "etymology": "From the root מ-צ-א, 'to find': to exist is נמצא, 'to be found', and a מציאות is literally a being-found. The abstract noun is a medieval coinage of the Hebrew translators of Arabic philosophy (the Tibbonide school), calqued on Arabic wujūd (وجود), which comes from w-j-d, likewise 'to find'; Arabic mawjūd, 'existent', corresponds to Hebrew nimtza. The pair belongs to a wider set of calques: mahut = māhiyya, mikreh = ʿaraḍ, etzem/atzmut ≈ jawhar/dhāt. The Zohar's Aramaic uses the same figure with אשתכח (ishtekhach), 'is found'. In the philosophers the word is a mass noun ('necessary of existence'); Cordovero's technical use makes it a count noun with a plural, מציאיות (metzi'uyot), and treats it as grammatically masculine. The locative sense of the root stays live in his usage (8:9:1 מציאות מתמצא, 'a metzi'ut that comes to be found'). In Sufi usage wujūd keeps a parallel double sense, existence and finding (cf. wajd, ecstasy)."
+  },
+  "כלל-כליל": {
+   "note": "Each Sefirah includes all ten, and each is included in the others. The word says only that they are there, not how they are there: Gate 8 argues that this inclusion is not a composition out of parts, so that Keter can include Gevurah and still be simple compassion. The same Hebrew noun, kelalut, also means \"totality\".",
+   "etymology": "From the root כ-ל-ל, 'to complete, to make whole', the root of כל, 'all', and of כלל, 'a whole' or 'a general rule'. כלול is the passive participle and takes two prepositions: with מ- a whole is made whole 'from' its members, with ב- a member is 'in' another. כללות is the abstract noun, roughly 'all-ness'. The Zohar's Aramaic form is כליל. Later Kabbalah has the reflexive noun התכללות for the same idea, often Englished as 'interinclusion'."
+  },
+  "ברת-ברית": {
+   "note": "Covenant; in particular the covenant of circumcision, and so a name for Yesod, the ninth Sefirah."
+  },
+  "אצבע": {
+   "note": "A finger or a toe. 'Digits' is used because Sefer Yetzirah counts ten on the hands and ten on the feet, which 'fingers' cannot cover."
+  },
+  "אצל-אצילות": {
+   "note": "The emergence of the Sefirot from the Ein Sof, and the realm of the Sefirot that emerged. The root means 'beside, near': what is emanated stays close to its source."
+  },
+  "נקד-נקודה": {
+   "note": "The geometric point. Gate 2 uses point, line and plane to explain how the Emanation proceeds from what has no dimension.",
+   "forms": {
+    "קו": {
+     "note": "A line. In geometry, the extension of a point; in the Tree of the Sefirot, one of its three columns: right (Chesed), left (Din) and middle (Rachamim)."
+    },
+    "שטח": {
+     "note": "A plane or surface: the extension of a line."
+    }
+   }
+  },
+  "גדר-גוף": {
+   "note": "Length, breadth and depth, which define a body. They do not apply to the Sefirot; only their root is found there."
+  },
+  "עלל-עלה": {
+   "note": "The pair that orders the whole Emanation: each Sefirah is the effect of the one above it and the cause of the one below. The Ein Sof is called the Cause of all causes.",
+   "hideForms": [
+    "עלה"
+   ]
+  },
+  "אפס-אפיסה": {
+   "note": "Cordovero's reading of 'end' in the point: not an end in space but the place where a power ceases, as 'beginning' is where it begins."
+  },
+  "ראש-תוך-סוף": {
+   "note": "The triad attributed to the point and to each group of three Sefirot. Hebrew often writes it as an acronym."
+  },
+  "שכל-שכליות": {
+   "note": "Said of the three highest Sefirot, which are intellective and are not called 'attributes', unlike the seven below them."
+  },
+  "כפר-מין": {
+   "note": "Terms for one who denies a principle of faith. 'Cutting among the saplings' is the Talmud's phrase for the apostasy of Elisha ben Abuyah in the Pardes: separating the Sefirot from one another or from their source.",
+   "hideForms": [
+    "מין"
+   ]
+  },
+  "שגח-השגחה": {
+   "note": "Divine providence. Since the Ein Sof does not change, its care for particular things works through the Sefirot."
+  },
+  "אמר-מאמר": {
+   "note": "A divine creative saying: the world was created with ten utterances, which correspond to the ten Sefirot. The same word also means a passage of the Zohar."
+  },
+  "דבר-דברות": {
+   "note": "The ten pronouncements at Sinai, which Cordovero sets beside the ten utterances of creation."
+  },
+  "הלל-הלולים": {
+   "note": "The ten expressions of praise in Psalm 150, matched to the ten Sefirot."
+  },
+  "דעת": {
+   "note": "Knowledge. Not an eleventh Sefirah: Cordovero identifies it with the hidden aspect of Tiferet that unites Chokhmah and Binah. The word also means simply 'knowledge' or 'opinion.'",
+   "forms": {
+    "ב\"ן י\"ה": {
+     "note": "The letters of Binah rearranged. The 'son' is Da'at, the hidden Tiferet, who unites Yah, that is, Chokhmah and Binah."
+    }
+   }
+  },
+  "קלף-קליפה": {
+   "note": "The husks are the forces of impurity, which surround holiness as a husk surrounds a fruit."
+  },
+  "אפריון": {
+   "note": "The litter that King Solomon made for himself (Song 3:9); in the Zohar, an image of Malkhut."
+  },
+  "מלכ-מלכיות": {
+   "note": "The three sections of the Rosh Hashanah Musaf prayer, which Rashbi matches to Malkhut, Tiferet and Binah."
+  },
+  "עקץ-קוץ": {
+   "note": "The small projecting stroke of a letter. The thorn of the yod hints at Keter."
+  },
+  "אבי-עולמות": {
+   "note": "The four worlds: Atzilut (Nearness, or Emanation), Beriah (Creation), Yetzirah (Formation) and Asiyah (Making). Each lower world is a garment to the one above it."
+  },
+  "גלגל": {
+   "note": "A celestial sphere in the astronomers' model, which Cordovero distinguishes from the Torah's 'firmament.'"
+  },
+  "אור-ישר-חוזר": {
+   "note": "Direct light descends from the source through the Sefirot; returning light is reflected back upward from below."
+  },
+  "סי-מבנה": {
+   "note": "A term from Sefer Yetzirah.",
+   "forms": {
+    "לב נתיבות": {
+     "note": "The twenty-two letters and the ten Sefirot by which, according to Sefer Yetzirah, the world was engraved. They belong to Chokhmah."
+    },
+    "אמש": {
+     "note": "The three 'mother' letters of Sefer Yetzirah, which stand for air, water and fire."
+    },
+    "כפולות": {
+     "note": "The seven 'double' letters of Sefer Yetzirah, each with a hard and a soft sound."
+    }
+   }
+  },
+  "היולי": {
+   "note": "The philosophers' formless first matter (Greek hyle), used here of an existence that is still potential and not revealed."
+  },
+  "מזל": {
+   "note": "The supernal flow from Keter. 'Children, life and sustenance depend not on merit but on mazal': that is, not on Chesed but on Keter."
+  },
+  "צמצם": {
+   "note": "To contract or confine. Here it is an ordinary verb (the limitless 'contracts' itself for the sake of the lower beings), not yet the technical tzimtzum of later Kabbalah."
+  },
+  "פרצופים": {
+   "note": "Names from the Zohar's Idra sections for configurations of the Sefirot pictured as faces.",
+   "forms": {
+    "ז\"א": {
+     "note": "The Sefirot below Keter down to Yesod, pictured as a lesser face in which judgment appears."
+    },
+    "נוקבא": {
+     "note": "Malkhut, the female counterpart of Zeir Anpin."
+    },
+    "ע\"ק": {
+     "note": "A name for Keter."
+    }
+   },
+   "hideForms": [
+    "א\"א"
+   ]
+  },
+  "מוח-ראש": {
+   "note": "The head of the supernal configuration: brain, skull and beard. The word for 'brain' also means the kernel of a nut; paired with 'husk' it is rendered 'kernel.'"
+  },
+  "זווג": {
+   "note": "The union of a male and a female Sefirah (Chokhmah and Binah, or Tiferet and Malkhut), from which effluence and souls issue."
+  },
+  "נשמה-נפש-רוח": {
+   "note": "The three grades of the soul, from highest to lowest. Where the text speaks of the soul in general, 'soul' alone is used."
+  },
+  "באר-עומק": {
+   "note": "The well is Binah; its depth, from which the water rises, is Keter."
+  },
+  "עצמות-כלים": {
+   "note": "The theme of Gate 4: are the Sefirot the Emanator's own Self, or vessels that He uses? Cordovero answers that they are vessels within which the Self spreads, as a soul within a body. 'Self' is capitalised only for the Emanator's.",
+   "forms": {
+    "כלים": {
+     "note": "The Sefirot considered as instruments or containers through which the Emanator's Self acts."
+    }
+   }
+  },
+  "מבוכה": {
+   "note": "The confusion among later Kabbalists over whether the Sefirot are the Emanator's Self or His vessels."
+  },
+  "צנור": {
+   "note": "The path of effluence between two Sefirot. In Gate 7 Cordovero defines it as the light aroused between two Sefirot when they face one another."
+  },
+  "נקודה": {
+   "note": "A point. In Gate 2 it is the geometric point; in the Zohar, the primordial 'supernal point' from which the garments of the worlds unfold."
+  },
+  "אדרא-כינויים": {
+   "note": "A term from the Zohar's Idra sections.",
+   "forms": {
+    "רישא חוורא": {
+     "note": "A name for Keter in the Idra."
+    },
+    "בוצינין": {
+     "note": "The Sefirot, as lights."
+    },
+    "קרומא": {
+     "note": "In the Idra's picture of the supernal head, the membrane that covers the brain."
+    },
+    "חמשין תרעין": {
+     "note": "The fifty gates of Binah."
+    },
+    "רעוא דרעוין": {
+     "note": "A name for Keter as hidden in the Ein Sof: the innermost will and pleasure."
+    }
+   }
+  },
+  "כינוי": {
+   "note": "A title: a word or phrase from Scripture or the Zohar, such as \"well\", \"bride\" or \"Life of the Worlds\", that names a Sefirah in one particular aspect. One Sefirah bears many titles, one for each aspect, and the same title can pass to another Sefirah that fills the same role. Titles differ from the proper names of God. Gate 23 lists them in alphabetical order.",
+   "etymology": "From the root כ-נ-ה, 'to give a byname or title': Isaiah 45:4 אכנך ('I have surnamed thee'), Job 32:21-22 ('give flattering titles'). In rabbinic Hebrew the כינויים are the descriptive names of God ('Merciful', 'Gracious') as distinct from the proper names that may not be erased (Mishnah Shevuot 4:13; cf. Shevuot 35a, cited at 1:10:1). The Hebrew grammarians use כינוי for the pronoun, a word standing in for a name. Arabic has the cognate root k-n-y: kunya (a byname) and kināya (indirect or allusive expression)."
+  },
+  "עצם-מקרה": {
+   "note": "The philosophers' distinction between what belongs to a thing in itself and what merely happens to it. Change belongs to the Emanator's Self only accidentally, through the vessels.",
+   "forms": {
+    "משיגיו": {
+     "note": "Literally 'what overtakes it': the things that befall a body."
+    }
+   }
+  },
+  "לבש-לבוש": {
+   "note": "Each level is a garment to the one above it: the vessels to the Self, each world to the world before it, the body to the soul."
+  },
+  "פגם": {
+   "note": "The defect that human sin causes above: light withdraws from a Sefirah, which is then said to be blemished."
+  },
+  "גוון": {
+   "note": "The Sefirot are given colors (white for Chesed, red for Gevurah, green for Tiferet, black for Malkhut), as light takes the color of the glass it passes through."
+  },
+  "דין-משפט-צדק": {
+   "note": "Four words that the translation keeps apart. Din is strict judgment, the left side; Rachamim is compassion, the middle line that tempers it; 'justice' and 'righteousness' are names of Tiferet and Malkhut. Rachamim comes from rechem, 'womb': it is a parent's tenderness, and it takes account of both judgment and lovingkindness."
+  },
+  "שלל-חיוב": {
+   "note": "Terms of negative theology: 'one' is said of the Emanator only by way of negation, to deny plurality, and not as a positive description."
+  },
+  "תיקון": {
+   "note": "Tikkun: putting a thing into its proper, finished state. Depending on the context it is setting something right, setting it in order, making it ready and so adorning it, or repairing what was spoiled. The Sefirot are called ten tikkunim: by them the Emanator is revealed and the world is ordered. Cordovero glosses the word at 8:3:4 as \"beauty and adornment\": the Emanation is the tikkun of the Emanator, since He is known only through it.",
+   "etymology": "From ת-ק-ן, 'to put into a proper, finished state': Ecclesiastes 1:15 'what is crooked cannot be made straight (לתקן)', 12:9 'he set in order (תקן) many proverbs'. Rabbinic התקין, 'to prepare, to institute' (whence תקנה, an ordinance), מתוקן, 'made fit'. In the Zohar the תיקונין of a bride or of the King are his being made ready, dressed and adorned. The sense 'repair' is the same idea applied to what has been spoiled."
+  },
+  "שלשל-השתלשלות": {
+   "note": "The descent of the worlds from cause to effect, link after link, like a chain."
+  },
+  "נצץ-ניצוץ": {
+   "note": "A spark of light. 'The spark of all sparks' is the light of the Ein Sof spreading within the Sefirot."
+  },
+  "פשט-התפשטות": {
+   "note": "The extension of the Self, or of light, into the Sefirot and the worlds. In one Zohar passage 'the expansion' is a name for Chokhmah."
+  },
+  "בוצינא-קרדוניתא": {
+   "note": "A Zoharic name for the first, measuring light of the Emanation, which Cordovero identifies with Keter."
+  },
+  "קו-מדה": {
+   "note": "The same light as the Botzina de-Kardinuta, considered as giving each Sefirah its measure."
+  },
+  "אברי-קומה": {
+   "note": "The Sefirot mapped onto the limbs of the body, as in the passage Patach Eliyahu."
+  },
+  "ידע-בחירה": {
+   "note": "Cordovero resolves the conflict between divine foreknowledge and human free will by assigning them to different Sefirot: knowledge to Da'at, choice to Malkhut."
+  },
+  "חיוב-מציאות": {
+   "note": "The philosophers' division of existents: the Emanator alone exists necessarily; everything else might not have been.",
+   "forms": {
+    "המחויב הראשון": {
+     "note": "The Emanator, who alone exists of necessity."
+    },
+    "נמנע": {
+     "note": "Literally 'precluded'."
+    }
+   }
+  },
+  "דיוקנא-צורה": {
+   "note": "Words for shape and likeness. The Emanator has no image; the forms spoken of belong to the Sefirot and to prophetic vision."
+  },
+  "דבק-דביקות": {
+   "note": "Attachment to God: 'You who cleave to YHVH your God are alive, all of you, this day' (Deut 4:4)."
+  },
+  "שפע-מינים": {
+   "note": "Two kinds of effluence: the perpetual, which sustains a Sefirah and never ceases, and the additional, which raises it and may be withdrawn."
+  },
+  "סדר-אצילות": {
+   "note": "The sequence in which the Sefirot emerged; the subject of Gate 5."
+  },
+  "עתיק-טמיר": {
+   "note": "Names for Keter from the Zohar's Idra: older than the 'elders' Chokhmah and Binah, and hidden even from the hidden."
+  },
+  "פרסא": {
+   "note": "A cloth spread out as a hanging. In the Idra, Keter spreads a hanging before itself and engraves on it; Cordovero identifies it with Chokhmah, a veil and screen that hides Keter."
+  },
+  "אין-יש": {
+   "note": "Keter is called Nothing, because nothing of it can be grasped. Chokhmah, the first that can be called anything at all, is Something. 'Something from Nothing' is Chokhmah from Keter."
+  },
+  "מלכי-אדום": {
+   "note": "The kings of Edom who 'reigned and died' (Genesis 36) are, in the Idra, the powers of judgment that arose in thought before the Emanation and were concealed until their place was prepared."
+  },
+  "גלף-חרט": {
+   "note": "Verbs for the first marking-out of the worlds in the divine thought, before they were emanated."
+  },
+  "צחצחות": {
+   "note": "The hidden lights above Keter: the concealed roots of the Sefirot within the Ein Sof. They are the subject of Gate 11.",
+   "forms": {
+    "אור קדמון": {
+     "note": "One of the three hidden lights within Keter, which Gate 11 treats."
+    },
+    "אור צח": {
+     "note": "One of the three hidden lights within Keter, which Gate 11 treats."
+    },
+    "אור מצוחצח": {
+     "note": "One of the three hidden lights within Keter, which Gate 11 treats."
+    }
+   }
+  },
+  "לילה-ליל": {
+   "note": "Night is Malkhut. The Zohar distinguishes leil, before she has received from the male, from laylah, with its final heh, after."
+  },
+  "נער-נערה": {
+   "note": "Malkhut is called 'youth' before she receives from the male and 'maiden' after. 'Youth' is also a name of the angel Metatron."
+  },
+  "קישוט": {
+   "note": "The bride's adorning of herself before union: what Malkhut receives from the male before the coupling itself."
+  },
+  "קננא": {
+   "note": "'The supernal Mother nests in the Throne': each level of the Emanation dwells in a level of the world below it."
+  },
+  "עלה-מחשבה": {
+   "note": "Said of what was conceived in the divine thought but not yet brought into act.",
+   "extraForms": [
+    "מחשבת"
+   ],
+   "extraFormsNote": "construct form (ה→ת), e.g. מחשבת הבריאה"
+  },
+  "קו-קוים": {
+   "note": "One of the three columns of the Tree: right (Chesed), left (Din) and middle (Rachamim). The middle line decides between the other two."
+  },
+  "מערכה": {
+   "note": "An ordered rank of the Emanation. Cordovero counts four arrays: Chokhmah; Binah; Tiferet with the six extremities; and Malkhut."
+  },
+  "דו-פרצופין": {
+   "note": "Tiferet and Malkhut as they were first emanated: one body with two faces, male and female, back to back."
+  },
+  "נטע-שתל": {
+   "note": "The Sefirot as a tree: planted in their hidden root in Binah, transplanted to their own place, and bearing fruit in the actions that issue from them."
+  },
+  "צור-עמידה": {
+   "note": "Gate 6 asks how the Sefirot are arranged in a drawn figure, which the Kabbalists call the Tree.",
+   "forms": {
+    "אילן": {
+     "note": "The Sefirot pictured as a tree; also the drawn chart of them."
+    }
+   }
+  },
+  "עשן-תלי": {
+   "note": "Sefer Yetzirah's three realms (space, time and the living being), each with its ruler: the Teli (the celestial axis), the sphere and the heart."
+  },
+  "נקוד-טעמים": {
+   "note": "Vowel points and cantillation marks. Cordovero uses the patterns of their dots as diagrams for triads of Sefirot."
+  },
+  "פנים-אחור": {
+   "note": "The Sefirot turn their faces toward one another to give and to receive, and a channel is the light between two facing Sefirot. In Gate 6 the question is which way the drawn Tree faces. The word for 'face' also means 'respect' or 'way.'"
+  },
+  "שמות-גייט6": {
+   "note": "An authority whom Cordovero cites.",
+   "forms": {
+    "בעל מאירת עינים": {
+     "note": "Rabbi Isaac of Acre (14th century), a Kabbalist whom Cordovero cites on the figure of the Tree."
+    }
+   }
+  },
+  "ביטויים-גייט6": {
+   "note": "A stock phrase.",
+   "forms": {
+    "דפח\"ח": {
+     "note": "An abbreviation of Ecclesiastes 10:12, used to praise an opinion."
+    },
+    "סלת נקיה": {
+     "note": "Said of the choicest view."
+    },
+    "שרי ליה מאריה": {
+     "note": "A mild rebuke of a respected author."
+    },
+    "פסקיה לקרא בסכינא חריפא": {
+     "note": "Said of a forced division of a verse."
+    }
+   }
+  },
+  "היה-הויות": {
+   "note": "Beings: things that have come to be. In Gate 5 the word names the beings that arose in thought to be emanated and could not be revealed through Keter or Chokhmah. The same word also means the forms of the name YHVH (Havayah), such as its twelve permutations; in that sense it is left untranslated. Cordovero connects the two: the name indicates the one who is before every being and within every being.",
+   "etymology": "From the root ה-ו-ה, 'to be, to come to be'; the plural of הויה. The same root gives the name YHVH, which is commonly spoken of by rearranging its letters as Havayah, and Cordovero reads the name accordingly: it 'indicates that He was before every havayah ... He is the essence of the havayot' (4:10:7). The family in this translation: הויה 'coming-to-be', מהוה 'brings into being', הויות 'beings'. Distinct from the root מ-צ-א ('to find'), which gives מציאות and נמצאים."
+  },
+  "נקף-הקפה": {
+   "note": "Every cause encompasses its effect, as the outer layer of an onion encloses the inner. So the Ein Sof encompasses all."
+  },
+  "רקיע-שמות": {
+   "note": "The Torah's term for a heaven, which Cordovero distinguishes from the astronomers' 'sphere.' The Talmud names seven: Vilon, Raki'a, Shechakim, Zevul, Ma'on, Makhon, Aravot."
+  },
+  "שגח-השגה": {
+   "note": "Intellectual grasp. Each Sefirah apprehends itself fully, and what is above it only in part."
+  },
+  "יחד-יחוד": {
+   "note": "The unity of the Sefirot with one another and with the Emanator; also the act of unifying them through intention in prayer and the commandments."
+  },
+  "שכל-נבדל": {
+   "note": "The philosophers' name for the angels: intellects apart from matter, which differ from one another in rank and not in bodily properties."
+  },
+  "מקום-עולם": {
+   "note": "'He is the place of the world, and the world is not His place.' When one Sefirah is said to be above another, it is prior in rank, not in location."
+  },
+  "קוסמ-גייט6": {
+   "note": "A term from Gate 6's account of the spheres and the earth.",
+   "forms": {
+    "כגלדי בצלים": {
+     "note": "The spheres, and the Sefirot, nested one within another."
+    },
+    "חרדלא בעזקתא": {
+     "note": "The earth, tiny at the centre of the spheres."
+    },
+    "תבל": {
+     "note": "The inhabited earth, the highest of the seven earths in the Zohar."
+    }
+   }
+  },
+  "שמות-ביטויים-גייט6ב": {
+   "note": "A name or phrase in Gate 6.",
+   "forms": {
+    "אכתריאל": {
+     "note": "A name in Berakhot 7a. Cordovero explains that he is an angel in whom the divine Glory clothes itself."
+    }
+   }
+  },
+  "קנה-קונה": {
+   "note": "A name for God as the one who brought the world into being and possesses it (compare Genesis 14:19)."
+  },
+  "עור-התעוררות": {
+   "note": "The stirring that must rise from the lower Sefirah before the upper one pours into it: 'a mist went up from the earth', and only then 'watered the ground.'"
+  },
+  "עלה-ירד": {
+   "note": "When the Zohar says that a Sefirah ascends or descends, no movement in place is meant. It rises or falls in causal rank, according to how refined its light is."
+  },
+  "הוה-חיה-חדש": {
+   "note": "Creation is continuous: what the Ein Sof brought into being it sustains at every moment, as the water of a river is always new."
+  },
+  "מהות": {
+   "note": "What a thing is (from mah, 'what'). It is distinct from the 'Self' of the Emanator. Gate 8 treats the essence and governance of the Sefirot."
+  },
+  "מזג": {
+   "note": "The tempering of the right side with the left: a little judgment mixed into compassion, and compassion into judgment."
+  },
+  "עין-מעיין": {
+   "note": "Cordovero's word for his reader: one who examines the matter closely."
+  },
+  "שמות-ביטויים-גייט7": {
+   "note": "A name or phrase in Gate 7.",
+   "forms": {
+    "הטבעיים": {
+     "note": "Those who study nature. Cordovero cites their theory that sight works by a ray going out from the eye."
+    },
+    "אמר המגיה": {
+     "note": "A note added by the editor of the printed edition."
+    }
+   }
+  },
+  "עקר-עיקר": {
+   "note": "The chief part or main point of a thing. It is not rendered 'essence', which is kept for another word."
+  },
+  "נוח-נייחא": {
+   "note": "Aramaic for rest or ease. The Zohar plays on Noah's name: the river from Eden gives rest to the garden, as Yesod does to Malkhut."
+  },
+  "ירע-יריעה": {
+   "note": "Two senses. In the Bible, a tent-curtain: the ten curtains of the Tabernacle hint at the ten Sefirot, and 'the curtain' is a name of Tiferet. Among the Kabbalists, a parchment sheet on which the Tree of the Sefirot was drawn.",
+   "forms": {
+    "בעל היריעה": {
+     "note": "The maker of a particular parchment chart of the Tree, with glosses, which Cordovero cites and criticises."
+    },
+    "ביריעות גדולות": {
+     "note": "The large parchment sheets on which the Kabbalists drew the Tree of the Sefirot."
+    },
+    "בפרט ביריעה": {
+     "note": "A particular parchment chart of the Tree, which Cordovero cites."
+    }
+   }
+  },
+  "קלף-כתיבה": {
+   "note": "Parchment as writing material: the surface that receives the writing, which in one passage hints at Malkhut."
+  },
+  "רבע-רביעה": {
+   "note": "The seasonal rain; the Talmud counts three rainfalls. Cordovero uses them for three stages of the flow from Yesod to Malkhut: preparing the ground, sprouting the seed, and making it grow."
+  },
+  "יחס-התיחסות": {
+   "note": "Said of two things that belong together as a matched pair: sun and moon, day and night, Yesod and Malkhut."
+  },
+  "איש-בעל": {
+   "note": "Cordovero reads 'man' in 'a man of the ground' (said of Noah) as 'husband': Yesod, the husband of Malkhut, who is called 'ground.'"
+  },
+  "רכב-מרכבה": {
+   "note": "Ezekiel's Chariot. The word is also used of the Patriarchs and the righteous, each of whom is a chariot, a bearer below, for one of the Sefirot."
+  },
+  "ילד-תולדות": {
+   "note": "Offspring, as in 'These are the generations of Noah.' In the Zohar's reading, the offspring of Yesod and Malkhut are the souls."
+  },
+  "נקב-מבוע": {
+   "note": "Yesod is said to have two openings, like the body: one pours blessing to Malkhut, and the other lets the residue pass to the outer forces. The Aramaic source calls them two wellsprings."
+  },
+  "סיג-סיגים": {
+   "note": "The refuse of smelting. An image for what flows to the forces of impurity, as dross is separated from gold."
+  },
+  "מטרוניתא": {
+   "note": "Matronita, 'the Lady' (from Latin matrona, a married woman of rank): in the Zohar the King's wife, that is, Malkhut, the Shekhinah. In Gate 23 Cordovero explains it as 'mistress', in contrast to the handmaid, and notes that the name is also given to the world of Beriah, 'because it guards the garden.'"
+  },
+  "סטר-אחרא": {
+   "note": "Sitra Achra, 'the Other Side': the realm of impurity, opposed to the side of holiness."
+  },
+  "מים-נוקבין": {
+   "note": "The 'female waters' rise from below through the deeds of the righteous and draw down the 'male waters', the effluence from above."
+  },
+  "הפך-הפכים": {
+   "note": "The opening claim of Gate 8: each Sefirah is one power that can act in opposite ways (reward and punishment, more and less), as one hand both gives and takes."
+  },
+  "שוה-שוויים": {
+   "note": "Sefirot are joined through what they share: Keter with each of the others through the portion of Keter in it, and so for each.",
+   "forms": {
+    "המשתוה": {
+     "note": "Said of the side of a Sefirah that is nearest to, and all but one with, the Sefirah above or below it."
+    }
+   }
+  },
+  "שוב-תשובה": {
+   "note": "Repentance, literally 'return'. It is a name of Binah, which receives those who return. The same word also means 'answer.'"
+  },
+  "גשם-גוף": {
+   "note": "Body in the philosophers' sense: whatever has length, breadth and depth. The Sefirot are not bodies; they are the root from which bodies come.",
+   "forms": {
+    "גשם": {
+     "note": "Body. The same word is the ordinary Hebrew for rain, which allows the pun 'the geshem is over and gone' (Song of Songs 2:11)."
+    }
+   }
+  },
+  "קטר-קוטר": {
+   "note": "Literally 'diameter'. In the reason quoted from Rabbi Azriel it means each of the three directions in which a body extends: length, breadth and depth."
+  },
+  "כמה-כמות": {
+   "note": "Quantity, or measurable size. A real body has quantity; the notional point has none."
+  },
+  "גבל-גבול": {
+   "note": "A limit or boundary. The Ein Sof has none and created entities must have one; the Sefirot stand between, limited only in comparison with their source."
+  },
+  "תכל-תכלית": {
+   "note": "An end. 'Possessed of an end' means finite, and 'without end' means infinite. Before another noun the word means 'the utmost', as in 'the utmost perfection'."
+  },
+  "אין-סוף": {
+   "note": "'Without End': the Emanator, so called because every limit and every end must be denied of Him."
+  },
+  "כרח-הכרח": {
+   "note": "Necessity. Cordovero uses the word both for what must be so and for an argument that compels assent: to 'necessitate' a claim is to prove it conclusively."
+  },
+  "צדק-יצדק": {
+   "note": "A term of logic: a description 'is right' of a thing when it can truly be said of it."
+  },
+  "חסר-חסרון": {
+   "note": "A lack or shortcoming. That the emanated falls short of the Emanator is no deficiency in either: it follows from its being an effect."
+  },
+  "שלם-שלמות": {
+   "note": "Perfection or completeness."
+  },
+  "פשט-פשוט": {
+   "note": "Simple means not made up of parts, the opposite of composite. The Sefirot are simple; body is composite and can be divided. The same word can also mean 'plain' or 'obvious'."
+  },
+  "רוח-רוחני": {
+   "note": "Not bodily. What is spiritual has no parts, so two spiritual things can differ only as cause and effect."
+  },
+  "דקק-דקות": {
+   "note": "Subtlety, the opposite of density. The nearer a thing is to its source, the subtler, that is, the more spiritual, it is."
+  },
+  "עבה-עביות": {
+   "note": "Density or coarseness, the opposite of subtlety. Even Keter is called dense, and dark, in comparison with the Emanator."
+  },
+  "משל-דמיון": {
+   "note": "A comparison drawn from bodily things to help the mind rise to what is not bodily. Cordovero insists that such figures are only parable and likeness."
+  },
+  "פסד-הפסד": {
+   "note": "The philosophers' 'corruption': ceasing to be. Whatever comes to be in this lower world also passes away, and the Emanation was arranged so that such finite things could exist."
+  },
+  "תאר-תואר": {
+   "note": "A quality affirmed of God, such as 'wise' or 'sitting'. The philosophers deny that any can be said of Him; Cordovero answers that they are said of the Sefirot."
+  },
+  "חקר-חקירה": {
+   "note": "Rational investigation, and those who practice it, the philosophers. Cordovero sets their conclusions beside the tradition of the Kabbalists."
+  },
+  "מדד-מדה": {
+   "note": "An attribute: a Sefirah regarded as one of the ways in which God acts, such as lovingkindness or judgment. Strictly the word belongs to the seven lower Sefirot. It also means 'measure'.",
+   "forms": {
+    "מדת היום": {
+     "note": "A name of Tiferet, as 'the attribute of night' is a name of Malkhut."
+    }
+   }
+  },
+  "דרג-מדרגה": {
+   "note": "A step or level in the descent from the Emanator. Each grade is the effect of the one above it and the cause of the one below."
+  },
+  "עלה-מעלה": {
+   "note": "Rank or excellence; also a step, as in the ten degrees by which each Sefirah descends."
+  },
+  "טעם-טעם": {
+   "note": "A reason. This gate asks for the reason why the Emanation exists at all and why the Sefirot are ten. Elsewhere the word means 'taste' or a cantillation mark."
+  },
+  "קבל-קבלה": {
+   "note": "'What is received': the tradition handed down among the Kabbalists, as distinct from what is reached by investigation."
+  },
+  "בדל-הבדל": {
+   "note": "What is not a body cannot be told apart by place or by parts. The Sefirot differ from the Emanator, and from one another, only as an effect differs from its cause."
+  },
+  "אלה-אלקות": {
+   "note": "The divine nature, which becomes known to created entities only through the Sefirot."
+  },
+  "ברא-נברא": {
+   "note": "Whatever exists below the Emanation. Created entities must be finite, and so cannot proceed directly from the Ein Sof.",
+   "forms": {
+    "נאצל ממאציל ונברא מנאצל ונוצר מנברא ונעשה מנוצר": {
+     "note": "The four steps of descent, matching the four worlds: Atzilut, Beriah, Yetzirah and Asiyah."
+    }
+   }
+  },
+  "זול-זולתו": {
+   "note": "Everything that is not the Emanator. The Emanation exists so that He may do good to, and be known by, what is other than Himself. The same word can simply mean 'besides it'."
+  },
+  "ידה-הודאה": {
+   "note": "Thanksgiving. Recanati derives the name of the Sefirah Hod from it."
+  },
+  "בנה-בנין": {
+   "note": "The 'building': the seven lower Sefirot, from Chesed to Malkhut, which build and govern the world, as distinct from the first three."
+  },
+  "קצה-קצוות": {
+   "note": "Ends or directions. 'The six extremities' are the six Sefirot from Chesed to Yesod, like the six directions of space; with Malkhut they are seven."
+  },
+  "עמד-עמוד": {
+   "note": "A pillar on which the world stands. Recanati counts the seven lower Sefirot as seven pillars that the world cannot do without."
+  },
+  "ראש-ראשונות": {
+   "note": "Keter, Chokhmah and Binah. They are intellective and concealed, and act in the world only through the seven Sefirot below them."
+  },
+  "אמן-אומן": {
+   "note": "The six days of creation, that is, the six Sefirot from Chesed to Yesod, pictured as craftsmen who carry out what the first three Sefirot say."
+  },
+  "אמן-אמון": {
+   "note": "A title of Keter from the Tikkunim. Amon is the 'nursling' or 'master craftsman' of Proverbs 8:30; 'wondrous' (mufla) echoes pele, 'wonder', which is the letters of alef rearranged."
+  },
+  "שכן-שכינה": {
+   "note": "The divine Presence: a name of Malkhut, in whom all the Sefirot dwell (shokhenot)."
+  },
+  "כנס-כנסת-ישראל": {
+   "note": "A name of Malkhut, into whom all the Sefirot are gathered."
+  },
+  "כלל-כלה": {
+   "note": "A title of Malkhut. She is called bride (kallah) because she is composed (kelulah) of all the Sefirot."
+  },
+  "אור-מאורות": {
+   "note": "The sun and the moon; in the Zohar, Tiferet and Malkhut. The Torah spells the word without its vavs, which the Sages read as me'erat, 'curse', a sign of judgment."
+  },
+  "מעט-מיעוט": {
+   "note": "The moon, that is, Malkhut, complained that two kings cannot share one crown, and was made smaller. Gate 18 is devoted to it."
+  },
+  "תהו-בהו": {
+   "note": "The state of the earth in Genesis 1:2. Together with 'darkness', the Zohar reads these as the husks that surround Malkhut."
+  },
+  "זהם-זוהמת-הנחש": {
+   "note": "The impurity that the serpent cast into the world through the first sin. It will be removed when the world is rectified."
+  },
+  "היכל-היכלות": {
+   "note": "The heavenly palaces below the Sefirot, in which souls are judged and rewarded. Gates 24 and 26 describe them."
+  },
+  "חיה-תחיה": {
+   "note": "The resurrection of the dead: for Cordovero the time when the world reaches its perfection and the Sefirot are fully united."
+  },
+  "מסך-מסך": {
+   "note": "A screen that dims a light so that weak eyes can bear it. In the parable the ten Sefirot are ten such screens before the light of the Ein Sof."
+  },
+  "עשש-עששית": {
+   "note": "A pane or lamp of glass through which light passes and is softened."
+  },
+  "ארב-ארובה": {
+   "note": "An opening or window through which sunlight enters a house."
+  },
+  "מתק-מתוק": {
+   "note": "A light, or a judgment, is 'sweetened' when it is tempered so that it can be received without harm."
+  },
+  "ראש-ראשית": {
+   "note": "'Beginning' is a name of Chokhmah. The first word of the Torah is read 'with Reshit', that is, by means of Chokhmah, while its opening letter bet points to Keter."
+  },
+  "שם-מב": {
+   "note": "A name of forty-two letters drawn from the opening of Genesis. Avgitatz is its first group of letters; its alef, which stands where the bet of bereshit stands, hints at Keter."
+  },
+  "שם-בן-ארבע": {
+   "note": "The name YHVH. Its letters are distributed among the Sefirot; Keter has only the thorn of the yod."
+  },
+  "קורא-ראשי-תיבות": {
+   "note": "An abbreviation.",
+   "forms": {
+    "א\"א": {
+     "note": "Almost always 'impossible'. In passages from the Idra the same letters stand for Arikh Anpin (the Long Face), and once for Abraham our father."
+    },
+    "ז\"ל": {
+     "note": "After the name of a book it stands for זה לשונו, 'these are its words'."
+    },
+    "ע\"כ": {
+     "note": "The context decides. It can also stand for על כרחך, 'perforce'."
+    },
+    "ר\"ע": {
+     "note": "So in Gate 2, chapter one. Elsewhere the letters usually stand for Rabbi Akiva."
+    },
+    "כ\"ז": {
+     "note": "It can also stand for כל זה, 'all this'."
+    },
+    "ת\"ח": {
+     "note": "The Zohar's formula for opening an exposition. In Hebrew texts the same letters mean 'a Torah scholar'."
+    },
+    "ע\"ש": {
+     "note": "It also stands for עיין שם, 'see there', and for ערב שבת, 'the eve of the Sabbath'."
+    },
+    "כ\"א": {
+     "note": "The context decides. The same letters are the number twenty-one."
+    },
+    "מעס\"ר": {
+     "note": "An editor's note marking words supplied from Asis Rimonim, Rabbi Shmuel Gallico's abridgment of the Pardes."
+    }
+   }
+  },
+  "קורא-ארמית": {
+   "note": "An Aramaic word, from the Zohar or the Talmud.",
+   "forms": {
+    "ודאי": {
+     "note": "Hebrew and Aramaic alike."
+    },
+    "כדין": {
+     "note": "Aramaic. In Hebrew the same letters mean 'rightly, as the law requires'."
+    },
+    "שמושא": {
+     "note": "The Zohar's word for the union by which each day acts within the palanquin, that is, within Malkhut."
+    },
+    "תקונא": {
+     "note": "Also the name for a section of the Tikkunei Zohar, as in 'Tikkun 70'."
+    },
+    "שמא": {
+     "note": "Two different words spelled alike; the language of the sentence decides."
+    }
+   }
+  },
+  "ביטויים-שער-ב": {
+   "note": "A stock phrase or a verse woven into the prose.",
+   "forms": {
+    "דגברי חזינא תיובתא לא חזינא": {
+     "note": "A Talmudic saying (Bava Metzia 16a): the standing of those who ask is granted, the force of their question is not."
+    },
+    "כבשים ללבושיך": {
+     "note": "Proverbs 27:26, as the Sages read it (Chagigah 13a): what belongs to the hidden things (kivshono) of the world should stay under your clothing, that is, be spoken of sparingly."
+    },
+    "הגשם חלף הלך לו": {
+     "note": "Song of Songs 2:11, where geshem is the rain. Here it is 'body': in divinity there is no body."
+    },
+    "דאעיקרא דדינא פרכא": {
+     "note": "Talmudic Aramaic: the argument is answered at its root, so nothing built on it stands."
+    },
+    "נקהה את שיניו": {
+     "note": "From the answer to the wicked son in the Passover Haggadah."
+    },
+    "נקהה את שניו": {
+     "note": "From the answer to the wicked son in the Passover Haggadah."
+    },
+    "רוח אסף בחפניו": {
+     "note": "After Proverbs 30:4: he has grasped nothing."
+    },
+    "עיר על תלה": {
+     "note": "Jeremiah 30:18: rebuilt and complete."
+    },
+    "להפך בזכות": {
+     "note": "Literally 'to turn it over in his favor': to look for the merit in a view."
+    },
+    "הייטב בעיני": {
+     "note": "After Leviticus 10:19."
+    },
+    "מעביר ראשון ראשון": {
+     "note": "Rosh Hashanah 17a: God sets aside the first iniquity before weighing the rest."
+    },
+    "מי ישום פה לאדם": {
+     "note": "After Exodus 4:11."
+    },
+    "בן לילה היה ובן לילה אבד": {
+     "note": "Jonah 4:10."
+    },
+    "אם יום או יומים יעמוד": {
+     "note": "After Exodus 21:21."
+    },
+    "איך יאמר חומר ליוצרו": {
+     "note": "After Isaiah 45:9."
+    },
+    "הקצור קצרה יד": {
+     "note": "After Isaiah 50:2."
+    },
+    "ליפרע": {
+     "note": "Mishnah Avot 5:1: the world was created by ten utterances 'to exact payment from the wicked … and to give a good reward to the righteous'."
+    },
+    "איש באחיהו ידובקו": {
+     "note": "Job 41:9."
+    },
+    "וחשכו הרואות בארובות": {
+     "note": "Ecclesiastes 12:3."
+    },
+    "ולא כאלה חלק יעקב": {
+     "note": "Jeremiah 10:16."
+    },
+    "בחשך יתהלכו": {
+     "note": "After Psalm 82:5."
+    },
+    "נוסעים אנחנו אל המקום": {
+     "note": "Numbers 10:29."
+    },
+    "אל יתבהל להשיב": {
+     "note": "After Ecclesiastes 5:1."
+    },
+    "הן אלה קצת דבריו": {
+     "note": "A play on Job 26:14, 'these are but the edges of His ways'."
+    },
+    "ראש תור": {
+     "note": "A Mishnaic term (Kilayim 2:7) for the pointed end where the sides of a triangle meet."
+    },
+    "מנורה של פרקים": {
+     "note": "A lampstand made of sections that fit into one another: Cordovero's image for the grades of existence."
+    },
+    "בעלי התכונה": {
+     "note": "Astronomers, who are also the geometers of the day."
+    }
+   }
+  },
+  "שמות-שער-ב": {
+   "note": "An author or a book cited in this gate.",
+   "forms": {
+    "יהודא חייטי": {
+     "note": "A Spanish exile (d. about 1510), author of Minchat Yehudah."
+    },
+    "יהודה חייט": {
+     "note": "A Spanish exile (d. about 1510), author of Minchat Yehudah."
+    },
+    "מנחת יהודא": {
+     "note": "Rabbi Yehudah Chayyat's commentary on the Ma'arekhet ha-Elohut."
+    },
+    "רבי עזריאל": {
+     "note": "Rabbi Azriel of Gerona (13th century), one of the first Kabbalists to explain the Sefirot in philosophical terms."
+    },
+    "ר' עזריאל": {
+     "note": "Rabbi Azriel of Gerona (13th century), one of the first Kabbalists to explain the Sefirot in philosophical terms."
+    },
+    "הר\"ר עזריאל": {
+     "note": "Rabbi Azriel of Gerona (13th century), one of the first Kabbalists to explain the Sefirot in philosophical terms."
+    },
+    "מנחם מרקנטי": {
+     "note": "An Italian Kabbalist (about 1300), author of a commentary on the Torah and of Ta'amei ha-Mitzvot."
+    },
+    "מטעמי המצות": {
+     "note": "Recanati's book on the reasons for the commandments."
+    },
+    "שם טוב בן שם טוב": {
+     "note": "A Spanish Kabbalist (d. about 1440), author of Sefer ha-Emunot. He leaves Keter out of the ten and counts Da'at instead."
+    },
+    "ספר האמונות": {
+     "note": "'The Book of Beliefs', by Rabbi Shem Tov ben Shem Tov."
+    },
+    "ספר הבהיר": {
+     "note": "One of the earliest books of the Kabbalah."
+    },
+    "אור יקר": {
+     "note": "Cordovero's own commentary on the Zohar, to which he often refers the reader."
+    },
+    "בעסיס רמונים ובפלח": {
+     "note": "Two abridgments of the Pardes: Asis Rimonim by Rabbi Shmuel Gallico and Pelach ha-Rimon by Rabbi Menachem Azariah of Fano. The note is an editor's."
+    },
+    "רבי עקיבא": {
+     "note": "Sayings about the letters quoted in his name come from the midrash Otiyot de-Rabbi Akiva."
+    },
+    "בתקונים": {
+     "note": "The Tikkunei Zohar: seventy expositions of the word bereshit."
+    },
+    "בתיקונים": {
+     "note": "The Tikkunei Zohar: seventy expositions of the word bereshit."
+    },
+    "מהתקונים": {
+     "note": "The Tikkunei Zohar: seventy expositions of the word bereshit."
+    },
+    "התקונים": {
+     "note": "The Tikkunei Zohar: seventy expositions of the word bereshit."
+    },
+    "תרגום ירושלמי": {
+     "note": "An Aramaic translation of the Torah, which renders the first word 'with wisdom'."
+    }
+   }
+  },
+  "ציורים-שער-ב": {
+   "note": "A title or image used for the Sefirot in this gate.",
+   "forms": {
+    "זרועות עולם": {
+     "note": "Chesed and Gevurah, after Deuteronomy 33:27."
+    },
+    "ג' אבות": {
+     "note": "Abraham, Isaac and Jacob, who stand for Chesed, Gevurah and Tiferet."
+    },
+    "ברכת אבות": {
+     "note": "The first blessing of the Amidah."
+    },
+    "אש ממים": {
+     "note": "Gevurah, which was emanated from Chesed."
+    },
+    "מלבנת עונות ישראל": {
+     "note": "Chesed."
+    },
+    "נצוח": {
+     "note": "Recanati derives the name of the Sefirah Netzach from it."
+    },
+    "משפע ויורד": {
+     "note": "Of the triangle in the diagram. The word for 'slopes' is spelled like the word for effluence."
+    },
+    "המשפיע המשפע ויורד": {
+     "note": "A play on two words spelled alike: what pours forth effluence, and what slopes."
+    },
+    "טבור הארץ": {
+     "note": "Its centre, the lowest point of all existence."
+    },
+    "כתר שבכתר": {
+     "note": "Each Sefirah contains all ten; 'the X within Y' names one of the ten inside Y."
+    },
+    "מלכות שבכתר": {
+     "note": "Each Sefirah contains all ten; 'the X within Y' names one of the ten inside Y."
+    },
+    "כתר שבחכמה": {
+     "note": "Each Sefirah contains all ten; 'the X within Y' names one of the ten inside Y."
+    },
+    "מלכות שבחכמה": {
+     "note": "Each Sefirah contains all ten; 'the X within Y' names one of the ten inside Y."
+    },
+    "כתר שבבינה": {
+     "note": "Each Sefirah contains all ten; 'the X within Y' names one of the ten inside Y."
+    },
+    "חכמה שבכתר": {
+     "note": "Each Sefirah contains all ten; 'the X within Y' names one of the ten inside Y."
+    },
+    "עצי הלבנון": {
+     "note": "Song of Songs 3:9. The Zohar reads them as the six days of creation, the six Sefirot that build the palanquin."
+    },
+    "עצי לבנון": {
+     "note": "Song of Songs 3:9. The Zohar reads them as the six days of creation, the six Sefirot that build the palanquin."
+    },
+    "ארזי לבנון": {
+     "note": "Psalm 104:16."
+    },
+    "בי\"ת גדולה": {
+     "note": "The first letter of the Torah, which is written large."
+    },
+    "פל\"א": {
+     "note": "The letters of alef rearranged: a sign of Keter, which is hidden and wondrous."
+    }
+   }
+  },
+  "עלם-גלה": {
+   "note": "The first three Sefirot are concealed and act only through the lower seven, in which their action is revealed. The whole Emanation exists so that divinity may be revealed and not remain concealed."
+  },
+  "משך-נמשך": {
+   "note": "Said of light, effluence or an action that is drawn down from a higher Sefirah through a lower one; and of whatever proceeds from a cause."
+  },
+  "קורא-לשון-העיון": {
+   "note": "A term of scholastic or Talmudic argument.",
+   "forms": {
+    "הקשה": {
+     "note": "The same letters also spell 'the harsh', as in 'the harsh judgment'."
+    },
+    "ראיה": {
+     "note": "The same letters also spell 'seeing'."
+    },
+    "כנגד": {
+     "note": "Literally 'opposite': said of two sets whose members match one for one."
+    }
+   }
+  },
+  "רמז": {
+   "note": "A hint: a letter, word or verse that points to a Sefirah or to a hidden matter without naming it. Remez is the second of the four traditional levels of interpretation (peshat, remez, derash, sod)."
+  },
+  "שאל-השאלה": {
+   "note": "A borrowed use of a name: calling one Sefirah by the name of another to which the name properly belongs. Cordovero contrasts it with what a thing is called intrinsically. Its counterpart is mamash, \"literally\".",
+   "etymology": "From ש-א-ל in the sense 'to borrow'. The medieval Hebrew term for metaphor: a שם מושאל is a 'borrowed name', calquing Arabic ism mustaʿār (istiʿāra, 'borrowing'). NB the same spelling השאלה is far more often 'the question' (ש-א-ל, 'to ask')."
+  },
+  "שם": {
+   "hidden": true
+  },
+  "צרף-צירוף": {
+   "note": "Permutation: rearranging the letters of a word to yield another, as de'ot (\"knowledges\") yields edut (\"testimony\"). Gate 30 is devoted to it.",
+   "etymology": "From צ-ר-ף, 'to join, to refine'. As a technique of interpretation it is the rearranging of letters; Cordovero defines it at 30:1:4 from Sefer Yetzirah: 'two stones build two houses, three build six, four build twenty-four, five build 120, six build 720, seven build 5,040', that is, n factorial, and he writes out the orderings (אב בא; אבג אגב באג ...)."
+  },
+  "ברא-בריה": {
+   "note": "A creature: a living created thing. Cordovero uses the word for the inhabitants of the world, above all those whom God judges and shows compassion to, and who come to know Him through the Emanation."
+  },
+  "קנה-קנין": {
+   "note": "What belongs to a thing as its own settled possession, as against what it has only accidentally or for a time. Cordovero's point in Gate 4 is that no attribute, change or name belongs to the Self of the Emanator in this way: they belong to the vessels.",
+   "etymology": "From ק-נ-ה, 'to acquire, to possess' (the root of the divine title קונה, see that entry). In the Hebrew of the medieval philosophers קנין is the standard word for a settled possession or state, what a subject has as its own (Greek hexis, Latin habitus), as against a privation of it or a passing condition. Cordovero does not define the term; this background is from the general Tibbonide vocabulary."
+  },
+  "מור-תמורה": {
+   "note": "Substitute, substitution: something put in the place of something else. Cordovero uses the word for the husks, which stand in the place of the holy order as \"evil substituted for good\" (Gates 25 and 26), and for the technique of replacing one letter by another (Gate 30).",
+   "etymology": "From the root מ-ו-ר, 'to exchange': Leviticus 27:10 'he shall not exchange it nor substitute it ... it and its substitute (תמורתו) shall be holy', whence the Talmudic tractate Temurah on substituted offerings. Sefer Yetzirah uses it for what stands in the place of a thing ('the temurah of peace is evil'). In the techniques of interpretation it is the replacing of one letter by another according to a paired alphabet such as at-bash."
+  },
+  "חמל-חמלה": {
+   "note": "Pity: sparing someone, holding back from harming them. Distinct from rachamim, 'compassion'.",
+   "etymology": "From ח-מ-ל, 'to spare, to hold back from harming' (1 Samuel 15:9 'Saul spared Agag'; Ezekiel 16:5 'to have pity on you')."
+  },
+  "ממש": {
+   "note": "Literally: the word marks what stands beside it as meant in its strict sense. Its counterpart is \"in a borrowed sense\" (be-hash'alah). Cordovero uses the pair constantly, since most of what is said of the Sefirot is said in a borrowed sense, and he takes care to mark what is not.",
+   "etymology": "From מ-ש-ש, 'to feel, to touch': as a noun, 'substance, something tangible' (rabbinic יש בו ממש, 'there is something to it'; אין בו ממש, 'there is nothing in it'). As an adverb it marks the word beside it as meant in its strict sense. The use as a bare intensifier ('really, totally') is modern colloquial Hebrew and is not Cordovero's."
+  },
+  "דבר-פירוש": {
+   "note": "Teaching: in the five parts of the name, what a reading is taken to say about the Sefirot. From the reading one draws a teaching, and the teaching sends one back to the letters for a new reading.",
+   "etymology": "From ד-ב-ר, 'to speak': word, thing, matter. In the Ma'ayan sentence it pairs with מאמר, from א-מ-ר, 'to say'."
+  },
+  "כלל-מכלל": {
+   "note": "Combining: in the five parts of the name, joining two words into one string of letters, so that a new reading can be divided out of it.",
+   "etymology": "From כ-ל-ל, 'to include, to complete' (Psalms 50:2 מכלל יופי, 'perfection of beauty'; Kimchi's grammar Mikhlol, 'compendium'). Same root as כלול, 'included'."
+  },
+  "חשב-חשבון": {
+   "note": "Letter-reckoning: in the five parts of the name, joining two letters into one or splitting one into two by their numerical values, so that nothing is lost in the count.",
+   "etymology": "From ח-ש-ב, 'to think, to reckon': a calculation, an account; in gematria עולה בחשבון, 'amounts in value to'."
+  },
+  "רעה-רעים": {
+   "note": "Friends: companions who are never apart, and so never long for one another. In Gate 8, Chokhmah and Binah.",
+   "etymology": "From ר-ע-ה (II), 'to associate with'; רֵעַ 'friend, companion', רֵעוּת 'friendship'. Song of Songs 5:1 'אכלו רעים'."
+  },
+  "דוד-דודים": {
+   "note": "Lovers: those who long for one another and are together only at times. In Gate 8, Tiferet and Malkhut.",
+   "etymology": "From ד-ו-ד, 'love, beloved'; דּוֹד 'lover, beloved'; דּוֹדִים also 'love-making' (Proverbs 7:18; Song of Songs 1:2)."
+  }
+ }
+}
