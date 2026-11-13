@@ -1,4 +1,37 @@
 (async function () {
+    // ---- table-of-contents toggle ----
+    // Mobile (≤760px): the nav is an overlay drawer, toggled by `nav-open`.
+    // Wider screens: the nav is a grid column that can be collapsed with
+    // `nav-collapsed`; the reading column resizes, nothing overlaps.
+    // Wired before the data loads so the button works immediately.
+    const MOBILE = window.matchMedia("(max-width: 760px)");
+    const COLLAPSE_KEY = "pr-nav-collapsed";
+    try {
+        if (localStorage.getItem(COLLAPSE_KEY) === "1") {
+            document.body.classList.add("nav-collapsed");
+        }
+    } catch (e) {}
+    const menuBtn = document.getElementById("menu-btn");
+    function syncMenuBtn() {
+        const expanded = MOBILE.matches
+            ? document.body.classList.contains("nav-open")
+            : !document.body.classList.contains("nav-collapsed");
+        menuBtn.setAttribute("aria-expanded", String(expanded));
+    }
+    menuBtn.addEventListener("click", function () {
+        if (MOBILE.matches) {
+            document.body.classList.toggle("nav-open");
+        } else {
+            const collapsed = document.body.classList.toggle("nav-collapsed");
+            try {
+                localStorage.setItem(COLLAPSE_KEY, collapsed ? "1" : "0");
+            } catch (e) {}
+        }
+        syncMenuBtn();
+    });
+    MOBILE.addEventListener("change", syncMenuBtn);
+    syncMenuBtn();
+
     // ---- data loading ----
     const [resp, heResp, lexResp, aliasResp] = await Promise.all([
         fetch("translation.json"),

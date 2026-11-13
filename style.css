@@ -188,6 +188,39 @@ main {
     text-align: right;
     user-select: none;
 }
+/* ---- collapsible nav on wider screens ---- */
+@media (min-width: 761px) {
+    body {
+        transition: grid-template-columns 0.25s;
+    }
+    body.nav-collapsed {
+        grid-template-columns: 0 1fr;
+    }
+    body.nav-collapsed nav {
+        visibility: hidden;
+        border-right: 0;
+    }
+    body .menu-btn {
+        display: inline-flex;
+        top: 0.6rem;
+        left: calc(320px + 0.8rem);
+        padding: 0.3rem 0.7rem;
+        font-size: 0.9rem;
+        transition: left 0.25s;
+    }
+    body.nav-collapsed .menu-btn {
+        left: 0.8rem;
+    }
+}
+/* Intermediate widths (tablets): give the reading column more room */
+@media (min-width: 761px) and (max-width: 1180px) {
+    main {
+        padding: 0 1.2rem;
+    }
+    .sheet {
+        padding: 2.8rem 2.6rem 3.4rem;
+    }
+}
 @media (max-width: 760px) {
     body {
         grid-template-columns: 1fr;
