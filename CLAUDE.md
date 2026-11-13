@@ -32,7 +32,7 @@ Indices in the files are 0-based. References in conversation, commits and tools 
 ## How a gate is translated
 
 1. **Read the whole gate in Hebrew first** (`show_paragraphs.py G --he`), against the lexicon digest. Note terms that have no ruling, and rulings the gate seems to strain.
-2. **Ask Avi for rulings** where a real choice is needed: show the passages, give the candidates and say which you prefer. Don't invent choices for the sake of asking. Record each ruling in `lexicon_translation.json` (with a reader note in `lexicon_reader.json`), and list any earlier sites it affects in `notes/pending_conversions.md`.
+2. **Ask Avi for rulings** where a real choice is needed: show the passages, give the candidates and say which you prefer. Don't invent choices for the sake of asking. Record each ruling in `lexicon_translation.json`, which is the file to work in while translating. Then check whether the entry has a record in `lexicon_reader.json`; if it does, make sure its reader note and etymology still agree with the ruling, and update them if not. List any earlier sites the ruling affects in `notes/pending_conversions.md`.
 3. **Translate chapter by chapter**, following the conventions and the lexicon. Flag textual problems (apparent corruptions, uncertain readings, missing diagrams) in your report rather than silently fixing them.
 4. **Commit after each chunk and push after about each third of a chapter.** Others edit the site code in the same repo, so always `git pull --rebase` before pushing. End commit messages with the attribution lines your session specifies.
 

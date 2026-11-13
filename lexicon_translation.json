@@ -2039,7 +2039,7 @@
    "headword": "תִּקּוּן (pl. תִּקּוּנִין)",
    "transliteration": "tikkun (pl. tikkunin)",
    "partOfSpeech": "noun",
-   "rendering": "tikkun: setting right; setting in order; adornment",
+   "rendering": "tikkun",
    "candidates": [
     {
      "target": "rectification",
@@ -8345,6 +8345,48 @@
     }
    },
    "notes": "2026-11-12 (USER RULING), from the general principle recorded in TRANSLATION_CONVENTIONS.md ('Adjectives used as nouns'). Converted: 2:6:1 (x2), 5:5:1, 6:1:9, 6:8:5, 7:3:4, and the 8:20 contents line ('lower beings' -> 'lower ones'). In 6:8:5 and 7:3:4 צורך גבוה was also aligned from 'a supernal need' to 'a need on high', as in 6:7 and Gate 8."
+  },
+  "עולם-מושכל-מורגש-מוטבע": {
+   "headword": "עוֹלָם מוּשְׂכָּל / עוֹלָם מוּרְגָּשׁ / עוֹלָם מוּטְבָּע",
+   "transliteration": "olam muskal / olam murgash / olam mutba",
+   "partOfSpeech": "noun phrases",
+   "rendering": "the intelligible world / the sensible world / the natural world",
+   "candidates": [
+    {
+     "target": "the intelligible world / the sensible world / the natural world",
+     "status": "preferred",
+     "contextNotes": "Gate 8 ch. 25 only (8:25:1, 8:25:8, and the diagram at 8:25:7): KChB / ChGT / NHY(M), the division 'by breadth', crossing the three lines 'by length'.",
+     "decisions": [
+      {
+       "section": "8:25:1",
+       "surfaceForm": "עולם מושכל",
+       "rationale": "Standard terms of medieval philosophy (intelligible, sensible, natural). Cordovero attributes the scheme to others ('they called it'). Not yet ruled by the user.",
+       "timestamp": "2026-11-13"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "עולם מושכל": {
+     "rendering": "the intelligible world"
+    },
+    "העולם מושכל": {
+     "rendering": "the intelligible world"
+    },
+    "עולם המורגש": {
+     "rendering": "the sensible world"
+    },
+    "עולם מורגש": {
+     "rendering": "the sensible world"
+    },
+    "עולם המוטבע": {
+     "rendering": "the natural world"
+    },
+    "עולם מוטבע": {
+     "rendering": "the natural world"
+    }
+   },
+   "notes": "2026-11-13: rendering chosen in translation, not yet a user ruling. Only in 8:25 in the whole book. Orthogonal to ABYA as a division: a horizontal grouping of the ten Sefirot within one world, against the vertical stack of worlds. The names are the philosophers' three worlds (separate intellects, celestial spheres, sublunar nature); reading them back into the Sefirot makes the triads the root of that cosmos. That last link is the translator's reading, not Cordovero's statement."
   }
  }
 }

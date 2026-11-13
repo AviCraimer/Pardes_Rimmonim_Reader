@@ -92,7 +92,8 @@
    "note": "Divine providence. Since the Ein Sof does not change, its care for particular things works through the Sefirot."
   },
   "אמר-מאמר": {
-   "note": "A divine creative saying: the world was created with ten utterances, which correspond to the ten Sefirot. The same word also means a passage of the Zohar."
+   "note": "Three senses. A divine creative saying: the world was created with ten utterances, which correspond to the ten Sefirot. A passage quoted from the Zohar or another book. And, in the five parts of the name (Gate 8, chapter 4), a \"reading\": dividing a string of letters into words, the converse of \"combining\"; from a reading one draws a \"teaching\", and the teaching sends one back to the letters.",
+   "etymology": "From א-מ-ר, 'to say': a saying, an utterance; in rabbinic Hebrew also a statement or passage of a text. The ten מאמרות are the ten 'And God said' of Genesis 1 (Avot 5:1)."
   },
   "דבר-דברות": {
    "note": "The ten pronouncements at Sinai, which Cordovero sets beside the ten utterances of creation."
@@ -173,7 +174,7 @@
    "note": "The head of the supernal configuration: brain, skull and beard. The word for 'brain' also means the kernel of a nut; paired with 'husk' it is rendered 'kernel.'"
   },
   "זווג": {
-   "note": "The union of a male and a female Sefirah (Chokhmah and Binah, or Tiferet and Malkhut), from which effluence and souls issue."
+   "note": "Coupling: the union of a male and a female Sefirah, from which effluence and souls issue. It is found only between Chokhmah and Binah, who never separate, and between Tiferet and Malkhut, who couple at set times (at the blessing \"Sim Shalom\" of the daily prayer) and need an arousal from below. Gate 8 distinguishes coupling \"face to face\" from coupling \"from the back\", which is incomplete (chapters 13-14 and 18-22)."
   },
   "נשמה-נפש-רוח": {
    "note": "The three grades of the soul, from highest to lowest. Where the text speaks of the soul in general, 'soul' alone is used."
@@ -219,7 +220,7 @@
    }
   },
   "כינוי": {
-   "note": "A title: a word or phrase from Scripture or the Zohar, such as \"well\", \"bride\" or \"Life of the Worlds\", that names a Sefirah in one particular aspect. One Sefirah bears many titles, one for each aspect, and the same title can pass to another Sefirah that fills the same role. Titles differ from the proper names of God. Gate 23 lists them in alphabetical order.",
+   "note": "A title: a word or phrase from Scripture or the Zohar, such as \"well\", \"bride\" or \"Life of the Worlds\", that names a Sefirah in one particular aspect. One Sefirah bears many titles, one for each aspect, and the same title can pass to another Sefirah that fills the same role. Titles differ from the proper names of God. Gate 23 lists them in alphabetical order. In grammar the same word kinnui means a pronoun suffix, as the \"my\" of Elohai, \"my God\" (8:15:4).",
    "etymology": "From the root כ-נ-ה, 'to give a byname or title': Isaiah 45:4 אכנך ('I have surnamed thee'), Job 32:21-22 ('give flattering titles'). In rabbinic Hebrew the כינויים are the descriptive names of God ('Merciful', 'Gracious') as distinct from the proper names that may not be erased (Mishnah Shevuot 4:13; cf. Shevuot 35a, cited at 1:10:1). The Hebrew grammarians use כינוי for the pronoun, a word standing in for a name. Arabic has the cognate root k-n-y: kunya (a byname) and kināya (indirect or allusive expression)."
   },
   "עצם-מקרה": {
@@ -246,7 +247,7 @@
    "note": "Terms of negative theology: 'one' is said of the Emanator only by way of negation, to deny plurality, and not as a positive description."
   },
   "תיקון": {
-   "note": "Tikkun: putting a thing into its proper, finished state. Depending on the context it is setting something right, setting it in order, making it ready and so adorning it, or repairing what was spoiled. The Sefirot are called ten tikkunim: by them the Emanator is revealed and the world is ordered. Cordovero glosses the word at 8:3:4 as \"beauty and adornment\": the Emanation is the tikkun of the Emanator, since He is known only through it.",
+   "note": "Tikkun is left untranslated, because no single English word covers it. The root means to put a thing into its proper, finished state, and the word ranges over setting right (a judgment, a passage), setting in order, making ready and so adorning (the Zohar's tikkunin of the King), and repairing what was spoiled. The Sefirot are called ten tikkunim: through them the Emanator is revealed and the world is ordered. Cordovero glosses it at 8:3:4 as \"beauty and adornment\": the Emanation is the tikkun of the Emanator, since He is known only through it. The verb is translated by context (\"set right\", \"arrange\"). One exception: in the five parts of the name (Gate 8, chapter 4) tikkun is \"arrangement\", the set layout of a name's letters from which permutation and the other operations start, and to which they return.",
    "etymology": "From ת-ק-ן, 'to put into a proper, finished state': Ecclesiastes 1:15 'what is crooked cannot be made straight (לתקן)', 12:9 'he set in order (תקן) many proverbs'. Rabbinic התקין, 'to prepare, to institute' (whence תקנה, an ordinance), מתוקן, 'made fit'. In the Zohar the תיקונין of a bride or of the King are his being made ready, dressed and adorned. The sense 'repair' is the same idea applied to what has been spoiled."
   },
   "שלשל-השתלשלות": {
@@ -342,7 +343,7 @@
    "extraFormsNote": "construct form (ה→ת), e.g. מחשבת הבריאה"
   },
   "קו-קוים": {
-   "note": "One of the three columns of the Tree: right (Chesed), left (Din) and middle (Rachamim). The middle line decides between the other two."
+   "note": "One of the three columns of the Tree: right (Chesed), left (Din) and middle (Rachamim). The middle line is the arbiter between the other two. In Gate 8, chapter 25, the lines run \"by length\" and cross a division \"by breadth\" into three worlds."
   },
   "מערכה": {
    "note": "An ordered rank of the Emanation. Cordovero counts four arrays: Chokhmah; Binah; Tiferet with the six extremities; and Malkhut."
@@ -409,7 +410,7 @@
    "note": "Intellectual grasp. Each Sefirah apprehends itself fully, and what is above it only in part."
   },
   "יחד-יחוד": {
-   "note": "The unity of the Sefirot with one another and with the Emanator; also the act of unifying them through intention in prayer and the commandments."
+   "note": "Union: the unity of the Sefirot with one another and with the Emanator; also the act of unifying them through intention in prayer and the commandments. Gate 8, chapter 13, distinguishes three unions: the first, which all the Sefirot have from their emanation; the second, the abundance of effluence, in which the first three are reckoned as one; and the third, coupling, found only in Chokhmah with Binah and Tiferet with Malkhut. The union of Tiferet and Malkhut has three stages: arousal, embrace and kiss, and the union proper (chapters 18-22)."
   },
   "שכל-נבדל": {
    "note": "The philosophers' name for the angels: intellects apart from matter, which differ from one another in rank and not in bodily properties."
@@ -443,7 +444,7 @@
    "note": "A name for God as the one who brought the world into being and possesses it (compare Genesis 14:19)."
   },
   "עור-התעוררות": {
-   "note": "The stirring that must rise from the lower Sefirah before the upper one pours into it: 'a mist went up from the earth', and only then 'watered the ground.'"
+   "note": "Arousal: the stirring that must rise from below before the upper union can take place: \"a mist went up from the earth\", and only then \"watered the ground\" (Genesis 2:6). For Tiferet and Malkhut it comes from this world: the deeds and prayer of the living righteous make a dwelling for the Shekhinah below, for \"the Shekhinah among the lower ones is a need on high\" (Gate 8, chapters 18-20)."
   },
   "עלה-ירד": {
    "note": "When the Zohar says that a Sefirah ascends or descends, no movement in place is meant. It rises or falls in causal rank, according to how refined its light is."
@@ -522,7 +523,7 @@
    "note": "Sitra Achra, 'the Other Side': the realm of impurity, opposed to the side of holiness."
   },
   "מים-נוקבין": {
-   "note": "The 'female waters' rise from below through the deeds of the righteous and draw down the 'male waters', the effluence from above."
+   "note": "The \"female waters\" rise from below through the deeds of the righteous and draw down the \"male waters\", the effluence from above. For Cordovero they come only from the living, who have the commandments and free choice, not from the souls already in the Garden of Eden (8:19:11)."
   },
   "הפך-הפכים": {
    "note": "The opening claim of Gate 8: each Sefirah is one power that can act in opposite ways (reward and punishment, more and less), as one hand both gives and takes."
@@ -999,7 +1000,7 @@
    "hidden": true
   },
   "צרף-צירוף": {
-   "note": "Permutation: rearranging the letters of a word to yield another, as de'ot (\"knowledges\") yields edut (\"testimony\"). Gate 30 is devoted to it.",
+   "note": "Permutation: rearranging the letters of a word to yield another, as de'ot (\"knowledges\") yields edut (\"testimony\"). In the five parts of the name (Gate 8, chapter 4) it is the partner of \"arrangement\" (tikkun): a permutation is drawn out of the arrangement and returns to it. Gate 30 is devoted to it.",
    "etymology": "From צ-ר-ף, 'to join, to refine'. As a technique of interpretation it is the rearranging of letters; Cordovero defines it at 30:1:4 from Sefer Yetzirah: 'two stones build two houses, three build six, four build twenty-four, five build 120, six build 720, seven build 5,040', that is, n factorial, and he writes out the orderings (אב בא; אבג אגב באג ...)."
   },
   "ברא-בריה": {
@@ -1026,7 +1027,7 @@
    "etymology": "From ד-ב-ר, 'to speak': word, thing, matter. In the Ma'ayan sentence it pairs with מאמר, from א-מ-ר, 'to say'."
   },
   "כלל-מכלל": {
-   "note": "Combining: in the five parts of the name, joining two words into one string of letters, so that a new reading can be divided out of it.",
+   "note": "Combining: in the five parts of the name, joining two words into one string of letters, so that a new reading can be divided out of it. It is the converse of \"reading\", which breaks a string into words.",
    "etymology": "From כ-ל-ל, 'to include, to complete' (Psalms 50:2 מכלל יופי, 'perfection of beauty'; Kimchi's grammar Mikhlol, 'compendium'). Same root as כלול, 'included'."
   },
   "חשב-חשבון": {
@@ -1034,11 +1035,11 @@
    "etymology": "From ח-ש-ב, 'to think, to reckon': a calculation, an account; in gematria עולה בחשבון, 'amounts in value to'."
   },
   "רעה-רעים": {
-   "note": "Friends: companions who are never apart, and so never long for one another. In Gate 8, Chokhmah and Binah.",
+   "note": "Friends: companions who are never apart, and so never long for one another. From the Zohar on Song of Songs 5:1, \"Eat, friends, above; drink and be drunk, lovers, below\": the friends are Chokhmah and Binah. Cordovero notes the paradox: \"friends\" sounds like mere friendship and \"lovers\" like love, so one would expect the lovers above; but longing implies distance, and the upper pair are never apart (Gate 8, chapter 14).",
    "etymology": "From ר-ע-ה (II), 'to associate with'; רֵעַ 'friend, companion', רֵעוּת 'friendship'. Song of Songs 5:1 'אכלו רעים'."
   },
   "דוד-דודים": {
-   "note": "Lovers: those who long for one another and are together only at times. In Gate 8, Tiferet and Malkhut.",
+   "note": "Lovers: those who long for one another and are together only at times. In the Zohar's \"Eat, friends, above; drink and be drunk, lovers, below\", the lovers are Tiferet and Malkhut, who couple at set times. Cordovero: the word is one of affection, but \"an affection that indicates distance\" (Gate 8, chapter 14).",
    "etymology": "From ד-ו-ד, 'love, beloved'; דּוֹד 'lover, beloved'; דּוֹדִים also 'love-making' (Proverbs 7:18; Song of Songs 1:2)."
   },
   "שעשע-שעשוע": {
@@ -1046,7 +1047,15 @@
    "etymology": "From ש-ע-ע, reduplicated: 'to delight, to fondle, to play' (Isaiah 11:8; Jeremiah 31:20; Proverbs 8:30-31; Psalms 119:24)."
   },
   "תחת-תחתונים": {
-   "note": "The lower ones / the upper ones: Hebrew uses the bare adjective, with no noun, and the context decides what is meant — the creatures of this world, the lower worlds, or the lower Sefirot. The translation keeps that openness with 'ones'."
+   "note": "The lower ones / the upper ones: Hebrew uses the bare adjective, with no noun, and the context decides what is meant — the creatures of this world, the lower worlds, or the lower Sefirot. The translation keeps that openness with 'ones'.",
+   "etymology": "From תחת, 'beneath': תחתון, 'lower, lowest'; the plural used as a noun, 'the lower ones'. Its pair is עליון, 'upper', from על, 'above'. Rabbinic: שכינה בתחתונים, 'the Shekhinah among the lower ones'."
+  },
+  "טיל-טיול": {
+   "note": "Stroll: in the Zohar, \"the stroll that the Holy One takes with the souls of the righteous\". For Cordovero it is the union of Tiferet and Malkhut in the world of Emanation, aroused by the deeds of the living, as distinct from the midnight reveling with the souls in the Garden of Eden (Gate 8, chapter 19)."
+  },
+  "עולם-מושכל-מורגש-מוטבע": {
+   "note": "The intelligible, sensible and natural worlds: a division of the Sefirot \"by breadth\" into three tiers (Keter-Chokhmah-Binah; Gedulah-Gevurah-Tiferet; Netzach-Hod-Yesod, with Malkhut), crossing the three lines \"by length\" (Gate 8, chapter 25, with its diagram). The names are those of the philosophers' cosmos: the world of the separate intellects, of the perceptible heavenly spheres, and of nature below the moon. It is a division within the Sefirot, not a sequence of worlds like Atzilut, Beriah, Yetzirah and Asiyah.",
+   "etymology": "מושכל, 'conceived by the intellect' (from שכל, 'intellect'); מורגש, 'perceived by the senses' (from הרגש, 'sensation'); מוטבע, 'impressed, natured' (from טבע, 'nature', originally 'a stamped impression'). Medieval Hebrew philosophical vocabulary, translated from the Arabic."
   }
  }
 }
