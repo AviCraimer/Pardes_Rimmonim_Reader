@@ -38,7 +38,7 @@ DONE 2026-11-12 (user ruling; general rule in TRANSLATION_CONVENTIONS.md). All s
 
 ## Table of contents: *ma'amar* = "passage"
 
-The text renders a quoted *ma'amar* "passage" (about 170 times); the contents have "statement". Gate 8's contents are converted. Remaining, by gate: 1 (×3), 2 (×1), 3 (×3), 4 (×5), 5 (×4), 7 (×1), 9 (×3), 10 (×1), 14 (×3), 15 (×1), 16 (×5), 17 (×4), 18 (×11), 19 (×1), 20 (×7), 21 (×2), 22 (×1), 24 (×1), 25 (×1), 30 (×1). The contents still have "mercy" for *rachamim* outside Gate 8, and "emendation" for *tikkun*.
+The text renders a quoted *ma'amar* "passage" (about 170 times); the contents have "statement". Gate 8's contents are converted. Remaining, by gate: 1 (×3), 2 (×1), 3 (×3), 4 (×5), 5 (×4), 7 (×1), 9 (×3), 10 (×1), 15 (×1), 16 (×5), 17 (×4), 18 (×11), 19 (×1), 20 (×7), 21 (×2), 22 (×1), 24 (×1), 25 (×1), 30 (×1). The contents still have "mercy" for *rachamim* outside Gate 8, and "emendation" for *tikkun*.
 
 ## The three lights: "primordial light, clear light, refined light"
 
@@ -70,3 +70,5 @@ The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 
 - **פרגוד** (12:2:45, 12:4:3): "curtain [<em>pargod</em>]", as in 1:7:2. This collides with the lexicon's יריעה = "curtain" (and פרסא = "hanging", "curtain" rejected). Needs its own word: "veil" or "partition"?
 - **נסתר / נעלם** (12:3:17): Cordovero distinguishes <em>nistar</em> (sometimes revealed, sometimes hidden) from <em>ne'lam</em> / <em>nifla</em> (never revealed). Following the lexicon (נעלם = "concealed"), Gates 11–13 now have "concealed" for נעלם and "hidden" for נסתר and the Zohar's סתים; גנוז stays "hidden" or "stored up" (Rav Hai's ג' גנוזות = "three hidden ones", as in 1:7:2). No ruling needed unless the pairing is wrong.
 - **ספר ספר ספור** (12:1:4–9): left as <em>sefer</em>, <em>sefar</em>, <em>sippur</em> with glosses "book", "number/census", "telling".
+- **מכון / מכוניה** (14:4:5–8, Sefer ha-Bahir on Ps. 104:5): "base" ("He founded the earth upon its bases"; "her base is <em>olam</em>"), to keep "foundation" for יסוד / יסד. The Chariot is Malkhut's "base".
+- **הים הקדמוני** (14:3:2–4, Zech. 14:8): "the former sea [<em>ha-yam ha-kadmoni</em>]", with "the latter sea" for הים האחרון, so that Cordovero's קדמוני = Binah reading shows.
