@@ -6,7 +6,7 @@
 - Source data and history: <https://github.com/AviCraimer/Pardes_Rimmonim_Reader>
 - Hebrew source text from Sefaria (public domain). Translation released under the MIT License.
 - The English translation was produced by AI, with terminology rulings by Avi Craimer, and may contain inaccuracies.
-- Gates translated so far: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 (in progress: 12) of 32.
+- Gates translated so far: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 of 32.
 - References are Gate:Chapter:Paragraph. Each English paragraph is followed by the Hebrew it translates, as a quotation.
 
 *Sefer Pardes Rimonim* ("Orchard of Pomegranates") by Rabbi Moshe Cordovero (the Ramak). Translation of the full table of contents (*simanei ha-sefer*) from the Koretz 1780 edition. The work is divided into 32 **gates** (*she'arim*), each with a symbolic title and a stated count of chapters (*perakim*).
@@ -172,7 +172,7 @@ We named it **"Tzachtzachot"** (the Dazzling Lights) because in it is explained 
 
 We named it **"Paths"** because in it is explained the matter of the thirty-two paths of Chokhmah, in their generality and particularity, and the names assigned to them. Its chapters number six.
 
-1. On the number of the paths; the first Mishnah of Sefer Yetzirah, "with thirty-two paths," etc., is explained; and a statement from the Zohar, Parashat Terumah, on the verse "the heavens declare," from which the matter of *sefar, sefer, sippur* (number, book, telling) is explained.
+1. On the number of the paths; the first Mishnah of Sefer Yetzirah, "with thirty-two paths," etc., is explained; and a passage from the Zohar, Parashat Terumah, on the verse "the heavens declare," from which the matter of *sefar, sefer, sippur* (number, book, telling) is explained.
 2. On the paths in the verses of the account of Creation, their names, and the explanation of the Geonim's words on each one.
 3. In which eight of the paths are explained.
 4. In which a further eight paths are explained.
@@ -3985,7 +3985,7 @@ We named it **"Tzachtzachot"** (the Dazzling Lights) because in it is explained 
 
 We named it **"Paths"** because in it is explained the matter of the thirty-two paths of Chokhmah, in their generality and particularity, and the names assigned to them. Its chapters number six.
 
-### Chapter 12:1. On the number of the paths; the first Mishnah of Sefer Yetzirah, "with thirty-two paths," etc., is explained; and a statement from the Zohar, Parashat Terumah, on the verse "the heavens declare," from which the matter of *sefar, sefer, sippur* (number, book, telling) is explained.
+### Chapter 12:1. On the number of the paths; the first Mishnah of Sefer Yetzirah, "with thirty-two paths," etc., is explained; and a passage from the Zohar, Parashat Terumah, on the verse "the heavens declare," from which the matter of *sefar, sefer, sippur* (number, book, telling) is explained.
 
 **12:1:1** **The Twelfth Gate: The Gate of Paths.**
 
@@ -4476,3 +4476,51 @@ We named it **"Paths"** because in it is explained the matter of the thirty-two 
 > **נתיב כ"ד** נקרא שכל דמיוני וכו'. פי' שהוא עושה הדברים אשר ראוי אל כחם אשר נאצל מן הארץ העליונה הנאמר למעלה בנתיב כ"ג. וזה כי בנתיב הזה אמר ויעש אלקים, כי העשייה הוא התגשמות הדברים. וכחם הם כמו נשמה לרוח הנעשה. עד כאן פי' ח' נתיבות:
 
 ### Chapter 12:6. In which a further eight of the paths are explained — being four times eight, which are thirty-two; and because of the length of their explanation we divided them into four chapters.
+
+**12:6:1** In this chapter eight further paths are explained.
+
+> בפרק זה יתבאר ח' נתיבות אחרות:
+
+**12:6:2** Path 25 is called the intellect of trial, etc. The matter is that this path necessitates the trial of the righteous and the pious, like Abraham our father, peace be upon him. And all kinds of created beings, such as the angels and the seraphim, are at times punished, as our Sages, of blessed memory, said (Chagigah 15a) in the matter of Elisha Acher, that they struck Metatron sixty lashes of fire; and likewise concerning Rabbi Chiyya, that they struck Elijah (Bava Metzia 85b); and likewise it is found in the Baraita of Rabbi Ishmael, peace be upon him, that the angels were punished when they did not make their melody right in the Kedushah. And their trial flows from this path. And this is what it says: "And God saw that it was good": the intent is, He tried them and saw them good and strong, quick and good in their service, and standing in their trial.
+
+> **נתיב כ"ה** נקרא שכל נסיוני וכו'. הענין כי הנתיב הזה מחייב נסיון הצדיקים והחסידים כאאע"ה. וכל מיני הנבראים, כמו המלאכים והשרפים לפעמים נענשים כמשאחז"ל (חגיגה ט"ו) בענין אלישע אחר דמחיוהו למטטרו"ן שתין פולסי דנורא, וכן גבי ר' חייא דמחיוהו לאליהו (ב"מ פ"ה), וכן נמצא בברייתא דרבי ישמעאל ע"ה שהמלאכים נענשו כאשר אינם מיישרים נעימתן בקדושה. ונסיונם נשפע מהנתיב הזה. וז"ש וירא אלקים כי טוב. הכונה ניסה אותם וראה אותם טובים וחזקים זריזים וטובים בעבודתם ועומדים בנסיונם:
+
+**12:6:3** Path 26 is called the sensible intellect, etc. The matter is that the intellect of man was created from the source of Chokhmah. And so it is explained in Midrash Ruth (from Zohar Chadash, folio 92), and these are its words: "He opened and said (Ps. 104:24): 'How many are Your works, O Lord; in wisdom You have made them all,' etc. The whole world came only through wisdom, and the human being is filled with everything. The other creatures are in the form (another version: in the addition) of the wisdom that remained in the human being. And although all the creatures are so, there was no creature light enough to pursue after the deeds of human beings, like the bird," etc.; see there. Thus far its words.
+
+> **נתיב כ"ו** נקרא שכל מורגש וכו'. הענין הוא כי שכל האדם נברא ממקור החכמה. וכן פי' במדרש רות (מהזוהר חדש דף צ"ב) וז"ל פתח ואמר מה רבו מעשיך ה' כולם בחכמה עשית וגו'. כל עלמא לא איתון אלא בחכמה וב"נ אתמלי בכלא. שאר בריין בטופסא (נ"א בתוספתא) דחכמה דאשתאר בבר נש. ואע"ג דכלהו בריין הכי לא הוה בריה קליל למרדף בתר עובדי דבני נשא כעופא וכו', ע"ש עכ"ל.
+
+**12:6:4** Behold, explicitly: the intellect of man flows from Chokhmah, and from the surplus of man it flows to the other creatures. And this is intended in this verse: "And God said, Let us make man in our image," etc.: the intent is to knowledge [*da'at*]. And so it is said when he sinned (Gen. 3:22): "Behold, the man has become like one of us, to know [לדע"ת]." And the intent is that the image and likeness of man flows from Chokhmah, from this path, which is the intellect; and for this reason it is called "sensible" [*murgash*]: explanation: it was sensed in this world.
+
+> הנה בפירוש ששכל האדם מושפע מחכמה וממותר האדם נשפע על שאר הבריות, וזה כוון בכתוב זה ויאמר אלקים נעשה אדם בצלמנו וכו' הכונה אל הדעת. וכן נאמר כאשר חטא (בראשית ג כב) הן האדם היה כאחד ממנו לדע"ת. והכונה כי הצלם והדמות של אדם נשפע מחכמה מן הנתיב הזה שהוא השכל ומטעם זה נקרא מורגש פי' הורגש בעולם הזה:
+
+**12:6:5** Path 27 is called the corporeal intellect, etc. It is known that the body of man is in measure and weight, and all its limbs in a supernal disposition, so that it is a shadow of the upper ones, "each man at his service and at his burden" (Num. 4:19), to be a shadow over his head, the likeness of the upper world, as we shall explain in the Gate of the Soul, chapter 8. And behold, its shape is outlined with a compass by the fingers of the hand of its Creator, through this path. And behold, through it the limbs keep their measure and their disposition, so that it does not lengthen or shorten from the proportion that the Maker outlined for them. And this is "And God created man in His image." And there is no doubt that through this path is the form of the embryo in its mother's womb.
+
+> **נתיב כ"ז** נקרא שכל מוגשם כו'. נודע היות גוף האדם במדה ובמשקל וכל אבריו בתכונה עליונה להיותו צל העליונים איש איש על עבודתו ועל משאו להיות צל על ראשו דמות עולם העליון כמו שנבאר בשער הנשמה פ"ח. והנה תארו מתואר במחוגה באצבעות יד בוראו ע"י הנתיב הזה. והנה על ידו האברים שומרים מתכונתם ותכונתם לבל יתארך ויתקצר מהיחס אשר תאר להם הקונה. וזהו ויברא אלקים את האדם בצלמו. ואין ספק שע"י נתיב זה הוא צורת העובר במעי אמו:
+
+**12:6:6** Path 28 is called the natural intellect, etc. The completion of nature is through the female; for so our Sages, of blessed memory, explained (Yevamot 63a) on what the verse said (Gen. 5:2), "Male and female He created them, and He called their name Adam": both of them together are a complete Adam.
+
+> **נתיב כ"ח** נקרא שכל מוטבע וכו'. השלמת הטבע הוא ע"י הנקבה כי כן בארו רז"ל (יבמות ס"ג) במשאה"כ זכר ונקבה בראם ויקרא את שמם אדם, שניהם יחד הם אדם שלם.
+
+**12:6:7** And behold, the woman is for the subsistence of nature in the human species, as is known. And likewise all the upper things are male and female, like the sun and the moon. And this is what the verse says: "In the image of God He created him; male and female He created them." And there is no doubt that through this path are the couplings of man, whether first or second.
+
+> והנה האשה היא לקיום הטבע במין האנושי כנודע, וכן כל הדברים העליונים הם זכר ונקבה כדמיון השמש והירח וז"ש הכתוב בצלם אלקים ברא אותו זכר ונקבה ברא אותם. ואין ספק כי על ידי הנתיב הזה הם הזווגים של אדם בין ראשונים בין שניים:
+
+**12:6:8** Path 29 is called the general intellect, etc. The intent is that the Holy One, blessed be He, in His compassion, poured forth to man intellect in hidden knowledge concerning the motion of the heavens and the spheres and their powers that move them; and likewise the angels of the seasons, the months, the days, and the constellations, for each one of them has a power and an angel that moves it. And of this it is said (Deut. 4:6), "For this is your wisdom and your understanding," and our Sages, of blessed memory, explained (Shabbat 75a): "these are the seasons," etc. And not concerning the false astronomy that Euclid invented in his foolishness, but the true astronomy, which was known to the Sages, of blessed memory, as in the matter that is expounded somewhat in Pirkei de-Rabbi Eliezer and in Pirkei Ma'aseh Bereshit; for this was certainly "wisdom in the eyes of the nations." And through it man knows the governance of the world in the future. And this is "And God blessed them": explanation: He poured forth to them knowledge of the seasons, and other matters, and hidden knowledge.
+
+> **נתיב כ"ט** נקרא שכל כללי וכו'. הכונה כי הקב"ה ברחמיו השפיע אל האדם שכל בידיעות הנעלמות בענין תנועת השמים וגלגלים וכוחותם המניעים אותם. וכן מלאכי התקופות והחדשים והימים והמזלות כי לכל אחד מהם כח ומלאך המניעו. ועל זה נאמר (דברים ד ו) כי היא חכמתכם ובינתכם ופי' רז"ל (שבת דף ע"ה) אלו תקופות וכו'. ולא על התכונה הכוזבת שהמציא אקלידס בפתיותו. אלא התכונה האמיתית שהיתה נודעת לחכמים ז"ל כענין שנדרש קצת בפרקי רבי אלעזר ובפרקי מעשה בראשית כי זאת היתה חכמה לעיני גוים ודאי ועל ידו ידע האדם הנהגת העולם לעתיד. וזהו ויברך אותם אלקים. פי' השפיע להם ידיעות התקופות ושאר הדברים והידיעות הנעלמות:
+
+**12:6:9** Path 30 is called the perpetual intellect, etc. The intent is that the motion of the spheres and their course is through this path, for it is what gives power and strength to the one that moves them. And He stipulated with them that they be subject to those who fear the Lord and think of His name. And this is "And God said to them," etc., "and have dominion over the fish of the sea," etc.: the intent is that He gave him dominion even over the angels emanated from the upper earth, for they are what move the spheres.
+
+> **נתיב ל' **נקרא שכל תמידי וכו'. הכונה כי תנועת הגלגלים ומרוצתם הוא ע"י הנתיב הזה כי הוא הנותן כח וחיל להמניע אותם. והוא התנה עמהם להיותם משעובדים ליראי ה' ולחושבי שמו. וזהו ויאמר להם אלקים וגו' ורדו בדגת הים וכו', הכונה השליט אותו אפי' במלאכים הנאצלים מן הארץ העליונה כי הם המניעים הגלגלים:
+
+**12:6:10** Path 31 is called the served intellect, etc. The intent is that the knowledge of hidden things is through the things revealed in this world. And the illustration of this: when we wish to know the nature of the moon, we examine the lower actions that are drawn from it; and when we see that cold things grow by its power, we know that it is cold in its nature; and likewise the test for the sun, and likewise even for the emanated things. And this is what the verse meant in saying, "And God said, Behold, I have given you all," etc., "for food [לאכל"ה]": the intent in "eating" is the knowledge of the hidden things from the revealed ones. And all is through this path.
+
+> **נתיב ל"א** נקרא שכל נעבד וכו'. הכונה מפני שידיעת הדברים הנעלמים הוא ע"י הדברים הנגלים בעה"ז. והמשל בזה כי כאשר נרצה לדעת תכונת הירח נבחין הפעולות התחתונות הנמשכות ממנה וכאשר נראה שהדברים הקרים גדלים בכחה נדע שהיא קרה בטבעה וכן הנסיון אל השמש וכן אפילו לדברים הנאצלים. וזה רצה הכתוב באמרו ויאמר אלקים הנה נתתי לכם את כל וכו' לאכל"ה. הכונה באכיל"ה, ידיעת הדברים הנסתרים בנגלים מהם. והכל על ידי הנתיב הזה:
+
+**12:6:11** Path 32 is called the renewed intellect, etc. The intent is that through it the Holy One, blessed be He, sends effluence to all the emanated ones, so that they are renewed as at the beginning of their creation; as our Sages, of blessed memory, said (Berakhot 59b) concerning the sun, that from twenty-eight years to twenty-eight years it returns in its cycle as at the beginning of the work of creation, and a blessing is said over it. And likewise the things among the emanated, created, formed, and made ones: all of them are renewed from time to time; and all is through this path. And this is what the verse says: "And God saw all that He had made, and behold, it was very good." And he said "very" to indicate the renewal by which they are renewed, which is the goodness beyond the goodness of creation. And in the Zohar, Parashat Yitro (folio 68b), Rabbi Elazar explained on the verse "And God saw all that He had made": "that He looked," etc., "at all in one totality, above and below," etc. Thus far its words. This teaches all that we have explained.
+
+> **נתיב ל"ב** נקרא שכל מחודש וכו'. הכונה שעל ידו הקב"ה שולח שפע לכל הנאצלים כדי שיתחדשו כאשר בתחלת בריאתם. כמו שאמרו רז"ל (ברכות דף נ"ט ע"ב) בענין השמש כי מכ"ח שנה לכ"ח שנה חוזר בתקופתו כבתחלת מעשה בראשית ומברכין עליו. וכן הדברים בנאצלים ונבראים ונוצרים ונעשים, כלם מתחדשים מזמן לזמן. והכל על ידי הנתיב הזה. וזשאה"כ וירא אלקים את כל אשר עשה והנה טוב מאוד. ואמר מאד, להורות על החדוש שהם מתחדשים והוא הטובה היתירה על טובת הבריאה. ובזהר פ' יתרו (דף ס"ח ע"ב) פי' רבי אלעזר בפסוק וירא אלקים את כל אשר עשה, דאסתכל כו' כלא בכללא חדא עילא ותתא כו' עכ"ל. הורה על כל מה שפירשנו.
+
+**12:6:12** Up to here reaches the explanation of all the paths. And with this this Gate is completed and concluded; and praise to the true God.
+
+> עד הנה הגיע פרישת הנתיבות כלם. ובזה נשלם ונכלל השער הזה והשבח לאל האמיתי:
