@@ -152,88 +152,14 @@
         for (const form of rd.extraForms) claimForm(form, key, 3);
     }
 
-    // Split forms: multi-word phrases stay substring-matched (long & distinctive);
-    // single-word forms go through boundary-aware token matching to avoid matching
-    // inside unrelated words (e.g. קו inside מקום).
     // Whole Hebrew tokens that must never be highlighted, however they would
     // otherwise resolve (e.g. כדין "then", which looks like כ + דין "judgment").
     // Optional top-level list in lexicon_reader.json.
-    const SKIP_TOKENS = new Set(READER.skipTokens || []);
+    const SKIP_TOKENS = READER.skipTokens || [];
 
-    const PHRASE_FORMS = [];
-    const WORD_FORMS = new Map();
-    for (const [form, key] of FORM_MAP) {
-        if (/\s/.test(form)) PHRASE_FORMS.push(form);
-        else WORD_FORMS.set(form, key);
-    }
-    PHRASE_FORMS.sort((a, b) => b.length - a.length);
-
-    // Conservative Hebrew affixes. Bare ם/ן are intentionally excluded as suffixes
-    // (they would re-admit false positives like מקום → מ + קו + ם).
-    const PREFIX_SET = new Set(["ו", "ה", "ב", "כ", "ל", "מ", "ש", "ד"]);
-    const SUFFIXES = ["ים", "ות", "יו", "יה", "נו", "כם", "הם", "ין", "י", "ך", "ה", "ת"];
-
-    // Resolve a single Hebrew word token to a lexicon entry, allowing up to two
-    // stacked proclitic prefixes and one inflectional suffix. Whole-token / longest
-    // stem is tested first so the longest legitimate form wins. Returns
-    // { key, form } — `form` is the lexicon form that matched — or null.
-    function lookupToken(token) {
-        const hit = (form) => ({ key: WORD_FORMS.get(form), form });
-        if (WORD_FORMS.has(token)) return hit(token);
-        for (let p = 0; p <= 2; p++) {
-            const prefix = token.slice(0, p);
-            if (p > 0 && ![...prefix].every((ch) => PREFIX_SET.has(ch))) break;
-            const rest = token.slice(p);
-            if (rest.length < 2) continue;
-            if (WORD_FORMS.has(rest)) return hit(rest);
-            for (const suf of SUFFIXES) {
-                if (rest.length > suf.length + 1 && rest.endsWith(suf)) {
-                    const stem = rest.slice(0, rest.length - suf.length);
-                    if (stem.length >= 2 && WORD_FORMS.has(stem)) return hit(stem);
-                }
-            }
-        }
-        return null;
-    }
-
-    // ---- lexicon highlighting ----
-    // Hebrew "word" characters: Hebrew letters plus geresh/gershayim and ASCII
-    // quotes, so abbreviations like א"א / סת"ר tokenize as a single unit.
-    const HEB_WORD_RE = /[א-ת׳״"']+/g;
-
-    // Compute highlight ranges for one text-node string. Returns sorted,
-    // non-overlapping [{start, end, entryKey, form}].
-    function computeRanges(text) {
-        const ranges = [];
-        const taken = (s, e) => ranges.some((r) => s < r.end && e > r.start);
-
-        // 1) Multi-word phrases first (longest-first, non-overlapping).
-        for (const form of PHRASE_FORMS) {
-            let idx = 0;
-            while ((idx = text.indexOf(form, idx)) !== -1) {
-                const end = idx + form.length;
-                if (!taken(idx, end)) {
-                    ranges.push({ start: idx, end, entryKey: FORM_MAP.get(form), form });
-                }
-                idx = end;
-            }
-        }
-
-        // 2) Single-word tokens via boundary-aware lookup.
-        let m;
-        HEB_WORD_RE.lastIndex = 0;
-        while ((m = HEB_WORD_RE.exec(text)) !== null) {
-            const start = m.index;
-            const end = start + m[0].length;
-            if (taken(start, end)) continue;
-            if (SKIP_TOKENS.has(m[0])) continue;
-            const hit = lookupToken(m[0]);
-            if (hit) ranges.push({ start, end, entryKey: hit.key, form: hit.form });
-        }
-
-        ranges.sort((a, b) => a.start - b.start);
-        return ranges;
-    }
+    // The matching itself lives in matcher.js, shared with the background
+    // worker that counts occurrences, so counts always agree with highlights.
+    const { computeRanges } = createMatcher(FORM_MAP, SKIP_TOKENS);
 
     function highlightLexicon(hebDiv) {
         // Walk text nodes so existing markup (e.g. <b> headers) is preserved and
@@ -817,6 +743,175 @@
         return LEX_BY_ID.has(id) ? id : null;
     }
 
+    // ---- occurrences index ----
+    // Where each lexicon item occurs in the Hebrew text, counted with the
+    // shared matcher (matcher.js), so counts agree with the highlights.
+    // Counting the whole book takes seconds on a phone, so a background
+    // worker starts as soon as the page loads, and the result is cached in
+    // localStorage for a day. The cache is also rebuilt at once when the set
+    // of highlighted forms changes (a new entry or form in the lexicon).
+    // OCC: { itemId: { total, gates: [[g, total, [[c, n, firstP], ...]], ...] } }
+    let OCC = null;
+    let occFailed = false;
+    const OCC_CACHE_KEY = "pr-occurrences-v1";
+    const OCC_MAX_AGE = 24 * 60 * 60 * 1000;
+
+    // A short fingerprint of everything the counts depend on in the lexicon.
+    function matcherFingerprint() {
+        const parts = [...FORM_MAP].map(([f, k]) => f + "\u0002" + k).sort();
+        parts.push("skip:" + [...SKIP_TOKENS].sort().join(","));
+        const str = parts.join("\u0003");
+        let h = 0x811c9dc5; // FNV-1a
+        for (let i = 0; i < str.length; i++) {
+            h ^= str.charCodeAt(i);
+            h = Math.imul(h, 0x01000193);
+        }
+        return (h >>> 0).toString(16) + ":" + parts.length;
+    }
+
+    function occReady(counts) {
+        OCC = counts;
+        // If a lexicon page is waiting, fill in its section.
+        const waiting = document.querySelector(".lex-occ[data-loading]");
+        if (waiting && curView === "lex" && curLex) {
+            waiting.replaceWith(occurrencesSection(curLex));
+        }
+    }
+
+    function startOccurrences() {
+        const fp = matcherFingerprint();
+        try {
+            const cached = JSON.parse(localStorage.getItem(OCC_CACHE_KEY) || "null");
+            if (cached && cached.fp === fp && Date.now() - cached.builtAt < OCC_MAX_AGE) {
+                occReady(cached.counts);
+                return;
+            }
+        } catch (e) {}
+
+        const clusterKeys = Object.keys(LEX.entries).filter((k) => LEX.entries[k].cluster);
+        const save = (counts) => {
+            try {
+                localStorage.setItem(
+                    OCC_CACHE_KEY,
+                    JSON.stringify({ fp, builtAt: Date.now(), counts })
+                );
+            } catch (e) {} // storage full or unavailable: just don't cache
+            occReady(counts);
+        };
+        // Last resort when workers are unavailable: count on the main thread,
+        // after a pause so the first chapter is already on screen.
+        const countHere = () =>
+            setTimeout(() => {
+                try {
+                    save(countOccurrences(computeRanges, HEB.versions[0].text, clusterKeys));
+                } catch (e) {
+                    occFailed = true;
+                    console.warn("Could not count occurrences:", e);
+                    occReady(null);
+                }
+            }, 1500);
+
+        let worker;
+        try {
+            worker = new Worker("occurrences-worker.js");
+        } catch (e) {
+            countHere();
+            return;
+        }
+        worker.onmessage = (e) => {
+            worker.terminate();
+            if (e.data && e.data.ok) save(e.data.counts);
+            else {
+                console.warn("Occurrence worker failed:", e.data && e.data.error);
+                countHere();
+            }
+        };
+        worker.onerror = (e) => {
+            e.preventDefault();
+            worker.terminate();
+            countHere();
+        };
+        worker.postMessage({
+            formMap: [...FORM_MAP],
+            skipTokens: [...SKIP_TOKENS],
+            clusterKeys,
+            hebrewText: HEB.versions[0].text,
+        });
+    }
+
+    // The "Occurrences" section at the foot of a lexicon page: gates with
+    // their counts, each opening to its chapters. Gates and chapters with no
+    // occurrence are left out. A chapter link opens the chapter at its first
+    // occurrence; untranslated chapters are listed but not linked.
+    function occurrencesSection(id) {
+        const box = el("section", "lex-occ", "");
+        box.appendChild(el("h2", "lex-page-h2", "Occurrences"));
+        if (!OCC) {
+            if (occFailed) {
+                box.appendChild(el("p", "lex-occ-none", "The occurrence count is unavailable."));
+            } else {
+                box.dataset.loading = "";
+                box.appendChild(el("p", "lex-occ-loading", "Counting occurrences in the Hebrew text…"));
+            }
+            return box;
+        }
+        const o = OCC[id];
+        if (!o) {
+            box.appendChild(el("p", "lex-occ-none", "Not found in the Hebrew text."));
+            return box;
+        }
+        const nCh = o.gates.reduce((a, og) => a + og[2].length, 0);
+        box.appendChild(
+            el(
+                "p",
+                "lex-occ-summary",
+                o.total + (o.total === 1 ? " occurrence" : " occurrences") +
+                    " in the Hebrew text, in " + nCh +
+                    (nCh === 1 ? " chapter" : " chapters") + "."
+            )
+        );
+        for (const [g, gTotal, chapters] of o.gates) {
+            const det = document.createElement("details");
+            det.className = "occ-gate";
+            const sum = document.createElement("summary");
+            sum.appendChild(el("span", "occ-num", META.sectionNames[0] + " " + (g + 1)));
+            sum.appendChild(el("span", "occ-title", META.gates[g].title));
+            sum.appendChild(el("span", "occ-count", String(gTotal)));
+            det.appendChild(sum);
+            for (const [c, n, firstP] of chapters) {
+                const linkable = hasAnyEnglish(g, c);
+                const row = el("div", "occ-chap" + (linkable ? "" : " disabled"), "");
+                row.appendChild(el("span", "occ-num", (c + 1) + "."));
+                row.appendChild(
+                    el("span", "occ-title", textOf(META.index[g][c]) || "Chapter " + (c + 1))
+                );
+                row.appendChild(el("span", "occ-count", String(n)));
+                if (linkable) {
+                    row.tabIndex = 0;
+                    const go = () => open(g, c, { para: firstP });
+                    row.onclick = go;
+                    row.onkeydown = (e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                            e.preventDefault();
+                            go();
+                        }
+                    };
+                } else {
+                    row.title = "Not yet translated";
+                }
+                det.appendChild(row);
+            }
+            box.appendChild(det);
+        }
+        return box;
+    }
+    // Chapter labels carry a little markup (<em>); show them as plain text.
+    function textOf(html) {
+        const d = document.createElement("div");
+        d.innerHTML = html || "";
+        return d.textContent;
+    }
+
     // ---- lexicon entry page ----
     function openLex(id, opts) {
         const { updateUrl = true } = opts || {};
@@ -878,6 +973,8 @@
             }
         }
 
+        sheet.appendChild(occurrencesSection(id));
+
         setTab("lex");
         document.querySelectorAll("#toc-panel .chap.active").forEach((n) =>
             n.classList.remove("active")
@@ -925,4 +1022,7 @@
     } else {
         open(0, 0, { updateUrl: false });
     }
+    // Count lexicon occurrences in the background, so the index is usually
+    // ready before the reader first opens a lexicon page.
+    startOccurrences();
 })();

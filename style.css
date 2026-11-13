@@ -245,6 +245,72 @@ details.untranslated summary .gate-title,
     line-height: 1.6;
     color: var(--ink-soft);
 }
+/* occurrences index at the foot of a lexicon page */
+.lex-occ-summary,
+.lex-occ-none,
+.lex-occ-loading {
+    color: var(--ink-soft);
+    margin: 0 0 0.8rem;
+}
+.lex-occ details.occ-gate {
+    border-bottom: 1px solid #e0d3b4;
+}
+.lex-occ summary,
+.lex-occ .occ-chap {
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    padding: 0.45rem 0.2rem;
+}
+.lex-occ summary {
+    color: var(--ink);
+}
+.lex-occ summary:hover {
+    background: #eadfc4;
+}
+.lex-occ .occ-num {
+    color: var(--gold);
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    min-width: 3.6em;
+}
+.lex-occ .occ-chap .occ-num {
+    min-width: 1.8em;
+}
+.lex-occ .occ-title {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.lex-occ .occ-count {
+    color: var(--pom);
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+}
+.lex-occ .occ-chap {
+    padding-left: 1.6rem;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+.lex-occ .occ-chap:hover {
+    background: #eadfc4;
+}
+.lex-occ .occ-chap.disabled {
+    cursor: default;
+    color: #9a8d74;
+}
+.lex-occ .occ-chap.disabled:hover {
+    background: none;
+}
+.lex-occ-loading {
+    font-style: italic;
+    animation: occ-pulse 1.6s ease-in-out infinite;
+}
+@keyframes occ-pulse {
+    50% { opacity: 0.45; }
+}
 /* ---- reading surface ---- */
 main {
     overflow-y: auto;
