@@ -43,3 +43,9 @@ The text renders a quoted *ma'amar* "passage" (about 170 times); the contents ha
 ## The three lights: "primordial light, clear light, refined light"
 
 The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 and 8:10:4. 5:5:5 has "dazzling light" for *or metzuchtzach*: change to "refined light". (The lexicon gloss for *Tzachtzachot*, "the Dazzling Lights", is a separate word and unaffected.)
+
+# Terminology to rule on
+
+*Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
+
+- **עולם מושכל / מורגש / מוטבע** (8:25:1, 8:25:7–8): "the intelligible / sensible / natural world". Lexicon entry exists, marked not yet ruled.
