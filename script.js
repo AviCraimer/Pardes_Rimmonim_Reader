@@ -389,6 +389,30 @@
         return s.length > 1 ? s.slice(0, -1) + "״" + s.slice(-1) : s + "׳";
     }
 
+    // ---- translation status ----
+    // A chapter is translated when every paragraph that has Hebrew text has
+    // English text. (Empty Hebrew paragraphs, e.g. where a printed diagram
+    // stood, need no translation.) A gate is translated when all its
+    // chapters are.
+    const hasText = (s) => !!s && s.replace(/<[^>]*>/g, "").trim() !== "";
+    function isChapterTranslated(g, c) {
+        const en = DATA.text[g][c] || [];
+        const he = getHebrewChapter(g, c) || [];
+        const n = Math.max(en.length, he.length);
+        for (let p = 0; p < n; p++) {
+            if (hasText(he[p]) && !hasText(en[p])) return false;
+        }
+        return true;
+    }
+    // Chapters with no English at all are not linked from the nav.
+    // Partly translated chapters stay clickable (but faint).
+    function hasAnyEnglish(g, c) {
+        return (DATA.text[g][c] || []).some(hasText);
+    }
+    function isGateTranslated(g) {
+        return DATA.text[g].every((_, c) => isChapterTranslated(g, c));
+    }
+
     // ---- navigation ----
     function renderNav() {
         const nav = document.getElementById("nav");
@@ -401,6 +425,7 @@
         META.index.forEach((gate, g) => {
             const det = document.createElement("details");
             if (g === 0) det.open = true;
+            if (!isGateTranslated(g)) det.classList.add("untranslated");
             const sum = document.createElement("summary");
             const gateInfo = META.gates[g];
             sum.innerHTML =
@@ -417,7 +442,14 @@
             gate.forEach((label, c) => {
                 const row = document.createElement("div");
                 row.className = "chap";
-                row.tabIndex = 0;
+                if (!isChapterTranslated(g, c)) row.classList.add("untranslated");
+                const linkable = hasAnyEnglish(g, c);
+                if (!linkable) {
+                    row.classList.add("disabled");
+                    row.setAttribute("aria-disabled", "true");
+                    row.title = "Not yet translated";
+                }
+                row.tabIndex = linkable ? 0 : -1;
                 row.dataset.g = g;
                 row.dataset.c = c;
                 row.innerHTML =
@@ -427,8 +459,8 @@
                     (label
                         ? '<span class="clab">' + label + "</span>"
                         : "Chapter " + (c + 1));
-                row.onclick = () => open(g, c);
-                row.onkeydown = (e) => {
+                if (linkable) row.onclick = () => open(g, c);
+                if (linkable) row.onkeydown = (e) => {
                     if (e.key === "Enter" || e.key === " ") {
                         e.preventDefault();
                         open(g, c);
@@ -448,6 +480,7 @@
             nc = 0;
         }
         if (ng >= DATA.text.length) return "";
+        if (!hasAnyEnglish(ng, nc)) return "";
         return '<button class="next-ch-btn" data-g="' + ng + '" data-c="' + nc + '">' +
             META.sectionNames[0] + " " + (ng + 1) + ": " + META.gates[ng].title +
             " · " + META.sectionNames[1] + " " + (nc + 1) + " &rarr;</button>";
@@ -514,6 +547,11 @@
             "<h1>" +
             (label || "Chapter " + (c + 1)) +
             '<span class="rule"></span></h1>' +
+            // Reachable only by a direct link; the nav doesn't link these.
+            (hasAnyEnglish(g, c)
+                ? ""
+                : '<p class="not-translated">This chapter has not been translated yet. ' +
+                  "Click a paragraph number to see the Hebrew.</p>") +
             paras
                 .map(
                     (p, i) =>

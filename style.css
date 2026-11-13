@@ -78,7 +78,7 @@ summary .num {
 }
 summary .gate-title {
     font-size: 0.82rem;
-    color: #a89bbf;
+    color: #ebe5f2;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -93,7 +93,7 @@ summary .he {
     padding: 0.42rem 1.4rem 0.42rem 3.4rem;
     cursor: pointer;
     font-size: 0.86rem;
-    color: #a89bbf;
+    color: #ebe5f2;
     line-height: 1.35;
     transition:
         color 0.12s,
@@ -103,11 +103,22 @@ summary .he {
 .chap:hover {
     color: var(--paper);
 }
+.chap.disabled {
+    cursor: default;
+}
+.chap.disabled:hover {
+    color: #8a7da3;
+}
 .chap.active {
     color: var(--seed);
     border-left-color: var(--seed);
 }
 .chap .clab {
+    color: inherit;
+}
+/* Gates and chapters not yet (fully) translated: faint purple */
+details.untranslated summary .gate-title,
+.chap.untranslated {
     color: #8a7da3;
 }
 .chap .clab em {
@@ -169,6 +180,11 @@ main {
 }
 .en-text {
     cursor: pointer;
+}
+.not-translated {
+    font-style: italic;
+    color: var(--ink-soft);
+    margin: 0 0 1.6rem;
 }
 /* Paragraph named in a deep link (#8:4:6) */
 .para.targeted {
