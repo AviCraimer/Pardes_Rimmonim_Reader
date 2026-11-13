@@ -167,19 +167,21 @@ def intro(t, full, partial, hebrew=True):
     return L
 
 
-def contents(t, link=None):
-    """link(g) -> URL for a translated gate's page, or None."""
-    L = ["## Contents", ""]
+def contents(t, link=None, attrs=False):
+    """link(g) / link(g, c) -> URL of a translated gate / chapter, or None.
+    attrs: tag the headings {.toc} (Markdown attr_list) so the PDF leaves them out of its outline."""
+    L = ["## Contents" + (" {#contents}" if attrs else ""), ""]
     for g, gate in enumerate(t["gates"]):
         title = f"Gate {g + 1}: {to_md(gate['title'])}"
         url = link(g) if link else None
         if url:
             title = f"[{title}]({url})"
-        L += [f"### {title} (*{esc_md(gate.get('heTitle', ''))}*)", ""]
+        L += [f"### {title} (*{esc_md(gate.get('heTitle', ''))}*)" + (" {.toc}" if attrs else ""), ""]
         if gate.get("description"):
             L += [to_md(gate["description"]), ""]
         for c, line in enumerate(gate.get("chapters", [])):
-            L.append(f"{c + 1}. {to_md(line)}")
+            url = link(g, c) if link else None
+            L.append(f"{c + 1}. " + (f"[{to_md(line)}]({url})" if url else to_md(line)))
         L.append("")
     colophon = t.get("indexNotes", {}).get("colophon")
     if colophon:
@@ -196,9 +198,9 @@ def strip_imgs(md, refs):
     return re.sub(r"\n{3,}", "\n\n", md).strip()
 
 
-def gate_body(t, he, g, hebrew=True, heading="##", chapters=None, part=""):
+def gate_body(t, he, g, hebrew=True, heading="##", chapters=None, part="", anchors=False):
     gate = t["gates"][g]
-    L = [f"{heading} Gate {g + 1}: {to_md(gate['title'])}{part}", ""]
+    L = [f"{heading} Gate {g + 1}: {to_md(gate['title'])}{part}" + (f" {{#gate-{g + 1}}}" if anchors else ""), ""]
     if gate.get("description"):
         L += [to_md(gate["description"]), ""]
     sub = heading + "#"
@@ -206,7 +208,8 @@ def gate_body(t, he, g, hebrew=True, heading="##", chapters=None, part=""):
     for c in chapters:
         paras = t["text"][g][c]
         title = gate["chapters"][c] if c < len(gate.get("chapters", [])) else ""
-        L += [f"{sub} Chapter {g + 1}:{c + 1}" + (f". {to_md(title)}" if title else ""), ""]
+        L += [f"{sub} Chapter {g + 1}:{c + 1}" + (f". {to_md(title)}" if title else "")
+              + (f" {{#ch-{g + 1}-{c + 1}}}" if anchors else ""), ""]
         for p, en in enumerate(paras):
             if not (en or "").strip():
                 continue
@@ -226,11 +229,19 @@ def gate_body(t, he, g, hebrew=True, heading="##", chapters=None, part=""):
     return L
 
 
-def build_markdown(t, he, hebrew=True):
+def anchor(g, c=None):
+    return f"#gate-{g + 1}" if c is None else f"#ch-{g + 1}-{c + 1}"
+
+
+def build_markdown(t, he, hebrew=True, anchors=False):
+    """anchors: give gates and chapters ids and link the contents to them (for HTML and PDF;
+    the attr_list syntax would show literally in plain Markdown)."""
     full, partial = gate_status(t)
-    L = intro(t, full, partial, hebrew) + contents(t)
+    done = set(full + partial)
+    link = (lambda g, c=None: anchor(g, c) if g in done else None) if anchors else None
+    L = intro(t, full, partial, hebrew) + contents(t, link, attrs=anchors)
     for g in full + partial:
-        L += ["---", ""] + gate_body(t, he, g, hebrew)
+        L += ["---", ""] + gate_body(t, he, g, hebrew, anchors=anchors)
     return "\n".join(L).rstrip() + "\n"
 
 
@@ -273,10 +284,18 @@ def split_pages(t, he, done):
     return pages
 
 
+# PDF outline (bookmarks): Contents and gates at the top level, chapters beneath them.
+PDF_CSS = """
+h1, h4, h5, h6, .toc { bookmark-level: none; }
+h2 { bookmark-level: 1; } h3 { bookmark-level: 2; }
+a { color: inherit; text-decoration: none; }
+ol a { color: #5a2a2a; }
+"""
+
 NAV_CSS = ".pager { display: flex; justify-content: space-between; gap: 1em; margin: 2em 0; font-size: 10pt; }"
 
 
-def build_html(md_text, title, canonical, nav=""):
+def build_html(md_text, title, canonical, nav="", css=""):
     import markdown  # pip install markdown
 
     body = markdown.markdown(md_text, extensions=["extra", "sane_lists"])
@@ -287,7 +306,7 @@ def build_html(md_text, title, canonical, nav=""):
             "<meta name=\"description\" content=\"English translation of Moshe Cordovero's Pardes Rimmonim, "
             "paragraph by paragraph with the Hebrew text.\">\n"
             f"<link rel=\"canonical\" href=\"{SITE_URL}export/{canonical}\">\n"
-            f"<style>{CSS}{NAV_CSS}</style>\n</head>\n<body>\n{nav}{body}\n{nav}</body>\n</html>\n")
+            f"<style>{CSS}{NAV_CSS}{css}</style>\n</head>\n<body>\n{nav}{body}\n{nav}</body>\n</html>\n")
 
 
 def pager(pages, i):
@@ -315,20 +334,26 @@ def main():
     # One file: Markdown and a single HTML page, English with Hebrew.
     md_text = build_markdown(t, he)
     write(f"{BASENAME}.md", md_text)
-    write(f"{BASENAME}.html", build_html(md_text, "Pardes Rimmonim: English translation with Hebrew", f"{BASENAME}.html"))
+    write(f"{BASENAME}.html", build_html(build_markdown(t, he, anchors=True), "Pardes Rimmonim: English translation with Hebrew", f"{BASENAME}.html"))
 
     # Split pages for crawlers: a contents page plus one page per gate (big gates in parts).
     pages = split_pages(t, he, done)
-    first = {}
-    for g, _, fname, _ in pages:
+    first, where = {}, {}
+    for g, chs, fname, _ in pages:
         first.setdefault(g, fname)
+        where.update({(g, c): fname for c in chs})
+
+    def page_link(g, c=None):
+        if g not in first:
+            return None
+        return first[g] if c is None else where[(g, c)] + anchor(g, c)
     index_md = "\n".join(intro(t, full, partial) + [f"The whole translation is also available as one "
                           f"[Markdown file]({BASENAME}.md), a [single page]({BASENAME}.html) and a [PDF]({PDF_URL}).", ""]
-                          + contents(t, link=lambda g: first.get(g)))
+                          + contents(t, page_link))
     write("index.html", build_html(index_md, "Pardes Rimmonim: English translation with Hebrew", "index.html"))
     for i, (g, chs, fname, part) in enumerate(pages):
         body = "\n".join([f"*[{t['title']}](index.html), English translation with the Hebrew.*", ""]
-                         + gate_body(t, he, g, heading="#", chapters=chs, part=part))
+                         + gate_body(t, he, g, heading="#", chapters=chs, part=part, anchors=True))
         title = f"Pardes Rimmonim, Gate {g + 1}{part}: {re.sub(r'<[^>]+>', '', t['gates'][g]['title'])}"
         write(fname, build_html(body, title, fname, pager(pages, i)))
 
@@ -346,7 +371,8 @@ def main():
         # The PDF is English only (Hebrew characters inside the English still need Hebrew fonts).
         from weasyprint import HTML
 
-        page = build_html(build_markdown(t, he, hebrew=False), "Pardes Rimmonim: English translation", f"{BASENAME}.html")
+        page = build_html(build_markdown(t, he, hebrew=False, anchors=True), "Pardes Rimmonim: English translation",
+                          f"{BASENAME}.html", css=PDF_CSS)
         HTML(string=page, base_url=str(OUT)).write_pdf(OUT / f"{BASENAME}.pdf")
         print(f"export/{BASENAME}.pdf: {(OUT / f'{BASENAME}.pdf').stat().st_size:,} bytes")
 
