@@ -8456,6 +8456,80 @@
      "readerGloss": "and letter-reckoning"
     }
    }
+  },
+  "רעה-רעים": {
+   "headword": "רֵעִים",
+   "transliteration": "re'im",
+   "partOfSpeech": "noun (plural)",
+   "etymology": "From ר-ע-ה (II), 'to associate with'; רֵעַ 'friend, companion', רֵעוּת 'friendship'. Song of Songs 5:1 'אכלו רעים'.",
+   "notes": "2026-11-12 (USER RULING): רעים = 'friends'. In Zohar Vayikra 4a (Pardes 8:14) the friends are Chokhmah and Binah, who never separate and so never long for one another. Cordovero glosses: 'רעים לכאורה הוא רעות בעלמא' — mere friendship. Paired with דודים = 'lovers'. Not to be confused with רעותא (ra'ava family, 'delight'), a different root.",
+   "candidates": [
+    {
+     "target": "friends",
+     "status": "preferred",
+     "contextNotes": "Companions who are always together; no longing.",
+     "decisions": [
+      {
+       "section": "8:14:1",
+       "surfaceForm": "רעים",
+       "rationale": "Ordinary sense of רע/רעות; matches Cordovero's own gloss 'רעות בעלמא'.",
+       "timestamp": "2026-11-12"
+      }
+     ]
+    },
+    {
+     "target": "companions",
+     "status": "rejected",
+     "contextNotes": "Possible, but 'friends' fits Cordovero's 'mere friendship' gloss better."
+    }
+   ],
+   "readerNote": "Friends: companions who are never apart, and so never long for one another. In Gate 8, Chokhmah and Binah.",
+   "readerGloss": "friends",
+   "surfaceForms": {
+    "רעים": {
+     "readerGloss": "friends"
+    },
+    "ריעים": {
+     "readerGloss": "friends"
+    }
+   }
+  },
+  "דוד-דודים": {
+   "headword": "דּוֹדִים",
+   "transliteration": "dodim",
+   "partOfSpeech": "noun (plural)",
+   "etymology": "From ד-ו-ד, 'love, beloved'; דּוֹד 'lover, beloved'; דּוֹדִים also 'love-making' (Proverbs 7:18; Song of Songs 1:2).",
+   "notes": "2026-11-12 (USER RULING): דודים = 'lovers'; singular דוד = 'lover'. In Zohar Vayikra 4a (Pardes 8:14) the lovers are Tiferet and Malkhut, who desire one another and couple only at known times. Cordovero: 'לשון אהבה וחבה' but 'חיבה המורה על ההרחקה' — an affection that implies distance. 'Beloved' rejected: it hides the plural and softens the erotic sense the argument depends on.",
+   "candidates": [
+    {
+     "target": "lovers",
+     "status": "preferred",
+     "contextNotes": "Those who long for one another and are together only at times.",
+     "decisions": [
+      {
+       "section": "8:14:1",
+       "surfaceForm": "דודים",
+       "rationale": "Carries both the plural and the erotic longing that Cordovero's argument turns on.",
+       "timestamp": "2026-11-12"
+      }
+     ]
+    },
+    {
+     "target": "beloved",
+     "status": "rejected",
+     "contextNotes": "Obscures the plural; too soft."
+    }
+   ],
+   "readerNote": "Lovers: those who long for one another and are together only at times. In Gate 8, Tiferet and Malkhut.",
+   "readerGloss": "lovers",
+   "surfaceForms": {
+    "דודים": {
+     "readerGloss": "lovers"
+    },
+    "דוד": {
+     "readerGloss": "lover"
+    }
+   }
   }
  },
  "readerFields": "Public popup text for the reader site lives ONLY in: entry.readerNote, entry.readerGloss, surfaceForms[form].readerGloss / .readerNote; entry.cluster marks a grouped entry (popup headed by the clicked form; only forms with their own gloss are highlighted); entry.hideForms lists forms never highlighted. Everything else (notes, candidates, decisions) is the translator's working record and is not shown. Top-level skipTokens lists whole Hebrew tokens that are never highlighted.",
