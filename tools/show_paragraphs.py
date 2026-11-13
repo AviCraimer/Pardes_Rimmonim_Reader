@@ -4,12 +4,15 @@ short placeholder, so that base64 diagram data never floods a terminal or an
 AI agent's context.
 
 Usage:
+  python3 tools/show_paragraphs.py 8             # a whole gate
+  python3 tools/show_paragraphs.py 8:14-16       # a range of chapters
   python3 tools/show_paragraphs.py 8:25          # a whole chapter
   python3 tools/show_paragraphs.py 8:25:6-8      # a range of paragraphs
   python3 tools/show_paragraphs.py 8:25:7 --en   # English only (--he: Hebrew only)
   python3 tools/show_paragraphs.py 8:25 --strip  # also strip all other HTML tags
 
-References are 1-based (gate:chapter[:paragraph[-paragraph]]).
+References are 1-based: gate[:chapter[-chapter][:paragraph[-paragraph]]].
+A paragraph range needs a single chapter.
 """
 import json, os, re, sys
 
@@ -39,23 +42,32 @@ def main():
     show_en = '--he' not in args
     strip = '--strip' in args
     parts = ref.split(':')
-    g, c = int(parts[0]) - 1, int(parts[1]) - 1
+    g = int(parts[0]) - 1
     T = json.load(open(os.path.join(ROOT, 'translation.json'), encoding='utf-8'))['text']
     H = json.load(open(os.path.join(ROOT, 'Pardes_Rimmonim.json'), encoding='utf-8'))['versions'][0]['text']
-    he_ch, en_ch = H[g][c], (T[g][c] if c < len(T[g]) else [])
-    n = max(len(he_ch), len(en_ch))
-    if len(parts) > 2:
-        a, _, b = parts[2].partition('-')
-        lo, hi = int(a), int(b or a)
+    if len(parts) > 1:
+        a, _, b = parts[1].partition('-')
+        chapters = range(int(a) - 1, int(b or a))
     else:
-        lo, hi = 1, n
-    for p in range(lo - 1, min(hi, n)):
-        print(f'### {g+1}:{c+1}:{p+1}')
-        if show_he:
-            print('HE:', clean(he_ch[p] if p < len(he_ch) else '', strip))
-        if show_en:
-            print('EN:', clean(en_ch[p] if p < len(en_ch) else '', strip))
-        print()
+        chapters = range(len(H[g]))
+    if len(parts) > 2 and len(chapters) != 1:
+        sys.exit('A paragraph range needs a single chapter.')
+    for c in chapters:
+        he_ch = H[g][c]
+        en_ch = T[g][c] if c < len(T[g]) else []
+        n = max(len(he_ch), len(en_ch))
+        if len(parts) > 2:
+            a, _, b = parts[2].partition('-')
+            lo, hi = int(a), int(b or a)
+        else:
+            lo, hi = 1, n
+        for p in range(lo - 1, min(hi, n)):
+            print(f'### {g+1}:{c+1}:{p+1}')
+            if show_he:
+                print('HE:', clean(he_ch[p] if p < len(he_ch) else '', strip))
+            if show_en:
+                print('EN:', clean(en_ch[p] if p < len(en_ch) else '', strip))
+            print()
 
 
 if __name__ == '__main__':

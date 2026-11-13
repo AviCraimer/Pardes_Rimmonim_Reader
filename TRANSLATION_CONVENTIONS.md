@@ -8,7 +8,7 @@ Rulings marked **(user)** were made by Avi; the date is when the rule was settle
 
 `translation.json` and `Pardes_Rimmonim.json` contain diagrams stored as base64 images inside paragraph HTML (46 in the Hebrew, 17 so far in the English), some over 150,000 characters each. Never print whole chapters or paragraphs from these files raw: one diagram can fill a terminal or an AI agent's context with junk.
 
-- To read paragraphs, use `tools/show_paragraphs.py`. It replaces each embedded image with `[IMAGE image/jpeg, 54 KB]`. For example: `python3 tools/show_paragraphs.py 8:25:6-8`; `--en` / `--he` limit the output to one language; `--strip` drops other HTML.
+- To read paragraphs, use `tools/show_paragraphs.py`. It replaces each embedded image with `[IMAGE image/jpeg, 54 KB]`. For example: `python3 tools/show_paragraphs.py 8:25:6-8`; a whole gate (`8`) or a range of chapters (`8:14-16`) also works; `--en` / `--he` limit the output to one language; `--strip` drops other HTML.
 - In your own scripts, substitute `re.sub(r'data:[^;"]+;base64,[^"]*', '[DATA]', s)` before printing, or print only slices of known-safe paragraphs.
 - To write paragraphs, use `tools/put_paragraphs.py`. It never needs to read the images.
 - For the lexicon, use `tools/lexicon_digest.py` rather than reading the JSON whole.
