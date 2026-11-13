@@ -4,6 +4,15 @@ General rules for the English of *Pardes Rimmonim*. These are rules of grammar a
 
 Rulings marked **(user)** were made by Avi; the date is when the rule was settled.
 
+## Working with the data files
+
+`translation.json` and `Pardes_Rimmonim.json` contain diagrams stored as base64 images inside paragraph HTML, about 17 of them, some over 70,000 characters each. Never print whole chapters or paragraphs from these files raw: one diagram can fill a terminal or an AI agent's context with junk.
+
+- To read paragraphs, use `tools/show_paragraphs.py`. It replaces each embedded image with `[IMAGE image/jpeg, 54 KB]`. For example: `python3 tools/show_paragraphs.py 8:25:6-8`; `--en` / `--he` limit the output to one language; `--strip` drops other HTML.
+- In your own scripts, substitute `re.sub(r'data:[^;"]+;base64,[^"]*', '[DATA]', s)` before printing, or print only slices of known-safe paragraphs.
+- To write paragraphs, use `tools/put_paragraphs.py`. It never needs to read the images.
+- For the lexicon, use `tools/lexicon_digest.py` rather than reading the JSON whole.
+
 ## Grammar
 
 ### Adjectives used as nouns: "the … ones" (user, 2026-11-12)
