@@ -494,6 +494,9 @@
         curView = "chapter";
         const chapterChanged = !lastChapter || lastChapter.g !== g || lastChapter.c !== c;
         lastChapter = { g, c };
+        try {
+            localStorage.setItem(LAST_CHAPTER_KEY, JSON.stringify(lastChapter));
+        } catch (e) {}
         if (lexInChapter && chapterChanged) renderLexNav();
         curLex = null;
         dismissPopup();
@@ -644,7 +647,16 @@
     try {
         lexInChapter = localStorage.getItem(FILTER_KEY) === "1";
     } catch (e) {}
-    let lastChapter = null; // { g, c } of the last chapter opened
+    // { g, c } of the last chapter opened. Remembered across visits, so a
+    // reload on a lexicon page still knows which chapter to filter by.
+    const LAST_CHAPTER_KEY = "pr-last-chapter";
+    let lastChapter = null;
+    try {
+        const saved = JSON.parse(localStorage.getItem(LAST_CHAPTER_KEY) || "null");
+        if (saved && DATA.text[saved.g] && DATA.text[saved.g][saved.c]) {
+            lastChapter = { g: saved.g, c: saved.c };
+        }
+    } catch (e) {}
     const chapterItemsCache = new Map();
     function chapterItemIds(g, c) {
         const ck = g + ":" + c;
