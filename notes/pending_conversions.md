@@ -34,7 +34,7 @@ Most of Gates 1–7 already has "literally" or "itself". These paragraphs have *
 
 ## *Tachtonim*: "the lower ones"
 
-"Beings" is reserved for *havayot*. The text already has "the lower ones" for *tachtonim* 18 times; these paragraphs still have "lower beings" (check each against the Hebrew): 2:6:1 (×2), 5:5:1, 6:1:9, 6:8:5, 7:3:4. The contents line for 8:20 also has "lower beings".
+DONE 2026-11-12 (user ruling; general rule in TRANSLATION_CONVENTIONS.md). All six sites and the 8:20 contents line converted.
 
 ## Table of contents: *ma'amar* = "passage"
 

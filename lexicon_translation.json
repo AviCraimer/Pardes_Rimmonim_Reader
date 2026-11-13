@@ -8301,6 +8301,50 @@
     }
    },
    "notes": "2026-11-12: 'stroll'. Cognate pair טיולא דמטייל folded per the sha'ashua rule where English needs it ('the stroll that the Holy One takes')."
+  },
+  "תחת-תחתונים": {
+   "headword": "תַּחְתּוֹנִים / עֶלְיוֹנִים (Aram. תַּתָּאֵי / עִלָּאֵי)",
+   "transliteration": "tachtonim / elyonim",
+   "partOfSpeech": "adjective used as noun (plural)",
+   "rendering": "the lower ones",
+   "candidates": [
+    {
+     "target": "the lower ones / the upper ones",
+     "status": "preferred",
+     "contextNotes": "Referent varies with context: creatures (esp. humans) of this world, the lower worlds, or the lower Sefirot (8:14, 8:17:6: Tiferet and Malkhut). 'Ones' keeps the range open, as the Hebrew does.",
+     "decisions": [
+      {
+       "section": "8:20:1",
+       "surfaceForm": "שכינה בתחתונים",
+       "rationale": "USER RULING 2026-11-12: Hebrew adjectives used as nouns, with no noun naming the referent, are rendered 'the … ones' (general rule in TRANSLATION_CONVENTIONS.md).",
+       "timestamp": "2026-11-12"
+      }
+     ]
+    },
+    {
+     "target": "lower beings",
+     "status": "rejected",
+     "contextNotes": "'Beings' is reserved for havayot; also narrows the referent to creatures."
+    }
+   ],
+   "surfaceForms": {
+    "תחתונים": {
+     "rendering": "the lower ones"
+    },
+    "התחתונים": {
+     "rendering": "the lower ones"
+    },
+    "בתחתונים": {
+     "rendering": "among the lower ones"
+    },
+    "עליונים": {
+     "rendering": "the upper ones"
+    },
+    "העליונים": {
+     "rendering": "the upper ones"
+    }
+   },
+   "notes": "2026-11-12 (USER RULING), from the general principle recorded in TRANSLATION_CONVENTIONS.md ('Adjectives used as nouns'). Converted: 2:6:1 (x2), 5:5:1, 6:1:9, 6:8:5, 7:3:4, and the 8:20 contents line ('lower beings' -> 'lower ones'). In 6:8:5 and 7:3:4 צורך גבוה was also aligned from 'a supernal need' to 'a need on high', as in 6:7 and Gate 8."
   }
  }
 }
