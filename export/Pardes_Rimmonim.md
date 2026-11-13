@@ -1007,9 +1007,7 @@ We named it **"The Reason for the Emanation"** because in it is explained the re
 
 ![diagram](images/3d5f3d898c2d.png)
 
-> והנה בה בעצמה יוכרח היות בה בחינת מעילה לעלול שתעלה מבחי' לבחי' עד מעלה מעלה. והמשל בזה הבחי' המשתוה אל הכתר היא העילה אל בחינת עצמותה ובחינת עצמותה היא עילה אל המשתוה אל הבינה [וכן בכל בחי' ובחי' תהיינה ג' בחי' אלו עצמם מעס"ר] ובין כל שתי בחינות יוכרחו עוד ג' בחי' והם בחי' המשתוה הבחי' הראשונה אל הכתר והבחינה עצמה והבחי' המשתוה אותה אל עצמותה. ונצייר צורה גופניות שמתוכה יעלה השכל אל הרוחני כאלו נצייר ראש תור והוא המשולש המשוך הזה.  
->
-> ![diagram](images/3d5f3d898c2d.png)
+> והנה בה בעצמה יוכרח היות בה בחינת מעילה לעלול שתעלה מבחי' לבחי' עד מעלה מעלה. והמשל בזה הבחי' המשתוה אל הכתר היא העילה אל בחינת עצמותה ובחינת עצמותה היא עילה אל המשתוה אל הבינה [וכן בכל בחי' ובחי' תהיינה ג' בחי' אלו עצמם מעס"ר] ובין כל שתי בחינות יוכרחו עוד ג' בחי' והם בחי' המשתוה הבחי' הראשונה אל הכתר והבחינה עצמה והבחי' המשתוה אותה אל עצמותה. ונצייר צורה גופניות שמתוכה יעלה השכל אל הרוחני כאלו נצייר ראש תור והוא המשולש המשוך הזה.
 
 **2:7:7** Now this triangle slopes downward, and it widens toward its top. It is a parable for the emanated: the nearer they come to their source, the more exalted and the wider they are — not a width of limit and body, but a width of subtlety and spirituality.
 
@@ -1019,9 +1017,7 @@ We named it **"The Reason for the Emanation"** because in it is explained the re
 
 ![diagram](images/53d42ac11c60.png)
 
-> והנה כאשר יסתכל המעיין היטיב ימצא כי עליון שבכתר הוא רחב ומשפע ומצר והולך עד שיגיע רחבו להשתוות אל רוחב החכמה. ואפילו במקום שווי הכתר והחכמה יש הבדל רב שכן הוכרח מצד המשפיע המשפע ויורד שאין מצב לירידתו כי כל שיתרחק מהפנים העליונים יתגלה הנאצל ויסתבב ממסובבו העליון ממנו והיינו עילה ועלול למי שעיני שכל לו וחננו ה' דעה. וזהו סוד כל אחד כלול מעשר וסוד ירידת המדריגות בעצמות הספי' בעצמה. כי כתר שבכתר הוא הצד המתקרב אל המאציל ומלכות שבכתר הוא הצד המתקרב אל החכמה וכתר שבחכמה הוא עלול ממלכות שבכתר. וכל זה ניכר מתוך הצורה שציירנו. כי הצר שבכתר הוא עילה אל הרחב שבחכמה וכן הכתר שבחכמה הוא הצד המתקרב אל הכתר. ומלכות שבחכמה הוא הצד המתקרב אל הבינה וכתר שבבינה הוא עלול ממלכות שבחכמה. ובדמיון זה ג"כ צ"ל כי כל חלק וחלק כלול מעשר ספירות ג"כ מפני שאין מצב אל האור אלא מתרחק ויורד וכל נקודה ונקודה וכל חלק וחלק עילה לנקודה שלמטה ממנו ועלול מהנקודה שלמעלה ממנו. והוא ראה בחכמתו שאם לא ירד הכתר בעצמו עשר מעלות א"א להיות החכמה נאצלת ממנו כלל ועיקר. וכן אם לא היתה החכמה יורדת עשר מעלות לא היה באפשרות הבינה להתאצל ממנה. וכן לכל הספירות וכן לכל החלקים והנקודות. וזה הדין וזה הטעם לאבי"ע כי באצילות יש אבי"ע ובבריאה יש אבי"ע וביצירה אבי"ע ובעשיה אבי"ע כי ענין אבי"ע הם כללות כל הנבדלים מן המחויב הראשון א"ס ממ"ה הקב"ה מן הכתר עד הנקודה האמצעית שבטבור הארץ והם מיני ירידתם בד' מדרגות. וכן כ"א מהם כאשר נבא לחלקם נחלקם לד' מדרגות וכן כל מדרגה ומדרגה לארבע מדרגות אלא שהד' של אצי' הם דקות כ"כ עד שעשייה שבאצילות סיבה ועילה אל אצילות שבבריאה וכן עשיה שבבריאה היא סיבה ועילה אל אצילות שביצירה וכן על הסדר הזה כל המדרגות וכל החלקים עד שנמצא המציאות כמנורה של פרקים מתיחדים ומתחבקים איש באחיו כמבואר. ואחר שהתעוררנו בזה רצוני בדבר זה להתעורר על שאלת מנין העשר ששאלנו בפרקים הקודמים ידוע כי כל עלול מוקף מעילתו והעילה מקיף העלול כאשר נאריך בשער סדר עמידתן בס"ד. ועתה נצייר צורה גופנית והיא עגול בתוך עגול כזה  
->
-> ![diagram](images/53d42ac11c60.png)
+> והנה כאשר יסתכל המעיין היטיב ימצא כי עליון שבכתר הוא רחב ומשפע ומצר והולך עד שיגיע רחבו להשתוות אל רוחב החכמה. ואפילו במקום שווי הכתר והחכמה יש הבדל רב שכן הוכרח מצד המשפיע המשפע ויורד שאין מצב לירידתו כי כל שיתרחק מהפנים העליונים יתגלה הנאצל ויסתבב ממסובבו העליון ממנו והיינו עילה ועלול למי שעיני שכל לו וחננו ה' דעה. וזהו סוד כל אחד כלול מעשר וסוד ירידת המדריגות בעצמות הספי' בעצמה. כי כתר שבכתר הוא הצד המתקרב אל המאציל ומלכות שבכתר הוא הצד המתקרב אל החכמה וכתר שבחכמה הוא עלול ממלכות שבכתר. וכל זה ניכר מתוך הצורה שציירנו. כי הצר שבכתר הוא עילה אל הרחב שבחכמה וכן הכתר שבחכמה הוא הצד המתקרב אל הכתר. ומלכות שבחכמה הוא הצד המתקרב אל הבינה וכתר שבבינה הוא עלול ממלכות שבחכמה. ובדמיון זה ג"כ צ"ל כי כל חלק וחלק כלול מעשר ספירות ג"כ מפני שאין מצב אל האור אלא מתרחק ויורד וכל נקודה ונקודה וכל חלק וחלק עילה לנקודה שלמטה ממנו ועלול מהנקודה שלמעלה ממנו. והוא ראה בחכמתו שאם לא ירד הכתר בעצמו עשר מעלות א"א להיות החכמה נאצלת ממנו כלל ועיקר. וכן אם לא היתה החכמה יורדת עשר מעלות לא היה באפשרות הבינה להתאצל ממנה. וכן לכל הספירות וכן לכל החלקים והנקודות. וזה הדין וזה הטעם לאבי"ע כי באצילות יש אבי"ע ובבריאה יש אבי"ע וביצירה אבי"ע ובעשיה אבי"ע כי ענין אבי"ע הם כללות כל הנבדלים מן המחויב הראשון א"ס ממ"ה הקב"ה מן הכתר עד הנקודה האמצעית שבטבור הארץ והם מיני ירידתם בד' מדרגות. וכן כ"א מהם כאשר נבא לחלקם נחלקם לד' מדרגות וכן כל מדרגה ומדרגה לארבע מדרגות אלא שהד' של אצי' הם דקות כ"כ עד שעשייה שבאצילות סיבה ועילה אל אצילות שבבריאה וכן עשיה שבבריאה היא סיבה ועילה אל אצילות שביצירה וכן על הסדר הזה כל המדרגות וכל החלקים עד שנמצא המציאות כמנורה של פרקים מתיחדים ומתחבקים איש באחיו כמבואר. ואחר שהתעוררנו בזה רצוני בדבר זה להתעורר על שאלת מנין העשר ששאלנו בפרקים הקודמים ידוע כי כל עלול מוקף מעילתו והעילה מקיף העלול כאשר נאריך בשער סדר עמידתן בס"ד. ועתה נצייר צורה גופנית והיא עגול בתוך עגול כזה
 
 **2:7:9** — so that no gap comes between these spheres. And now, if the questioner should ask why this draftsman did not draw yet more circles inside these circles, surely we shall blunt his teeth and tell him that he "has gathered the wind in his fists." For there can be no further addition to the number of circles, since they descend one from another by [no more than] a point, and there cannot possibly exist another circle within the great circle that encompasses them all within it.
 
@@ -1243,9 +1239,7 @@ We named it **"Whether the Ein Sof is the Keter"** because in it is explained wh
 
 ![diagram](images/0786fd0ede72.png)
 
-> וענין ג' וז' וי"ב יתבאר יותר עוד בשער המציאות בס"ד. ורוח לכל אחת פי' כאשר האציל האותיות נאצל מעצמות החכמה רוח ונשמה לכל א' מהן, דהיינו הנקוד שהוא נשמה לאותיות, האותיות בבינה והנקוד מחכמה. ובספירות רוח לכל אחת מהן היינו העצמות המתפשט לתוך הכלים שכך הי' מציאות אצילותם כאשר יתבאר מתוך מאמר הזהר בשער עצמות וכלים בפ"ז. שלש מים מרוח היא הבינה שהיא שלישית, [פי' מים (ממש) (כש"כ בשער טעם האצילות פ"ד) בענין מאמר ג' שהוא יקוו המים הוא בבינה. והטעם שנקראת מים מפני שהם עבים מהרוח והם מקבלות הציור יותר וכן היא מקבלת יותר ציור הנמצאות ושם מתגלות יותר מבחכמה. חקק בהם תהו ובהו ורפש וטיט שהם מציאות ד' אותיות שבבינה. תהו י', בהו ה', ו' רפש, ה' טיט. ובב"ר פי' מאי בהו, דבר המלביש את התהו. ואמר תהו הוא קו ירוק דאסחר עלמא שהיא הבינה. ולא הבינה ממש, אלא הי' שבבינה שיש לה מציאות היולי שאינו מתגלה בעצם. ר"ל כי השכל שופט בה כל השפטות כענין ההיולי והוא סובלן לרוב הרחקו מהדעת [של האדם להשיג], אבל בהו שהוא הה"א מלביש הי' דהיינו ה' בית והיכל אל י' כזה.  
->
-> ![diagram](images/0786fd0ede72.png)
+> וענין ג' וז' וי"ב יתבאר יותר עוד בשער המציאות בס"ד. ורוח לכל אחת פי' כאשר האציל האותיות נאצל מעצמות החכמה רוח ונשמה לכל א' מהן, דהיינו הנקוד שהוא נשמה לאותיות, האותיות בבינה והנקוד מחכמה. ובספירות רוח לכל אחת מהן היינו העצמות המתפשט לתוך הכלים שכך הי' מציאות אצילותם כאשר יתבאר מתוך מאמר הזהר בשער עצמות וכלים בפ"ז. שלש מים מרוח היא הבינה שהיא שלישית, [פי' מים (ממש) (כש"כ בשער טעם האצילות פ"ד) בענין מאמר ג' שהוא יקוו המים הוא בבינה. והטעם שנקראת מים מפני שהם עבים מהרוח והם מקבלות הציור יותר וכן היא מקבלת יותר ציור הנמצאות ושם מתגלות יותר מבחכמה. חקק בהם תהו ובהו ורפש וטיט שהם מציאות ד' אותיות שבבינה. תהו י', בהו ה', ו' רפש, ה' טיט. ובב"ר פי' מאי בהו, דבר המלביש את התהו. ואמר תהו הוא קו ירוק דאסחר עלמא שהיא הבינה. ולא הבינה ממש, אלא הי' שבבינה שיש לה מציאות היולי שאינו מתגלה בעצם. ר"ל כי השכל שופט בה כל השפטות כענין ההיולי והוא סובלן לרוב הרחקו מהדעת [של האדם להשיג], אבל בהו שהוא הה"א מלביש הי' דהיינו ה' בית והיכל אל י' כזה.
 
 **3:5:6** And it is "bohu" that gives depiction to the tohu and reveals the matters concealed in it. "Mire" (refesh) is a greater thickness, indicating greater revelation; and this is "mire," which is the vav, which is Tiferet, which is the revelation of Binah, although it is still concealed in it. And "clay" (tit) is [a still] greater thickness and revelation, namely Malkhut, which is the final heh.
 
@@ -1981,9 +1975,7 @@ We named it **"The Order of Their Standing"** because in it is explained the ord
 
 ![diagram](images/2a0ab5c28011.png)
 
-> בענין צורת הספירות ר"ל סדר עמידתן רבו בו הדעות וציירו להם המקובלים צורות ביריעות גדולות וקראום אילן. יש שרצה לציירם בצורת א' כיצד חלקו הראש לג' חלקים הא' לכ"ע וצד ימין של ראש א' חכמה והשמאלי בינה. והקו אשר למטה מהיו"ד שהוא וא"ו של אלף קרא ראשו הימין חסד וראשו השמאלי גבורה ואמצעי ת"ת. וממראה מתניו ולמטה מה שכנגד הימין נצח ומה שכנגד השמאל הוד ומה שבין שניהם יסוד ועוקץ התחתון מלכות וזו צורתה.  
->
-> ![diagram](images/2a0ab5c28011.png)
+> בענין צורת הספירות ר"ל סדר עמידתן רבו בו הדעות וציירו להם המקובלים צורות ביריעות גדולות וקראום אילן. יש שרצה לציירם בצורת א' כיצד חלקו הראש לג' חלקים הא' לכ"ע וצד ימין של ראש א' חכמה והשמאלי בינה. והקו אשר למטה מהיו"ד שהוא וא"ו של אלף קרא ראשו הימין חסד וראשו השמאלי גבורה ואמצעי ת"ת. וממראה מתניו ולמטה מה שכנגד הימין נצח ומה שכנגד השמאל הוד ומה שבין שניהם יסוד ועוקץ התחתון מלכות וזו צורתה.
 
 **6:1:5** Behold, they intended to depict the figure of the supernal Man in the figure of an alef, to hint that the whole of it is a perfect union: although we say "ten Sefirot"—which indicates separate things—the whole of it is a perfect union, and this he indicated by the likeness of an alef. And there is some support for this view in the words of Rashbi in Sefer ha-Tikkunim (Tikkun 55), and these are his words: "Come and see: this skull is [the letter] alef, like this; it has four sides, [and] in them YHVH is one and His name is one—there is none else besides Him," etc. Thus far [his words].
 
@@ -1993,9 +1985,7 @@ We named it **"The Order of Their Standing"** because in it is explained the ord
 
 ![diagram](images/afda0eba7efd.png)
 
-> ואע"פ שאין דבריו וציורו ממש כנ"ל,  
->
-> ![diagram](images/afda0eba7efd.png)
+> ואע"פ שאין דבריו וציורו ממש כנ"ל,
 
 **6:1:7** nonetheless, from it [it] appears that the intent of the Name—which is ten Sefirot, as is known—is hinted at in the figure of the alef, to hint at ten Sefirot unified [in] a perfect unity, an equal unity. And this is what it says, "in them YHVH is one and His name is one"—the meaning [being] to indicate that He and His name are unified, although His name indicates ten Sefirot. And behold, the existence of the alef indicates the union.
 
@@ -2005,25 +1995,19 @@ We named it **"The Order of Their Standing"** because in it is explained the ord
 
 ![diagram](images/7441b856c448.png)
 
-> וענין י' אצבעות וי' אצבעות אין מקומו הנה ויתבאר בשער הנשמה פ"ח. ואחרים ציירו צורת י' ספי' בצורת אלף כזה.  
->
-> ![diagram](images/7441b856c448.png)
+> וענין י' אצבעות וי' אצבעות אין מקומו הנה ויתבאר בשער הנשמה פ"ח. ואחרים ציירו צורת י' ספי' בצורת אלף כזה.
 
 **6:1:9** And it is true that the first figure is the most acceptable, for it is close to the tradition [Kabbalah] in the hand of most of the Kabbalists, as we shall explain. And the intent of these Kabbalists is not to say that this is literally the secret of their standing—for in this figure there are no channels, nor right and left intrinsically (that is to say, Chesed and Din)—but rather their intent is to indicate the complete union: just as the alef means "one," so the ten Sefirot are a perfect unity. And he further intended by this to make the figure of a patach at its [upper] thorn, above Keter, to hint that Keter is not a first cause, God forbid, but [that] above it [is] the sole Lord who rules over all of them and emanates effluence upon them; and one patach below, at Malkhut, to hint that the intent of all this is for the governance of the lower ones, and that it [Malkhut] is a passage for the effluence emanated from the First Cause to His created entities, as we have explained in the preceding gates. Further, another figure Rabbi Moshe de León wrote in the Sefer ha-Shem that he composed, and he said that it depends on the view of Sefer ha-Bahir; and some Kabbalists followed this way, and in particular because they wished to rely on it [to support] the matter of "their end is embedded in their beginning"—for the end, which is Malkhut, is embedded in the beginning, which is Keter. And its figure is like this:  
 
 ![diagram](images/871efdcafb44.png)
 
-> והן אמת כי הצורה הא' היא היותר מתקבלת כי היא קרובה אל הקבלה אשר ביד רוב המקובלים כאשר נבאר. ואין כוונת המקובלים האלה לומר שזה ממש סוד עמידתן כי במציאות הצורה הזו לא צנורות ולא ימין ושמאל בעצם (ר"ל חסד ודין). אלא כוונתם להורות על היחוד הגמור כמו שהאלף פי' אחד כן הי"ס הן אחדות שלימה. וכיון עוד בזה לעשות צורת הפתח בעוקצה למעלה מן הכתר לרמוז כי אין הכתר סבה ראשונה ח"ו אלא עליו אדון יחיד המושל בכלן ומשפיע עליהם שפע. ופתח אחד למטה במלכות לרמוז כי כוונת כל זה להנהגת התחתונים והוא מעבר אל השפע הנשפע מהסבה ראשונה אל ברואיו כאשר בארנו בשערים הקודמים. עוד צורה אחרת כתבה ר' משה דליאון בספר השם שחבר ואמר שהיא תלויה בדעת ספר הבהיר. וקצת מקובלים דרכו דרך זה ובפרט כי רצו להסמך בו על ענין נעוץ סופן בתחלתן כי הסוף שהיא המלכות נעוץ בתחילה שהוא הכתר וצורתה כזו.  
->
-> ![diagram](images/871efdcafb44.png)
+> והן אמת כי הצורה הא' היא היותר מתקבלת כי היא קרובה אל הקבלה אשר ביד רוב המקובלים כאשר נבאר. ואין כוונת המקובלים האלה לומר שזה ממש סוד עמידתן כי במציאות הצורה הזו לא צנורות ולא ימין ושמאל בעצם (ר"ל חסד ודין). אלא כוונתם להורות על היחוד הגמור כמו שהאלף פי' אחד כן הי"ס הן אחדות שלימה. וכיון עוד בזה לעשות צורת הפתח בעוקצה למעלה מן הכתר לרמוז כי אין הכתר סבה ראשונה ח"ו אלא עליו אדון יחיד המושל בכלן ומשפיע עליהם שפע. ופתח אחד למטה במלכות לרמוז כי כוונת כל זה להנהגת התחתונים והוא מעבר אל השפע הנשפע מהסבה ראשונה אל ברואיו כאשר בארנו בשערים הקודמים. עוד צורה אחרת כתבה ר' משה דליאון בספר השם שחבר ואמר שהיא תלויה בדעת ספר הבהיר. וקצת מקובלים דרכו דרך זה ובפרט כי רצו להסמך בו על ענין נעוץ סופן בתחלתן כי הסוף שהיא המלכות נעוץ בתחילה שהוא הכתר וצורתה כזו.
 
 **6:1:10** And their view concerning this figure, in the matter of "their end is embedded in their beginning," is not settled at all, as the one who delves will see with his intellect; rather, the matter of "their end is embedded in their beginning" is a great secret explained in the Tikkunim in the words of Rashbi, and we shall explain it in the Gate "From Below to Above". Further, there are those who wrote a figure close to the agreement of the Kabbalists, and it is like this:  
 
 ![diagram](images/a4e049cf77ea.png)
 
-> ואין דעתם בענין צורה הזו בענין נעוץ סופן בתחילתן מתישבת כלל כאשר יראה המעיין בשכלו אלא ענין נעוץ סופן בתחילתן הוא סוד גדול נתבאר בתיקונים בדברי הרשב"י ונבאר אותו בשער ממטה למעלה. עוד יש שכתבו צורה קרובה אל הסכמת מקובלים והיא כזו:  
->
-> ![diagram](images/a4e049cf77ea.png)
+> ואין דעתם בענין צורה הזו בענין נעוץ סופן בתחילתן מתישבת כלל כאשר יראה המעיין בשכלו אלא ענין נעוץ סופן בתחילתן הוא סוד גדול נתבאר בתיקונים בדברי הרשב"י ונבאר אותו בשער ממטה למעלה. עוד יש שכתבו צורה קרובה אל הסכמת מקובלים והיא כזו:
 
 **6:1:11** And Rabbi Moshe de León likewise copied it in the Sefer ha-Shem, and wrote: "And this view does not arise well according to the Kabbalah." But Rabbi Shem Tov ben Rabbi Shem Tov annotated upon it in the margin, [and] these are his words: "In my humble opinion, this view does not conflict with the other views, and it is very deep. And he counted ten Sefirot from the known Keter, whose name is like the name of its master—it is the supernal Keter, the sole Lord; and this is called in Sefer Yetzirah 'He sealed the height' (with yod) [with YHV], and it is called Keter like it, for it encompasses all the Sefirot. And this is the secret of Thought emanated from the supernal Keter—[namely] Chokhmah, that is to say, the more revealed [one]; and it, by the power of the Ein Sof, brings forth the actions, [so as] to act in the likeness of the female, [and] therefore it is on the left. And Binah is called thus [because] she is between the two; in the secret of the Da'at hidden in her [which] is the emanation of the known Keter, in the secret of [the] supernal Keter. And this is the secret of the three names that the Name revealed to Moses at the bush; and the second, in the second name, is entirely the likeness of the female. Concerning this [there is] a very deep secret." Thus far [his words].
 
@@ -2033,9 +2017,7 @@ We named it **"The Order of Their Standing"** because in it is explained the ord
 
 ![diagram](images/bccf36d03de1.png)
 
-> והנה כיון לתת טעם לבינה שהיא בנתים לחכמה שהיא בשמאל. ותחלת דבריו יובנו קצת בסברת הדעת אשר לו אשר כתבנו בשער אם הא"ס הוא הכתר פ"ג. ולפי האמת אריכות בענין הסברא הזאת שחכמה אל השמאל וכתר אל הימין ובינה היא באמצע הוא פועל בטל כי הוא סברא זרה ודחיה כי סבירא להו שחכמה היא דין ובינה מכרעת בין החכמה והכתר. והדעת זה בטל כמו שנאריך בשער מהות והנהגה בפרק ה'. והדעת הנכונה והמקובלת המוסכמת בפי כל המקובלים היא זו וכתבה ר' משה דיליאון בספר השם וז"ל ויש דעת אחרת נאה ומקובלת מאוד עולה על כולנה והיא אמת שג' עליונות כעין סגולתא והוא זאת.  
->
-> ![diagram](images/bccf36d03de1.png)
+> והנה כיון לתת טעם לבינה שהיא בנתים לחכמה שהיא בשמאל. ותחלת דבריו יובנו קצת בסברת הדעת אשר לו אשר כתבנו בשער אם הא"ס הוא הכתר פ"ג. ולפי האמת אריכות בענין הסברא הזאת שחכמה אל השמאל וכתר אל הימין ובינה היא באמצע הוא פועל בטל כי הוא סברא זרה ודחיה כי סבירא להו שחכמה היא דין ובינה מכרעת בין החכמה והכתר. והדעת זה בטל כמו שנאריך בשער מהות והנהגה בפרק ה'. והדעת הנכונה והמקובלת המוסכמת בפי כל המקובלים היא זו וכתבה ר' משה דיליאון בספר השם וז"ל ויש דעת אחרת נאה ומקובלת מאוד עולה על כולנה והיא אמת שג' עליונות כעין סגולתא והוא זאת.
 
 **6:1:13** And [these are] the gracious words of a wise man, for it is fine sifted flour. And this way was adopted by Rabbi Yehudah Chayyat in his book, and he gave a sign for the matter: "segolta, segol, segol"—for the three first ones [are] a segolta, the three second ones a segol, and the three third ones a segol, and Malkhut receives from all of them, below all of them. However, concerning Malkhut he wrote things that are forbidden to hear—and may his Master forgive him. And this figure is likewise agreed upon and necessitated from the words of Rashbi in many places. And in the interpretation of the points [vowels] he holds that the three first ones are a segolta, the segolta's hint being among them; and likewise he holds that the segol [signifies] the three patriarchs, and at times he holds that they are Netzach-Hod-Yesod [NHY]—[which] indicates that this view is agreed upon and necessitated. He further explained, in another place—and it is a great proof for this view—[and] these are his words, in Sefer Ra'aya Mehemna (Beha'alotekha, folio 153): "And Chokhmah, Chesed, [and] Netzach shall be on the right, for on their account David said, 'The right hand of YHVH does valiantly, the right hand of YHVH is exalted, the right hand of YHVH does valiantly.' And three on the left shall be bound together, which are Binah, Gevurah, [and] Hod. And three grades of the middle—Keter, Tiferet, [and] Yesod—which bind [the] right and [the] left." Thus far [his words].
 
@@ -2063,9 +2045,7 @@ We named it **"The Order of Their Standing"** because in it is explained the ord
 
 ![diagram](images/f5652cd677e9.png)
 
-> אחר שבפרק הקודם עמדנו להציב ענין האצילות בצורה שהסכימו בה כל המקובלים או רובם והכרחנו אותו במקצת מאמרים מדברי הרשב"י ע"ה בתקונים. ראינו להעתיק הנה סברת בעל מאירת עינים שיש מתוך המאמרים האלה הריסה אל דבריו והוא מנגד אל כל המקובלים וז"ל בפרשת תרומה. ראשונה כתב בשם ר' שם טוב צורה אחת והיא עם הצורה המוסכמת צודקת ואינה חולקת על הצורה שהכרחנו בפרק הקודם אלא בשלש ראשונות וזו צורתה.  
->
-> ![diagram](images/f5652cd677e9.png)
+> אחר שבפרק הקודם עמדנו להציב ענין האצילות בצורה שהסכימו בה כל המקובלים או רובם והכרחנו אותו במקצת מאמרים מדברי הרשב"י ע"ה בתקונים. ראינו להעתיק הנה סברת בעל מאירת עינים שיש מתוך המאמרים האלה הריסה אל דבריו והוא מנגד אל כל המקובלים וז"ל בפרשת תרומה. ראשונה כתב בשם ר' שם טוב צורה אחת והיא עם הצורה המוסכמת צודקת ואינה חולקת על הצורה שהכרחנו בפרק הקודם אלא בשלש ראשונות וזו צורתה.
 
 **6:2:2** And although the order of these three first ones is the reasoning of the author of Me'irat Einayim and the view of Rabbi Todros ha-Levi in Sefer ha-Ma'arekhet—and Rabbi Moshe de León likewise wrote something of this reasoning—
 
@@ -2075,9 +2055,7 @@ We named it **"The Order of Their Standing"** because in it is explained the ord
 
 ![diagram](images/07d1ea100f28.png)
 
-> הנה מתוך המאמרים שהכרחנו בצורה הקודמת בפרק הקודם נמצא הריסה אל דבריהם בפירוש ואין צריך להאריך. עוד כתב בספר מאירת עינים בפרשה הנז' וז"ל הנני מצייר לך צורת עשר ספי' בהעמדתן הנכונה האמיתית לאשר נתן השם ית' עינים לראות ולב להבין ולא ראיתי אחד מן אלף בכל המקובלים שהרגיש בענין זה מבלעדי מורי שקבלתי ממנו וזו היא.  
->
-> ![diagram](images/07d1ea100f28.png)
+> הנה מתוך המאמרים שהכרחנו בצורה הקודמת בפרק הקודם נמצא הריסה אל דבריהם בפירוש ואין צריך להאריך. עוד כתב בספר מאירת עינים בפרשה הנז' וז"ל הנני מצייר לך צורת עשר ספי' בהעמדתן הנכונה האמיתית לאשר נתן השם ית' עינים לראות ולב להבין ולא ראיתי אחד מן אלף בכל המקובלים שהרגיש בענין זה מבלעדי מורי שקבלתי ממנו וזו היא.
 
 **6:2:4** And whoever says of this form that it is reversed—he is of a perverse generation; and if the speaker's intent is good, his mind is reversed. He seeks to see the hinder parts, whereas we [see] the face, for it is said, "I have set YHVH always before me," etc. And although the Sefirot are nothing but holy spirit—spiritual thoughts, unified one to another [in] a true union, and all unified in the Ein Sof, in [literally] the Ein Sof—and above there is neither right nor left, but rather these incline rightward, to acquittal, and therefore [the right] is called right and mercy, and these incline leftward, to liability, and therefore [the left] is called left and Din—nonetheless, behold, David, peace be upon him, said, "I have set YHVH always before me," etc. (Psalms 16:8). And over and above all this, our Sages of blessed memory said (Yoma, folio 53): when a person takes three steps [back], he gives "peace" to his left first, because the Shekhinah is opposite him; and thus he bows to the right of the Shekhinah, and afterward gives "peace" to his right, which is the left of the Shekhinah. Thus far [his words].
 
@@ -2161,9 +2139,7 @@ We named it **"The Order of Their Standing"** because in it is explained the ord
 
 ![diagram](images/d9b98382015c.png)
 
-> אחר אשר חלפו לנו עידן ועידנין בענין הצורה הזאת שהמציאונו בפרקים הקודמים האיר ה' עיני שכלנו בה והקרה ה' לפנינו קדושים מדברים ושמחנו בהם כעל כל הון לפי שנמצא לנו בהם משען וסמך. ראשונה בעל ספר מאירת עינים וזה טופס לשונו זו היא צורת עמידתן של עשר ספי' בלי מהות ושנוי יתברך ויתעלה שמו וזה שאמר הכתוב (איוב כו ז) תולה ארץ על בלימה ואל תאמר אינו כי ישנו וכאשר תמנה מימינך לשמאלך תמצא עשרה ותראה כי הכתר בית לכלן ומקור כלן נמצא שהקודם לאצילות גדול ומקיף הכל והמאוחר לאצילות קטן ומוקף מהכל וכלול מכלן וזהו כגלדי הבצלים וכמו שהארץ השפלה הזאת היא קטנה והיא באמצע כל הנבראים כחרדלא בעזקתא והנה היא כלולה מכל היסודות והיא באמצע כל כמו לב בגוף האדם, כך כביכול העטרה.  
->
-> ![diagram](images/d9b98382015c.png)
+> אחר אשר חלפו לנו עידן ועידנין בענין הצורה הזאת שהמציאונו בפרקים הקודמים האיר ה' עיני שכלנו בה והקרה ה' לפנינו קדושים מדברים ושמחנו בהם כעל כל הון לפי שנמצא לנו בהם משען וסמך. ראשונה בעל ספר מאירת עינים וזה טופס לשונו זו היא צורת עמידתן של עשר ספי' בלי מהות ושנוי יתברך ויתעלה שמו וזה שאמר הכתוב (איוב כו ז) תולה ארץ על בלימה ואל תאמר אינו כי ישנו וכאשר תמנה מימינך לשמאלך תמצא עשרה ותראה כי הכתר בית לכלן ומקור כלן נמצא שהקודם לאצילות גדול ומקיף הכל והמאוחר לאצילות קטן ומוקף מהכל וכלול מכלן וזהו כגלדי הבצלים וכמו שהארץ השפלה הזאת היא קטנה והיא באמצע כל הנבראים כחרדלא בעזקתא והנה היא כלולה מכל היסודות והיא באמצע כל כמו לב בגוף האדם, כך כביכול העטרה.
 
 **6:5:2** And therefore it is called the land of the living, and the heart. And look and see that the Atarah is composed of the Righteous One [Yesod] and of all the supernal ones, unified with them and encompassed by them all and receiving from them all. And so [too] the Righteous One, and so Hod, and so Netzach, and so Gevurah, and so Chesed, and so Binah—each includes all, and they are unified one in another, and each one is composed of them all, and they are all unified in it; and all is unified in Ein Sof, in the Cause of causes. Thus far [his] words. And it is a proof compelling [to] our view, letter by letter, word by word.
 
@@ -2229,17 +2205,13 @@ We named it **"The Order of Their Standing"** because in it is explained the ord
 
 ![diagram](images/fc0d67f9cb26.png)
 
-> והנה ענין בחינתם אלה הוא קיומם ושפעם הנשפע עליהם. ונמצא לפי זה להם ב' בחינות אל סבותם. בחי' ראשונה סבת הסדר כדפי'. בחינה שנייה היא היניקה והשפע והקיום. ואעפ"י שמצד הבחינה אל סדר האצילות הוכרח סדרם זו למעלה מזו. כשנביט אל צד יניקתם אשר הוא סבת קיומם נמצאים בענין אחר כי אנו רואים כ"ע משפיע אל החכמה ואל הבינה א"כ יוכרח מזה היותו סבת שתיהם. ומצד אחר יוכרח היות חכמה סבת הבינה והכתר סבת החכמה א"כ יוכרח היות מסודרת כדמות סגולתא כזה.  
->
-> ![diagram](images/fc0d67f9cb26.png)
+> והנה ענין בחינתם אלה הוא קיומם ושפעם הנשפע עליהם. ונמצא לפי זה להם ב' בחינות אל סבותם. בחי' ראשונה סבת הסדר כדפי'. בחינה שנייה היא היניקה והשפע והקיום. ואעפ"י שמצד הבחינה אל סדר האצילות הוכרח סדרם זו למעלה מזו. כשנביט אל צד יניקתם אשר הוא סבת קיומם נמצאים בענין אחר כי אנו רואים כ"ע משפיע אל החכמה ואל הבינה א"כ יוכרח מזה היותו סבת שתיהם. ומצד אחר יוכרח היות חכמה סבת הבינה והכתר סבת החכמה א"כ יוכרח היות מסודרת כדמות סגולתא כזה.
 
 **6:7:4** Keter; and one channel, which indicates the preceding cause—and their order is Keter, Chokhmah, Binah. And from the side of Keter's emanating into Binah, it is necessitated that there be a channel from Keter to Binah; and the matter of the channels will be explained in a gate of its own. And from the side of Chokhmah's emanating into Chesed, and Binah into Gevurah, it is compelled that Chesed be beneath Chokhmah and Gevurah beneath Binah—which indicates that Chokhmah is the cause of Chesed and Binah the cause of Gevurah. And from the side of Tiferet's drawing sustenance from Keter and from Chesed and from Gevurah, it is compelled that it be opposite it, indicating that its cause is Keter. And from the side of its drawing sustenance from Chesed and from Gevurah, it is compelled that it be between the two of them, to indicate that it is caused by both of them. And from the side of its being sixth in the Emanation, it is compelled that it be drawn somewhat below the two of them, as we have depicted. And from the side of Netzach's being seventh in the Emanation, it is compelled that it draw sustenance from Tiferet. And from the side of its drawing sustenance from Chesed, it is compelled that it be beneath Chesed. And so Hod, in this way, [is] beneath Gevurah. And Yesod is compelled to be beneath Tiferet, for from there is its principal nourishment, and it is its cause from the side of the pouring-forth [of effluence]. And from the side of its drawing sustenance from Netzach and Hod, it is likewise compelled that it be between the two of them. And from the side of its being ninth to them all, it is compelled that it be drawn downward, to beneath them all, as we have depicted.  
 
 ![diagram](images/181bf332bfb0.png)
 
-> כתר וצנור א' המורה על הסבה הקודמת והם סדרן כתר חכמה בינה. ומצד היות הכתר משפיע אל הבינה יתחייב היות צנור מכתר אל הבינה, וענין הצנורות יתבאר בשער בפ"ע. ומצד היות חכמה משפעת בחסד והבינה בגבורה יוכרח היות חסד תחת חכמה וגבורה תחת בינה שהוא מורה כי החכמה סבת החסד והבינה סבת הגבורה. ומצד היות הת"ת יונק מן הכתר ומן החסד ומן הגבורה יוכרח היותו כנגדו מורה שסבתו הוא הכתר. ומצד היותו יונק מן החסד ומן הגבורה יוכרח היותו בין שניהם להורות שהוא מסובב משניהם. ומצד היותו ששי אל האצילות יוכרח היותו נמשך קצת למטה משניהם כאשר ציירנו. ומצד היות הנצח שביעי לאצילות יוכרח היותו יונק מן התפארת. ומצד היותו יונק מן החסד יוכרח היותו תחת החסד. וכן הוד ע"פ דרך זה תחת הגבורה. ויסוד יוכרח היותו תחת הת"ת כי משם עיקר יניקתו והוא סבתו מצד ההשפעה. ומצד היותו יונק מן הנצח וההוד יוכרח ג"כ היותו בין שניהם. ומצד היותו תשיעי לכלם יוכרח היותו נמשך למטה אל תחת כלם כאשר ציירנו.  
->
-> ![diagram](images/181bf332bfb0.png)
+> כתר וצנור א' המורה על הסבה הקודמת והם סדרן כתר חכמה בינה. ומצד היות הכתר משפיע אל הבינה יתחייב היות צנור מכתר אל הבינה, וענין הצנורות יתבאר בשער בפ"ע. ומצד היות חכמה משפעת בחסד והבינה בגבורה יוכרח היות חסד תחת חכמה וגבורה תחת בינה שהוא מורה כי החכמה סבת החסד והבינה סבת הגבורה. ומצד היות הת"ת יונק מן הכתר ומן החסד ומן הגבורה יוכרח היותו כנגדו מורה שסבתו הוא הכתר. ומצד היותו יונק מן החסד ומן הגבורה יוכרח היותו בין שניהם להורות שהוא מסובב משניהם. ומצד היותו ששי אל האצילות יוכרח היותו נמשך קצת למטה משניהם כאשר ציירנו. ומצד היות הנצח שביעי לאצילות יוכרח היותו יונק מן התפארת. ומצד היותו יונק מן החסד יוכרח היותו תחת החסד. וכן הוד ע"פ דרך זה תחת הגבורה. ויסוד יוכרח היותו תחת הת"ת כי משם עיקר יניקתו והוא סבתו מצד ההשפעה. ומצד היותו יונק מן הנצח וההוד יוכרח ג"כ היותו בין שניהם. ומצד היותו תשיעי לכלם יוכרח היותו נמשך למטה אל תחת כלם כאשר ציירנו.
 
 **6:7:5** And Malkhut, from the side of its being tenth, below Yesod, is drawn below Yesod.
 
@@ -2324,8 +2296,6 @@ We named it **"Channels"** because in it is explained the matter of the channels
 > (אמר המגיה ציירנו הצורה הזאת המוסכמת לדעת המחבר דהיינו ד' מחכמה וג' מבינה כי כך צייר וביאר בספר אור נערב שלו בחלק ו' בפרק ב'. אבל בחבור הזה כתב דעת המפרשים וחסר ב' צינורות א' מחכמה אל הגבורה וא' מבינה אל גדולה והוסיף ב' צינורות א' מנצח אל המלכות וא' מהוד אל המלכות. ואינה מוסכמת כמו שביאר בפ"ג והכריח מהזהר פ' נח):
 
 **7:1:8** ![diagram](images/557908f4a097.png)
-
-> ![diagram](images/557908f4a097.png)
 
 ### Chapter 7:2. Explanation of the channels belonging to Keter and Chokhmah down to Hod.
 
@@ -2504,8 +2474,6 @@ We named it **"Channels"** because in it is explained the matter of the channels
 ![diagram](images/08e3a90bd1aa.png)
 
 > וענין החלוקים האלה א"א להעלות בכתב ואם ירצה האדם להרגיל עצמו בהם יתעסק בצורה המצויירת לפניו ויתנהג בה בעיון ימים רבים עד יאיר ה' עיני שכלו כי כשל כח הקולמוס להאריך הדברים האלה יותר אם לא שיושפע הענין הזה מפה אל פה או שיעמיק המשכיל בהם בשכלו ע"י הצורה הזאת.
->
-> ![diagram](images/08e3a90bd1aa.png)
 
 **7:5:6** And behold, with this the Gate is concluded; and blessed is the true Helper, to whom wisdom belongs. And in these matters we fear error and trust in pardon; for of such as this it is said (Proverbs 5:19), "in her love you shall err [tishgeh] always"—these are matters which a person does not grasp except through difficulty.
 

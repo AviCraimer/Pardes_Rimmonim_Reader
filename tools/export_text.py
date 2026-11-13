@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
-"""Export the translation as one Markdown file (plus a standalone HTML page and,
-optionally, a PDF).
+"""Export the translation as static files in export/:
 
-    python3 tools/export_text.py          # writes export/Pardes_Rimmonim.md, .html, images/
-    python3 tools/export_text.py --pdf    # also writes export/Pardes_Rimmonim.pdf (needs weasyprint)
+    Pardes_Rimmonim.md / .html   the whole translation in one file, English with Hebrew
+    index.html, gate-NN.html     the same split into a contents page and one page per gate,
+                                 big gates in parts (gate-NN-K.html), so crawlers don't truncate them
+    images/                      diagrams extracted from the base64 in the data files
+    Pardes_Rimmonim.pdf          English only, with --pdf (needs weasyprint); not committed
 
-Only translated paragraphs are exported, each followed by its Hebrew. The table of
+    python3 tools/export_text.py [--pdf]
+
+Only translated paragraphs are exported, each followed by its Hebrew (diagrams that
+already appear with the English aren't repeated). The table of
 contents covers all 32 gates. Embedded base64 images are written to export/images/
 (deduplicated by content hash) and referenced by relative path.
 
@@ -27,6 +32,7 @@ IMG_DIR = OUT / "images"
 BASENAME = "Pardes_Rimmonim"
 SITE_URL = "https://avicraimer.github.io/Pardes_Rimmonim_Reader/"
 REPO_URL = "https://github.com/AviCraimer/Pardes_Rimmonim_Reader"
+PDF_URL = REPO_URL + "/releases/download/latest-text/Pardes_Rimmonim.pdf"
 
 EXT = {"jpeg": "jpg", "jpg": "jpg", "png": "png", "gif": "gif", "svg+xml": "svg", "webp": "webp"}
 written_images = {}  # sha -> filename
@@ -123,20 +129,26 @@ def blockquote(md):
     return "\n".join(("> " + line) if line.strip() else ">" for line in md.split("\n"))
 
 
-def build_markdown():
+def load():
     t = json.loads((ROOT / "translation.json").read_text(encoding="utf-8"))
     he = json.loads((ROOT / f"{BASENAME}.json").read_text(encoding="utf-8"))["versions"][0]["text"]
-    notes = t.get("indexNotes", {})
+    return t, he
 
+
+def gate_status(t):
     def done(g):
         return [any((p or "").strip() for p in ch) for ch in t["text"][g]]
 
     full = [g for g in range(len(t["text"])) if t["text"][g] and all(done(g))]
     partial = [g for g in range(len(t["text"])) if any(done(g)) and g not in full]
+    return full, partial
 
+
+def intro(t, full, partial, hebrew=True):
+    notes = t.get("indexNotes", {})
     L = [f"# {t['title']} ({t['heTitle']})", ""]
     L += ["*Orchard of Pomegranates*, by Rabbi Moshe Cordovero (the Ramak), Safed, 16th century. "
-          "English translation with the Hebrew text, paragraph by paragraph.", ""]
+          "English translation" + (" with the Hebrew text, paragraph by paragraph." if hebrew else "."), ""]
     status = f"Gates translated so far: {', '.join(str(g + 1) for g in full) or 'none'}"
     if partial:
         status += f" (in progress: {', '.join(str(g + 1) for g in partial)})"
@@ -146,47 +158,85 @@ def build_markdown():
           "- The English translation was produced by AI, with terminology rulings by Avi Craimer, "
           "and may contain inaccuracies.",
           f"- {status} of 32.",
-          "- References are Gate:Chapter:Paragraph. Each English paragraph is followed by the Hebrew it translates, as a quotation.",
+          "- References are Gate:Chapter:Paragraph."
+          + (" Each English paragraph is followed by the Hebrew it translates, as a quotation." if hebrew else ""),
           ""]
     for key in ("about", "translatorNotes"):
         if notes.get(key):
             L += [to_md(notes[key]), ""]
+    return L
 
-    L += ["## Contents", ""]
+
+def contents(t, link=None):
+    """link(g) -> URL for a translated gate's page, or None."""
+    L = ["## Contents", ""]
     for g, gate in enumerate(t["gates"]):
-        L += [f"### Gate {g + 1}: {to_md(gate['title'])} (*{esc_md(gate.get('heTitle', ''))}*)", ""]
+        title = f"Gate {g + 1}: {to_md(gate['title'])}"
+        url = link(g) if link else None
+        if url:
+            title = f"[{title}]({url})"
+        L += [f"### {title} (*{esc_md(gate.get('heTitle', ''))}*)", ""]
         if gate.get("description"):
             L += [to_md(gate["description"]), ""]
         for c, line in enumerate(gate.get("chapters", [])):
             L.append(f"{c + 1}. {to_md(line)}")
         L.append("")
-    if notes.get("colophon"):
-        L += [to_md(notes["colophon"]), ""]
+    colophon = t.get("indexNotes", {}).get("colophon")
+    if colophon:
+        L += [to_md(colophon), ""]
+    return L
 
+
+def img_refs(md):
+    return set(re.findall(r"\]\((images/[^)]+)\)", md)) | set(re.findall(r'src="(images/[^"]+)"', md))
+
+
+def strip_imgs(md, refs):
+    md = re.sub(r"!\[[^\]]*\]\((images/[^)]+)\)", lambda m: "" if m.group(1) in refs else m.group(0), md)
+    return re.sub(r"\n{3,}", "\n\n", md).strip()
+
+
+def gate_body(t, he, g, hebrew=True, heading="##", chapters=None, part=""):
+    gate = t["gates"][g]
+    L = [f"{heading} Gate {g + 1}: {to_md(gate['title'])}{part}", ""]
+    if gate.get("description"):
+        L += [to_md(gate["description"]), ""]
+    sub = heading + "#"
+    chapters = chapters if chapters is not None else range(len(t["text"][g]))
+    for c in chapters:
+        paras = t["text"][g][c]
+        title = gate["chapters"][c] if c < len(gate.get("chapters", [])) else ""
+        L += [f"{sub} Chapter {g + 1}:{c + 1}" + (f". {to_md(title)}" if title else ""), ""]
+        for p, en in enumerate(paras):
+            if not (en or "").strip():
+                continue
+            en_md = to_md(en)
+            L += [f"**{g + 1}:{c + 1}:{p + 1}** {en_md}", ""]
+            if not hebrew:
+                continue
+            try:
+                h = he[g][c][p]
+            except IndexError:
+                h = ""
+            if (h or "").strip():
+                # Diagrams already shown with the English aren't repeated in the Hebrew.
+                h_md = strip_imgs(to_md(h), img_refs(en_md))
+                if h_md:
+                    L += [blockquote(h_md), ""]
+    return L
+
+
+def build_markdown(t, he, hebrew=True):
+    full, partial = gate_status(t)
+    L = intro(t, full, partial, hebrew) + contents(t)
     for g in full + partial:
-        gate = t["gates"][g]
-        L += ["---", "", f"## Gate {g + 1}: {to_md(gate['title'])}", ""]
-        if gate.get("description"):
-            L += [to_md(gate["description"]), ""]
-        for c, paras in enumerate(t["text"][g]):
-            title = gate["chapters"][c] if c < len(gate.get("chapters", [])) else ""
-            L += [f"### Chapter {g + 1}:{c + 1}" + (f". {to_md(title)}" if title else ""), ""]
-            for p, en in enumerate(paras):
-                if not (en or "").strip():
-                    continue
-                L += [f"**{g + 1}:{c + 1}:{p + 1}** {to_md(en)}", ""]
-                try:
-                    h = he[g][c][p]
-                except IndexError:
-                    h = ""
-                if (h or "").strip():
-                    L += [blockquote(to_md(h)), ""]
+        L += ["---", ""] + gate_body(t, he, g, hebrew)
     return "\n".join(L).rstrip() + "\n"
 
 
 CSS = """
 @page { size: A4; margin: 2cm 2cm 2.2cm; @bottom-center { content: counter(page); font-size: 9pt; color: #777; } }
-body { font-family: "Noto Serif", "Liberation Serif", "FreeSerif", serif; font-size: 11pt; line-height: 1.45; color: #111; max-width: 46rem; margin: auto; padding: 1rem; }
+body { font-family: "Noto Serif", "Liberation Serif", "Noto Serif Hebrew", "FreeSerif", serif; font-size: 11pt; line-height: 1.45; color: #111; max-width: 46rem; margin: auto; padding: 1rem; }
 h1 { font-size: 22pt; } h2 { font-size: 16pt; break-before: page; } h3 { font-size: 12.5pt; break-after: avoid; }
 blockquote { direction: rtl; text-align: right; unicode-bidi: plaintext; margin: 0.2em 0 1.1em 2em; padding: 0 0.8em;
   border-right: 2px solid #c9b98f; border-left: none; color: #333;
@@ -197,35 +247,106 @@ hr { display: none; }
 """
 
 
-def build_html(md_text):
+MAX_PAGE = 600_000  # bytes; Common Crawl truncates responses at 1 MiB
+
+
+def split_pages(t, he, done):
+    """[(g, chapter list, filename, part label)]: one page per gate, or several for big gates."""
+    pages = []
+    for g in done:
+        n = len(t["text"][g])
+        sizes = [len("\n".join(gate_body(t, he, g, chapters=[c])).encode()) * 1.05 for c in range(n)]
+        groups, cur, size = [], [], 0
+        for c in range(n):
+            if cur and size + sizes[c] > MAX_PAGE:
+                groups.append(cur)
+                cur, size = [], 0
+            cur.append(c)
+            size += sizes[c]
+        groups.append(cur)
+        for i, chs in enumerate(groups):
+            if len(groups) == 1:
+                pages.append((g, chs, f"gate-{g + 1:02d}.html", ""))
+            else:
+                pages.append((g, chs, f"gate-{g + 1:02d}-{i + 1}.html",
+                              f", chapters {chs[0] + 1}–{chs[-1] + 1}"))
+    return pages
+
+
+NAV_CSS = ".pager { display: flex; justify-content: space-between; gap: 1em; margin: 2em 0; font-size: 10pt; }"
+
+
+def build_html(md_text, title, canonical, nav=""):
     import markdown  # pip install markdown
 
     body = markdown.markdown(md_text, extensions=["extra", "sane_lists"])
     body = body.replace("<blockquote>", '<blockquote dir="rtl" lang="he">')
     return ("<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
-            "<title>Pardes Rimmonim: English translation with Hebrew</title>\n"
+            f"<title>{html.escape(title)}</title>\n"
             "<meta name=\"description\" content=\"English translation of Moshe Cordovero's Pardes Rimmonim, "
             "paragraph by paragraph with the Hebrew text.\">\n"
-            f"<link rel=\"canonical\" href=\"{SITE_URL}export/{BASENAME}.html\">\n"
-            f"<style>{CSS}</style>\n</head>\n<body>\n{body}\n</body>\n</html>\n")
+            f"<link rel=\"canonical\" href=\"{SITE_URL}export/{canonical}\">\n"
+            f"<style>{CSS}{NAV_CSS}</style>\n</head>\n<body>\n{nav}{body}\n{nav}</body>\n</html>\n")
+
+
+def pager(pages, i):
+    def label(k):
+        g, chs, _, part = pages[k]
+        return f"Gate {g + 1}" + (f":{chs[0] + 1}–{chs[-1] + 1}" if part else "")
+
+    prev = f'<a href="{pages[i - 1][2]}">← {label(i - 1)}</a>' if i else "<span></span>"
+    nxt = f'<a href="{pages[i + 1][2]}">{label(i + 1)} →</a>' if i + 1 < len(pages) else "<span></span>"
+    return f'<nav class="pager">{prev}<a href="index.html">Contents</a>{nxt}</nav>\n'
 
 
 def main():
     OUT.mkdir(exist_ok=True)
     IMG_DIR.mkdir(exist_ok=True)
-    md_text = build_markdown()
-    (OUT / f"{BASENAME}.md").write_text(md_text, encoding="utf-8")
-    page = build_html(md_text)
-    (OUT / f"{BASENAME}.html").write_text(page, encoding="utf-8")
+    t, he = load()
+    full, partial = gate_status(t)
+    done = sorted(full + partial)
+    generated = set()
+
+    def write(name, text):
+        (OUT / name).write_text(text, encoding="utf-8")
+        generated.add(name)
+
+    # One file: Markdown and a single HTML page, English with Hebrew.
+    md_text = build_markdown(t, he)
+    write(f"{BASENAME}.md", md_text)
+    write(f"{BASENAME}.html", build_html(md_text, "Pardes Rimmonim: English translation with Hebrew", f"{BASENAME}.html"))
+
+    # Split pages for crawlers: a contents page plus one page per gate (big gates in parts).
+    pages = split_pages(t, he, done)
+    first = {}
+    for g, _, fname, _ in pages:
+        first.setdefault(g, fname)
+    index_md = "\n".join(intro(t, full, partial) + [f"The whole translation is also available as one "
+                          f"[Markdown file]({BASENAME}.md), a [single page]({BASENAME}.html) and a [PDF]({PDF_URL}).", ""]
+                          + contents(t, link=lambda g: first.get(g)))
+    write("index.html", build_html(index_md, "Pardes Rimmonim: English translation with Hebrew", "index.html"))
+    for i, (g, chs, fname, part) in enumerate(pages):
+        body = "\n".join([f"*[{t['title']}](index.html), English translation with the Hebrew.*", ""]
+                         + gate_body(t, he, g, heading="#", chapters=chs, part=part))
+        title = f"Pardes Rimmonim, Gate {g + 1}{part}: {re.sub(r'<[^>]+>', '', t['gates'][g]['title'])}"
+        write(fname, build_html(body, title, fname, pager(pages, i)))
+
+    for f in OUT.glob("gate-*.html"):
+        if f.name not in generated:
+            f.unlink()
     keep = set(written_images.values())
     for f in IMG_DIR.iterdir():
         if f.name not in keep:
             f.unlink()
-    print(f"export/{BASENAME}.md: {len(md_text):,} chars, {len(keep)} images")
+    print(f"export/: {len(generated)} files, {len(keep)} images; largest page "
+          f"{max((OUT / n).stat().st_size for n in generated if n.endswith('.html') and n != BASENAME + '.html'):,} bytes")
+
     if "--pdf" in sys.argv:
+        # The PDF is English only (Hebrew characters inside the English still need Hebrew fonts).
         from weasyprint import HTML
 
+        page = build_html(build_markdown(t, he, hebrew=False), "Pardes Rimmonim: English translation", f"{BASENAME}.html")
         HTML(string=page, base_url=str(OUT)).write_pdf(OUT / f"{BASENAME}.pdf")
         print(f"export/{BASENAME}.pdf: {(OUT / f'{BASENAME}.pdf').stat().st_size:,} bytes")
 

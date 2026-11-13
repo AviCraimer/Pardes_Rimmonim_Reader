@@ -36,6 +36,6 @@ Indices in the files are 0-based. References in conversation, commits and tools 
 3. **Translate chapter by chapter**, following the conventions and the lexicon. Flag textual problems (apparent corruptions, uncertain readings, missing diagrams) in your report rather than silently fixing them.
 4. **Commit after each chunk and push after about each third of a chapter.** Others edit the site code in the same repo, so always `git pull --rebase` before pushing. End commit messages with the attribution lines your session specifies.
 
-`export/` (one-file Markdown, single-page HTML, images) is generated from the data files by `tools/export_text.py`; a GitHub workflow regenerates it on every push and uploads the PDF to the `latest-text` release. Don't edit `export/` by hand, and expect a bot commit after your pushes (hence `git pull --rebase`).
+`export/` (one-file Markdown and HTML, a page per gate, images) is generated from the data files by `tools/export_text.py`; a GitHub workflow regenerates it on every push and uploads the PDF to the `latest-text` release. Don't edit `export/` by hand, and expect a bot commit after your pushes (hence `git pull --rebase`).
 
 Don't change the site code (`index.html`, `script.js`, `style.css`) unless asked. `ibn_arabi/` is a separate project.
