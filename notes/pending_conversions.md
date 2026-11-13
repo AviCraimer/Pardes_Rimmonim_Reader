@@ -49,3 +49,8 @@ The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
 
 - **עולם מושכל / מורגש / מוטבע** (8:25:1, 8:25:7–8): "the intelligible / sensible / natural world". Lexicon entry exists, marked not yet ruled.
+- **ויתור / קפיצה** *vittur / kefitzah* (9:2:1): Chesed's "forbearance" (not distinguishing righteous from wicked) and Gevurah's "withholding" (Deut. 15:7 לא תקפוץ את ידך, "shut your hand"), both with the Hebrew in brackets. Alternatives: "leniency / strictness"; "overlooking / closing the hand".
+- **כף זכות / כף חובה** (9:2:1, 9:3:2–4, from Sefer Yetzirah 3:1): "the pan of merit / the pan of guilt" (Cordovero: כף from כף מאזנים, the pan of a balance). 7:2:15 has "the scale of guilt": align one way or the other. **לשון חק** (9:3:2, 9:3:4): "the tongue of law" (the pointer of the balance; Cordovero splits it: לשון = Tiferet, חק = Yesod).
+- **קו המכריע** (9:1:4 and throughout Gate 9): "the arbiter line", following 5:4:2.
+- **אילנות / יריעה** (9:2:1): "the Trees [<em>ilanot</em>]" and "the Curtain [<em>Yeri'ah</em>]" for the drawn diagrams of the Sefirot; the Yeri'ah seems to be a particular diagram. Check.
+
