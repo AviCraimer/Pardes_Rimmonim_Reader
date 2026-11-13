@@ -150,9 +150,35 @@ details.untranslated summary .gate-title,
     border-color: var(--gold);
 }
 /* ---- lexicon list ---- */
+.lex-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 0.8rem 1.4rem 0.6rem;
+}
+.lex-filter {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #cdbfe0;
+    font-size: 0.85rem;
+    cursor: pointer;
+    user-select: none;
+}
+.lex-filter input {
+    width: 1.05rem;
+    height: 1.05rem;
+    margin: 0;
+    accent-color: var(--gold);
+    cursor: pointer;
+}
+.lex-filter-note {
+    margin: 0 1.4rem 0.6rem;
+    font-size: 0.78rem;
+    color: #9a8db0;
+}
 .lex-sort {
     display: flex;
-    margin: 0.8rem 1.4rem 0.6rem;
     border: 1px solid var(--rail-edge);
     border-radius: 6px;
     overflow: hidden;

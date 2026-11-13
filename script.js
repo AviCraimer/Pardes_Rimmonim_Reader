@@ -492,6 +492,9 @@
         curG = g;
         curC = c;
         curView = "chapter";
+        const chapterChanged = !lastChapter || lastChapter.g !== g || lastChapter.c !== c;
+        lastChapter = { g, c };
+        if (lexInChapter && chapterChanged) renderLexNav();
         curLex = null;
         dismissPopup();
         setTab("toc");
@@ -633,9 +636,38 @@
         if (localStorage.getItem(SORT_KEY) === "en") lexSort = "en";
     } catch (e) {}
 
+    // "In Chapter" filter: show only items that occur in the last chapter
+    // opened. Matched on that chapter's Hebrew with the shared matcher (a few
+    // milliseconds), so it doesn't wait for the background occurrence count.
+    const FILTER_KEY = "pr-lex-in-chapter";
+    let lexInChapter = false;
+    try {
+        lexInChapter = localStorage.getItem(FILTER_KEY) === "1";
+    } catch (e) {}
+    let lastChapter = null; // { g, c } of the last chapter opened
+    const chapterItemsCache = new Map();
+    function chapterItemIds(g, c) {
+        const ck = g + ":" + c;
+        if (chapterItemsCache.has(ck)) return chapterItemsCache.get(ck);
+        const ids = new Set();
+        for (const html of getHebrewChapter(g, c) || []) {
+            if (!html) continue;
+            // Same text preparation as countOccurrences in matcher.js.
+            const text = html.replace(/<img[^>]*>/g, "").replace(/<[^>]*>/g, "\u0001");
+            for (const r of computeRanges(text)) {
+                const entry = LEX.entries[r.entryKey];
+                ids.add(entry && entry.cluster ? r.entryKey + "/" + r.form : r.entryKey);
+            }
+        }
+        chapterItemsCache.set(ck, ids);
+        return ids;
+    }
+
     function renderLexNav() {
         const panel = document.getElementById("lex-panel");
         panel.textContent = "";
+        const toolbar = el("div", "lex-toolbar", "");
+        panel.appendChild(toolbar);
 
         const toggle = document.createElement("div");
         toggle.className = "lex-sort";
@@ -659,11 +691,39 @@
             });
             toggle.appendChild(b);
         }
-        panel.appendChild(toggle);
+        toolbar.appendChild(toggle);
+
+        const filterLabel = el("label", "lex-filter", "");
+        const cb = document.createElement("input");
+        cb.type = "checkbox";
+        cb.checked = lexInChapter;
+        cb.addEventListener("change", () => {
+            lexInChapter = cb.checked;
+            try {
+                localStorage.setItem(FILTER_KEY, lexInChapter ? "1" : "0");
+            } catch (e) {}
+            renderLexNav();
+        });
+        filterLabel.appendChild(cb);
+        filterLabel.appendChild(document.createTextNode(" In Chapter"));
+        toolbar.appendChild(filterLabel);
+
+        // With the filter on, say which chapter it is (or that none is open yet).
+        const filtering = lexInChapter && lastChapter !== null;
+        const inChapter = filtering ? chapterItemIds(lastChapter.g, lastChapter.c) : null;
+        const shown = filtering ? LEX_ITEMS.filter((it) => inChapter.has(it.id)) : LEX_ITEMS;
+        if (lexInChapter) {
+            const msg = lastChapter
+                ? META.sectionNames[0] + " " + (lastChapter.g + 1) + ", " +
+                  META.sectionNames[1].toLowerCase() + " " + (lastChapter.c + 1) + ": " +
+                  shown.length + (shown.length === 1 ? " entry" : " entries")
+                : "Open a chapter to filter by it.";
+            panel.appendChild(el("div", "lex-filter-note", msg));
+        }
 
         // Group by initial letter.
         const groups = new Map();
-        for (const it of LEX_ITEMS) {
+        for (const it of shown) {
             const letter =
                 lexSort === "he"
                     ? heInitial(it.he)
@@ -683,6 +743,8 @@
         for (const letter of [...groups.keys()].sort(order)) {
             const det = document.createElement("details");
             det.className = "lex-group";
+            // A filtered list is short: show it all at once.
+            if (filtering) det.open = true;
             const sum = document.createElement("summary");
             const lt = el("span", "lex-letter", letter);
             if (lexSort === "he") lt.dir = "rtl";
