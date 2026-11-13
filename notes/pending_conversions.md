@@ -38,7 +38,7 @@ DONE 2026-11-12 (user ruling; general rule in TRANSLATION_CONVENTIONS.md). All s
 
 ## Table of contents: *ma'amar* = "passage"
 
-The text renders a quoted *ma'amar* "passage" (about 170 times); the contents have "statement". Gate 8's contents are converted. Remaining, by gate: 1 (×3), 2 (×1), 3 (×3), 4 (×5), 5 (×4), 7 (×1), 9 (×3), 10 (×1), 11 (×2), 12 (×1), 13 (×3), 14 (×3), 15 (×1), 16 (×5), 17 (×4), 18 (×11), 19 (×1), 20 (×7), 21 (×2), 22 (×1), 24 (×1), 25 (×1), 30 (×1). The contents still have "mercy" for *rachamim* outside Gate 8, and "emendation" for *tikkun*.
+The text renders a quoted *ma'amar* "passage" (about 170 times); the contents have "statement". Gate 8's contents are converted. Remaining, by gate: 1 (×3), 2 (×1), 3 (×3), 4 (×5), 5 (×4), 7 (×1), 9 (×3), 10 (×1), 12 (×1), 13 (×3), 14 (×3), 15 (×1), 16 (×5), 17 (×4), 18 (×11), 19 (×1), 20 (×7), 21 (×2), 22 (×1), 24 (×1), 25 (×1), 30 (×1). The contents still have "mercy" for *rachamim* outside Gate 8, and "emendation" for *tikkun*.
 
 ## The three lights: "primordial light, clear light, refined light"
 
@@ -55,4 +55,12 @@ The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 
 - **אילנות / יריעה** (9:2:1): "the Trees [<em>ilanot</em>]" and "the Curtain [<em>Yeri'ah</em>]" for the drawn diagrams of the Sefirot; the Yeri'ah seems to be a particular diagram. Check.
 - **Colors (Gate 10):** תכלת = "blue", with *tekhelet* in brackets where Cordovero puns on it (תכלית "utmost", כליון "destruction"). ירוק = "green" throughout, even where the comparison shows a yellow ("green like saffron / like the yolk of an egg"), so that the two greens he distinguishes stay visible: "green like leek / like grass" versus "green like saffron". ספיריי = "sapphire color". ארגמן = "purple [<em>argaman</em>]".
 - **מגידים** (10:1:5): kept as <em>maggidim</em> (heavenly informants). **המרה הלבנה** (10:1:5): "the white [humor]" (phlegm).
-
+- **רעותא / רעו / רעותין** (Gate 11: 11:5:1, 11:5:4, 11:6:1–3): "will" [<em>re'uta</em>, <em>re'utin</em>], because Cordovero glosses the word as לשון רצון and builds on it ("a will to bring a will into existence"). The Gate 8 rendering of רעוא / רעותא as "delight" is not applied here. Rule whether "will" stands wherever the Zohar's רעותא is read as רצון.
+- **בעלי רשומות** (11:1:5–6): "the masters of inscriptions [<em>ba'alei reshumot</em>]". Alternatives: "masters of signs", "allegorists".
+- **מדע / שכל** (11:1:5, 11:2:4, 11:4:1–2, Rav Hai and Rav Chamai's pair for Chokhmah and Binah): "knowledge [<em>mada'</em>] / intellect [<em>sekhel</em>]".
+- **לשון הסליחה** (11:1:5, 11:2:4, Tiferet): "the tongue of pardon", matching "the tongue of law".
+- **עצם** in Gate 11: עצם השרש = "the very root" (as in 8:3:2); שם ועצם ושרש = "Name, Self, and Root" (Cordovero glosses עצם here as עצמות); עצם אחד = "one Self"; עצם לטוש (11:6:7) = "a polished substance"; עצמים נבדלים = "separate substances". נתעצמו / מתעצמים (11:4:1–3) = "took substance".
+- **נתגלמו ונצטיירו / גולם וצורה** (11:1:6, 11:4:6): "took shape and were formed"; "matter [<em>golem</em>] and form"; the embryonic גולם in 11:4:2 = "unformed mass [<em>golem</em>]".
+- **פועל בודד** (11:6:6, 11:6:8): "a solitary verb [<em>po'al boded</em>]" (a verb or verbal noun with no object; Cordovero applies it to אתידע and to קרבן). Alternative: "an intransitive verb".
+- **The ten lights in Ma'ayan ha-Chokhmah and the Commentary on the Sefirot** (11:7:2, 11:7:4–5): אור / זוהר / זיו / יקוד = "light / radiance / splendor / burning"; מופלא "wondrous", נסתר "hidden", מתנוצץ "sparkling", מזהיר "resplendent", מזוקק "purified", בהיר "bright", נוגה "glowing [<em>or nogah</em>]", מתחזק "strengthening", מושכל "intelligible [<em>or muskal</em>]", מפעל "the work [<em>or mif'al</em>]". צחצוח = "clearness". 11:7:3 explains מצוחצח as "spotted" (from צחצוחי חלב), which "refined" cannot carry: the transliteration is given there.
+- **הויה** (Gate 11): "being [<em>havayah</em>]" for the thing (11:3:5; "the three first beings", 11:4:1), "coming-to-be" for the process (11:4:2, 11:5:2, 11:6:8: "the privation that precedes coming-to-be"), after the lexicon's הויות והפסד.
