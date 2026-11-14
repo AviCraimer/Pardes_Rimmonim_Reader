@@ -38,7 +38,7 @@ DONE 2026-11-12 (user ruling; general rule in TRANSLATION_CONVENTIONS.md). All s
 
 ## Table of contents: *ma'amar* = "passage"
 
-The text renders a quoted *ma'amar* "passage" (about 170 times); the contents have "statement". Gate 8's contents are converted. Remaining, by gate: 1 (×3), 2 (×1), 3 (×3), 4 (×5), 5 (×4), 7 (×1), 9 (×3), 10 (×1), 19 (×1), 20 (×7), 21 (×2), 22 (×1), 24 (×1), 25 (×1), 30 (×1). The contents still have "mercy" for *rachamim* outside Gate 8, and "emendation" for *tikkun*.
+The text renders a quoted *ma'amar* "passage" (about 170 times); the contents have "statement". Gate 8's contents are converted. Remaining, by gate: 1 (×3), 2 (×1), 3 (×3), 4 (×5), 5 (×4), 7 (×1), 9 (×3), 10 (×1), 20 (×7), 21 (×2), 22 (×1), 24 (×1), 25 (×1), 30 (×1). The contents still have "mercy" for *rachamim* outside Gate 8, and "emendation" for *tikkun*.
 
 ## The three lights: "primordial light, clear light, refined light"
 
@@ -81,3 +81,8 @@ The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 
 - **תכלת** (18:6:5): transliterated <em>tekhelet</em>, with Cordovero's pun "that consumes [<em>mekhalah</em>] all"; the colour itself is left unnamed (blue/violet).
 - **העטרת** as a name of Malkhut (18:6:1): "the Atarah", transliterated; "crown" stays for כתר/עטרא in ordinary use.
 - **מזל** (18:4, "children, life and sustenance depend on mazal"): kept as <em>mazal</em> per the lexicon, also where the Zohar plays on נוזל "flows".
+- **שם העצם** (Gate 19): "the name of the self [<em>shem ha-etzem</em>]", as in the Gate 19 contents, glossed once as also meaning "proper name", since 19:1:5 plays on שמות העצם = people's proper names. 8:5:1 has "the essential name" for the same phrase.
+- **שם המפורש / שם המיוחד** (19:1:5, 19:2:3): "the explicit name [<em>shem ha-meforash</em>]" and "the unique name", lower-case, following earlier gates.
+- **דורשי רשומות** (19:1:4): "the expounders of inscriptions [<em>dorshei reshumot</em>]", to match "masters of inscriptions" for בעלי רשומות.
+- **פרוכת** (19:3:2): transliterated <em>parokhet</em> (beside מסך = screen), pending the ruling on פרגוד/veil.
+- **Vowel names** (19:4): kamatz, patach, tzeirei, segol, sheva, cholam, chirik, shurek/shuruk transliterated; נקודה in this sense = "vowel point"; טעמים = "cantillation marks".
