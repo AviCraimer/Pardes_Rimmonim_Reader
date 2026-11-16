@@ -37,16 +37,28 @@
     // lexicon_translation.json (headword, renderings, candidates, surface
     // forms) and lexicon_reader.json (notes, etymologies, hidden entries,
     // hideForms, extraForms, skipTokens).
-    const [resp, heResp, lexResp, readerResp] = await Promise.all([
-        fetch("translation.json"),
-        fetch("Pardes_Rimmonim.json"),
+    //
+    // The Hebrew (Pardes_Rimmonim.json, the largest file by far) is not
+    // waited for: the page is drawn from the English and the lexicon, and the
+    // Hebrew arrives in the background. Everything that needs it (paragraph
+    // Hebrew, highlighting, the In Chapter filter, occurrence counts, exact
+    // translation status) checks HEB or waits on hebReady.
+    //
+    // Likewise the English (translation.json, holding the text and the
+    // contents) is not waited for when the page opens on a lexicon entry:
+    // only the two lexicon files are. DATA/META are null until it arrives;
+    // the TOC, chapters and occurrence lists wait on dataReady.
+    let HEB = null;
+    let DATA = null;
+    let META = null;
+    const hebFetch = fetch("Pardes_Rimmonim.json").then((r) => r.json());
+    const dataFetch = fetch("translation.json").then((r) => r.json());
+    const [lexResp, readerResp] = await Promise.all([
         fetch("lexicon_translation.json"),
         // lexicon_reader.json is optional: a missing/invalid file must not
         // break the app (popups then show renderings without notes).
         fetch("lexicon_reader.json").catch(() => null),
     ]);
-    const DATA = await resp.json();
-    const HEB = await heResp.json();
     const LEX = await lexResp.json();
     let READER = { entries: {} };
     if (readerResp && readerResp.ok) {
@@ -57,6 +69,10 @@
         }
     }
     const READER_ENTRIES = READER.entries || {};
+    const hebReady = hebFetch.then((j) => {
+        HEB = j;
+    });
+    hebReady.catch((e) => console.warn("Could not load the Hebrew:", e));
     // The reader record of an entry ({} when it has none).
     function readerOf(key) {
         return READER_ENTRIES[key] || {};
@@ -69,8 +85,14 @@
 
     // The table of contents (gate titles, descriptions, chapter summaries)
     // lives in translation.json under `gates`, beside the text itself.
-    DATA.index = DATA.gates.map((g) => g.chapters);
-    const META = DATA;
+    const dataReady = dataFetch.then((j) => {
+        j.index = j.gates.map((g) => g.chapters);
+        DATA = META = j;
+    });
+    // "Gate" / "Chapter", available before translation.json arrives.
+    let pendingOpen = false; // a chapter was asked for before DATA arrived
+    const sectionName = (i) =>
+        (META && META.sectionNames && META.sectionNames[i]) || ["Gate", "Chapter"][i];
 
     let curG = 0,
         curC = 0,
@@ -80,8 +102,9 @@
     function getChapter(g, c) {
         return DATA.text[g][c];
     }
+    // null until the Hebrew has arrived.
     function getHebrewChapter(g, c) {
-        return HEB.versions[0].text[g][c];
+        return HEB ? HEB.versions[0].text[g][c] : null;
     }
 
     // ---- lexicon surface-form map ----
@@ -305,20 +328,37 @@
         const existing = paraEl.querySelector(".heb-text");
         if (existing) {
             existing.remove();
+            recordReading();
             return;
         }
         const p = +paraEl.dataset.p;
-        const heParagraphs = getHebrewChapter(curG, curC);
-        if (!heParagraphs || !heParagraphs[p]) return;
-
         const hebDiv = document.createElement("div");
         hebDiv.className = "heb-text";
-        hebDiv.innerHTML = heParagraphs[p];
-        highlightLexicon(hebDiv);
+        const fill = () => {
+            const heParagraphs = getHebrewChapter(curG, curC);
+            if (!heParagraphs || !heParagraphs[p]) {
+                hebDiv.remove();
+                return;
+            }
+            hebDiv.classList.remove("heb-loading");
+            hebDiv.innerHTML = heParagraphs[p];
+            highlightLexicon(hebDiv);
+        };
+        if (HEB) fill();
+        else {
+            // The Hebrew is still downloading: hold the place, fill it in later.
+            hebDiv.classList.add("heb-loading");
+            hebDiv.textContent = "Loading the Hebrew…";
+            const g = curG, c = curC;
+            hebReady.then(() => {
+                if (hebDiv.isConnected && curG === g && curC === c) fill();
+            });
+        }
 
         // Insert after .pnum, before .en-text
         const enText = paraEl.querySelector(".en-text");
         paraEl.insertBefore(hebDiv, enText);
+        recordReading();
     }
 
     // ---- Hebrew numerals ----
@@ -341,6 +381,9 @@
     const hasText = (s) => !!s && s.replace(/<[^>]*>/g, "").trim() !== "";
     function isChapterTranslated(g, c) {
         const en = DATA.text[g][c] || [];
+        // Before the Hebrew arrives: judged on the English alone (every
+        // paragraph filled); refined by refreshTranslationStatus().
+        if (!HEB) return en.length > 0 && en.every(hasText);
         const he = getHebrewChapter(g, c) || [];
         const n = Math.max(en.length, he.length);
         for (let p = 0; p < n; p++) {
@@ -356,16 +399,25 @@
     function isGateTranslated(g) {
         return DATA.text[g].every((_, c) => isChapterTranslated(g, c));
     }
+    // Re-mark the TOC once the Hebrew is known, without rebuilding it.
+    function refreshTranslationStatus() {
+        document.querySelectorAll("#toc-panel details").forEach((det, g) =>
+            det.classList.toggle("untranslated", !isGateTranslated(g))
+        );
+        document.querySelectorAll("#toc-panel .chap").forEach((row) =>
+            row.classList.toggle(
+                "untranslated",
+                !isChapterTranslated(+row.dataset.g, +row.dataset.c)
+            )
+        );
+    }
 
     // ---- navigation ----
     function renderNav() {
         const nav = document.getElementById("nav");
         nav.innerHTML =
-            '<div class="brand"><div class="he">' +
-            META.heTitle +
-            '</div><div class="en">' +
-            META.title +
-            "</div></div>" +
+            '<div class="brand"><div class="he">פרדס רמונים</div>' +
+            '<div class="en">Pardes Rimmonim</div></div>' +
             '<div class="nav-tabs" role="tablist">' +
             '<button role="tab" data-tab="toc" aria-controls="toc-panel">TOC</button>' +
             '<button role="tab" data-tab="lex" aria-controls="lex-panel">Lexicon</button>' +
@@ -375,7 +427,16 @@
         nav.querySelectorAll(".nav-tabs button").forEach((b) =>
             b.addEventListener("click", () => setTab(b.dataset.tab))
         );
+        document.getElementById("toc-panel").innerHTML =
+            '<p class="nav-loading">Loading contents…</p>';
+        renderLexNav();
+        setTab("toc");
+    }
+
+    // The table of contents: needs translation.json (titles and status).
+    function renderToc() {
         const tocPanel = document.getElementById("toc-panel");
+        tocPanel.textContent = "";
         META.index.forEach((gate, g) => {
             const det = document.createElement("details");
             if (g === 0) det.open = true;
@@ -384,7 +445,7 @@
             const gateInfo = META.gates[g];
             sum.innerHTML =
                 '<span class="num">' +
-                META.sectionNames[0] +
+                sectionName(0) +
                 " " +
                 (g + 1) +
                 '</span><span class="gate-title">' +
@@ -424,8 +485,6 @@
             });
             tocPanel.appendChild(det);
         });
-        renderLexNav();
-        setTab("toc");
     }
 
     function setTab(tab) {
@@ -446,8 +505,8 @@
         if (ng >= DATA.text.length) return "";
         if (!hasAnyEnglish(ng, nc)) return "";
         return '<button class="next-ch-btn" data-g="' + ng + '" data-c="' + nc + '">' +
-            META.sectionNames[0] + " " + (ng + 1) + ": " + META.gates[ng].title +
-            " · " + META.sectionNames[1] + " " + (nc + 1) + " &rarr;</button>";
+            sectionName(0) + " " + (ng + 1) + ": " + META.gates[ng].title +
+            " · " + sectionName(1) + " " + (nc + 1) + " &rarr;</button>";
     }
 
     // ---- deep links ----
@@ -485,7 +544,19 @@
     // opts.updateUrl: push a history entry for this chapter (default true).
     // Set false when the open was itself triggered by the URL.
     function open(g, c, opts) {
-        const { updateUrl = true, para = null } = opts || {};
+        // opts.restore: return to where the reader left this chapter (scroll
+        // position and open Hebrew paragraphs), if it is the last one read.
+        const { updateUrl = true, para = null, restore = false } = opts || {};
+        if (!DATA) {
+            // Reached before the English has arrived (e.g. the back button on
+            // a lexicon page opened directly): open once it has.
+            const sheet = document.getElementById("sheet");
+            sheet.innerHTML = '<p class="sheet-loading">Loading…</p>';
+            curView = "chapter";
+            pendingOpen = true;
+            dataReady.then(() => open(g, c, opts));
+            return;
+        }
         if (updateUrl && location.hash !== chapterHash(g, c)) {
             history.pushState(null, "", chapterHash(g, c));
         }
@@ -493,10 +564,9 @@
         curC = c;
         curView = "chapter";
         const chapterChanged = !lastChapter || lastChapter.g !== g || lastChapter.c !== c;
+        const resume = restore && !chapterChanged ? lastChapter : null;
         lastChapter = { g, c };
-        try {
-            localStorage.setItem(LAST_CHAPTER_KEY, JSON.stringify(lastChapter));
-        } catch (e) {}
+        saveLastChapter();
         if (lexInChapter && chapterChanged) renderLexNav();
         curLex = null;
         dismissPopup();
@@ -507,13 +577,13 @@
         const label = META.index[g][c];
         sheet.innerHTML =
             '<div class="crumb">' +
-            META.sectionNames[0] +
+            sectionName(0) +
             " " +
             (g + 1) +
             ": " +
             gateInfo.title +
             " · " +
-            META.sectionNames[1] +
+            sectionName(1) +
             " " +
             (c + 1) +
             "</div>" +
@@ -584,6 +654,7 @@
         syncMenuBtn();
         document.querySelector("main").scrollTop = 0;
         if (para !== null) scrollToPara(para);
+        else if (resume) resumeReading(resume);
     }
 
     // ---- lexicon browser ----
@@ -657,10 +728,86 @@
     let lastChapter = null;
     try {
         const saved = JSON.parse(localStorage.getItem(LAST_CHAPTER_KEY) || "null");
-        if (saved && DATA.text[saved.g] && DATA.text[saved.g][saved.c]) {
-            lastChapter = { g: saved.g, c: saved.c };
+        // Checked against the text once translation.json has arrived.
+        if (saved && Number.isInteger(saved.g) && Number.isInteger(saved.c)) {
+            lastChapter = saved;
         }
     } catch (e) {}
+    function saveLastChapter() {
+        try {
+            localStorage.setItem(LAST_CHAPTER_KEY, JSON.stringify(lastChapter));
+        } catch (e) {}
+    }
+
+    // Where the reader is in the chapter: scroll position and which
+    // paragraphs have their Hebrew open. Kept on lastChapter (and saved),
+    // so the lexicon page's back button returns to the same spot.
+    function recordReading() {
+        if (curView !== "chapter" || !lastChapter) return;
+        if (lastChapter.g !== curG || lastChapter.c !== curC) return;
+        lastChapter.scrollTop = document.querySelector("main").scrollTop;
+        lastChapter.he = [...document.querySelectorAll("#sheet .para")]
+            .filter((p) => p.querySelector(".heb-text"))
+            .map((p) => +p.dataset.p);
+        saveLastChapter();
+    }
+    let recordTimer = null;
+    document.querySelector("main").addEventListener(
+        "scroll",
+        () => {
+            if (curView !== "chapter") return;
+            clearTimeout(recordTimer);
+            recordTimer = setTimeout(recordReading, 250);
+        },
+        { passive: true }
+    );
+
+    function resumeReading(state) {
+        const sheet = document.getElementById("sheet");
+        for (const p of state.he || []) {
+            const para = sheet.querySelector('.para[data-p="' + p + '"]');
+            if (para && !para.querySelector(".heb-text")) toggleHebrew(para);
+        }
+        const main = document.querySelector("main");
+        const top = state.scrollTop || 0;
+        main.scrollTop = top;
+        // Diagrams can change height as they decode; settle once they have.
+        const imgs = [...sheet.querySelectorAll("img")].filter((i) => !i.complete);
+        if (imgs.length) {
+            Promise.all(imgs.map((i) => i.decode().catch(() => {}))).then(() => {
+                if (curView === "chapter") main.scrollTop = top;
+            });
+        }
+        // Hebrew paragraphs still downloading will change the height; settle
+        // again once they are filled in.
+        if (!HEB && (state.he || []).length) {
+            hebReady.then(() =>
+                requestAnimationFrame(() => {
+                    if (curView === "chapter") main.scrollTop = top;
+                })
+            );
+        }
+        lastChapter.scrollTop = top;
+        lastChapter.he = state.he || [];
+        saveLastChapter();
+    }
+
+    // Back-to-chapter button on lexicon pages: shown only while the
+    // "In Chapter" filter is on and a chapter has been read.
+    function updateLexBackButton() {
+        const btn = document.querySelector(".lex-back");
+        if (!btn) return;
+        const show = lexInChapter && lastChapter !== null;
+        btn.hidden = !show;
+        if (show) {
+            const label =
+                "Back to " + sectionName(0) + " " + (lastChapter.g + 1) + ", " +
+                sectionName(1) + " " + (lastChapter.c + 1);
+            btn.title = label;
+            btn.setAttribute("aria-label", label);
+        }
+    }
+
     const chapterItemsCache = new Map();
     function chapterItemIds(g, c) {
         const ck = g + ":" + c;
@@ -719,19 +866,22 @@
                 localStorage.setItem(FILTER_KEY, lexInChapter ? "1" : "0");
             } catch (e) {}
             renderLexNav();
+            updateLexBackButton();
         });
         filterLabel.appendChild(cb);
         filterLabel.appendChild(document.createTextNode(" In Chapter"));
         toolbar.appendChild(filterLabel);
 
         // With the filter on, say which chapter it is (or that none is open yet).
-        const filtering = lexInChapter && lastChapter !== null;
+        const filtering = lexInChapter && lastChapter !== null && HEB !== null;
         const inChapter = filtering ? chapterItemIds(lastChapter.g, lastChapter.c) : null;
         const shown = filtering ? LEX_ITEMS.filter((it) => inChapter.has(it.id)) : LEX_ITEMS;
         if (lexInChapter) {
-            const msg = lastChapter
-                ? META.sectionNames[0] + " " + (lastChapter.g + 1) + ", " +
-                  META.sectionNames[1] + " " + (lastChapter.c + 1) + " (" +
+            const msg = lastChapter && !HEB
+                ? "Loading the Hebrew to filter by chapter…"
+                : lastChapter
+                ? sectionName(0) + " " + (lastChapter.g + 1) + ", " +
+                  sectionName(1) + " " + (lastChapter.c + 1) + " (" +
                   shown.length + (shown.length === 1 ? " entry)" : " entries)")
                 : "Open a chapter to filter by it.";
             panel.appendChild(el("div", "lex-filter-note", msg));
@@ -952,7 +1102,7 @@
             const det = document.createElement("details");
             det.className = "occ-gate";
             const sum = document.createElement("summary");
-            sum.appendChild(el("span", "occ-num", META.sectionNames[0] + " " + (g + 1)));
+            sum.appendChild(el("span", "occ-num", sectionName(0) + " " + (g + 1)));
             sum.appendChild(el("span", "occ-title", META.gates[g].title));
             sum.appendChild(el("span", "occ-count", String(gTotal)));
             det.appendChild(sum);
@@ -998,6 +1148,7 @@
         if (updateUrl && parseLexHash(location.hash) !== id) {
             history.pushState(null, "", lexHash(id));
         }
+        recordReading(); // remember the spot in the chapter being left
         curView = "lex";
         curLex = id;
         dismissPopup();
@@ -1007,6 +1158,17 @@
         const sheet = document.getElementById("sheet");
         sheet.textContent = "";
         sheet.appendChild(el("div", "crumb", "Lexicon"));
+
+        const back = el("button", "lex-back", "");
+        back.type = "button";
+        back.innerHTML =
+            '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">' +
+            '<path d="M20 12H5M11 5l-7 7 7 7" fill="none" stroke="currentColor" ' +
+            'stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+        back.addEventListener("click", () => {
+            if (lastChapter) open(lastChapter.g, lastChapter.c, { restore: true });
+        });
+        sheet.appendChild(back);
 
         const h1 = el("h1", "lex-page-hw", "");
         const hw = el("span", "", it.he);
@@ -1058,6 +1220,7 @@
             n.classList.remove("active")
         );
         markActiveLex(id);
+        updateLexBackButton();
         document.body.classList.remove("nav-open");
         syncMenuBtn();
         document.querySelector("main").scrollTop = 0;
@@ -1081,26 +1244,48 @@
             }
             return;
         }
+        if (!DATA) {
+            dataReady.then(() => window.dispatchEvent(new HashChangeEvent("hashchange")));
+            return;
+        }
         const loc = parseHash(location.hash);
         if (!loc) return;
         if (curView === "chapter" && loc.g === curG && loc.c === curC) {
             if (loc.p !== null) scrollToPara(loc.p);
             return;
         }
-        open(loc.g, loc.c, { updateUrl: false, para: loc.p });
+        open(loc.g, loc.c, { updateUrl: false, para: loc.p, restore: true });
     });
 
     renderNav();
-    const initial = parseHash(location.hash);
+    // A lexicon link needs only the lexicon files, already here: draw it now.
     const initialLex = parseLexHash(location.hash);
-    if (initialLex) {
-        openLex(initialLex, { updateUrl: false });
-    } else if (initial) {
-        open(initial.g, initial.c, { updateUrl: false, para: initial.p });
-    } else {
-        open(0, 0, { updateUrl: false });
+    if (initialLex) openLex(initialLex, { updateUrl: false });
+
+    await dataReady;
+    if (
+        lastChapter &&
+        !(DATA.text[lastChapter.g] && DATA.text[lastChapter.g][lastChapter.c])
+    ) {
+        lastChapter = null; // saved chapter no longer exists
+        updateLexBackButton();
     }
-    // Count lexicon occurrences in the background, so the index is usually
-    // ready before the reader first opens a lexicon page.
-    startOccurrences();
+    renderToc();
+    if (curView === "lex" && curLex) {
+        // The TOC wasn't there when the entry was drawn.
+        setTab("lex");
+        markActiveLex(curLex);
+    } else if (!pendingOpen) {
+        const initial = parseHash(location.hash);
+        if (initial) open(initial.g, initial.c, { updateUrl: false, para: initial.p });
+        else open(0, 0, { updateUrl: false });
+    }
+    // When the Hebrew arrives: settle the TOC status, apply the In Chapter
+    // filter, and count lexicon occurrences in the background, so the index
+    // is usually ready before the reader first opens a lexicon page.
+    Promise.all([hebReady, dataReady]).then(() => {
+        refreshTranslationStatus();
+        if (lexInChapter) renderLexNav();
+        startOccurrences(); // DATA is in by now: the lists need gate titles
+    });
 })();

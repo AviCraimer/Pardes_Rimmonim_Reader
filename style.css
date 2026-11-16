@@ -226,6 +226,7 @@ details.untranslated summary .gate-title,
 }
 /* ---- lexicon entry page ---- */
 .sheet h1.lex-page-hw {
+    padding-right: 3rem; /* clear of the back-to-chapter button */
     font-size: 2.2rem;
     font-weight: 400;
     margin-bottom: 0.6rem;
@@ -337,6 +338,46 @@ details.untranslated summary .gate-title,
 @keyframes occ-pulse {
     50% { opacity: 0.45; }
 }
+/* back-to-chapter button, top right of a lexicon page */
+.lex-back {
+    position: absolute;
+    top: 1.4rem;
+    right: 1.4rem;
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 1px solid #d9c9a3;
+    border-radius: 50%;
+    color: var(--pom);
+    cursor: pointer;
+}
+.lex-back:hover {
+    background: #eadfc4;
+}
+.lex-back[hidden] {
+    display: none;
+}
+/* placeholders while data downloads */
+.heb-text.heb-loading,
+.sheet-loading,
+.nav-loading {
+    font-style: italic;
+    color: var(--ink-soft);
+    animation: occ-pulse 1.6s ease-in-out infinite;
+}
+.heb-text.heb-loading {
+    direction: ltr;
+    text-align: left;
+    font-size: 1rem;
+}
+.nav-loading {
+    color: #9a8db0;
+    margin: 1rem 1.4rem;
+    font-size: 0.85rem;
+}
 /* ---- reading surface ---- */
 main {
     overflow-y: auto;
@@ -349,6 +390,7 @@ main {
     background: var(--paper);
     color: var(--ink);
     padding: 3.4rem 3.6rem 4rem;
+    position: relative;
     border-radius: 2px;
     box-shadow:
         0 1px 0 var(--gold),
