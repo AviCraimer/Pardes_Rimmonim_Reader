@@ -8454,6 +8454,72 @@
     }
    },
    "notes": "2026-11-16. Sites converted: 2:7:3 (stamp → impress, twice), 4:3:1 (implanted → impressed; nature → imprint [teva]), 8:1:4, 9:3:3, 12:2:1, 12:4:7 (imprinted → impressed), 18:5:6, 20:8:3 ('[this] in nature' dropped: Hebrew has only הטביע). 21:1:4 בהטבע left as 'into nature'. Unrelated: טבעת = ring."
+  },
+  "כף-זכות-חובה": {
+   "headword": "כַּף זְכוּת / כַּף חוֹבָה",
+   "transliteration": "kaf zekhut / kaf chovah",
+   "partOfSpeech": "noun phrase",
+   "rendering": "the pan of merit / the pan of liability",
+   "candidates": [
+    {
+     "target": "the pan of merit / the pan of liability; 'the scale-pan of merit / liability' at the first occurrence in each gate",
+     "status": "preferred",
+     "contextNotes": "The two pans of a balance (Sefer Yetzirah: יסודן כף זכות וכף חובה ולשון חק מכריע בנתים). Gedulah/Chesed = the pan of merit, Gevurah = the pan of liability (9:3:4, 11:2:4). 'Scale-pan' at the first occurrence in each gate, since the image is made explicit only at 9:3:4 (כף נגזר מכף מאזנים) and readers enter gates singly: 7:2:15, 9:2:1, 11:1:5, 20:5:5; later gates likewise. 'Pan' thereafter. Plural כפי = pans. Matches the existing pair 'merit and liability' for הזכות והחובה (4:3:1, 6:2:12) and 'liable' for מחייבין / חייב (9:2:1). זכאי = 'innocent' (9:2:1). Note: 6:2:4 has 'acquittal' for מיימינים לזכות (6:2:12 has 'to merit'); not ruled.",
+     "decisions": [
+      {
+       "section": "9:3:4",
+       "surfaceForm": "כף זכות וכף חובה",
+       "rationale": "User ruling, 2026-11-16 (terminology doc): חובה is debt and liability (root ח־ו־ב, 'owe'), not moral guilt; זכות is merit, the abstract (בזכות 'by the merit of', היכל זכות), so 'innocence' would not cover its other uses. 'Pan' kept because 9:3:4 needs it ('the pan that weighs toward the pan of merit'); 'scale' in modern English means the whole instrument. First occurrence per gate 'scale-pan' to make the balance image explicit.",
+       "timestamp": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "target": "the pan of merit / the pan of guilt",
+     "status": "rejected",
+     "contextNotes": "Gate 9 and 11 as first translated. 'Guilt' is moral and inward; the Hebrew is legal and financial.",
+     "decisions": []
+    },
+    {
+     "target": "the scale of merit / the scale of guilt",
+     "status": "rejected",
+     "contextNotes": "7:2:15 and 20:5:5 as first translated.",
+     "decisions": []
+    },
+    {
+     "target": "the pan of innocence",
+     "status": "rejected",
+     "contextNotes": "Considered 2026-11-16. Innocent = זכאי; זכות is the abstract merit, used widely outside the balance image.",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "כף זכות": {
+     "rendering": "the pan of merit"
+    },
+    "כף חובה": {
+     "rendering": "the pan of liability"
+    },
+    "לכף זכות": {
+     "rendering": "to the pan of merit"
+    },
+    "לכף חובה": {
+     "rendering": "to the pan of liability"
+    },
+    "כף הזכות": {
+     "rendering": "the pan of merit"
+    },
+    "כף החובה": {
+     "rendering": "the pan of liability"
+    },
+    "כפי זכות": {
+     "rendering": "the pans of merit"
+    },
+    "כפי חובה": {
+     "rendering": "the pans of liability"
+    }
+   },
+   "notes": "Ruled 2026-11-16; the translated text is not yet converted (batch conversion, see notes/pending_conversions.md)."
   }
  }
 }

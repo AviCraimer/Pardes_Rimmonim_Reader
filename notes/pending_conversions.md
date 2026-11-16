@@ -44,6 +44,13 @@ The text renders a quoted *ma'amar* "passage" (about 170 times); the contents ha
 
 The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 and 8:10:4. 5:5:5 has "dazzling light" for *or metzuchtzach*: change to "refined light". (The lexicon gloss for *Tzachtzachot*, "the Dazzling Lights", is a separate word and unaffected.)
 
+## *Kaf zekhut / kaf chovah*: the pan of merit / the pan of liability (ruled 16 November 2026)
+
+"Pan of guilt" and "scale of guilt / merit" become "pan of liability" and "pan of merit". At the first occurrence in each gate, "the scale-pan of merit / liability"; "pan" thereafter. Plural *kapei* = "pans". To be done in a batch with other rulings.
+
+- **First in gate ("scale-pan")**: 7:2:15 ("scale of guilt"), 9:2:1 (first pair), 11:1:5, 20:5:5 ("scale of guilt … scale of merit")
+- **"pan of guilt" → "pan of liability"** (and "pans of guilt"): 9:2:1 (×2 more), 9:3:2, 9:3:4 (×3), 9:6:4 (×2), 9:6:6, 11:2:4
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
