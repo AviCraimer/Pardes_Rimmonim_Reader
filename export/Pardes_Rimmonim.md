@@ -3413,7 +3413,7 @@ We named it **"Essence and Governance"** because in it is explained the essence 
 
 **8:25:7** [The diagram, translated. The rows are the three worlds named in the margin of the print; the columns are the lines of Din, Rachamim and Chesed, named in the bottom row. Above the grid the print has the word "length."]
 
-<table><tr><td>Binah</td><td>Keter<br>Da'at</td><td>Chokhmah</td><td>intelligible</td></tr><tr><td>Gevurah</td><td>Tiferet</td><td>Gedulah</td><td>sensible</td></tr><tr><td>Hod</td><td>Yesod</td><td>Netzach</td><td>natural</td></tr><tr><td><i>Din</i></td><td>Malkhut<br><i>Rachamim</i></td><td><i>Chesed</i></td><td></td></tr></table>
+<table><tr><td>Binah</td><td>Keter<br>Da'at</td><td>Chokhmah</td><td>intelligible</td></tr><tr><td>Gevurah</td><td>Tiferet</td><td>Gedulah</td><td>perceptible</td></tr><tr><td>Hod</td><td>Yesod</td><td>Netzach</td><td>natural</td></tr><tr><td><i>Din</i></td><td>Malkhut<br><i>Rachamim</i></td><td><i>Chesed</i></td><td></td></tr></table>
 
 ![The diagram as printed in the Koretz 1780 edition](images/e68a584d3c50.jpg)
 
@@ -4269,7 +4269,7 @@ We named it **"Paths"** because in it is explained the matter of the thirty-two 
 
 > נתיב כו נקרא שכל המחודש. ונקרא כן מפני שבו מחדש הקב"ה לכל (החסידים) [החדשים] שהם מתחדשים מבריאת העולם:
 
-**12:2:61** Path 27 is called the sensible intellect [*sekhel murgash*]. And it is called so because from it was created the intellect of every created entity beneath the upper sphere, and their sensations.
+**12:2:61** Path 27 is called the perceptible intellect [*sekhel murgash*]. And it is called so because from it was created the intellect of every created entity beneath the upper sphere, and their perceptions.
 
 > נתיב כז נקרא שכל מורגש. ונקרא כן מפני שממנו נברא שכל כל נברא מתחת גלגל העליון והרגשותם:
 
@@ -4485,11 +4485,11 @@ We named it **"Paths"** because in it is explained the matter of the thirty-two 
 
 > **נתיב כ"ה** נקרא שכל נסיוני וכו'. הענין כי הנתיב הזה מחייב נסיון הצדיקים והחסידים כאאע"ה. וכל מיני הנבראים, כמו המלאכים והשרפים לפעמים נענשים כמשאחז"ל (חגיגה ט"ו) בענין אלישע אחר דמחיוהו למטטרו"ן שתין פולסי דנורא, וכן גבי ר' חייא דמחיוהו לאליהו (ב"מ פ"ה), וכן נמצא בברייתא דרבי ישמעאל ע"ה שהמלאכים נענשו כאשר אינם מיישרים נעימתן בקדושה. ונסיונם נשפע מהנתיב הזה. וז"ש וירא אלקים כי טוב. הכונה ניסה אותם וראה אותם טובים וחזקים זריזים וטובים בעבודתם ועומדים בנסיונם:
 
-**12:6:3** Path 26 is called the sensible intellect, etc. The matter is that the intellect of man was created from the source of Chokhmah. And so it is explained in Midrash Ruth (from Zohar Chadash, folio 92), and these are its words: "He opened and said (Ps. 104:24): 'How many are Your works, O Lord; in wisdom You have made them all,' etc. The whole world came only through wisdom, and the human being is filled with everything. The other creatures are in the form (another version: in the addition) of the wisdom that remained in the human being. And although all the creatures are so, there was no creature light enough to pursue after the deeds of human beings, like the bird," etc.; see there. Thus far its words.
+**12:6:3** Path 26 is called the perceptible intellect, etc. The matter is that the intellect of man was created from the source of Chokhmah. And so it is explained in Midrash Ruth (from Zohar Chadash, folio 92), and these are its words: "He opened and said (Ps. 104:24): 'How many are Your works, O Lord; in wisdom You have made them all,' etc. The whole world came only through wisdom, and the human being is filled with everything. The other creatures are in the form (another version: in the addition) of the wisdom that remained in the human being. And although all the creatures are so, there was no creature light enough to pursue after the deeds of human beings, like the bird," etc.; see there. Thus far its words.
 
 > **נתיב כ"ו** נקרא שכל מורגש וכו'. הענין הוא כי שכל האדם נברא ממקור החכמה. וכן פי' במדרש רות (מהזוהר חדש דף צ"ב) וז"ל פתח ואמר מה רבו מעשיך ה' כולם בחכמה עשית וגו'. כל עלמא לא איתון אלא בחכמה וב"נ אתמלי בכלא. שאר בריין בטופסא (נ"א בתוספתא) דחכמה דאשתאר בבר נש. ואע"ג דכלהו בריין הכי לא הוה בריה קליל למרדף בתר עובדי דבני נשא כעופא וכו', ע"ש עכ"ל.
 
-**12:6:4** Behold, explicitly: the intellect of man flows from Chokhmah, and from the surplus of man it flows to the other creatures. And this is intended in this verse: "And God said, Let us make man in our image," etc.: the intent is to knowledge [*da'at*]. And so it is said when he sinned (Gen. 3:22): "Behold, the man has become like one of us, to know [לדע"ת]." And the intent is that the image and likeness of man flows from Chokhmah, from this path, which is the intellect; and for this reason it is called "sensible" [*murgash*]: explanation: it was sensed in this world.
+**12:6:4** Behold, explicitly: the intellect of man flows from Chokhmah, and from the surplus of man it flows to the other creatures. And this is intended in this verse: "And God said, Let us make man in our image," etc.: the intent is to knowledge [*da'at*]. And so it is said when he sinned (Gen. 3:22): "Behold, the man has become like one of us, to know [לדע"ת]." And the intent is that the image and likeness of man flows from Chokhmah, from this path, which is the intellect; and for this reason it is called "perceptible" [*murgash*]: explanation: it was perceived in this world.
 
 > הנה בפירוש ששכל האדם מושפע מחכמה וממותר האדם נשפע על שאר הבריות, וזה כוון בכתוב זה ויאמר אלקים נעשה אדם בצלמנו וכו' הכונה אל הדעת. וכן נאמר כאשר חטא (בראשית ג כב) הן האדם היה כאחד ממנו לדע"ת. והכונה כי הצלם והדמות של אדם נשפע מחכמה מן הנתיב הזה שהוא השכל ומטעם זה נקרא מורגש פי' הורגש בעולם הזה:
 
