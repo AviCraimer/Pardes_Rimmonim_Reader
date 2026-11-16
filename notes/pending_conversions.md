@@ -55,6 +55,10 @@ The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 
 
 9:2:1: "the virtue of forbearance [vittur]" becomes "the virtue of the opening of the hand"; "the virtue of withholding [kefitzah]" becomes "the virtue of the closing of the hand". No brackets.
 
+## Hebrew letters named as letters: letter names spelled out (ruled 16 November 2026)
+
+Consonant clusters that name letters as letters become hyphenated letter names. Scope details still open (see TRANSLATION_CONVENTIONS.md, house style). Clear sites: AMSh 9:3:2, 9:3:3 (×4), 9:3:4; AMaSh 3:5:4 (×2); "the letters YHV" 3:5:4; "the letters HVH … ADN" 10:5:2. Letter-name spelling and case to be made uniform once ruled.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
