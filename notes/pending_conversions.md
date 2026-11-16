@@ -51,6 +51,10 @@ The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 
 - **First in gate ("scale-pan")**: 7:2:15 ("scale of guilt"), 9:2:1 (first pair), 11:1:5, 20:5:5 ("scale of guilt … scale of merit")
 - **"pan of guilt" → "pan of liability"** (and "pans of guilt"): 9:2:1 (×2 more), 9:3:2, 9:3:4 (×3), 9:6:4 (×2), 9:6:6, 11:2:4
 
+## *Vittur / kefitzah*: the opening of the hand / the closing of the hand (ruled 16 November 2026)
+
+9:2:1: "the virtue of forbearance [vittur]" becomes "the virtue of the opening of the hand"; "the virtue of withholding [kefitzah]" becomes "the virtue of the closing of the hand". No brackets.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*

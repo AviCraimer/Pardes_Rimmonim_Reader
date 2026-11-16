@@ -8520,6 +8520,48 @@
     }
    },
    "notes": "Ruled 2026-11-16; the translated text is not yet converted (batch conversion, see notes/pending_conversions.md)."
+  },
+  "ויתור-קפיצה": {
+   "headword": "וִיתּוּר / קְפִיצָה",
+   "transliteration": "vittur / kefitzah",
+   "partOfSpeech": "noun",
+   "rendering": "the opening of the hand / the closing of the hand",
+   "candidates": [
+    {
+     "target": "the opening of the hand / the closing of the hand",
+     "status": "preferred",
+     "contextNotes": "9:2:1: מעלת הויתור of Chesed (gives to righteous and wicked alike, as regards sustenance) against מעלת הקפיצה of Gevurah (gives only by strict judgment, to one who has stood the test). No brackets: the image of the hand carries the sense. The pair follows Deut. 15:7–8 (לא תקפץ את ידך … כי פתח תפתח את ידך). Elsewhere קפיצה means leaping (קפיצת הארץ, 23:19:23; 26:8:5) and is translated so.",
+     "decisions": [
+      {
+       "section": "9:2:1",
+       "surfaceForm": "מעלת הויתור / מעלת הקפיצה",
+       "rationale": "User ruling, 2026-11-16 (terminology doc). ויתור is waiving, קפיצה is shutting the hand; rendered as the biblical pair of the open and the closed hand. Avoids clashes: 'exacting' (מדקדק, same paragraph), 'strictness' (near 'stringency' = חומרא), 'constrict' (צמצום), 'forgiving' (סליחה), 'withholding' (used for other words).",
+       "timestamp": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "target": "forbearance / withholding",
+     "status": "rejected",
+     "contextNotes": "9:2:1 as first translated, with the Hebrew in brackets.",
+     "decisions": []
+    },
+    {
+     "target": "waiving / closing [the hand]",
+     "status": "rejected",
+     "contextNotes": "Proposed 2026-11-16; superseded by the hand pair.",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "הויתור": {
+     "rendering": "the opening of the hand"
+    },
+    "הקפיצה": {
+     "rendering": "the closing of the hand"
+    }
+   },
+   "notes": "Ruled 2026-11-16; 9:2:1 not yet converted (see notes/pending_conversions.md)."
   }
  }
 }
