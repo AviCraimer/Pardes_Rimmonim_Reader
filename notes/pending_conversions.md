@@ -48,7 +48,7 @@ The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
 
-- ~~**עולם מושכל / מורגש / מוטבע**~~ Ruled 16 November 2026: "the intelligible / perceptible / natural world", with "the imprinted world" glossed at 8:25:1; טבע paired with הטביע = "imprint [teva]" … "impressed" (new lexicon entry טבע-הטביע). Sites converted. Still to apply when translated: 31:1:6 (the triad as nouns) and 31:9:6 (טבע מטבע בו).
+- ~~**עולם מושכל / מורגש / מוטבע**~~ Ruled 16 November 2026: "the intelligible / perceptible / natural world", with "the imprinted world" glossed at 8:25:1; טבע paired with הטביע = "imprint [teva]" … "impressed" (new lexicon entry טבע-הטביע). Sites converted.
 - **ויתור / קפיצה** *vittur / kefitzah* (9:2:1): Chesed's "forbearance" (not distinguishing righteous from wicked) and Gevurah's "withholding" (Deut. 15:7 לא תקפוץ את ידך, "shut your hand"), both with the Hebrew in brackets. Alternatives: "leniency / strictness"; "overlooking / closing the hand".
 - **כף זכות / כף חובה** (9:2:1, 9:3:2–4, from Sefer Yetzirah 3:1): "the pan of merit / the pan of guilt" (Cordovero: כף from כף מאזנים, the pan of a balance). 7:2:15 has "the scale of guilt": align one way or the other. **לשון חק** (9:3:2, 9:3:4): "the tongue of law" (the pointer of the balance; Cordovero splits it: לשון = Tiferet, חק = Yesod).
 - **קו המכריע** (9:1:4 and throughout Gate 9): "the arbiter line", following 5:4:2.
