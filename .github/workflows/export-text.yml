@@ -1,7 +1,7 @@
 name: Export text (Markdown, HTML, PDF)
 
-# Regenerates export/ whenever the text changes, commits it back, and uploads the PDF
-# to the "latest-text" release (kept out of git history so it doesn't bloat the repo).
+# Regenerates export/ whenever the text changes, commits it back, and uploads the PDFs
+# (Letter and mobile) to the "latest-text" release (kept out of git history so it doesn't bloat the repo).
 on:
   push:
     branches: [main]
@@ -33,7 +33,7 @@ jobs:
         run: |
           sudo apt-get update -q
           sudo apt-get install -y -q fonts-noto-core fonts-freefont-ttf
-          pip install -q weasyprint markdown
+          pip install -q weasyprint markdown pypdf
 
       - name: Build export
         run: python3 tools/export_text.py --pdf
@@ -50,11 +50,11 @@ jobs:
             for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
           fi
 
-      - name: Upload PDF to the latest-text release
+      - name: Upload PDFs to the latest-text release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release view latest-text >/dev/null 2>&1 || \
             gh release create latest-text --title "Latest text export" \
-              --notes "Pardes Rimmonim translation as one PDF, regenerated automatically whenever the text changes."
-          gh release upload latest-text export/Pardes_Rimmonim.pdf --clobber
+              --notes "Pardes Rimmonim translation as PDF (Letter, for printing; and mobile, for reading on a phone), regenerated automatically whenever the text changes."
+          gh release upload latest-text export/Pardes_Rimmonim.pdf export/Pardes_Rimmonim_mobile.pdf --clobber

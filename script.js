@@ -613,7 +613,8 @@
             '<p>Plain-text editions: <a href="export/index.html">page per gate</a> · ' +
             '<a href="export/Pardes_Rimmonim.html">single page</a> · ' +
             '<a href="export/Pardes_Rimmonim.md">Markdown</a> · ' +
-            '<a href="https://github.com/AviCraimer/Pardes_Rimmonim_Reader/releases/download/latest-text/Pardes_Rimmonim.pdf">PDF</a></p>' +
+            '<a href="https://github.com/AviCraimer/Pardes_Rimmonim_Reader/releases/download/latest-text/Pardes_Rimmonim.pdf">Print PDF</a> · ' +
+            '<a href="https://github.com/AviCraimer/Pardes_Rimmonim_Reader/releases/download/latest-text/Pardes_Rimmonim_mobile.pdf">Mobile PDF</a></p>' +
             '<p class="disclaimer">The English translation was produced by AI and may contain inaccuracies.</p>' +
             "</footer>";
 

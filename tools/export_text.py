@@ -5,7 +5,10 @@
     index.html, gate-NN.html     the same split into a contents page and one page per gate,
                                  big gates in parts (gate-NN-K.html), so crawlers don't truncate them
     images/                      diagrams extracted from the base64 in the data files
-    Pardes_Rimmonim.pdf          English only, with --pdf (needs weasyprint); not committed
+    Pardes_Rimmonim.pdf          English only, Letter size for printing, with --pdf
+                                 (needs weasyprint); not committed
+    Pardes_Rimmonim_mobile.pdf   the same as one narrow column for reading on a phone, chapters as
+                                 pages without page divisions inside them, with --pdf (also pypdf)
 
     python3 tools/export_text.py [--pdf]
 
@@ -33,6 +36,7 @@ BASENAME = "Pardes_Rimmonim"
 SITE_URL = "https://avicraimer.github.io/Pardes_Rimmonim_Reader/"
 REPO_URL = "https://github.com/AviCraimer/Pardes_Rimmonim_Reader"
 PDF_URL = REPO_URL + "/releases/download/latest-text/Pardes_Rimmonim.pdf"
+MOBILE_PDF_URL = REPO_URL + "/releases/download/latest-text/Pardes_Rimmonim_mobile.pdf"
 
 EXT = {"jpeg": "jpg", "jpg": "jpg", "png": "png", "gif": "gif", "svg+xml": "svg", "webp": "webp"}
 written_images = {}  # sha -> filename
@@ -292,6 +296,78 @@ a { color: inherit; text-decoration: none; }
 ol a { color: #5a2a2a; }
 """
 
+# Print PDF: US Letter.
+PRINT_PDF_CSS = "@page { size: letter; margin: 2cm 2.2cm 2.2cm; }"
+
+# Mobile PDF: a narrow column for reading on a phone, without page divisions. Phone PDF
+# viewers can't draw pages taller than a couple of metres (a 5 m page came out blank), so
+# the text is laid out on pages up to MOBILE_PAGE_MM tall, each chapter starting a new
+# page, and every page is then trimmed to where its text ends (trim_pages). Inside a
+# chapter, pages break only between paragraphs and have no top or bottom margin, so in
+# a continuously scrolling viewer the text runs on across the joins. No page numbers.
+# At 90 mm wide shown across a phone (about 68 mm), 10.5 pt text comes out near the size
+# of ordinary phone body text.
+MOBILE_PAGE_MM = 1800  # holds the longest paragraph (about 1.75 m); see trim_pages
+MOBILE_PDF_CSS = f"""
+@page {{ size: 90mm {MOBILE_PAGE_MM}mm; margin: 0 5mm; @bottom-center {{ content: none; }} }}
+body {{ font-size: 10.5pt; line-height: 1.42; max-width: none; margin: 0; padding: 0; }}
+p {{ hyphens: auto; }}
+h1 {{ font-size: 16pt; padding-top: 6mm; }} h2 {{ font-size: 13pt; padding-top: 6mm; }}
+h3 {{ font-size: 11pt; break-before: page; padding-top: 6mm; }}
+h3.toc {{ break-before: auto; padding-top: 0; }}
+ol, ul {{ padding-left: 1.3em; }}
+img {{ max-height: 135mm; }}
+table {{ font-size: 8pt; }} td {{ padding: 2px 3px; }}
+/* Never split a paragraph, list item or table, and keep each gate's contents entry
+   (heading, description, chapter list) together. */
+p, li, table, blockquote {{ break-inside: avoid; }}
+h3.toc, h3.toc + p {{ break-after: avoid; }}
+h3.toc + p + ol {{ break-inside: avoid; }}
+"""
+
+
+def write_mobile_pdf(page_html, path):
+    """Lay out with WeasyPrint, then trim each page to its text (needs pypdf)."""
+    import pypdf
+    from weasyprint import HTML
+    from weasyprint.formatting_structure import boxes
+
+    doc = HTML(string=page_html, base_url=str(OUT)).render()
+
+    def measure(page):
+        """(bottom of the last line in CSS px, whether a gate/chapter starts the page,
+        the p/li/ol elements with lines on the page, in order)."""
+        bottom, starts, blocks = 0, False, []
+        roots = [c for c in page._page_box.children if not isinstance(c, boxes.MarginBox)]
+        for box in (d for r in roots for d in r.descendants()):
+            if isinstance(box, (boxes.LineBox, boxes.ReplacedBox, boxes.TableBox)):
+                bottom = max(bottom, box.position_y + box.margin_height())
+            tag = getattr(box, "element_tag", None)
+            if tag in ("h1", "h2", "h3") and box.position_y < 30 and "toc" not in (box.element.get("class") or ""):
+                starts = True
+            if tag in ("p", "li", "ol") and box.element is not None and (not blocks or blocks[-1] is not box.element):
+                blocks.append(box.element)
+        return bottom, starts, blocks
+
+    info = [measure(p) for p in doc.pages]
+    split = sum(1 for a, b in zip(info, info[1:]) if a[2] and b[2] and a[2][-1] is b[2][0])
+    if split:
+        print(f"warning: {split} paragraph(s) longer than a {MOBILE_PAGE_MM} mm page were split; raise MOBILE_PAGE_MM")
+    doc.write_pdf(path)
+
+    reader = pypdf.PdfReader(path)
+    writer = pypdf.PdfWriter(clone_from=reader)
+    end_pad = 6 / 25.4 * 96  # white space after a chapter's last line (CSS px)
+    join_gap = 14            # paragraph spacing kept at a join inside a chapter (1em at 10.5pt)
+    for i, (page, (bottom, _, _)) in enumerate(zip(writer.pages, info)):
+        ends_section = i + 1 == len(info) or info[i + 1][1]
+        used = (bottom + (end_pad if ends_section else join_gap)) * 0.75  # pt
+        lower = max(0.0, float(page.mediabox.top) - used)
+        page.mediabox.lower_left = (page.mediabox.left, lower)
+        page.cropbox.lower_left = (page.cropbox.left, lower)
+    writer.write(path)
+
+
 NAV_CSS = ".pager { display: flex; justify-content: space-between; gap: 1em; margin: 2em 0; font-size: 10pt; }"
 
 
@@ -348,7 +424,8 @@ def main():
             return None
         return first[g] if c is None else where[(g, c)] + anchor(g, c)
     index_md = "\n".join(intro(t, full, partial) + [f"The whole translation is also available as one "
-                          f"[Markdown file]({BASENAME}.md), a [single page]({BASENAME}.html) and a [PDF]({PDF_URL}).", ""]
+                          f"[Markdown file]({BASENAME}.md), a [single page]({BASENAME}.html), a [Print PDF]({PDF_URL}) "
+                          f"(Letter size) and a [Mobile PDF]({MOBILE_PDF_URL}) for reading on a phone.", ""]
                           + contents(t, page_link))
     write("index.html", build_html(index_md, "Pardes Rimmonim: English translation with Hebrew", "index.html"))
     for i, (g, chs, fname, part) in enumerate(pages):
@@ -371,10 +448,14 @@ def main():
         # The PDF is English only (Hebrew characters inside the English still need Hebrew fonts).
         from weasyprint import HTML
 
-        page = build_html(build_markdown(t, he, hebrew=False, anchors=True), "Pardes Rimmonim: English translation",
-                          f"{BASENAME}.html", css=PDF_CSS)
-        HTML(string=page, base_url=str(OUT)).write_pdf(OUT / f"{BASENAME}.pdf")
-        print(f"export/{BASENAME}.pdf: {(OUT / f'{BASENAME}.pdf').stat().st_size:,} bytes")
+        md_en = build_markdown(t, he, hebrew=False, anchors=True)
+        title = "Pardes Rimmonim: English translation"
+        HTML(string=build_html(md_en, title, f"{BASENAME}.html", css=PDF_CSS + PRINT_PDF_CSS),
+             base_url=str(OUT)).write_pdf(OUT / f"{BASENAME}.pdf")
+        write_mobile_pdf(build_html(md_en, title, f"{BASENAME}.html", css=PDF_CSS + MOBILE_PDF_CSS),
+                         OUT / f"{BASENAME}_mobile.pdf")
+        for name in (f"{BASENAME}.pdf", f"{BASENAME}_mobile.pdf"):
+            print(f"export/{name}: {(OUT / name).stat().st_size:,} bytes")
 
 
 if __name__ == "__main__":
