@@ -9,11 +9,9 @@
 - Gates translated so far: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 (in progress: 21) of 32.
 - References are Gate:Chapter:Paragraph. Each English paragraph is followed by the Hebrew it translates, as a quotation.
 
-*Sefer Pardes Rimonim* ("Orchard of Pomegranates") by Rabbi Moshe Cordovero (the Ramak). Translation of the full table of contents (*simanei ha-sefer*) from the Koretz 1780 edition. The work is divided into 32 **gates** (*she'arim*), each with a symbolic title and a stated count of chapters (*perakim*).
+## Transliteration Conventions
 
-**Translator's notes.** Sefirotic and technical terms are transliterated (Keter, Chokhmah, Binah, Chesed, Gevurah, Tiferet, Netzach, Hod, Yesod, Malkhut; *heikhalot*, etc.). "Rashbi" = Rabbi Shimon bar Yochai; "the Tikkunim" = *Tikkunei Zohar*; "Sefer Yetzirah" is abbreviated S"Y in the original. A handful of scribal oddities in this printing are flagged inline in brackets.
-
-**Transliteration.** Hebrew words are transliterated for reading, without diacritics: *ch* = ח; *kh* = כ without a dagesh; *tz* = צ; *k* = כ and ק; *sh* = ש; *s* = ס and שׂ; *v* = ו, and ב without a dagesh; *f* = פ without a dagesh. An apostrophe marks א or ע where it is sounded between vowels (*ma'amar*, *Yeri'ah*).
+**Words.** The names of the Sefirot and other technical terms are transliterated (Keter, Chokhmah, Binah, Chesed, Gevurah, Tiferet, Netzach, Hod, Yesod, Malkhut; *heikhalot*). Hebrew words are transliterated for reading, without diacritics: *ch* = ח; *kh* = כ without a dagesh; *tz* = צ; *k* = כ and ק; *sh* = ש; *s* = ס and שׂ; *v* = ו, and ב without a dagesh; *f* = פ without a dagesh. An apostrophe marks א or ע where it is sounded between vowels (*ma'amar*, *Yeri'ah*).
 
 **Letters.** When a Hebrew letter is spoken of as a letter, its name is spelled out and capitalised: Alef, Bet, Gimel, Dalet, Heh, Vav, Zayin, Chet, Tet, Yod, Kaf, Lamed, Mem, Nun, Samekh, Ayin, Peh, Tzadi, Kof, Resh, Shin, Tav. A group of letters taken as a unit is hyphenated (the three mothers, Alef-Mem-Shin); a list takes commas. Where Ayin, “Nothingness” (אין), could be taken for the letter Ayin (ע), it is glossed once.
 
