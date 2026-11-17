@@ -8722,6 +8722,42 @@
     }
    },
    "notes": "Ruled 2026-11-16; text not yet converted (notes/pending_conversions.md)."
+  },
+  "תכלת": {
+   "headword": "תְּכֵלֶת",
+   "transliteration": "tekhelet",
+   "partOfSpeech": "noun/adjective",
+   "rendering": "blue",
+   "candidates": [
+    {
+     "target": "blue [tekhelet] at the first use in a gate, 'blue' after",
+     "status": "preferred",
+     "contextNotes": "The color of the fringe-thread and of the throne (Gate 10, 18:6:5, Gate 21). Where Cordovero puns on תכלית ('end, purpose'), keep the transliteration in brackets at that site too so the pun stays visible.",
+     "decisions": [
+      {
+       "section": "10:2:4",
+       "surfaceForm": "תכלת",
+       "rationale": "User ruling, 2026-11-16 (terminology doc): align Gates 18 and 21 ('tekhelet') with Gate 10 ('blue'); gloss at first use per gate.",
+       "timestamp": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "target": "tekhelet (transliterated throughout)",
+     "status": "rejected",
+     "contextNotes": "18:6:5, 21:6:1, 21:10:2 as first translated.",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "תכלת": {
+     "rendering": "blue"
+    },
+    "התכלת": {
+     "rendering": "the blue"
+    }
+   },
+   "notes": "Ruled 2026-11-16; Gates 18 and 21 not yet converted (notes/pending_conversions.md)."
   }
  }
 }

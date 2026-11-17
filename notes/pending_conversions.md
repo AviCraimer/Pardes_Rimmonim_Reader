@@ -71,6 +71,10 @@ Capital "Self" only where the self is the Emanator's / Ein Sof's own; a Sefirah'
 
 "The name of the self" / "the essential name" become "the proper name", lower case, glossed [<em>shem ha-etzem</em>] at first use in a gate, and at 19:1:5 [<em>shem ha-etzem</em>, literally "the name of the self"] where Cordovero plays on עצם. Sites: 8:5:1 (×3), 19:1:4, 19:1:5 (×5), 19:4:7, 20:1:2, 20:1:8, 20:1:9 (×2), 20:1:16, 20:10:5; the contents of Gates 19 and 20.
 
+## *Tekhelet*: "blue [tekhelet]" first in a gate, then "blue" (ruled 16 November 2026)
+
+Gate 10 already reads "blue" (check that its first use is glossed, 10:2:4). Convert 18:6:5, 21:6:1 and 21:10:2 from "tekhelet" to "blue [<em>tekhelet</em>]" at the first use in the gate and "blue" after. Keep the bracketed transliteration wherever the pun on תכלית ("end, purpose") is in play.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
