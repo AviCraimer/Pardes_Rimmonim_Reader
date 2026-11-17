@@ -154,4 +154,4 @@ Lexicon entries שביל-שבילין, נתיב-נתיבות, דרך-אורח. �
   - ~~**יריעה**~~ (the diagram scroll): settled 17 November 2026, "the parchment" at 9:2:1 too.
   - **נעלם**: the lexicon has "concealed", but the text has "hidden" in about 30 paragraphs (e.g. 1:1:2, 8:1:4, 8:19:3, 10:3:2, 21:1:5). Idiomatic "hidden from (someone)" (5:2:9) is a separate case.
   - ~~**מזלות**~~ (astral): ruled 17 November 2026, "constellations"; see the batch section.: "constellations" in Gates 6–16 and at 21:8:1, "mazalot" elsewhere in Gate 21. The lexicon entry gives only "mazal" and doesn't separate the astral sense.
-  - ~~**שבילין**~~ (Aramaic): ruled 17 November 2026, "track".: "paths" in Gates 4–6 (4:1:6 "thirty-two paths", 5:5:13–14, 6:3:5) but "lanes" in Gates 12, 16, 20, 21, where Cordovero contrasts שבילין with נתיבות (20:6:1 "Thirty-two lanes").
+  - ~~**שבילין**~~ (Aramaic): ruled 17 November 2026, "track". Was: "paths" in Gates 4–6 (4:1:6 "thirty-two paths", 5:5:13–14, 6:3:5) but "lanes" in Gates 12, 16, 20, 21, where Cordovero contrasts שבילין with נתיבות (20:6:1 "Thirty-two lanes").
