@@ -78,6 +78,16 @@ One English word per term (lexicon entries רצון, רעותא-רעוא, חפץ
 - **תשוקה** = "yearning" (was "desire" or "longing"): 4:3:6, 8:20:1 (Song 7:11 "his yearning is toward me", ×4).
 - **רצון** = "will". Paragraphs where it may now read "desire", "delight" or "pleasure": 2:2:8, 2:6:1, 4:1:5, 4:3:1, 4:10:6–7, 7:1:4, 8:5:1, 8:12:7, 8:14:5, 8:20:3, 8:21:3, 11:3:5, 11:6:3, 12:5:10, 14:1:6, 16:1:10, 18:3:2. Leave the authorial idiom (רצוני לומר "that is to say"; רצוננו + infinitive "we wish to …").
 
+## The dividing and covering words (ruled 17 November 2026)
+
+Lexicon entries פרוכת, פרגוד, וילון (new), ירע-יריעה, פרסא, מסך-מסך.
+
+- **פרוכת** = "veil" (was "veil", "partition-curtain [<em>parokhet</em>]", "partition", or <em>parokhet</em>). Beside מסך: "a veil and a screen"; פרכת המסך = "the veil of the screen" (16:6:2). Sites: 1:7:2, 5:4:4, 16:5:6, 16:6:2, 19:3:2.
+- **פרגוד** = "the heavenly curtain [<em>pargod</em>]", the bracket at the first use in a gate (was "curtain", "the Curtain", "partition" or <em>pargod</em>). At 12:4:3: "a heavenly curtain and a partition" (מחיצה). Sites: 1:7:2, 12:2:45, 12:4:3.
+- **וילון** = "Vilon [Curtain]", the name of the lowest heaven (was "curtain"): 6:3:2.
+- **יריעה** for the diagram scroll = "the parchment": 9:2:1 (was "the Curtain [<em>Yeri'ah</em>]"), as already at 6:1:4 and 7:2:25.
+- Unchanged and consistent: מסך = screen, מחיצה = partition, פרסא = hanging, כסוי = covering, לבוש = garment.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
@@ -86,7 +96,7 @@ One English word per term (lexicon entries רצון, רעותא-רעוא, חפץ
 - **ויתור / קפיצה** *vittur / kefitzah* (9:2:1): Chesed's "forbearance" (not distinguishing righteous from wicked) and Gevurah's "withholding" (Deut. 15:7 לא תקפוץ את ידך, "shut your hand"), both with the Hebrew in brackets. Alternatives: "leniency / strictness"; "overlooking / closing the hand".
 - **כף זכות / כף חובה** (9:2:1, 9:3:2–4, from Sefer Yetzirah 3:1): "the pan of merit / the pan of guilt" (Cordovero: כף from כף מאזנים, the pan of a balance). 7:2:15 has "the scale of guilt": align one way or the other. **לשון חק** (9:3:2, 9:3:4): "the tongue of law" (the pointer of the balance; Cordovero splits it: לשון = Tiferet, חק = Yesod).
 - **קו המכריע** (9:1:4 and throughout Gate 9): "the arbiter line", following 5:4:2.
-- **אילנות / יריעה** (9:2:1): "the Trees [<em>ilanot</em>]" and "the Curtain [<em>Yeri'ah</em>]" for the drawn diagrams of the Sefirot; the Yeri'ah seems to be a particular diagram. Check.
+- ~~**אילנות / יריעה**~~ (9:2:1): settled 17 November 2026: יריעה for the diagram scroll = "the parchment" (as at 6:1:4, 7:2:25); see the batch section.
 - **Colors (Gate 10):** תכלת = "blue", with *tekhelet* in brackets where Cordovero puns on it (תכלית "utmost", כליון "destruction"). ירוק = "green" throughout, even where the comparison shows a yellow ("green like saffron / like the yolk of an egg"), so that the two greens he distinguishes stay visible: "green like leek / like grass" versus "green like saffron". ספיריי = "sapphire color". ארגמן = "purple [<em>argaman</em>]".
 - **מגידים** (10:1:5): kept as <em>maggidim</em> (heavenly informants). **המרה הלבנה** (10:1:5): "the white [humor]" (phlegm).
 - ~~**רעותא / רעו / רעותין**~~ Ruled 16 November 2026 in the volitional remapping: "desire" [<em>re'uta</em>], with רצון = will, חפץ = delight, תאוה = craving, תשוקה = yearning (see the batch section above).
@@ -102,7 +112,7 @@ One English word per term (lexicon entries רצון, רעותא-רעוא, חפץ
 - **The names of the thirty-two paths** (12:2:35–66 and the commentary in 12:3–6): שכל = "intellect" throughout ("the wondrous intellect", "the resplendent intellect", "the sanctified intellect" …), with the Hebrew in brackets at the list. Kaplan and others use "consciousness". נבדל = "separate" (lexicon: שכל נבדל); מורגש = "perceptible", מוטבע = "natural" (following the 16 Nov ruling on עולם מושכל / מורגש / מוטבע; path 27 converted); עצם in these definitions = "substance". שכליים (12:3:1) = "intellective"; השכלה = "intellection".
 - **אמונה אומן** (12:2:37, 12:3:7): "<em>emunah omen</em> [faith, fosterer]". Cordovero reads <em>emunah</em> as "fostered, raised" (Binah or Malkhut, raised by Chokhmah) and <em>omen</em> as "fosterer"; the English carries "fostered" in his gloss.
 - **שמיטה** (12:2:1–2): kept as <em>shemitah</em> (the cosmic cycle).
-- **פרגוד** (12:2:45, 12:4:3): "curtain [<em>pargod</em>]", as in 1:7:2. This collides with the lexicon's יריעה = "curtain" (and פרסא = "hanging", "curtain" rejected). Needs its own word: "veil" or "partition"?
+- ~~**פרגוד**~~ Ruled 17 November 2026: "the heavenly curtain [<em>pargod</em>]"; see the batch section.
 - **נסתר / נעלם** (12:3:17): Cordovero distinguishes <em>nistar</em> (sometimes revealed, sometimes hidden) from <em>ne'lam</em> / <em>nifla</em> (never revealed). Following the lexicon (נעלם = "concealed"), Gates 11–13 now have "concealed" for נעלם and "hidden" for נסתר and the Zohar's סתים; גנוז stays "hidden" or "stored up" (Rav Hai's ג' גנוזות = "three hidden ones", as in 1:7:2). No ruling needed unless the pairing is wrong.
 - **ספר ספר ספור** (12:1:4–9): left as <em>sefer</em>, <em>sefar</em>, <em>sippur</em> with glosses "book", "number/census", "telling".
 - **מכון / מכוניה** (14:4:5–8, Sefer ha-Bahir on Ps. 104:5): "base" ("He founded the earth upon its bases"; "her base is <em>olam</em>"), to keep "foundation" for יסוד / יסד. The Chariot is Malkhut's "base".
@@ -119,14 +129,14 @@ One English word per term (lexicon entries רצון, רעותא-רעוא, חפץ
 - **שם העצם** (Gate 19): "the name of the self [<em>shem ha-etzem</em>]", as in the Gate 19 contents, glossed once as also meaning "proper name", since 19:1:5 plays on שמות העצם = people's proper names. 8:5:1 has "the essential name" for the same phrase.
 - **שם המפורש / שם המיוחד** (19:1:5, 19:2:3): "the explicit name [<em>shem ha-meforash</em>]" and "the unique name", lower-case, following earlier gates.
 - **דורשי רשומות** (19:1:4): "the expounders of inscriptions [<em>dorshei reshumot</em>]", to match "masters of inscriptions" for בעלי רשומות.
-- **פרוכת** (19:3:2): transliterated <em>parokhet</em> (beside מסך = screen), pending the ruling on פרגוד/veil.
+- ~~**פרוכת**~~ Ruled 17 November 2026: "veil"; see the batch section.
 - **Vowel names** (19:4): kamatz, patach, tzeirei, segol, sheva, cholam, chirik, shurek/shuruk transliterated; נקודה in this sense = "vowel point"; טעמים = "cantillation marks".
 - **שבילין / נתיבות** (20:2, 20:6): נתיבות = "paths" (as in the 32 paths); the Zohar's שבילין = "lanes", since Cordovero contrasts them as narrower and subtler.
 - **Unvowelled Names** (19:4:2, 20:1:8–9): the Hebrew edition prints the vowel-pointed forms of YHVH without their points; marked "[the vowels are not reproduced in this text]". Worth checking against a printed edition.
 - **הס / היכל / אדני = 65** (20:1:18): rendered "'hush' [<em>has</em>], the number of <em>heikhal</em>, the number of Adonai [65]", reading ה"ס as הס of Hab. 2:20.
 - **הוי** (20:4:1): "Woe!" [<em>hoy</em>], a name of Binah in the withdrawal of Tiferet, pending its Glossary entry.
 - **Found 17 November 2026 while clearing the doc table** (rows marked "no ruling needed" on 16 November that turned out not to be consistent):
-  - **יריעה** (the diagram scroll): "parchment" at 6:1:4 and 7:2:25, "the Curtain [<em>Yeri'ah</em>]" at 9:2:1.
+  - ~~**יריעה**~~ (the diagram scroll): settled 17 November 2026, "the parchment" at 9:2:1 too.
   - **נעלם**: the lexicon has "concealed", but the text has "hidden" in about 30 paragraphs (e.g. 1:1:2, 8:1:4, 8:19:3, 10:3:2, 21:1:5). Idiomatic "hidden from (someone)" (5:2:9) is a separate case.
   - **מזלות** (astral): "constellations" in Gates 6–16 and at 21:8:1, "mazalot" elsewhere in Gate 21. The lexicon entry gives only "mazal" and doesn't separate the astral sense.
   - **שבילין** (Aramaic): "paths" in Gates 4–6 (4:1:6 "thirty-two paths", 5:5:13–14, 6:3:5) but "lanes" in Gates 12, 16, 20, 21, where Cordovero contrasts שבילין with נתיבות (20:6:1 "Thirty-two lanes").
