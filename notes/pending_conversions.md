@@ -67,6 +67,10 @@ The noun עטרה / עטרת / עטרא becomes "diadem"; Malkhut's title "the A
 
 Capital "Self" only where the self is the Emanator's / Ein Sof's own; a Sefirah's or anything else's is lower case, or "the Sefirot themselves" for עצמות הספירות (lexicon entry עצמות-כלים). Known breaches: 19:1:5 "the whole Self of the sefirot" and "the Self of His emanated ones". The text has 326 "Self" in 121 paragraphs; sweep them against the Hebrew in the batch.
 
+## *Shem ha-etzem*: "the proper name" (ruled 16 November 2026)
+
+"The name of the self" / "the essential name" become "the proper name", lower case, glossed [<em>shem ha-etzem</em>] at first use in a gate, and at 19:1:5 [<em>shem ha-etzem</em>, literally "the name of the self"] where Cordovero plays on עצם. Sites: 8:5:1 (×3), 19:1:4, 19:1:5 (×5), 19:4:7, 20:1:2, 20:1:8, 20:1:9 (×2), 20:1:16, 20:10:5; the contents of Gates 19 and 20.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
