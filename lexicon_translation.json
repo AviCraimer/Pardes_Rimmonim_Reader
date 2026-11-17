@@ -8767,7 +8767,7 @@
       {
        "section": "11:6:2",
        "surfaceForm": "רצון",
-       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = longing. Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק not yet placed (must not be 'longing'). Some sites have 'desire', 'wish' or 'delight' for רצון; they become 'will' in the batch.",
+       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = yearning (ruled 'longing' on 16 Nov, changed to 'yearning' 2026-11-17). Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק is left as translated. Some sites have 'desire', 'wish' or 'delight' for רצון; they become 'will' in the batch.",
        "timestamp": "2026-11-16"
       }
      ]
@@ -8818,7 +8818,7 @@
       {
        "section": "11:6:2",
        "surfaceForm": "רעותא",
-       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = longing. Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק not yet placed (must not be 'longing'). 'Desire' is volitional and close to 'will' without taking it. The phrase was ruled 'the desire of desires' (not 'desire-in-desirings': 'desire in' is not English).",
+       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = yearning (ruled 'longing' on 16 Nov, changed to 'yearning' 2026-11-17). Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק is left as translated. 'Desire' is volitional and close to 'will' without taking it. The phrase was ruled 'the desire of desires' (not 'desire-in-desirings': 'desire in' is not English).",
        "timestamp": "2026-11-16"
       }
      ]
@@ -8890,7 +8890,7 @@
       {
        "section": "12:2:55",
        "surfaceForm": "שכל החפץ המבוקש",
-       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = longing. Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק not yet placed (must not be 'longing'). Path 21 decided it: a fixed title, and a 'sought wish' makes no sense. 'Delight' was free once רעוא moved to 'desire'.",
+       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = yearning (ruled 'longing' on 16 Nov, changed to 'yearning' 2026-11-17). Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק is left as translated. Path 21 decided it: a fixed title, and a 'sought wish' makes no sense. 'Delight' was free once רעוא moved to 'desire'.",
        "timestamp": "2026-11-16"
       }
      ]
@@ -8938,7 +8938,7 @@
       {
        "section": "8:22:2",
        "surfaceForm": "תאובתא",
-       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = longing. Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק not yet placed (must not be 'longing'). User preferred 'craving' to 'desire' for the appetitive sense.",
+       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = yearning (ruled 'longing' on 16 Nov, changed to 'yearning' 2026-11-17). Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק is left as translated. User preferred 'craving' to 'desire' for the appetitive sense.",
        "timestamp": "2026-11-16"
       }
      ]
@@ -8991,25 +8991,25 @@
    "headword": "תְּשׁוּקָה",
    "transliteration": "teshukah",
    "partOfSpeech": "noun",
-   "rendering": "longing",
+   "rendering": "yearning",
    "candidates": [
     {
-     "target": "longing",
+     "target": "yearning",
      "status": "preferred",
-     "contextNotes": "Drawn toward the beloved (Gen. 3:16; Song 7:11 'I am my lover's, and his longing is toward me', 8:20:1); 'the longing of the soul' (4:3:6).",
+     "contextNotes": "Drawn toward the beloved (Gen. 3:16; Song 7:11 'I am my lover's, and his yearning is toward me', 8:20:1); 'the yearning of the soul' (4:3:6).",
      "decisions": [
       {
        "section": "8:20:1",
        "surfaceForm": "תשוקתו",
-       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = longing. Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק not yet placed (must not be 'longing'). User chose 'longing' over the proposed 'yearning': it simply sounds better.",
-       "timestamp": "2026-11-16"
+       "rationale": "USER RULING 2026-11-17: 'yearning', reversing the 16 Nov choice of 'longing' once it emerged that חשק already reads 'longing' at 6:6:9, 11:6:3, 11:6:7. תשוקה = yearning (ruled 'longing' on 16 Nov, changed to 'yearning' 2026-11-17). Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק is left as translated.",
+       "timestamp": "2026-11-17"
       }
      ]
     },
     {
-     "target": "yearning",
+     "target": "longing",
      "status": "rejected",
-     "contextNotes": "Proposed; the user preferred \"longing\".",
+     "contextNotes": "Ruled 16 Nov, withdrawn 17 Nov: חשק already reads 'longing'.",
      "decisions": []
     },
     {
@@ -9021,16 +9021,16 @@
    ],
    "surfaceForms": {
     "תשוקה": {
-     "rendering": "longing"
+     "rendering": "yearning"
     },
     "תשוקתו": {
-     "rendering": "his longing"
+     "rendering": "his yearning"
     },
     "תשוקת": {
-     "rendering": "the longing of"
+     "rendering": "the yearning of"
     }
    },
-   "notes": "Ruled 2026-11-16 (volitional remapping). 'Longing' now also appears for חשק (6:6:9, 11:6:3, 11:6:7): חשק needs its own word. Conversion pending (notes/pending_conversions.md)."
+   "notes": "Ruled 2026-11-16 as 'longing', changed 2026-11-17 to 'yearning' (חשק keeps 'longing'). Conversion pending (notes/pending_conversions.md)."
   }
  }
 }
