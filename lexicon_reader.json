@@ -1062,12 +1062,16 @@
    "etymology": "From the root ט־ב־ע, 'to sink in, to stamp' (as a seal into wax; טבעת, 'signet ring'). Medieval Hebrew used טבע for 'nature', matching Arabic ṭabʿ / ṭabīʿa, from ṭabaʿa, 'to stamp, imprint'."
   },
   "כף-זכות-חובה": {
-   "note": "The two pans of a balance, from Sefer Yetzirah: \"their foundation is the pan of merit and the pan of liability, and the tongue [lashon chok] tips the balance between them.\" Gedulah (Chesed) is the pan of merit and Gevurah the pan of liability; the middle line is the tongue of the balance, the arbiter. Cordovero makes the image explicit at 9:3:4: kaf is \"the pan of a balance\". The terms are legal: merit is being in the clear, liability is owing.",
+   "note": "The two pans of a balance, from Sefer Yetzirah: \"their foundation is the pan of merit and the pan of liability, and the tongue of law tips the balance between them.\" Gedulah (Chesed) is the pan of merit and Gevurah the pan of liability; the middle line is the tongue of the balance, the arbiter. Cordovero makes the image explicit at 9:3:4: kaf is \"the pan of a balance\". The terms are legal: merit is being in the clear, liability is owing.",
    "etymology": "כַּף, 'palm', then anything palm-shaped: a spoon, the pan of a scale. זְכוּת from ז־כ־ה, 'to be clear, be in the right' (זַכַּאי, 'acquitted'). חוֹבָה from ח־ו־ב, 'to owe' (חַיָּב, 'liable'). Compare Avot 1:6, 'judge every person toward the pan of merit' (לְכַף זְכוּת)."
   },
   "ויתור-קפיצה": {
    "note": "Two virtues set against each other at 9:2:1. Chesed has \"the opening of the hand\": it gives sustenance to righteous and wicked alike, without reckoning. Gevurah has \"the closing of the hand\": it gives only by strict judgment, to one who has stood the test. The image is Deuteronomy 15:7–8, \"do not shut your hand … but open your hand\".",
    "etymology": "וִיתּוּר from ו־ת־ר, 'to yield, waive' (a claim or a debt); compare וַתְּרָן, 'one who waives', Bava Kamma 50a. קְפִיצָה from ק־פ־ץ, 'to shut, clench' (the hand or the mouth); in later Hebrew also 'to leap'."
+  },
+  "לשון-חק": {
+   "note": "The pointer of the balance in Sefer Yetzirah's image: \"their foundation is the pan of merit and the pan of liability, and the tongue of law tips the balance between them.\" The tongue is the upright needle on the beam, which leans with it and shows which way the scale has tipped. Cordovero reads the two words separately: the tongue is Tiferet (with Da'at), and law [chok] is Yesod, a third arbiter.",
+   "etymology": "לָשׁוֹן, 'tongue'; on a balance, its pointer (לְשׁוֹן מֹאזְנַיִם). חֹק from ח־ק־ק, 'to engrave': what is cut in and so fixed, hence a law, statute or set portion."
   }
  }
 }

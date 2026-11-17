@@ -8562,6 +8562,48 @@
     }
    },
    "notes": "Ruled 2026-11-16; 9:2:1 not yet converted (see notes/pending_conversions.md)."
+  },
+  "לשון-חק": {
+   "headword": "לְשׁוֹן חֹק",
+   "transliteration": "lashon chok",
+   "partOfSpeech": "noun phrase",
+   "rendering": "the tongue of law",
+   "candidates": [
+    {
+     "target": "the tongue of law",
+     "status": "preferred",
+     "contextNotes": "Sefer Yetzirah: כף זכות וכף חובה ולשון חק מכריע בנתים. The tongue is the pointer of a beam balance, which leans with the beam (9:3:4: לשון מאזנים, 'whose place of inclination is toward the side of the arbitration'); not the fixed fulcrum. Cordovero splits the phrase: לשון = Tiferet, חק = Yesod ('law' [chok], 9:3:4). חק elsewhere: 'law' in Cordovero's idiom בחק X, 'by the law of X' (2:3:4, 2:7:4, 11:5:2, 11:6:8); 'statute' where it stands beside משפט / הלכות in biblical and halakhic pairs (1:5:3, 8:1:7, 13:3:11, 17:1:15).",
+     "decisions": [
+      {
+       "section": "9:3:2",
+       "surfaceForm": "לשון חק",
+       "rationale": "User ruling, 2026-11-16 (terminology doc): keep 'law', the more natural English. 'Law' already renders בחק in Cordovero's prose; 'statute' kept only in the biblical pairs where 'law' would collide with הלכה / משפט. 'Decree' is taken by גזרה.",
+       "timestamp": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "target": "the tongue of statute",
+     "status": "rejected",
+     "contextNotes": "Proposed 2026-11-16 for one word per term; stiff, and 'law' already serves חק in Cordovero's prose.",
+     "decisions": []
+    },
+    {
+     "target": "the tongue of decree",
+     "status": "rejected",
+     "contextNotes": "Kaplan's rendering; 'decree' is taken by גזרה.",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "לשון חק": {
+     "rendering": "the tongue of law"
+    },
+    "ולשון חק": {
+     "rendering": "and the tongue of law"
+    }
+   },
+   "notes": "Ruled 2026-11-16. The translation already follows it (9:3:2, 9:3:4)."
   }
  }
 }
