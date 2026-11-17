@@ -437,6 +437,19 @@
     function renderToc() {
         const tocPanel = document.getElementById("toc-panel");
         tocPanel.textContent = "";
+        // Front matter (translation.json → indexNotes), before the first gate.
+        const intro = document.createElement("div");
+        intro.className = "toc-intro";
+        intro.tabIndex = 0;
+        intro.textContent = "Introduction";
+        intro.onclick = () => openIntro();
+        intro.onkeydown = (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                openIntro();
+            }
+        };
+        tocPanel.appendChild(intro);
         META.index.forEach((gate, g) => {
             const det = document.createElement("details");
             if (g === 0) det.open = true;
@@ -540,6 +553,58 @@
         target.scrollIntoView({ block: "start" });
     }
 
+    const SHEET_FOOTER =
+        '<footer class="sheet-footer">' +
+        '<p>Hebrew source text from <a href="https://www.sefaria.org/Pardes_Rimmonim?tab=contents" target="_blank" rel="noopener">Sefaria</a>.</p>' +
+        '<p>Plain-text editions: <a href="export/index.html">page per gate</a> · ' +
+        '<a href="export/Pardes_Rimmonim.html">single page</a> · ' +
+        '<a href="export/Pardes_Rimmonim.md">Markdown</a> · ' +
+        '<a href="https://github.com/AviCraimer/Pardes_Rimmonim_Reader/releases/download/latest-text/Pardes_Rimmonim.pdf">Print PDF</a> · ' +
+        '<a href="https://github.com/AviCraimer/Pardes_Rimmonim_Reader/releases/download/latest-text/Pardes_Rimmonim_mobile.pdf">Mobile PDF</a></p>' +
+        '<p class="disclaimer">The English translation was produced by AI and may contain inaccuracies.</p>' +
+        "</footer>";
+
+    // ---- introduction (front matter) ----
+    const INTRO_HASH = "#intro";
+    const INTRO_NOTES = ["about", "translatorNotes", "transliteration"];
+    function openIntro(opts) {
+        const { updateUrl = true } = opts || {};
+        if (!DATA) {
+            dataReady.then(() => openIntro(opts));
+            return;
+        }
+        if (updateUrl && location.hash !== INTRO_HASH) {
+            history.pushState(null, "", INTRO_HASH);
+        }
+        recordReading(); // remember the spot in the chapter being left
+        curView = "intro";
+        curLex = null;
+        dismissPopup();
+        setTab("toc");
+        const notes = META.indexNotes || {};
+        const sheet = document.getElementById("sheet");
+        sheet.innerHTML =
+            '<div class="crumb">' + (META.title || "Pardes Rimmonim") + "</div>" +
+            '<h1>Introduction<span class="rule"></span></h1>' +
+            '<div class="intro-notes">' +
+            INTRO_NOTES.filter((k) => notes[k])
+                .map((k) => (/^\s*<p[\s>]/.test(notes[k]) ? notes[k] : "<p>" + notes[k] + "</p>"))
+                .join("") +
+            "</div>" +
+            nextChapterButton(0, -1) +
+            SHEET_FOOTER;
+        const nextBtn = sheet.querySelector(".next-ch-btn");
+        if (nextBtn) nextBtn.addEventListener("click", () => open(+nextBtn.dataset.g, +nextBtn.dataset.c));
+        document.querySelectorAll("#toc-panel .chap.active, .lex-item.active").forEach((n) =>
+            n.classList.remove("active")
+        );
+        const row = document.querySelector("#toc-panel .toc-intro");
+        if (row) row.classList.add("active");
+        document.body.classList.remove("nav-open");
+        syncMenuBtn();
+        document.querySelector("main").scrollTop = 0;
+    }
+
     // ---- open chapter ----
     // opts.updateUrl: push a history entry for this chapter (default true).
     // Set false when the open was itself triggered by the URL.
@@ -608,15 +673,7 @@
                 )
                 .join("") +
             nextChapterButton(g, c) +
-            '<footer class="sheet-footer">' +
-            '<p>Hebrew source text from <a href="https://www.sefaria.org/Pardes_Rimmonim?tab=contents" target="_blank" rel="noopener">Sefaria</a>.</p>' +
-            '<p>Plain-text editions: <a href="export/index.html">page per gate</a> · ' +
-            '<a href="export/Pardes_Rimmonim.html">single page</a> · ' +
-            '<a href="export/Pardes_Rimmonim.md">Markdown</a> · ' +
-            '<a href="https://github.com/AviCraimer/Pardes_Rimmonim_Reader/releases/download/latest-text/Pardes_Rimmonim.pdf">Print PDF</a> · ' +
-            '<a href="https://github.com/AviCraimer/Pardes_Rimmonim_Reader/releases/download/latest-text/Pardes_Rimmonim_mobile.pdf">Mobile PDF</a></p>' +
-            '<p class="disclaimer">The English translation was produced by AI and may contain inaccuracies.</p>' +
-            "</footer>";
+            SHEET_FOOTER;
 
         // Wire next chapter button
         const nextBtn = sheet.querySelector(".next-ch-btn");
@@ -639,7 +696,7 @@
             });
         });
 
-        document.querySelectorAll(".lex-item.active").forEach((el) =>
+        document.querySelectorAll(".lex-item.active, #toc-panel .toc-intro.active").forEach((el) =>
             el.classList.remove("active")
         );
         document.querySelectorAll("#toc-panel .chap").forEach((el) => {
@@ -1217,7 +1274,7 @@
         sheet.appendChild(occurrencesSection(id));
 
         setTab("lex");
-        document.querySelectorAll("#toc-panel .chap.active").forEach((n) =>
+        document.querySelectorAll("#toc-panel .chap.active, #toc-panel .toc-intro.active").forEach((n) =>
             n.classList.remove("active")
         );
         markActiveLex(id);
@@ -1249,6 +1306,10 @@
             dataReady.then(() => window.dispatchEvent(new HashChangeEvent("hashchange")));
             return;
         }
+        if (location.hash === INTRO_HASH) {
+            if (curView !== "intro") openIntro({ updateUrl: false });
+            return;
+        }
         const loc = parseHash(location.hash);
         if (!loc) return;
         if (curView === "chapter" && loc.g === curG && loc.c === curC) {
@@ -1278,7 +1339,8 @@
         markActiveLex(curLex);
     } else if (!pendingOpen) {
         const initial = parseHash(location.hash);
-        if (initial) open(initial.g, initial.c, { updateUrl: false, para: initial.p });
+        if (location.hash === INTRO_HASH) openIntro({ updateUrl: false });
+        else if (initial) open(initial.g, initial.c, { updateUrl: false, para: initial.p });
         else open(0, 0, { updateUrl: false });
     }
     // When the Hebrew arrives: settle the TOC status, apply the In Chapter

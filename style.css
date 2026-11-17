@@ -89,6 +89,27 @@ summary .he {
     direction: rtl;
     flex-shrink: 0;
 }
+/* Introduction (front matter), above the first gate */
+.toc-intro {
+    padding: 0.6rem 1.4rem;
+    cursor: pointer;
+    color: #ebe5f2;
+    font-size: 0.82rem;
+    border-left: 2px solid transparent;
+    border-bottom: 1px solid #241b30;
+    transition: background 0.15s;
+}
+.toc-intro:hover {
+    background: #241c32;
+}
+.toc-intro.active {
+    color: var(--seed);
+    border-left-color: var(--seed);
+}
+.intro-notes p {
+    line-height: 1.72;
+    margin: 0 0 1.15rem;
+}
 .chap {
     padding: 0.42rem 1.4rem 0.42rem 3.4rem;
     cursor: pointer;
