@@ -44,20 +44,13 @@ The text renders a quoted *ma'amar* "passage" (about 170 times); the contents ha
 
 The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 and 8:10:4. 5:5:5 has "dazzling light" for *or metzuchtzach*: change to "refined light". (The lexicon gloss for *Tzachtzachot*, "the Dazzling Lights", is a separate word and unaffected.)
 
-## *Kaf zekhut / kaf chovah*: the pan of merit / the pan of liability (ruled 16 November 2026)
-
-"Pan of guilt" and "scale of guilt / merit" become "pan of liability" and "pan of merit". At the first occurrence in each gate, "the scale-pan of merit / liability"; "pan" thereafter. Plural *kapei* = "pans". To be done in a batch with other rulings.
-
-- **First in gate ("scale-pan")**: 7:2:15 ("scale of guilt"), 9:2:1 (first pair), 11:1:5, 20:5:5 ("scale of guilt … scale of merit")
-- **"pan of guilt" → "pan of liability"** (and "pans of guilt"): 9:2:1 (×2 more), 9:3:2, 9:3:4 (×3), 9:6:4 (×2), 9:6:6, 11:2:4
-
-## *Vittur / kefitzah*: the opening of the hand / the closing of the hand (ruled 16 November 2026)
-
-9:2:1: "the virtue of forbearance [vittur]" becomes "the virtue of the opening of the hand"; "the virtue of withholding [kefitzah]" becomes "the virtue of the closing of the hand". No brackets.
-
 ## Hebrew letters named as letters: letter names spelled out (ruled 16 November 2026)
 
-Consonant clusters that name letters as letters become hyphenated letter names. Scope details still open (see TRANSLATION_CONVENTIONS.md, house style). Clear sites: AMSh 9:3:2, 9:3:3 (×4), 9:3:4; AMaSh 3:5:4 (×2); "the letters YHV" 3:5:4; "the letters HVH … ADN" 10:5:2. Also (ruled 16 Nov): letter names capitalised in the standard spellings (TRANSLATION_CONVENTIONS.md): lower-case yod/heh/vav/alef/aleph in Gates 1–10 (~370 sites) and the letter "He" in Gates 11–21 (~250) → Heh; enumerations like 15:3:5 take commas. Letter strings get non-breaking spaces (MTzPTz 8:3:3, 8:4:7–9; AHVY 21:3; permutations), Kof = Q, Tet = Ṭ, Ayin = Ā; YHVH open.
+Done on branch `conventions-2026-11-16` (for review): letter names capitalised in the standard spellings throughout Gates 1–21 (lower-case yod/heh/vav/alef and the rest in Gates 1–10; the letter "He" → Heh, "Hes" → Hehs, "Pe" → Peh in Gates 11–21); groups hyphenated and enumerations given commas (14:2:3, 15:3:5); the clusters AMSh (9:3), AMaSh and "the letters YHV" (3:5:4), "HVH … ADN" (10:5:2) given as letter names; letter strings (MTzPTz and the 8:3:3 ciphers, AHVY, ADNY, the permutations of the Name, etc.) spaced with non-breaking spaces under the letter-string key. Transliterated phrases (*raka yod*, *cheil yod*, *leil heh*, *shalem heh*, *shin millah*) left as they are.
+
+Still open: whether YHVH itself is spaced (it is left as "YHVH" everywhere).
+
+Not yet converted: the English contents in `translation.json` → `gates` (chapter lines), e.g. "when [yod and] heh join" (Gate 8), "one <em>heh</em> for judgment" (Gate 20), "chirik with a yod" (Gate 21), the name AHVY (Gate 21), "<em>resh-yod-vav</em>", "<em>resh-lamed-aleph</em>".
 
 # Terminology to rule on
 
