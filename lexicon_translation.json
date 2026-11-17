@@ -1734,7 +1734,7 @@
      "rendering": "the fifty gates"
     },
     "רעוא דרעוין": {
-     "rendering": "delight-in-delightings"
+     "rendering": "the desire of desires"
     }
    },
    "notes": "Cluster from the Naso 136-137b passages. רישא חוורא = 'the white head'; רעוא דרעוין = 'delight-in-delightings' (USER-CONFIRMED). ra'ava family: noun='delight', verb='delight in'/'delighting in'; 'favor' and 'will' REJECTED (favoritism/favor-giving connotations; no English word carries will+active-pleasure together, so the hyphenated form is used); טמירא דטמירין = 'the concealed of the concealed'; בוצינא/בוצינין = 'lamp(s)' (luminaries = the Sefirot); קרומא = 'membrane' (krooma dakik='a thin membrane'; krooma kashisha stima'ah='a hard, concealed membrane'); חמשין תרעין = 'the fifty gates' (Binah), with נ' יומין דאורייתא='the fifty days of the Torah', נ' שנין דיובלא='the fifty years of the Jubilee', נ' אלף דרין='the fifty thousand generations'."
@@ -6968,12 +6968,6 @@
     "מלכא": {
      "rendering": "the King"
     },
-    "תיאובתא": {
-     "rendering": "desire"
-    },
-    "רעוא": {
-     "rendering": "delight"
-    },
     "חדוא": {
      "rendering": "joy"
     },
@@ -7279,7 +7273,7 @@
      "rendering": "the masters of astronomy"
     },
     "משתעשעים בגן עדני": {
-     "rendering": "taking our delight in the garden of delights"
+     "rendering": "reveling in the garden of delights"
     }
    },
    "notes": "Idioms, Talmudic formulas and embedded verses of Gate 2. READER AID ONLY."
@@ -8233,7 +8227,7 @@
     {
      "target": "delight",
      "status": "rejected",
-     "contextNotes": "Collides with ra'ava/re'uta = 'delight' (user-confirmed)."
+     "contextNotes": "Collided with ra'ava/re'uta = 'delight' (user-confirmed); since 2026-11-16 'delight' is חפץ."
     },
     {
      "target": "play",
@@ -8274,7 +8268,7 @@
      "rendering": "who revels"
     }
    },
-   "notes": "2026-11-12 (USER RULING): sha'ashua = 'revel / reveling' (replacing 'sport', ruled earlier the same evening). Grammar rule (user-approved): Hebrew cognate objects (שעשוע שהקב\"ה משתעשע) are folded into one English verb or gerund rather than rendered 'the sport which He sports'. The 'stroll' (טיולא דמטייל) is a separate term. Converted sites: 2:1:4 ('As we were reveling in the garden of delights'), 8:15:4 ('He revels in His wisdom'), 8:17:8 ('he revels in that pleasure'), 8:19 throughout. Biblical range: fond delight (Jeremiah 31:20 'child of sha'ashu'im'; Isaiah 11:8; Proverbs 8:30-31 Wisdom before God; Psalms 119 'Your Torah is my sha'ashu'im'); in the Zohar's midnight scenes, an amorous divine pastime with the souls of the righteous."
+   "notes": "2026-11-12 (USER RULING): sha'ashua = 'revel / reveling' (replacing 'sport', ruled earlier the same evening). Grammar rule (user-approved): Hebrew cognate objects (שעשוע שהקב\"ה משתעשע) are folded into one English verb or gerund rather than rendered 'the sport which He sports'. The 'stroll' (טיולא דמטייל) is a separate term. Converted sites: 2:1:4 ('As we were reveling in the garden of delights'), 8:15:4 ('He revels in His wisdom'), 8:17:8 ('he revels in that pleasure'), 8:19 throughout. Biblical range: fond delight (Jeremiah 31:20 'child of sha'ashu'im'; Isaiah 11:8; Proverbs 8:30-31 Wisdom before God; Psalms 119 'Your Torah is my sha'ashu'im'); in the Zohar's midnight scenes, an amorous divine pastime with the souls of the righteous. 2026-11-16: in the volitional remapping 'delight' went to חפץ and ra'ava/re'uta became 'desire'; 'revel' unchanged."
   },
   "טיל-טיול": {
    "headword": "טִיּוּל / טִיּוּלָא דִּמְטַיֵּיל",
@@ -8758,6 +8752,285 @@
     }
    },
    "notes": "Ruled 2026-11-16; Gates 18 and 21 not yet converted (notes/pending_conversions.md)."
+  },
+  "רצון": {
+   "headword": "רָצוֹן",
+   "transliteration": "ratzon",
+   "partOfSpeech": "noun",
+   "rendering": "will",
+   "candidates": [
+    {
+     "target": "will",
+     "status": "preferred",
+     "contextNotes": "The plain word for will, and Cordovero's own gloss word for the others (רעותא 'that is, רצון', 11:6:2; 8:21:3). Idiom, not converted: רצוני לומר = 'that is to say'; רצוננו / רצוני + infinitive, the author's own intent ('we wish to explain', 2:7:1, 4:10:3, 6:3:1, 7:1:6) keeps its idiomatic English.",
+     "decisions": [
+      {
+       "section": "11:6:2",
+       "surfaceForm": "רצון",
+       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = longing. Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק not yet placed (must not be 'longing'). Some sites have 'desire', 'wish' or 'delight' for רצון; they become 'will' in the batch.",
+       "timestamp": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "target": "desire",
+     "status": "rejected",
+     "contextNotes": "Taken by רעותא / רעוא.",
+     "decisions": []
+    },
+    {
+     "target": "wish",
+     "status": "rejected",
+     "contextNotes": "Only in the authorial idiom (above), not as the term.",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "רצון": {
+     "rendering": "will"
+    },
+    "הרצון": {
+     "rendering": "the will"
+    },
+    "רצונו": {
+     "rendering": "His will"
+    },
+    "ברצונו": {
+     "rendering": "by His will"
+    },
+    "ברצון": {
+     "rendering": "in will"
+    }
+   },
+   "notes": "Ruled 2026-11-16 as part of the volitional remapping; conversion pending (notes/pending_conversions.md)."
+  },
+  "רעותא-רעוא": {
+   "headword": "רְעוּתָא (pl. רְעוּתִין) / רַעֲוָא",
+   "transliteration": "re'uta / re'utin / ra'ava",
+   "partOfSpeech": "noun (Aramaic)",
+   "rendering": "desire",
+   "candidates": [
+    {
+     "target": "desire",
+     "status": "preferred",
+     "contextNotes": "Gloss [re'uta] at first use in a gate. Covers both the Keter passages (the primordial desire, Gates 4, 5, 11) and the Zohar's union passages (Gate 8). Cordovero's glosses stay informative: 'until the supernal desire rose: meaning, until the will rose' (8:21:3). The superlative רעוא דרעוין = 'the desire of desires', like 'the Ancient of Ancients' and 'the spark of all sparks' beside it (4:7:1, 5:3:1). At 4:7:4 Cordovero contrasts the two: he called it 'desire', not 'the desire of desires'.",
+     "decisions": [
+      {
+       "section": "11:6:2",
+       "surfaceForm": "רעותא",
+       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = longing. Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק not yet placed (must not be 'longing'). 'Desire' is volitional and close to 'will' without taking it. The phrase was ruled 'the desire of desires' (not 'desire-in-desirings': 'desire in' is not English).",
+       "timestamp": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "target": "will",
+     "status": "rejected",
+     "contextNotes": "Collides with רצון and turns Cordovero's glosses into tautologies ('until the will rose: meaning, until the will rose'). Was used in 17 paragraphs (Gate 11 especially).",
+     "decisions": []
+    },
+    {
+     "target": "delight",
+     "status": "rejected",
+     "contextNotes": "Ruled for רעוא in June; given up 2026-11-16 when 'delight' went to חפץ (Path 21, 'the sought delight').",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "רעותא": {
+     "rendering": "desire"
+    },
+    "ברעותא": {
+     "rendering": "in desire"
+    },
+    "ורעותא": {
+     "rendering": "and desire"
+    },
+    "דרעותא": {
+     "rendering": "of desire"
+    },
+    "רעותיה": {
+     "rendering": "his desire"
+    },
+    "ורעותיה": {
+     "rendering": "and his desire"
+    },
+    "רעותין": {
+     "rendering": "desires"
+    },
+    "לרעותין": {
+     "rendering": "to desires"
+    },
+    "רעותך": {
+     "rendering": "your desire"
+    },
+    "רעוא": {
+     "rendering": "desire"
+    },
+    "ברעוא": {
+     "rendering": "in desire"
+    },
+    "דרעוא": {
+     "rendering": "of desire"
+    }
+   },
+   "notes": "Ruled 2026-11-16 (volitional remapping). Replaces 'will' (Gate 11 etc.) and 'delight' (Gates 4, 5, 8). Conversion pending (notes/pending_conversions.md). The phrase רעוא דרעוין stays in the cluster אדרא-כינויים with the new rendering."
+  },
+  "חפץ": {
+   "headword": "חֵפֶץ / חָפֵץ",
+   "transliteration": "chefetz / chafetz",
+   "partOfSpeech": "noun; verb",
+   "rendering": "delight",
+   "candidates": [
+    {
+     "target": "delight; verb delight in",
+     "status": "preferred",
+     "contextNotes": "Verses: 'behold, You delight in truth in the inward parts' (Ps. 51:8, 5:2:9, where Cordovero's gloss reads 'Tiferet pours forth delight and satiety into the inward parts'); 'a vessel in which no one delights' (Jer. 22:28). Prose: 'whatever He delights in' (4:6:1), 'His delight is in revelation' (8:3:4). The supernal חפץ = 'the supernal Delight' (16:3:10). Path 21 שכל החפץ המבוקש = 'the intellect of the sought delight' (12:2:55). Not volitional, not converted: 'a fine object' (14:4:5), 'a time for every purpose' (Eccl. 3:1, 21:2:6).",
+     "decisions": [
+      {
+       "section": "12:2:55",
+       "surfaceForm": "שכל החפץ המבוקש",
+       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = longing. Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק not yet placed (must not be 'longing'). Path 21 decided it: a fixed title, and a 'sought wish' makes no sense. 'Delight' was free once רעוא moved to 'desire'.",
+       "timestamp": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "target": "wish",
+     "status": "rejected",
+     "contextNotes": "Reads well in Cordovero's prose but fails in Path 21 ('the sought wish') and in the verses.",
+     "decisions": []
+    },
+    {
+     "target": "desire",
+     "status": "rejected",
+     "contextNotes": "Taken by רעותא / רעוא. (JPS has \"You desire truth\" at Ps. 51:8.)",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "חפץ": {
+     "rendering": "delight"
+    },
+    "החפץ": {
+     "rendering": "the delight"
+    },
+    "חפצת": {
+     "rendering": "You delight"
+    },
+    "חפצו": {
+     "rendering": "his delight"
+    }
+   },
+   "notes": "Ruled 2026-11-16 (volitional remapping). Conversion pending (notes/pending_conversions.md)."
+  },
+  "תאוה-תאובתא": {
+   "headword": "תַּאֲוָה / תֵּאוּבְתָּא; נִתְאַוָּה / מִתְאַוֶּה",
+   "transliteration": "ta'avah / te'uvta / nit'avah",
+   "partOfSpeech": "noun; verb",
+   "rendering": "craving",
+   "candidates": [
+    {
+     "target": "craving; verb crave",
+     "status": "preferred",
+     "contextNotes": "Root אוה, appetite: the word makes the appetitive quality clear. 'A king who craved a son' (18:3:2), where Cordovero remarks on the midrash's precise use of לשון התאוה (18:3:3); the Zohar's 'craving of the female toward the male' (8:22:2); 'craving is aroused' (16:6:2); 'the corporeal cravings' of the body (4:9:4).",
+     "decisions": [
+      {
+       "section": "8:22:2",
+       "surfaceForm": "תאובתא",
+       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = longing. Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק not yet placed (must not be 'longing'). User preferred 'craving' to 'desire' for the appetitive sense.",
+       "timestamp": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "target": "desire",
+     "status": "rejected",
+     "contextNotes": "Taken by רעותא / רעוא; was the rendering in about 25 paragraphs.",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "תאוה": {
+     "rendering": "craving"
+    },
+    "התאוה": {
+     "rendering": "the craving"
+    },
+    "שהתאוה": {
+     "rendering": "who craved"
+    },
+    "התאוות": {
+     "rendering": "the cravings"
+    },
+    "מתאוה": {
+     "rendering": "craves"
+    },
+    "מתאוין": {
+     "rendering": "crave"
+    },
+    "תאובתא": {
+     "rendering": "craving"
+    },
+    "בתאובתא": {
+     "rendering": "in craving"
+    },
+    "דתאובתא": {
+     "rendering": "of craving"
+    },
+    "תיאובתא": {
+     "rendering": "craving"
+    },
+    "בתיאובתא": {
+     "rendering": "in craving"
+    }
+   },
+   "notes": "Ruled 2026-11-16 (volitional remapping). תיאובתא moved here from the cluster קורא-ארמית. False hits to skip when converting: מתאומים (twins), המתאבלים (mourners), ומתאבק (wrestles). Conversion pending (notes/pending_conversions.md)."
+  },
+  "תשוקה": {
+   "headword": "תְּשׁוּקָה",
+   "transliteration": "teshukah",
+   "partOfSpeech": "noun",
+   "rendering": "longing",
+   "candidates": [
+    {
+     "target": "longing",
+     "status": "preferred",
+     "contextNotes": "Drawn toward the beloved (Gen. 3:16; Song 7:11 'I am my lover's, and his longing is toward me', 8:20:1); 'the longing of the soul' (4:3:6).",
+     "decisions": [
+      {
+       "section": "8:20:1",
+       "surfaceForm": "תשוקתו",
+       "rationale": "USER RULING 2026-11-16 (terminology doc, 'The volitional words'): one English word per Hebrew volitional term. רצון = will; רעותא / רעוא = desire; חפץ = delight (verb 'delight in'); תאוה / תאובתא = craving (verb 'crave'); תשוקה = longing. Unchanged: שעשוע = revel, חדוותא = joy, חביבותא = affection. חשק not yet placed (must not be 'longing'). User chose 'longing' over the proposed 'yearning': it simply sounds better.",
+       "timestamp": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "target": "yearning",
+     "status": "rejected",
+     "contextNotes": "Proposed; the user preferred \"longing\".",
+     "decisions": []
+    },
+    {
+     "target": "desire",
+     "status": "rejected",
+     "contextNotes": "Taken by רעותא / רעוא.",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "תשוקה": {
+     "rendering": "longing"
+    },
+    "תשוקתו": {
+     "rendering": "his longing"
+    },
+    "תשוקת": {
+     "rendering": "the longing of"
+    }
+   },
+   "notes": "Ruled 2026-11-16 (volitional remapping). 'Longing' now also appears for חשק (6:6:9, 11:6:3, 11:6:7): חשק needs its own word. Conversion pending (notes/pending_conversions.md)."
   }
  }
 }

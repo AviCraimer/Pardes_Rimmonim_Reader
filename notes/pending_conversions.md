@@ -68,6 +68,17 @@ Capital "Self" only where the self is the Emanator's / Ein Sof's own; a Sefirah'
 
 Gate 10 already reads "blue" (check that its first use is glossed, 10:2:4). Convert 18:6:5, 21:6:1 and 21:10:2 from "tekhelet" to "blue [<em>tekhelet</em>]" at the first use in the gate and "blue" after. Keep the bracketed transliteration wherever the pun on תכלית ("end, purpose") is in play.
 
+## The volitional words: will, desire, delight, craving, longing (ruled 16 November 2026)
+
+One English word per term (lexicon entries רצון, רעותא-רעוא, חפץ, תאוה-תאובתא, תשוקה). Check every "will", "desire", "delight", "wish", "longing" in these paragraphs against the Hebrew.
+
+- **רעותא / רעותין / רעוא** = "desire" [<em>re'uta</em>] (was "will" or "delight"); רעוא דרעוין = "the desire of desires" (was "delight-in-delightings"). Sites: 1:3:1, 2:4:2, 4:1:6, 4:7:1, 4:7:3–5, 4:8:1, 5:3:1, 5:4:3, 5:4:8, 8:12:4, 8:14:1, 8:14:5, 8:17:8, 8:19:1, 8:19:4, 8:19:7, 8:19:11, 8:20:7, 8:21:1, 8:21:3, 8:21:8, 8:22:2, 8:22:4–5, 8:22:7, 11:5:1–2, 11:5:4, 11:6:1–3, 11:6:7, 18:2:1.
+- **חפץ / חפצת** = "delight", verb "delight in" (was "desire", "wish" or "will"); the supernal חפץ = "the supernal Delight" (16:3:10); Path 21 = "the intellect of the sought delight" (12:2:55). At 5:2:9 also fix "overflowing desire" to "pours forth delight" (משפיע). Leave "object" (14:4:5) and "purpose" (21:2:6). Sites: 1:9:2, 4:1:5, 4:2:10, 4:10:6, 5:1:4, 5:2:9, 8:3:4, 8:5:1, 8:12:7, 8:24:9, 9:2:1, 12:2:55, 12:5:10, 14:4:6, 16:1:10, 16:3:10, 16:8:4, 18:6:4.
+- **תאוה / תאובתא / נתאוה** = "craving", verb "crave" (was "desire" or "delight"). Skip the false hits מתאומים, המתאבלים, ומתאבק. Sites: 2:4:2, 4:9:4, 8:5:2, 8:5:10, 8:14:1–2, 8:14:4–5, 8:18:1, 8:18:3, 8:19:1, 8:19:3–4, 8:20:4, 8:20:7, 8:21:8, 8:22:2, 8:22:4, 8:22:8, 16:6:1–2, 18:3:2–3, 20:7:2, 20:7:4, 21:2:10.
+- **תשוקה** = "longing" (was "desire"): 4:3:6, 8:20:1 (Song 7:11 "his longing is toward me", ×4).
+- **רצון** = "will". Paragraphs where it may now read "desire", "delight" or "pleasure": 2:2:8, 2:6:1, 4:1:5, 4:3:1, 4:10:6–7, 7:1:4, 8:5:1, 8:12:7, 8:14:5, 8:20:3, 8:21:3, 11:3:5, 11:6:3, 12:5:10, 14:1:6, 16:1:10, 18:3:2. Leave the authorial idiom (רצוני לומר "that is to say"; רצוננו + infinitive "we wish to …").
+- Not yet placed: **חשק** (5:2:2, 5:2:5, 6:6:9, 8:21:5, 8:21:11, 8:25:2, 11:6:3, 11:6:7, 19:4:4) is "longing" at 6:6:9, 11:6:3 and 11:6:7, which now clashes with תשוקה. It waits on a ruling (Terminology to rule on).
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
@@ -79,7 +90,8 @@ Gate 10 already reads "blue" (check that its first use is glossed, 10:2:4). Conv
 - **אילנות / יריעה** (9:2:1): "the Trees [<em>ilanot</em>]" and "the Curtain [<em>Yeri'ah</em>]" for the drawn diagrams of the Sefirot; the Yeri'ah seems to be a particular diagram. Check.
 - **Colors (Gate 10):** תכלת = "blue", with *tekhelet* in brackets where Cordovero puns on it (תכלית "utmost", כליון "destruction"). ירוק = "green" throughout, even where the comparison shows a yellow ("green like saffron / like the yolk of an egg"), so that the two greens he distinguishes stay visible: "green like leek / like grass" versus "green like saffron". ספיריי = "sapphire color". ארגמן = "purple [<em>argaman</em>]".
 - **מגידים** (10:1:5): kept as <em>maggidim</em> (heavenly informants). **המרה הלבנה** (10:1:5): "the white [humor]" (phlegm).
-- **רעותא / רעו / רעותין** (Gate 11: 11:5:1, 11:5:4, 11:6:1–3): "will" [<em>re'uta</em>, <em>re'utin</em>], because Cordovero glosses the word as לשון רצון and builds on it ("a will to bring a will into existence"). The Gate 8 rendering of רעוא / רעותא as "delight" is not applied here. Rule whether "will" stands wherever the Zohar's רעותא is read as רצון.
+- ~~**רעותא / רעו / רעותין**~~ Ruled 16 November 2026 in the volitional remapping: "desire" [<em>re'uta</em>], with רצון = will, חפץ = delight, תאוה = craving, תשוקה = longing (see the batch section above).
+- **חשק** (5:2:2, 5:2:5, 6:6:9, 8:21:5, 8:21:11, 8:25:2, 11:6:3, 11:6:7, 19:4:4): "longing", "desire" or "desired one" (חשוקתו). "Longing" is now תשוקה. Candidates: "passion", "ardor"; Deut. 10:15 "set His desire on" would need another verb too.
 - **בעלי רשומות** (11:1:5–6): "the masters of inscriptions [<em>ba'alei reshumot</em>]". Alternatives: "masters of signs", "allegorists".
 - **מדע / שכל** (11:1:5, 11:2:4, 11:4:1–2, Rav Hai and Rav Chamai's pair for Chokhmah and Binah): "knowledge [<em>mada'</em>] / intellect [<em>sekhel</em>]".
 - **לשון הסליחה** (11:1:5, 11:2:4, Tiferet): "the tongue of pardon", matching "the tongue of law".

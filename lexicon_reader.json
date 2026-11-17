@@ -1043,7 +1043,7 @@
    "etymology": "From ד-ו-ד, 'love, beloved'; דּוֹד 'lover, beloved'; דּוֹדִים also 'love-making' (Proverbs 7:18; Song of Songs 1:2)."
   },
   "שעשע-שעשוע": {
-   "note": "Revel, reveling: a joyful delight. In the Zohar, at midnight the Holy One enters the Garden of Eden 'to revel with the righteous', and one who rises then 'to revel in the Torah' shares in it — a celebration with the souls of the righteous that Cordovero distinguishes from the supernal coupling (Gate 8, chapter 19). Not to be confused with ra'ava, 'delight'.",
+   "note": "Revel, reveling: a joyful delight. In the Zohar, at midnight the Holy One enters the Garden of Eden 'to revel with the righteous', and one who rises then 'to revel in the Torah' shares in it — a celebration with the souls of the righteous that Cordovero distinguishes from the supernal coupling (Gate 8, chapter 19). Not to be confused with chefetz, 'delight', or ra'ava, 'desire'.",
    "etymology": "From ש-ע-ע, reduplicated: 'to delight, to fondle, to play' (Isaiah 11:8; Jeremiah 31:20; Proverbs 8:30-31; Psalms 119:24)."
   },
   "תחת-תחתונים": {
@@ -1080,6 +1080,22 @@
   "שם-העצם": {
    "note": "YHVH, the four-letter name, which all schools agree is God's proper name, as against His titles and the other holy names (19:1:4). Cordovero insists it does not name the Self of the Emanator, the Ein Sof, which nothing can name; it names the Sefirot themselves, the whole Emanation. The Emanation as a whole is in turn the Ein Sof's \"name\", a handle by which we can speak of Him (19:1:5). Unlike people's proper names, which are conventional, this name indicates the nature of what it names.",
    "etymology": "Literally \"the name of the self\" (עֶצֶם, \"bone, self\"); in medieval Hebrew grammar, a noun or proper noun. Cordovero plays on both senses."
+  },
+  "רעותא-רעוא": {
+   "note": "Desire (Aramaic re'uta, ra'ava): will with pleasure in it. In the Zohar it names the first stirring in the Infinite, Keter, 'the desire of desires' (Gates 4, 5, 11), and also the desire of the supernal coupling (Gate 8). Cordovero glosses it each time with the Hebrew ratzon, 'will'.",
+   "etymology": "Aramaic רְעֵי, 'to want, to be pleased with' (Hebrew רָצָה); the Targum renders רָצוֹן by רְעוּתָא."
+  },
+  "חפץ": {
+   "note": "Delight, delight in: what one takes pleasure in and wants (Ps. 51:8 'You delight in truth in the inward parts'). Path 21 is 'the intellect of the sought delight'. Not to be confused with re'uta, 'desire', or ratzon, 'will'.",
+   "etymology": "From ח-פ-ץ, 'to delight in, to want'; also 'object' (a thing one wants) and 'purpose' (Eccl. 3:1)."
+  },
+  "תאוה-תאובתא": {
+   "note": "Craving: appetite, desire with hunger in it. Used of the body's cravings and, in the Zohar, of the female's craving toward the male; in the midrash, 'a king who craved a son' (18:3).",
+   "etymology": "From א-ו-ה, 'to crave'; Aramaic תְּאֵב, תֵּאוּבְתָּא."
+  },
+  "תשוקה": {
+   "note": "Longing: being drawn toward the beloved, as in Song 7:11, 'I am my lover's, and his longing is toward me'.",
+   "etymology": "From ש-ו-ק, 'to run after, be drawn to' (Gen. 3:16)."
   }
  }
 }
