@@ -63,6 +63,10 @@ Consonant clusters that name letters as letters become hyphenated letter names. 
 
 The noun עטרה / עטרת / עטרא becomes "diadem"; Malkhut's title "the Atarah" becomes "the Diadem". The verb עטר / התעטר stays "crown(ed)", and כתר / כתרין as a common noun stays "crown": check each "crown" against the Hebrew. Paragraphs with the noun: 1:2:9–11, 5:4:4, 6:5:1–2, 8:2:4, 8:2:8, 8:12:3, 8:17:8–10, 8:19:1, 8:24:6, 9:5:6, 9:6:8, 12:4:8, 14:3:7, 16:3:10, 18:1:5, 18:2:3, 18:3:2–3, 18:5:7, 18:6:1, 19:4:4, 20:10:5, 20:13:9, 21:15:7.
 
+## "Self" only for the Emanator (rule of 7 October, restated 16 November 2026)
+
+Capital "Self" only where the self is the Emanator's / Ein Sof's own; a Sefirah's or anything else's is lower case, or "the Sefirot themselves" for עצמות הספירות (lexicon entry עצמות-כלים). Known breaches: 19:1:5 "the whole Self of the sefirot" and "the Self of His emanated ones". The text has 326 "Self" in 121 paragraphs; sweep them against the Hebrew in the batch.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
