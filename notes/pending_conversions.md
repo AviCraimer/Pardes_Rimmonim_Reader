@@ -88,6 +88,10 @@ Lexicon entries פרוכת, פרגוד, וילון (new), ירע-יריעה, פ�
 - **יריעה** for the diagram scroll = "the parchment": 9:2:1 (was "the Curtain [<em>Yeri'ah</em>]"), as already at 6:1:4 and 7:2:25.
 - Unchanged and consistent: מסך = screen, מחיצה = partition, פרסא = hanging, כסוי = covering, לבוש = garment.
 
+## *Selichah / mechilah*: forgiveness / pardon (ruled 17 November 2026)
+
+לשון הסליחה = "the tongue of forgiveness" (was "the tongue of pardon"): 11:1:5, 11:2:4 (×3). Align the strays: סליחה as "pardon" at 8:1:5 and 8:15:4 becomes "forgiveness"; מחילה as "forgiveness" at 1:9:3 becomes "pardon".
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
@@ -97,16 +101,16 @@ Lexicon entries פרוכת, פרגוד, וילון (new), ירע-יריעה, פ�
 - ~~**כף זכות / כף חובה**~~ Ruled 16 November 2026 (pan of merit / pan of liability; tongue of law kept); converted.
 - ~~**קו המכריע**~~ Ruled 16 November 2026: "the arbiter line" kept.
 - ~~**אילנות / יריעה**~~ (9:2:1): settled 17 November 2026: יריעה for the diagram scroll = "the parchment" (as at 6:1:4, 7:2:25); see the batch section.
-- **Colors (Gate 10):** תכלת = "blue", with *tekhelet* in brackets where Cordovero puns on it (תכלית "utmost", כליון "destruction"). ירוק = "green" throughout, even where the comparison shows a yellow ("green like saffron / like the yolk of an egg"), so that the two greens he distinguishes stay visible: "green like leek / like grass" versus "green like saffron". ספיריי = "sapphire color". ארגמן = "purple [<em>argaman</em>]".
-- **מגידים** (10:1:5): kept as <em>maggidim</em> (heavenly informants). **המרה הלבנה** (10:1:5): "the white [humor]" (phlegm).
+- ~~**Colors (Gate 10):**~~ *Kept as is (17 November 2026).* תכלת = "blue", with *tekhelet* in brackets where Cordovero puns on it (תכלית "utmost", כליון "destruction"). ירוק = "green" throughout, even where the comparison shows a yellow ("green like saffron / like the yolk of an egg"), so that the two greens he distinguishes stay visible: "green like leek / like grass" versus "green like saffron". ספיריי = "sapphire color". ארגמן = "purple [<em>argaman</em>]".
+- ~~**מגידים**~~ *Kept as is (17 November 2026).* (10:1:5): kept as <em>maggidim</em> (heavenly informants). **המרה הלבנה** (10:1:5): "the white [humor]" (phlegm).
 - ~~**רעותא / רעו / רעותין**~~ Ruled 16 November 2026 in the volitional remapping: "desire" [<em>re'uta</em>], with רצון = will, חפץ = delight, תאוה = craving, תשוקה = yearning (see the batch section above).
 - ~~**חשק**~~ (5:2:2, 5:2:5, 6:6:9, 8:21:5, 8:21:11, 8:25:2, 11:6:3, 11:6:7, 19:4:4): left as translated ("longing" at 6:6:9, 11:6:3, 11:6:7); the clash went when תשוקה became "yearning" (17 November 2026).
 - ~~**בעלי רשומות**~~ (11:1:5–6): "the masters of inscriptions [<em>ba'alei reshumot</em>]". Alternatives: "masters of signs", "allegorists". *No ruling needed: consistent (checked 17 November 2026).*
 - ~~**מדע / שכל**~~ (11:1:5, 11:2:4, 11:4:1–2, Rav Hai and Rav Chamai's pair for Chokhmah and Binah): "knowledge [<em>mada'</em>] / intellect [<em>sekhel</em>]". *No ruling needed: consistent (checked 17 November 2026).*
-- **לשון הסליחה** (11:1:5, 11:2:4, Tiferet): "the tongue of pardon", matching "the tongue of law".
+- ~~**לשון הסליחה**~~ Ruled 17 November 2026: "the tongue of forgiveness"; see the batch section. Was: (11:1:5, 11:2:4, Tiferet): "the tongue of pardon", matching "the tongue of law".
 - **עצם** in Gate 11: עצם השרש = "the very root" (as in 8:3:2); שם ועצם ושרש = "Name, Self, and Root" (Cordovero glosses עצם here as עצמות); עצם אחד = "one Self"; עצם לטוש (11:6:7) = "a polished substance"; עצמים נבדלים = "separate substances". נתעצמו / מתעצמים (11:4:1–3) = "took substance".
 - ~~**נתגלמו ונצטיירו / גולם וצורה**~~ (11:1:6, 11:4:6): "took shape and were formed"; "matter [<em>golem</em>] and form"; the embryonic גולם in 11:4:2 = "unformed mass [<em>golem</em>]". *No ruling needed: consistent (checked 17 November 2026).*
-- **פועל בודד** (11:6:6, 11:6:8): "a solitary verb [<em>po'al boded</em>]" (a verb or verbal noun with no object; Cordovero applies it to אתידע and to קרבן). Alternative: "an intransitive verb".
+- ~~**פועל בודד**~~ *Kept as is (17 November 2026).* (11:6:6, 11:6:8): "a solitary verb [<em>po'al boded</em>]" (a verb or verbal noun with no object; Cordovero applies it to אתידע and to קרבן). Alternative: "an intransitive verb".
 - ~~**The ten lights in Ma'ayan ha-Chokhmah and the Commentary on the Sefirot**~~ (11:7:2, 11:7:4–5): אור / זוהר / זיו / יקוד = "light / radiance / splendor / burning"; מופלא "wondrous", נסתר "hidden", מתנוצץ "sparkling", מזהיר "resplendent", מזוקק "purified", בהיר "bright", נוגה "glowing [<em>or nogah</em>]", מתחזק "strengthening", מושכל "intelligible [<em>or muskal</em>]", מפעל "the work [<em>or mif'al</em>]". צחצוח = "clearness". 11:7:3 explains מצוחצח as "spotted" (from צחצוחי חלב), which "refined" cannot carry: the transliteration is given there. *No ruling needed: consistent (checked 17 November 2026).*
 - **הויה** (Gate 11): "being [<em>havayah</em>]" for the thing (11:3:5; "the three first beings", 11:4:1), "coming-to-be" for the process (11:4:2, 11:5:2, 11:6:8: "the privation that precedes coming-to-be"), after the lexicon's הויות והפסד.
 - ~~**The names of the thirty-two paths**~~ (12:2:35–66 and the commentary in 12:3–6): שכל = "intellect" throughout ("the wondrous intellect", "the resplendent intellect", "the sanctified intellect" …), with the Hebrew in brackets at the list. Kaplan and others use "consciousness". נבדל = "separate" (lexicon: שכל נבדל); מורגש = "perceptible", מוטבע = "natural" (following the 16 Nov ruling on עולם מושכל / מורגש / מוטבע; path 27 converted); עצם in these definitions = "substance". שכליים (12:3:1) = "intellective"; השכלה = "intellection". *No ruling needed: consistent (checked 17 November 2026).*
@@ -125,7 +129,7 @@ Lexicon entries פרוכת, פרגוד, וילון (new), ירע-יריעה, פ�
 - ~~**אסכרא**~~ (18:4:3, Zohar Terumah): "croup", the usual rendering of the Talmudic childhood disease. *No ruling needed: consistent (checked 17 November 2026).*
 - ~~**תכלת**~~ Ruled 16 November 2026: "blue [tekhelet]"; see the batch section.
 - ~~**העטרת**~~ Ruled 16 November 2026: "the Diadem"; see the batch section.
-- **מזל** (18:4, "children, life and sustenance depend on mazal"): kept as <em>mazal</em> per the lexicon, also where the Zohar plays on נוזל "flows".
+- ~~**מזל**~~ *Kept as is (17 November 2026): "constellations" for the astral sense, "mazalot" in Gate 21.* (18:4, "children, life and sustenance depend on mazal"): kept as <em>mazal</em> per the lexicon, also where the Zohar plays on נוזל "flows".
 - ~~**שם העצם**~~ Ruled 16 November 2026: "the proper name"; see the batch section.
 - ~~**שם המפורש / שם המיוחד**~~ (19:1:5, 19:2:3): "the explicit name [<em>shem ha-meforash</em>]" and "the unique name", lower-case, following earlier gates. *No ruling needed: consistent (checked 17 November 2026).*
 - ~~**דורשי רשומות**~~ (19:1:4): "the expounders of inscriptions [<em>dorshei reshumot</em>]", to match "masters of inscriptions" for בעלי רשומות. *No ruling needed: consistent (checked 17 November 2026).*
@@ -138,5 +142,5 @@ Lexicon entries פרוכת, פרגוד, וילון (new), ירע-יריעה, פ�
 - **Found 17 November 2026 while clearing the doc table** (rows marked "no ruling needed" on 16 November that turned out not to be consistent):
   - ~~**יריעה**~~ (the diagram scroll): settled 17 November 2026, "the parchment" at 9:2:1 too.
   - **נעלם**: the lexicon has "concealed", but the text has "hidden" in about 30 paragraphs (e.g. 1:1:2, 8:1:4, 8:19:3, 10:3:2, 21:1:5). Idiomatic "hidden from (someone)" (5:2:9) is a separate case.
-  - **מזלות** (astral): "constellations" in Gates 6–16 and at 21:8:1, "mazalot" elsewhere in Gate 21. The lexicon entry gives only "mazal" and doesn't separate the astral sense.
+  - ~~**מזלות**~~ (astral): kept as is (17 November 2026).: "constellations" in Gates 6–16 and at 21:8:1, "mazalot" elsewhere in Gate 21. The lexicon entry gives only "mazal" and doesn't separate the astral sense.
   - **שבילין** (Aramaic): "paths" in Gates 4–6 (4:1:6 "thirty-two paths", 5:5:13–14, 6:3:5) but "lanes" in Gates 12, 16, 20, 21, where Cordovero contrasts שבילין with נתיבות (20:6:1 "Thirty-two lanes").

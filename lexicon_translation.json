@@ -1281,6 +1281,19 @@
        "timestamp": "2026-06-09"
       }
      ]
+    },
+    {
+     "target": "constellations (astral sense)",
+     "status": "acceptable",
+     "contextNotes": "The astral מזלות are 'constellations' in Gates 6–16 and at 21:8:1; Gate 21's astrological passages keep 'mazal / mazalot'. Left as is (user, 2026-11-17).",
+     "decisions": [
+      {
+       "section": "21:2:6",
+       "surfaceForm": "מזלות",
+       "rationale": "User, 2026-11-17: the split between \"constellations\" and Gate 21's \"mazalot\" is fine; no conversion.",
+       "timestamp": "2026-11-17"
+      }
+     ]
     }
    ],
    "notes": "The supernal influx/'fortune' from Keter (or the upper three). Zohar/Talmud: 'children, life, sustenance depend not on merit (zekhut=Chesed) but on mazal' (= Keter, by extension the three firsts)."
@@ -9157,6 +9170,42 @@
     }
    },
    "notes": "Ruled 2026-11-17. Conversion pending (6:3:2)."
+  },
+  "סליחה-מחילה": {
+   "headword": "סְלִיחָה / מְחִילָה",
+   "transliteration": "selichah / mechilah",
+   "partOfSpeech": "noun",
+   "rendering": "forgiveness; pardon",
+   "candidates": [
+    {
+     "target": "סליחה = forgiveness; מחילה = pardon",
+     "status": "preferred",
+     "contextNotes": "Wherever the two stand together (3:8:10, 8:13:6, 20:5:4) the text already has מחילה = pardon, סליחה = forgiveness. לשון הסליחה (Tiferet, 11:1:5, 11:2:4 ×3) = 'the tongue of forgiveness', beside 'the tongue of law'. Stray sites to align: סליחה as 'pardon' at 8:1:5, 8:15:4; מחילה as 'forgiveness' at 1:9:3.",
+     "decisions": [
+      {
+       "section": "11:1:5",
+       "surfaceForm": "לשון הסליחה",
+       "rationale": "USER RULING 2026-11-17 (terminology doc): 'the tongue of forgiveness' (was 'the tongue of pardon').",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "סליחה": {
+     "rendering": "forgiveness"
+    },
+    "הסליחה": {
+     "rendering": "the forgiveness"
+    },
+    "מחילה": {
+     "rendering": "pardon"
+    },
+    "לשון הסליחה": {
+     "rendering": "the tongue of forgiveness"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Conversion pending (notes/pending_conversions.md)."
   }
  }
 }
