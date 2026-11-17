@@ -1284,13 +1284,13 @@
     },
     {
      "target": "constellations (astral sense)",
-     "status": "acceptable",
-     "contextNotes": "The astral מזלות are 'constellations' in Gates 6–16 and at 21:8:1; Gate 21's astrological passages keep 'mazal / mazalot'. Left as is (user, 2026-11-17).",
+     "status": "preferred",
+     "contextNotes": "Two senses, two renderings. The supernal flow from Keter and the Idra's mazal of the beard = 'mazal'. The astral sense (stars, signs of the zodiac) = 'constellation(s)', in every gate: Gates 6–16 already, and Gate 21's astrological passages (now 'mazal / mazalot') are to be converted, checking each site for which sense it is.",
      "decisions": [
       {
        "section": "21:2:6",
        "surfaceForm": "מזלות",
-       "rationale": "User, 2026-11-17: the split between \"constellations\" and Gate 21's \"mazalot\" is fine; no conversion.",
+       "rationale": "USER RULING 2026-11-17 (terminology doc): split by sense, mazal (supernal / Idra) vs constellations (astral). Corrects a misreading recorded earlier the same day that kept Gate 21's 'mazalot'.",
        "timestamp": "2026-11-17"
       }
      ]

@@ -92,6 +92,10 @@ Lexicon entries פרוכת, פרגוד, וילון (new), ירע-יריעה, פ�
 
 לשון הסליחה = "the tongue of forgiveness" (was "the tongue of pardon"): 11:1:5, 11:2:4 (×3). Align the strays: סליחה as "pardon" at 8:1:5 and 8:15:4 becomes "forgiveness"; מחילה as "forgiveness" at 1:9:3 becomes "pardon".
 
+## *Mazal*: two senses (ruled 17 November 2026)
+
+The supernal flow from Keter and the Idra's mazal of the beard stay "mazal". The astral sense (stars, signs of the zodiac) is "constellation(s)" in every gate. Gates 6–16 already have it; convert Gate 21's astrological "mazal / mazalot", checking each site for its sense: 21:2:6, 21:2:10, 21:6:2, 21:8:13 (21:8:1 already "constellations"). Also check 13:3:6 and 18:4:1, 18:4:10–11.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
@@ -129,7 +133,7 @@ Lexicon entries פרוכת, פרגוד, וילון (new), ירע-יריעה, פ�
 - ~~**אסכרא**~~ (18:4:3, Zohar Terumah): "croup", the usual rendering of the Talmudic childhood disease. *No ruling needed: consistent (checked 17 November 2026).*
 - ~~**תכלת**~~ Ruled 16 November 2026: "blue [tekhelet]"; see the batch section.
 - ~~**העטרת**~~ Ruled 16 November 2026: "the Diadem"; see the batch section.
-- ~~**מזל**~~ *Kept as is (17 November 2026): "constellations" for the astral sense, "mazalot" in Gate 21.* (18:4, "children, life and sustenance depend on mazal"): kept as <em>mazal</em> per the lexicon, also where the Zohar plays on נוזל "flows".
+- ~~**מזל**~~ *Ruled 17 November 2026: split by sense; see the batch section.* (18:4, "children, life and sustenance depend on mazal"): kept as <em>mazal</em> per the lexicon, also where the Zohar plays on נוזל "flows".
 - ~~**שם העצם**~~ Ruled 16 November 2026: "the proper name"; see the batch section.
 - ~~**שם המפורש / שם המיוחד**~~ (19:1:5, 19:2:3): "the explicit name [<em>shem ha-meforash</em>]" and "the unique name", lower-case, following earlier gates. *No ruling needed: consistent (checked 17 November 2026).*
 - ~~**דורשי רשומות**~~ (19:1:4): "the expounders of inscriptions [<em>dorshei reshumot</em>]", to match "masters of inscriptions" for בעלי רשומות. *No ruling needed: consistent (checked 17 November 2026).*
@@ -142,5 +146,5 @@ Lexicon entries פרוכת, פרגוד, וילון (new), ירע-יריעה, פ�
 - **Found 17 November 2026 while clearing the doc table** (rows marked "no ruling needed" on 16 November that turned out not to be consistent):
   - ~~**יריעה**~~ (the diagram scroll): settled 17 November 2026, "the parchment" at 9:2:1 too.
   - **נעלם**: the lexicon has "concealed", but the text has "hidden" in about 30 paragraphs (e.g. 1:1:2, 8:1:4, 8:19:3, 10:3:2, 21:1:5). Idiomatic "hidden from (someone)" (5:2:9) is a separate case.
-  - ~~**מזלות**~~ (astral): kept as is (17 November 2026).: "constellations" in Gates 6–16 and at 21:8:1, "mazalot" elsewhere in Gate 21. The lexicon entry gives only "mazal" and doesn't separate the astral sense.
+  - ~~**מזלות**~~ (astral): ruled 17 November 2026, "constellations"; see the batch section.: "constellations" in Gates 6–16 and at 21:8:1, "mazalot" elsewhere in Gate 21. The lexicon entry gives only "mazal" and doesn't separate the astral sense.
   - **שבילין** (Aramaic): "paths" in Gates 4–6 (4:1:6 "thirty-two paths", 5:5:13–14, 6:3:5) but "lanes" in Gates 12, 16, 20, 21, where Cordovero contrasts שבילין with נתיבות (20:6:1 "Thirty-two lanes").
