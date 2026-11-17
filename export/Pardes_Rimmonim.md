@@ -13,6 +13,12 @@
 
 **Translator's notes.** Sefirotic and technical terms are transliterated (Keter, Chokhmah, Binah, Chesed, Gevurah, Tiferet, Netzach, Hod, Yesod, Malkhut; *heikhalot*, etc.). "Rashbi" = Rabbi Shimon bar Yochai; "the Tikkunim" = *Tikkunei Zohar*; "Sefer Yetzirah" is abbreviated S"Y in the original. A handful of scribal oddities in this printing are flagged inline in brackets.
 
+**Transliteration.** Hebrew words are transliterated for reading, without diacritics: *ch* = ח; *kh* = כ without a dagesh; *tz* = צ; *k* = כ and ק; *sh* = ש; *s* = ס and שׂ; *v* = ו, and ב without a dagesh; *f* = פ without a dagesh. An apostrophe marks א or ע where it is sounded between vowels (*ma'amar*, *Yeri'ah*).
+
+**Letters.** When a Hebrew letter is spoken of as a letter, its name is spelled out and capitalised: Alef, Bet, Gimel, Dalet, Heh, Vav, Zayin, Chet, Tet, Yod, Kaf, Lamed, Mem, Nun, Samekh, Ayin, Peh, Tzadi, Kof, Resh, Shin, Tav. A group of letters taken as a unit is hyphenated (the three mothers, Alef-Mem-Shin); a list takes commas. Where Ayin, “Nothingness” (אין), could be taken for the letter Ayin (ע), it is glossed once.
+
+**Letter strings.** Divine names, permutations of the Name and ciphers quoted as strings of letters are given one capital per letter, the letters spaced: A = א; B = ב; G = ג; D = ד; H = ה; V = ו; Z = ז; Ch = ח; Ṭ = ט; Y = י; K = כ; L = ל; M = מ; N = נ; S = ס; Ā = ע; P = פ; Tz = צ; Q = ק; R = ר; Sh = ש; T = ת. Ṭ, Ā and Q keep ט, ע and ק apart from ת, א and כ; in words they are written *t*, an apostrophe and *k*. Thus מצפץ is M Tz P Tz and אדני is A D N Y. The Tetragrammaton is written YHVH. Acronyms that are read as words keep their vowels: KaChaB (Keter, Chokhmah, Binah), ABYA (the four worlds).
+
 ## Contents
 
 ### Gate 1: Ten and Not Nine (*Eser ve-lo Tesha*)
