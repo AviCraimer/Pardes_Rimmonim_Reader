@@ -9206,6 +9206,126 @@
     }
    },
    "notes": "Ruled 2026-11-17. Conversion pending (notes/pending_conversions.md)."
+  },
+  "שביל-שבילין": {
+   "headword": "שְׁבִיל (pl. שְׁבִילִים) / שְׁבִילִין (Aram.)",
+   "transliteration": "shevil / shevilim / shevilin",
+   "partOfSpeech": "noun",
+   "rendering": "track",
+   "candidates": [
+    {
+     "target": "track",
+     "status": "preferred",
+     "contextNotes": "Narrower, fainter and more hidden than a path (12:1:7, 20:2:5); in Keter they are only tracks, not yet distinct paths. The Zohar's ל\"ב שבילין = 'thirty-two tracks' (4:1:6, 20:6:1), kept apart from Sefer Yetzirah's ל\"ב נתיבות = 'thirty-two paths'. The ordinary Hebrew שביל also = 'track' ('a straight track from Binah to Gevurah', 8:5:5, 8:5:10). Not בשביל = 'because of'.",
+     "decisions": [
+      {
+       "section": "20:2:5",
+       "surfaceForm": "שבילין",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'Paths and lanes'): way / path / track, one each by width, as Cordovero ranks them after Ma'ayan ha-Chokhmah (12:1:7: 'the tracks are narrow and short, the paths more ample, the ways wide; the tracks are like children, the paths like mothers'). דרך and אורח = way; נתיב = path; שביל / שבילין = track; צנור = channel. 'Lane' was rejected (sounds like an alley); 'footpath' too homely; 'trail' implies wilderness.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "target": "lane",
+     "status": "rejected",
+     "contextNotes": "Gates 12, 16, 20, 21 as first translated; urban connotation (user).",
+     "decisions": []
+    },
+    {
+     "target": "path",
+     "status": "rejected",
+     "contextNotes": "Gates 4–6 and 8 as first translated; taken by נתיב.",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "שבילין": {
+     "rendering": "tracks"
+    },
+    "שבילן": {
+     "rendering": "tracks"
+    },
+    "בשבילין": {
+     "rendering": "by tracks"
+    },
+    "השבילים": {
+     "rendering": "the tracks"
+    },
+    "שבילים": {
+     "rendering": "tracks"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Conversion pending (notes/pending_conversions.md)."
+  },
+  "נתיב-נתיבות": {
+   "headword": "נְתִיב (pl. נְתִיבוֹת)",
+   "transliteration": "netiv / netivot",
+   "partOfSpeech": "noun",
+   "rendering": "path",
+   "candidates": [
+    {
+     "target": "path",
+     "status": "preferred",
+     "contextNotes": "Sefer Yetzirah's 'thirty-two wondrous paths of wisdom' (Gate 12); the middle term of way / path / track.",
+     "decisions": [
+      {
+       "section": "12:1:7",
+       "surfaceForm": "נתיבות",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'Paths and lanes'): way / path / track, one each by width, as Cordovero ranks them after Ma'ayan ha-Chokhmah (12:1:7: 'the tracks are narrow and short, the paths more ample, the ways wide; the tracks are like children, the paths like mothers'). דרך and אורח = way; נתיב = path; שביל / שבילין = track; צנור = channel. 'Path' kept: once שבילין is 'track', English already has track < path < way, and 'thirty-two paths' is the standard English.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "נתיב": {
+     "rendering": "path"
+    },
+    "הנתיב": {
+     "rendering": "the path"
+    },
+    "נתיבות": {
+     "rendering": "paths"
+    },
+    "הנתיבות": {
+     "rendering": "the paths"
+    }
+   },
+   "notes": "Recorded 2026-11-17 (already consistent)."
+  },
+  "דרך-אורח": {
+   "headword": "דֶּרֶךְ (pl. דְּרָכִים) / אוֹרַח (Aram. pl. אוֹרְחִין)",
+   "transliteration": "derekh / orach / orchin",
+   "partOfSpeech": "noun",
+   "rendering": "way",
+   "candidates": [
+    {
+     "target": "way",
+     "status": "preferred",
+     "contextNotes": "The widest, revealed term ('stand by the ways and see', Jer. 6:16). אורח is the Aramaic and poetic counterpart: Zohar אורחין ושבילין = 'ways and tracks' (16:9:3, now 'paths and lanes'). Adverbial דרך = 'by way of' is unaffected.",
+     "decisions": [
+      {
+       "section": "16:9:3",
+       "surfaceForm": "אורחין ושבילין",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'Paths and lanes'): way / path / track, one each by width, as Cordovero ranks them after Ma'ayan ha-Chokhmah (12:1:7: 'the tracks are narrow and short, the paths more ample, the ways wide; the tracks are like children, the paths like mothers'). דרך and אורח = way; נתיב = path; שביל / שבילין = track; צנור = channel.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "אורחין": {
+     "rendering": "ways"
+    },
+    "אורחא": {
+     "rendering": "the way"
+    },
+    "דרכים": {
+     "rendering": "ways"
+    }
+   },
+   "notes": "Recorded 2026-11-17. Only 16:9:3 needs converting."
   }
  }
 }

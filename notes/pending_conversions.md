@@ -96,6 +96,13 @@ Lexicon entries פרוכת, פרגוד, וילון (new), ירע-יריעה, פ�
 
 The supernal flow from Keter and the Idra's mazal of the beard stay "mazal". The astral sense (stars, signs of the zodiac) is "constellation(s)" in every gate. Gates 6–16 already have it; convert Gate 21's astrological "mazal / mazalot", checking each site for its sense: 21:2:6, 21:2:10, 21:6:2, 21:8:13 (21:8:1 already "constellations"). Also check 13:3:6 and 18:4:1, 18:4:10–11.
 
+## Way / path / track (ruled 17 November 2026)
+
+Lexicon entries שביל-שבילין, נתיב-נתיבות, דרך-אורח. שביל / שבילין = "track" in every gate (was "path" in Gates 4–6 and 8, "lane" in Gates 12, 16, 20, 21); נתיב = "path" (unchanged); דרך and אורח = "way".
+
+- **שבילין / שבילים / שביל → track(s):** 4:1:6 ("thirty-two tracks", ×2), 5:5:13–14, 6:3:5, 8:5:5, 8:5:10, 8:9:1, 12:1:7–8, 16:9:3, 20:2:3, 20:2:5, 20:6:1, 20:6:5, 21:12:3; check every "lane" in the text. Skip בשביל = "because of" (8:6:3, 18:4:4).
+- **אורחין → ways:** 16:9:3 ("ways and tracks of the sea of the Torah").
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
@@ -139,7 +146,7 @@ The supernal flow from Keter and the Idra's mazal of the beard stay "mazal". The
 - ~~**דורשי רשומות**~~ (19:1:4): "the expounders of inscriptions [<em>dorshei reshumot</em>]", to match "masters of inscriptions" for בעלי רשומות. *No ruling needed: consistent (checked 17 November 2026).*
 - ~~**פרוכת**~~ Ruled 17 November 2026: "veil"; see the batch section.
 - ~~**Vowel names**~~ (19:4): kamatz, patach, tzeirei, segol, sheva, cholam, chirik, shurek/shuruk transliterated; נקודה in this sense = "vowel point"; טעמים = "cantillation marks". *No ruling needed: consistent (checked 17 November 2026).*
-- **שבילין / נתיבות** (20:2, 20:6): נתיבות = "paths" (as in the 32 paths); the Zohar's שבילין = "lanes", since Cordovero contrasts them as narrower and subtler.
+- ~~**שבילין / נתיבות**~~ Ruled 17 November 2026: way / path / track; see the batch section. Was: (20:2, 20:6): נתיבות = "paths" (as in the 32 paths); the Zohar's שבילין = "lanes", since Cordovero contrasts them as narrower and subtler.
 - **Unvowelled Names** (19:4:2, 20:1:8–9): the Hebrew edition prints the vowel-pointed forms of YHVH without their points; marked "[the vowels are not reproduced in this text]". Worth checking against a printed edition.
 - ~~**הס / היכל / אדני = 65**~~ (20:1:18): rendered "'hush' [<em>has</em>], the number of <em>heikhal</em>, the number of Adonai [65]", reading ה"ס as הס of Hab. 2:20. *No ruling needed: consistent (checked 17 November 2026).*
 - **הוי** (20:4:1): "Woe!" [<em>hoy</em>], a name of Binah in the withdrawal of Tiferet, pending its Glossary entry.
@@ -147,4 +154,4 @@ The supernal flow from Keter and the Idra's mazal of the beard stay "mazal". The
   - ~~**יריעה**~~ (the diagram scroll): settled 17 November 2026, "the parchment" at 9:2:1 too.
   - **נעלם**: the lexicon has "concealed", but the text has "hidden" in about 30 paragraphs (e.g. 1:1:2, 8:1:4, 8:19:3, 10:3:2, 21:1:5). Idiomatic "hidden from (someone)" (5:2:9) is a separate case.
   - ~~**מזלות**~~ (astral): ruled 17 November 2026, "constellations"; see the batch section.: "constellations" in Gates 6–16 and at 21:8:1, "mazalot" elsewhere in Gate 21. The lexicon entry gives only "mazal" and doesn't separate the astral sense.
-  - **שבילין** (Aramaic): "paths" in Gates 4–6 (4:1:6 "thirty-two paths", 5:5:13–14, 6:3:5) but "lanes" in Gates 12, 16, 20, 21, where Cordovero contrasts שבילין with נתיבות (20:6:1 "Thirty-two lanes").
+  - ~~**שבילין**~~ (Aramaic): ruled 17 November 2026, "track".: "paths" in Gates 4–6 (4:1:6 "thirty-two paths", 5:5:13–14, 6:3:5) but "lanes" in Gates 12, 16, 20, 21, where Cordovero contrasts שבילין with נתיבות (20:6:1 "Thirty-two lanes").
