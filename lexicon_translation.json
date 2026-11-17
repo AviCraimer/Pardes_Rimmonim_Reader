@@ -9426,7 +9426,7 @@
     {
      "target": "concealed",
      "status": "preferred",
-     "contextNotes": "The Aramaic of נעלם; the title טמירא דטמירין = 'the Concealed of the Concealed' (entry עתיק-טמיר). Stock pair טמיר וגניז = 'concealed and stored away' (3:2:1, 15:1:6, 15:5:5, 14:3:2).",
+     "contextNotes": "The Aramaic of נעלם; the title טמירא דטמירין = 'the Concealed of the Concealed' (entry עתיק-טמיר). Stock pair טמיר וגניז = 'concealed and stored away' (3:2:1, 15:1:6, 15:5:5, 14:3:2). The doublet טמיר ונעלם (3:3:9, 4:7:4) = 'wholly concealed' (user, 2026-11-17): an emphatic pair, not two ideas.",
      "decisions": [
       {
        "section": "3:2:1",
@@ -9446,6 +9446,9 @@
     },
     "טמיר וגניז": {
      "rendering": "concealed and stored away"
+    },
+    "טמיר ונעלם": {
+     "rendering": "wholly concealed"
     }
    },
    "notes": "Ruled 2026-11-17. Conversion pending (16:9:3 has \"hidden of the hidden\" for טמירא דטמירין)."
