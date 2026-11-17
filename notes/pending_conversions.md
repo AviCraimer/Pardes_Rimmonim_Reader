@@ -57,7 +57,7 @@ The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 
 
 ## Hebrew letters named as letters: letter names spelled out (ruled 16 November 2026)
 
-Consonant clusters that name letters as letters become hyphenated letter names. Scope details still open (see TRANSLATION_CONVENTIONS.md, house style). Clear sites: AMSh 9:3:2, 9:3:3 (×4), 9:3:4; AMaSh 3:5:4 (×2); "the letters YHV" 3:5:4; "the letters HVH … ADN" 10:5:2. Letter-name spelling and case to be made uniform once ruled.
+Consonant clusters that name letters as letters become hyphenated letter names. Scope details still open (see TRANSLATION_CONVENTIONS.md, house style). Clear sites: AMSh 9:3:2, 9:3:3 (×4), 9:3:4; AMaSh 3:5:4 (×2); "the letters YHV" 3:5:4; "the letters HVH … ADN" 10:5:2. Also (ruled 16 Nov): letter names capitalised in the standard spellings (TRANSLATION_CONVENTIONS.md): lower-case yod/heh/vav/alef/aleph in Gates 1–10 (~370 sites) and the letter "He" in Gates 11–21 (~250) → Heh; enumerations like 15:3:5 take commas. Letter strings get non-breaking spaces (MTzPTz 8:3:3, 8:4:7–9; AHVY 21:3; permutations), Kof = Q, Tet = Ṭ, Ayin = Ā; YHVH open.
 
 # Terminology to rule on
 
