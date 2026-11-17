@@ -128,5 +128,5 @@ One English word per term (lexicon entries רצון, רעותא-רעוא, חפץ
 - **Found 17 November 2026 while clearing the doc table** (rows marked "no ruling needed" on 16 November that turned out not to be consistent):
   - **יריעה** (the diagram scroll): "parchment" at 6:1:4 and 7:2:25, "the Curtain [<em>Yeri'ah</em>]" at 9:2:1.
   - **נעלם**: the lexicon has "concealed", but the text has "hidden" in about 30 paragraphs (e.g. 1:1:2, 8:1:4, 8:19:3, 10:3:2, 21:1:5). Idiomatic "hidden from (someone)" (5:2:9) is a separate case.
-  - **מזלות** (astral): "constellations" in Gates 6–16 and at 21:8:1, "mazalot" elsewhere in Gate 21. The lexicon's "mazal" was ruled for the Idra's mazal (the beard).
+  - **מזלות** (astral): "constellations" in Gates 6–16 and at 21:8:1, "mazalot" elsewhere in Gate 21. The lexicon entry gives only "mazal" and doesn't separate the astral sense.
   - **שבילין** (Aramaic): "paths" in Gates 4–6 (4:1:6 "thirty-two paths", 5:5:13–14, 6:3:5) but "lanes" in Gates 12, 16, 20, 21, where Cordovero contrasts שבילין with נתיבות (20:6:1 "Thirty-two lanes").
