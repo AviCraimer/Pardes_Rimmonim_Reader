@@ -165,7 +165,7 @@ def intro(t, full, partial, hebrew=True):
           "- References are Gate:Chapter:Paragraph."
           + (" Each English paragraph is followed by the Hebrew it translates, as a quotation." if hebrew else ""),
           ""]
-    for key in ("about", "translatorNotes"):
+    for key in ("about", "translatorNotes", "transliteration"):
         if notes.get(key):
             L += [to_md(notes[key]), ""]
     return L
