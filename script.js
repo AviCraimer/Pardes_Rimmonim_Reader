@@ -437,11 +437,11 @@
     function renderToc() {
         const tocPanel = document.getElementById("toc-panel");
         tocPanel.textContent = "";
-        // Front matter (translation.json → indexNotes), before the first gate.
+        // Transliteration conventions (translation.json → indexNotes), before the first gate.
         const intro = document.createElement("div");
         intro.className = "toc-intro";
         intro.tabIndex = 0;
-        intro.textContent = "Introduction";
+        intro.textContent = "Transliteration Conventions";
         intro.onclick = () => openIntro();
         intro.onkeydown = (e) => {
             if (e.key === "Enter" || e.key === " ") {
@@ -564,9 +564,9 @@
         '<p class="disclaimer">The English translation was produced by AI and may contain inaccuracies.</p>' +
         "</footer>";
 
-    // ---- introduction (front matter) ----
-    const INTRO_HASH = "#intro";
-    const INTRO_NOTES = ["about", "translatorNotes", "transliteration"];
+    // ---- transliteration conventions page ----
+    const INTRO_HASH = "#transliteration";
+    const INTRO_NOTES = ["transliteration"];
     function openIntro(opts) {
         const { updateUrl = true } = opts || {};
         if (!DATA) {
@@ -585,7 +585,7 @@
         const sheet = document.getElementById("sheet");
         sheet.innerHTML =
             '<div class="crumb">' + (META.title || "Pardes Rimmonim") + "</div>" +
-            '<h1>Introduction<span class="rule"></span></h1>' +
+            '<h1>Transliteration Conventions<span class="rule"></span></h1>' +
             '<div class="intro-notes">' +
             INTRO_NOTES.filter((k) => notes[k])
                 .map((k) => (/^\s*<p[\s>]/.test(notes[k]) ? notes[k] : "<p>" + notes[k] + "</p>"))

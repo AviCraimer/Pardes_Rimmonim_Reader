@@ -148,7 +148,7 @@ def gate_status(t):
     return full, partial
 
 
-def intro(t, full, partial, hebrew=True):
+def intro(t, full, partial, hebrew=True, anchors=False):
     notes = t.get("indexNotes", {})
     L = [f"# {t['title']} ({t['heTitle']})", ""]
     L += ["*Orchard of Pomegranates*, by Rabbi Moshe Cordovero (the Ramak), Safed, 16th century. "
@@ -165,9 +165,9 @@ def intro(t, full, partial, hebrew=True):
           "- References are Gate:Chapter:Paragraph."
           + (" Each English paragraph is followed by the Hebrew it translates, as a quotation." if hebrew else ""),
           ""]
-    for key in ("about", "translatorNotes", "transliteration"):
-        if notes.get(key):
-            L += [to_md(notes[key]), ""]
+    if notes.get("transliteration"):
+        L += ["## Transliteration Conventions" + (" {#transliteration}" if anchors else ""), "",
+              to_md(notes["transliteration"]), ""]
     return L
 
 
@@ -243,7 +243,7 @@ def build_markdown(t, he, hebrew=True, anchors=False):
     full, partial = gate_status(t)
     done = set(full + partial)
     link = (lambda g, c=None: anchor(g, c) if g in done else None) if anchors else None
-    L = intro(t, full, partial, hebrew) + contents(t, link, attrs=anchors)
+    L = intro(t, full, partial, hebrew, anchors) + contents(t, link, attrs=anchors)
     for g in full + partial:
         L += ["---", ""] + gate_body(t, he, g, hebrew, anchors=anchors)
     return "\n".join(L).rstrip() + "\n"
