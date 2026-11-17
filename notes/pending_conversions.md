@@ -54,21 +54,31 @@ Not yet converted: the English contents in `translation.json` → `gates` (chapt
 
 ## *Atarah*: diadem; the Diadem (ruled 16 November 2026)
 
+**Converted 17 November 2026** (batch merged to main). Open follow-ups are in the terminology doc.
+
 The noun עטרה / עטרת / עטרא becomes "diadem"; Malkhut's title "the Atarah" becomes "the Diadem". The verb עטר / התעטר stays "crown(ed)", and כתר / כתרין as a common noun stays "crown": check each "crown" against the Hebrew. Where noun and verb stand together, gloss both once per passage: "the diadem [<em>atarah</em>] with which his mother crowned [<em>ittrah</em>] him" (1:2:9–11, 8:17:8), also 1:2:11, 8:12:3, 8:17:10, 8:19:1 (forms in the lexicon entry). Paragraphs with the noun: 1:2:9–11, 5:4:4, 6:5:1–2, 8:2:4, 8:2:8, 8:12:3, 8:17:8–10, 8:19:1, 8:24:6, 9:5:6, 9:6:8, 12:4:8, 14:3:7, 16:3:10, 18:1:5, 18:2:3, 18:3:2–3, 18:5:7, 18:6:1, 19:4:4, 20:10:5, 20:13:9, 21:15:7.
 
 ## "Self" only for the Emanator (rule of 7 October, restated 16 November 2026)
+
+**Converted 17 November 2026** (batch merged to main). Open follow-ups are in the terminology doc.
 
 Capital "Self" only where the self is the Emanator's / Ein Sof's own; a Sefirah's or anything else's is lower case, or "the Sefirot themselves" for עצמות הספירות (lexicon entry עצמות-כלים). Known breaches: 19:1:5 "the whole Self of the sefirot" and "the Self of His emanated ones". The text has 326 "Self" in 121 paragraphs; sweep them against the Hebrew in the batch.
 
 ## *Shem ha-etzem*: "the proper name" (ruled 16 November 2026)
 
+**Converted 17 November 2026** (batch merged to main). Open follow-ups are in the terminology doc.
+
 "The name of the self" / "the essential name" become "the proper name", lower case, glossed [<em>shem ha-etzem</em>] at first use in a gate, and at 19:1:5 [<em>shem ha-etzem</em>, literally "the name of the self"] where Cordovero plays on עצם. Sites: 8:5:1 (×3), 19:1:4, 19:1:5 (×5), 19:4:7, 20:1:2, 20:1:8, 20:1:9 (×2), 20:1:16, 20:10:5; the contents of Gates 19 and 20.
 
 ## *Tekhelet*: "blue [tekhelet]" first in a gate, then "blue" (ruled 16 November 2026)
 
+**Converted 17 November 2026** (batch merged to main). Open follow-ups are in the terminology doc.
+
 Gate 10 already reads "blue" (check that its first use is glossed, 10:2:4). Convert 18:6:5, 21:6:1 and 21:10:2 from "tekhelet" to "blue [<em>tekhelet</em>]" at the first use in the gate and "blue" after. Keep the bracketed transliteration wherever the pun on תכלית ("end, purpose") is in play.
 
 ## The volitional words: will, desire, delight, craving, yearning (ruled 16 November 2026; תשוקה changed 17 November)
+
+**Converted 17 November 2026** (batch merged to main). Open follow-ups are in the terminology doc.
 
 One English word per term (lexicon entries רצון, רעותא-רעוא, חפץ, תאוה-תאובתא, תשוקה). Check every "will", "desire", "delight", "wish", "longing" in these paragraphs against the Hebrew.
 
@@ -80,6 +90,8 @@ One English word per term (lexicon entries רצון, רעותא-רעוא, חפץ
 
 ## The dividing and covering words (ruled 17 November 2026)
 
+**Converted 17 November 2026** (batch merged to main). Open follow-ups are in the terminology doc.
+
 Lexicon entries פרוכת, פרגוד, וילון (new), ירע-יריעה, פרסא, מסך-מסך.
 
 - **פרוכת** = "veil" (was "veil", "partition-curtain [<em>parokhet</em>]", "partition", or <em>parokhet</em>). Beside מסך: "a veil and a screen"; פרכת המסך = "the veil of the screen" (16:6:2). Sites: 1:7:2, 5:4:4, 16:5:6, 16:6:2, 19:3:2.
@@ -90,13 +102,19 @@ Lexicon entries פרוכת, פרגוד, וילון (new), ירע-יריעה, פ�
 
 ## *Selichah / mechilah*: forgiveness / pardon (ruled 17 November 2026)
 
+**Converted 17 November 2026** (batch merged to main). Open follow-ups are in the terminology doc.
+
 לשון הסליחה = "the tongue of forgiveness" (was "the tongue of pardon"): 11:1:5, 11:2:4 (×3). Align the strays: סליחה as "pardon" at 8:1:5 and 8:15:4 becomes "forgiveness"; מחילה as "forgiveness" at 1:9:3 becomes "pardon".
 
 ## *Mazal*: two senses (ruled 17 November 2026)
 
+**Converted 17 November 2026** (batch merged to main). Open follow-ups are in the terminology doc.
+
 The supernal flow from Keter and the Idra's mazal of the beard stay "mazal". The astral sense (stars, signs of the zodiac) is "constellation(s)" in every gate. Gates 6–16 already have it; convert Gate 21's astrological "mazal / mazalot", checking each site for its sense: 21:2:6, 21:2:10, 21:6:2, 21:8:13 (21:8:1 already "constellations"). Also check 13:3:6 and 18:4:1, 18:4:10–11.
 
 ## Way / path / track (ruled 17 November 2026)
+
+**Converted 17 November 2026** (batch merged to main). Open follow-ups are in the terminology doc.
 
 Lexicon entries שביל-שבילין, נתיב-נתיבות, דרך-אורח. שביל / שבילין = "track" in every gate (was "path" in Gates 4–6 and 8, "lane" in Gates 12, 16, 20, 21); נתיב = "path" (unchanged); דרך and אורח = "way".
 
@@ -104,6 +122,8 @@ Lexicon entries שביל-שבילין, נתיב-נתיבות, דרך-אורח. �
 - **אורחין → ways:** 16:9:3 ("ways and tracks of the sea of the Torah").
 
 ## Hidden / concealed / closed / stored away / secret (ruled 17 November 2026)
+
+**Converted 17 November 2026** (batch merged to main). Open follow-ups are in the terminology doc.
 
 Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, גנוז-גניז, סוד-רזא, כמוס-צפון. נעלם / העלם = concealed / concealment; נסתר / הסתר = hidden / hiding; סתום / סתים = closed; טמיר = concealed; גנוז / אתגניז = stored away; סוד / רזא = secret (already consistent); כמוס / צפון = treasured. Check every "hidden", "concealed", "closed", "stored" against the Hebrew in these paragraphs; leave idiomatic "hidden from (someone)" (5:2:9).
 
