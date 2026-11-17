@@ -8621,12 +8621,18 @@
     {
      "target": "diadem; the Diadem (as a title of Malkhut)",
      "status": "preferred",
-     "contextNotes": "The noun עטרה / עטרת / עטרא = 'diadem' everywhere, including Prov. 12:4 'a woman of valor is the diadem of her husband' and Song 3:11 'the diadem with which his mother crowned him'. As a title of Malkhut, 'the Diadem' (18:6:1, 6:5:1–2, 8:2:4, 18:1:5; formerly 'the Atarah'). עטרת תפארת = 'the diadem of Tiferet' / 'a diadem of glory' by context. The corona of Yesod (ראש צדיק, 8:24:6, 9:5:6, 21:15:7) is the same word: 'diadem', explained in the reader's note. The verb עטר / התעטר / אתעטר stays 'crown, be crowned'. כתר as a common noun (כתרין, כתר מלכות) stays 'crown'; Keter the Sefirah stays transliterated.",
+     "contextNotes": "The noun עטרה / עטרת / עטרא = 'diadem' everywhere, including Prov. 12:4 'a woman of valor is the diadem of her husband' and Song 3:11 'the diadem with which his mother crowned him'. As a title of Malkhut, 'the Diadem' (18:6:1, 6:5:1–2, 8:2:4, 18:1:5; formerly 'the Atarah'). עטרת תפארת = 'the diadem of Tiferet' / 'a diadem of glory' by context. The corona of Yesod (ראש צדיק, 8:24:6, 9:5:6, 21:15:7) is the same word: 'diadem', explained in the reader's note. The verb עטר / התעטר / אתעטר stays 'crown, be crowned'. כתר as a common noun (כתרין, כתר מלכות) stays 'crown'; Keter the Sefirah stays transliterated. Where the noun and the verb stand together, gloss both, once per passage, as with teva / hitbi'a: 'the diadem [atarah] with which his mother crowned [ittrah] him' (Song 3:11: 1:2:9–11, 8:17:8); 'crowned [mit'atter] with His diadems [itrohi]' (8:19:1); 'crowned [mit'atra] with one diadem [itra]' (8:17:10); 'was crowned [it'atru] as a diadem [atarah]' (8:12:3); 'the Mother who crowns [me'ateret] the firmament with the diadem' (1:2:11).",
      "decisions": [
       {
        "section": "18:6:1",
        "surfaceForm": "העטרת",
        "rationale": "User ruling, 2026-11-16 (terminology doc): 'crown' is too strongly tied to Keter in Kabbalistic English to serve a different word; 'diadem' keeps עטרה apart. The reader's note must include the corona sense (Malkhut as the Atarah of Yesod).",
+       "timestamp": "2026-11-16"
+      },
+      {
+       "section": "1:2:9",
+       "surfaceForm": "בעטרה שעטרה לו אמו",
+       "rationale": "User ruling, 2026-11-16: 'diadem' breaks the link with the verb; where both stand together, gloss both with the transliteration, once per passage.",
        "timestamp": "2026-11-16"
       }
      ]
