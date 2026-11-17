@@ -8611,6 +8611,63 @@
     }
    },
    "notes": "Ruled 2026-11-16. The translation already follows it (9:3:2, 9:3:4)."
+  },
+  "עטרה": {
+   "headword": "עֲטָרָה / עֲטֶרֶת (Aram. עִטְרָא)",
+   "transliteration": "atarah / ateret (Aram. itra)",
+   "partOfSpeech": "noun",
+   "rendering": "diadem; the Diadem (Malkhut)",
+   "candidates": [
+    {
+     "target": "diadem; the Diadem (as a title of Malkhut)",
+     "status": "preferred",
+     "contextNotes": "The noun עטרה / עטרת / עטרא = 'diadem' everywhere, including Prov. 12:4 'a woman of valor is the diadem of her husband' and Song 3:11 'the diadem with which his mother crowned him'. As a title of Malkhut, 'the Diadem' (18:6:1, 6:5:1–2, 8:2:4, 18:1:5; formerly 'the Atarah'). עטרת תפארת = 'the diadem of Tiferet' / 'a diadem of glory' by context. The corona of Yesod (ראש צדיק, 8:24:6, 9:5:6, 21:15:7) is the same word: 'diadem', explained in the reader's note. The verb עטר / התעטר / אתעטר stays 'crown, be crowned'. כתר as a common noun (כתרין, כתר מלכות) stays 'crown'; Keter the Sefirah stays transliterated.",
+     "decisions": [
+      {
+       "section": "18:6:1",
+       "surfaceForm": "העטרת",
+       "rationale": "User ruling, 2026-11-16 (terminology doc): 'crown' is too strongly tied to Keter in Kabbalistic English to serve a different word; 'diadem' keeps עטרה apart. The reader's note must include the corona sense (Malkhut as the Atarah of Yesod).",
+       "timestamp": "2026-11-16"
+      }
+     ]
+    },
+    {
+     "target": "crown",
+     "status": "rejected",
+     "contextNotes": "The rendering in most translated sites so far; collides in readers' minds with Keter.",
+     "decisions": []
+    },
+    {
+     "target": "the Atarah (transliterated)",
+     "status": "rejected",
+     "contextNotes": "18:6:1, 6:5:1–2, 8:2:4, 18:1:5 as first translated.",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "עטרה": {
+     "rendering": "diadem"
+    },
+    "העטרה": {
+     "rendering": "the Diadem"
+    },
+    "עטרת": {
+     "rendering": "the diadem of"
+    },
+    "העטרת": {
+     "rendering": "the Diadem"
+    },
+    "עטרות": {
+     "rendering": "diadems"
+    },
+    "עטרא": {
+     "rendering": "diadem"
+    },
+    "בעטרה": {
+     "rendering": "with the diadem"
+    }
+   },
+   "notes": "Ruled 2026-11-16; text not yet converted (see notes/pending_conversions.md). Check each 'crown' against the Hebrew: in the same passages 'crown(s)' also renders כתר / כתרין, which stay."
   }
  }
 }

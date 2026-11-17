@@ -59,6 +59,10 @@ The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 
 
 Consonant clusters that name letters as letters become hyphenated letter names. Scope details still open (see TRANSLATION_CONVENTIONS.md, house style). Clear sites: AMSh 9:3:2, 9:3:3 (×4), 9:3:4; AMaSh 3:5:4 (×2); "the letters YHV" 3:5:4; "the letters HVH … ADN" 10:5:2. Also (ruled 16 Nov): letter names capitalised in the standard spellings (TRANSLATION_CONVENTIONS.md): lower-case yod/heh/vav/alef/aleph in Gates 1–10 (~370 sites) and the letter "He" in Gates 11–21 (~250) → Heh; enumerations like 15:3:5 take commas. Letter strings get non-breaking spaces (MTzPTz 8:3:3, 8:4:7–9; AHVY 21:3; permutations), Kof = Q, Tet = Ṭ, Ayin = Ā; YHVH open.
 
+## *Atarah*: diadem; the Diadem (ruled 16 November 2026)
+
+The noun עטרה / עטרת / עטרא becomes "diadem"; Malkhut's title "the Atarah" becomes "the Diadem". The verb עטר / התעטר stays "crown(ed)", and כתר / כתרין as a common noun stays "crown": check each "crown" against the Hebrew. Paragraphs with the noun: 1:2:9–11, 5:4:4, 6:5:1–2, 8:2:4, 8:2:8, 8:12:3, 8:17:8–10, 8:19:1, 8:24:6, 9:5:6, 9:6:8, 12:4:8, 14:3:7, 16:3:10, 18:1:5, 18:2:3, 18:3:2–3, 18:5:7, 18:6:1, 19:4:4, 20:10:5, 20:13:9, 21:15:7.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
