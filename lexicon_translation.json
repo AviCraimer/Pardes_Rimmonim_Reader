@@ -6910,10 +6910,10 @@
      "rendering": "was completed"
     },
     "אתגניז": {
-     "rendering": "was hidden away"
+     "rendering": "was stored away"
     },
     "גנוז": {
-     "rendering": "hidden; stored up"
+     "rendering": "stored away"
     },
     "רחישו": {
      "rendering": "swarming"
@@ -7477,6 +7477,12 @@
        "surfaceForm": "נעלם",
        "rationale": "Pinned in the Gate 2 review; reader forms registered for study.",
        "timestamp": "2026-10-07"
+      },
+      {
+       "section": "12:3:17",
+       "surfaceForm": "נעלם",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'Hidden and concealed'): נעלם / העלם = concealed / concealment; נסתר / הסתר = hidden / hiding; סתום / סתים (Aram.) = closed; טמיר (Aram.) = concealed, as the Aramaic of נעלם (Cordovero paraphrases טמיר וגניז as גנוז ונעלם, 3:2:1 / 3:2:4); גנוז / אתגניז = stored away; סוד / רזא = secret; כמוס / צפון = treasured. Cordovero's own distinction (12:3:17): נסתר is what is sometimes revealed, נעלם what is never revealed. Enforce: about 30 paragraphs had \"hidden\" for נעלם.",
+       "timestamp": "2026-11-17"
       }
      ]
     }
@@ -7516,7 +7522,7 @@
      "rendering": "its revealing"
     }
    },
-   "notes": "נעלם = concealed (not 'hidden'); מתגלה = revealed; העלם האלקות = 'a concealment of the divinity'. | 2026-11-10: ONE EXCEPTION to מתגלה = 'revealed'. 5:5:9 גילוי מתגלה doubles the root; rendered 'the first [of Chokhmah] is revealed in Keter: yet not a revelation that is evident, but only [in that] its manifestation is there' (user's wording, bracket adjusted). The sense is a qualification, not a paradox: Chokhmah has come out as far as Keter but does not yet show there; the next stage is 'revealed and seen'. גילוי itself is 'revelation' throughout: emanation is revelation by degrees."
+   "notes": "נעלם = concealed (not 'hidden'); מתגלה = revealed; העלם האלקות = 'a concealment of the divinity'. | 2026-11-10: ONE EXCEPTION to מתגלה = 'revealed'. 5:5:9 גילוי מתגלה doubles the root; rendered 'the first [of Chokhmah] is revealed in Keter: yet not a revelation that is evident, but only [in that] its manifestation is there' (user's wording, bracket adjusted). The sense is a qualification, not a paradox: Chokhmah has come out as far as Keter but does not yet show there; the next stage is 'revealed and seen'. גילוי itself is 'revelation' throughout: emanation is revelation by degrees. 2026-11-17: ruling enforced across the cluster; conversion pending (notes/pending_conversions.md)."
   },
   "משך-נמשך": {
    "headword": "נִמְשָׁךְ",
@@ -9326,6 +9332,231 @@
     }
    },
    "notes": "Recorded 2026-11-17. Only 16:9:3 needs converting."
+  },
+  "נסתר-הסתר": {
+   "headword": "נִסְתָּר / הֶסְתֵּר",
+   "transliteration": "nistar / hester",
+   "partOfSpeech": "adjective; noun",
+   "rendering": "hidden",
+   "candidates": [
+    {
+     "target": "hidden; hiding",
+     "status": "preferred",
+     "contextNotes": "What is hidden but can be uncovered (12:3:17, Path 7 'the hidden intellect'). Deut. 29:28 'the hidden things'; הסתר פנים = 'the hiding of the face'.",
+     "decisions": [
+      {
+       "section": "12:3:17",
+       "surfaceForm": "נסתר",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'Hidden and concealed'): נעלם / העלם = concealed / concealment; נסתר / הסתר = hidden / hiding; סתום / סתים (Aram.) = closed; טמיר (Aram.) = concealed, as the Aramaic of נעלם (Cordovero paraphrases טמיר וגניז as גנוז ונעלם, 3:2:1 / 3:2:4); גנוז / אתגניז = stored away; סוד / רזא = secret; כמוס / צפון = treasured. Cordovero's own distinction (12:3:17): נסתר is what is sometimes revealed, נעלם what is never revealed.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "נסתר": {
+     "rendering": "hidden"
+    },
+    "הנסתר": {
+     "rendering": "the hidden"
+    },
+    "נסתרים": {
+     "rendering": "hidden"
+    },
+    "נסתרת": {
+     "rendering": "hidden"
+    },
+    "הנסתרות": {
+     "rendering": "the hidden things"
+    },
+    "הסתר": {
+     "rendering": "hiding"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Conversion pending."
+  },
+  "סתום-סתים": {
+   "headword": "סָתוּם / סְתִים (Aram.)",
+   "transliteration": "satum / setim",
+   "partOfSpeech": "adjective",
+   "rendering": "closed",
+   "candidates": [
+    {
+     "target": "closed",
+     "status": "preferred",
+     "contextNotes": "Shut, with no opening (Dan. 12:9 סתומים וחתומים 'closed and sealed'). Zohar סתים וגליא = 'closed and revealed'; עתיקא סתימאה = 'the closed Ancient One'; Keter's 'hard, closed membrane' (4:1:6); 'when the tracks are closed' (20:2:5). Not 'sealed' (חתום).",
+     "decisions": [
+      {
+       "section": "20:2:5",
+       "surfaceForm": "שבילין סתימין",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'Hidden and concealed'): נעלם / העלם = concealed / concealment; נסתר / הסתר = hidden / hiding; סתום / סתים (Aram.) = closed; טמיר (Aram.) = concealed, as the Aramaic of נעלם (Cordovero paraphrases טמיר וגניז as גנוז ונעלם, 3:2:1 / 3:2:4); גנוז / אתגניז = stored away; סוד / רזא = secret; כמוס / צפון = treasured. Cordovero's own distinction (12:3:17): נסתר is what is sometimes revealed, נעלם what is never revealed.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "סתים": {
+     "rendering": "closed"
+    },
+    "סתימין": {
+     "rendering": "closed"
+    },
+    "סתימאה": {
+     "rendering": "closed"
+    },
+    "סתום": {
+     "rendering": "closed"
+    },
+    "סתומים": {
+     "rendering": "closed"
+    },
+    "וסתומים": {
+     "rendering": "and closed"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Conversion pending."
+  },
+  "טמיר": {
+   "headword": "טְמִיר (Aram.)",
+   "transliteration": "temir",
+   "partOfSpeech": "adjective",
+   "rendering": "concealed",
+   "candidates": [
+    {
+     "target": "concealed",
+     "status": "preferred",
+     "contextNotes": "The Aramaic of נעלם; the title טמירא דטמירין = 'the Concealed of the Concealed' (entry עתיק-טמיר). Stock pair טמיר וגניז = 'concealed and stored away' (3:2:1, 15:1:6, 15:5:5, 14:3:2).",
+     "decisions": [
+      {
+       "section": "3:2:1",
+       "surfaceForm": "טמיר וגניז",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'Hidden and concealed'): נעלם / העלם = concealed / concealment; נסתר / הסתר = hidden / hiding; סתום / סתים (Aram.) = closed; טמיר (Aram.) = concealed, as the Aramaic of נעלם (Cordovero paraphrases טמיר וגניז as גנוז ונעלם, 3:2:1 / 3:2:4); גנוז / אתגניז = stored away; סוד / רזא = secret; כמוס / צפון = treasured. Cordovero's own distinction (12:3:17): נסתר is what is sometimes revealed, נעלם what is never revealed.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "טמיר": {
+     "rendering": "concealed"
+    },
+    "טמירין": {
+     "rendering": "concealed"
+    },
+    "טמיר וגניז": {
+     "rendering": "concealed and stored away"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Conversion pending (16:9:3 has \"hidden of the hidden\" for טמירא דטמירין)."
+  },
+  "גנוז-גניז": {
+   "headword": "גָּנוּז / נִגְנַז / אִתְגְּנִיז (Aram.)",
+   "transliteration": "ganuz / nignaz / itgeniz",
+   "partOfSpeech": "adjective; verb",
+   "rendering": "stored away",
+   "candidates": [
+    {
+     "target": "stored away",
+     "status": "preferred",
+     "contextNotes": "Put away for safekeeping, as in a genizah: the first light 'stored away for the righteous in the time to come' (Hagigah 12a; 9:5:6, 12:3:10). Rav Hai's שלש גנוזות ראשי ראשים (1:7:2, 8:13:2, 11:1:5, 11:2:2): 'the three stored-away ones', to be confirmed by Avi when converting.",
+     "decisions": [
+      {
+       "section": "9:5:6",
+       "surfaceForm": "אור הגנוז",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'Hidden and concealed'): נעלם / העלם = concealed / concealment; נסתר / הסתר = hidden / hiding; סתום / סתים (Aram.) = closed; טמיר (Aram.) = concealed, as the Aramaic of נעלם (Cordovero paraphrases טמיר וגניז as גנוז ונעלם, 3:2:1 / 3:2:4); גנוז / אתגניז = stored away; סוד / רזא = secret; כמוס / צפון = treasured. Cordovero's own distinction (12:3:17): נסתר is what is sometimes revealed, נעלם what is never revealed.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "גנוז": {
+     "rendering": "stored away"
+    },
+    "הגנוז": {
+     "rendering": "the stored-away"
+    },
+    "גנוזות": {
+     "rendering": "stored-away ones"
+    },
+    "נגנז": {
+     "rendering": "was stored away"
+    },
+    "אתגניז": {
+     "rendering": "was stored away"
+    },
+    "וגניז": {
+     "rendering": "and stored away"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Conversion pending."
+  },
+  "סוד-רזא": {
+   "headword": "סוֹד / רָזָא (Aram.)",
+   "transliteration": "sod / raza",
+   "partOfSpeech": "noun",
+   "rendering": "secret",
+   "candidates": [
+    {
+     "target": "secret",
+     "status": "preferred",
+     "contextNotes": "Both, as a Hebrew/Aramaic pair; בסוד = 'in the secret of'. Already consistent.",
+     "decisions": [
+      {
+       "section": "Amos 3:7",
+       "surfaceForm": "סוד",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'Hidden and concealed'): נעלם / העלם = concealed / concealment; נסתר / הסתר = hidden / hiding; סתום / סתים (Aram.) = closed; טמיר (Aram.) = concealed, as the Aramaic of נעלם (Cordovero paraphrases טמיר וגניז as גנוז ונעלם, 3:2:1 / 3:2:4); גנוז / אתגניז = stored away; סוד / רזא = secret; כמוס / צפון = treasured. Cordovero's own distinction (12:3:17): נסתר is what is sometimes revealed, נעלם what is never revealed.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    },
+    {
+     "target": "mystery (for רזא)",
+     "status": "rejected",
+     "contextNotes": "Considered 17 Nov; not taken.",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "סוד": {
+     "rendering": "secret"
+    },
+    "בסוד": {
+     "rendering": "in the secret of"
+    },
+    "רזא": {
+     "rendering": "secret"
+    }
+   },
+   "notes": "Recorded 2026-11-17 (already consistent)."
+  },
+  "כמוס-צפון": {
+   "headword": "כָּמוּס / צָפוּן",
+   "transliteration": "kamus / tzafun",
+   "partOfSpeech": "adjective",
+   "rendering": "treasured",
+   "candidates": [
+    {
+     "target": "treasured",
+     "status": "preferred",
+     "contextNotes": "Laid up for safekeeping (Deut. 32:34; Ps. 31:20). צפון is mostly 'north' in this text: check the sense.",
+     "decisions": [
+      {
+       "section": "Ps. 31:20",
+       "surfaceForm": "צפון",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'Hidden and concealed'): נעלם / העלם = concealed / concealment; נסתר / הסתר = hidden / hiding; סתום / סתים (Aram.) = closed; טמיר (Aram.) = concealed, as the Aramaic of נעלם (Cordovero paraphrases טמיר וגניז as גנוז ונעלם, 3:2:1 / 3:2:4); גנוז / אתגניז = stored away; סוד / רזא = secret; כמוס / צפון = treasured. Cordovero's own distinction (12:3:17): נסתר is what is sometimes revealed, נעלם what is never revealed.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "כמוס": {
+     "rendering": "treasured"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Few sites."
   }
  }
 }
