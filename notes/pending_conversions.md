@@ -48,7 +48,7 @@ The rendering of *or kadmon, or tzach, or metzuchtzach* in 2:1:13, 3:2:5, 3:8:9 
 
 Done on branch `conventions-2026-11-16` (for review): letter names capitalised in the standard spellings throughout Gates 1–21 (lower-case yod/heh/vav/alef and the rest in Gates 1–10; the letter "He" → Heh, "Hes" → Hehs, "Pe" → Peh in Gates 11–21); groups hyphenated and enumerations given commas (14:2:3, 15:3:5); the clusters AMSh (9:3), AMaSh and "the letters YHV" (3:5:4), "HVH … ADN" (10:5:2) given as letter names; letter strings (MTzPTz and the 8:3:3 ciphers, AHVY, ADNY, the permutations of the Name, etc.) spaced with non-breaking spaces under the letter-string key. Transliterated phrases (*raka yod*, *cheil yod*, *leil heh*, *shalem heh*, *shin millah*) left as they are.
 
-Still open: whether YHVH itself is spaced (it is left as "YHVH" everywhere).
+YHVH (ruled 16 Nov): stays "YHVH" except where set beside its permutations, where it is spaced (3:3:5, 4:9:3, 8:13:8–9, 10:5:2; done on this branch).
 
 Not yet converted: the English contents in `translation.json` → `gates` (chapter lines), e.g. "when [yod and] heh join" (Gate 8), "one <em>heh</em> for judgment" (Gate 20), "chirik with a yod" (Gate 21), the name AHVY (Gate 21), "<em>resh-yod-vav</em>", "<em>resh-lamed-aleph</em>".
 
