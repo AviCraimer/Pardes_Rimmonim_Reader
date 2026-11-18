@@ -260,3 +260,4 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
 - 31:2:1: the Hebrew has פרגודא; rendered 'heavenly curtain' per lexicon. 31:2:1 / 31:2:6 'Rabbi Eliezer' vs. 'Rabbi Eleazar' (ר' אליעזר / ר' אלעזר) both as printed. 31:2:6 'Yedumiel' (ידומיע"ם; Zohar editions read Yahadriel/Yedumiel) kept as printed form.
 - 31:3:8: the four husks עון משחית אף וחמה rendered Iniquity [Avon], Destroyer [Mashchit], Anger [Af], Wrath [Cheimah] (Af/Cheimah follow Gate 26); no ruling for the first two.
 - 31:4:1–8: צלם = image (no ruling; the gate-contents line already uses 'image'). 31:4:7 'ומעשים בכל יום כו'' is an abbreviated phrase; rendered 'and the deeds of every day [bear it out], etc.'
+- 31:5:1 חלוקא דרבנן rendered 'the robe of the Rabbis [chaluka de-rabbanan]' (unruled). 31:5:3: the bracket '[ותצא מכח אל הפועל ע' בעס"ר)' is unbalanced in the Hebrew; rendered as one bracketed Asis Rimmonim note. 31:5:10 Asis Rimmonim note kept in parentheses.
