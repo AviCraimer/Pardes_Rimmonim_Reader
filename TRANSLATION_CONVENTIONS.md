@@ -68,6 +68,13 @@ Every entry of Gate 23 begins a paragraph and carries three markers. The site's 
 
 - **`gl-entry-title`**: a `<span>` around the whole title, at the very start of the paragraph. The title itself stays in `<b>`; a title in more than one bold run keeps its runs inside the one span (`<span class="gl-entry-title"><b>Behind</b> and <b>back parts</b></span>`).
 - **`gl-entry-he`**: on the Hebrew span of the bracket that follows the title (the first one, if the bracket has several).
-- **`gl-entry-tl`**: on the `<em>` of the transliteration in that bracket, when there is one (111 entries have none).
+- **`gl-entry-tl`**: on the `<em>` of the transliteration in that bracket. Every entry has one (user, 2026-11-18: the Hebrew and the transliteration both, always).
 - **Continuation paragraphs** of an entry carry no markers; the entry runs until the next paragraph that opens with `gl-entry-title`.
 - **Nowhere else:** the classes have no styling and are used only in Gate 23. Keep them when revising an entry, and add all three when adding one.
+
+## Rulings of 18 November 2026
+
+- **Italics for transliterations** (user): transliterated Hebrew and Aramaic words are italic (*tikkun*, *havayah*, *nefesh*). Not italic: names of the Sefirot and other proper names, spelled-out letter names (Alef, Heh), and letter strings (YHVH, M Tz P Tz). One sweep at the next batch.
+- **"Sefirot", "Sefirah"** (user): lower-case, *sefirot* / *sefirah*, as a common noun; no rationale for the capital had been recorded. The names of the individual sefirot stay capitalised (Keter, Chokhmah …), as do fixed titles that contain the word only where they are names. One sweep at the next batch (about 2,000 sites).
+- **Bare ר' משה** (user): give the full name, with the surname in brackets where the text lacks it, so that he is not confused with Cordovero (also Moses): "Rabbi Moshe [de León]". ר' משה דליאון stays "Rabbi Moshe de León". Sites in Gates 9, 20, 23–28 at the next batch; check each against the context, since a bare ר' משה could in principle be another Moses (Nachmanides is always רמב"ן).
+- **נשמה for the whole and for the part** (user): keep "soul" for both; the doubling belongs to the Kabbalistic discourse itself and is not to be translated away.
