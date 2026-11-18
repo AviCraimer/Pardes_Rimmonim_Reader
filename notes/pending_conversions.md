@@ -216,3 +216,12 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
   - **דגל מחנה / החונים עליו** (21:16:4, after Num. 2): "the standard of the camp of … / those encamped by it".
   - **בעלי הקצות / בעלי המצוע** (21:16:7): "the extremes / the intermediates".
   - Textual: 21:16:3 reads <span dir="rtl" lang="he">וקשר לו קשר</span> for Yod (read as כתר, marked); 21:16:3 and 21:16:8 promise figures that the edition does not print; 21:16:10 <span dir="rtl" lang="he">בפרק דה"ו</span> read as chapters 4, 5 and 6 of Gate 16 (all three discuss Metatron).
+- **Gate 22** (translated 17 November 2026):
+  - **רשימו** (22:4:4–5, Zohar Yitro Tosefta): "inscription [<em>reshimu</em>]", to keep the root with רשימה "inscription".
+  - **סוחרת / דר** (Sefer ha-Bahir, Esther 1:6): transliterated, <em>socheret</em> and <em>dar</em>; סחורה "merchandise [<em>sechorah</em>]", with Cordovero's סחור "around".
+  - **ראיית ההתבודדות** (22:1:4): "the seeing of seclusion [<em>hitbodedut</em>]".
+  - **היכל** in the Tabernacle list (22:2:3): "the inner palace", keeping "palace" for היכל.
+  - **עולם הבא / לעתיד לבא** (22:4:4): "the world to come" / "the time to come", as Cordovero distinguishes them.
+  - **עקרת הבית** (22:4:10, Rachel): "the mainstay of the house".
+  - **Capitalisation of "Sefirot"**: the lexicon has "Sefirot", Gates 18–21 mostly "sefirot". Gate 22 follows the lexicon. A house-style ruling is needed.
+  - Textual: citations corrected in the English where the edition's references are wrong: "Blessed be the glory" (Ezek. 3:12, edition "Ezek. 1"); "loving-kindness to Abraham" and "truth to Jacob" (Micah 7:20, edition "Micah 6"). Also: 22:3:5 <span dir="rtl" lang="he">בפרק ג"ד</span> read as chapters 3 and 4 of Gate 16; 22:4:8 "(see Pelach)" taken as Pelach ha-Rimmon, a later editorial note.
