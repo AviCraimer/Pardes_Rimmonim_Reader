@@ -308,21 +308,61 @@ details.untranslated summary .gate-title,
     color: var(--pom);
 }
 .gloss-card {
+    border-bottom: 1px solid #e3d6b8;
+    margin: 0 -0.6rem;
+}
+.gloss-card-head {
     position: relative;
     display: block;
+    width: 100%;
     padding: 0.85rem 2.8rem 0.85rem 0.6rem;
-    margin: 0 -0.6rem;
-    border-bottom: 1px solid #e3d6b8;
+    border: 0;
     border-radius: 4px;
+    background: none;
+    font: inherit;
+    text-align: left;
     color: var(--ink);
-    text-decoration: none;
+    cursor: pointer;
 }
-.gloss-card:hover,
-.gloss-card:focus-visible {
+.gloss-card-head:hover,
+.gloss-card-head:focus-visible {
     background: #eadfc4;
 }
-.gloss-card:active {
+.gloss-card-head:active {
     background: #e2d3b0;
+}
+.gloss-card.open {
+    background: #f8f1e0;
+    border-radius: 4px;
+    box-shadow: inset 2px 0 0 var(--gold);
+}
+.gloss-card.open .gloss-card-head .gloss-snip {
+    display: none;
+}
+.gloss-card.open .gloss-chevron {
+    transform: translateY(-50%) rotate(90deg);
+}
+.gloss-body {
+    padding: 0.2rem 1rem 1.1rem 0.6rem;
+    line-height: 1.7;
+}
+.gloss-para {
+    margin: 0 0 0.8rem;
+}
+.gloss-para mark,
+.gloss-snip mark {
+    background: #f0d58a;
+    color: inherit;
+    border-radius: 2px;
+    padding: 0 1px;
+}
+.gloss-para img {
+    max-width: 100%;
+    height: auto;
+}
+.gloss-more {
+    font-size: 0.9rem;
+    color: var(--pom);
 }
 .gloss-head {
     display: flex;
@@ -345,6 +385,7 @@ details.untranslated summary .gate-title,
     color: var(--ink-soft);
 }
 .gloss-snip {
+    display: block;
     margin: 0.35rem 0 0;
     font-size: 0.95rem;
     line-height: 1.5;
@@ -353,12 +394,6 @@ details.untranslated summary .gate-title,
 .gloss-snip[dir="rtl"] {
     font-family: "SBL Hebrew", "Frank Ruehl CLM", "Noto Serif Hebrew", serif;
     font-size: 1.05rem;
-}
-.gloss-snip mark {
-    background: #f0d58a;
-    color: inherit;
-    border-radius: 2px;
-    padding: 0 1px;
 }
 .gloss-ref {
     display: inline-block;
@@ -375,6 +410,7 @@ details.untranslated summary .gate-title,
     height: 26px;
     transform: translateY(-50%);
     color: var(--pom);
+    transition: transform 0.15s;
 }
 .gloss-none {
     margin: 1.6rem 0;

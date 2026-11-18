@@ -1520,7 +1520,7 @@
     }
     // An excerpt of about 170 characters around a match, the terms marked.
     function excerpt(s, at, terms, rtl) {
-        const node = el("p", "gloss-snip", "");
+        const node = el("span", "gloss-snip", "");
         if (rtl) {
             node.dir = "rtl";
             node.lang = "he";
@@ -1554,7 +1554,7 @@
     }
     function openingLine(e) {
         const t = e.opening.length > 170 ? e.opening.slice(0, 170).replace(/\s+\S*$/, "") + " …" : e.opening;
-        return el("p", "gloss-snip", t);
+        return el("span", "gloss-snip", t);
     }
 
     function glossResults() {
@@ -1589,6 +1589,81 @@
             rows.sort((x, y) => x.e.sortKey.localeCompare(y.e.sortKey) || x.e.order - y.e.order);
         }
         return { rows, terms };
+    }
+
+    // ---- an entry opened in place ----
+    let glossOpenRef = null; // the entry open on the page (its reference)
+    function markTerms(root, terms) {
+        if (!terms.length) return;
+        const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+        const nodes = [];
+        while (walker.nextNode()) nodes.push(walker.currentNode);
+        for (const node of nodes) {
+            const s = searchable(node.nodeValue);
+            const marks = [];
+            for (const t of terms) {
+                let i = s.norm.indexOf(t);
+                while (i >= 0) {
+                    marks.push([s.map[i], s.map[i + t.length - 1] + 1]);
+                    i = s.norm.indexOf(t, i + t.length);
+                }
+            }
+            if (!marks.length) continue;
+            marks.sort((a, b) => a[0] - b[0]);
+            const frag = document.createDocumentFragment();
+            let pos = 0;
+            for (const [x, y] of marks) {
+                if (x < pos) continue;
+                frag.appendChild(document.createTextNode(node.nodeValue.slice(pos, x)));
+                frag.appendChild(el("mark", "", node.nodeValue.slice(x, y)));
+                pos = y;
+            }
+            frag.appendChild(document.createTextNode(node.nodeValue.slice(pos)));
+            node.parentNode.replaceChild(frag, node);
+        }
+    }
+    function closeGlossEntries() {
+        document.querySelectorAll("#gloss-results .gloss-card.open").forEach((c) => {
+            c.classList.remove("open");
+            c.querySelector(".gloss-card-head").setAttribute("aria-expanded", "false");
+            const body = c.querySelector(".gloss-body");
+            if (body) body.remove();
+        });
+        glossOpenRef = null;
+    }
+    function openGlossEntry(card, e, ref, terms, scroll) {
+        closeGlossEntries();
+        glossOpenRef = ref;
+        card.classList.add("open");
+        card.querySelector(".gloss-card-head").setAttribute("aria-expanded", "true");
+        const body = el("div", "gloss-body", "");
+        const paras = DATA.text[GLOSSARY_GATE][e.c];
+        e.paras.forEach((p) => {
+            const para = el("div", "gloss-para", "");
+            para.innerHTML = paras[p];
+            body.appendChild(para);
+        });
+        markTerms(body, terms);
+        const more = el("a", "gloss-more", "Read it in " + sectionName(0) + " " + (GLOSSARY_GATE + 1) + " →");
+        more.href = "#" + ref;
+        body.appendChild(more);
+        card.appendChild(body);
+        if (scroll) {
+            // Bring the title to just under the pinned bar.
+            const main = document.querySelector("main");
+            // The bar may only appear because of this scroll, so always leave
+            // room for it.
+            const bar = document.querySelector("#sheet .gloss-bar-row");
+            const top = card.getBoundingClientRect().top - main.getBoundingClientRect().top;
+            main.scrollTop += top - (bar ? bar.offsetHeight : 0) - 8;
+        }
+    }
+    function toggleGlossEntry(card, e, ref, terms) {
+        if (card.classList.contains("open")) {
+            closeGlossEntries();
+            return;
+        }
+        openGlossEntry(card, e, ref, terms, true);
     }
 
     const HEB_LETTERS = "אבגדהוזחטיכלמנסעפצקרשת";
@@ -1631,9 +1706,12 @@
             sec.appendChild(h);
             for (const { e, snip } of gr.rows) {
                 const ref = GLOSSARY_GATE + 1 + ":" + (e.c + 1) + ":" + (e.p + 1);
-                const card = el("a", "gloss-card", "");
-                card.href = "#" + ref;
-                const head = el("div", "gloss-head", "");
+                // A card opens in place to show the whole entry; one at a time.
+                const card = el("div", "gloss-card", "");
+                const btn = el("button", "gloss-card-head", "");
+                btn.type = "button";
+                btn.setAttribute("aria-expanded", "false");
+                const head = el("span", "gloss-head", "");
                 head.appendChild(el("span", "gloss-title", e.title));
                 if (e.he) {
                     const he = el("span", "gloss-he", e.he);
@@ -1642,13 +1720,17 @@
                     head.appendChild(he);
                 }
                 if (e.tl) head.appendChild(el("span", "gloss-tl", e.tl));
-                card.appendChild(head);
-                card.appendChild(snip());
-                card.appendChild(el("span", "gloss-ref", ref));
-                card.insertAdjacentHTML(
+                btn.appendChild(head);
+                const sn = snip();
+                btn.appendChild(sn);
+                btn.appendChild(el("span", "gloss-ref", ref));
+                btn.insertAdjacentHTML(
                     "beforeend",
                     '<svg class="gloss-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
                 );
+                card.appendChild(btn);
+                btn.addEventListener("click", () => toggleGlossEntry(card, e, ref, terms));
+                if (glossOpenRef === ref) openGlossEntry(card, e, ref, terms, false);
                 sec.appendChild(card);
             }
             box.appendChild(sec);
