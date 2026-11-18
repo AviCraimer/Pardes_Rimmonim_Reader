@@ -10029,6 +10029,249 @@
     }
    },
    "notes": "Ruled 2026-11-18. Conversion pending: about 17 paragraphs, mostly Gate 8 (4:4:1, 8:6:2-3, 8:12:4-6, 8:12:11, 9:2:1, 24:2:6, 24:5:1, 25:4:9 Ragziel 'prince of agitation'); currently 'anger'/'wrath'."
+  },
+  "אף": {
+   "headword": "אַף",
+   "transliteration": "af",
+   "partOfSpeech": "noun",
+   "rendering": "anger",
+   "candidates": [
+    {
+     "target": "anger",
+     "status": "preferred",
+     "contextNotes": "The nose; anger as a state that can be held back (ארך אפים 'slow to anger') or kindled. The angel/husk pair Af and Cheimah (Deut. 9:19): 'Anger [Af]' and 'Fury [Cheimah]'. Not the particle אף 'even, also'.",
+     "decisions": [
+      {
+       "section": "26:3:1",
+       "surfaceForm": "אף",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on anger and destruction words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "אף": {
+     "rendering": "anger"
+    },
+    "באף": {
+     "rendering": "in anger"
+    },
+    "ארך אפים": {
+     "rendering": "slow to anger"
+    }
+   },
+   "notes": "Ruled 2026-11-18. Text already has 'anger'."
+  },
+  "חמה": {
+   "headword": "חֵמָה / חִימָה",
+   "transliteration": "cheimah",
+   "partOfSpeech": "noun",
+   "rendering": "fury",
+   "candidates": [
+    {
+     "target": "fury",
+     "status": "preferred",
+     "contextNotes": "Heat; also venom (Deut. 32:33). Paired with אף. Name: 'Fury [Cheimah]'. 'Wrath' retired (Avi: generic and archaic). Homograph חמה 'sun' is a different word.",
+     "decisions": [
+      {
+       "section": "26:3:1",
+       "surfaceForm": "חמה",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on anger and destruction words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    },
+    {
+     "target": "wrath",
+     "status": "rejected",
+     "contextNotes": "Retired 2026-11-18."
+    }
+   ],
+   "surfaceForms": {
+    "חמה": {
+     "rendering": "fury"
+    },
+    "וחמה": {
+     "rendering": "and fury"
+    },
+    "חימה": {
+     "rendering": "fury"
+    },
+    "וחימה": {
+     "rendering": "and fury"
+    }
+   },
+   "notes": "Ruled 2026-11-18. Conversion pending: 'Wrath [Cheimah]' in Gates 26 and 31 (26:3:1, 31:3:8, 23:13:104) and other 'wrath' sites for חמה."
+  },
+  "חרון": {
+   "headword": "חָרוֹן",
+   "transliteration": "charon",
+   "partOfSpeech": "noun",
+   "rendering": "fierceness",
+   "candidates": [
+    {
+     "target": "fierceness",
+     "status": "preferred",
+     "contextNotes": "Burning (חרה); חרון אף 'the fierceness of anger'. Occurs once, Jonah 3:9 at 16:3:10.",
+     "decisions": [
+      {
+       "section": "16:3:10",
+       "surfaceForm": "חרון",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on anger and destruction words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "חרון": {
+     "rendering": "fierceness"
+    },
+    "מחרון אפו": {
+     "rendering": "from the fierceness of His anger"
+    }
+   },
+   "notes": "Ruled 2026-11-18. "
+  },
+  "עברה": {
+   "headword": "עֶבְרָה",
+   "transliteration": "evrah",
+   "partOfSpeech": "noun",
+   "rendering": "rage",
+   "candidates": [
+    {
+     "target": "rage",
+     "status": "preferred",
+     "contextNotes": "From עבר 'cross over': anger that breaks its banks, uncontainable (Prov. 21:24, Zeph. 1:15). The angel Avriel, 'prince of rage' (25:4:10).",
+     "decisions": [
+      {
+       "section": "25:4:10",
+       "surfaceForm": "עברה",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on anger and destruction words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "עברה": {
+     "rendering": "rage"
+    },
+    "העברה": {
+     "rendering": "the rage"
+    }
+   },
+   "notes": "Ruled 2026-11-18. Conversion pending at 25:4:10 (now 'wrath'). NB עברה 'transgression' and העברה 'passing' are different words."
+  },
+  "קצף": {
+   "headword": "קֶצֶף",
+   "transliteration": "ketzef",
+   "partOfSpeech": "noun",
+   "rendering": "outburst",
+   "candidates": [
+    {
+     "target": "outburst",
+     "status": "preferred",
+     "contextNotes": "Foam, a splinter: anger that erupts at once (Num. 17:11). 9:2:1; the angel Ketzafiel 'prince of the outburst' (25:4:8).",
+     "decisions": [
+      {
+       "section": "9:2:1",
+       "surfaceForm": "קצף",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on anger and destruction words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "קצף": {
+     "rendering": "outburst"
+    },
+    "הקצף": {
+     "rendering": "the outburst"
+    }
+   },
+   "notes": "Ruled 2026-11-18. Conversion pending at 9:2:1 and 25:4:8 (now 'wrath')."
+  },
+  "כעס": {
+   "headword": "כַּעַס",
+   "transliteration": "ka'as",
+   "partOfSpeech": "noun",
+   "rendering": "irritation",
+   "candidates": [
+    {
+     "target": "irritation",
+     "status": "preferred",
+     "contextNotes": "Anger provoked; vexation (Eccl. 1:18). 4:4:1, 4:10:1, 8:1:4, 8:6:3, 9:2:1 (Hillel never grew irritated), 23:10:16, 26:1:4.",
+     "decisions": [
+      {
+       "section": "9:2:1",
+       "surfaceForm": "כעס",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on anger and destruction words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    },
+    {
+     "target": "annoyance",
+     "status": "rejected",
+     "contextNotes": "Too light at 4:10:1 and 26:1:4."
+    },
+    {
+     "target": "vexation",
+     "status": "rejected",
+     "contextNotes": "Avi preferred irritation."
+    }
+   ],
+   "surfaceForms": {
+    "כעס": {
+     "rendering": "irritation"
+    },
+    "בכעס": {
+     "rendering": "in irritation"
+    },
+    "וכעס": {
+     "rendering": "and irritation"
+    }
+   },
+   "notes": "Ruled 2026-11-18. Conversion pending at the sites listed."
+  },
+  "חבל": {
+   "headword": "חִבֵּל / מְחַבֵּל / חַבָּלָה",
+   "transliteration": "chibbel / mechabel / chabbalah",
+   "partOfSpeech": "verb; noun",
+   "rendering": "spoil; spoiler; ruin",
+   "candidates": [
+    {
+     "target": "spoil; spoiler; ruin",
+     "status": "preferred",
+     "contextNotes": "Verb and participle 'spoil', 'spoiler' (Song 2:15, 'the little foxes that spoil the vineyards'); noun חבלה 'ruin'; מלאכי חבלה 'angels of ruin'. Keeps 'destroy' for משחית.",
+     "decisions": [
+      {
+       "section": "18:6:1",
+       "surfaceForm": "מחבל",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on anger and destruction words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "מחבל": {
+     "rendering": "spoiler"
+    },
+    "מחבלים": {
+     "rendering": "spoilers; spoil"
+    },
+    "חבלה": {
+     "rendering": "ruin"
+    },
+    "מלאכי חבלה": {
+     "rendering": "angels of ruin"
+    }
+   },
+   "notes": "Ruled 2026-11-18. Conversion pending: ~9 paragraphs (8:10:1, 18:5:7, 18:6:1, 20:7:4, 21:13:11, 23:8:5, 23:21:68, 24:15:3, 25:5:2)."
   }
  }
 }
