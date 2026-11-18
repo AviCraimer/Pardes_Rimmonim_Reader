@@ -5,8 +5,7 @@
 - Online reader: <https://avicraimer.github.io/Pardes_Rimmonim_Reader/>
 - Source data and history: <https://github.com/AviCraimer/Pardes_Rimmonim_Reader>
 - Hebrew source text from Sefaria (public domain). Translation released under the MIT License.
-- The English translation was produced by AI, with terminology rulings by Avi Craimer, and may contain inaccuracies.
-- Gates translated so far: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 of 32.
+- The English translation was produced by AI with human input on terminology and other translation decisions from <a href="https://www.firecrystalscribe.com" target="_blank" rel="noopener">Avi Craimer</a>. It may contain inaccuracies.
 - References are Gate:Chapter:Paragraph. Each English paragraph is followed by the Hebrew it translates, as a quotation.
 
 ## Contents
