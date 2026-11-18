@@ -17,7 +17,9 @@ Don't read `Terminology_Update_Plan_DONE_2026-11-10.md` or `logs/`. They are the
 - **`translation.json`**:
   - `text[g][c][p]` holds the English paragraphs as HTML strings.
   - `gates[g]` holds the English contents: `title`, `description`, and `chapters` (one line per chapter).
-- **`Pardes_Rimmonim.json`**: the Hebrew, at `versions[0].text[g][c][p]`.
+  - `introduction` holds Cordovero's Author's Introduction, a list of English paragraphs.
+  - `indexNotes` holds the front-matter notes (`transliteration` is shown as "Transliteration Conventions").
+- **`Pardes_Rimmonim.json`**: the Hebrew, at `versions[0].text[g][c][p]`; the introduction at `versions[0].introduction[p]`, split into the same paragraphs as the English (keep the two lists parallel). This file is compact JSON (`ensure_ascii=False`, no indent, no trailing newline).
 - **`Pardes_Rimmonim_Index.json`**: the Hebrew table of contents.
 - **`lexicon_translation.json`** and **`lexicon_reader.json`**: see `LEXICON.md`.
 
@@ -29,6 +31,8 @@ Indices in the files are 0-based. References in conversation, commits and tools 
 - `python3 tools/put_paragraphs.py FILE`: write paragraphs from a JSON file `{"8:2:1": "text", …}`. It refuses to overwrite a filled paragraph unless given `--force`.
 - `python3 tools/check_lexicon.py`: run after any lexicon edit; it must report 0 errors.
 - `python3 tools/progress.py`: paragraphs translated per gate, and the first untranslated paragraph.
+
+Front matter order on the site and in the exports: table of contents, Transliteration Conventions, Author's Introduction, Gate 1.
 
 ## How a gate is translated
 

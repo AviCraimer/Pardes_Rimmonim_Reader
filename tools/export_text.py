@@ -133,10 +133,15 @@ def blockquote(md):
     return "\n".join(("> " + line) if line.strip() else ">" for line in md.split("\n"))
 
 
+HE_INTRO = []  # Hebrew of the Author's Introduction, parallel to translation.json → introduction
+
+
 def load():
+    global HE_INTRO
     t = json.loads((ROOT / "translation.json").read_text(encoding="utf-8"))
-    he = json.loads((ROOT / f"{BASENAME}.json").read_text(encoding="utf-8"))["versions"][0]["text"]
-    return t, he
+    version = json.loads((ROOT / f"{BASENAME}.json").read_text(encoding="utf-8"))["versions"][0]
+    HE_INTRO = version.get("introduction", [])
+    return t, version["text"]
 
 
 def gate_status(t):
@@ -165,9 +170,26 @@ def intro(t, full, partial, hebrew=True, anchors=False):
           "- References are Gate:Chapter:Paragraph."
           + (" Each English paragraph is followed by the Hebrew it translates, as a quotation." if hebrew else ""),
           ""]
+    return L
+
+
+def front_matter(t, hebrew=True, anchors=False):
+    """After the contents, before Gate 1: the Transliteration Conventions, then Cordovero's introduction."""
+    notes = t.get("indexNotes", {})
+    L = []
     if notes.get("transliteration"):
         L += ["## Transliteration Conventions" + (" {#transliteration}" if anchors else ""), "",
               to_md(notes["transliteration"]), ""]
+    paras = t.get("introduction") or []
+    if any((p or "").strip() for p in paras):
+        L += ["## Author's Introduction" + (" {#introduction}" if anchors else ""), ""]
+        for p, en in enumerate(paras):
+            if not (en or "").strip():
+                continue
+            L += [f"**Introduction:{p + 1}** {to_md(en)}", ""]
+            h = HE_INTRO[p] if hebrew and p < len(HE_INTRO) else ""
+            if (h or "").strip():
+                L += [blockquote(to_md(h)), ""]
     return L
 
 
@@ -243,7 +265,7 @@ def build_markdown(t, he, hebrew=True, anchors=False):
     full, partial = gate_status(t)
     done = set(full + partial)
     link = (lambda g, c=None: anchor(g, c) if g in done else None) if anchors else None
-    L = intro(t, full, partial, hebrew, anchors) + contents(t, link, attrs=anchors)
+    L = intro(t, full, partial, hebrew, anchors) + contents(t, link, attrs=anchors) + front_matter(t, hebrew, anchors)
     for g in full + partial:
         L += ["---", ""] + gate_body(t, he, g, hebrew, anchors=anchors)
     return "\n".join(L).rstrip() + "\n"
@@ -426,7 +448,7 @@ def main():
     index_md = "\n".join(intro(t, full, partial) + [f"The whole translation is also available as one "
                           f"[Markdown file]({BASENAME}.md), a [single page]({BASENAME}.html), a [Print PDF]({PDF_URL}) "
                           f"(Letter size) and a [Mobile PDF]({MOBILE_PDF_URL}) for reading on a phone.", ""]
-                          + contents(t, page_link))
+                          + contents(t, page_link) + front_matter(t))
     write("index.html", build_html(index_md, "Pardes Rimmonim: English translation with Hebrew", "index.html"))
     for i, (g, chs, fname, part) in enumerate(pages):
         body = "\n".join([f"*[{t['title']}](index.html), English translation with the Hebrew.*", ""]

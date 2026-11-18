@@ -334,8 +334,11 @@
         const p = +paraEl.dataset.p;
         const hebDiv = document.createElement("div");
         hebDiv.className = "heb-text";
+        const onIntro = curView === "intro" && curPage === "introduction";
         const fill = () => {
-            const heParagraphs = getHebrewChapter(curG, curC);
+            const heParagraphs = onIntro
+                ? HEB && HEB.versions[0].introduction
+                : getHebrewChapter(curG, curC);
             if (!heParagraphs || !heParagraphs[p]) {
                 hebDiv.remove();
                 return;
@@ -351,7 +354,7 @@
             hebDiv.textContent = "Loading the Hebrew…";
             const g = curG, c = curC;
             hebReady.then(() => {
-                if (hebDiv.isConnected && curG === g && curC === c) fill();
+                if (hebDiv.isConnected && (onIntro || (curG === g && curC === c))) fill();
             });
         }
 
@@ -437,19 +440,25 @@
     function renderToc() {
         const tocPanel = document.getElementById("toc-panel");
         tocPanel.textContent = "";
-        // Transliteration conventions (translation.json → indexNotes), before the first gate.
-        const intro = document.createElement("div");
-        intro.className = "toc-intro";
-        intro.tabIndex = 0;
-        intro.textContent = "Transliteration Conventions";
-        intro.onclick = () => openIntro();
-        intro.onkeydown = (e) => {
-            if (e.key === "Enter" || e.key === " ") {
-                e.preventDefault();
-                openIntro();
-            }
-        };
-        tocPanel.appendChild(intro);
+        // Front matter before the first gate: the transliteration conventions
+        // (translation.json → indexNotes) and Cordovero's introduction
+        // (translation.json → introduction).
+        FRONT_PAGES.forEach((page) => {
+            if (page.key === "introduction" && !(DATA.introduction || []).length) return;
+            const row = document.createElement("div");
+            row.className = "toc-intro";
+            row.dataset.page = page.key;
+            row.tabIndex = 0;
+            row.textContent = page.title;
+            row.onclick = () => openIntro({ page: page.key });
+            row.onkeydown = (e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    openIntro({ page: page.key });
+                }
+            };
+            tocPanel.appendChild(row);
+        });
         META.index.forEach((gate, g) => {
             const det = document.createElement("details");
             if (g === 0) det.open = true;
@@ -564,41 +573,73 @@
         '<p class="disclaimer">The English translation was produced by AI and may contain inaccuracies.</p>' +
         "</footer>";
 
-    // ---- transliteration conventions page ----
-    const INTRO_HASH = "#transliteration";
+    // ---- front-matter pages: transliteration conventions, introduction ----
+    const FRONT_PAGES = [
+        { key: "transliteration", hash: "#transliteration", title: "Transliteration Conventions" },
+        { key: "introduction", hash: "#introduction", title: "Author's Introduction" },
+    ];
     const INTRO_NOTES = ["transliteration"];
+    let curPage = null; // key of the open front-matter page
+    function frontPageOfHash(hash) {
+        return FRONT_PAGES.find((pg) => pg.hash === hash) || null;
+    }
     function openIntro(opts) {
-        const { updateUrl = true } = opts || {};
+        const { updateUrl = true, page: pageKey = "transliteration" } = opts || {};
         if (!DATA) {
             dataReady.then(() => openIntro(opts));
             return;
         }
-        if (updateUrl && location.hash !== INTRO_HASH) {
-            history.pushState(null, "", INTRO_HASH);
+        const page = FRONT_PAGES.find((pg) => pg.key === pageKey) || FRONT_PAGES[0];
+        if (updateUrl && location.hash !== page.hash) {
+            history.pushState(null, "", page.hash);
         }
         recordReading(); // remember the spot in the chapter being left
         curView = "intro";
+        curPage = page.key;
         curLex = null;
         dismissPopup();
         setTab("toc");
-        const notes = META.indexNotes || {};
         const sheet = document.getElementById("sheet");
-        sheet.innerHTML =
-            '<div class="crumb">' + (META.title || "Pardes Rimmonim") + "</div>" +
-            '<h1>Transliteration Conventions<span class="rule"></span></h1>' +
-            '<div class="intro-notes">' +
-            INTRO_NOTES.filter((k) => notes[k])
-                .map((k) => (/^\s*<p[\s>]/.test(notes[k]) ? notes[k] : "<p>" + notes[k] + "</p>"))
-                .join("") +
-            "</div>" +
-            nextChapterButton(0, -1) +
-            SHEET_FOOTER;
+        const crumb = '<div class="crumb">' + (META.title || "Pardes Rimmonim") + "</div>";
+        let body, next;
+        if (page.key === "introduction") {
+            body = (DATA.introduction || [])
+                .map(
+                    (p, i) =>
+                        '<div class="para" data-p="' + i + '"><span class="pnum">' + (i + 1) +
+                        '</span><span class="en-text">' + p + "</span></div>"
+                )
+                .join("");
+            next = nextChapterButton(0, -1);
+        } else {
+            const notes = META.indexNotes || {};
+            body =
+                '<div class="intro-notes">' +
+                INTRO_NOTES.filter((k) => notes[k])
+                    .map((k) => (/^\s*<p[\s>]/.test(notes[k]) ? notes[k] : "<p>" + notes[k] + "</p>"))
+                    .join("") +
+                "</div>";
+            next = (DATA.introduction || []).length
+                ? '<button class="next-ch-btn" data-page="introduction">Author\'s Introduction &rarr;</button>'
+                : nextChapterButton(0, -1);
+        }
+        sheet.innerHTML = crumb + "<h1>" + page.title + '<span class="rule"></span></h1>' + body + next + SHEET_FOOTER;
         const nextBtn = sheet.querySelector(".next-ch-btn");
-        if (nextBtn) nextBtn.addEventListener("click", () => open(+nextBtn.dataset.g, +nextBtn.dataset.c));
-        document.querySelectorAll("#toc-panel .chap.active, .lex-item.active").forEach((n) =>
+        if (nextBtn) {
+            nextBtn.addEventListener("click", () => {
+                if (nextBtn.dataset.page) openIntro({ page: nextBtn.dataset.page });
+                else open(+nextBtn.dataset.g, +nextBtn.dataset.c);
+            });
+        }
+        if (page.key === "introduction") {
+            sheet.querySelectorAll(".para .en-text, .para .pnum").forEach((n) =>
+                n.addEventListener("click", () => toggleHebrew(n.closest(".para")))
+            );
+        }
+        document.querySelectorAll("#toc-panel .chap.active, .lex-item.active, #toc-panel .toc-intro.active").forEach((n) =>
             n.classList.remove("active")
         );
-        const row = document.querySelector("#toc-panel .toc-intro");
+        const row = document.querySelector('#toc-panel .toc-intro[data-page="' + page.key + '"]');
         if (row) row.classList.add("active");
         document.body.classList.remove("nav-open");
         syncMenuBtn();
@@ -1306,8 +1347,9 @@
             dataReady.then(() => window.dispatchEvent(new HashChangeEvent("hashchange")));
             return;
         }
-        if (location.hash === INTRO_HASH) {
-            if (curView !== "intro") openIntro({ updateUrl: false });
+        const fp = frontPageOfHash(location.hash);
+        if (fp) {
+            if (!(curView === "intro" && curPage === fp.key)) openIntro({ updateUrl: false, page: fp.key });
             return;
         }
         const loc = parseHash(location.hash);
@@ -1339,7 +1381,8 @@
         markActiveLex(curLex);
     } else if (!pendingOpen) {
         const initial = parseHash(location.hash);
-        if (location.hash === INTRO_HASH) openIntro({ updateUrl: false });
+        const initialPage = frontPageOfHash(location.hash);
+        if (initialPage) openIntro({ updateUrl: false, page: initialPage.key });
         else if (initial) open(initial.g, initial.c, { updateUrl: false, para: initial.p });
         else open(0, 0, { updateUrl: false });
     }
