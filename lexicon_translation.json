@@ -9578,6 +9578,189 @@
     }
    },
    "notes": "Ruled 2026-11-17. Few sites."
+  },
+  "עידון": {
+   "headword": "עִדּוּן / עִדּוּנָא (Aram.)",
+   "transliteration": "idun / iduna",
+   "partOfSpeech": "noun",
+   "rendering": "bliss",
+   "candidates": [
+    {
+     "target": "bliss",
+     "status": "preferred",
+     "contextNotes": "Root of Eden. Path 16 'is the bliss [idun] of the glory … called the Garden of Eden' (12:2:50): gloss there for the pun. 'The binding of bliss' (20:2:3, 20:2:7). Not 'delight' (חפץ).",
+     "decisions": [
+      {
+       "section": "12:2:50",
+       "surfaceForm": "עידון הכבוד",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'New clashes'): words never ruled whose English collided with the volitional and hidden/concealed rulings.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "עידון": {
+     "rendering": "bliss"
+    },
+    "עדונא": {
+     "rendering": "bliss"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Conversion pending."
+  },
+  "עונג": {
+   "headword": "עֹנֶג / הִתְעַנֵּג",
+   "transliteration": "oneg / hit'aneg",
+   "partOfSpeech": "noun; verb",
+   "rendering": "pleasure",
+   "candidates": [
+    {
+     "target": "pleasure",
+     "status": "preferred",
+     "contextNotes": "'They take pleasure with great pleasure' (8:14:3). Not 'delight' (חפץ). הנאה = 'enjoyment'.",
+     "decisions": [
+      {
+       "section": "8:14:3",
+       "surfaceForm": "ויתענגו בעונג גדול",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'New clashes'): words never ruled whose English collided with the volitional and hidden/concealed rulings.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "עונג": {
+     "rendering": "pleasure"
+    },
+    "ויתענגו": {
+     "rendering": "and they take pleasure"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Conversion pending."
+  },
+  "הנאה": {
+   "headword": "הֲנָאָה",
+   "transliteration": "hana'ah",
+   "partOfSpeech": "noun",
+   "rendering": "enjoyment",
+   "candidates": [
+    {
+     "target": "enjoyment",
+     "status": "preferred",
+     "contextNotes": "Benefit, enjoyment; kept apart from עונג = pleasure (Gate 8 contents, chapter 22).",
+     "decisions": [
+      {
+       "section": "contents 8.22",
+       "surfaceForm": "הנאתו",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'New clashes'): words never ruled whose English collided with the volitional and hidden/concealed rulings.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "הנאה": {
+     "rendering": "enjoyment"
+    },
+    "הנאתו": {
+     "rendering": "its enjoyment"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Conversion pending."
+  },
+  "חשק": {
+   "headword": "חֵשֶׁק",
+   "transliteration": "cheshek",
+   "partOfSpeech": "noun; verb",
+   "rendering": "longing",
+   "candidates": [
+    {
+     "target": "longing",
+     "status": "preferred",
+     "contextNotes": "Attached longing (Deut. 7:7, 10:15). 'Longing' at all sites (6:6:9, 8:21:5, 8:25:2, 11:6:3, 11:6:7, 19:4:4 …); not 'desire' (רעותא). תשוקה = yearning.",
+     "decisions": [
+      {
+       "section": "8:21:5",
+       "surfaceForm": "בחשק",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'New clashes'): words never ruled whose English collided with the volitional and hidden/concealed rulings.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "חשק": {
+     "rendering": "longing"
+    },
+    "בחשק": {
+     "rendering": "in longing"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Conversion pending."
+  },
+  "רצה": {
+   "headword": "רָצָה (verb)",
+   "transliteration": "ratzah",
+   "partOfSpeech": "verb",
+   "rendering": "want",
+   "candidates": [
+    {
+     "target": "want",
+     "status": "preferred",
+     "contextNotes": "The everyday verb 'to want' (14:1:4, 14:1:6: 'when a man wants to perform an action'). The noun רצון stays 'will'.",
+     "decisions": [
+      {
+       "section": "14:1:4",
+       "surfaceForm": "כאשר ירצה האדם",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'New clashes'): words never ruled whose English collided with the volitional and hidden/concealed rulings.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "ירצה": {
+     "rendering": "wants"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Conversion pending."
+  },
+  "כסה": {
+   "headword": "כִּסָּה / מְכֻסֶּה / אִתְכְּסִי (Aram.)",
+   "transliteration": "kissah / mekhusseh / itkesi",
+   "partOfSpeech": "verb; adjective",
+   "rendering": "covered",
+   "candidates": [
+    {
+     "target": "covered",
+     "status": "preferred",
+     "contextNotes": "Root כסה = cover / covered (noun כסוי = covering). מופלא ומכוסה = 'wondrous and covered' (the Amon passages; 3:2:6–8). Ben Sira (4:8:1): 'into what is covered from you do not search'. Targum יתכסי for כי יפלא = 'if it is covered'. Not 'concealed' (נעלם).",
+     "decisions": [
+      {
+       "section": "3:2:6",
+       "surfaceForm": "מופלא ומכוסה",
+       "rationale": "USER RULING 2026-11-17 (terminology doc, 'New clashes'): words never ruled whose English collided with the volitional and hidden/concealed rulings.",
+       "timestamp": "2026-11-17"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "מכוסה": {
+     "rendering": "covered"
+    },
+    "ומכוסה": {
+     "rendering": "and covered"
+    },
+    "אתכסי": {
+     "rendering": "was covered"
+    },
+    "מתכסיין": {
+     "rendering": "are covered"
+    }
+   },
+   "notes": "Ruled 2026-11-17. Conversion pending."
   }
  }
 }
