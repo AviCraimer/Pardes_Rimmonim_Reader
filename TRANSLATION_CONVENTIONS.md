@@ -74,7 +74,7 @@ Every entry of Gate 23 begins a paragraph and carries three markers. The site's 
 
 ## Rulings of 18 November 2026
 
-- **Italics for transliterations** (user): transliterated Hebrew and Aramaic words are italic (*tikkun*, *havayah*, *nefesh*). Not italic: names of the Sefirot and other proper names, spelled-out letter names (Alef, Heh), and letter strings (YHVH, M Tz P Tz). One sweep at the next batch.
+- **Italics for transliterations** (user): transliterated Hebrew and Aramaic words are italic (*tikkun*, *havayah*, *nefesh*). Not italic: names of the sefirot (Keter, Chokhmah …) and other proper names, spelled-out letter names (Alef, Heh), and letter strings (YHVH, M Tz P Tz). One sweep at the next batch.
 - **"Sefirot", "Sefirah"** (user): lower-case, *sefirot* / *sefirah*, as a common noun; no rationale for the capital had been recorded. The names of the individual sefirot stay capitalised (Keter, Chokhmah …), as do fixed titles that contain the word only where they are names. One sweep at the next batch (about 2,000 sites).
 - **Bare ר' משה** (user): give the full name, with the surname in brackets where the text lacks it, so that he is not confused with Cordovero (also Moses): "Rabbi Moshe [de León]". ר' משה דליאון stays "Rabbi Moshe de León". Sites in Gates 9, 20, 23–28 at the next batch; check each against the context, since a bare ר' משה could in principle be another Moses (Nachmanides is always רמב"ן).
 - **נשמה for the whole and for the part** (user): keep "soul" for both; the doubling belongs to the Kabbalistic discourse itself and is not to be translated away.
