@@ -156,7 +156,7 @@ def gate_status(t):
 def intro(t, full, partial, hebrew=True, anchors=False):
     notes = t.get("indexNotes", {})
     L = [f"# {t['title']} ({t['heTitle']})", ""]
-    L += ["*Orchard of Pomegranates*, by Rabbi Moshe Cordovero (the Ramak), Safed, 16th century. "
+    L += ["*Pardes Rimmonim*, by Rabbi Moshe Cordovero (the Ramak), Safed, 16th century. "
           "English translation" + (" with the Hebrew text, paragraph by paragraph." if hebrew else "."), ""]
     L += [f"- Online reader: <{SITE_URL}>",
           f"- Source data and history: <{REPO_URL}>",
@@ -430,7 +430,7 @@ def main():
     # One file: Markdown and a single HTML page, English with Hebrew.
     md_text = build_markdown(t, he)
     write(f"{BASENAME}.md", md_text)
-    write(f"{BASENAME}.html", build_html(build_markdown(t, he, anchors=True), "Pardes Rimmonim: English translation with Hebrew", f"{BASENAME}.html"))
+    write(f"{BASENAME}.html", build_html(build_markdown(t, he, anchors=True), "The Pomegranate Orchard (Pardes Rimmonim): English translation with Hebrew", f"{BASENAME}.html"))
 
     # Split pages for crawlers: a contents page plus one page per gate (big gates in parts).
     pages = split_pages(t, he, done)
@@ -447,11 +447,11 @@ def main():
                           f"[Markdown file]({BASENAME}.md), a [single page]({BASENAME}.html), a [Print PDF]({PDF_URL}) "
                           f"(Letter size) and a [Mobile PDF]({MOBILE_PDF_URL}) for reading on a phone.", ""]
                           + contents(t, page_link) + front_matter(t))
-    write("index.html", build_html(index_md, "Pardes Rimmonim: English translation with Hebrew", "index.html"))
+    write("index.html", build_html(index_md, "The Pomegranate Orchard (Pardes Rimmonim): English translation with Hebrew", "index.html"))
     for i, (g, chs, fname, part) in enumerate(pages):
         body = "\n".join([f"*[{t['title']}](index.html), English translation with the Hebrew.*", ""]
                          + gate_body(t, he, g, heading="#", chapters=chs, part=part, anchors=True))
-        title = f"Pardes Rimmonim, Gate {g + 1}{part}: {re.sub(r'<[^>]+>', '', t['gates'][g]['title'])}"
+        title = f"The Pomegranate Orchard, Gate {g + 1}{part}: {re.sub(r'<[^>]+>', '', t['gates'][g]['title'])}"
         write(fname, build_html(body, title, fname, pager(pages, i)))
 
     for f in OUT.glob("gate-*.html"):
@@ -469,7 +469,7 @@ def main():
         from weasyprint import HTML
 
         md_en = build_markdown(t, he, hebrew=False, anchors=True)
-        title = "Pardes Rimmonim: English translation"
+        title = "The Pomegranate Orchard (Pardes Rimmonim): English translation"
         HTML(string=build_html(md_en, title, f"{BASENAME}.html", css=PDF_CSS + PRINT_PDF_CSS),
              base_url=str(OUT)).write_pdf(OUT / f"{BASENAME}.pdf")
         write_mobile_pdf(build_html(md_en, title, f"{BASENAME}.html", css=PDF_CSS + MOBILE_PDF_CSS),

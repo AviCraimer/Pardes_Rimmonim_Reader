@@ -687,7 +687,7 @@
         dismissPopup();
         setTab("toc");
         const sheet = document.getElementById("sheet");
-        const crumb = '<div class="crumb">' + (META.title || "Pardes Rimmonim") + "</div>";
+        const crumb = '<div class="crumb">' + (META.title || "The Pomegranate Orchard") + "</div>";
         let body, next;
         if (page.key === "introduction") {
             body = (DATA.introduction || [])
