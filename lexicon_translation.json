@@ -9678,7 +9678,7 @@
     {
      "target": "longing",
      "status": "preferred",
-     "contextNotes": "Attached longing (Deut. 7:7, 10:15). 'Longing' at all sites (6:6:9, 8:21:5, 8:25:2, 11:6:3, 11:6:7, 19:4:4 …); not 'desire' (רעותא). תשוקה = yearning.",
+     "contextNotes": "Attached longing (Deut. 7:7, 10:15). 'Longing' at all sites (6:6:9, 8:21:5, 8:25:2, 11:6:3, 11:6:7, 19:4:4 …); not 'desire' (רעותא). תשוקה = yearning. חשוקתו (the one he longs for) = 'his beloved' (5:2:2, 5:2:5, 8:21:11; user, 2026-11-17).",
      "decisions": [
       {
        "section": "8:21:5",
@@ -9695,6 +9695,12 @@
     },
     "בחשק": {
      "rendering": "in longing"
+    },
+    "חשוקתו": {
+     "rendering": "his beloved"
+    },
+    "לחשוקתו": {
+     "rendering": "his beloved"
     }
    },
    "notes": "Ruled 2026-11-17. Conversion pending."
