@@ -209,3 +209,10 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
   - **פרד"ס** (intro 4, the name's acrostic): "*PaRDeS* [Orchard]".
   - **נר"ו** (intro 2, after Alkabetz's name): "may the Compassionate One guard and redeem him".
   - **המעיין** (contents 1.7): "the inquirer", not "the student".
+- **Gate 21, chapter 16** (translated 17 November 2026):
+  - **תקופה**: "season [<em>tekufah</em>]" (the season of Nisan, etc.).
+  - **The twelve constellations by name** (טלה, שור … דגים): the Latin zodiac names (Aries, Taurus … Pisces), not literal "Lamb, Ox …".
+  - **Sefer Yetzirah's organs**: liver, gall, spleen, omasum (המסס), right/left kidney, gizzard (קרקבן), stomach (קיבה), right/left hand, right/left foot.
+  - **דגל מחנה / החונים עליו** (21:16:4, after Num. 2): "the standard of the camp of … / those encamped by it".
+  - **בעלי הקצות / בעלי המצוע** (21:16:7): "the extremes / the intermediates".
+  - Textual: 21:16:3 reads <span dir="rtl" lang="he">וקשר לו קשר</span> for Yod (read as כתר, marked); 21:16:3 and 21:16:8 promise figures that the edition does not print; 21:16:10 <span dir="rtl" lang="he">בפרק דה"ו</span> read as chapters 4, 5 and 6 of Gate 16 (all three discuss Metatron).
