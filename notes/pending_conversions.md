@@ -248,3 +248,4 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
 - 27:1:1: the Hebrew heading reads שער כ"ו for the Gate of Letters (it is Gate 27); English gives 27 and notes the reading in brackets.
 - 27:11:2 ends with "..." in the Hebrew (apparently something omitted); kept as an ellipsis. 27:12:3 "like this" (כזה) with no figure in the source.
 - 27:20:3 "its true form is like this" (וצורתו האמתי כזה): no figure in the source. 27:21:1 "Further, another explanation [ט]; and this is the principal": the other explanation is not given in the text.
+- Gate 27 (Letters): the five outlets rendered A-Ch-H-A, G-Y-K-K, D-T-L-N-T, B-V-M-F, Z-S-Sh-R-Tz; רשימה/חקיקה/חציבה/עשייה "inscribing, engraving, hewing, making"; נתיב "path". 27:27:7: the Hebrew pairs בומ"ף with Dalet and זסשר"ץ with Heh (order of the outlets in the Sefer Yetzirah); my bracketed [Bet], [Zayin] show the letter that each group actually begins with; check.
