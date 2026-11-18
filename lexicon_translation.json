@@ -12,7 +12,7 @@
    "candidates": [
     {
      "target": "arbiter / tip (tip the balance between) / arbitration / ruling",
-     "gloss": "the Sefirah that stands between two sides and decides which way they fall",
+     "gloss": "the sefirah that stands between two sides and decides which way they fall",
      "status": "preferred",
      "contextNotes": "מכריע (noun) = arbiter; מכריע / הכריע / להכריע (verb) = tips; with בין = tips the balance between; הכרעה (the Sefirah's act) = arbitration; הכרעה (in argument) = ruling. פשרה = compromise. שער המכריעים = the Gate of Arbiters.",
      "decisions": [
@@ -225,7 +225,7 @@
    "candidates": [
     {
      "target": "aspect",
-     "gloss": "a respect/facet of a Sefirah",
+     "gloss": "a respect/facet of a sefirah",
      "status": "preferred",
      "contextNotes": "בחינה = 'aspect'.",
      "decisions": [
@@ -262,7 +262,7 @@
    "candidates": [
     {
      "target": "manifestation",
-     "gloss": "a Sefirah itself as it exists at one stage of its emanation; plural 'manifestations' (מציאיות)",
+     "gloss": "a sefirah itself as it exists at one stage of its emanation; plural 'manifestations' (מציאיות)",
      "status": "preferred",
      "contextNotes": "Technical count-noun use: 'the concealed manifestation of Tiferet', 'her manifestation that ascends', 'three necessary manifestations'. Pair with 'concealed'/'revealed' for נעלם/מתגלה; never use 'manifest' for the גלה vocabulary.",
      "decisions": [
@@ -517,7 +517,7 @@
    "candidates": [
     {
      "target": "the Emanation",
-     "gloss": "process/realm of emanated Sefirot",
+     "gloss": "process/realm of emanated sefirot",
      "register": "scholarly",
      "status": "preferred",
      "contextNotes": "Gate 2 title טעם האצילות = 'the Reason for the Emanation'.",
@@ -1603,7 +1603,7 @@
    ],
    "surfaceForms": {
     "עצמות": {
-     "rendering": "Self (the Emanator's); its own self (a Sefirah's)"
+     "rendering": "Self (the Emanator's); its own self (a sefirah's)"
     },
     "עצמותו": {
      "rendering": "His Self; its own self"
@@ -1760,7 +1760,7 @@
    "candidates": [
     {
      "target": "title",
-     "gloss": "a descriptive name that picks out a Sefirah under one aspect",
+     "gloss": "a descriptive name that picks out a sefirah under one aspect",
      "status": "preferred",
      "contextNotes": "A name, word or phrase, held by a Sefirah in a particular capacity (aspect). Plural 'titles'. על דרך הכינוי = 'as a title'. Verb מכונה stays 'designated'.",
      "decisions": [
@@ -4030,7 +4030,7 @@
    "candidates": [
     {
      "target": "curtain",
-     "gloss": "tent-cloth of the Mishkan; the Sefirot; Tiferet",
+     "gloss": "tent-cloth of the Mishkan; the sefirot; Tiferet",
      "status": "preferred",
      "contextNotes": "Mishkan / Ps 104:2 / the allusion-entry in Gate 23. No transliteration.",
      "decisions": [
@@ -4050,7 +4050,7 @@
     },
     {
      "target": "parchment",
-     "gloss": "the sheet bearing a drawn Tree of the Sefirot",
+     "gloss": "the sheet bearing a drawn Tree of the sefirot",
      "status": "preferred",
      "contextNotes": "The Kabbalists' Tree-charts; lower-case; '(Yeri'ah)' at first use per chapter, plus '[a particular chart of the Tree]' where it is the particular chart.",
      "decisions": [
@@ -4273,7 +4273,7 @@
    "candidates": [
     {
      "target": "chariot",
-     "gloss": "bearer or vehicle of a Sefirah",
+     "gloss": "bearer or vehicle of a sefirah",
      "status": "preferred",
      "contextNotes": "מרכבה אל היסוד = 'a chariot for Yesod'; מעלת מרכבתו = 'the rank of his chariot-hood'.",
      "decisions": [
@@ -4555,7 +4555,7 @@
    "candidates": [
     {
      "target": "equivalents",
-     "gloss": "the like part in each Sefirah",
+     "gloss": "the like part in each sefirah",
      "status": "preferred",
      "contextNotes": "ע\"י שוויים = 'by means of their equivalents'.",
      "decisions": [
@@ -5721,7 +5721,7 @@
      "rendering": "the Structure"
     },
     "ספירות הבנין": {
-     "rendering": "the Sefirot of the Structure"
+     "rendering": "the sefirot of the Structure"
     },
     "לבנין": {
      "rendering": "for a structure"
@@ -6477,7 +6477,7 @@
      "rendering": "כתר עליון: 'the supernal Keter'"
     },
     "י\"ס": {
-     "rendering": "עשר ספירות: 'the ten Sefirot'"
+     "rendering": "עשר ספירות: 'the ten sefirot'"
     },
     "ס\"י": {
      "rendering": "ספר יצירה: Sefer Yetzirah"
@@ -6651,7 +6651,7 @@
      "rendering": "איתא: 'it reads'"
     },
     "ספי'": {
-     "rendering": "ספירות: Sefirot"
+     "rendering": "ספירות: sefirot"
     },
     "אצי'": {
      "rendering": "אצילות: Atzilut"
@@ -7441,7 +7441,7 @@
      "rendering": "the Chokhmah-within-Keter"
     },
     "מלכות שבכל ספירה וספירה": {
-     "rendering": "the Malkhut within each and every Sefirah"
+     "rendering": "the Malkhut within each and every sefirah"
     },
     "עצי הלבנון": {
      "rendering": "the trees of Lebanon"
