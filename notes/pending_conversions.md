@@ -233,3 +233,4 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
 - 23:7:6: the entry opens with a quotation whose source is not named (the citation seems to have dropped out before "they are the Holy One, blessed be He, and His Shekhinah").
 - 23:10:12: the Hebrew repeats the sentence on the Tikkunim (Tikkun 69, fol. 102, "My dove, on the third day") twice; translated once.
 - 23:10:27: the argument says the luminaries were created "on the second day" (twice); Genesis has the fourth day. Translated as it stands; the text may be corrupt here.
+- 23:11:36 (כתנות עור): the entry gives only a reference (Tikkun 59, fol. 90a) and no explanation; the text seems to have dropped it.
