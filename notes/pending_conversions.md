@@ -289,3 +289,6 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
   - **ר"מ** in Gate 23 (23:8:52, 23:21:39, 23:22:16): read as Rabbi Moshe [de León] like the bare ר' משה of the same entries; in Gate 4 ר"מ is Rabbi Menachem [Recanati].
   - **31:6:4** "the orders of its Mishnayot" (סדרי משניותיה): kept capitalised (the Mishnah itself?).
   - **Gates 9 and 15 contents** still spell "Aleph" (outside the Gate 22–32 check).
+- 8:12:3: "angered the King" (×2) translates Aramaic ארגיז / ארגיזו, the verb of רוגז ("agitation", ruled 18 Nov): needs a ruling on the verb (e.g. "agitated the King").
+- 29:4:1: ומתעלם ("is concealed") is almost certainly a misprint for ומתעלה ("rises"); the English "they are raised in their melody" follows the emended reading. Textual note only.
+- Checker's queries (batch 18a): 24:11:1 "injuries … judges of injuries" (נזקי / דייני חבלות) left as is; 26:8:5 "consume and destroy" (כלה unruled); lower-case *mishnah* for single mishnayot of the Mishnah itself (2:2:8, 9:2:1, 22:3:6) vs "the Mishnah" for the work: confirm.
