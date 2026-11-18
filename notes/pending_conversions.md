@@ -235,3 +235,4 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
 - 23:10:27: the argument says the luminaries were created "on the second day" (twice); Genesis has the fourth day. Translated as it stands; the text may be corrupt here.
 - 23:11:36 (כתנות עור): the entry gives only a reference (Tikkun 59, fol. 90a) and no explanation; the text seems to have dropped it.
 - 23:12:18: ends "like this:" with no figure in the edition.
+- 23:14:31 opens with "ע' בעס"ר" before the entry נצב, apparently a stray cross-reference; kept in brackets, untranslated. 23:14:5 cites Zohar Lekh "fol. 44a" (Lekh is around fol. 77–96; probably 84a?), marked with "[read 84a?]". 23:14:15–16 and 17–18 split mid-citation in the Hebrew; the English keeps the split. נתיבות פליאות rendered "wondrous paths"; נשמה יתירה / נפש יתירה "additional soul".
