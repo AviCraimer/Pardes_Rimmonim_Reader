@@ -153,6 +153,7 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
 
+- **Italics for transliterated words** (raised by Avi 17 November 2026): should transliterated Hebrew and Aramaic words be italicised as a rule? The text is inconsistent now (e.g. *tikkun* in roman at about 11 sites in Gates 8–9, italic elsewhere; many Gate 8 transliterations in brackets without `<em>`). Leave as is until Avi rules; then one sweep.
 - ~~**עולם מושכל / מורגש / מוטבע**~~ Ruled 16 November 2026: "the intelligible / perceptible / natural world", with "the imprinted world" glossed at 8:25:1; טבע paired with הטביע = "imprint [teva]" … "impressed" (new lexicon entry טבע-הטביע). Sites converted.
 - ~~**ויתור / קפיצה**~~ Ruled 16 November 2026 (opening / closing of the hand); converted.
 - ~~**כף זכות / כף חובה**~~ Ruled 16 November 2026 (pan of merit / pan of liability; tongue of law kept); converted.
