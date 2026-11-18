@@ -10444,6 +10444,57 @@
     }
    },
    "notes": "Ruled 2026-11-18. Text already has 'transgression'."
+  },
+  "משחית": {
+   "headword": "מַשְׁחִית",
+   "transliteration": "mashchit",
+   "partOfSpeech": "noun",
+   "rendering": "Destroyer; destruction",
+   "candidates": [
+    {
+     "target": "Destroyer",
+     "status": "preferred",
+     "contextNotes": "The husk / demonic power: one of the four husks of Ps. 78:38 (Destroyer, Iniquity, Anger, Fury; 23:13:104, 31:3:8); the destroyer born with its heavenly prince (26:8:3); Exod. 12:23.",
+     "decisions": [
+      {
+       "section": "23:13:104",
+       "surfaceForm": "משחית",
+       "rationale": "USER RULING 2026-11-18 (terminology doc): Destroyer for the husk/demon.",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    },
+    {
+     "target": "destruction",
+     "status": "preferred",
+     "contextNotes": "Dan. 10:8 והודי נהפך עלי למשחית, 'my splendour was turned in me to destruction', and Cordovero's echo of it for Hod under Gevurah (1:2:1 with [mashchit], 23:5:11, 17:2:4). Hod stays a holy sefirah acting as judgment; Cordovero does not identify it with the husk, so the verse is not rendered 'destroyer'.",
+     "decisions": [
+      {
+       "section": "1:2:1",
+       "surfaceForm": "למשחית",
+       "rationale": "USER RULING 2026-11-18: 'destruction' for the Daniel verse and Hod; same word, different inflection for context.",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    },
+    {
+     "target": "corruption",
+     "status": "rejected",
+     "contextNotes": "KJV's sense is ruin; modern readers hear moral decay."
+    }
+   ],
+   "surfaceForms": {
+    "משחית": {
+     "rendering": "Destroyer"
+    },
+    "המשחית": {
+     "rendering": "the destroyer"
+    },
+    "למשחית": {
+     "rendering": "to destruction"
+    }
+   },
+   "notes": "Ruled and applied 2026-11-18 (1:2:1, 17:2:4, 23:5:11). שחת stays 'Corruption' (the palace, Gate 26)."
   }
  }
 }
