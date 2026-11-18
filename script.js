@@ -1896,7 +1896,7 @@
         sheet.innerHTML =
             '<div class="crumb">' + sectionName(0) + " " + (GLOSSARY_GATE + 1) + " · " +
             META.gates[GLOSSARY_GATE].title + "</div>" +
-            '<h1>All the titles<span class="rule"></span></h1>' +
+            '<h1>Glossary of Titles Search<span class="rule"></span></h1>' +
             '<p class="gloss-intro">Every title Cordovero explains in this gate. Search the entries or the titles, in English or Hebrew, and read them in his order or A–Z. Each title opens its entry.</p>' +
             // The collapsed bar: sticks to the top once the controls below it
             // have scrolled away (anchored here so it is pinned whenever the list shows). Its shelf folds the controls down over the list.
