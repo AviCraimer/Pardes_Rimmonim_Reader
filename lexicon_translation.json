@@ -9813,6 +9813,176 @@
     }
    },
    "notes": "Ruled 2026-11-18 and applied the same day: 1:1:4, 1:1:5, 1:1:7, 1:1:8, 1:1:10, 1:2:4, 1:4:4, 9:6:8 (was 'circumcised covenant'), 23:2:36 and 23:7:18 (were 'covenant of the nakedness')."
+  },
+  "תוהא": {
+   "headword": "תּוֹהֶא",
+   "transliteration": "toheh",
+   "partOfSpeech": "participle",
+   "rendering": "regretter",
+   "candidates": [
+    {
+     "target": "regretter",
+     "status": "preferred",
+     "contextNotes": "One who regrets his former good deeds (Kiddushin 40b, תוהא על הראשונות; Zohar Emor 101a). The Hebrew, like the English, says only 'regrets'; the object comes from context. 31:7.",
+     "decisions": [
+      {
+       "section": "Gate 31",
+       "surfaceForm": "תוהא",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, Gate 31 row).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    },
+    {
+     "target": "the one who repents of his good deeds",
+     "status": "rejected",
+     "contextNotes": "Too long; adds what the Hebrew leaves to context."
+    }
+   ],
+   "surfaceForms": {
+    "תוהא": {
+     "rendering": "regretter"
+    },
+    "התוהא": {
+     "rendering": "the regretter"
+    },
+    "תוהים": {
+     "rendering": "regretters"
+    }
+   },
+   "notes": "Ruled 2026-11-18; the Gate 31 text already follows it."
+  },
+  "עיבור": {
+   "headword": "עִבּוּר",
+   "transliteration": "ibbur",
+   "partOfSpeech": "noun",
+   "rendering": "impregnation",
+   "candidates": [
+    {
+     "target": "impregnation",
+     "status": "preferred",
+     "contextNotes": "Both a woman's pregnancy and a soul's 'impregnation' of a living person who already has a soul (Pinchas with Nadab and Abihu, 31:9:4); 'one of the secrets of reincarnation' (31:9:5). Gloss [ibbur] at first use in a gate. Not 'gestation', which loses the second sense.",
+     "decisions": [
+      {
+       "section": "Gate 31",
+       "surfaceForm": "עיבור",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, Gate 31 row).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "עיבור": {
+     "rendering": "impregnation"
+    },
+    "העיבור": {
+     "rendering": "the impregnation"
+    },
+    "מתעברים": {
+     "rendering": "are impregnated"
+    }
+   },
+   "notes": "Ruled 2026-11-18; the Gate 31 text already follows it."
+  },
+  "צלם": {
+   "headword": "צֶלֶם / צוּלְמָא",
+   "transliteration": "tzelem / tzulma",
+   "partOfSpeech": "noun",
+   "rendering": "image",
+   "candidates": [
+    {
+     "target": "image",
+     "status": "preferred",
+     "contextNotes": "The image that stands over a person from conception and departs before death (31:4); Gen. 1:27, Ps. 39:7. Also 'shadow' (צל) in Cordovero's wordplay.",
+     "decisions": [
+      {
+       "section": "Gate 31",
+       "surfaceForm": "צלם",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, Gate 31 row).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "צלם": {
+     "rendering": "image"
+    },
+    "הצלם": {
+     "rendering": "the image"
+    },
+    "צולמא": {
+     "rendering": "image"
+    },
+    "צללים": {
+     "rendering": "shadows"
+    }
+   },
+   "notes": "Ruled 2026-11-18; the Gate 31 text already follows it."
+  },
+  "גלגול": {
+   "headword": "גִּלְגּוּל",
+   "transliteration": "gilgul",
+   "partOfSpeech": "noun",
+   "rendering": "reincarnation",
+   "candidates": [
+    {
+     "target": "reincarnation",
+     "status": "preferred",
+     "contextNotes": "Transmigration of a soul into another body (31:7, 31:9).",
+     "decisions": [
+      {
+       "section": "Gate 31",
+       "surfaceForm": "גלגול",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, Gate 31 row).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "גלגול": {
+     "rendering": "reincarnation"
+    },
+    "הגלגול": {
+     "rendering": "the reincarnation"
+    },
+    "בגלגול": {
+     "rendering": "in reincarnation"
+    }
+   },
+   "notes": "Ruled 2026-11-18; the Gate 31 text already follows it."
+  },
+  "חלוקא דרבנן": {
+   "headword": "חָלוּקָא דְרַבָּנָן",
+   "transliteration": "chaluka de-rabbanan",
+   "partOfSpeech": "noun",
+   "rendering": "the robe of the Rabbis",
+   "candidates": [
+    {
+     "target": "the robe of the Rabbis",
+     "status": "preferred",
+     "contextNotes": "The garment of the soul woven from Torah and commandments (31:5). Gloss [chaluka de-rabbanan] at first use.",
+     "decisions": [
+      {
+       "section": "Gate 31",
+       "surfaceForm": "חלוקא דרבנן",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, Gate 31 row).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "חלוקא דרבנן": {
+     "rendering": "the robe of the Rabbis"
+    },
+    "חלוקי דרבנן": {
+     "rendering": "the robes of the Rabbis"
+    }
+   },
+   "notes": "Ruled 2026-11-18; the Gate 31 text already follows it."
   }
  }
 }
