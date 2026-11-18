@@ -419,8 +419,6 @@
     function renderNav() {
         const nav = document.getElementById("nav");
         nav.innerHTML =
-            '<div class="brand"><div class="he">פרדס רמונים</div>' +
-            '<div class="en">Pardes Rimmonim</div></div>' +
             '<div class="nav-tabs" role="tablist">' +
             '<button role="tab" data-tab="toc" aria-controls="toc-panel">TOC</button>' +
             '<button role="tab" data-tab="lex" aria-controls="lex-panel">Lexicon</button>' +
@@ -485,8 +483,6 @@
                 (g + 1) +
                 '</span><span class="gate-title">' +
                 gateInfo.title +
-                '</span><span class="he">' +
-                heNum(g + 1) +
                 "</span>";
             det.appendChild(sum);
             if (g === GLOSSARY_GATE) {
