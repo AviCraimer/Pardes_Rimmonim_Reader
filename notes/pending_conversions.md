@@ -234,3 +234,4 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
 - 23:10:12: the Hebrew repeats the sentence on the Tikkunim (Tikkun 69, fol. 102, "My dove, on the third day") twice; translated once.
 - 23:10:27: the argument says the luminaries were created "on the second day" (twice); Genesis has the fourth day. Translated as it stands; the text may be corrupt here.
 - 23:11:36 (כתנות עור): the entry gives only a reference (Tikkun 59, fol. 90a) and no explanation; the text seems to have dropped it.
+- 23:12:18: ends "like this:" with no figure in the edition.
