@@ -657,7 +657,7 @@
         '<a href="export/Pardes_Rimmonim.md">Markdown</a> · ' +
         '<a href="https://github.com/AviCraimer/Pardes_Rimmonim_Reader/releases/download/latest-text/Pardes_Rimmonim.pdf">Print PDF</a> · ' +
         '<a href="https://github.com/AviCraimer/Pardes_Rimmonim_Reader/releases/download/latest-text/Pardes_Rimmonim_mobile.pdf">Mobile PDF</a></p>' +
-        '<p class="disclaimer">The English translation was produced by AI and may contain inaccuracies.</p>' +
+        '<p class="disclaimer">The English translation was produced by AI with human input on terminology and other translation decisions from <a href="https://www.firecrystalscribe.com" target="_blank" rel="noopener">Avi Craimer</a>. It may contain inaccuracies.</p>' +
         "</footer>";
 
     // ---- front-matter pages: transliteration conventions, introduction ----

@@ -158,15 +158,13 @@ def intro(t, full, partial, hebrew=True, anchors=False):
     L = [f"# {t['title']} ({t['heTitle']})", ""]
     L += ["*Orchard of Pomegranates*, by Rabbi Moshe Cordovero (the Ramak), Safed, 16th century. "
           "English translation" + (" with the Hebrew text, paragraph by paragraph." if hebrew else "."), ""]
-    status = f"Gates translated so far: {', '.join(str(g + 1) for g in full) or 'none'}"
-    if partial:
-        status += f" (in progress: {', '.join(str(g + 1) for g in partial)})"
     L += [f"- Online reader: <{SITE_URL}>",
           f"- Source data and history: <{REPO_URL}>",
           "- Hebrew source text from Sefaria (public domain). Translation released under the MIT License.",
-          "- The English translation was produced by AI, with terminology rulings by Avi Craimer, "
-          "and may contain inaccuracies.",
-          f"- {status} of 32.",
+          "- The English translation was produced by AI with human input on terminology and other "
+          'translation decisions from <a href="https://www.firecrystalscribe.com" target="_blank" '
+          'rel="noopener">Avi Craimer</a>. '
+          "It may contain inaccuracies.",
           "- References are Gate:Chapter:Paragraph."
           + (" Each English paragraph is followed by the Hebrew it translates, as a quotation." if hebrew else ""),
           ""]
