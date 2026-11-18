@@ -9703,17 +9703,23 @@
    "headword": "רָצָה (verb)",
    "transliteration": "ratzah",
    "partOfSpeech": "verb",
-   "rendering": "want",
+   "rendering": "want / wish",
    "candidates": [
     {
-     "target": "want",
+     "target": "want / wish",
      "status": "preferred",
-     "contextNotes": "The everyday verb 'to want' (14:1:4, 14:1:6: 'when a man wants to perform an action'). The noun רצון stays 'will'.",
+     "contextNotes": "The everyday verb 'to want'. 'Want' or 'wish', whichever reads more naturally in context ('when a man wants to perform an action', 14:1:4; 'He wished to conceal Himself', 4:5:9). Never 'desire' (רעותא) or 'will' (the noun רצון).",
      "decisions": [
       {
        "section": "14:1:4",
        "surfaceForm": "כאשר ירצה האדם",
        "rationale": "USER RULING 2026-11-17 (terminology doc, 'New clashes'): words never ruled whose English collided with the volitional and hidden/concealed rulings.",
+       "timestamp": "2026-11-17"
+      },
+      {
+       "section": "4:5:9",
+       "surfaceForm": "רצה",
+       "rationale": "USER RULING 2026-11-17: 'want' or 'wish' by context; the existing 'wish' renderings stay.",
        "timestamp": "2026-11-17"
       }
      ]
@@ -9724,7 +9730,7 @@
      "rendering": "wants"
     }
    },
-   "notes": "Ruled 2026-11-17. Conversion pending."
+   "notes": "Ruled 2026-11-17. Applied (14:1:4, 14:1:6, 4:5:1, 7:1:4); existing \"wish\" renderings stay."
   },
   "כסה": {
    "headword": "כִּסָּה / מְכֻסֶּה / אִתְכְּסִי (Aram.)",
