@@ -461,8 +461,15 @@
         });
         META.index.forEach((gate, g) => {
             const det = document.createElement("details");
-            if (g === 0) det.open = true;
+            // No gate is open by default: open() opens the current chapter's.
             if (!isGateTranslated(g)) det.classList.add("untranslated");
+            // One gate open at a time: opening this one closes the others.
+            det.addEventListener("toggle", () => {
+                if (!det.open) return;
+                tocPanel.querySelectorAll("details[open]").forEach((d) => {
+                    if (d !== det) d.open = false;
+                });
+            });
             const sum = document.createElement("summary");
             const gateInfo = META.gates[g];
             sum.innerHTML =
@@ -498,15 +505,71 @@
                         : "Chapter " + (c + 1));
                 if (linkable) row.onclick = () => open(g, c);
                 if (linkable) row.onkeydown = (e) => {
+                    if (e.target !== row) return;
                     if (e.key === "Enter" || e.key === " ") {
                         e.preventDefault();
                         open(g, c);
                     }
                 };
                 det.appendChild(row);
+                if (g === GLOSSARY_GATE && linkable) addEntryList(det, row, g, c);
             });
             tocPanel.appendChild(det);
         });
+    }
+
+    // Gate 23, the Glossary of Titles: each chapter can open a third level
+    // listing its entries (the titles), each linking to its paragraph. An
+    // entry is a paragraph that opens with its title in bold followed by a
+    // bracket with the Hebrew, e.g. "<b>Father</b> [<span …>אב</span>, …]".
+    const GLOSSARY_GATE = 22;
+    const ENTRY_RE = /^\s*<b>([\s\S]*?)<\/b>\s*\[/;
+    function glossaryEntries(g, c) {
+        const out = [];
+        (DATA.text[g][c] || []).forEach((html, p) => {
+            const m = ENTRY_RE.exec(html || "");
+            if (m) out.push({ p, title: textOf(m[1]).trim() });
+        });
+        return out;
+    }
+    function addEntryList(det, row, g, c) {
+        const entries = glossaryEntries(g, c);
+        if (!entries.length) return;
+        const list = el("div", "toc-entries", "");
+        list.hidden = true;
+        const btn = el("button", "chap-toggle", "");
+        btn.type = "button";
+        btn.setAttribute("aria-expanded", "false");
+        btn.setAttribute("aria-label", "Show the titles in this chapter");
+        btn.title = entries.length + " titles";
+        btn.addEventListener("click", (e) => {
+            e.stopPropagation(); // don't open the chapter
+            const opening = list.hidden;
+            // One chapter's titles open at a time.
+            document.querySelectorAll("#toc-panel .toc-entries").forEach((l) => {
+                l.hidden = true;
+                l.previousElementSibling
+                    .querySelector(".chap-toggle")
+                    .setAttribute("aria-expanded", "false");
+            });
+            list.hidden = !opening;
+            btn.setAttribute("aria-expanded", String(opening));
+        });
+        row.appendChild(btn);
+        for (const { p, title } of entries) {
+            const item = el("div", "toc-entry", title);
+            item.tabIndex = 0;
+            const go = () => open(g, c, { para: p });
+            item.onclick = go;
+            item.onkeydown = (e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    go();
+                }
+            };
+            list.appendChild(item);
+        }
+        det.appendChild(list);
     }
 
     function setTab(tab) {
