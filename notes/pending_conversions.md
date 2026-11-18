@@ -272,3 +272,4 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
 - Batch: "Mishnah" → *mishnah* where it means a paragraph of the Sefer Yetzirah or another text (73 sites to check; 20 in Gate 1). Ruling 18 Nov.
 - Batch: רוגז / רוגזא → "agitation" (ruled 18 Nov; ~17 paragraphs, mostly Gate 8; now "anger"/"wrath").
 - Batch, anger/destruction cluster ruled 18 Nov (lexicon entries אף, חמה, חרון, עברה, קצף, כעס, חבל): חמה "wrath" → "fury" (incl. the names "Wrath [Cheimah]" → "Fury [Cheimah]" at 23:13:104, 26:3:1, 31:3:8); קצף → "outburst" (9:2:1, 25:4:8); עברה → "rage" (25:4:10); כעס → "irritation"; מחבל → "spoil/spoiler", חבלה → "ruin", מלאכי חבלה → "angels of ruin". Check every "wrath" against the Hebrew.
+- Batch, 18 Nov: זעם → "indignation"; מזיקין → "harmful spirits", מזיק → "harmful"; עון → "iniquity" wherever it now reads "sin" (check against the Hebrew).

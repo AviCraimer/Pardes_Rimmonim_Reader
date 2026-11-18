@@ -10272,6 +10272,178 @@
     }
    },
    "notes": "Ruled 2026-11-18. Conversion pending: ~9 paragraphs (8:10:1, 18:5:7, 18:6:1, 20:7:4, 21:13:11, 23:8:5, 23:21:68, 24:15:3, 25:5:2)."
+  },
+  "זעם": {
+   "headword": "זַעַם",
+   "transliteration": "za'am",
+   "partOfSpeech": "noun",
+   "rendering": "indignation",
+   "candidates": [
+    {
+     "target": "indignation",
+     "status": "preferred",
+     "contextNotes": "Anger declared against a wrong (Ps. 7:12, 'God is indignant every day'); a state: 'faces of indignation' (23:17:13), judgment and indignation increasing (8:8:4). The angel Za'amiel. Not 'curse' (ארר, קללה).",
+     "decisions": [
+      {
+       "section": "23:17:13",
+       "surfaceForm": "זעם",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on iniquity, destruction and anger words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    },
+    {
+     "target": "cursing",
+     "status": "rejected",
+     "contextNotes": "'curse' belongs to ארר / קללה, and זעם is a state here."
+    }
+   ],
+   "surfaceForms": {
+    "זעם": {
+     "rendering": "indignation"
+    },
+    "והזעם": {
+     "rendering": "and the indignation"
+    },
+    "זועם": {
+     "rendering": "is indignant"
+    }
+   },
+   "notes": "Ruled 2026-11-18. Conversion pending: 8:8:4, 20:5:3, 20:12:2, 23:17:13, 25:4:7 (now 'wrath' / 'rage' / 'indignation')."
+  },
+  "מזיק": {
+   "headword": "מַזִּיק / מַזִּיקִין",
+   "transliteration": "mazzik / mazzikin",
+   "partOfSpeech": "noun; adjective",
+   "rendering": "harmful spirits; harmful",
+   "candidates": [
+    {
+     "target": "harmful spirits; harmful",
+     "status": "preferred",
+     "contextNotes": "From נזק 'damage': harm done, not evil intent. Plural noun 'harmful spirits' (demons, 7:4:5, 16:1:11, 25:5:3); adjective 'harmful' (2:6:1 light too bright, 24:11:5 a refuse heap). Zohar נזקי עלמא 'the harmers of the world' at 31:10:7 may follow when converted.",
+     "decisions": [
+      {
+       "section": "25:5:3",
+       "surfaceForm": "מזיקין",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on iniquity, destruction and anger words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    },
+    {
+     "target": "malefactors",
+     "status": "rejected",
+     "contextNotes": "Implies a wrongdoer; fails for the non-demonic uses."
+    }
+   ],
+   "surfaceForms": {
+    "מזיקין": {
+     "rendering": "harmful spirits"
+    },
+    "המזיקים": {
+     "rendering": "the harmful spirits"
+    },
+    "מזיק": {
+     "rendering": "harmful"
+    }
+   },
+   "notes": "Ruled 2026-11-18. Conversion pending: ~8 paragraphs."
+  },
+  "עון": {
+   "headword": "עָווֹן",
+   "transliteration": "avon",
+   "partOfSpeech": "noun",
+   "rendering": "iniquity",
+   "candidates": [
+    {
+     "target": "iniquity",
+     "status": "preferred",
+     "contextNotes": "Guilt with its consequence; the triad עון / פשע / חטא (Exod. 34:7) = iniquity / transgression / sin. Husk name: 'Iniquity [Avon]'.",
+     "decisions": [
+      {
+       "section": "31:3:8",
+       "surfaceForm": "עון",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on iniquity, destruction and anger words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "עון": {
+     "rendering": "iniquity"
+    },
+    "העון": {
+     "rendering": "the iniquity"
+    },
+    "עונות": {
+     "rendering": "iniquities"
+    }
+   },
+   "notes": "Ruled 2026-11-18. Check the ~70 paragraphs for 'sin' standing for עון."
+  },
+  "חטא": {
+   "headword": "חֵטְא",
+   "transliteration": "chet",
+   "partOfSpeech": "noun; verb",
+   "rendering": "sin",
+   "candidates": [
+    {
+     "target": "sin",
+     "status": "preferred",
+     "contextNotes": "Missing the mark; the general word.",
+     "decisions": [
+      {
+       "section": "31:10:8",
+       "surfaceForm": "חטא",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on iniquity, destruction and anger words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "חטא": {
+     "rendering": "sin"
+    },
+    "החטא": {
+     "rendering": "the sin"
+    },
+    "חטאים": {
+     "rendering": "sins"
+    }
+   },
+   "notes": "Ruled 2026-11-18. Text already has 'sin'."
+  },
+  "פשע": {
+   "headword": "פֶּשַׁע",
+   "transliteration": "pesha",
+   "partOfSpeech": "noun",
+   "rendering": "transgression",
+   "candidates": [
+    {
+     "target": "transgression",
+     "status": "preferred",
+     "contextNotes": "Deliberate rebellion (Exod. 34:7).",
+     "decisions": [
+      {
+       "section": "8:13:3",
+       "surfaceForm": "פשע",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on iniquity, destruction and anger words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "פשע": {
+     "rendering": "transgression"
+    },
+    "פשעים": {
+     "rendering": "transgressions"
+    }
+   },
+   "notes": "Ruled 2026-11-18. Text already has 'transgression'."
   }
  }
 }
