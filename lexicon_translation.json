@@ -9379,40 +9379,58 @@
    "headword": "סָתוּם / סְתִים (Aram.)",
    "transliteration": "satum / setim",
    "partOfSpeech": "adjective",
-   "rendering": "closed",
+   "rendering": "enclosed",
    "candidates": [
     {
-     "target": "closed",
+     "target": "enclosed; enclosing; enclosure",
      "status": "preferred",
-     "contextNotes": "Shut, with no opening (Dan. 12:9 סתומים וחתומים 'closed and sealed'). Zohar סתים וגליא = 'closed and revealed'; עתיקא סתימאה = 'the closed Ancient One'; Keter's 'hard, closed membrane' (4:1:6); 'when the tracks are closed' (20:2:5). Not 'sealed' (חתום).",
+     "contextNotes": "Shut in on every side, insulated from contact. 'Enclosed' for the adjective (סתים וגליא = 'enclosed and revealed'; עתיקא סתימאה = 'the Enclosed Ancient One'; 'when the tracks are enclosed', 20:2:5); 'enclosing' where it describes what shuts off ('a hard, enclosing membrane', 4:1:6); noun בסתימו = 'enclosure'. Title סתימא דכל סתימין = 'the Enclosure of all enclosures'. Patach Eliyahu סתים על כל סתימין = 'Enclosed tighter than all the enclosed' (4:5:1). Kept: the closed Mem (letter form); obscure words or statements = 'obscure'; the kometz is a 'clenched fist'.",
      "decisions": [
       {
-       "section": "20:2:5",
-       "surfaceForm": "שבילין סתימין",
-       "rationale": "USER RULING 2026-11-17 (terminology doc, 'Hidden and concealed'): נעלם / העלם = concealed / concealment; נסתר / הסתר = hidden / hiding; סתום / סתים (Aram.) = closed; טמיר (Aram.) = concealed, as the Aramaic of נעלם (Cordovero paraphrases טמיר וגניז as גנוז ונעלם, 3:2:1 / 3:2:4); גנוז / אתגניז = stored away; סוד / רזא = secret; כמוס / צפון = treasured. Cordovero's own distinction (12:3:17): נסתר is what is sometimes revealed, נעלם what is never revealed.",
+       "section": "20:8:2",
+       "surfaceForm": "סתימא דכל סתימין",
+       "rationale": "USER RULING 2026-11-17: 'enclosed' replaces 'closed' (ruled earlier the same day), because the passages are about being insulated from contact. Fixed forms chosen by Avi: 'the Enclosure of all enclosures', 'Enclosed tighter than all the enclosed', 'a hard, enclosing membrane'.",
        "timestamp": "2026-11-17"
       }
      ]
+    },
+    {
+     "target": "closed",
+     "status": "rejected",
+     "contextNotes": "Ruled and applied 17 Nov, replaced the same day: too flat for the image of insulation.",
+     "decisions": []
+    },
+    {
+     "target": "sequestered / occluded",
+     "status": "rejected",
+     "contextNotes": "Considered 17 Nov.",
+     "decisions": []
     }
    ],
    "surfaceForms": {
     "סתים": {
-     "rendering": "closed"
+     "rendering": "enclosed"
     },
     "סתימין": {
-     "rendering": "closed"
+     "rendering": "enclosed"
     },
     "סתימאה": {
-     "rendering": "closed"
+     "rendering": "enclosed"
     },
     "סתום": {
-     "rendering": "closed"
+     "rendering": "enclosed"
     },
     "סתומים": {
-     "rendering": "closed"
+     "rendering": "enclosed"
     },
     "וסתומים": {
-     "rendering": "and closed"
+     "rendering": "and enclosed"
+    },
+    "בסתימו": {
+     "rendering": "in enclosure"
+    },
+    "סתימא דכל סתימין": {
+     "rendering": "the Enclosure of all enclosures"
     }
    },
    "notes": "Ruled 2026-11-17. Conversion pending."
