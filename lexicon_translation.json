@@ -9983,6 +9983,52 @@
     }
    },
    "notes": "Ruled 2026-11-18; the Gate 31 text already follows it."
+  },
+  "רוגז": {
+   "headword": "רֹגֶז / רוּגְזָא (Aram.)",
+   "transliteration": "rogez / rugza",
+   "partOfSpeech": "noun",
+   "rendering": "agitation",
+   "candidates": [
+    {
+     "target": "agitation",
+     "status": "preferred",
+     "contextNotes": "Root רגז 'tremble, quake'; unrest as the opposite of rest (Job 3:26; Zohar: the pleasing odour 'rests' the רוגזא, and there is נייחא). Covers both the trembling and the anger. 8:6 'no agitation and no judgment there'; 8:12:4 'calms the agitation'. Not 'anger' (אף), not 'rage' (proposed for עברה), not 'wrath'.",
+     "decisions": [
+      {
+       "section": "8:6:2",
+       "surfaceForm": "רוגזא",
+       "rationale": "USER RULING 2026-11-18 (terminology doc, deep dive on anger words).",
+       "timestamp": "2026-11-18"
+      }
+     ]
+    },
+    {
+     "target": "anger",
+     "status": "rejected",
+     "contextNotes": "Belongs to אף."
+    },
+    {
+     "target": "turmoil",
+     "status": "rejected",
+     "contextNotes": "Proposed first; Avi preferred agitation."
+    }
+   ],
+   "surfaceForms": {
+    "רוגז": {
+     "rendering": "agitation"
+    },
+    "רוגזא": {
+     "rendering": "agitation"
+    },
+    "הרוגז": {
+     "rendering": "the agitation"
+    },
+    "ורוגזא": {
+     "rendering": "and agitation"
+    }
+   },
+   "notes": "Ruled 2026-11-18. Conversion pending: about 17 paragraphs, mostly Gate 8 (4:4:1, 8:6:2-3, 8:12:4-6, 8:12:11, 9:2:1, 24:2:6, 24:5:1, 25:4:9 Ragziel 'prince of agitation'); currently 'anger'/'wrath'."
   }
  }
 }
