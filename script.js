@@ -1596,6 +1596,7 @@
         const box = document.getElementById("gloss-results");
         if (!box) return;
         const { rows, terms } = glossResults();
+        glossCount = rows.length;
         const status = document.getElementById("gloss-status");
         const q = glossState.q.trim();
         status.textContent = !terms.length
@@ -1658,8 +1659,8 @@
             clear.type = "button";
             clear.addEventListener("click", () => {
                 glossState.q = "";
-                document.getElementById("gloss-q").value = "";
-                renderGlossResults();
+                document.querySelectorAll("#sheet .gloss-q").forEach((i) => (i.value = ""));
+                glossChanged(clear);
             });
             none.appendChild(clear);
             box.appendChild(none);
@@ -1693,24 +1694,105 @@
         panel.appendChild(list);
     }
 
-    function segmented(label, options, value, onPick) {
+    // The controls: built twice, once in place under the heading and once in
+    // the shelf of the collapsed bar, both driven by glossState.
+    const GLOSS_SCOPES = [["full", "Full entries"], ["titles", "Titles"]];
+    const GLOSS_ORDERS = [["cordovero", "Cordovero's order"], ["en", "English A–Z"]];
+    function segmented(label, key, options) {
         const wrap = el("div", "gloss-seg", "");
         wrap.setAttribute("role", "group");
         wrap.setAttribute("aria-label", label);
         for (const [val, text] of options) {
             const b = el("button", "", text);
             b.type = "button";
-            b.setAttribute("aria-pressed", String(val === value));
+            b.dataset.key = key;
+            b.dataset.val = val;
             b.addEventListener("click", () => {
-                wrap.querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", "false"));
-                b.setAttribute("aria-pressed", "true");
-                onPick(val);
+                if (glossState[key] === val) return;
+                glossState[key] = val;
+                saveGlossPrefs();
+                glossChanged(b);
             });
             wrap.appendChild(b);
         }
         return wrap;
     }
+    function glossControls() {
+        const box = el("div", "gloss-controls", "");
+        const label = el("label", "gloss-search", "");
+        label.appendChild(el("span", "gloss-label", "Search"));
+        const input = document.createElement("input");
+        input.type = "search";
+        input.className = "gloss-q";
+        input.autocomplete = "off";
+        input.placeholder = "e.g. Tiferet, tower, מגדל";
+        let timer = null;
+        input.addEventListener("input", () => {
+            clearTimeout(timer);
+            timer = setTimeout(() => {
+                glossState.q = input.value;
+                glossChanged(input);
+            }, 150);
+        });
+        label.appendChild(input);
+        box.appendChild(label);
+        const sw = el("div", "gloss-switches", "");
+        sw.appendChild(segmented("Search in", "scope", GLOSS_SCOPES));
+        sw.appendChild(segmented("Order", "order", GLOSS_ORDERS));
+        box.appendChild(sw);
+        return box;
+    }
+    // Bring every copy of the controls, and the bar's summary, in line with
+    // glossState.
+    let glossCount = 0;
+    function syncGlossControls() {
+        document.querySelectorAll("#sheet .gloss-q").forEach((i) => {
+            if (i.value !== glossState.q && document.activeElement !== i) i.value = glossState.q;
+        });
+        document.querySelectorAll("#sheet .gloss-seg button").forEach((b) =>
+            b.setAttribute("aria-pressed", String(glossState[b.dataset.key] === b.dataset.val))
+        );
+        const sum = document.querySelector("#sheet .gloss-bar-summary");
+        if (!sum) return;
+        const q = glossState.q.trim();
+        const scope = glossState.scope === "titles" ? "in titles" : "in full entries";
+        const order = (GLOSS_ORDERS.find(([v]) => v === glossState.order) || [])[1];
+        sum.textContent = "";
+        sum.appendChild(el("span", "gloss-bar-q", q ? "“" + q + "” " + scope : "All titles"));
+        sum.appendChild(el("span", "gloss-bar-meta", " · " + order + " · " + glossCount));
+    }
+    // A change from the controls: re-list and sync the other copy. When the
+    // change came from the shelf, show the new results from their start.
+    function glossChanged(source) {
+        renderGlossResults();
+        syncGlossControls();
+        if (source && source.closest(".gloss-shelf")) {
+            const main = document.querySelector("main");
+            const results = document.getElementById("gloss-results");
+            const bar = document.querySelector("#sheet .gloss-bar");
+            const offset =
+                results.getBoundingClientRect().top -
+                main.getBoundingClientRect().top -
+                (bar ? bar.querySelector(".gloss-bar-row").offsetHeight : 0);
+            if (offset < 0) main.scrollTop += offset;
+        }
+    }
 
+    function setShelf(open) {
+        const bar = document.querySelector("#sheet .gloss-bar");
+        if (!bar) return;
+        bar.classList.toggle("shelf-open", open);
+        bar.querySelector(".gloss-bar-toggle").setAttribute("aria-expanded", String(open));
+        bar.querySelector(".gloss-shelf").inert = !open;
+        if (open) {
+            setTimeout(() => {
+                const q = bar.querySelector(".gloss-shelf .gloss-q");
+                if (q) q.focus({ preventScroll: true });
+            }, 60);
+        }
+    }
+
+    let glossObserver = null;
     function openGlossary(opts) {
         const { updateUrl = true, restore = false } = opts || {};
         if (!DATA) {
@@ -1734,43 +1816,68 @@
             META.gates[GLOSSARY_GATE].title + "</div>" +
             '<h1>All the titles<span class="rule"></span></h1>' +
             '<p class="gloss-intro">Every title Cordovero explains in this gate. Search the entries or the titles, in English or Hebrew, and read them in his order or A–Z. Each title opens its entry.</p>' +
-            '<div class="gloss-controls">' +
-            '<label class="gloss-search"><span class="gloss-label">Search</span>' +
-            '<input id="gloss-q" type="search" autocomplete="off" placeholder="e.g. Tiferet, tower, מגדל"></label>' +
-            '<div class="gloss-switches"></div></div>' +
+            // The collapsed bar: sticks to the top once the controls below it
+            // have scrolled away (anchored here so it is pinned whenever the list shows). Its shelf folds the controls down over the list.
+            '<div class="gloss-sticky"><div class="gloss-bar">' +
+            '<div class="gloss-bar-row">' +
+            '<p class="gloss-bar-summary"></p>' +
+            '<button type="button" class="gloss-bar-toggle" aria-expanded="false" aria-label="Search and order">' +
+            '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15 15l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>' +
+            '<svg class="gloss-bar-chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+            "</button></div>" +
+            '<div class="gloss-shelf"><div class="gloss-shelf-inner"></div></div>' +
+            "</div></div>" +
+            '<div class="gloss-inline"></div>' +
             '<p class="gloss-status" id="gloss-status" aria-live="polite"></p>' +
             '<div id="gloss-results"></div>' +
             SHEET_FOOTER;
-        const switches = sheet.querySelector(".gloss-switches");
-        switches.appendChild(
-            segmented("Search in", [["full", "Full entries"], ["titles", "Titles"]], glossState.scope, (v) => {
-                glossState.scope = v;
-                saveGlossPrefs();
-                renderGlossResults();
-            })
+        const inline = glossControls();
+        sheet.querySelector(".gloss-inline").appendChild(inline);
+        sheet.querySelector(".gloss-shelf-inner").appendChild(glossControls());
+        const bar = sheet.querySelector(".gloss-bar");
+        bar.querySelector(".gloss-bar-toggle").addEventListener("click", () =>
+            setShelf(!bar.classList.contains("shelf-open"))
         );
-        switches.appendChild(
-            segmented("Order", [["cordovero", "Cordovero's order"], ["en", "English A–Z"]], glossState.order, (v) => {
-                glossState.order = v;
-                saveGlossPrefs();
-                renderGlossResults();
-            })
-        );
-        const input = sheet.querySelector("#gloss-q");
-        input.value = glossState.q;
-        let timer = null;
-        input.addEventListener("input", () => {
-            clearTimeout(timer);
-            timer = setTimeout(() => {
-                glossState.q = input.value;
-                renderGlossResults();
-            }, 150);
+        bar.addEventListener("keydown", (e) => {
+            if (e.key === "Escape") {
+                setShelf(false);
+                bar.querySelector(".gloss-bar-toggle").focus();
+            }
         });
+        setShelf(false);
+        // Show the bar once the controls in place have scrolled out of view.
+        const main = document.querySelector("main");
+        if (glossObserver) glossObserver.disconnect();
+        glossObserver = new IntersectionObserver(
+            ([entry]) => {
+                const stuck =
+                    !entry.isIntersecting &&
+                    entry.boundingClientRect.top < (entry.rootBounds ? entry.rootBounds.top : 0);
+                bar.classList.toggle("shown", stuck);
+                bar.querySelector(".gloss-bar-row").inert = !stuck;
+                if (!stuck) setShelf(false);
+            },
+            { root: main, threshold: 0 }
+        );
+        glossObserver.observe(inline);
         renderGlossResults();
+        syncGlossControls();
         document.body.classList.remove("nav-open");
         syncMenuBtn();
-        document.querySelector("main").scrollTop = restore ? glossState.scrollTop : 0;
+        main.scrollTop = restore ? glossState.scrollTop : 0;
     }
+    // The shelf folds back up when the reader scrolls the list themselves.
+    ["wheel", "touchmove"].forEach((type) =>
+        document.querySelector("main").addEventListener(
+            type,
+            (e) => {
+                if (curView !== "glossary") return;
+                if (e.target && e.target.closest && e.target.closest(".gloss-shelf")) return;
+                if (document.querySelector("#sheet .gloss-bar.shelf-open")) setShelf(false);
+            },
+            { passive: true }
+        )
+    );
     document.querySelector("main").addEventListener(
         "scroll",
         () => {
@@ -1781,7 +1888,10 @@
     // When the Hebrew arrives, a full-entry search already on screen can now
     // include it.
     hebReady.then(() => {
-        if (curView === "glossary" && glossState.q.trim() && glossState.scope === "full") renderGlossResults();
+        if (curView === "glossary" && glossState.q.trim() && glossState.scope === "full") {
+            renderGlossResults();
+            syncGlossControls();
+        }
     });
 
     window.addEventListener("hashchange", function () {

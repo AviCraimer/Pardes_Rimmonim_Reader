@@ -428,6 +428,108 @@ details.untranslated summary .gate-title,
     font-size: 0.75rem;
     color: #9a8db0;
 }
+/* glossary: the collapsed bar and its shelf */
+.gloss-sticky {
+    position: sticky;
+    top: 0;
+    height: 0;
+    z-index: 4;
+    margin: 0 -1rem;
+}
+.gloss-bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    transform: translateY(-110%);
+    opacity: 0;
+    pointer-events: none;
+    transition:
+        transform 0.22s ease,
+        opacity 0.18s;
+}
+.gloss-bar.shown {
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+}
+.gloss-bar-row {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.35rem 0.5rem 0.35rem 1rem;
+    background: var(--paper);
+    border-bottom: 1px solid #c9b48d;
+    box-shadow: 0 6px 14px -10px rgba(0, 0, 0, 0.5);
+}
+.gloss-bar-summary {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    font-size: 0.92rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gloss-bar-q {
+    color: var(--pom);
+}
+.gloss-bar-meta {
+    color: var(--ink-soft);
+}
+.gloss-bar-toggle {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.15rem;
+    height: 44px;
+    padding: 0 0.55rem;
+    border: 1px solid #c9b48d;
+    border-radius: 8px;
+    background: #fbf6e9;
+    color: var(--ink);
+    cursor: pointer;
+}
+.gloss-bar-toggle svg {
+    width: 22px;
+    height: 22px;
+}
+.gloss-bar-toggle .gloss-bar-chev {
+    width: 18px;
+    height: 18px;
+    transition: transform 0.2s;
+}
+.gloss-bar.shelf-open .gloss-bar-chev {
+    transform: rotate(180deg);
+}
+/* The shelf folds down over the list (0fr -> 1fr animates its height). */
+.gloss-shelf {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.25s ease;
+    background: var(--paper);
+    box-shadow: 0 14px 24px -14px rgba(0, 0, 0, 0.55);
+    border-bottom: 1px solid transparent;
+}
+.gloss-bar.shelf-open .gloss-shelf {
+    grid-template-rows: 1fr;
+    border-bottom-color: #c9b48d;
+}
+.gloss-shelf-inner {
+    overflow: hidden;
+    min-height: 0;
+}
+.gloss-shelf .gloss-controls {
+    padding: 0.8rem 1rem 1rem;
+}
+/* Leave room for the fixed menu button where it overlaps the page. */
+@media (max-width: 1180px) {
+    .gloss-bar-row {
+        padding-left: 3.6rem;
+    }
+}
 /* ---- sidebar tabs ---- */
 .nav-tabs {
     display: flex;
