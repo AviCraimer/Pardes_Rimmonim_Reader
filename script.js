@@ -538,6 +538,8 @@
         const list = el("div", "toc-entries", "");
         list.hidden = true;
         const btn = el("button", "chap-toggle", "");
+        btn.innerHTML =
+            '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 2.5 L12.5 8 L5 13.5 Z" fill="currentColor"/></svg>';
         btn.type = "button";
         btn.setAttribute("aria-expanded", "false");
         btn.setAttribute("aria-label", "Show the titles in this chapter");

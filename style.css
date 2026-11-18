@@ -167,11 +167,13 @@ details.untranslated summary .gate-title,
     font-size: 0.75rem;
     cursor: pointer;
 }
-.chap-toggle::before {
-    content: "▸";
+.chap-toggle svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
     transition: transform 0.15s;
 }
-.chap-toggle[aria-expanded="true"]::before {
+.chap-toggle[aria-expanded="true"] svg {
     transform: rotate(90deg);
 }
 .chap-toggle:hover {
