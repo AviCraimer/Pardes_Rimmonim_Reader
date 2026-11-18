@@ -236,3 +236,4 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
 - 23:11:36 (כתנות עור): the entry gives only a reference (Tikkun 59, fol. 90a) and no explanation; the text seems to have dropped it.
 - 23:12:18: ends "like this:" with no figure in the edition.
 - 23:14:31 opens with "ע' בעס"ר" before the entry נצב, apparently a stray cross-reference; kept in brackets, untranslated. 23:14:5 cites Zohar Lekh "fol. 44a" (Lekh is around fol. 77–96; probably 84a?), marked with "[read 84a?]". 23:14:15–16 and 17–18 split mid-citation in the Hebrew; the English keeps the split. נתיבות פליאות rendered "wondrous paths"; נשמה יתירה / נפש יתירה "additional soul".
+- 23:15:10: the entry סיעתא דשמיא is run into the end of the entry סירכא in the Hebrew paragraph; kept in one paragraph. 23:15:20 repeats "as we explained in its entry" (apparent dittography); translated as it stands.
