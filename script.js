@@ -535,11 +535,16 @@
     }
 
     // Gate 23, the Glossary of Titles: each chapter can open a third level
-    // listing its entries (the titles), each linking to its paragraph. An
-    // entry is a paragraph that opens with its title in bold followed by a
-    // bracket with the Hebrew, e.g. "<b>Father</b> [<span …>אב</span>, …]".
+    // listing its entries (the titles), each linking to its paragraph. Each
+    // entry is marked in translation.json (see TRANSLATION_CONVENTIONS.md):
+    //   <span class="gl-entry-title"><b>Father</b></span>
+    //   [<span class="gl-entry-he" …>אב</span>, <em class="gl-entry-tl">av</em>]: …
+    // A paragraph that opens with the title marker starts an entry; the
+    // paragraphs after it, up to the next one, continue it.
     const GLOSSARY_GATE = 22;
-    const ENTRY_RE = /^\s*<b>([\s\S]*?)<\/b>\s*\[/;
+    const ENTRY_RE = /^\s*<span class="gl-entry-title">([\s\S]*?)<\/span>/;
+    const ENTRY_HE_RE = /<span class="gl-entry-he"[^>]*>([\s\S]*?)<\/span>/;
+    const ENTRY_TL_RE = /<em class="gl-entry-tl">([\s\S]*?)<\/em>/;
     function glossaryEntries(g, c) {
         const out = [];
         (DATA.text[g][c] || []).forEach((html, p) => {
@@ -1471,9 +1476,8 @@
             paras.forEach((html, p) => {
                 const m = ENTRY_RE.exec(html || "");
                 if (m) {
-                    const br = /^\s*<b>[\s\S]*?<\/b>\s*\[([\s\S]*?)\]/.exec(html);
-                    const he = br && /<span[^>]*lang="he"[^>]*>([\s\S]*?)<\/span>/.exec(br[1]);
-                    const tl = br && /<em>([\s\S]*?)<\/em>/.exec(br[1]);
+                    const he = ENTRY_HE_RE.exec(html);
+                    const tl = ENTRY_TL_RE.exec(html);
                     const text = plain(html);
                     cur = {
                         c, p, letter, order: GLOSS.length,
