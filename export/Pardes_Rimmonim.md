@@ -301,28 +301,28 @@ We named it **"The Gate of Titles"** because in it is explained the matter of th
 
 We named it **"Glossary of Titles"** — a sufficient treatment for explaining most of what is found in the Book of the Zohar, for these are the principal ones. Its chapters number twenty-three. *[The printing lists twenty-two chapters, one per letter Aleph through Tav; the stated count of twenty-three appears to be a discrepancy in this edition. Each chapter contains a dictionary-like listing of the Zohar's titles starting with that letter.]*
 
-1. On the entry for the letter Aleph.
-2. On the entry for the letter Bet.
-3. On the entry for the letter Gimel.
-4. On the entry for the letter Dalet.
-5. On the entry for the letter Heh.
-6. On the entry for the letter Vav.
-7. On the entry for the letter Zayin.
-8. On the entry for the letter Chet.
-9. On the entry for the letter Tet.
-10. On the entry for the letter Yod.
-11. On the entry for the letter Kaf.
-12. On the entry for the letter Lamed.
-13. On the entry for the letter Mem.
-14. On the entry for the letter Nun.
-15. On the entry for the letter Samekh.
-16. On the entry for the letter Ayin.
-17. On the entry for the letter Peh.
-18. On the entry for the letter Tzadi.
-19. On the entry for the letter Kuf.
-20. On the entry for the letter Resh.
-21. On the entry for the letter Shin.
-22. On the entry for the letter Tav.
+1. Entries for the letter Aleph
+2. Entries for the letter Bet
+3. Entries for the letter Gimel
+4. Entries for the letter Dalet
+5. Entries for the letter Heh
+6. Entries for the letter Vav
+7. Entries for the letter Zayin
+8. Entries for the letter Chet
+9. Entries for the letter Tet
+10. Entries for the letter Yod
+11. Entries for the letter Kaf
+12. Entries for the letter Lamed
+13. Entries for the letter Mem
+14. Entries for the letter Nun
+15. Entries for the letter Samekh
+16. Entries for the letter Ayin
+17. Entries for the letter Peh
+18. Entries for the letter Tzadi
+19. Entries for the letter Kuf
+20. Entries for the letter Resh
+21. Entries for the letter Shin
+22. Entries for the letter Tav
 
 ### Gate 24: Palaces (*Heikhalot*)
 
@@ -7178,7 +7178,7 @@ We named it **"The Gate of Titles"** because in it is explained the matter of th
 
 We named it **"Glossary of Titles"** — a sufficient treatment for explaining most of what is found in the Book of the Zohar, for these are the principal ones. Its chapters number twenty-three. *[The printing lists twenty-two chapters, one per letter Aleph through Tav; the stated count of twenty-three appears to be a discrepancy in this edition. Each chapter contains a dictionary-like listing of the Zohar's titles starting with that letter.]*
 
-### Chapter 23:1. On the entry for the letter Aleph.
+### Chapter 23:1. Entries for the letter Aleph
 
 **23:1:1** **The Gate of the Glossary of Titles is the Twenty-Third Gate.**
 
@@ -8156,7 +8156,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > אתרוג היא המלכות והיא רמוזה אל הלב שהיא שכינה. ואמנם מלת אתרוג ירצה מלשון ונחמד העץ להשכיל ותרגומו ומרגג. והכוונה כי היא חמודה כנדרש למעלה, ולכן ראוי להיות בלי מום כענין אחת היא יונתי תמתי ברה היא ליולדתה (שה"ש). אמנם נקרא' אתרוג כשהיא גדלה על כל מים שהיא קרובה אל החכמה וכ"פ הרשב"י ע"ה בספר ר"מ (משפטים דף קכ"א). עוד פי' שם מה ששנינו (בכורים פ"ב) אתרוג שוה לאילן בג' דרכים כי היא מקבלת מתלת סטרין שהם חסד דין ורחמים כמו האילן ת"ת. עד הנה הגיע כחינו הכשל והחלש בביאור ערך א' בעזרת אלדים והננו נכנסים לבאר ערך ב' בע"ה ית':
 
-### Chapter 23:2. On the entry for the letter Bet.
+### Chapter 23:2. Entries for the letter Bet
 
 **23:2:1** The letter Bet itself we shall explain in the Gate of Letters; and so we have done for all the letters:
 
@@ -8336,7 +8336,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > בתי גוואי או בראי, הפנימיים הם ג' ספירות ראשונות הנעלמות. והחצוניים הם ז' ספירות הם ז' ימי הבנין. וענין עצבות בבתי גוואי ולא בבתי בראי נתבאר בשער מהות וההנהגה פי"ב [יג]. עד הנה הגיע כחינו הדל בביאור הב'. בעזר אלהי השופע עלינו והננו נכנסים בביאור ערך הג' בעה"ו:
 
-### Chapter 23:3. On the entry for the letter Gimel.
+### Chapter 23:3. Entries for the letter Gimel
 
 **23:3:1** **Redemption** [גאולה, *ge'ulah*] is Binah; for the principal redemption is in the secret of "it may be redeemed, and in the Jubilee it shall go out" (Lev. 25:31). For there, that is, in the redemption, is freedom, as is known; for the judgments of the accusers rise only up to Binah, and not up to and including it. And from it Yesod draws the redemption; and it is called "redeemer" from the side of Binah, and it bestows the redemption on Malkhut. And this is "if he will redeem you, good [*tov*]" (Ruth 3:13), as it is said (Isa. 3:10), "Say of the righteous one that it shall be good [*tov*]"; "and if not" [that is,] if he is not able, "then I [*anokhi*] will redeem you": Binah, as we explained in its entry. So Rashbi, peace be upon him, explained in the Tikkunim. And in the Zohar, Parashat Emor (fol. 95b), he explained that Malkhut is called "redeemer" by means of Yesod, which bestows in her by means of Netzach and Hod, which assist the coupling, as it is known that they are the two testicles of the male. And he said there that therefore the four of them together, Netzach, Hod, Yesod and Malkhut, are called "four redemptions":
 
@@ -8462,7 +8462,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > גר לפעמים הת"ת חוץ ממקומו והוא גולה בסבת העונות כנודע. כצפור נודדת מקנה כן איש נודד וגו' (משלי כז ח). וכביכול משפיע אל החיצונים ואז נקרא ג"ר וע"ז אמר מרע"ה שמדרגתו הת"ת כי גר הייתי בארץ נכריה (שמות יח ג). ומטעם זה נקרא המתגייר גר כי הוא היה עומד עד עתה במקום הקליפ' בארץ נכריה יונק יין נסיכם השפעת סורי הגפן נכריה רחמנא ליצלן. עד הנה הגיע דלות דעתינו בביאור אות גימל. והננו נכנסנו בביאור אות ד' בעזרת הבינה השופע בינה על בריותיו:
 
-### Chapter 23:4. On the entry for the letter Dalet.
+### Chapter 23:4. Entries for the letter Dalet
 
 **23:4:1** **Speech** [דבור, *dibbur*] is the Shekhinah, Malkhut; and she is so called for the reason that Tiferet is called voice and Malkhut speech. Just as speech is the dividing of the voices, the movements of the articulation, so Malkhut is the revealing of Tiferet, and shows him in his movements. And she is so called from the side of Gevurah, for every *dibbur* is a language of harshness. And not on this account do we deny that it is found in the other levels, as he explained in the Zohar, Parashat Lekh (fol. 86b), and these are his words: "Rabbi Eleazar said: We have been roused [to note that] *va-yagged* [and he told], *va-yedabber* [and he spoke] and *va-yomer* [and he said] are each explained according to its reason. *Va-yedabber* is in the revealing of the outer level, which is not the inner level like those upper levels; and this is 'I speak righteousness' (Isa. 45:19). *Va-yagged* is a hint at the inner, upper level, which rules over speech; and this is 'I declare [*maggid*] things that are right [*meisharim*]' (there). What is *meisharim*? This is the upper level, in which Jacob dwells, as it is written, 'You have established equity [*meisharim*]' (Ps. 99:4). And therefore *maggid* is written and not *dover*. Rabbi Isaac said: But it is written, 'And He declared [*va-yagged*] to you His covenant' (Deut. 4:13)! He said to him: It is certainly so: it is a level that rules over the lower one, which is 'I speak righteousness'; and in all of it there is [something] to look into. Come and see: although speech is lower, do not say that it is not upper; rather it is certainly full of everything, and it is an upper level. And your sign: 'For it is not an empty thing [*davar*] for you' (Deut. 32:47)." Thus far his words. And the intent is that Rabbi Eleazar explained that the words *va-yagged*, *va-yedabber* and *va-yomer* are different levels: for *va-yagged* is from the side of Chokhmah, as will be explained in the entry *haggadah*; *va-yomer* is Malkhut from the side of Tiferet, as we explained in its entry; and *va-yedabber* is in Malkhut herself. And for this reason the verse did not say "I speak righteousness and equity," [or] "I declare righteousness and equity," but "I speak righteousness, I declare equity": for with *tzedek* [righteousness], which is Malkhut, it used the language of speech, which is right for her; and with *meisharim*, which is Tiferet, it used the language of *haggadah*, which is a language right for the one who emanates the *meisharim*. And by this the words of Rabbi Eleazar are explained. And because Rabbi Eleazar said that *maggid* is found only with *meisharim*, and it was not possible to say "I declare righteousness and equity," for the language of *haggadah* is not right for Malkhut, therefore [Rabbi Isaac] objected to him from the verse "And He declared to you His covenant." And there is no doubt that it was not hidden from him that "covenant" may be in Yesod, as we explained in its entry; and nevertheless it was difficult [for him], for there is no *haggadah* in the place that Rabbi Eleazar assigned to us. And Rabbi Eleazar answered that since it is above Malkhut, it is possible that it is related to Yesod; and this covenant is an upper level relative to *tzedek*, and therefore *maggid* can properly be said of it; but in *tzedek* it is not found in any way, and therefore it did not say "I declare righteousness and equity." And in order to guard against objection, he said that although we assign these places to them, not on this account do we deny that, in a remote way, they are found outside their places. And this is what he said, "and in all of it there is [something] to look into": the explanation, they need looking into, for sometimes it is found outside their places for known reasons, in the matter of the aspects and the manifestations. And this is what he said, "Come and see: although speech is lower, do not say," etc.: for sometimes it too is found related to upper levels. And the reason is that it always means Malkhut, but [sometimes the intent is] the upper level that is revealed in Malkhut. And this is what he said, "rather it is certainly full of everything": for this attribute that is related to speech is an attribute in which all the attributes are seen; and therefore through her it is related also to the upper attributes. "And your sign: 'For it is not an empty thing'": the explanation, the word *dibbur* is only from the attribute *hu* [He], which is Tiferet. Thus far the explanation of the saying. And from it it is explained that the principal [place] of speech is in Malkhut, and it is related also to the upper attributes, remotely and by means of Malkhut:
 
@@ -8564,7 +8564,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > דרכים פי' בזהר פרשת מקץ (דף קצ"ז ע"ב) כי דרכים הם צנורות שבהם משפיעים הגדולה והגבורה והת"ת אל המלכות כשמקבלים מהבינה והם נקראים דרכים בערך שהם נגלים ומושגים לכל כדרך הזה שהוא מבוא לכל. מה שאין כן בנתיבות שהם נעלמות כמבואר במקומו. ובתקונים פי' כי סתם דרך הוא התפארת והכריח הענין מהכתוב (במדבר כד יז) דרך כוכב מיעקב וכן דרך הנשר בשמים (משלי ל יט). ועם היות שיש פעמים רבות שדרך הוא נקבה כמו דרך נשים לי (בראשית לא לה) וכן הני שפי' ריש מסכת קדושין כי יש דרך שהוא לשון נקבה. הכוונה שהוא נמשך מן הזכרים אל הנקבות והיינו דרך גבר בעלמה (משלי ל יט). עד הנה הגיע עניות דעתנו בביאור ערך הזה והננו נכנסים בביאור ערך אות ה' בעזרת העוזר דלים ואביונים בתורה:
 
-### Chapter 23:5. On the entry for the letter Heh.
+### Chapter 23:5. Entries for the letter Heh
 
 **23:5:1** On the letter Heh: the letter itself is explained in the Gate of Letters. However, there is a difference between its coming at the head of the word and its coming at the end of the word, as in *shim'ah* [hear], *selichah* [forgive], *hakshivah* [hearken] (Dan. 9:19), where it is a hint at the last attribute; and so they explained in the Zohar, Parashat Chayyei (perhaps he means fol. 132a). And a Heh at the head of the word is a hint at Binah, and at the end of the word at Malkhut. And nevertheless this rule does not always hold. And these are the words of the Zohar in Parashat Terumah (fol. 168): "*Ha-motzi* [who brings forth]: why *ha-motzi* and not *motzi*? For it is written, 'who creates [*bore*] the heavens' (Isa. 42:5), and not '*ha-bore* the heavens'; 'who made [*oseh*] the earth' (Isa. 45:18), and not '*ha-oseh* the earth.' Why here *ha-motzi*? Rather, all the words that are from the secret of the upper, hidden world, the Heh is hidden from there, to show that it is from the stored-away and hidden world. And all the words that are from the lower world, which is more revealed, are written with Heh, as it is written, '*ha-motzi* their host by number' (Isa. 40:26), '*ha-kore* [who calls] to the waters of the sea' (Amos 5:8): all of them are from the secret of the lower world. And if it is written in a name, it is with Heh, as '*ha-El* the great.' And here, where it is in a closed way, it is from the secret of the lower world." Thus far his words.
 
@@ -8674,7 +8674,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > התקפתא פי' הרשב"י ע"ה בתקונים (תקונא כ"א דף מ"ד) כי המלכות מצד החסד נקרא התקפתא. והכריח כן מפסוק ימינך ה' נאדרי בכח ותרגום בתוקפא. והאמת שהיא מצד הגבורה שבגדולה שכן הכריח בזהר דשמאלא אתכליל בימינא מן הפסוק הזה. ואין ספק כי כ"ח הוא מצד הבינה בסוד הדין אל השמאל ומשם נכלל החסד בגבורה. עד הנה הגיע עיון שכלנו בביאור ערך אות ה' והננו נכנסים בביאור אות ו' בס"ד:
 
-### Chapter 23:6. On the entry for the letter Vav.
+### Chapter 23:6. Entries for the letter Vav
 
 **23:6:1** The letter Vav we shall explain in the Gate of Letters, with the help of the Name. However, a Vav at the head of a word shows Tiferet; and even though the word itself hints at Malkhut, as *ve-attah* [and now], *ve-attah* [and You], *va-ani* [and I], *ve-zot* [and this], the hint is at Tiferet and Malkhut united. And this is a great principle for everything like it, in the word *va-YHVH*, which we shall explain with the help of the Name:
 
@@ -8720,7 +8720,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > והנה נכנסים בביאור ערך זי"ן:
 
-### Chapter 23:7. On the entry for the letter Zayin.
+### Chapter 23:7. Entries for the letter Zayin
 
 **23:7:1** **This** [זאת, *zot*] is Malkhut. And these are the words of Rashbi, peace be upon him, in the Tikkunim (in the Introduction, fol. 11b): "And because there is no apprehension for a prophet, a seer or a sage below her, the prophet said, 'Let not the wise man glory in his wisdom,' etc., 'but in this [*be-zot*],' etc. (Jer. 9:22–23). And therefore Jacob taught his sons and gave them a tradition from her, as it is written, 'and this [*ve-zot*] is what their father spoke to them' (Gen. 49:28). And David, who had a tradition from her, said toward her, 'Though a host should encamp against me,' etc., 'in this [*be-zot*] I trust' (Ps. 27:3); he hinted at her with that crown, and his thought rose toward her, and he said, 'my heart shall not fear,' etc. And Aaron, who had a tradition from her, did not enter the innermost [Holy of Holies] without her, as it is written, 'With this [*be-zot*] shall Aaron come into the holy place' (Lev. 16:3); for he knew that she is the root of all, for she is an offering to YHVH, a burnt offering to YHVH, a fire-offering to YHVH. And Israel, who had a tradition from her, did not ask of the Holy One, blessed be He, another pledge, that He would redeem them for its sake from the exile, but *zot*; as it is written, 'And yet for all this [*ve-af gam zot*], when they are in the land of their enemies,' etc. (Lev. 26:44). And the prophet, when he saw the strong distress of Israel in the exile, said for her sake, 'This [*zot*] I recall to my mind,' etc. (Lam. 3:21). 'And this [*ve-zot*] for Judah, and he said,' etc. (Deut. 33:7)." Thus far his words. And behold, this saying is clear for our intent. And the reason [that she is called] *zot* is because she is called *et*, for the reason that we explained in its entry; and when she is doubly good, receiving an addition of good from the seven lamps of the pure lampstand that is on her head, then she is called *zot* [Zayin, 7, with *et*]:
 
@@ -8794,7 +8794,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > זיתים הם האברים העליונים אשר למעלה מיסוד שמהם מוציא היסוד שמן זית זך וכו' שהוא משפיע שפע העליון מאברים העליונים על המלכות. כי כמו שעל ידי כתישות האבר ברית המעור אז האברים נסחטים ומזדעזעים להשפיע בנוקבתו, כן הדבר למעלה ביסוד עם שאר האברים להשפיע אל המלכות. כי השפע הוא שמן והאברים העליונים זיתים כן פי' הרשב"י בתיקונים ובר"מ (פנחס דף רמ"ז ע"א). [וזשה"כ] ושנים זיתים עליה וכו' (זכרי' ג') ופי' כי המנורה היא מלכות כנודע, וגולה על ראשה הוא יסוד כי הוא גולת מים עליונים, ושנים זיתים עליה הם נצח והוד תרין ביעין דדכורא כי שם המשכת הזרע ושם מתבשל כדמיון השמן בזיתים ומשם נשפע ע"י היסוד. אמנם יקראו הספי' זיתים בסוד הימין ששם השמן כאשר יתב' בערכו. אבל מצד שמאל הם ענבים ואשכלות [המושכות יין מהבינה] כדפי' בערכו ויתב' בע"ה. ע"כ הגיע מה שראינו לדבר בערך הזי"ין. והננו מקוים רחמי אל יעזרנו בביאור ערך ח':
 
-### Chapter 23:8. On the entry for the letter Chet.
+### Chapter 23:8. Entries for the letter Chet
 
 **23:8:1** **Bound** [חבוש, *chavush*]: he explained in the Tikkunim (Tikkun 6, fol. 20) that it is Tiferet, bound and imprisoned with Malkhut, from the side of Binah, which binds him with Malkhut within the exile. And of him it is said, "a prisoner cannot free himself from prison" (Berakhot 5b):
 
@@ -9224,7 +9224,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > חתן נקרא הת"ת והסימן כחתן יכהן פאר (ישעיה סא י) ובערך חופה בארנו איך הוא חתן בתוך חופתו. ואמנם נקרא חתן בהתייחדו עם כלתו המלכות והם מתעטרים בסוד עטרות חתנים כדפי' בשער מהות והנהגה. עד הנה הגיע כחנו החלש בביאור אות ח' בעזר אלוה השופע עלינו. ועתה נבא בביאור ערך אות ט':
 
-### Chapter 23:9. On the entry for the letter Tet.
+### Chapter 23:9. Entries for the letter Tet
 
 **23:9:1** **Navel** [טבור, *tabbur*] is the Shekhinah; and the hint in it is at her concealed manifestation, hinted at in the letter Yod. And indeed the body is Tiferet; and the belly is Malkhut from the side of Binah, that is, the manifestation of the Heh, which is the belly that she has from the side of Binah, as is known in the secret of the Heh. And the navel is the manifestation of the Yod, when it is in the belly and in Tiferet; and it is the point from which the world was founded; and it is the navel of the earth, and that is the point of Zion. And there is [room for] study in this, for it is possible that the point of the navel is Yesod; and we shall explain as much as is needed in the entry Zion. And all this is explained in the Tikkunim, one here and one there, scattered and dispersed in many places:
 
@@ -9306,7 +9306,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > טפח כבר בארנו קצת במלה הזאת בערך אמה ושם העתקנו דברי הרשב"י ע"ה בתקונים ושם מבואר כי י' הוא חצי אמה שהם ג' טפחים. אמנם מצאנו בר"מ (פנחס דף רמ"ה ע"ב) שפי' כי טפח שיעורא דיו"ד וז"ל ומסלקו מן הקרקע טפח בגין דאות ה' איהי כוס צריך לסלקא לה באת י' דאיהו טפח דביה אתפתחת ה' בה' אצבען עכ"ל והנה נראה מדבריו בפי' כי שיעורא דיו"ד טפח לבד וקשו תרי מתניתין אהדרי. ונראה לנו ביישוב המאמרים האלה כי עיקר שיעור היו"ד הוא טפח שהוא קמיצת הי"ד וכן נקרא היו"ד קומץ סתום כמו שנראה במקומות הרבה בתיקונים. ובהתפתחו נעשה זרת שהוא ג' טפחים. וכן בהתפתח ונעשה ה' שהוא פתיחת היו"ד כנודע, אז שיעור' ג' טפחים שהם ג' ווי"ן שהם בה' של יו"ד עליונה. והם גדולה גבורה תפארת שהם כללות האצילות בסוד אמ"ש כדפי' בשער מהות וההנהגה. וכן י' קטנה למטה כשהיא נפתחת נפתחת בה' שהוא נצח והוד ויסוד שהם על האמת ג'. והם ג' טפחים והיינו ה' שהם חמשה כי החמשה בריחים נכללים שם בזרת. ושעורו שלשה טפחים היינו אחר התפתחו אל ה' אצבעות דהיינו ה' זרת ודאי וכשאמרו שהוא טפח הוא בהיות הי"ד קמוצה קודם שיתפתח אל הזרת. וזהו שרמז הרשב"י ע"ה במאמר ר"מ באמרו דאיהו טפח דביה אתפתחת, שהוא לרמוז כי לפעמים שעורו זרת שהוא שלשה טפחים כדפי'. וגם במציאות יו"ד עצמה הם נכללים ג' טפחים עם היותה י'. והוא כי י' אית לה קוצא לעילא וקוצא לתתא וגיו באמצעיתא הם ג' יודי"ן נכללים ביו"ד. והיינו פעמים היא יו"ד אחת והיא טפח אחת ופעמים שלש יודי"ן ג' טפחים. עד הנה הגיע שכלנו הדל בביאור אות ט' בעזרת החונן דלים. ועתה נבא לבאר ערך אות י':
 
-### Chapter 23:10. On the entry for the letter Yod.
+### Chapter 23:10. Entries for the letter Yod
 
 **23:10:1** **River** [יאור, *ye'or*]: he explained in the Zohar, Parashat Miketz (fol. 194a), that Yesod is called *ye'or*, and it itself is called *nahar* [river]. And it is already possible to say that all the places that are called *nahar* are called *ye'or*, and *ye'or* and *nahar* are all one matter; and its explanation is the language of light [*or*] and shining [*nehiru*]. And there is a difference between *ye'or* and *nahar*: for *nahar* is when it bestows great effluence and in a rush; and that is also what is explained from the language of "and all the nations shall flow [*ve-naharu*] to it" (Isa. 2:2), the language of rushing; and it is a parable for the abundance of effluence. And *ye'or* is when it bestows, but not so much; for the *ye'or* is a part of the *nahar*, and it is plain. And in the Tikkunim (in Tikkunei Zohar Chadash, fol. 115a) he explained that Tiferet is called *ye'or*, and the reason: "for it is the light [*nehora*] of the Torah." We learn from it two things. First, that Tiferet too is called *ye'or*, as the name *nahar* certainly applies to it. Second, that its language is from the root *or*, as we explained:
 
@@ -9504,7 +9504,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > ישראל הוא התפארת. אמנם נקרא ישראל כשהוא מכריע בין חכמה ובינה ומכריע כף הבינה לצד החכמה כדרכו הטוב בהיותו מטה כלפי חסד. וזהו ביאור מלת ישראל. א"ל מצד החכמה בסוד החסד, ויש"ר פירוש שיר מצד הבינה בסוד שיר הלוים. ויכריע שיר למלת אל. הכונה כמו שפירשנו בשמים בשער המכריעים שהכונה אש הנוטה למים וכן הכא שיר הנוטה לאל. ומזה הטעם נהפכה המלה משיר לישר ומפני שאין ההכרעה הזאת ממש בתפארת אלא בסוד הדעת הנעלם. לכן אמרו ישראל עלה במחשבה שהרמז שנקרא ישראל בסוד עלייתו אל המחשבה שהיא חכמה. וכן הוא נקרא ישראל סבא כי מלת סבא עקרו בחכמה. ויש ישראל זוטא אם ביסוד אם במלכות. ובתיקונים פירשו במטטרון שנק' ישראל זוטא. והכל עולה אל מקום אחד כי הכל בכ"ל והכל בתפארת ומטטרון נגד הת"ת. ובר"מ פי' כי החכמה נקרא ישראל ועלה בבינה הנקרא מחשבה. ובערך מחשבה העתקנו לשונו. עד הנה הגיע שכלנו הדל והחלש בביאור ערך היו"ד בעזרת האל. ועתה נכנס בביאור ערך הכף:
 
-### Chapter 23:11. On the entry for the letter Kaf.
+### Chapter 23:11. Entries for the letter Kaf
 
 **23:11:1** **Liver** [כבד, *kaved*] is the male of Lilith. For on the side of the left there are male and female, as there are in holiness. And we have already hinted at this matter in the entry *yoteret* and in the entry *techol*: for all these organs are left ones; and in particular the liver, for it is what sends the choice and good part of the blood to all the organs and takes in the lees; and beside it is the gall, the wormwood, "whose heart is snares and nets" (Eccl. 7:26):
 
@@ -9662,7 +9662,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > ועוד פי' בזהר (חדש) פ' יתרו (דף מ"ט) במלת אנכי וז"ל ובכל אתר כי דא איהי נוקבא דאקרי כתר כו' (ע"ש) עכ"ל [סג] והענין כי הכתר עצמו כשהוא נקרא כתר מורה על צד המקבל שבו והיא נקבה בערך צד המשפיע כי קצתו מקבל מקצתו כמו שפי' בשער הנזכר. ובתקונים [סד] פי' כי המלכות נקרא כתר והיא כתר תורה וכתר כהונה וכתר מלכות בהיות' על ג' אבות בסוד אשת חיל עטרת בעלה (משלי יב ד) שביארנו בשער המציאיות. וסוד העטרה היא י' ובבאה מאת המלך אביה נחלקה לג' יודין על ג' אבות ג' ווי"ן ג' כתרים ג' זיינין בסוד הש. עד הנה הגיע כחנו החלש בעזר האלהי השופע עלינו בביאור אות הכ"ף. ואנו נכנסים בביאור הלמ"ד בס"ד:
 
-### Chapter 23:12. On the entry for the letter Lamed.
+### Chapter 23:12. Entries for the letter Lamed
 
 **23:12:1** **Leah** [לאה]: the hint is at Binah. And so it is found that Leah bore six sons and a daughter; and likewise from Binah went out six sons and a daughter, and her name is Dinah. And it is possible that she is so called when she bestows on the six sons and the daughter that go out from her:
 
@@ -9776,7 +9776,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > ועוד אפשר לפרש כי המלכות נקראת כן על שם שנחצבה ממקומה ונאמר לה לכי ומעטי את עצמך. וטעם זה להדיינים להיות דנין דין אמת לאמיתו שהוא הת"ת כדי לחבר את האהל להיות אחד. ע"כ הגיע שכלנו הדל בביאור ערך למ"ד. והננו נכנסים בעזר האלהי בביאור ערך אות מ"ם:
 
-### Chapter 23:13. On the entry for the letter Mem.
+### Chapter 23:13. Entries for the letter Mem
 
 **23:13:1** **Very** [מאד, *me'od*]: he explained in the Zohar, Parashat Lekh (fol. 83), on the verse (Gen. 13:2), "And Abram was very [*me'od*] rich": "*me'od*, from the side of the east"; the explanation, from the side of Tiferet, which is what is called east, as is known. And in the Zohar, Parashat Va-yishma Yitro (fol. 68b), he explained that *me'od* is the side of judgment, the explanation, in Gevurah; and he proved the matter from what they expounded, "*me'od*: this is Gehinnom." And it is possible to say that Tiferet from the side of Gevurah is called *me'od*, and its permutation is *adam*:
 
@@ -10242,7 +10242,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > הנה נכלל ביאור ערך אות מ"ם בעזרת הצור שוכן מעונה. ונבא לבאר ערך אות נו"ן בע"הו:
 
-### Chapter 23:14. On the entry for the letter Nun.
+### Chapter 23:14. Entries for the letter Nun
 
 **23:14:1** **Faithful** [נאמן, *ne'eman*]: Rashbi, peace be upon him, and the other commentators agreed that this name is a title of Yesod. And it may be so called when it bestows the effluence of truth from Tiferet to Malkhut, who is called *emunah* [faith]; and it is faithful between him and her, not to withhold the seed from its subtle manifestation, which is bestowed from above. Then it is called faithful, in the secret of truth and faith:
 
@@ -10412,7 +10412,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > נתיבות כבר פי' בשער הנתיבות כי הנתיבות הם ל"ב והם בחכמה. והם נקראים נתיבות פליאות לפי שהם נעלמות מלשון מופלא ומכוסה וכבר הארכנו בשער הנזכר. והנתיבות הם כנוי לצנורות נעלמות. ועצם החכמה פי' בר"מ (פנחס דף רנ"ו ע"ב) שהוא הנתיב הגבוה מכלם הכולל לכלם ועליו נאמר (איוב כח ז) נתיב לא ידעו עיט, וכל הנתיבות שואבים ממנו והוא הראשון מהל"ב כמו שבארנו שם. עד הנה נכלל ערך הנו"ן בעזרת האל השופע עלינו משפעו הטוב. ועתה נבא בביאור ערך אות סמ"ך בס"ד:
 
-### Chapter 23:15. On the entry for the letter Samekh.
+### Chapter 23:15. Entries for the letter Samekh
 
 **23:15:1** **The Elder of Elders** [סבא דסבין, *Saba de-Savin*]: he explained in the Tikkunim (in the Introduction, fol. 3a) that it is in Chokhmah; and in the Zohar he explained that Keter is so called. And all of it points to concealment; for it shows that Chokhmah is concealed in Keter, where the principal of old age is, as we explained in the entry *zaken*. And Binah is called **the Grandmother of Grandmothers** [*Savta de-Savtin*]; and so it is explained in the Zohar, Parashat Noach (fol. 72b). And the matter is that she is so called in the secret of her manifestation and her source, which is concealed in Keter and Chokhmah; for there her manifestation is concealed. And just as Chokhmah is called the Elder of Elders in the secret of Keter, as we explained, so Binah, in the secret of her concealed manifestation, is called the Grandmother of Grandmothers; for she is female with respect to Chokhmah:
 
@@ -10518,7 +10518,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > ועוד יש ספר תורה והוא הת"ת ונק' ס"ת בהיותו כלול מכל תרי"ג מצות, רמ"ח מ"ע מצד הגדולה, ושס"ה מצד הגבורה ומגביל אותם וכוללם בעצמו נק' ס"ת. ואמנם היכל שלו הוא בבינה. וכן מבואר בזוהר (שלח דף קס"ד.) בפי' הפסוק מגדל עוז שם ה'. ומתוך היכל הפנימי הזה יוצא ומתייחד בתוכה (היינו בכנס"י) כמו שכתוב (בראשית ב) ע"כ יעזוב איש את אביו ואת אמו ודבק באשתו. ופי' ר' משה כי ההוד נק' ס' מלחמות ה' לפי שמאתו יצאו המלחמות מצד הגבורה. ונשלמה בעזרת צור ישראל ערך אות סמ"ך. ועתה נתחיל בביאור ערך אות עי"ן בס"ד:
 
-### Chapter 23:16. On the entry for the letter Ayin.
+### Chapter 23:16. Entries for the letter Ayin
 
 **23:16:1** **Cloud** [עב, *av*] is Chesed; and so *chesed* comes in numerical value to *av*, seventy-two. And to this hints "Behold, I come to you in the thick cloud [*be-av he-anan*]" (Exod. 19:9); and it is the power and emanation of the Name of Seventy-Two. And of it it is said (Isa. 19:1), "Behold, YHVH rides upon a swift cloud [*av kal*]." It is found that *av* is Chesed, when it is in the seventy-two bridges, as is known:
 
@@ -10796,7 +10796,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > עתר פי' מלשון ויעתר וגומר (בראשית כה כא) ונתבאר בזהר פרשת תולדות (דף קל"ז.) כי התפלה הגיעה עד כתר עליון. וענין ויעתר מלשון חתירה כדפי' רז"ל (שם ובסנהדרין ק"ג) והכונה חתירת הספירות עד הגיע התפלה עד המזל העליון כי שם תלוי ענין הבנים. כאמרם ז"ל בני חיי ומזוני לאו בזכותא תליא מלתא וכו'. ואפשר כי כל מקום שנאמר ויעתר הוא הסתלקות התפלה עד הכתר. ע"כ הגיע פי' ערך אות עיי"ן בס"ד השופע עלינו ברחמים. ועתה נכנס בביאור אות הפ"א בעזרת הצור וישועתו:
 
-### Chapter 23:17. On the entry for the letter Peh.
+### Chapter 23:17. Entries for the letter Peh
 
 **23:17:1** **Glory** [פאר, *pe'er*]: it is already known what our Rabbis, of blessed memory, said (Mo'ed Katan 15a), that the *tefillin* are called *pe'er*. And Rashbi, peace be upon him, explained (in the Introduction to the Tikkunei Zohar, fol. 8a) that the *tefillin* on the head of the Holy One, blessed be He, are Binah upon Tiferet; and, hovering over it, she is called *pe'er*, on account of her glorifying [*mefa'er*] Tiferet. And further, for then it includes six branches through her; and therefore she is called *pe'er*, from the language of "the goodly turbans [*pa'arei ha-migba'ot*]" (Exod. 39:28); the explanation, that she makes it branch out and glorifies it. And Rabbi Moses explained close to this:
 
@@ -10898,7 +10898,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > פתח המלכות נקראת פתח כי היא הכניסה אל האצילות. ולא תקרא כן אלא בבחינתה התחתונה שבערכת היא הכניסה אל האצילות. ונקראת ג"כ פתח עינים ומפני שהיא פתח לעינים נצח והוד העומדים עליה ואין מי שיוכל להתנבאות ולהציץ בעינים אלו אלא מפתח זו. ובזוהר פרשת אחרי (דף ע"א: עב ע"ב) פירש כי נקראת פתח עינים משום דכל עיינין דעלמא להאי פתחא מצפאן ע"כ. וכן נתבאר ג"כ בפרשת בראשית (דף א' ע"ב). ונקראת ג"כ פתח האהל כן מתבאר בזוהר פרשת וירא. ואפשר שנקראת כן בבחינה התחתונה שהיא פתח לשאר האהל שהוא עצם פנימיותה. ויש פתחי עולם פי' היסוד נקרא פתחי עולם מפני שהוא פתח לעולם ההיקף. ונקרא פתחי לשון רבים מפני שבו דרך הימין חסד, ודרך שמאל גבורה. ויש שפירש פתחי עולם גבורה וחסד והם פתחי הבינה הנקרא עולם. ויש פתחי חופה והיא הבינה ופירשנו בערך חופה. ע"כ נשלם אות הפ"א. והננו מתחילים לבאר אות צדי"ק בעזרת העוזר השופע עלינו:
 
-### Chapter 23:18. On the entry for the letter Tzadi.
+### Chapter 23:18. Entries for the letter Tzadi
 
 **23:18:1** **Host** [צבא, *tzava*]: Rashbi, peace be upon him, explained in the Tikkunim that of Netzach and Hod it is said, "And the heavens and the earth were finished, and all their host" (Gen. 2:1); and likewise every term of *tzava*. And likewise they are what is hinted in the name *Tzeva'ot* [Hosts], as we explained in the Gate of Names. And it appears from the language of the Tikkunim that they are called *tzeva'ot* from the side of Yesod; and likewise the Patriarchs, Gedulah and Gevurah, Tiferet, are called *tzivyonot* from its side. And in the Tikkunim (Tikkun 22, fol. 66, and so in Tikkun 47, fol. 81, and see there the commentary *Kisse Melekh*), when he speaks of Yesod, these are his words: "And of it it is said, 'and all their host.' What is 'their host'? Two pillars of truth; and in it the three Patriarchs are called *tzivyonot*, as it is said, 'And on the seventh day God finished … and He rested on the seventh day … and God blessed the seventh day' (Gen. 2:2–3)." Thus far his words. And all of it is over against Yesod, and it is proved there. And close to this matter he explained in many places (in Tikkun 51, fol. 84), in his saying: "*Tzeva'ot*: He is a sign [*ot*] in His host [*tzava*]." And the matter is that the word *ot* in *Tzeva'ot* hints at Yesod, which is called *ot* [sign]; and *tzava* is Netzach and Hod; and of it it is said, "He is a sign in His host." As it appears, they are called host from the side of Yesod:
 
@@ -11024,7 +11024,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > צריכא פי' בתקונים (בתקוני ז"ח דף קט"ז.) כי כל לשון הצרכה הוא במלכות ונקראת כן מצד הת"ת בהיותו יונק מצד הגבורה כאלו נאמר שנקרא כן מצד הת"ת מצד הגבורה שבו ופי' שם דביה ספק צרכנו במדבר. והטעם שנקרא אז צריכא מפני שהיא אז צריכה להשפעה כי הת"ת יונק מן הדין ואין משפיע בה ככל הצורך אלא בצמצום. אבל בצד הת"ת בעצמו נקראת אינה צריכה והיינו לא צריכא. פי' שכיון שיונקת מן הת"ת רחמים אז אינה צריכה שהוא"ו משפיע לה שפע מצד שפעו בחינתו בעצמו. עד הנה הגיע כח כחנו הדל והחלש בביאור ערך אות צ'. ועתה נכנס בביאור אות ק' בס"ד:
 
-### Chapter 23:19. On the entry for the letter Kuf.
+### Chapter 23:19. Entries for the letter Kuf
 
 **23:19:1** **Receiving** [קבלה, *kabbalah*]: he explained in the Tikkunim (Tikkunei Zohar Chadash, fol. 116a) that Malkhut is called *kabbalah* from the side of Yesod, because she receives souls from above through it. And elsewhere (in Tikkun 21, fol. 45a) he explained that she is called *kabbalah* when her husband receives her between the two arms, between Gedulah and Gevurah. And it is all one; for then she receives souls in the secret of the coupling:
 
@@ -11158,7 +11158,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > קשת פירש בתקונים כי היסוד נקרא קשת מפני שהוא ברית הקשת שעל ידו היחוד ועל יוסף נאמר (בראשית מט) ותשב באיתן קשתו. וקשת וקשר הכל דבר אחד כי קש"ר תקיעה שברים תרועה והיינו קש"ת. וא"א היחוד בלי הקשר האמיץ שהם ברית ותרין ביעין דדכורא. ואז נקרא קשת והוא זורק חצים בסוד זרע היורה כחץ כדפירשנו בערך חצים. ונשלם אות ק' בעזרת הנותן למשור כל עקוב. ועתה נבא בביאור ערך אות רי"ש:
 
-### Chapter 23:20. On the entry for the letter Resh.
+### Chapter 23:20. Entries for the letter Resh
 
 **23:20:1** **Seeing** [ראייה, *re'iyah*]: Rashbi, peace be upon him, explained in the Zohar that seeing depends on Binah; and the sign: "the heart sees." And so it appears from some of the places that the principal of seeing depends on Binah and Gevurah; and every place where you find the language of seeing, its principal depends on the left. And in other places, in the Ra'aya Meheimna (Pinchas, fol. 230a) and in the Tikkunim (Tikkunei Zohar Chadash, fol. 116a), Rashbi, peace be upon him, explained that seeing is the face of the lion [*aryeh*], and it is in Chesed. And likewise Reuben, *or ben* [light, son], and it is seeing and light, which is in Chesed and Chokhmah. And likewise the explanation of *re'iyah* is *aryeh*; for in *re'iyah* he added a Yod to the word *aryeh*; and the hint is to Chokhmah, which is Yod. And this explanation is the principal and more compelling. And their saying "the heart sees" is that in Binah too there is the power of seeing; nevertheless its principal is in Chokhmah and Chesed, and it is found in Binah through Chokhmah. And there is seeing for good and seeing for evil; and he proved the matter from the verses in the Zohar, Parashat Vayera (fol. 105b). And the reason is that sometimes Chesed inclines to judgment; and therefore seeing for judgment:
 
@@ -11332,7 +11332,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > ועוד פי' במ"א (בתקונא כ"ד דף סז) כי רשות הרבים הוא נחש אשת זנונים סמא"ל. ונקרא רשות הרבים מפני שהם רבים ע' אומות ועל ידו יונקים כלם. אמנם יחידו של עולם הוא אחד יחיד ומיוחד. ע"כ הגיע ביאור ערך אות רי"ש, בעזר אלהי השופע עלינו. ועתה נבא בביאור ערך אות שי"ן:
 
-### Chapter 23:21. On the entry for the letter Shin.
+### Chapter 23:21. Entries for the letter Shin
 
 **23:21:1** **Request** [שאלה, *she'elah*]: he explained in the Tikkunim (Tikkunei Zohar Chadash, fol. 116a) that Malkhut, from the side of Chesed with Chokhmah, is called *she'elah*; and therefore the name *El*, which is Chesed, is sealed in the word *she'elah*. And therefore in her it was said to Solomon (1 Kings 3:5), "Ask what I shall give you"; and he asked wisdom, which is over Chesed. And they added the explanation there:
 
@@ -11686,7 +11686,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > ששת ימים נקרא הת"ת והטעם כי הוא כלול ששת ימים שהם ו' קצוות. ובר"מ (פנחס דף רנ"ז.) פי' הרשב"י כי הת"ת נקרא ששת ימים מפני שעליו ו' ימים שמכתר ועד התפארת, ודוחק הוא קצת ומי יבא אחרי המלך. אמנם בזהר (בלק דף קצ"א.) פי' שהחסד נקרא ו' ימים שכל הבנין הוא בתוכו כדפירשנו בערך יומם ע"ש ואפשר שנקרא כן בהיות הת"ת בתוכו. עד הנה נשלם אות השי"ן בס"ד. ועתה נכנס בביאור אות תי"ו בה"ו:
 
-### Chapter 23:22. On the entry for the letter Tav.
+### Chapter 23:22. Entries for the letter Tav
 
 **23:22:1** **Desire** [תאוה, *ta'avah*]: he explained in the Zohar, Parashat Miketz (fol. 202b), that Malkhut is called *ta'avah*; and it is in the aspect of the receiving of the prayers; and she brings them in above and gives to each one his desire:
 
