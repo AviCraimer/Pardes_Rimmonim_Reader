@@ -424,11 +424,17 @@
             '<div class="nav-tabs" role="tablist">' +
             '<button role="tab" data-tab="toc" aria-controls="toc-panel">TOC</button>' +
             '<button role="tab" data-tab="lex" aria-controls="lex-panel">Lexicon</button>' +
+            '<button role="tab" data-tab="gloss" aria-controls="gloss-panel">Glossary</button>' +
             "</div>" +
             '<div class="nav-panel" id="toc-panel" role="tabpanel"></div>' +
-            '<div class="nav-panel" id="lex-panel" role="tabpanel" hidden></div>';
+            '<div class="nav-panel" id="lex-panel" role="tabpanel" hidden></div>' +
+            '<div class="nav-panel" id="gloss-panel" role="tabpanel" hidden></div>';
         nav.querySelectorAll(".nav-tabs button").forEach((b) =>
-            b.addEventListener("click", () => setTab(b.dataset.tab))
+            b.addEventListener("click", () => {
+                setTab(b.dataset.tab);
+                // The Glossary tab opens its page; its panel lists the letters.
+                if (b.dataset.tab === "gloss" && curView !== "glossary") openGlossary();
+            })
         );
         document.getElementById("toc-panel").innerHTML =
             '<p class="nav-loading">Loading contents…</p>';
@@ -483,6 +489,20 @@
                 heNum(g + 1) +
                 "</span>";
             det.appendChild(sum);
+            if (g === GLOSSARY_GATE) {
+                // Icon at the right of the Gate 23 row: open the glossary page
+                // (without opening or closing the gate).
+                const go = el("a", "toc-gloss-btn", "");
+                go.href = GLOSS_HASH;
+                go.title = "Search and sort all the titles";
+                go.setAttribute("aria-label", "Glossary: search and sort all the titles");
+                go.innerHTML =
+                    '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h9M4 11h6M4 16h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>' +
+                    '<circle cx="16.5" cy="14.5" r="3.6" fill="none" stroke="currentColor" stroke-width="2"/>' +
+                    '<path d="M19.2 17.2L21.5 19.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+                go.addEventListener("click", (e) => e.stopPropagation());
+                sum.appendChild(go);
+            }
             gate.forEach((label, c) => {
                 const row = document.createElement("div");
                 row.className = "chap";
@@ -580,6 +600,7 @@
         );
         document.getElementById("toc-panel").hidden = tab !== "toc";
         document.getElementById("lex-panel").hidden = tab !== "lex";
+        document.getElementById("gloss-panel").hidden = tab !== "gloss";
     }
 
     // ---- next chapter button ----
@@ -1400,6 +1421,369 @@
     });
 
     // Back/forward buttons and hand-edited URLs.
+    // ---- glossary page (Gate 23) ----
+    // All of Gate 23's titles on one page (#glossary): in Cordovero's order
+    // or English A–Z, filtered by one search box that looks either in the
+    // whole entries (English and the original Hebrew) or in the titles only
+    // (English title, transliteration, Hebrew). Each card links to its entry.
+    // Built on first use from translation.json; the Hebrew joins the search
+    // once Pardes_Rimmonim.json has arrived.
+    const GLOSS_HASH = "#glossary";
+    let GLOSS = null;
+    const glossState = { q: "", scope: "full", order: "cordovero", scrollTop: 0 };
+    try {
+        const saved = JSON.parse(localStorage.getItem("pr-glossary") || "null");
+        if (saved && saved.scope === "titles") glossState.scope = "titles";
+        if (saved && saved.order === "en") glossState.order = "en";
+    } catch (e) {}
+    function saveGlossPrefs() {
+        try {
+            localStorage.setItem(
+                "pr-glossary",
+                JSON.stringify({ scope: glossState.scope, order: glossState.order })
+            );
+        } catch (e) {}
+    }
+
+    // Lower-case, without Hebrew vowel points or cantillation, keeping a map
+    // from each searchable character back to the original text (for excerpts).
+    function searchable(text) {
+        let norm = "";
+        const map = [];
+        for (let i = 0; i < text.length; i++) {
+            const ch = text[i];
+            if (/[֑-ׇ]/.test(ch)) continue;
+            norm += ch.toLowerCase();
+            map.push(i);
+        }
+        return { text, norm, map };
+    }
+    const normQuery = (q) =>
+        searchable(q.trim().replace(/\s+/g, " ")).norm.split(" ").filter(Boolean);
+    const plain = (html) =>
+        textOf((html || "").replace(/<img[^>]*>/g, "")).replace(/\s+/g, " ").trim();
+    // English sort: ignore a leading article, quotation marks and brackets.
+    const glossSortKey = (t) =>
+        t.replace(/^[\s"'“‘(\[]+/, "").replace(/^(the|a|an)\s+/i, "").toLowerCase();
+
+    function buildGlossary() {
+        GLOSS = [];
+        const g = GLOSSARY_GATE;
+        DATA.text[g].forEach((paras, c) => {
+            const letter = (META.gates[g].chapters[c] || "").replace(/^Entries for\s+/i, "");
+            let cur = null;
+            paras.forEach((html, p) => {
+                const m = ENTRY_RE.exec(html || "");
+                if (m) {
+                    const br = /^\s*<b>[\s\S]*?<\/b>\s*\[([\s\S]*?)\]/.exec(html);
+                    const he = br && /<span[^>]*lang="he"[^>]*>([\s\S]*?)<\/span>/.exec(br[1]);
+                    const tl = br && /<em>([\s\S]*?)<\/em>/.exec(br[1]);
+                    const text = plain(html);
+                    cur = {
+                        c, p, letter, order: GLOSS.length,
+                        title: textOf(m[1]).trim(),
+                        he: he ? textOf(he[1]).trim() : "",
+                        tl: tl ? textOf(tl[1]).trim() : "",
+                        opening: text.slice(text.indexOf("]") + 1).replace(/^[\s:,;.]+/, ""),
+                        paras: [p],
+                        en: [text],
+                    };
+                    cur.titleS = searchable(cur.title + " · " + cur.tl + " · " + cur.he);
+                    GLOSS.push(cur);
+                } else if (cur && html) {
+                    // A paragraph without a title continues the entry above.
+                    cur.paras.push(p);
+                    cur.en.push(plain(html));
+                }
+            });
+        });
+        GLOSS.forEach((e) => {
+            e.enS = searchable(e.en.join(" "));
+            e.sortKey = glossSortKey(e.title);
+        });
+    }
+    function glossHebrew(e) {
+        if (e.heS || !HEB) return e.heS || null;
+        const he = HEB.versions[0].text[GLOSSARY_GATE][e.c] || [];
+        e.heS = searchable(e.paras.map((p) => plain(he[p])).join(" "));
+        return e.heS;
+    }
+    // Where all the terms occur in a searchable text: index of the first, or -1.
+    function findTerms(s, terms) {
+        let first = -1;
+        for (const t of terms) {
+            const i = s.norm.indexOf(t);
+            if (i < 0) return -1;
+            if (first < 0 || i < first) first = i;
+        }
+        return first;
+    }
+    // An excerpt of about 170 characters around a match, the terms marked.
+    function excerpt(s, at, terms, rtl) {
+        const node = el("p", "gloss-snip", "");
+        if (rtl) {
+            node.dir = "rtl";
+            node.lang = "he";
+        }
+        const startN = Math.max(0, at - 60);
+        let a = s.map[startN] || 0;
+        let b = Math.min(s.text.length, a + 170);
+        if (a > 0) a = s.text.indexOf(" ", a) + 1 || a;
+        const slice = s.text.slice(a, b);
+        const sliceS = searchable(slice);
+        const marks = [];
+        for (const t of terms) {
+            let i = sliceS.norm.indexOf(t);
+            while (i >= 0) {
+                marks.push([sliceS.map[i], sliceS.map[i + t.length - 1] + 1]);
+                i = sliceS.norm.indexOf(t, i + t.length);
+            }
+        }
+        marks.sort((x, y) => x[0] - y[0]);
+        let pos = 0;
+        if (a > 0) node.appendChild(document.createTextNode("… "));
+        for (const [x, y] of marks) {
+            if (x < pos) continue;
+            node.appendChild(document.createTextNode(slice.slice(pos, x)));
+            node.appendChild(el("mark", "", slice.slice(x, y)));
+            pos = y;
+        }
+        node.appendChild(document.createTextNode(slice.slice(pos)));
+        if (b < s.text.length) node.appendChild(document.createTextNode(" …"));
+        return node;
+    }
+    function openingLine(e) {
+        const t = e.opening.length > 170 ? e.opening.slice(0, 170).replace(/\s+\S*$/, "") + " …" : e.opening;
+        return el("p", "gloss-snip", t);
+    }
+
+    function glossResults() {
+        const terms = normQuery(glossState.q);
+        const rows = [];
+        for (const e of GLOSS) {
+            if (!terms.length) {
+                rows.push({ e, snip: () => openingLine(e) });
+                continue;
+            }
+            if (glossState.scope === "titles") {
+                if (findTerms(e.titleS, terms) >= 0) rows.push({ e, snip: () => openingLine(e) });
+                continue;
+            }
+            // Full entries: the terms may be spread over the title, the
+            // English and the Hebrew, but each must occur somewhere.
+            const hay = [e.titleS, e.enS, glossHebrew(e)].filter(Boolean);
+            if (!terms.every((t) => hay.some((s) => s.norm.includes(t)))) continue;
+            const inEn = findTerms(e.enS, terms.filter((t) => e.enS.norm.includes(t)));
+            const heS = glossHebrew(e);
+            rows.push({
+                e,
+                snip: () =>
+                    terms.some((t) => e.enS.norm.includes(t))
+                        ? excerpt(e.enS, inEn, terms, false)
+                        : heS && terms.some((t) => heS.norm.includes(t))
+                        ? excerpt(heS, findTerms(heS, terms.filter((t) => heS.norm.includes(t))), terms, true)
+                        : openingLine(e),
+            });
+        }
+        if (glossState.order === "en") {
+            rows.sort((x, y) => x.e.sortKey.localeCompare(y.e.sortKey) || x.e.order - y.e.order);
+        }
+        return { rows, terms };
+    }
+
+    const HEB_LETTERS = "אבגדהוזחטיכלמנסעפצקרשת";
+    function renderGlossResults() {
+        const box = document.getElementById("gloss-results");
+        if (!box) return;
+        const { rows, terms } = glossResults();
+        const status = document.getElementById("gloss-status");
+        const q = glossState.q.trim();
+        status.textContent = !terms.length
+            ? GLOSS.length + " titles"
+            : rows.length +
+              (rows.length === 1 ? " entry " : " entries ") +
+              (glossState.scope === "titles" ? "with “" + q + "” in the title" : "mention “" + q + "”");
+        box.textContent = "";
+        const groups = [];
+        let cur = null;
+        for (const r of rows) {
+            const label =
+                glossState.order === "en"
+                    ? (/[a-z]/.exec(r.e.sortKey) || ["#"])[0].toUpperCase()
+                    : r.e.letter;
+            if (!cur || cur.label !== label) {
+                cur = { label, he: glossState.order === "en" ? "" : HEB_LETTERS[r.e.c] || "", rows: [] };
+                groups.push(cur);
+            }
+            cur.rows.push(r);
+        }
+        groups.forEach((gr, i) => {
+            const sec = el("section", "gloss-group", "");
+            sec.id = "gloss-group-" + i;
+            const h = el("h2", "gloss-letter", "");
+            if (gr.he) {
+                const hl = el("span", "gloss-letter-he", gr.he);
+                hl.lang = "he";
+                h.appendChild(hl);
+            }
+            h.appendChild(document.createTextNode(gr.label));
+            sec.appendChild(h);
+            for (const { e, snip } of gr.rows) {
+                const ref = GLOSSARY_GATE + 1 + ":" + (e.c + 1) + ":" + (e.p + 1);
+                const card = el("a", "gloss-card", "");
+                card.href = "#" + ref;
+                const head = el("div", "gloss-head", "");
+                head.appendChild(el("span", "gloss-title", e.title));
+                if (e.he) {
+                    const he = el("span", "gloss-he", e.he);
+                    he.dir = "rtl";
+                    he.lang = "he";
+                    head.appendChild(he);
+                }
+                if (e.tl) head.appendChild(el("span", "gloss-tl", e.tl));
+                card.appendChild(head);
+                card.appendChild(snip());
+                card.appendChild(el("span", "gloss-ref", ref));
+                card.insertAdjacentHTML(
+                    "beforeend",
+                    '<svg class="gloss-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+                );
+                sec.appendChild(card);
+            }
+            box.appendChild(sec);
+        });
+        if (!rows.length) {
+            const none = el("p", "gloss-none", "Nothing matches. ");
+            const clear = el("button", "gloss-clear", "Clear the search");
+            clear.type = "button";
+            clear.addEventListener("click", () => {
+                glossState.q = "";
+                document.getElementById("gloss-q").value = "";
+                renderGlossResults();
+            });
+            none.appendChild(clear);
+            box.appendChild(none);
+        }
+        renderGlossNav(groups);
+    }
+    // The Glossary tab's panel: jump to a letter of the current results.
+    function renderGlossNav(groups) {
+        const panel = document.getElementById("gloss-panel");
+        panel.textContent = "";
+        panel.appendChild(el("p", "gloss-nav-note", "Jump to"));
+        const list = el("div", "gloss-nav", "");
+        groups.forEach((gr, i) => {
+            const b = el("button", "gloss-nav-item", "");
+            b.type = "button";
+            if (gr.he) {
+                const hl = el("span", "gloss-letter-he", gr.he);
+                hl.lang = "he";
+                b.appendChild(hl);
+            }
+            b.appendChild(document.createTextNode(gr.label));
+            b.appendChild(el("span", "gloss-nav-count", String(gr.rows.length)));
+            b.addEventListener("click", () => {
+                const target = document.getElementById("gloss-group-" + i);
+                if (target) target.scrollIntoView({ block: "start" });
+                document.body.classList.remove("nav-open");
+                syncMenuBtn();
+            });
+            list.appendChild(b);
+        });
+        panel.appendChild(list);
+    }
+
+    function segmented(label, options, value, onPick) {
+        const wrap = el("div", "gloss-seg", "");
+        wrap.setAttribute("role", "group");
+        wrap.setAttribute("aria-label", label);
+        for (const [val, text] of options) {
+            const b = el("button", "", text);
+            b.type = "button";
+            b.setAttribute("aria-pressed", String(val === value));
+            b.addEventListener("click", () => {
+                wrap.querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", "false"));
+                b.setAttribute("aria-pressed", "true");
+                onPick(val);
+            });
+            wrap.appendChild(b);
+        }
+        return wrap;
+    }
+
+    function openGlossary(opts) {
+        const { updateUrl = true, restore = false } = opts || {};
+        if (!DATA) {
+            dataReady.then(() => openGlossary(opts));
+            return;
+        }
+        if (!GLOSS) buildGlossary();
+        if (updateUrl && location.hash !== GLOSS_HASH) history.pushState(null, "", GLOSS_HASH);
+        recordReading(); // remember the spot in the chapter being left
+        curView = "glossary";
+        curLex = null;
+        curPage = null;
+        dismissPopup();
+        setTab("gloss");
+        document.querySelectorAll("#toc-panel .chap.active, .lex-item.active").forEach((n) =>
+            n.classList.remove("active")
+        );
+        const sheet = document.getElementById("sheet");
+        sheet.innerHTML =
+            '<div class="crumb">' + sectionName(0) + " " + (GLOSSARY_GATE + 1) + " · " +
+            META.gates[GLOSSARY_GATE].title + "</div>" +
+            '<h1>All the titles<span class="rule"></span></h1>' +
+            '<p class="gloss-intro">Every title Cordovero explains in this gate. Search the entries or the titles, in English or Hebrew, and read them in his order or A–Z. Each title opens its entry.</p>' +
+            '<div class="gloss-controls">' +
+            '<label class="gloss-search"><span class="gloss-label">Search</span>' +
+            '<input id="gloss-q" type="search" autocomplete="off" placeholder="e.g. Tiferet, tower, מגדל"></label>' +
+            '<div class="gloss-switches"></div></div>' +
+            '<p class="gloss-status" id="gloss-status" aria-live="polite"></p>' +
+            '<div id="gloss-results"></div>' +
+            SHEET_FOOTER;
+        const switches = sheet.querySelector(".gloss-switches");
+        switches.appendChild(
+            segmented("Search in", [["full", "Full entries"], ["titles", "Titles"]], glossState.scope, (v) => {
+                glossState.scope = v;
+                saveGlossPrefs();
+                renderGlossResults();
+            })
+        );
+        switches.appendChild(
+            segmented("Order", [["cordovero", "Cordovero's order"], ["en", "English A–Z"]], glossState.order, (v) => {
+                glossState.order = v;
+                saveGlossPrefs();
+                renderGlossResults();
+            })
+        );
+        const input = sheet.querySelector("#gloss-q");
+        input.value = glossState.q;
+        let timer = null;
+        input.addEventListener("input", () => {
+            clearTimeout(timer);
+            timer = setTimeout(() => {
+                glossState.q = input.value;
+                renderGlossResults();
+            }, 150);
+        });
+        renderGlossResults();
+        document.body.classList.remove("nav-open");
+        syncMenuBtn();
+        document.querySelector("main").scrollTop = restore ? glossState.scrollTop : 0;
+    }
+    document.querySelector("main").addEventListener(
+        "scroll",
+        () => {
+            if (curView === "glossary") glossState.scrollTop = document.querySelector("main").scrollTop;
+        },
+        { passive: true }
+    );
+    // When the Hebrew arrives, a full-entry search already on screen can now
+    // include it.
+    hebReady.then(() => {
+        if (curView === "glossary" && glossState.q.trim() && glossState.scope === "full") renderGlossResults();
+    });
+
     window.addEventListener("hashchange", function () {
         const lexId = parseLexHash(location.hash);
         if (lexId) {
@@ -1410,6 +1794,10 @@
         }
         if (!DATA) {
             dataReady.then(() => window.dispatchEvent(new HashChangeEvent("hashchange")));
+            return;
+        }
+        if (location.hash === GLOSS_HASH) {
+            if (curView !== "glossary") openGlossary({ updateUrl: false, restore: true });
             return;
         }
         const fp = frontPageOfHash(location.hash);
@@ -1447,7 +1835,8 @@
     } else if (!pendingOpen) {
         const initial = parseHash(location.hash);
         const initialPage = frontPageOfHash(location.hash);
-        if (initialPage) openIntro({ updateUrl: false, page: initialPage.key });
+        if (location.hash === GLOSS_HASH) openGlossary({ updateUrl: false });
+        else if (initialPage) openIntro({ updateUrl: false, page: initialPage.key });
         else if (initial) open(initial.g, initial.c, { updateUrl: false, para: initial.p });
         else open(0, 0, { updateUrl: false });
     }
