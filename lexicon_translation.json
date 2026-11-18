@@ -10028,7 +10028,7 @@
      "rendering": "and agitation"
     }
    },
-   "notes": "Ruled 2026-11-18. Conversion pending: about 17 paragraphs, mostly Gate 8 (4:4:1, 8:6:2-3, 8:12:4-6, 8:12:11, 9:2:1, 24:2:6, 24:5:1, 25:4:9 Ragziel 'prince of agitation'); currently 'anger'/'wrath'."
+   "notes": "Ruled 2026-11-18. Converted 2026-11-18 (4:4:1, 8:6:2-3, 8:12:4-6, 8:12:11, 9:2:1 'given to agitation', 23:3:26, 23:9:11, 23:16:43, 24:2:6, 24:5:1, 25:4:9, 25:6:6, 26:2:1, 26:3:1)."
   },
   "אף": {
    "headword": "אַף",
@@ -10102,7 +10102,7 @@
      "rendering": "and fury"
     }
    },
-   "notes": "Ruled 2026-11-18. Conversion pending: 'Wrath [Cheimah]' in Gates 26 and 31 (26:3:1, 31:3:8, 23:13:104) and other 'wrath' sites for חמה."
+   "notes": "Ruled 2026-11-18. Converted 2026-11-18 (batch 2026-11-18a): 'Wrath [Cheimah]' → 'Fury [Cheimah]' (23:13:104, 26:3:1, 31:3:8) and every other 'wrath' for חמה / חמת; 'wrath' no longer occurs in the text."
   },
   "חרון": {
    "headword": "חָרוֹן",
@@ -10162,7 +10162,7 @@
      "rendering": "the rage"
     }
    },
-   "notes": "Ruled 2026-11-18. Conversion pending at 25:4:10 (now 'wrath'). NB עברה 'transgression' and העברה 'passing' are different words."
+   "notes": "Ruled 2026-11-18. Converted 2026-11-18 at 25:4:10. NB עברה 'transgression' and העברה 'passing' are different words."
   },
   "קצף": {
    "headword": "קֶצֶף",
@@ -10192,7 +10192,7 @@
      "rendering": "the outburst"
     }
    },
-   "notes": "Ruled 2026-11-18. Conversion pending at 9:2:1 and 25:4:8 (now 'wrath')."
+   "notes": "Ruled 2026-11-18. Converted 2026-11-18 at 9:2:1 and 25:4:8."
   },
   "כעס": {
    "headword": "כַּעַס",
@@ -10235,7 +10235,7 @@
      "rendering": "and irritation"
     }
    },
-   "notes": "Ruled 2026-11-18. Conversion pending at the sites listed."
+   "notes": "Ruled 2026-11-18. Converted 2026-11-18 (4:4:1, 4:10:1, 8:1:4, 8:6:3, 9:2:1, 21:6:4 verb 'irritate', 23:10:16, 26:1:4, 26:4:1)."
   },
   "חבל": {
    "headword": "חִבֵּל / מְחַבֵּל / חַבָּלָה",
@@ -10271,7 +10271,7 @@
      "rendering": "angels of ruin"
     }
    },
-   "notes": "Ruled 2026-11-18. Conversion pending: ~9 paragraphs (8:10:1, 18:5:7, 18:6:1, 20:7:4, 21:13:11, 23:8:5, 23:21:68, 24:15:3, 25:5:2)."
+   "notes": "Ruled 2026-11-18. Converted 2026-11-18: 'angels of ruin' throughout (Gates 18, 21, 23, 24, 26, 27); spoil / spoiler at 8:10:1, 17:2:2, 20:7:4, 23:8:5-6, 23:20:9, 24:15:3, 25:5:2, 26:8:2."
   },
   "זעם": {
    "headword": "זַעַם",
@@ -10309,7 +10309,7 @@
      "rendering": "is indignant"
     }
    },
-   "notes": "Ruled 2026-11-18. Conversion pending: 8:8:4, 20:5:3, 20:12:2, 23:17:13, 25:4:7 (now 'wrath' / 'rage' / 'indignation')."
+   "notes": "Ruled 2026-11-18. Converted 2026-11-18 (8:8:4, 20:5:2-3, 20:5:5, 20:12:2, 23:17:13); 25:4:7 already 'indignation'."
   },
   "מזיק": {
    "headword": "מַזִּיק / מַזִּיקִין",
@@ -10347,7 +10347,7 @@
      "rendering": "harmful"
     }
    },
-   "notes": "Ruled 2026-11-18. Conversion pending: ~8 paragraphs."
+   "notes": "Ruled 2026-11-18. Converted 2026-11-18 (2:6:1, 7:4:5, 16:1:11, 21:13:11, 25:5:3, 26:8:5, 31:10:7 'the harmful spirits of the world'); 24:11:5 already 'harmful'; 26:7:1 variant reading 'do harm' kept."
   },
   "עון": {
    "headword": "עָווֹן",
@@ -10380,7 +10380,7 @@
      "rendering": "iniquities"
     }
    },
-   "notes": "Ruled 2026-11-18. Check the ~70 paragraphs for 'sin' standing for עון."
+   "notes": "Ruled 2026-11-18. Converted 2026-11-18: 'sin' for עון changed to 'iniquity' (20 sites; see notes/batch_2026-11-18a_review.md)."
   },
   "חטא": {
    "headword": "חֵטְא",
