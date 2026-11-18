@@ -202,3 +202,10 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
   - ~~**נעלם**~~: ruled 17 November 2026 (concealed, enforced). Was: the lexicon has "concealed", but the text has "hidden" in about 30 paragraphs (e.g. 1:1:2, 8:1:4, 8:19:3, 10:3:2, 21:1:5). Idiomatic "hidden from (someone)" (5:2:9) is a separate case.
   - ~~**מזלות**~~ (astral): ruled 17 November 2026, "constellations"; see the batch section.: "constellations" in Gates 6–16 and at 21:8:1, "mazalot" elsewhere in Gate 21. The lexicon entry gives only "mazal" and doesn't separate the astral sense.
   - ~~**שבילין**~~ (Aramaic): ruled 17 November 2026, "track". Was: "paths" in Gates 4–6 (4:1:6 "thirty-two paths", 5:5:13–14, 6:3:5) but "lanes" in Gates 12, 16, 20, 21, where Cordovero contrasts שבילין with נתיבות (20:6:1 "Thirty-two lanes").
+- **Author's Introduction, translated 17 November 2026** (choices made without a ruling):
+  - **מגלה** (intro 1, "scroll of a book"): "scroll".
+  - **חדושים** (intro 4): "new insights".
+  - **דרוש** (intro 3–5, the inquiries of the book): "inquiry", as in the gates.
+  - **פרד"ס** (intro 4, the name's acrostic): "*PaRDeS* [Orchard]".
+  - **נר"ו** (intro 2, after Alkabetz's name): "may the Compassionate One guard and redeem him".
+  - **המעיין** (contents 1.7): "the inquirer", not "the student".
