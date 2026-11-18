@@ -230,3 +230,4 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
 - **Gate 23, chapter 1 choices**: אבן השתיה "the Foundation Stone" (Cordovero derives it from יסוד); אבנים מפולמות "slimy stones"; אורח "way" (lexicon); the Tzachtzachot lights as in Gate 11 (clear / sparkling / refined / wondrous); אמון "Amon" with Bereshit Rabbah's four senses translated; אמוראים / תנאים transliterated.
 - 23:1:175: the edition cites "Ezek. 7:7" for "a wall made by a plumb line"; the English gives Amos 7:7.
 - 23:1:219: the Hebrew repeats a clause ("…כי הפי' לשון רצון. אלא שנאמר שפי' כאן לשון רץ") twice, a dittography; translated once.
+- 23:7:6: the entry opens with a quotation whose source is not named (the citation seems to have dropped out before "they are the Holy One, blessed be He, and His Shekhinah").
