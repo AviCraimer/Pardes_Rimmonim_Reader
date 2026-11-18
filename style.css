@@ -815,7 +815,8 @@ main {
     margin: 0 auto;
     padding: 1rem 0 1.1rem;
     display: flex;
-    align-items: flex-end;
+    /* The two gold titles share a baseline. */
+    align-items: baseline;
     justify-content: space-between;
     gap: 1rem;
 }
@@ -831,7 +832,9 @@ main {
 }
 .book-bar-he .book-title {
     font-family: "SBL Hebrew", "Frank Ruehl CLM", "Noto Serif Hebrew", serif;
-    font-size: 1.6rem;
+    /* Hebrew letters stand lower than Latin capitals at the same size; about
+       1.09x the English size gives letters of the same height. */
+    font-size: 1.04rem;
 }
 .book-bar .book-author {
     margin-top: 0.2rem;
@@ -959,7 +962,7 @@ main {
         letter-spacing: 0.12em;
     }
     .book-bar-he .book-title {
-        font-size: 1.15rem;
+        font-size: 0.79rem;
     }
     .book-bar .book-author,
     .book-bar-he .book-author {
@@ -997,14 +1000,13 @@ main {
         margin: 0 0.8rem;
         padding: 0.9rem 0.2rem 0.9rem 3.6rem;
         min-height: 44px;
-        align-items: center;
     }
     .book-bar-en .book-title {
         font-size: 0.8rem;
         letter-spacing: 0.18em;
     }
     .book-bar-he .book-title {
-        font-size: 1.3rem;
+        font-size: 0.87rem;
     }
     .book-bar .book-author,
     .book-bar-he .book-author {
