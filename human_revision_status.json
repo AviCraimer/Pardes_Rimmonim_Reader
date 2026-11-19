@@ -1,4 +1,35 @@
 {
  "description": "Paragraphs Avi has revised and approved in the translation workbench. approvedHash is the fingerprint (sha256, first 16 hex digits) of the exact HTML he approved. A paragraph whose current text no longer matches needs his re-review: check with tools/revision_check.py. Written by the workbench when it commits; don't edit by hand.",
- "paragraphs": {}
+ "paragraphs": {
+  "1:1:1": {
+   "approvedHash": "fbce1975dbcdcde9",
+   "approvedAt": "2026-11-19T21:08:15.853Z",
+   "workbenchRev": 1
+  },
+  "1:1:2": {
+   "approvedHash": "08bb5a009d07606b",
+   "approvedAt": "2026-11-19T21:08:15.853Z",
+   "workbenchRev": 9
+  },
+  "1:1:3": {
+   "approvedHash": "3ec5e92f28f4b4c5",
+   "approvedAt": "2026-11-19T21:08:15.853Z",
+   "workbenchRev": 1
+  },
+  "1:1:4": {
+   "approvedHash": "ef240f0db1b5bae1",
+   "approvedAt": "2026-11-19T21:08:15.853Z",
+   "workbenchRev": 13
+  },
+  "1:1:5": {
+   "approvedHash": "28abe24a777d017f",
+   "approvedAt": "2026-11-19T21:08:15.853Z",
+   "workbenchRev": 121
+  },
+  "1:1:6": {
+   "approvedHash": "8b8f6add339ac780",
+   "approvedAt": "2026-11-19T21:08:15.853Z",
+   "workbenchRev": 16
+  }
+ }
 }
