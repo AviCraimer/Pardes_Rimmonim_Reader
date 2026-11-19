@@ -836,6 +836,15 @@ main {
        1.09x the English size gives letters of the same height. */
     font-size: 1.04rem;
 }
+.book-bar-en .book-subtitle {
+    margin-top: 0.25rem;
+    color: var(--gold);
+    opacity: 0.8;
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+    line-height: 1.2;
+    white-space: nowrap;
+}
 .book-bar .book-author {
     margin-top: 0.2rem;
     color: #a89bbf;
@@ -961,6 +970,10 @@ main {
         font-size: 0.72rem;
         letter-spacing: 0.12em;
     }
+    .book-bar-en .book-subtitle {
+        font-size: 0.68rem;
+        letter-spacing: 0.04em;
+    }
     .book-bar-he .book-title {
         font-size: 0.79rem;
     }
@@ -1004,6 +1017,10 @@ main {
     .book-bar-en .book-title {
         font-size: 0.8rem;
         letter-spacing: 0.18em;
+    }
+    .book-bar-en .book-subtitle {
+        font-size: 0.74rem;
+        letter-spacing: 0.05em;
     }
     .book-bar-he .book-title {
         font-size: 0.87rem;
