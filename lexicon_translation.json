@@ -10534,6 +10534,39 @@
     }
    },
    "notes": "Discourse marker. Hidden from the reader site (lexicon_reader.json: hidden), so it is never highlighted."
+  },
+  "בשר": {
+   "headword": "בָּשָׂר / בִּשְׂרָא",
+   "transliteration": "basar (Aram. bisra)",
+   "partOfSpeech": "noun",
+   "rendering": "flesh",
+   "candidates": [
+    {
+     "target": "flesh",
+     "status": "preferred",
+     "contextNotes": "Default for בשר and Aramaic בשרא; the translation already uses it throughout (about 87 sites, including Job 19:26 \"from my flesh I behold God\"). בשר ודם = \"flesh and blood\" (16:5:2). In the Glossary of Titles \"Flesh [basar]\" is a title (23:2:41). Daniel 2:11 (די מדרהון עם בשרא לא איתוהי) is quoted at 8:17:10 as \"whose dwelling is not with flesh\" and at 1:1:5.",
+     "decisions": [
+      {
+       "section": "1:1:5",
+       "surfaceForm": "בשרא",
+       "rationale": "USER 2026-11-19 (workbench): add basar = flesh to the lexicon.",
+       "timestamp": "2026-11-19"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "בשר": {
+     "rendering": "flesh"
+    },
+    "בשרא": {
+     "rendering": "flesh"
+    },
+    "בשר ודם": {
+     "rendering": "flesh and blood"
+    }
+   },
+   "notes": "Hidden from the reader site (lexicon_reader.json: hidden) so the common word is not highlighted; remove `hidden` to show it."
   }
  }
 }
