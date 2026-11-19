@@ -41,6 +41,14 @@ Front matter order on the site and in the exports: table of contents, Transliter
 3. **Translate chapter by chapter**, following the conventions and the lexicon. Flag textual problems (apparent corruptions, uncertain readings, missing diagrams) in your report rather than silently fixing them.
 4. **Commit after each chunk and push after about each third of a chapter.** Others edit the site code in the same repo, so always `git pull --rebase` before pushing. End commit messages with the attribution lines your session specifies.
 
+## Paragraphs Avi has revised
+
+Avi revises the English by hand in the translation workbench (repo `AviCraimer/claude-translation-workbench`). Each paragraph he approves is recorded in **`human_revision_status.json`**, with the fingerprint of the exact text he approved. The workbench writes this file when it commits his revisions; don't edit it by hand.
+
+- **Before changing approved paragraphs** (a terminology conversion, say), go ahead if the change is approved, but know that each one goes back to Avi for re-review.
+- **After any change to `translation.json`**, run `python3 tools/revision_check.py --commits`. Name the approved paragraphs you changed in the commit message ("re-review: 1:1:5, 1:1:8"). The workbench picks them up as **Needs re-review** and shows Avi exactly what changed since his approval, and why.
+- Don't try to preserve Avi's uncommitted workbench edits. You can't see them; the workbench flags conflicts on its side.
+
 `export/` (one-file Markdown and HTML, a page per gate, images) is generated from the data files by `tools/export_text.py`; a GitHub workflow regenerates it on every push and uploads the two PDFs (Print, Letter size; Mobile, a continuous phone-width column) to the `latest-text` release. Don't edit `export/` by hand, and expect a bot commit after your pushes (hence `git pull --rebase`).
 
 Don't change the site code (`index.html`, `script.js`, `style.css`) unless asked. `ibn_arabi/` is a separate project.

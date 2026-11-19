@@ -1,0 +1,4 @@
+{
+ "description": "Paragraphs Avi has revised and approved in the translation workbench. approvedHash is the fingerprint (sha256, first 16 hex digits) of the exact HTML he approved. A paragraph whose current text no longer matches needs his re-review: check with tools/revision_check.py. Written by the workbench when it commits; don't edit by hand.",
+ "paragraphs": {}
+}
