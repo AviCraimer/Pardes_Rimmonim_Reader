@@ -2,24 +2,7 @@
 
 General rules for the English of *Pardes Rimmonim*. These are rules of grammar and house style that apply across many words. How a particular term is rendered belongs in `lexicon_translation.json`; this file holds the principles that no single entry can.
 
-Rulings marked **(user)** were made by Avi; the date is when the rule was settled.
-
-## Working with the data files
-
-`translation.json` and `Pardes_Rimmonim.json` contain diagrams stored as base64 images inside paragraph HTML (46 in the Hebrew, 17 so far in the English), some over 150,000 characters each. Never print whole chapters or paragraphs from these files raw: one diagram can fill a terminal or an AI agent's context with junk.
-
-- To read paragraphs, use `tools/show_paragraphs.py`. It replaces each embedded image with `[IMAGE image/jpeg, 54 KB]`. For example: `python3 tools/show_paragraphs.py 8:25:6-8`; a whole gate (`8`) or a range of chapters (`8:14-16`) also works; `--en` / `--he` limit the output to one language; `--strip` drops other HTML.
-- In your own scripts, substitute `re.sub(r'data:[^;"]+;base64,[^"]*', '[DATA]', s)` before printing, or print only slices of known-safe paragraphs.
-- To write paragraphs, use `tools/put_paragraphs.py`. It never needs to read the images.
-- For the lexicon, use `tools/lexicon_digest.py` rather than reading the JSON whole.
-
-### Avi's revisions: `human_revision_status.json`
-
-Avi revises the English by hand and approves it paragraph by paragraph. `human_revision_status.json` records each approved paragraph with a fingerprint of the exact text he approved.
-
-- **Agents editing the translation directly must not edit this file.** Only the workbench writes it, when it commits Avi's revisions.
-- You may still change an approved paragraph when the change is approved (a terminology conversion, say), but the change sends it back to Avi for re-review. After any change to `translation.json`, run `python3 tools/revision_check.py --commits` and name the approved paragraphs you changed in the commit message ("re-review: 1:1:5, 1:1:8").
-- Manual editing happens in the translation workbench, repo `AviCraimer/claude-translation-workbench`. Use it only when Avi asks to edit the translation by hand; a session making changes directly doesn't need to load it.
+Rulings marked **(user)** were made by Avi; the date is when the rule was settled. How to work with the data files, the tools, and Avi's approved paragraphs is in `CLAUDE.md`.
 
 ## Grammar
 

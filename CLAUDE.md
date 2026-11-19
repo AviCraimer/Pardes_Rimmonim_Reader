@@ -4,7 +4,7 @@ An English translation of Moses Cordovero's *Pardes Rimmonim*, with the Hebrew a
 
 ## Read first, in this order
 
-1. **`TRANSLATION_CONVENTIONS.md`**: the general rules, including how to read the data files safely, grammar rules ("the … ones", folded cognate objects), one English word per term, and house style (Hebrew markup, citations, brackets, gate titles).
+1. **`TRANSLATION_CONVENTIONS.md`**: the general rules: grammar ("the … ones", folded cognate objects), one English word per term, and house style (Hebrew markup, citations, brackets, gate titles).
 2. **`LEXICON.md`**: how the two lexicon files are organised and what goes in each.
 3. **The lexicon itself, through the digest:** `python3 tools/lexicon_digest.py` (all renderings), or `--entry KEY` for one entry's full record. Don't read the lexicon JSON whole.
 4. **`notes/pending_conversions.md`**: rulings that earlier gates do not yet follow (don't convert those sites unless asked), and, at the end, **Terminology to rule on**: choices made without a ruling, kept for Avi to review. Add to it whenever you make such a choice.
@@ -28,6 +28,7 @@ Indices in the files are 0-based. References in conversation, commits and tools 
 **Never print these files or whole paragraphs from them raw.** They embed base64 diagram images, some over 150,000 characters. Use the tools:
 
 - `python3 tools/show_paragraphs.py REF [--he|--en] [--strip]`: read a gate (`8`), chapters (`8:14-16`), a chapter (`8:25`) or paragraphs (`8:25:6-8`), with images shown as placeholders.
+- In your own scripts, substitute `re.sub(r'data:[^;"]+;base64,[^"]*', '[DATA]', s)` before printing.
 - `python3 tools/put_paragraphs.py FILE`: write paragraphs from a JSON file `{"8:2:1": "text", …}`. It refuses to overwrite a filled paragraph unless given `--force`.
 - `python3 tools/check_lexicon.py`: run after any lexicon edit; it must report 0 errors.
 - `python3 tools/progress.py`: paragraphs translated per gate, and the first untranslated paragraph.
@@ -43,7 +44,7 @@ Front matter order on the site and in the exports: table of contents, Transliter
 
 ## Paragraphs Avi has revised
 
-Avi revises the English by hand in the translation workbench (repo `AviCraimer/claude-translation-workbench`). Each paragraph he approves is recorded in **`human_revision_status.json`**, with the fingerprint of the exact text he approved. The workbench writes this file when it commits his revisions; don't edit it by hand.
+Avi revises the English by hand in the translation workbench (repo `AviCraimer/claude-translation-workbench`). Each paragraph he approves is recorded in **`human_revision_status.json`**, with the fingerprint of the exact text he approved. Only the workbench writes this file, when it commits his revisions: **agents editing the translation directly must never edit it.** Load the workbench repo only when Avi asks to edit the translation by hand; a session making changes directly doesn't need it.
 
 - **Before changing approved paragraphs** (a terminology conversion, say), go ahead if the change is approved, but know that each one goes back to Avi for re-review.
 - **After any change to `translation.json`**, run `python3 tools/revision_check.py --commits`. Name the approved paragraphs you changed in the commit message ("re-review: 1:1:5, 1:1:8"). The workbench picks them up as **Needs re-review** and shows Avi exactly what changed since his approval, and why.
