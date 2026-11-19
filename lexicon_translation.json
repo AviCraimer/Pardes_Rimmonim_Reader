@@ -10507,6 +10507,33 @@
     }
    },
    "notes": "Ruled and applied 2026-11-18 (1:2:1, 17:2:4, 23:5:11). שחת stays 'Corruption' (the palace, Gate 26)."
+  },
+  "הנה": {
+   "headword": "וְהִנֵּה",
+   "transliteration": "ve-hinneh",
+   "partOfSpeech": "particle (discourse marker)",
+   "rendering": "now (optional)",
+   "candidates": [
+    {
+     "target": "now",
+     "status": "preferred",
+     "contextNotes": "Cordovero's והנה is a filler or transition word, not a 'behold'. Translate it as \"Now\" only where that helps the flow; otherwise leave it untranslated. No consistent policy needed (e.g. 1:1:3 keeps \"Now this is…\"; 1:1:4 drops it).",
+     "decisions": [
+      {
+       "section": "1:1:4",
+       "surfaceForm": "והנה",
+       "rationale": "USER RULING 2026-11-19 (workbench): והנה is a filler/transition; render \"now\" only when it helps the flow, else omit. No consistent policy required.",
+       "timestamp": "2026-11-19"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "והנה": {
+     "rendering": "now"
+    }
+   },
+   "notes": "Discourse marker. Hidden from the reader site (lexicon_reader.json: hidden), so it is never highlighted."
   }
  }
 }
