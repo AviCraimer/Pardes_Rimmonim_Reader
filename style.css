@@ -24,6 +24,10 @@ body {
     display: grid;
     grid-template-columns: 320px 1fr;
     height: 100vh;
+    /* The visible height: on iPad/phone browsers 100vh is the height with the
+       toolbars hidden, which pushed the end of the menu and the page behind
+       the toolbar (Gate 32 could not be scrolled into view). */
+    height: 100dvh;
     overflow: hidden;
 }
 /* ---- navigation rail ---- */
