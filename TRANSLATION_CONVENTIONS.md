@@ -13,6 +13,14 @@ Rulings marked **(user)** were made by Avi; the date is when the rule was settle
 - To write paragraphs, use `tools/put_paragraphs.py`. It never needs to read the images.
 - For the lexicon, use `tools/lexicon_digest.py` rather than reading the JSON whole.
 
+### Avi's revisions: `human_revision_status.json`
+
+Avi revises the English by hand and approves it paragraph by paragraph. `human_revision_status.json` records each approved paragraph with a fingerprint of the exact text he approved.
+
+- **Agents editing the translation directly must not edit this file.** Only the workbench writes it, when it commits Avi's revisions.
+- You may still change an approved paragraph when the change is approved (a terminology conversion, say), but the change sends it back to Avi for re-review. After any change to `translation.json`, run `python3 tools/revision_check.py --commits` and name the approved paragraphs you changed in the commit message ("re-review: 1:1:5, 1:1:8").
+- Manual editing happens in the translation workbench, repo `AviCraimer/claude-translation-workbench`. Use it only when Avi asks to edit the translation by hand; a session making changes directly doesn't need to load it.
+
 ## Grammar
 
 ### Adjectives used as nouns: "the … ones" (user, 2026-11-12)
