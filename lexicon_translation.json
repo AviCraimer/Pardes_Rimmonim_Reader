@@ -10551,6 +10551,12 @@
        "surfaceForm": "בשרא",
        "rationale": "USER 2026-11-19 (workbench): add basar = flesh to the lexicon.",
        "timestamp": "2026-11-19"
+      },
+      {
+       "section": "1:1:5, 8:17:10",
+       "surfaceForm": "די מדרהון עם בשרא לא איתוהי",
+       "rationale": "USER RULING 2026-11-19 (workbench): in Cordovero's stock formula from Daniel 2:11, applied to Rashbi and his circle, keep \"flesh\" (not \"mortals\" or \"flesh and blood\") so the allusion stays visible: 1:1:5 \"for they dwell not with flesh [Daniel 2:11]\"; 8:17:10 \"whose dwelling is not with flesh [Daniel 2:11]\". The reference is the translator's (Cordovero gives none), hence square brackets.",
+       "timestamp": "2026-11-19"
       }
      ]
     }

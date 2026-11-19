@@ -50,7 +50,7 @@ Before adopting a word, check the lexicon for an existing claim on it.
 - **Note numbers** in the Hebrew (e.g. [יב]) are dropped.
 - **Editorial material** in the Hebrew is kept: variant readings as "(another version: …)", restorations in [square brackets], corrections such as "(in our texts: …)".
 - **Words supplied by the translator** for sense go in [square brackets].
-- **References** go in parentheses: biblical "(Psalms 133:2)"; Talmudic "(Ketubbot 61a)"; Zohar "Parashat Lech Lecha (fol. 92a)" as Cordovero gives them.
+- **References** go in parentheses: biblical "(Psalms 133:2)"; Talmudic "(Ketubbot 61a)"; Zohar "Parashat Lech Lecha (fol. 92a)" as Cordovero gives them. A reference the translator adds, where Cordovero gives none, goes in square brackets like any other addition (user, 2026-11-19): "whose dwelling is not with flesh [Daniel 2:11]".
 - **Quotations** close with "Thus far his words." / "Thus far its words." (ע"כ / עכ"ל); "as relevant to our matter" for לענייננו.
 - **Aramaic and Hebrew titles:** Abba and Imma stay transliterated inside Aramaic quotations; Cordovero's own Hebrew אב / אם is "father" / "mother". Binah is "she" where the maternal image is in play.
 - **Gate titles in cross-references:** use the forms in `translation.json` → `gates[*].title`, e.g. "the Gate of Whether the Ein Sof is the Keter", "the Gate 'Ten and Not Nine'", "the Gate of the Glossary of Titles".
