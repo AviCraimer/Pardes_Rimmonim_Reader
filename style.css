@@ -839,9 +839,8 @@ main {
 .book-bar-en .book-subtitle {
     margin-top: 0.25rem;
     color: var(--gold);
-    opacity: 0.8;
-    font-size: 0.82rem;
-    letter-spacing: 0.08em;
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
     line-height: 1.2;
     white-space: nowrap;
 }
@@ -971,8 +970,8 @@ main {
         letter-spacing: 0.12em;
     }
     .book-bar-en .book-subtitle {
-        font-size: 0.68rem;
-        letter-spacing: 0.04em;
+        font-size: 0.76rem;
+        letter-spacing: 0.02em;
     }
     .book-bar-he .book-title {
         font-size: 0.79rem;
@@ -1019,8 +1018,8 @@ main {
         letter-spacing: 0.18em;
     }
     .book-bar-en .book-subtitle {
-        font-size: 0.74rem;
-        letter-spacing: 0.05em;
+        font-size: 0.82rem;
+        letter-spacing: 0.03em;
     }
     .book-bar-he .book-title {
         font-size: 0.87rem;
