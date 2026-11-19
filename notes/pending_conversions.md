@@ -149,6 +149,14 @@ Lexicon entries עלם-גלה, נסתר-הסתר, סתום-סתים, טמיר, �
 - **טמיר** → concealed (טמיר וגניז = "concealed and stored away"; 16:9:3 "hidden of the hidden" → "the Concealed of the Concealed"): 3:1:8, 3:2:1–2, 3:2:8, 3:3:7, 3:3:9, 4:1:6, 4:2:5, 4:7:1, 4:7:4, 4:7:9, 5:4:3–4, 5:4:8, 7:4:3, 8:15:3, 8:21:5–6, 10:3:3, 14:3:2, 15:1:6, 15:5:5, 16:4:8, 16:6:2, 16:9:3, 20:6:1–2, 20:8:2.
 - **גנוז** → stored away: 1:7:2, 2:4:2, 3:2:1–2, 3:2:4, 4:2:5, 4:7:9, 6:1:11, 8:13:2, 8:15:3, 8:22:4, 9:5:6, 10:3:6, 11:1:5–6, 11:2:2, 11:4:2–3, 11:6:8, 12:3:10, 14:1:6, 14:3:2, 15:1:6, 15:5:5, 16:3:10, 16:4:4, 20:6:1–2, 21:8:1. Rav Hai's שלש גנוזות ראשי ראשים (1:7:2, 8:13:2, 11:1:5, 11:2:2) = "the three that are stored away, heads of heads" (ruled 17 November 2026).
 
+## *Milat ma'or*: "the circumcision [milat] of the member" (ruled 19 November 2026)
+
+Rule: in Sefer Yetzirah's מלת לשון ומלת מעור the second מלת is "circumcision", and a transliterated [*milat*] after "word" and after "circumcision" keeps the pun: "the word [*milat*] of the tongue and the circumcision [*milat*] of the member [*ma'or*]". "[male]" is no longer needed there. "The covenant of the member" (ברית המעור) is unchanged. 1:1:4 and 1:1:5 are being revised in the workbench. Still to convert (each has מלת מעור):
+
+- **"the word of the member"**: 1:1:8, 1:1:10 (×2), 1:4:4
+
+To confirm with Avi: whether the [*milat*] glosses are repeated at each later site, or given only where the two phrases appear together.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
