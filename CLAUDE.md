@@ -47,7 +47,7 @@ Front matter order on the site and in the exports: table of contents, Transliter
 The record must show whose judgment shaped the translation, not only who typed it. The format is in `LEXICON.md` ("Attribution"). In short:
 
 - **Every lexicon decision gets `by`:** `"Avi Craimer"` for his rulings (with `via`: `chat`, `terminology doc` or `workbench`), `"Claude"` for your own choices, provisional or obvious. Never write `"unattributed"` for a new decision.
-- **Credit Avi only for what he actually ruled or confirmed.** Silence is not a ruling, and neither is accepting a batch without looking at the item. When in doubt, record `"Claude"` and list the item under **Terminology to rule on**.
+- **Credit Avi when his decision-making was involved:** he proposed the rendering, or considered yours and confirmed or changed it. Silence is not a ruling, and neither is accepting a batch without looking at the item. When in doubt, record `"Claude"` and list the item under **Terminology to rule on**.
 - **Name him.** Write "Avi's ruling YYYY-MM-DD (via): …" in rationales and notes, and `(Avi, YYYY-MM-DD)` in `TRANSLATION_CONVENTIONS.md`. Never write "user" or "the user".
 - **Commit trailer:** a commit that records or applies one of Avi's rulings ends with `Ruling-by: Avi Craimer` on its own line, just before your session's attribution lines. Name the ruling in the subject ("Ruling 19 Nov: מערכה = configuration").
 - **Statistics:** after recording rulings, run `python3 tools/attribution_stats.py --markdown` and commit the regenerated `ATTRIBUTION.md` with them. Don't edit `ATTRIBUTION.md` by hand.

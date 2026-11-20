@@ -32,7 +32,7 @@ Keyed by the same entry keys. A record exists only when it has something in it.
 Every decision records who made it, so that the record shows the human judgment behind the text and not only who typed it.
 
 - `by` (required) is one of:
-  - `"Avi Craimer"`: Avi made the ruling. Use it only when Avi gave the ruling himself in the session, the terminology doc or the workbench, or confirmed a choice put to him. A choice he didn't object to is not his ruling.
+  - `"Avi Craimer"`: Avi made the ruling. What counts is that his decision-making was involved: he proposed the rendering, or he considered a proposal (usually the agent's, weighed against the related terms) and confirmed or changed it, in the session, the terminology doc or the workbench. It is his whether he kept the proposal or altered it; the record doesn't try to separate the two. A choice he didn't object to, or never looked at, is not his ruling.
   - `"Claude"`: the agent chose, whether as a provisional choice awaiting Avi or as an obvious call he left to the agent. List provisional choices under **Terminology to rule on** in `notes/pending_conversions.md`.
   - `"unattributed"`: the record doesn't say. This is for decisions made before 20 November 2026, when attribution began. Don't use it for new decisions.
 - `via` (optional, Avi's rulings only) is where he gave it: `"chat"`, `"terminology doc"` or `"workbench"`.
