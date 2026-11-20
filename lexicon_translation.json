@@ -2962,6 +2962,20 @@
      ]
     },
     {
+     "target": "configuration",
+     "gloss": "a complete patterned set of all ten sefirot",
+     "status": "preferred",
+     "contextNotes": "Use where מערכת means a whole set of ten, one configuration standing to another as shadow and garment (the ten of the hands and the ten of the feet; the ten of Beriah and the ten of Atzilut). Use \"array\" where it means an ordered rank or tier within one set (the four arrays; the upper and lower five). 1:1:7 has both senses.",
+     "decisions": [
+      {
+       "section": "1:1:7",
+       "surfaceForm": "שתי מערכות כל אחת מי'",
+       "rationale": "USER RULING 2026-11-19 (workbench): \"two configurations, each of ten\"; \"array\" kept for the tier sense. Whether to replace \"array\" with \"configuration\" throughout is open (notes/pending_conversions.md).",
+       "timestamp": "2026-11-19"
+      }
+     ]
+    },
+    {
      "target": "the Ma'arekhet (book title)",
      "status": "acceptable",
      "contextNotes": "ONLY for ספר המערכת / מערכת האלקות (Ma'arekhet ha-Elohut), transliterated as a proper title."
@@ -2972,7 +2986,7 @@
      "rendering": "the four arrays"
     }
    },
-   "notes": "An ordered RANK/tier in the emanative cascade. ALREADY ESTABLISHED as 'array' (prior text glosses it '(ma'arakhah)'). Gate 5 ch.5 (5:5:13-16) analyzes FOUR arrays via the R. Abba/Tazria passage: מערכה ראשונה=Chokhmah (the Names hidden there), שנייה=Binah (the 'roots', =עשית 'You made'), שלישית=Tiferet+the extremities (=מלאה 'filled'), רביעית=Malkhut (=הארץ 'the earth'). DISAMBIGUATION (trap, both appear this chunk): the BOOK ספר המערכת / מערכת האלקות = 'the Ma'arekhet' / 'Ma'arekhet ha-Elohut' (transliterate, proper title; flat 360 'ספר המערכ''), NOT the common noun 'array'."
+   "notes": "An ordered RANK/tier in the emanative cascade. ALREADY ESTABLISHED as 'array' (prior text glosses it '(ma'arakhah)'). Gate 5 ch.5 (5:5:13-16) analyzes FOUR arrays via the R. Abba/Tazria passage: מערכה ראשונה=Chokhmah (the Names hidden there), שנייה=Binah (the 'roots', =עשית 'You made'), שלישית=Tiferet+the extremities (=מלאה 'filled'), רביעית=Malkhut (=הארץ 'the earth'). DISAMBIGUATION (trap, both appear this chunk): the BOOK ספר המערכת / מערכת האלקות = 'the Ma'arekhet' / 'Ma'arekhet ha-Elohut' (transliterate, proper title; flat 360 'ספר המערכ''), NOT the common noun 'array'. SENSE SPLIT (2026-11-19): complete set of ten = \"configuration\"; ordered rank/tier = \"array\"."
   },
   "דו-פרצופין": {
    "headword": "דּוּ פַּרְצוּפִין (ד\"ו פרצופין)",
