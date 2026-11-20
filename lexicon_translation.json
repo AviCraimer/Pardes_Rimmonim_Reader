@@ -10573,6 +10573,54 @@
     }
    },
    "notes": "Hidden from the reader site (lexicon_reader.json: hidden) so the common word is not highlighted; remove `hidden` to show it."
+  },
+  "כסופין": {
+   "headword": "כְּסוּפִין",
+   "transliteration": "kisufin",
+   "partOfSpeech": "noun (Aramaic, plural)",
+   "rendering": "yearnings",
+   "candidates": [
+    {
+     "target": "yearnings",
+     "status": "preferred",
+     "contextNotes": "Only at 25:3:1 (Zohar, Terumah 163a), in the sense of longing: the rewards of the world to come, 'all those good things and all that bliss and all those yearnings'. The root כסף means to long or pine (Gen. 31:30; Ps. 84:3). In Aramaic the same root also means shame (בכסופא 'in shame', 8:19:8, 18:2:1); those sites keep 'shame'.",
+     "decisions": [
+      {
+       "section": "25:3:1",
+       "surfaceForm": "כסופין",
+       "rationale": "USER RULING 2026-11-19 (terminology doc, clashes table): 'yearnings'. Closest in sense to תשוקה (yearning), and the word occurs in this sense only here, so sharing the English is accepted. Replaces 'longings', which clashed with חשק = longing.",
+       "timestamp": "2026-11-19"
+      }
+     ]
+    },
+    {
+     "target": "longings",
+     "status": "rejected",
+     "contextNotes": "'Longing' belongs to חשק.",
+     "decisions": []
+    },
+    {
+     "target": "pinings",
+     "status": "rejected",
+     "contextNotes": "Not idiomatic English in the plural.",
+     "decisions": []
+    },
+    {
+     "target": "cravings",
+     "status": "rejected",
+     "contextNotes": "'Craving' belongs to תאוה; also too negative for heavenly rewards.",
+     "decisions": []
+    }
+   ],
+   "surfaceForms": {
+    "כסופין": {
+     "rendering": "yearnings"
+    },
+    "וכסופין": {
+     "rendering": "and yearnings"
+    }
+   },
+   "notes": "Ruled 2026-11-19; applied at 25:3:1. Shares the English 'yearning' with תשוקה by ruling (one-off)."
   }
  }
 }

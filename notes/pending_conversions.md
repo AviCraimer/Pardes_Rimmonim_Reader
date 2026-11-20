@@ -284,7 +284,7 @@ To confirm with Avi: whether the [*milat*] glosses are repeated at each later si
 - **Gates 22–32 checked against the rulings of 10–17 November** (batch 2026-11-18a, 18 November 2026): breaches fixed for inclusion, *tikkun*, compassion, literally, diadem, Self, letter names, blue, proper name, the volitional words, bliss / pleasure / enjoyment, covered, concealed / hidden / enclosed / stored away, pans of merit / liability, the tongue of law, the heavenly curtain, track. Details in `notes/batch_2026-11-18a_review.md`.
 - **Found 18 November 2026 in batch 2026-11-18a** (choices left as they are, for a ruling):
   - **זעף** (25:4:6, Za'afiel "prince of rage [za'af]"): "rage" now belongs to עברה (25:4:10). Needs its own word (e.g. "fuming", "storm").
-  - **כסופין** (25:3:1, Zohar: "good things and bliss and longings of the world to come"): "longing" belongs to חשק. Alternatives: "yearnings" (taken by תשוקה), "pinings".
+  - ~~**כסופין**~~ RULED 2026-11-19: "yearnings" (one-off, shared with תשוקה); applied at 25:3:1.
   - **עדניך / מתעדן** in the Eden entry (23:16:9): "the stream of Your delights [adanekha]", "the river that takes delight"; "delight" belongs to חפץ, but the plural of עדן is the point of the passage ("there is an Eden and there is an Eden"). Candidates: "Your Edens", "Your blisses".
   - **מעדני מלך / עדונין דמהניין** (27:2:9): now "the delicacies [ma'adanei] of the king", "the enjoyable delicacies", rather than "bliss".
   - **מתפנקן / תפנוקין** (24:7:3, 24:8:8): "pampered", "luxuries" (no ruling); עידון there "bliss".
