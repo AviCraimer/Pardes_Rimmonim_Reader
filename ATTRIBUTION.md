@@ -6,15 +6,15 @@ Who made the decisions behind this translation, as far as the records show. Clau
 
 ## Terminology decisions (`lexicon_translation.json`)
 
-252 entries, 447 candidate renderings (140 rejected), 304 dated decisions.
+252 entries, 448 candidate renderings (140 rejected), 307 dated decisions.
 
 | Decided by | Decisions | Share |
 |---|---:|---:|
-| Avi Craimer | 119 | 39% |
+| Avi Craimer | 122 | 40% |
 | Claude | 11 | 4% |
 | unattributed | 174 | 57% |
 
-Avi's rulings touch 105 of the 252 entries. Where he gave them: 57 not recorded, 52 terminology doc, 9 workbench, 1 chat.
+Avi's rulings touch 107 of the 252 entries. Where he gave them: 57 not recorded, 52 terminology doc, 10 workbench, 3 chat.
 
 By month:
 
@@ -22,7 +22,7 @@ By month:
 |---|---:|---:|---:|
 | 2026-06 | 14 | 7 | 89 |
 | 2026-10 | 9 | 3 | 83 |
-| 2026-11 | 96 | 1 | 2 |
+| 2026-11 | 99 | 1 | 2 |
 
 "unattributed" means the record does not say who decided. Before 20 November 2026 decisions were not tagged; the migration of that date credited Avi only where the record names him, so some earlier decisions that were his may be counted here as unattributed.
 
@@ -36,5 +36,5 @@ By month:
 
 ## Commits
 
-568 commits: Claude 443, github-actions[bot] 105, Avi Craimer 20. Commit authorship shows who typed or pushed a change, not who decided it. 0 commits carry a `Ruling-by: Avi Craimer` trailer (the convention began on 20 November 2026).
+570 commits: Claude 445, github-actions[bot] 105, Avi Craimer 20. Commit authorship shows who typed or pushed a change, not who decided it. 0 commits carry a `Ruling-by: Avi Craimer` trailer (the convention began on 20 November 2026).
 
