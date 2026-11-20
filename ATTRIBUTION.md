@@ -28,7 +28,11 @@ By month:
 
 ## Conventions (`TRANSLATION_CONVENTIONS.md`)
 
-14 rules are marked as Avi's rulings.
+29 tagged rules and rulings: Avi Craimer 16, Claude 1, unattributed 12. Avi's, by where he gave them: 8 terminology doc, 6 chat, 2 workbench.
+
+## Editorial decisions (`EDITORIAL_DECISIONS.md`)
+
+14 tagged rules and rulings: Avi Craimer 9, Claude 3, unattributed 2. Avi's, by where he gave them: 8 chat, 1 terminology doc.
 
 ## Paragraphs revised and approved by Avi
 
@@ -36,5 +40,5 @@ By month:
 
 ## Commits
 
-570 commits: Claude 445, github-actions[bot] 105, Avi Craimer 20. Commit authorship shows who typed or pushed a change, not who decided it. 0 commits carry a `Ruling-by: Avi Craimer` trailer (the convention began on 20 November 2026).
+571 commits: Claude 446, github-actions[bot] 105, Avi Craimer 20. Commit authorship shows who typed or pushed a change, not who decided it. 1 commits carry a `Ruling-by: Avi Craimer` trailer (the convention began on 20 November 2026).
 

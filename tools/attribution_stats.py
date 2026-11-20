@@ -4,7 +4,8 @@
 Counts what the records themselves show, and nothing more:
   - terminology decisions in lexicon_translation.json, by `by` (see LEXICON.md,
     "Attribution"), by month, and for Avi's rulings by `via`;
-  - rules in TRANSLATION_CONVENTIONS.md marked (Avi, ...);
+  - rules in TRANSLATION_CONVENTIONS.md and decisions in EDITORIAL_DECISIONS.md,
+    by their attribution tags: (Avi, date, via), (Claude, date), (unattributed);
   - paragraphs Avi has approved (human_revision_status.json) against all
     translated paragraphs;
   - commits by author, and commits carrying a `Ruling-by: Avi Craimer` trailer.
@@ -47,10 +48,27 @@ def lexicon_stats():
                 month=month, via=via, entries_ruled=len(entries_ruled))
 
 
-def conventions_stats():
-    with open(os.path.join(ROOT, 'TRANSLATION_CONVENTIONS.md'), encoding='utf-8') as f:
+TAG = re.compile(r'\((Avi|Claude)(?:, (\d{4}-\d{2}-\d{2}))(?:, ([a-z ]+?))?[):]|\((unattributed)\)')
+
+
+def tag_stats(name):
+    """Count attribution tags in a Markdown file, after its introduction (the first '## ')."""
+    path = os.path.join(ROOT, name)
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding='utf-8') as f:
         text = f.read()
-    return len(re.findall(r'\(Avi\b', text))
+    i = text.find('\n## ')
+    body = text[i:] if i >= 0 else text
+    by = collections.Counter()
+    via = collections.Counter()
+    for m in TAG.finditer(body):
+        who = m.group(1) or m.group(4)
+        by[who] += 1
+        if who == 'Avi':
+            via[m.group(3) or 'not recorded'] += 1
+    by[AVI] = by.pop('Avi', 0)
+    return dict(by=by, via=via)
 
 
 def paragraph_stats():
@@ -89,7 +107,8 @@ def pct(n, d):
 
 def build():
     L = lexicon_stats()
-    conv = conventions_stats()
+    conv = tag_stats('TRANSLATION_CONVENTIONS.md')
+    edit = tag_stats('EDITORIAL_DECISIONS.md')
     approved, total = paragraph_stats()
     G = git_stats()
     n = sum(L['by'].values())
@@ -110,8 +129,16 @@ def build():
                '20 November 2026 decisions were not tagged; the migration of that date '
                'credited Avi only where the record names him, so some earlier decisions '
                'that were his may be counted here as unattributed.\n')
-    out.append('## Conventions (`TRANSLATION_CONVENTIONS.md`)\n')
-    out.append(f'{conv} rules are marked as Avi\'s rulings.\n')
+    for title, fname, T in (('Conventions', 'TRANSLATION_CONVENTIONS.md', conv),
+                            ('Editorial decisions', 'EDITORIAL_DECISIONS.md', edit)):
+        if T is None:
+            continue
+        k = sum(T['by'].values())
+        out.append(f'## {title} (`{fname}`)\n')
+        out.append(f'{k} tagged rules and rulings: ' + ', '.join(
+            f'{w} {T["by"][w]}' for w in ORDER + sorted(set(T['by']) - set(ORDER)) if T['by'][w]) + '.' +
+            (' Avi\'s, by where he gave them: ' + ', '.join(f'{v} {w}' for w, v in T['via'].most_common()) + '.'
+             if T['via'] else '') + '\n')
     out.append('## Paragraphs revised and approved by Avi\n')
     out.append(f'{approved} of {total} translated paragraphs ({pct(approved, total)}) are approved in the '
                'translation workbench (`human_revision_status.json`), each with a fingerprint of the '

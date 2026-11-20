@@ -4,7 +4,7 @@ An English translation of Moses Cordovero's *Pardes Rimmonim*, with the Hebrew a
 
 ## Read first, in this order
 
-1. **`TRANSLATION_CONVENTIONS.md`**: the general rules: grammar ("the … ones", folded cognate objects), one English word per term, and house style (Hebrew markup, citations, brackets, gate titles).
+1. **`TRANSLATION_CONVENTIONS.md`**: the general rules (and **`EDITORIAL_DECISIONS.md`** for decisions about the book and the site): grammar ("the … ones", folded cognate objects), one English word per term, and house style (Hebrew markup, citations, brackets, gate titles).
 2. **`LEXICON.md`**: how the two lexicon files are organised and what goes in each.
 3. **The lexicon itself, through the digest:** `python3 tools/lexicon_digest.py` (all renderings), or `--entry KEY` for one entry's full record. Don't read the lexicon JSON whole.
 4. **`notes/pending_conversions.md`**: rulings that earlier gates do not yet follow (don't convert those sites unless asked), and, at the end, **Terminology to rule on**: choices made without a ruling, kept for Avi to review. Add to it whenever you make such a choice.
@@ -50,6 +50,7 @@ The record must show whose judgment shaped the translation, not only who typed i
 - **Credit Avi when his decision-making was involved:** he proposed the rendering, or considered yours and confirmed or changed it. Silence is not a ruling, and neither is accepting a batch without looking at the item. When in doubt, record `"Claude"` and list the item under **Terminology to rule on**.
 - **Name him.** Write "Avi's ruling YYYY-MM-DD (via): …" in rationales and notes, and `(Avi, YYYY-MM-DD)` in `TRANSLATION_CONVENTIONS.md`. Never write "user" or "the user".
 - **Commit trailer:** a commit that records or applies one of Avi's rulings ends with `Ruling-by: Avi Craimer` on its own line, just before your session's attribution lines. Name the ruling in the subject ("Ruling 19 Nov: מערכה = configuration").
+- **Where a decision goes:** the rendering of a term in the lexicon; a rule for the English that covers many words (grammar, transliteration, letters, italics, brackets, citations) in `TRANSLATION_CONVENTIONS.md`; a decision about the book or the site (title, front matter, tables, layout, workflow) in `EDITORIAL_DECISIONS.md`. In both Markdown files every rule or decision carries a tag: `(Avi, YYYY-MM-DD, via)`, `(Claude, YYYY-MM-DD)`, or `(unattributed)` for old rules only.
 - **Statistics:** after recording rulings, run `python3 tools/attribution_stats.py --markdown` and commit the regenerated `ATTRIBUTION.md` with them. Don't edit `ATTRIBUTION.md` by hand.
 
 ## Paragraphs Avi has revised
