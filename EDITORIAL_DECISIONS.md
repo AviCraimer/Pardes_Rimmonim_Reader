@@ -9,6 +9,7 @@ Every decision carries an attribution tag, as in `TRANSLATION_CONVENTIONS.md`: *
 - **Title translated** as *The Pomegranate Orchard*, with *Pardes Rimmonim* as the transliterated title beside it (Avi, 2026-11-18, terminology doc).
 - **The gates hold only text from the book.** Reference material the reader needs (tables of marks, keys) goes in the front matter, not inside a gate (Avi, 2026-11-18, chat).
 - **Front matter order:** table of contents, Transliteration Conventions, Author's Introduction, Gate 1 (unattributed).
+- **Square brackets belong to the translator alone.** Additions by the Hebrew edition are set in parentheses marked "Heb. Ed." (see `TRANSLATION_CONVENTIONS.md`) (Avi, 2026-11-20, chat).
 - **Textual problems** are translated as printed and flagged; an emendation is given in brackets beside the printed reading, and the list of flagged problems is kept for checking against a printed edition (unattributed).
 
 ## Transliteration Conventions page
