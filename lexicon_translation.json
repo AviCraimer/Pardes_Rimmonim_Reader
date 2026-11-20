@@ -10621,6 +10621,41 @@
     }
    },
    "notes": "Ruled 2026-11-19; applied at 25:3:1. Shares the English 'yearning' with תשוקה by ruling (one-off)."
+  },
+  "דבר-ענין-אחד": {
+   "headword": "דָּבָר אֶחָד וְעִנְיָן אֶחָד",
+   "transliteration": "davar echad ve-inyan echad",
+   "partOfSpeech": "idiom",
+   "rendering": "one and the same (thing)",
+   "candidates": [
+    {
+     "target": "one and the same",
+     "status": "preferred",
+     "contextNotes": "A fixed emphatic doublet for strict identity; don't render word for word (\"one thing and one matter\"). Use \"one and the same\", or \"one and the same thing\" where a noun is needed.",
+     "decisions": [
+      {
+       "section": "1:1:7",
+       "surfaceForm": "דבר א' וענין א'",
+       "rationale": "USER RULING 2026-11-19 (workbench): idiomatic \"one and the same\" / \"one and the same thing\"; in 1:1:7 \"one and the same\" (\"thing\" superfluous).",
+       "timestamp": "2026-11-19"
+      }
+     ]
+    },
+    {
+     "target": "one and the same thing",
+     "status": "acceptable",
+     "contextNotes": "Where the sentence needs a noun."
+    }
+   ],
+   "surfaceForms": {
+    "דבר א' וענין א'": {
+     "rendering": "one and the same"
+    },
+    "דבר אחד וענין אחד": {
+     "rendering": "one and the same"
+    }
+   },
+   "notes": "Idiom. Hidden from the reader site (lexicon_reader.json: hidden)."
   }
  }
 }

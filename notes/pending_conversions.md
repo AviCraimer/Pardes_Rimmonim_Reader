@@ -157,6 +157,10 @@ Rule: in Sefer Yetzirah's מלת לשון ומלת מעור the second מלת is
 
 To confirm with Avi: whether the [*milat*] glosses are repeated at each later site, or given only where the two phrases appear together.
 
+## *Davar echad ve-inyan echad*: "one and the same" (ruled 19 November 2026)
+
+Rule: the idiom דבר אחד וענין אחד is rendered "one and the same", or "one and the same thing" where a noun is needed, not "one thing and one matter". 1:1:7 is being revised in the workbench. Still to convert: 26:7:1.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
