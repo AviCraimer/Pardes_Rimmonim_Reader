@@ -30,6 +30,6 @@ Scheduled to run Friday 20 Nov 2026 from 17:45 (Toronto), with resume checks at 
 ## Status
 
 - [x] 1 Work list (tools/heb_ed_worklist.py → notes/heb_ed_worklist/A-E.json: 259 paragraphs, 307 markers)
-- [ ] 2A  - [ ] 2B  - [ ] 2C  - [ ] 2D  - [ ] 2E
+- [ ] 2A  - [ ] 2B  - [ ] 2C  - [ ] 2D  - [ ] 2E  (launched 20 Nov 17:50 in worktrees /home/claude/wt_heb_A … E, branches heb-ed-A … E; reports go to notes/heb_ed_worklist/X_report.md on each branch)
 - [ ] 3 Checker
 - [ ] 4 Merged and pushed; report sent
