@@ -11164,6 +11164,44 @@
     }
    },
    "notes": "Construction rule, also recorded in TRANSLATION_CONVENTIONS.md. Hidden from the reader site."
+  },
+  "נצחים": {
+   "headword": "נְצָחִים",
+   "transliteration": "netzachim",
+   "partOfSpeech": "noun (plural of the sefirah name)",
+   "rendering": "the Netzachs",
+   "candidates": [
+    {
+     "target": "the Netzachs [Netzach and Hod]",
+     "status": "preferred",
+     "contextNotes": "For the pair Netzach and Hod, treated as twin \"Netzachs\". Give the bracket \"[Netzach and Hod]\" at the first occurrence in a gate, then \"the Netzachs\". Not \"Netzach and Hod\" without the plural, which hides Cordovero's idiom. Other senses are outside this ruling: נצח נצחים (\"Netzach of Netzachs\", the aspects within one sefirah), ג' נצחים (the three: Netzach, Hod, Yesod, at 23:13:41), and the adjective or verb (4:4:1 נצחים \"eternal\", 2:2:6 מנצחים \"prevail over\").",
+     "decisions": [
+      {
+       "section": "1:1:8",
+       "surfaceForm": "בנצחים",
+       "rationale": "Avi's ruling 2026-11-20 (workbench): keep Cordovero's plural with the bracket at the first occurrence, the rendering he had already used in 1:1:8.",
+       "timestamp": "2026-11-20",
+       "by": "Avi Craimer",
+       "via": "workbench"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "נצחים": {
+     "rendering": "the Netzachs"
+    },
+    "הנצחים": {
+     "rendering": "the Netzachs"
+    },
+    "בנצחים": {
+     "rendering": "into the Netzachs"
+    },
+    "והנצחים": {
+     "rendering": "and the Netzachs"
+    }
+   },
+   "notes": "Pair sense only; see the candidate's contextNotes for the other senses."
   }
  }
 }

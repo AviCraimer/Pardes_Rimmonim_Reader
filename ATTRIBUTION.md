@@ -6,15 +6,15 @@ Who made the decisions behind this translation, as far as the records show. Clau
 
 ## Terminology decisions (`lexicon_translation.json`)
 
-252 entries, 448 candidate renderings (140 rejected), 307 dated decisions.
+253 entries, 449 candidate renderings (140 rejected), 308 dated decisions.
 
 | Decided by | Decisions | Share |
 |---|---:|---:|
-| Avi Craimer | 122 | 40% |
+| Avi Craimer | 123 | 40% |
 | Claude | 11 | 4% |
-| unattributed | 174 | 57% |
+| unattributed | 174 | 56% |
 
-Avi's rulings touch 107 of the 252 entries. Where he gave them: 57 not recorded, 52 terminology doc, 10 workbench, 3 chat.
+Avi's rulings touch 108 of the 253 entries. Where he gave them: 57 not recorded, 52 terminology doc, 11 workbench, 3 chat.
 
 By month:
 
@@ -22,7 +22,7 @@ By month:
 |---|---:|---:|---:|
 | 2026-06 | 14 | 7 | 89 |
 | 2026-10 | 9 | 3 | 83 |
-| 2026-11 | 99 | 1 | 2 |
+| 2026-11 | 100 | 1 | 2 |
 
 "unattributed" means the record does not say who decided. Before 20 November 2026 decisions were not tagged; the migration of that date credited Avi only where the record names him, so some earlier decisions that were his may be counted here as unattributed.
 
@@ -40,5 +40,5 @@ By month:
 
 ## Commits
 
-577 commits: Claude 451, github-actions[bot] 106, Avi Craimer 20. Commit authorship shows who typed or pushed a change, not who decided it. 5 commits carry a `Ruling-by: Avi Craimer` trailer (the convention began on 20 November 2026).
+Not computed: this is a shallow clone.
 
