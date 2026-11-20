@@ -164,7 +164,9 @@ def main():
                 'Who made the decisions behind this translation, as far as the records show. '
                 'Claude drafts the English; Avi Craimer makes the terminology rulings, sets the '
                 'conventions and revises the text. The rules for recording attribution are in '
-                '`LEXICON.md` ("Attribution") and `CLAUDE.md`.\n\n')
+                '`LEXICON.md` ("Attribution") and `CLAUDE.md`. '
+                'A decision credited to Avi means he examined the term in context, asked about its linguistic range and made a considered ruling. It does not mean he glanced at a proposal and approved it. Where he confirmed a proposal rather than proposing it, '
+                'the confirmation came after that examination.\n\n')
         with open(os.path.join(ROOT, 'ATTRIBUTION.md'), 'w', encoding='utf-8') as f:
             f.write(head + body + '\n')
 
