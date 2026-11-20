@@ -1,0 +1,1132 @@
+[
+ {
+  "ref": "1:3:4",
+  "markers": [
+   {
+    "class": "correction",
+    "printed": "הנצח",
+    "corrected": "הגבורה",
+    "hebrew": "(הנצח) [נ\"א הגבורה]"
+   }
+  ],
+  "english_brackets": [
+   "[first]",
+   "[that]",
+   "[sefirot subsumed]",
+   "[crossed]",
+   "[sefirot]",
+   "[crossed]",
+   "[that]",
+   "[the fourth point]"
+  ],
+  "english_old_forms": [
+   "(a variant reads \"Netzach\")"
+  ]
+ },
+ {
+  "ref": "1:6:8",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בזמן הגלות]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[מהעשר]"
+   }
+  ],
+  "english_brackets": [
+   "[unspelled]",
+   "[spelled out]",
+   "[regarding]",
+   "[in the time of exile]",
+   "[such as]",
+   "[its]",
+   "[each]",
+   "[of the ten]",
+   "[Tiferet]",
+   "[reference to]",
+   "[that of]",
+   "[things]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "2:2:5",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[מעניש]"
+   }
+  ],
+  "english_brackets": [
+   "[judgment]",
+   "[punish]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "2:4:3",
+  "markers": [
+   {
+    "class": "asis-gloss",
+    "hebrew": "[ומאמר ב' יהי רקיע נמשך מחכמה ע\"י גבורה אל האפריון ולכן כו' ע' בעסיס רמונים ובפלח]"
+   }
+  ],
+  "english_brackets": [
+   "[tohu va-vohu]",
+   "[kelipot]",
+   "[reshit]",
+   "[me'orot without the letter Vav]",
+   "[other]",
+   "[day]",
+   "[the utterance of]",
+   "[reshit]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "2:6:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[שלרוב גדולתו ורוממותו לא ישגיח בתחתונים]"
+   }
+  ],
+  "english_brackets": [
+   "[that is, in this world]",
+   "[the emanated]",
+   "[against this]",
+   "[holding that because of His great greatness and exaltedness He does not watch over those below]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "2:7:6",
+  "markers": [
+   {
+    "class": "asis-gloss",
+    "hebrew": "[וכן בכל בחי' ובחי' תהיינה ג' בחי' אלו עצמם מעס\"ר]"
+   }
+  ],
+  "english_brackets": [
+   "[and likewise in each and every aspect there will be these same three aspects — from Asis Rimonim]",
+   "[a wedge]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "3:3:9",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ר\"ל בכלל הגלוי]"
+   }
+  ],
+  "english_brackets": [
+   "[point]",
+   "[the word]",
+   "[being]",
+   "[being]",
+   "[given]",
+   "[being]",
+   "[being]",
+   "[in]",
+   "[Chokhmah]",
+   "[when]",
+   "[the meaning being: into the category of the revealed]",
+   "[called]",
+   "[being]",
+   "[Chokhmah]",
+   "[+]",
+   "[being]",
+   "[that]",
+   "[that]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "3:5:5",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[של האדם להשיג]"
+   }
+  ],
+  "english_brackets": [
+   "[is]",
+   "[being]",
+   "[is]",
+   "[The meaning [of]",
+   "[is]",
+   "[and]",
+   "[Binah]",
+   "[is]",
+   "[is]",
+   "[is]",
+   "[is]",
+   "[Genesis]",
+   "[that]",
+   "[human]",
+   "[to apprehend]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "3:5:7",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[במלת וטיט]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[התקונים הנ\"ל]"
+   }
+  ],
+  "english_brackets": [
+   "[with the word \"clay\"]",
+   "[other]",
+   "[in]",
+   "[is]",
+   "[the]",
+   "[several]",
+   "[will]",
+   "[, addressed]",
+   "[the listener's]",
+   "[third person]",
+   "[three]",
+   "[that it be]",
+   "[mentioned above]",
+   "[the]",
+   "[the]",
+   "[are]",
+   "[Gedulah-Gevurah]",
+   "[are]",
+   "[in]",
+   "[on it]",
+   "[fit]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "3:6:1",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א בחכמתא)"
+   }
+  ],
+  "english_brackets": [
+   "[where]",
+   "[to water the garden,' etc. Again,]",
+   "[one]",
+   "[his words]"
+  ],
+  "english_old_forms": [
+   "(a variant: in Chokhmah)"
+  ]
+ },
+ {
+  "ref": "3:8:9",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[מהאדרא]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[דכולא חד]"
+   }
+  ],
+  "english_brackets": [
+   "[from the Idra]",
+   "[Chokhmah and Binah]",
+   "[it]",
+   "[sefirot]",
+   "[is]",
+   "[sefirot]",
+   "[ones]",
+   "[ones]",
+   "[ones]",
+   "[respect of]",
+   "[drawing]",
+   "[ones]",
+   "[ones]",
+   "[that all is one]",
+   "[like]",
+   "[sefirot]",
+   "[all]",
+   "[Gedulah-Gevurah-Tiferet]",
+   "[is]",
+   "[namely]",
+   "[it possible]",
+   "[rather]",
+   "[this]",
+   "[as separate sefirot]",
+   "[other]",
+   "[mean]",
+   "[Rabbi Shem Tov]",
+   "[is found]",
+   "[is]",
+   "[the Zohar]",
+   "[in reference]",
+   "[in reference]",
+   "[of this is]",
+   "[respect of]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "4:5:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[המציאות]"
+   }
+  ],
+  "english_brackets": [
+   "[to say]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "4:7:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[קו המדה]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[דאתקין]"
+   },
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א ואתדחיק)"
+   },
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א דחיקו)"
+   },
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א עילאה)"
+   }
+  ],
+  "english_brackets": [
+   "[of the Measuring Line]",
+   "[another]",
+   "[yet]",
+   "[its]",
+   "[light]"
+  ],
+  "english_old_forms": [
+   "(another reading: was pressed)",
+   "(another reading: the pressing)"
+  ]
+ },
+ {
+  "ref": "4:7:10",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[עילאה]"
+   }
+  ],
+  "english_brackets": [
+   "[in]",
+   "[light]",
+   "[its words]",
+   "[is thus]",
+   "[light]",
+   "[supernal]",
+   "[as]",
+   "[in]",
+   "[and]",
+   "[predicated]",
+   "[predicated]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "4:8:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[קדישא]"
+   }
+  ],
+  "english_brackets": [
+   "[the meaning of]",
+   "[shape]",
+   "[He is]",
+   "[the meaning of]",
+   "[and earth]",
+   "[since]",
+   "[the world]",
+   "[old as]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "4:9:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הבחירה על הידיעה במצוות אחרות שיעשה האדם]"
+   }
+  ],
+  "english_brackets": [
+   "[b]",
+   "[arrange]",
+   "[body]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "4:9:8",
+  "markers": [
+   {
+    "class": "asis-gloss",
+    "hebrew": "[ית' הנעלם המתפשט בספירות, מעסיס רמונים]"
+   }
+  ],
+  "english_brackets": [
+   "[them]",
+   "[of fire]",
+   "[may He be exalted, the concealed One that spreads forth within the sefirot—from Asis Rimonim]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "4:9:9",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הכלים]"
+   }
+  ],
+  "english_brackets": [
+   "[vessels]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "4:10:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הרשב\"י]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[כך נשמתא כפום עובדוי]"
+   },
+   {
+    "class": "variant",
+    "hebrew": "(ס\"א עד כתר)"
+   }
+  ],
+  "english_brackets": [
+   "[Rashbi]",
+   "[on]",
+   "[to be]",
+   "[microcosm]",
+   "[is named]",
+   "[yet]",
+   "[fixed]",
+   "[to do so]",
+   "[may one]",
+   "[the fourth]",
+   "[the meaning of]",
+   "[havayot]",
+   "[the meaning of]"
+  ],
+  "english_old_forms": [
+   "(another reading: up to Keter)"
+  ]
+ },
+ {
+  "ref": "4:10:6",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הספירות]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[שפעה התמידי]"
+   }
+  ],
+  "english_brackets": [
+   "[the fact]",
+   "[the meaning of]",
+   "[the point]",
+   "[both]",
+   "[the point]",
+   "[argument]",
+   "[the nature of]",
+   "[His]",
+   "[His]",
+   "[the point]",
+   "[effluence]",
+   "[one]",
+   "[the level]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "5:4:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ושיער]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[אתקרון]"
+   }
+  ],
+  "english_brackets": [
+   "[itturei]",
+   "[itrin]",
+   "[parsa]",
+   "[and measured]",
+   "[the meaning of]",
+   "[corresponding]",
+   "[ones]",
+   "[His]",
+   "[of quotation]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "5:4:7",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[היינו הבינה]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[הכתוב]"
+   }
+  ],
+  "english_brackets": [
+   "[is Binah]",
+   "[matter of the]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "5:5:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הספירות]"
+   }
+  ],
+  "english_brackets": [
+   "[have]",
+   "[the sefirot]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "5:5:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[רחמים]"
+   }
+  ],
+  "english_brackets": [
+   "[held]",
+   "[was]",
+   "[is]",
+   "[which]",
+   "[compassion]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "5:6:2",
+  "markers": [
+   {
+    "class": "asis-gloss",
+    "hebrew": "[אחת מן הג' הנכללים בו. מעסיס רמונים]"
+   }
+  ],
+  "english_brackets": [
+   "[first]",
+   "[Chokhmah]",
+   "[one]",
+   "[one of the three included within it—from Asis Rimonim]",
+   "[since]",
+   "[own]",
+   "[part]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "6:1:11",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ביה\"ו]"
+   }
+  ],
+  "english_brackets": [
+   "[and]",
+   "[with  Y H V]",
+   "[namely]",
+   "[one]",
+   "[so as]",
+   "[and]",
+   "[because]",
+   "[which]",
+   "[the]",
+   "[there is]",
+   "[his words]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "6:3:5",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "[ס\"א רקיעין]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[משחקת בתבל]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[כגוונא]"
+   }
+  ],
+  "english_brackets": [
+   "[in another case]",
+   "[also]",
+   "[chapter]",
+   "[Resh Lakish]",
+   "[it is with]",
+   "[more]",
+   "[is]",
+   "[matters]",
+   "[are]",
+   "[and]",
+   "[and]",
+   "[is]",
+   "[another reading: firmaments]",
+   "[are]",
+   "[are]",
+   "[is]",
+   "[are]",
+   "[is]",
+   "[such]",
+   "[is]",
+   "[that of]",
+   "[His earth]",
+   "[earth]",
+   "[it]",
+   "[a man]",
+   "[earths]",
+   "[are]",
+   "[clothed]",
+   "[continued]",
+   "[for]",
+   "[according to]",
+   "[climate]",
+   "[it is]",
+   "[for]",
+   "[there is something]",
+   "[is]",
+   "[is]",
+   "[there is]",
+   "[is]",
+   "[land]",
+   "[some]",
+   "[the passage]"
+  ],
+  "english_old_forms": [
+   "[another reading: firmaments]"
+  ]
+ },
+ {
+  "ref": "6:3:6",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[עירובין]"
+   }
+  ],
+  "english_brackets": [
+   "[to]",
+   "[them]",
+   "[it]",
+   "[one]",
+   "[oral]",
+   "[Eruvin]",
+   "[own]",
+   "[some]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "7:1:6",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א ד')"
+   },
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א וא' אל הגבורה)"
+   },
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א ג')"
+   },
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א א' אל החסד)"
+   }
+  ],
+  "english_brackets": [
+   "[effluence]",
+   "[passages]",
+   "[to be]",
+   "[bekha = 22]"
+  ],
+  "english_old_forms": [
+   "(a variant reads: four)",
+   "(a variant reads: and one to Gevurah)",
+   "(a variant reads: three)",
+   "(a variant reads: one to Chesed)"
+  ]
+ },
+ {
+  "ref": "7:2:3",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א נביעו דלית ליה סוף)"
+   }
+  ],
+  "english_brackets": [
+   "[is]",
+   "[cheili]",
+   "[cheili]",
+   "[cheil yod]",
+   "[his]"
+  ],
+  "english_old_forms": [
+   "(a variant reads: a welling that has no end)"
+  ]
+ },
+ {
+  "ref": "7:2:22",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[תקונא י\"ח דל\"ג.]"
+   }
+  ],
+  "english_brackets": [
+   "[Tikkun 18, fol. 33a]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "7:3:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[כגוונא דא]"
+   }
+  ],
+  "english_brackets": [
+   "[is]",
+   "[eleh]",
+   "[nagid ve-nafik]",
+   "[naycha]",
+   "[in like manner]",
+   "[tevah]",
+   "[Tzaddik]",
+   "[so as]",
+   "[its]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "7:4:5",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[יונקין]"
+   }
+  ],
+  "english_brackets": [
+   "[tzaddik]",
+   "[to]",
+   "[acherim]",
+   "[draw nourishment]",
+   "[lilin]",
+   "[its]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "7:5:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[שהוא כתר שבחכמה]"
+   }
+  ],
+  "english_brackets": [
+   "[which is the Keter-within-Chokhmah]",
+   "[effluence]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:1:9",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הדברים]"
+   }
+  ],
+  "english_brackets": [
+   "[with]",
+   "[matters]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:3:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הוא ע\"י התשובה]"
+   }
+  ],
+  "english_brackets": [
+   "[His]",
+   "[Yourself]",
+   "[is by means of repentance]",
+   "[the word]",
+   "[tziruf]",
+   "[temurah]",
+   "[keri'ah]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:4:8",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[המסותרת]"
+   }
+  ],
+  "english_brackets": [
+   "[only]",
+   "[into groups of]",
+   "[and]",
+   "[tikkun]",
+   "[goes]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:8:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ועל הקושיא]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[הגבורה]"
+   }
+  ],
+  "english_brackets": [
+   "[And to]",
+   "[present]",
+   "[the answer comes]",
+   "[Gevurah]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:9:6",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ברחמים]"
+   }
+  ],
+  "english_brackets": [
+   "[havayot]",
+   "[nature]",
+   "[with]",
+   "[in compassion]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:10:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הבינה]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[השני של חכמה]"
+   }
+  ],
+  "english_brackets": [
+   "[it]",
+   "[in it]",
+   "[Binah]",
+   "[the second side of Chokhmah]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:10:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[שלישית]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[שלישי]"
+   }
+  ],
+  "english_brackets": [
+   "[third]",
+   "[third]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:10:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[אחרת רק לומר]"
+   }
+  ],
+  "english_brackets": [
+   "[itself]",
+   "[other than to say]",
+   "[their]",
+   "[their]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:11:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ומים קרים ולחים]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[וסיטרא דאיהו קר אחיד]"
+   }
+  ],
+  "english_brackets": [
+   "[ruach]",
+   "[and water cold and moist]",
+   "[and the side that is cold holds]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:11:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בנוסח אחר]"
+   }
+  ],
+  "english_brackets": [
+   "[in another version]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:11:5",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א הכל)"
+   }
+  ],
+  "english_brackets": [],
+  "english_old_forms": [
+   "(another version: \"of everything\")"
+  ]
+ },
+ {
+  "ref": "8:12:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ובחגיגה]"
+   }
+  ],
+  "english_brackets": [
+   "[in Chagigah]",
+   "[Hidden Places]",
+   "[mipnei gevah]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:13:7",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[לדבר אלא]"
+   }
+  ],
+  "english_brackets": [
+   "[speak, but only]",
+   "[korban oleh ve-yored]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:15:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ואראה]"
+   }
+  ],
+  "english_brackets": [
+   "[Elohai]",
+   "[Atah]",
+   "[she is]",
+   "[derive]",
+   "[aspaklariot]",
+   "[and I saw,]",
+   "[chasid]",
+   "[crown]",
+   "[lit. give and take in]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:17:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[העליון שהוא הכתר]"
+   }
+  ],
+  "english_brackets": [
+   "[the upper one, which is Keter]",
+   "[the supernal Father and the supernal Mother]",
+   "[mochin de-Abba]",
+   "[du-partzufin]",
+   "[da'at]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:19:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[אלא אתר]"
+   }
+  ],
+  "english_brackets": [
+   "[mit'atter]",
+   "[itrohi]",
+   "[is]",
+   "[rather, the place]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:22:4",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א ספירא)"
+   }
+  ],
+  "english_brackets": [
+   "[there is]"
+  ],
+  "english_old_forms": [
+   "(another version: sapphire)"
+  ]
+ },
+ {
+  "ref": "8:23:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[אינון מקבלין כל ספיראן]"
+   }
+  ],
+  "english_brackets": [
+   "[they receive, all the sefirot]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:26:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[דאתיהיבת מסטרא דההוא אור קדמאה]"
+   }
+  ],
+  "english_brackets": [
+   "[that was given from the side of that primordial light]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:26:6",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[שאח\"כ מהזרעונים הנופלים]"
+   }
+  ],
+  "english_brackets": [
+   "[in which afterward, from the seeds that fall,]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "8:26:9",
+  "markers": [
+   {
+    "class": "asis-gloss",
+    "hebrew": "[אשר תהיה מתמצא מלמעלה מעסיס רמונים]"
+   }
+  ],
+  "english_brackets": [
+   "[which will be found from above, \"from the juice of pomegranates\" (Song of Songs 8:2)]"
+  ],
+  "english_old_forms": []
+ }
+]

@@ -1,0 +1,831 @@
+[
+ {
+  "ref": "24:1:5",
+  "markers": [
+   {
+    "class": "correction",
+    "printed": "ססטוריא",
+    "corrected": "סטוטרי\"ה",
+    "hebrew": "(ססטוריא) [נ\"א סטוטרי\"ה]"
+   },
+   {
+    "class": "variant",
+    "hebrew": "[נ\"א סניגיה]"
+   }
+  ],
+  "english_brackets": [
+   "[metaher]",
+   "[ba'alei teshuvah]",
+   "[wheel]",
+   "[another version: Statoria]",
+   "[another version: Senigia]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:1:6",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[אדרהניא\"ל]"
+   }
+  ],
+  "english_brackets": [
+   "[flash of lightning]",
+   "[galgallim]",
+   "[YHVH]",
+   "[an abbreviation, probably ish el achiv, \"each to his brother\"]",
+   "[Adarhaniel]",
+   "[the palace]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:2:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ונבראים]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[ולהשיג]"
+   }
+  ],
+  "english_brackets": [
+   "[nehar dinur]",
+   "[and are created]",
+   "[and attain]",
+   "[precious things]",
+   "[chamudot]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:2:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[מלשאר]"
+   }
+  ],
+  "english_brackets": [
+   "[than for the other]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:4:2",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "[נ\"א סנסני\"ה]"
+   },
+   {
+    "class": "variant",
+    "hebrew": "[נ\"א סנסני\"ה]"
+   }
+  ],
+  "english_brackets": [
+   "[another version: Sansaniah]",
+   "[another version: Sansaniah]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:4:3",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "[נ\"א תומיא\"ל]"
+   }
+  ],
+  "english_brackets": [
+   "[ve-Elohai]",
+   "[another version: Gedudiel]",
+   "[another version: Tumiel]",
+   "[river of]",
+   "[delight]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:5:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[דאקרון רמונים]"
+   }
+  ],
+  "english_brackets": [
+   "[היכל אהבה, heikhal ahavah]",
+   "[sanegoria]",
+   "[Radiance]",
+   "[body]",
+   "[shadayim]",
+   "[maspik]",
+   "[Shod]",
+   "[Kafan]",
+   "[which are called pomegranates]",
+   "[additional]",
+   "[are appointed]",
+   "[fifth]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:7:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ממארי]"
+   }
+  ],
+  "english_brackets": [
+   "[Curtain]",
+   "[their study]",
+   "[of light]",
+   "[from the Master]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:9:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ממטה למעלה]"
+   }
+  ],
+  "english_brackets": [
+   "[from below to above]",
+   "[mutzakot]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:10:6",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הדולקת]"
+   }
+  ],
+  "english_brackets": [
+   "[burning]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:10:8",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בלי שום השלמה]"
+   }
+  ],
+  "english_brackets": [
+   "[without any completion]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:10:9",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בהמה חו\"ע האסורים]"
+   }
+  ],
+  "english_brackets": [
+   "[the forbidden beasts, wild animals and birds]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:11:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[דאצילות הוא]"
+   }
+  ],
+  "english_brackets": [
+   "[of Atzilut is]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:11:5",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[האויר]"
+   }
+  ],
+  "english_brackets": [
+   "[the air]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "24:13:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הזהר לעיל]"
+   }
+  ],
+  "english_brackets": [
+   "[them]",
+   "[the Zohar above]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "25:2:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ארעא לאנהגא כולא. בר]"
+   }
+  ],
+  "english_brackets": [
+   "[se'arah]",
+   "[se'orah]",
+   "[the earth, to conduct all; except]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "25:3:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[מסטרא דיצה\"ר אבל עביד תולדות מסטרא דרוח קדישא]"
+   }
+  ],
+  "english_brackets": [
+   "[from the side of the evil inclination; but he would have made offspring from the side of the holy spirit]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "25:7:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ודא חשך. ונוגה לו סביב דא קליפה ד' דאגוזא דאיהו]"
+   }
+  ],
+  "english_brackets": [
+   "[and this is darkness. 'And a brightness was about it': this is the fourth husk of the nut, which]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "25:7:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[והיא קלי' נוגה]"
+   }
+  ],
+  "english_brackets": [
+   "[cherpot]",
+   "[ru'ach]",
+   "[and it is the husk of Nogah]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "26:1:4",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "[נ\"א גמגומ\"א]"
+   },
+   {
+    "class": "variant",
+    "hebrew": "[נ\"א גמגומ\"א]"
+   },
+   {
+    "class": "variant",
+    "hebrew": "[נ\"א נטמאים אותם]"
+   }
+  ],
+  "english_brackets": [
+   "[בור, bor]",
+   "[Seducer]",
+   "[another version: Sarsuria]",
+   "[sarsur]",
+   "[another version: Gamguma]",
+   "[gam]",
+   "[another version: Gamguma]",
+   "[There are]",
+   "[another version: they are defiled]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "26:2:1",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "[נ\"א נכנס]"
+   },
+   {
+    "class": "variant",
+    "hebrew": "[נ\"א ששמו כו\"ס]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[שבידו]"
+   }
+  ],
+  "english_brackets": [
+   "[שחת, shachat]",
+   "[another version: to enter]",
+   "[another version: whose name is Kos (Cup)]",
+   "[in whose hand is]",
+   "[keri]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "26:3:1",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "[נ\"א מהיכלי]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[נמסרת]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[אגיריסו\"ן]"
+   }
+  ],
+  "english_brackets": [
+   "[Ofil]",
+   "[Dumah]",
+   "[another version: Skafortia]",
+   "[another version: Sangadiel]",
+   "[another version: from the palaces]",
+   "[another version: Angaryon]",
+   "[Croup]",
+   "[is handed over]",
+   "[Agirison]",
+   "[Af]",
+   "[Cheimah]",
+   "[mesakhsekh]",
+   "[all]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "26:4:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[של צד הקדושה מכריע הוא קדוש]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[הנקראים]"
+   }
+  ],
+  "english_brackets": [
+   "[Chovah]",
+   "[tit ha-yaven]",
+   "[of the side of holiness prevails, he is holy]",
+   "[that are called]",
+   "[a strange god]",
+   "[Nega]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "26:5:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[משם יוצא רוח א' ונקרא שו\"ד]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[אלו אוה\"ע]"
+   }
+  ],
+  "english_brackets": [
+   "[Arel]",
+   "[Eivah]",
+   "[Despoiler]",
+   "[From there goes out one spirit, and it is called Shod (Destruction).]",
+   "[Famine]",
+   "[these are the nations of the world]",
+   "[Orlah]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "27:2:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בראשונה כל מי שמראה איקונין של מלך באצבע היה נהרג והתינוקות הולכים אל בית הספר ומורים את האזכרה באצבע אמר הקב\"ה ודגלו עלי אהבה א\"ת ודגלו]"
+   }
+  ],
+  "english_brackets": [
+   "[ve-diglo]",
+   "[and his skipping]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "27:6:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ממתיק]"
+   }
+  ],
+  "english_brackets": [
+   "[bestowing]",
+   "[va-yigmol]",
+   "[sweetens]",
+   "[gemul]",
+   "[gomel tov]",
+   "[Binah bestows on the poor]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "27:11:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ב' אותיות]"
+   }
+  ],
+  "english_brackets": [
+   "[two letters]",
+   "[Dalet-Vav, 4+6]",
+   "[ve-chattu]",
+   "[the power]",
+   "[ten]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "27:13:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[מא' ועד י' רומז לי\"ס כסדרן]"
+   }
+  ],
+  "english_brackets": [
+   "[yodu]",
+   "[from Alef to Yod they hint at ten sefirot]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "27:13:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[מושקה]"
+   }
+  ],
+  "english_brackets": [
+   "[watered]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "27:22:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[דקליפה]"
+   }
+  ],
+  "english_brackets": [
+   "[u-tekufato]",
+   "[kof]",
+   "[of the husk]",
+   "[basket]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "27:26:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[דכתיב ויתן אברהם את כל אשר לו ליצחק]"
+   }
+  ],
+  "english_brackets": [
+   "[meisharim]",
+   "[straight ones]",
+   "[as it is written, 'And Abraham gave all that he had unto Isaac' (Gen. 25:5)]",
+   "[22]",
+   "[rightly do they love you, read as: the straight ones love the twenty-two]",
+   "[le-meisharim]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "28:6:3",
+  "markers": [
+   {
+    "class": "correction",
+    "printed": "בקיומא",
+    "corrected": "בגוונא",
+    "hebrew": "(בקיומא) [נ\"א בגוונא]"
+   }
+  ],
+  "english_brackets": [
+   "[another version: into another fashion]",
+   "[Botzina de-Kardinuta]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "29:1:7",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[אין מקיפין ב' חביות]"
+   }
+  ],
+  "english_brackets": [
+   "[makif]",
+   "[\"one may not join (makifin) two casks\"]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "29:1:9",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בכח\"ב]"
+   }
+  ],
+  "english_brackets": [
+   "[in Keter, Chokhmah, Binah]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "29:2:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[מעצמה]"
+   }
+  ],
+  "english_brackets": [
+   "[moon one day old]",
+   "[of itself]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "29:3:6",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הנקודות]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[הנקודות]"
+   }
+  ],
+  "english_brackets": [
+   "[one]",
+   "[points]",
+   "[points]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "29:5:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[המתאחד]"
+   }
+  ],
+  "english_brackets": [
+   "[that is united]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "29:5:5",
+  "markers": [
+   {
+    "class": "asis-gloss",
+    "hebrew": "[עם היותם שווים כי יתחלפו מסבת מקומם ועניינם עד לא\"ת. מעס\"ר]"
+   }
+  ],
+  "english_brackets": [
+   "[even though they are equal; for they change because of their place and their matter, etc.]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "30:6:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בנחתם מלמטה למעלה]"
+   }
+  ],
+  "english_brackets": [
+   "[in the sealed impression, from below to above]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "30:7:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[שמא דמ\"ב]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[שמא די\"ג מכילן סליק מסטרא דא ונחית מסטרא דא]"
+   }
+  ],
+  "english_brackets": [
+   "[name of forty-two]",
+   "[The name of the thirteen measures rises from this side and descends from this side.]",
+   "[in order]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "31:1:10",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[יסודות הנז']"
+   }
+  ],
+  "english_brackets": [
+   "[aforementioned elements]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "31:2:6",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[יתוסף בו]"
+   }
+  ],
+  "english_brackets": [
+   "[there is added in it]",
+   "[ta'avod]",
+   "[eved]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "31:3:5",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[מסטרא דחיוון דאינון]"
+   }
+  ],
+  "english_brackets": [
+   "[ofanei kodesh]",
+   "[from the side of the living creatures, which are]",
+   "[chayyot ha-kodesh]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "31:5:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[מיכאל]"
+   }
+  ],
+  "english_brackets": [
+   "[chaluka de-rabbanan]",
+   "[Michael]",
+   "[aloes]",
+   "[re'uta]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "31:6:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[דלעילא לאתחזאה תמן. וכן כג\"ד לא נחתא לתתא עד דאתלבשת בלבושא דהאי עלמא. כגונא דא מלאכין קדישין דלעילא כו' לא נתתין לתתא עד דמתלבשין בלבושא]"
+   }
+  ],
+  "english_brackets": [
+   "[or]",
+   "[or]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "31:7:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ועד לא אשלים לבושוי אסתלק]"
+   }
+  ],
+  "english_brackets": [
+   "[and before he completed his garments he departed]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "31:8:8",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[של העינים שהם גבות העינים]"
+   }
+  ],
+  "english_brackets": [
+   "[of the eyes, which are the eyebrows]",
+   "[gid]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "31:9:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[דהיינו כוונה לצאת י\"ח]"
+   }
+  ],
+  "english_brackets": [
+   "[the commentators]",
+   "[that is, intention to fulfil the obligation]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "31:9:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בעיבור נשמה אחרת]"
+   }
+  ],
+  "english_brackets": [
+   "[with the impregnation of another soul]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "31:10:5",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[דלתתא. וההוא גליפו דלעילא]"
+   }
+  ],
+  "english_brackets": [
+   "[below. And that engraving above]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "32:3:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הספי' הפנימיות שהן ההויות הנז']"
+   }
+  ],
+  "english_brackets": [
+   "[also]",
+   "[of the inner sefirot, which are the aforementioned havayot]"
+  ],
+  "english_old_forms": []
+ }
+]

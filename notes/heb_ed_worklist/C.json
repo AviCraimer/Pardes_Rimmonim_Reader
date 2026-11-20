@@ -1,0 +1,686 @@
+[
+ {
+  "ref": "17:2:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ליצירה]"
+   },
+   {
+    "class": "asis-gloss",
+    "hebrew": "[אשר עונות התחתונים תלוין בה. מעסיס רמונים]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[וזוהמא שהטיל נחש בחוה]"
+   }
+  ],
+  "english_brackets": [
+   "[Yetzirah]",
+   "[on which the iniquities of the lower ones depend; from Asis Rimmonim]",
+   "[and the filth that the serpent cast into Eve]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "17:3:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ראוי שתהיה]"
+   }
+  ],
+  "english_brackets": [
+   "[adam]",
+   "[ought to have had]",
+   "[to say]",
+   "[the side of impurity]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "18:1:5",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[שהיא הבינה]"
+   }
+  ],
+  "english_brackets": [
+   "[which is Binah]",
+   "[alai]",
+   "[alai]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "18:2:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[שקולין דא לקבל דא כמה דאוקמוה חברין, ואוקימנא דאינון תרין נהורין הוו ברזא חדא]"
+   }
+  ],
+  "english_brackets": [
+   "[your flock]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "18:2:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[למהוי רישא לשועלים]"
+   }
+  ],
+  "english_brackets": [
+   "[to be a head to foxes]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "18:2:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ודאי כי לפירושו]"
+   }
+  ],
+  "english_brackets": [
+   "[for according to his explanation]",
+   "[in Chullin and in Zohar Chadash]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "18:3:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[המיוחד והמתגלה]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[בבינה]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[כדברי חכמים]"
+   }
+  ],
+  "english_brackets": [
+   "[Chokhmah]",
+   "[Adam]",
+   "[Mah, 45]",
+   "[particular and revealed]",
+   "[in Binah]",
+   "[as the words of the Sages]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "18:4:10",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בצורת ה']"
+   }
+  ],
+  "english_brackets": [
+   "[in the form of Heh]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "18:5:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[חד חוורא וחד סומקא כו']"
+   }
+  ],
+  "english_brackets": [
+   "[One white and one red, etc.]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "18:5:7",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[לכן אמרה אפשר למלכא חד לאשתמשא בתרין כתרין כו']"
+   }
+  ],
+  "english_brackets": [
+   "[therefore she said: Is it possible for one king to make use of two crowns, etc.]",
+   "[olah]",
+   "[aliyah]",
+   "[se'irim]",
+   "[alai]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "19:1:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[המזכירם בחיתוך אותיותיהם]"
+   }
+  ],
+  "english_brackets": [
+   "[dorshei reshumot]",
+   "[shem ha-etzem]",
+   "[eilei]",
+   "[El]",
+   "[shoded]",
+   "[of the heavens]",
+   "[tzeva]",
+   "[el]",
+   "[elohim]",
+   "[elohim]",
+   "[sadai]",
+   "[shadai]",
+   "[adonai]",
+   "[ehyeh]",
+   "[ehyeh]",
+   "[yehu]",
+   "[who mentions them, in the articulation of their letters]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "19:1:5",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[שם העצם אליו]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[בתורתו הנתונה]"
+   }
+  ],
+  "english_brackets": [
+   "[shem ha-meforash]",
+   "[perush]",
+   "[shem ha-etzem, literally \"the name of the self\"]",
+   "[of him]",
+   "[the proper name]",
+   "[shemot ha-etzem]",
+   "[ma'arakhah mul ma'arakhah]",
+   "[ayeh]",
+   "[in His Torah given]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "19:3:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הוראת]"
+   }
+  ],
+  "english_brackets": [
+   "[in]",
+   "[it]",
+   "[the indication of]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "19:3:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[מילוי]"
+   }
+  ],
+  "english_brackets": [
+   "[filling]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "19:4:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בשורק (דהוא מלופים). מלכות יהו\"ה כלילא מכלהו]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[בכתרא עלאה סתימין אינון]"
+   }
+  ],
+  "english_brackets": [
+   "[with shuruk (which is melupim); Malkhut, YHVH, includes all of them]",
+   "[the vowels written under each Name are not reproduced in this text]",
+   "[kometz]",
+   "[itpatchat]",
+   "[in the Supernal Keter they are enclosed]",
+   "[va-yyitzer]",
+   "[tzur olamim]",
+   "[tzayar]",
+   "[segulah]",
+   "[ba-esh]",
+   "[sheva]",
+   "[shevah]",
+   "[va-nachalmah]",
+   "[chakirah]",
+   "[ha-chekker]",
+   "[kerach]",
+   "[kesher]",
+   "[tzela]",
+   "[5]",
+   "[keresh]",
+   "[written יההיווהו]",
+   "[kosher]",
+   "[sorek]",
+   "[kelulotayikh]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "19:4:5",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ויסוד נכלל עם הת\"ת]"
+   }
+  ],
+  "english_brackets": [
+   "[and Yesod is included with Tiferet]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:1:8",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בלי הנקודות]"
+   }
+  ],
+  "english_brackets": [
+   "[the vowels are not reproduced in this text]",
+   "[without the vowel points]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:1:18",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ולהתגלות]"
+   }
+  ],
+  "english_brackets": [
+   "[and to be revealed]",
+   "[katar]",
+   "[has]",
+   "[65]",
+   "[ha-Rimmon]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:2:5",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[להתגלות]"
+   }
+  ],
+  "english_brackets": [
+   "[netivot]",
+   "[shevilin]",
+   "[pel'ot]",
+   "[yipale]",
+   "[itparshan]",
+   "[perush]",
+   "[shiruta]",
+   "[to be revealed]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:4:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[וכ\"ה נקודתו כנקו' אדני]"
+   }
+  ],
+  "english_brackets": [
+   "[and so its vowels are like the vowels of Adonai]",
+   "[hoy]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:6:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[דאתחברו]"
+   }
+  ],
+  "english_brackets": [
+   "[that of]",
+   "[ruach]",
+   "[Bereshit bara Elohim et]",
+   "[joined]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:6:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ורוח הוא אויר חם ולח לכך הוא מכריע]"
+   }
+  ],
+  "english_brackets": [
+   "[and air is hot and moist, therefore it tips the balance]",
+   "[mashkenet]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:6:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[דאתחברו]"
+   }
+  ],
+  "english_brackets": [
+   "[joined]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:6:5",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[כמבואר]"
+   },
+   {
+    "class": "restoration",
+    "hebrew": "[השוכנת]"
+   }
+  ],
+  "english_brackets": [
+   "[greatness]",
+   "[Binah]",
+   "[as explained]",
+   "[dwelling]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:9:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[אלה\"ם שהמלכות היא מ\"ה]"
+   }
+  ],
+  "english_brackets": [
+   "[the glory]",
+   "[as Eleh with Mah, for Malkhut is Mah]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:9:3",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בשם אלהים]"
+   }
+  ],
+  "english_brackets": [
+   "[by the name Elohim]",
+   "[built]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:9:6",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[אדדם עם הכולל בגי' מ\"י]"
+   }
+  ],
+  "english_brackets": [
+   "[eddadem with the kolel is the number of Mi]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:10:1",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[וחרבא הוי\"ה]"
+   }
+  ],
+  "english_brackets": [
+   "[and the sword, YHVH]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:10:2",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "(ס\"א נטיר)"
+   }
+  ],
+  "english_brackets": [
+   "[Jacob]"
+  ],
+  "english_old_forms": [
+   "(another version: guards)"
+  ]
+ },
+ {
+  "ref": "20:11:2",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[במש\"כ]"
+   }
+  ],
+  "english_brackets": [
+   "[golem]",
+   "[crownlet]",
+   "[in what he wrote]",
+   "[porot]",
+   "[gan, 53]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:13:9",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[סילוק]"
+   }
+  ],
+  "english_brackets": [
+   "[ascent]",
+   "[of Heh]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:13:10",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[מתייחס]"
+   }
+  ],
+  "english_brackets": [
+   "[is related]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "20:13:11",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הנוראים]"
+   }
+  ],
+  "english_brackets": [
+   "[awesome]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "21:1:4",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[אבדנו]"
+   }
+  ],
+  "english_brackets": [
+   "[matters]",
+   "[Shimmusha Rabba and Shimmusha Zuta]",
+   "[we lost]",
+   "[given by the mnemonic]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "21:2:6",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[הבכורה]"
+   }
+  ],
+  "english_brackets": [
+   "[of the firstborn]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "21:2:9",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[בריאת]"
+   }
+  ],
+  "english_brackets": [
+   "[25]",
+   "[koh va-khoh]",
+   "[pittuchei chotam]",
+   "[creation of]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "21:3:5",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[המציאות]"
+   }
+  ],
+  "english_brackets": [],
+  "english_old_forms": []
+ },
+ {
+  "ref": "21:6:1",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א והאבנים תהיין על שמות בנ\"י)"
+   }
+  ],
+  "english_brackets": [
+   "[written]",
+   "[lev]",
+   "[Lamed-Bet]",
+   "[tekhelet]"
+  ],
+  "english_old_forms": [
+   "(another version: 'And the stones shall be according to the names of the children of Israel,' Ex. 28:21)"
+  ]
+ },
+ {
+  "ref": "21:13:10",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[תקונא ס\"ט דק\"ג ע\"ב]"
+   }
+  ],
+  "english_brackets": [],
+  "english_old_forms": []
+ },
+ {
+  "ref": "21:14:6",
+  "markers": [
+   {
+    "class": "restoration",
+    "hebrew": "[ואח\"כ בהיפוך בדילוג תיבה וקריאת תיבה ר\"ל ת' מתיבה י' ו' מתיבה ח' הרי תו. ת' מתיבה ו', ע' מתיבה ד', ב' מתיבה ב', ד' מתיבה א', הרי תעבד]"
+   }
+  ],
+  "english_brackets": [
+   "[YHVH-Alef]"
+  ],
+  "english_old_forms": []
+ },
+ {
+  "ref": "21:14:7",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א בשם הוי\"ה)"
+   }
+  ],
+  "english_brackets": [
+   "[Anpin]",
+   "[Anpin]"
+  ],
+  "english_old_forms": [
+   "(another version: in the name of the havayah)"
+  ]
+ },
+ {
+  "ref": "22:4:1",
+  "markers": [
+   {
+    "class": "variant",
+    "hebrew": "(נ\"א ותכלול)"
+   }
+  ],
+  "english_brackets": [
+   "[sechorah]",
+   "[chesed]",
+   "[Pachad]",
+   "[and]"
+  ],
+  "english_old_forms": [
+   "(another version: include)"
+  ]
+ }
+]
