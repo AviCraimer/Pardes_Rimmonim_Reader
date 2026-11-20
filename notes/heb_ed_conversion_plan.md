@@ -30,6 +30,7 @@ Scheduled to run Friday 20 Nov 2026 from 17:45 (Toronto), with resume checks at 
 ## Status
 
 - [x] 1 Work list (tools/heb_ed_worklist.py → notes/heb_ed_worklist/A-E.json: 259 paragraphs, 307 markers)
-- [ ] 2A  - [ ] 2B  - [ ] 2C  - [ ] 2D  - [ ] 2E  (launched 20 Nov 17:50 in worktrees /home/claude/wt_heb_A … E, branches heb-ed-A … E; reports go to notes/heb_ed_worklist/X_report.md on each branch)
+- [x] 2A  - [x] 2B  - [x] 2C  - [x] 2D  - [x] 2E  (done; merged on branch heb-ed-merge with fixes: "Asis Rimmonim" spelling, "variant" only where the Hebrew has נ"א/ס"א)
+- [ ] 2F sweep of sites the work list missed (tools/heb_ed_sweep.py; worker F on branch heb-ed-F, based on heb-ed-merge)
 - [ ] 3 Checker
 - [ ] 4 Merged and pushed; report sent
