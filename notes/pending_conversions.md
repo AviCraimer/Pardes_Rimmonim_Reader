@@ -161,6 +161,10 @@ To confirm with Avi: whether the [*milat*] glosses are repeated at each later si
 
 Rule: the idiom דבר אחד וענין אחד is rendered "one and the same", or "one and the same thing" where a noun is needed, not "one thing and one matter". 1:1:7 is being revised in the workbench. Still to convert: 26:7:1.
 
+## *Kivvenu yafeh*: "hit the mark" (ruled 19 November 2026)
+
+Rule: the idiom כיוונו יפה / כיון יפה is rendered "hit the mark" (they/he hit the mark), not "aimed correctly". 1:1:7 is being revised in the workbench. The rest of the translation has not been updated: a text search for the idiom and its spelling variants found these other sites: 6:6:7, 23:7:15, 23:18:21, 23:21:41. Check for looser variants when converting.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*

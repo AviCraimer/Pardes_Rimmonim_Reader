@@ -10670,6 +10670,33 @@
     }
    },
    "notes": "Idiom. Hidden from the reader site (lexicon_reader.json: hidden)."
+  },
+  "כוון-יפה": {
+   "headword": "כִּוְּנוּ יָפֶה",
+   "transliteration": "kivvenu yafeh",
+   "partOfSpeech": "idiom",
+   "rendering": "hit the mark",
+   "candidates": [
+    {
+     "target": "hit the mark",
+     "status": "preferred",
+     "contextNotes": "Idiom: to get something right, to hit on the truth. Not \"aimed correctly\" or \"aimed well\". Inflect as needed: \"they hit the mark\", \"he hit the mark\".",
+     "decisions": [
+      {
+       "section": "1:1:7",
+       "surfaceForm": "כיוונו יפה",
+       "rationale": "USER RULING 2026-11-19 (workbench).",
+       "timestamp": "2026-11-19"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "כיוונו יפה": {
+     "rendering": "they hit the mark"
+    }
+   },
+   "notes": "Idiom. Hidden from the reader site (lexicon_reader.json: hidden)."
   }
  }
 }
