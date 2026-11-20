@@ -21,6 +21,10 @@ When Hebrew or Aramaic uses an adjective or participle as a noun, with no separa
 
 When a verb takes a noun from its own root (שעשוע שהקב"ה משתעשע, "the reveling that the Holy One revels"; טיולא דמטייל), English folds the pair into one verb or gerund: "the reveling of the Holy One with the righteous"; "the stroll that the Holy One takes". The lexicon keeps a single word for the term. This is a rule about the construction, not about vocabulary.
 
+### Impersonal plurals with a book: "it is explained in the Zohar" (user, 2026-11-19)
+
+A plural verb whose setting is a book, such as כן בארו בזוהר, פירשו בתיקונים or אמרו במדרש, is impersonal: "it is explained in the Zohar", "it is said in the Midrash". Never write "they explained" unless a real group of people is the subject ("the commentators explained", פירשו המפרשים). See the lexicon entry פרש-באר-סתמי.
+
 ### Prepositions follow the Hebrew where English allows
 
 Example: *sha'ashua* takes "revel in" where the Hebrew has ב־ (in the Torah, in His wisdom) and "revel with" where it has עם (with the righteous).

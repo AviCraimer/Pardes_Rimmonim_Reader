@@ -10697,6 +10697,36 @@
     }
    },
    "notes": "Idiom. Hidden from the reader site (lexicon_reader.json: hidden)."
+  },
+  "פרש-באר-סתמי": {
+   "headword": "בֵּאֲרוּ / פֵּרְשׁוּ / אָמְרוּ (בְּ…)",
+   "transliteration": "be'aru / pershu / amru",
+   "partOfSpeech": "idiomatic pattern (impersonal plural)",
+   "rendering": "it is explained (in …)",
+   "candidates": [
+    {
+     "target": "it is explained in … / it is said in …",
+     "status": "preferred",
+     "contextNotes": "An impersonal plural verb with a book as its setting (כן בארו בזוהר, פירשו בתיקונים, אמרו במדרש) means \"it is explained / it is said in the Zohar\" etc. Never \"they explained\" unless a real group of people is the subject, e.g. \"the commentators explained\" (פירשו המפרשים). When Cordovero means Rashbi or another author personally, he uses the singular (הוא כתב, \"he wrote\").",
+     "decisions": [
+      {
+       "section": "1:1:7",
+       "surfaceForm": "כן בארו בזוהר / פירשו בתיקונים",
+       "rationale": "USER RULING 2026-11-19 (workbench): an idiomatic pattern; never \"they explained\" without a real plural subject.",
+       "timestamp": "2026-11-19"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "בארו בזוהר": {
+     "rendering": "it is explained in the Zohar"
+    },
+    "פירשו בתיקונים": {
+     "rendering": "it is explained in the Tikkunim"
+    }
+   },
+   "notes": "Construction rule, also recorded in TRANSLATION_CONVENTIONS.md. Hidden from the reader site."
   }
  }
 }

@@ -165,6 +165,10 @@ Rule: the idiom דבר אחד וענין אחד is rendered "one and the same", 
 
 Rule: the idiom כיוונו יפה / כיון יפה is rendered "hit the mark" (they/he hit the mark), not "aimed correctly". 1:1:7 is being revised in the workbench. The rest of the translation has not been updated: a text search for the idiom and its spelling variants found these other sites: 6:6:7, 23:7:15, 23:18:21, 23:21:41. Check for looser variants when converting.
 
+## Impersonal plurals: "it is explained in the Zohar" (ruled 19 November 2026)
+
+Rule: see `TRANSLATION_CONVENTIONS.md`. A plural verb whose setting is a book is impersonal ("it is explained in the Zohar"), never "they explained" unless a real group is the subject. 1:1:7 is being revised in the workbench. Candidate sites, where the English has "they explained / said / interpreted / wrote … in the Zohar / Tikkunim / Midrash …" (found by text search, so check each against the Hebrew; some may have a real plural subject): 71 paragraphs: 6:3:7, 8:3:1, 8:9:5, 8:14:5, 8:19:8, 8:21:8, 8:26:7, 9:4:5, 10:3:3, 10:4:2, 12:3:3, 13:3:1, 13:3:10, 14:3:2, 16:7:1, 22:3:2, 22:3:5, 22:4:8, 23:1:49, 23:1:94, 23:1:236, 23:3:22, 23:5:1, 23:5:9, 23:5:19, 23:5:20, 23:6:6, 23:6:8, 23:6:9, 23:7:3, 23:7:13, 23:8:52, 23:8:70, 23:9:7, 23:9:19, 23:10:3, 23:11:29, 23:11:37, 23:13:22, 23:13:25, 23:13:59, 23:13:78, 23:14:17, 23:14:29, 23:14:41, 23:16:21, 23:16:40, 23:16:41, 23:16:44, 23:17:14, 23:17:20, 23:19:7, 23:19:19, 23:20:41, 23:21:43, 23:21:79, 23:22:11, 24:12:2, 25:6:4, 27:12:3, 27:21:3, 27:26:4, 28:5:1, 28:6:4, 31:2:6, 31:3:1, 31:3:6, 31:9:1, 31:10:1, 31:10:8, 31:11:4.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
