@@ -294,7 +294,7 @@ To confirm with Avi: whether the [*milat*] glosses are repeated at each later si
   - **עת רצון** "a time of favour" and **פני רצון** "face of favour" (23:16:67, 23:17:13, 23:20:30, 24:6:1, 25:6:6): רצון = "will"; idiom kept.
   - **Other words now sharing a ruled English word:** "ruin" / "spoil" for other words, mostly קלקול (חרוב at 25:2:3) (2:3:3, 2:6:1, 7:1:4–6, 8:1:6, 8:2:3, 8:11:5–6, 13:3:8–9, 23:10:3, 24:5:1, 25:2:3, 31:9:6, 31:10:8, 32:1:4); "Destruction [Shod]" for שוד (24:5:1) beside "destroy" kept for משחית / שחת; "injuries / injure" for נזק and for the verb לחבל (24:11:1, 25:5:3, 26:3:1, 26:6:1, 26:8:4–5).
   - **Name spellings** at 25:4:8–9: "Katzpiel", "Rogziel" (the lexicon notes write Ketzafiel, Ragziel).
-  - **ר"מ** in Gate 23 (23:8:52, 23:21:39, 23:22:16): read as Rabbi Moshe [de León] like the bare ר' משה of the same entries; in Gate 4 ר"מ is Rabbi Menachem [Recanati].
+  - ~~**ר"מ**~~ CONFIRMED by Avi 2026-11-19 (keep as is; Cordovero writes בר"מ for the Ra'aya Mehemna). in Gate 23 (23:8:52, 23:21:39, 23:22:16): read as Rabbi Moshe [de León] like the bare ר' משה of the same entries; in Gate 4 ר"מ is Rabbi Menachem [Recanati].
   - **31:6:4** "the orders of its Mishnayot" (סדרי משניותיה): kept capitalised (the Mishnah itself?).
   - **Gates 9 and 15 contents** still spell "Aleph" (outside the Gate 22–32 check).
 - 8:12:3: "angered the King" (×2) translates Aramaic ארגיז / ארגיזו, the verb of רוגז ("agitation", ruled 18 Nov): needs a ruling on the verb (e.g. "agitated the King").
