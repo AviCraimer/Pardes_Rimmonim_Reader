@@ -10526,17 +10526,30 @@
    "headword": "וְהִנֵּה",
    "transliteration": "ve-hinneh",
    "partOfSpeech": "particle (discourse marker)",
-   "rendering": "now (optional)",
+   "rendering": "now / behold (optional)",
    "candidates": [
     {
      "target": "now",
      "status": "preferred",
-     "contextNotes": "Cordovero's והנה is a filler or transition word, not a 'behold'. Translate it as \"Now\" only where that helps the flow; otherwise leave it untranslated. No consistent policy needed (e.g. 1:1:3 keeps \"Now this is…\"; 1:1:4 drops it).",
+     "contextNotes": "Cordovero's והנה is a filler or transition word, not a 'behold'. Translate it as \"Now\" only where that helps the flow; otherwise leave it untranslated. No consistent policy needed (e.g. 1:1:3 keeps \"Now this is…\"; 1:1:4 drops it). Variation is allowed: \"Behold\" occasionally, for naturalness (see the acceptable candidate).",
      "decisions": [
       {
        "section": "1:1:4",
        "surfaceForm": "והנה",
        "rationale": "USER RULING 2026-11-19 (workbench): והנה is a filler/transition; render \"now\" only when it helps the flow, else omit. No consistent policy required.",
+       "timestamp": "2026-11-19"
+      }
+     ]
+    },
+    {
+     "target": "behold",
+     "status": "acceptable",
+     "contextNotes": "Avi's stylistic variant, for naturalness and to avoid repeating \"Now\" in consecutive paragraphs (1:1:7, after \"Now\" in 1:1:6). Use sparingly; omitting the word stays the default.",
+     "decisions": [
+      {
+       "section": "1:1:7",
+       "surfaceForm": "והנה",
+       "rationale": "USER 2026-11-19 (workbench): \"Behold\" used for variation after \"Now\" in the previous paragraph.",
        "timestamp": "2026-11-19"
       }
      ]
