@@ -11,7 +11,7 @@ Scheduled to run Friday 20 Nov 2026 from 17:45 (Toronto), with resume checks at 
 ## Forms
 
 - Restoration or gloss: "(Heb. Ed.: in the time of exile)".
-- Gloss from Asis Rimonim (bracket ends מעסיס רמונים / מעס"ר): "(Heb. Ed., from Asis Rimonim: …)".
+- Gloss from Asis Rimmonim (bracket ends מעסיס רמונים / מעס"ר): "(Heb. Ed., from Asis Rimmonim: …)".
 - Variant (נ"א / ס"א): "(Heb. Ed. variant: sapphire)".
 - Correction (X) [נ"א Y]: "Y (Heb. Ed. variant; the printed text reads X)".
 - A word the edition marks doubtful with parentheses alone, e.g. (ממש): keep the word, add "(Heb. Ed.: doubtful)".
@@ -25,7 +25,7 @@ Scheduled to run Friday 20 Nov 2026 from 17:45 (Toronto), with resume checks at 
 1. Work list: `tools/heb_ed_worklist.py` (or a script in /mnt/user-data/outputs/claude/pardes_tools/) writes one JSON record per paragraph: ref, edition markers with their class, current English, English square brackets. Save under `notes/heb_ed_worklist/`.
 2. Five workers in parallel, each in its own git worktree and branch (`heb-ed-A` … `heb-ed-E`), writing with `tools/put_paragraphs.py --force`, committing on the branch, returning a report (changes, added omissions, flags): A Gates 1–8 (56), B 9–16 (51), C 17–22 (42), D 23 (60), E 24–32 (53).
 3. Independent checker (fresh agent): for every changed paragraph against main, only bracket / parenthesis notes changed; each Heb. Ed. note matches the Hebrew; no translator bracket converted; no old forms remain; translation.json round-trips (`json.dumps(T, ensure_ascii=False, indent=1)`, no trailing newline); `tools/revision_check.py --commits` shows no approved paragraph changed.
-4. Merge the five branches into main, run the checks, mark the pending line in `notes/pending_conversions.md` converted, regenerate `ATTRIBUTION.md` if needed, commit with `Ruling-by: Avi Craimer`, pull --rebase, push. Report to Avi: added omissions, Asis Rimonim glosses, flagged sites, and 1:1:7.
+4. Merge the five branches into main, run the checks, mark the pending line in `notes/pending_conversions.md` converted, regenerate `ATTRIBUTION.md` if needed, commit with `Ruling-by: Avi Craimer`, pull --rebase, push. Report to Avi: added omissions, Asis Rimmonim glosses, flagged sites, and 1:1:7.
 
 ## Status
 
