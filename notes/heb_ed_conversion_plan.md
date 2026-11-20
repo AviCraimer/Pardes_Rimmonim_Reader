@@ -32,5 +32,5 @@ Scheduled to run Friday 20 Nov 2026 from 17:45 (Toronto), with resume checks at 
 - [x] 1 Work list (tools/heb_ed_worklist.py → notes/heb_ed_worklist/A-E.json: 259 paragraphs, 307 markers)
 - [x] 2A  - [x] 2B  - [x] 2C  - [x] 2D  - [x] 2E  (done; merged on branch heb-ed-merge with fixes: "Asis Rimmonim" spelling, "variant" only where the Hebrew has נ"א/ס"א)
 - [x] 2F sweep (32 paragraphs changed; merged into heb-ed-merge)
-- [ ] 3 Checker (running on heb-ed-merge in /home/claude/wt_heb_check; report to /home/claude/heb_ed_check_report.md)
+- [x] 3 Checker (report: notes/heb_ed_worklist/check_report.md on heb-ed-G). Mostly sound; fixes being applied on branch heb-ed-G (worktree /home/claude/wt_heb_check), then merge heb-ed-G to main.
 - [ ] 4 Merged and pushed; report sent
