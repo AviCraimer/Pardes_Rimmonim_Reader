@@ -7983,7 +7983,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > אפרסמון פי' הרשב"י ע"ה בפ' תרומה שם שהוא הבינה בהיותה נכללת משש קצות וכל אחד מהקצוות כלול מעשר שעולים ששים וזהו ס'. ובהיותה סובבת על ארבע קצוות וכל א' מהקצוות כלול מעשר עולה מ' ועיקר התיבה הוא אפרון ומ"ם וסמ"ך לרמוז אל הסוד הנדרש שהיא נק' אפרסמון ברצותה להיות סובבת על הבנים כי קודם בהיותה מסתלקת מעליהם נרמזת במ"ם סתומה ובהיותה סובבת עליהם נק' מ"ם פתוחה. ובהיות שהיתה מסולקת והיא שבה ועדיין לא שבה בעצם אלא רוצה לשוב נרמזת באפרסמון:
 
-**23:1:199** **Fingers** [אצבעות, *etzba'ot*] are in two ways. The first: ten fingers hint at the ten sefirot, as we explained their matter in the Gate "Ten and Not Nine," chapter 1.
+**23:1:199** **Digits / Fingers** [אצבעות, *etzba'ot*] are in two ways. The first: ten digits hint at the ten sefirot, as we explained their matter in the Gate "Ten and Not Nine," chapter 1.
 
 > אצבעות היא בשתי פנים. הא' הוא י' אצבעות הם רומז' לי' ספירות כמו שפי' עניינם בשער י' ולא ט' בפ' א'.
 
@@ -8301,7 +8301,7 @@ We named it **"Glossary of Titles"** — a sufficient treatment for explaining m
 
 > ברזל בזהר (וארא דף כ"ד) פי' כי הוא במלכות. ובמקום אחר נראה שהוא בתפארת. ואפשר שעל שניהם נאמר (משלי כז יז) ברזל בברזל יחד. ועכ"ז הוא מצד הדין והמלחמה ופשוט הוא בענין. וכן כל כלי ברזל לא נשמע בבית (מ"א ו ז). על שבו אחוזים החיצונים. וכן פי' בזהר שיר השירים:
 
-**23:2:34** **Bars** [בריחים, *berichim*]: we have already explained somewhat, in the entry "fingers," the matter of the five bars and the middle bar, which is a hint at the middle line. And behold, the bars were five on the right and five on the left; and we explained there that they are Gedulah, Gevurah, Tiferet, Netzach, Hod. And according to what appears from the words of Rashbi, peace be upon him, in the Tikkunim, the five sefirot mentioned are called bars on account of the middle bar, which is Tiferet, which passes from end to end; that is, "from one end of heaven," the upper Heh, "to the other end of heaven" (Deut. 4:32), the lower Heh:
+**23:2:34** **Bars** [בריחים, *berichim*]: we have already explained somewhat, in the entry "Digits / Fingers" [*etzba'ot*], the matter of the five bars and the middle bar, which is a hint at the middle line. And behold, the bars were five on the right and five on the left; and we explained there that they are Gedulah, Gevurah, Tiferet, Netzach, Hod. And according to what appears from the words of Rashbi, peace be upon him, in the Tikkunim, the five sefirot mentioned are called bars on account of the middle bar, which is Tiferet, which passes from end to end; that is, "from one end of heaven," the upper Heh, "to the other end of heaven" (Deut. 4:32), the lower Heh:
 
 > בריחים כבר פי' קצת בערך אצבעות ענין ה' בריחים ובריח התיכון שהוא רמז אל הקו האמצעי. והנה הבריחים היו ה' מימין וה' משמאל ובארנו שם כי הם גדולה גבורה תפארת נצח הוד. ולפי הנראה מדברי הרשב"י ע"ה בתקונים שה' ספירות הנז' נקר' בריחים על שם הבריח התיכון שהוא התפארת שהוא מבריח מן הקצה אל הקצה דהיינו מקצה השמים ה' עילאה ועד קצה השמים ה' תתאה:
 
