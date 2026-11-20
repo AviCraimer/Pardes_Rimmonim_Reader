@@ -2947,11 +2947,54 @@
    "partOfSpeech": "noun",
    "candidates": [
     {
+     "target": "configuration",
+     "gloss": "an arrangement of parts laid out in order, whatever the parts are",
+     "status": "preferred",
+     "contextNotes": "Primary rendering in every sense where ordered placement is the point: a complete set of ten sefirot (1:1:7 'two configurations, each of ten'); the four tiers of the Emanation ('the four configurations… the first configuration is Chokhmah'; 'the second configuration of the Emanation'); the worlds facing one another (21:8:2 'configuration facing configuration'); relative position (8:10:1 'in relation to the configuration of Binah'); the heavens (19:1:4, 22:4:7 'the configurations of the heavens', astrological sense); a scholar's scheme of the sefirot (4:3:1-2); letter permutations (30:1:4); bones (31:9:6). Verb: where Cordovero plays on the noun, ערך = 'configure' (23:13:74 'in her all the beings… are configured'; 19:3:1 'the four configurations in which we configure the Emanation'; 4:3:1); a cognate object is folded (31:9:6 'to configure the bones'). Elsewhere ערך keeps 'arrange', 'compare', 'value', and in Gate 23 'entry'.",
+     "decisions": [
+      {
+       "section": "1:1:7",
+       "surfaceForm": "שתי מערכות כל אחת מי'",
+       "rationale": "USER RULING 2026-11-19 (workbench): \"two configurations, each of ten\"; \"array\" kept for the tier sense. Whether to replace \"array\" with \"configuration\" throughout is open (notes/pending_conversions.md).",
+       "timestamp": "2026-11-19"
+      },
+      {
+       "section": "1:1:7",
+       "surfaceForm": "מערכה / מערכת",
+       "rationale": "USER RULING 2026-11-19 (chat): 'configuration' replaces 'array' as the primary rendering for all senses, with the exceptions listed under 'exceptions' in notes. Supersedes the 19 Nov sense split (configuration for a set of ten, array for a tier).",
+       "timestamp": "2026-11-19"
+      }
+     ]
+    },
+    {
+     "target": "altar pile [ma'arakhah]",
+     "status": "acceptable",
+     "contextNotes": "ONLY for the wood-pile on the altar (Lev. 6:5; the ma'arakhah gedolah of Yoma): עשן המערכה 'the smoke of the altar pile [ma'arakhah]' (23:16:62, 23:20:30). Gloss the Hebrew at each site so the reader sees the link to the Gate 23 entry ma'arakhah and to Binah as 'configuration'.",
+     "decisions": []
+    },
+    {
+     "target": "rank (rank facing rank)",
+     "status": "acceptable",
+     "contextNotes": "ONLY for the battle-line idiom מערכה מול מערכה used of the hosts on high (19:1:5; 1 Sam. 17:21): 'rank facing rank [ma'arakhah mul ma'arakhah]'. Gloss at first occurrence. Where the same phrase means worlds drawing from and bestowing on one another (21:8:2) it stays 'configuration facing configuration'.",
+     "decisions": []
+    },
+    {
+     "target": "series",
+     "status": "acceptable",
+     "contextNotes": "ONLY for numbers: מערכת העשיריות 'the series of the tens' (2:2:1). No gloss needed.",
+     "decisions": []
+    },
+    {
+     "target": "the Ma'arekhet (book title)",
+     "status": "acceptable",
+     "contextNotes": "ONLY for ספר המערכת / מערכת האלקות (Ma'arekhet ha-Elohut) and מערכות אלהים חיים (Ma'arakhot Elohim Chayyim), transliterated as proper titles. A chapter of Ma'arekhet ha-Elohut named by its own term (8:5:3 במערכת השמות ומדות) is 'the section [ma'arekhet] on Names and Attributes', glossed, since the book labels its chapters with its title word."
+    },
+    {
      "target": "array",
      "gloss": "an ordered rank/tier of the emanation",
      "register": "scholarly",
-     "status": "preferred",
-     "contextNotes": "'the four arrays' (Chokhmah/Binah/Tiferet/Malkhut). Keep distinct from the book-title 'the Ma'arekhet'.",
+     "status": "rejected",
+     "contextNotes": "Superseded 2026-11-19 by 'configuration' for all senses, including the tier sense (the four configurations).",
      "decisions": [
       {
        "section": "5:5:13-5:5:16",
@@ -2960,33 +3003,15 @@
        "timestamp": "2026-06-09"
       }
      ]
-    },
-    {
-     "target": "configuration",
-     "gloss": "a complete patterned set of all ten sefirot",
-     "status": "preferred",
-     "contextNotes": "Use where מערכת means a whole set of ten, one configuration standing to another as shadow and garment (the ten of the hands and the ten of the feet; the ten of Beriah and the ten of Atzilut). Use \"array\" where it means an ordered rank or tier within one set (the four arrays; the upper and lower five). 1:1:7 has both senses.",
-     "decisions": [
-      {
-       "section": "1:1:7",
-       "surfaceForm": "שתי מערכות כל אחת מי'",
-       "rationale": "USER RULING 2026-11-19 (workbench): \"two configurations, each of ten\"; \"array\" kept for the tier sense. Whether to replace \"array\" with \"configuration\" throughout is open (notes/pending_conversions.md).",
-       "timestamp": "2026-11-19"
-      }
-     ]
-    },
-    {
-     "target": "the Ma'arekhet (book title)",
-     "status": "acceptable",
-     "contextNotes": "ONLY for ספר המערכת / מערכת האלקות (Ma'arekhet ha-Elohut), transliterated as a proper title."
     }
    ],
    "surfaceForms": {
     "ד' מערכות": {
-     "rendering": "the four arrays"
+     "rendering": "the four configurations"
     }
    },
-   "notes": "An ordered RANK/tier in the emanative cascade. ALREADY ESTABLISHED as 'array' (prior text glosses it '(ma'arakhah)'). Gate 5 ch.5 (5:5:13-16) analyzes FOUR arrays via the R. Abba/Tazria passage: מערכה ראשונה=Chokhmah (the Names hidden there), שנייה=Binah (the 'roots', =עשית 'You made'), שלישית=Tiferet+the extremities (=מלאה 'filled'), רביעית=Malkhut (=הארץ 'the earth'). DISAMBIGUATION (trap, both appear this chunk): the BOOK ספר המערכת / מערכת האלקות = 'the Ma'arekhet' / 'Ma'arekhet ha-Elohut' (transliterate, proper title; flat 360 'ספר המערכ''), NOT the common noun 'array'. SENSE SPLIT (2026-11-19): complete set of ten = \"configuration\"; ordered rank/tier = \"array\"."
+   "notes": "ROOT: ערך means to lay things out in order, side by side: wood on the altar (Gen. 22:9), a battle line (1 Sam. 17:8), a table (Ps. 23:5), an argument (Job 32:14); from 'set side by side' also 'compare' and 'value' (hence Gate 23's ערך, 'entry'). A מערכה / מערכת is 'a laid-out order', and each sense is what is being laid out: wood (the altar pile), soldiers (the battle line), loaves (the showbread rows, Lev. 24:6, the biblical ma'arekhet), sefirot (a configuration, or a tier within one), ideas (a scheme), numbers (a series), stars (the configuration of the heavens). The word is abstract rather than vague: the constant is ordered placement, and context supplies the parts. 'Configuration' is one of the few English words with the same range, so it is the primary rendering. EXCEPTIONS (by sense, where Hebrew still hears the concrete image): the altar pile (23:16:62, 23:20:30) and the battle line of the hosts (19:1:5), both glossed [ma'arakhah] to keep the link; the series of numbers (2:2:1); book titles transliterated; a chapter of Ma'arekhet ha-Elohut (8:5:3) 'the section [ma'arekhet]'. RULED 2026-11-19: replaces 'array' throughout (pending conversion, notes/pending_conversions.md).",
+   "rendering": "configuration"
   },
   "דו-פרצופין": {
    "headword": "דּוּ פַּרְצוּפִין (ד\"ו פרצופין)",
