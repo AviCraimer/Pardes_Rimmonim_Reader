@@ -4,7 +4,8 @@ Errors (exit 1): unreadable JSON or duplicate keys, wrong schemaVersion, a
 reader record whose key has no translation entry (including extraForms), an
 unknown or misplaced field (e.g. readerGloss / readerNote left in either file),
 a visible non-cluster entry with neither a rendering nor a preferred
-candidate, malformed lists.
+candidate, a decision without a valid `by` (or with an unknown `via`),
+malformed lists.
 Warnings: notes on forms that are not in the entry's surfaceForms, hidden
 forms, extraForms clashing with other entries, `prefer` left beside a
 different `rendering`, and the like.
@@ -14,6 +15,9 @@ import json, os, sys, argparse
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 STATUSES = {'preferred', 'acceptable', 'rejected'}
+# Who made a decision (see LEXICON.md, "Attribution"), and where Avi gave a ruling.
+DECIDERS = {'Avi Craimer', 'Claude', 'unattributed'}
+VIAS = {'chat', 'terminology doc', 'workbench'}
 T_FIELDS = {'headword', 'transliteration', 'partOfSpeech', 'rendering',
             'cluster', 'candidates', 'surfaceForms', 'notes'}
 T_FORM_FIELDS = {'rendering', 'prefer', 'notes', 'transliteration',
@@ -111,6 +115,19 @@ def check(T, R):
                 warn(f'translation {key}: candidate {i} has no target')
             if not isinstance(c.get('decisions', []), list):
                 err(f'translation {key}: candidate {i} decisions must be a list')
+                continue
+            for j, d in enumerate(c.get('decisions', [])):
+                if not isinstance(d, dict):
+                    err(f'translation {key}: candidate {i} decision {j} is not an object')
+                    continue
+                if d.get('by') not in DECIDERS:
+                    err(f'translation {key}: candidate {i} decision {j} has by {d.get("by")!r} '
+                        f'(one of {", ".join(sorted(DECIDERS))}; see LEXICON.md, "Attribution")')
+                if 'via' in d and d['via'] not in VIAS:
+                    err(f'translation {key}: candidate {i} decision {j} has via {d["via"]!r} '
+                        f'(one of {", ".join(sorted(VIAS))})')
+                if 'via' in d and d.get('by') != 'Avi Craimer':
+                    warn(f'translation {key}: candidate {i} decision {j}: via is for Avi\'s rulings only')
         if 'rendering' in t and not (isinstance(t['rendering'], str) and t['rendering'].strip()):
             warn(f'translation {key}: empty rendering')
         if 'cluster' in t and t['cluster'] is not True:

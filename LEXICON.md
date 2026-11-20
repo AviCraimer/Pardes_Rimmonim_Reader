@@ -8,7 +8,7 @@ Everything that decides how a Hebrew or Aramaic word becomes English. Rulings go
 
 - `headword`, `transliteration`, `partOfSpeech`
 - `rendering`: the English shown to readers for the entry (formerly `readerGloss`)
-- `candidates`: each with `target`, `status` (`preferred` / `acceptable` / `rejected`), `contextNotes`, optional `gloss`, `register`, and dated `decisions` (`section`, `surfaceForm`, `rationale`, `timestamp`)
+- `candidates`: each with `target`, `status` (`preferred` / `acceptable` / `rejected`), `contextNotes`, optional `gloss`, `register`, and dated `decisions` (`section`, `surfaceForm`, `rationale`, `timestamp`, `by`, optional `via`; see "Attribution" below)
 - `surfaceForms`: `{ form: { rendering, ... } }`. `rendering` is the English for that particular form (formerly `readerGloss`). A few forms also keep a `prefer`.
 - `notes`: the translator's working record. Never shown on the site.
 - `cluster: true`: a working group of unrelated names and idioms. Only forms with their own `rendering` are highlighted, and the popup is headed by the clicked form.
@@ -26,6 +26,21 @@ Keyed by the same entry keys. A record exists only when it has something in it.
 - Top-level `skipTokens`: whole Hebrew tokens never highlighted.
 
 `lexicon.json` and `aliases.json` no longer exist. Don't recreate them; the site ignores them.
+
+## Attribution
+
+Every decision records who made it, so that the record shows the human judgment behind the text and not only who typed it.
+
+- `by` (required) is one of:
+  - `"Avi Craimer"`: Avi made the ruling. Use it only when Avi gave the ruling himself in the session, the terminology doc or the workbench, or confirmed a choice put to him. A choice he didn't object to is not his ruling.
+  - `"Claude"`: the agent chose, whether as a provisional choice awaiting Avi or as an obvious call he left to the agent. List provisional choices under **Terminology to rule on** in `notes/pending_conversions.md`.
+  - `"unattributed"`: the record doesn't say. This is for decisions made before 20 November 2026, when attribution began. Don't use it for new decisions.
+- `via` (optional, Avi's rulings only) is where he gave it: `"chat"`, `"terminology doc"` or `"workbench"`.
+- Write Avi's rulings as `"Avi's ruling YYYY-MM-DD (via): …"` in the `rationale`. Name him; don't write "the user". In `notes` and `contextNotes`, mark his rulings the same way. In `TRANSLATION_CONVENTIONS.md` they are marked `(Avi, YYYY-MM-DD)`.
+- When Avi confirms a choice that was recorded as `"Claude"`, don't rewrite the old decision: add a new one with `by: "Avi Craimer"`.
+- Never upgrade an `"unattributed"` decision to Avi's without his say-so: the backfill of 20 November 2026 was deliberately conservative. If Avi confirms that an old decision was his, change its `by` and add "(attributed by Avi, YYYY-MM-DD)" to the rationale.
+
+`python3 tools/attribution_stats.py --markdown` counts all this and regenerates `ATTRIBUTION.md`. `tools/attribution_migration_2026-11-20.py` is the one-off backfill, kept for the record.
 
 ## Checking
 

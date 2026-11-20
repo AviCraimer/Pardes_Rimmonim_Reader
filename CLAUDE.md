@@ -38,9 +38,19 @@ Front matter order on the site and in the exports: table of contents, Transliter
 ## How a gate is translated
 
 1. **Read the whole gate in Hebrew first** (`show_paragraphs.py G --he`), against the lexicon digest. Note terms that have no ruling, and rulings the gate seems to strain.
-2. **Ask Avi for rulings** where a real choice is needed: show the passages, give the candidates and say which you prefer. Don't invent choices for the sake of asking. Record each ruling in `lexicon_translation.json`, which is the file to work in while translating. Then check whether the entry has a record in `lexicon_reader.json`; if it does, make sure its reader note and etymology still agree with the ruling, and update them if not. List any earlier sites the ruling affects in `notes/pending_conversions.md`.
+2. **Ask Avi for rulings** where a real choice is needed: show the passages, give the candidates and say which you prefer. Don't invent choices for the sake of asking. Record each ruling in `lexicon_translation.json`, which is the file to work in while translating, with the attribution described below. Then check whether the entry has a record in `lexicon_reader.json`; if it does, make sure its reader note and etymology still agree with the ruling, and update them if not. List any earlier sites the ruling affects in `notes/pending_conversions.md`.
 3. **Translate chapter by chapter**, following the conventions and the lexicon. Flag textual problems (apparent corruptions, uncertain readings, missing diagrams) in your report rather than silently fixing them.
 4. **Commit after each chunk and push after about each third of a chapter.** Others edit the site code in the same repo, so always `git pull --rebase` before pushing. End commit messages with the attribution lines your session specifies.
+
+## Attribution
+
+The record must show whose judgment shaped the translation, not only who typed it. The format is in `LEXICON.md` ("Attribution"). In short:
+
+- **Every lexicon decision gets `by`:** `"Avi Craimer"` for his rulings (with `via`: `chat`, `terminology doc` or `workbench`), `"Claude"` for your own choices, provisional or obvious. Never write `"unattributed"` for a new decision.
+- **Credit Avi only for what he actually ruled or confirmed.** Silence is not a ruling, and neither is accepting a batch without looking at the item. When in doubt, record `"Claude"` and list the item under **Terminology to rule on**.
+- **Name him.** Write "Avi's ruling YYYY-MM-DD (via): …" in rationales and notes, and `(Avi, YYYY-MM-DD)` in `TRANSLATION_CONVENTIONS.md`. Never write "user" or "the user".
+- **Commit trailer:** a commit that records or applies one of Avi's rulings ends with `Ruling-by: Avi Craimer` on its own line, just before your session's attribution lines. Name the ruling in the subject ("Ruling 19 Nov: מערכה = configuration").
+- **Statistics:** after recording rulings, run `python3 tools/attribution_stats.py --markdown` and commit the regenerated `ATTRIBUTION.md` with them. Don't edit `ATTRIBUTION.md` by hand.
 
 ## Paragraphs Avi has revised
 
