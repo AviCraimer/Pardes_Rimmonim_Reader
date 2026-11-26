@@ -173,10 +173,15 @@ Rule: see `TRANSLATION_CONVENTIONS.md`. A plural verb whose setting is a book is
 
 Avi's ruling 2026-11-20 (workbench): נצחים for the pair Netzach and Hod is "the Netzachs", with "[Netzach and Hod]" at the first occurrence in a gate. 1:1:8, 14:4:8, 23:14:29 and 31:8:11 already use "Netzachs". Sites with the pair sense still to check and convert: 5:2:9 (×2), 23:2:19, 23:8:69, 23:17:16. Not covered by the ruling: נצח נצחים "Netzach of Netzachs" (4:8:1, 5:2:5, 23:14:32–33, 23:16:33, 23:21:24, 23:22:42), ג' נצחים = Netzach, Hod, Yesod (23:13:41), and the adjective or verb (4:4:1, 2:2:6).
 
+## *Ve-ha-inyan*: "The point is" (ruled 25 November 2026)
+
+Avi's ruling 2026-11-25 (workbench): והענין introducing an explanation is "The point is", not "The matter is". About 220 sites in the Hebrew; none converted yet (the draft mostly has "The matter is" or "and the matter is"). Apply going forward and in style revisions.
+
 # Terminology to rule on
 
 *Choices made during translation without a ruling from Avi, to be reviewed. Each item gives the term, where it occurs, what the translation does now, and the alternatives. Terms left in transliteration for this reason are listed here too. Started 13 November 2026.*
 
+- **ענין (inyan): the other senses** (raised by Avi 25 November 2026, 1:2:1). "Matter" in the draft (about 3,000 uses) stands for ענין almost everywhere. Lexicon entry ענין lists proposals by construction (Claude, not ruled): בענין / לענין = "concerning / regarding" (about 630); כענין = "as in / as with" (about 200); מענין = "has the sense of" (about 60). The noun sense (ענין / הענין X, the rest) is open: Avi leans to "sense" over "notion", with "idea" possible, and wants to see examples of actual usage before ruling; often the word can simply be dropped.
 - ~~**Italics for transliterated words** (raised by Avi 17 November 2026): should transliterated Hebrew and Aramaic words be italicised as a rule? The text is inconsistent now (e.g. *tikkun* in roman at about 11 sites in Gates 8–9, italic elsewhere; many Gate 8 transliterations in brackets without `<em>`). Leave as is until Avi rules; then one sweep.~~ Ruled 18 November 2026; converted in batch 2026-11-18c.
 - ~~**עולם מושכל / מורגש / מוטבע**~~ Ruled 16 November 2026: "the intelligible / perceptible / natural world", with "the imprinted world" glossed at 8:25:1; טבע paired with הטביע = "imprint [teva]" … "impressed" (new lexicon entry טבע-הטביע). Sites converted.
 - ~~**ויתור / קפיצה**~~ Ruled 16 November 2026 (opening / closing of the hand); converted.

@@ -11202,6 +11202,91 @@
     }
    },
    "notes": "Pair sense only; see the candidate's contextNotes for the other senses."
+  },
+  "ענין": {
+   "headword": "עִנְיָן",
+   "transliteration": "inyan",
+   "partOfSpeech": "noun; discourse marker; prepositional uses",
+   "rendering": "(by construction; see candidates)",
+   "candidates": [
+    {
+     "target": "The point is",
+     "status": "preferred",
+     "contextNotes": "והענין introducing an explanation (about 220 sites), e.g. 1:2:1 והענין ה' מימין וה' משמאל = \"The point is: five on the right and five on the left.\" Not \"The matter is\". Existing sites have not been converted: apply going forward and in style revisions.",
+     "decisions": [
+      {
+       "section": "1:2:1",
+       "surfaceForm": "והענין",
+       "rationale": "Avi's ruling 2026-11-25 (workbench): \"The point is\" for והענין introducing an explanation; existing sites not yet converted.",
+       "timestamp": "2026-11-25",
+       "by": "Avi Craimer",
+       "via": "workbench"
+      }
+     ]
+    },
+    {
+     "target": "concerning / regarding",
+     "status": "acceptable",
+     "contextNotes": "בענין / לענין X as a preposition (about 630 sites). Proposed, not ruled: avoid \"in the matter of\". Listed under Terminology to rule on.",
+     "decisions": [
+      {
+       "section": "1:2:1",
+       "surfaceForm": "בענין / לענין",
+       "rationale": "Claude's proposal 2026-11-25, awaiting Avi's ruling.",
+       "timestamp": "2026-11-25",
+       "by": "Claude"
+      }
+     ]
+    },
+    {
+     "target": "as in / as with",
+     "status": "acceptable",
+     "contextNotes": "כענין X citing a parallel case or verse (about 200 sites). Proposed, not ruled.",
+     "decisions": [
+      {
+       "section": "1:2:1",
+       "surfaceForm": "כענין",
+       "rationale": "Claude's proposal 2026-11-25, awaiting Avi's ruling.",
+       "timestamp": "2026-11-25",
+       "by": "Claude"
+      }
+     ]
+    },
+    {
+     "target": "has the sense of",
+     "status": "acceptable",
+     "contextNotes": "מענין X in etymologies (about 60 sites), e.g. 2:2:6 נצח מענין נצוח = \"Netzach has the sense of victory\". Proposed, not ruled.",
+     "decisions": [
+      {
+       "section": "2:2:6",
+       "surfaceForm": "מענין",
+       "rationale": "Claude's proposal 2026-11-25, awaiting Avi's ruling.",
+       "timestamp": "2026-11-25",
+       "by": "Claude"
+      }
+     ]
+    },
+    {
+     "target": "sense / notion / idea / subject / content (or omitted)",
+     "status": "acceptable",
+     "contextNotes": "ענין / הענין X as a real noun (the remaining sites): the sense, notion or content of something; calques Arabic ma'na. Often empty and better dropped (\"the matter of the emanation\" = \"the emanation\"). Pending: Avi leans to \"sense\" as generally reading better than \"notion\", with \"idea\" also possible; he will decide from examples of actual usage.",
+     "decisions": [
+      {
+       "section": "1:2:1",
+       "surfaceForm": "ענין / הענין",
+       "rationale": "Claude's proposal 2026-11-25; open, to be ruled from examples (Avi's leaning noted, not a ruling).",
+       "timestamp": "2026-11-25",
+       "by": "Claude"
+      }
+     ]
+    }
+   ],
+   "surfaceForms": {
+    "והענין": {
+     "rendering": "The point is"
+    }
+   },
+   "notes": "A general word, not one technical term; \"matter\" in the draft (about 3,000 uses) is the default it fell back on. \"Matter\" stays only where English would naturally say it. Already ruled: דבר אחד וענין אחד = \"one and the same\" (separate entry). Hidden from the reader site."
   }
  }
 }
