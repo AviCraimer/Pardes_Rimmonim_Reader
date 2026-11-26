@@ -18,6 +18,7 @@ Every decision carries an attribution tag, as in `TRANSLATION_CONVENTIONS.md`: *
 - **Vowel and cantillation marks** are shown on the letter Bet at about twice the text size, since a blank carrier (◌) does not hold the marks in the PDF font (Claude, 2026-11-18).
 - **Cantillation marks** get their own table on this page, beside the vowel table, not in Gate 29 (Avi, 2026-11-18, chat).
 - **The cantillation table** follows Cordovero's order and spelling (Gate 29), flagging modern names that differ (\*) and uncertain identifications (?) (Claude, 2026-11-18).
+- **Sefirah names in the "Words" note** give both names where the book uses two: Gedulah/Chesed and Gevurah/Din (Avi, 2026-11-25, workbench).
 
 ## The site
 

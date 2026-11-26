@@ -32,7 +32,7 @@ By month:
 
 ## Editorial decisions (`EDITORIAL_DECISIONS.md`)
 
-15 tagged rules and rulings: Avi Craimer 10, Claude 3, unattributed 2. Avi's, by where he gave them: 9 chat, 1 terminology doc.
+16 tagged rules and rulings: Avi Craimer 11, Claude 3, unattributed 2. Avi's, by where he gave them: 9 chat, 1 terminology doc, 1 workbench.
 
 ## Paragraphs revised and approved by Avi
 
